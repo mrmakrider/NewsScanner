@@ -273,10 +273,49 @@ major_outlet_threshold = 3   # outlets needed to call a story "major"
 | `NEWSCANNER_BASE_URL` | `https://api.llm7.io/v1` | Point LLM7 at a mirror or self-hosted gateway |
 | `LLM7_API_KEY` | – | Optional LLM7 token, raises the rate limit |
 | `NEWSCANNER_USE_OLLAMA` | – | `1` to allow the local Ollama provider |
+| `NEWSCANNER_LLM_BUDGET` | `0` (unlimited) | Seconds the analysis step may spend before falling back to extractive text |
+| `NEWSCANNER_LLM_ATTEMPTS` | `2` | Rounds through the provider chain per call |
+| `NEWSCANNER_LLM_RETRY_PASSES` | `1` | Deferred retries of the batches that failed |
+| `NEWSCANNER_LLM_MIN_INTERVAL` | `2.5` keyless, `0` keyed | Seconds between calls to one provider |
+| `NEWSCANNER_LLM_MAX_INTERVAL` | `20` | Ceiling that interval backs off to |
 
 **Provider precedence.** Explicit configuration always beats the default:
 `NEWSCANNER_PROVIDER` → any configured API key → `OLLAMA_HOST` →
 **LLM7 (keyless default)** → extractive fallback.
+
+### When the model pushes back
+
+A scheduled job gets one shot, at 08:00, with nobody watching. Free gateways
+rate-limit, time out on long prompts and occasionally fall over, so the
+analysis step is built to bend rather than break:
+
+- **A provider chain, not a provider.** The detected provider is tried first;
+  if it throttles or fails, the run moves to the next configured key, and
+  finally to the keyless LLM7 gateway. A run with a `GEMINI_API_KEY` therefore
+  falls back to keyless analysis instead of all the way to extractive
+  summaries. `NEWSCANNER_NO_LLM7=1` disables the gateway hop.
+- **Pacing instead of hammering.** Each provider has its own request spacing,
+  adjusted the way TCP adjusts a window: it doubles when the provider pushes
+  back (honouring `Retry-After` when the server sends one) and eases back to
+  the floor after successes. Keyless LLM7 starts conservatively at 2.5s
+  between calls.
+- **Circuit breaking.** Three consecutive failures bench a provider for a
+  cooldown that doubles each time it trips, so a dead host cannot eat the
+  whole budget. If every provider is benched, the run waits out the shortest
+  cooldown rather than sending calls that cannot succeed.
+- **Batch splitting.** A gateway 524 means the generation ran out of time.
+  The batch is halved and retried — down to single stories — because half a
+  prompt usually finishes when the whole one did not. The story identifiers
+  travel with their stories, so answers never land on the wrong one.
+- **Deferred retries with trimmed prompts.** Whatever still failed is retried
+  once more after a pause, with less body text per story.
+- **A budget and an honest report.** `NEWSCANNER_LLM_BUDGET` caps the step so
+  the job always gets to write, commit and email a digest; the run log and the
+  digest JSON record how many stories came from a model, how many were
+  retried, split or silently skipped.
+- **A resumable cache.** Each successful batch is written to
+  `state/analysis_cache.json` as it happens. A run that dies at the 30-minute
+  step timeout — or a retry at 08:30 — only pays for what is still missing.
 
 ---
 
@@ -324,10 +363,12 @@ Requires **Python 3.11+** (for `tomllib`). Nothing to `pip install`.
   redesign. `check-sources` tells you.
 - **The free LLM7 tier is shared and rate-limited** (roughly 100 requests per
   hour anonymously, `default` routing). A run makes about a dozen calls, so
-  that is ample — but if the gateway is busy, the affected batch silently
-  degrades to the extractive text rather than failing the run. A token from
-  [token.llm7.io](https://token.llm7.io/) or your own provider key removes
-  the shared-tier variability.
+  that is usually ample, and when the gateway is busy the run slows down,
+  splits its requests, fails over to the `fast` route and retries rather than
+  quietly dropping the analysis. It still degrades to extractive text for
+  anything it cannot get through, and says so in the log. A token from
+  [token.llm7.io](https://token.llm7.io/) or your own provider key removes the
+  shared-tier variability altogether.
 - **The state wire dominates coverage.** Most Kuwaiti outlets reprint KUNA, so
   a wide cluster often means "the wire carried it", not "five newsrooms
   independently confirmed it". The digest shows you each version so you can
