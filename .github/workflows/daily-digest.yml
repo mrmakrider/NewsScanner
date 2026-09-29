@@ -1,0 +1,160 @@
+name: Daily Kuwait News Brief
+
+# Runs every morning at 08:00 Kuwait time.
+# Kuwait is UTC+3 all year (no daylight saving), so 08:00 local = 05:00 UTC.
+#
+# Two extra crons are a safety net, not a second edition: GitHub's scheduler
+# can drop a run under load, so at 08:30 and 09:00 Kuwait the job starts,
+# finds today's brief already sent (state/last_run.json) and exits at once.
+# If 08:00 succeeded, nothing is sent twice.
+#
+# NOTE: GitHub only fires `schedule` for the DEFAULT branch. Merge this file
+# to main, or the cron will never run.
+on:
+  schedule:
+    - cron: "0 5 * * *"      # 08:00 Kuwait — the brief
+    - cron: "30 5 * * *"     # 08:30 Kuwait — retry if 08:00 failed
+    - cron: "0 6 * * *"      # 09:00 Kuwait — last chance
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build the digest but do not send email"
+        type: boolean
+        default: false
+      no_llm:
+        description: "Skip AI analysis (extractive mode only)"
+        type: boolean
+        default: false
+
+# Needed so the job can commit the finished digest back to the repository.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # NewsScanner has zero third-party dependencies, so there is nothing to
+      # install. This step just fails fast if the standard library changed.
+      - name: Verify the code imports
+        run: python -c "import news_scanner.cli, news_scanner.analyze; print('ok')"
+
+      - name: Run the unit tests
+        run: python -m unittest discover -s tests
+
+      # Exercises the real analysis path against the live provider. Without
+      # this, a bad model name or an expired key is only discovered at 08:00.
+      - name: Verify the analysis provider
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
+        run: python -m news_scanner check-llm -v
+
+      # Catches a bad app password or a blocked SMTP port here, rather than
+      # discovering it when the 08:00 brief silently fails to arrive.
+      - name: Verify email delivery
+        continue-on-error: true
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM || secrets.SMTP_USER }}
+          MAIL_TO: ${{ secrets.MAIL_TO || 'mrmakrider@gmail.com' }}
+        run: python -m news_scanner check-email
+
+      - name: Collect, analyse and email
+        env:
+          # --- AI provider: set ONE of these -----------------------------
+          # The first key found is used. Gemini has the most generous free
+          # tier for a daily job; any of them works.
+          #
+          # If you set NONE of them, analysis still runs: it falls back to
+          # the keyless LLM7 gateway (https://api.llm7.io/v1, model
+          # "default"), so a fresh fork produces a real brief on day one.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Optional: raises LLM7's rate limit. Not required.
+          LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
+          # Optional overrides:
+          # NEWSCANNER_PROVIDER: llm7
+          # NEWSCANNER_MODEL: default
+          # NEWSCANNER_LANGUAGE: bilingual
+          # NEWSCANNER_NO_LLM7: "1"
+
+          # --- Email delivery --------------------------------------------
+          # The recipient defaults to mrmakrider@gmail.com. Set a MAIL_TO
+          # secret to send somewhere else; comma-separate for several.
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM || secrets.SMTP_USER }}
+          MAIL_TO: ${{ secrets.MAIL_TO || 'mrmakrider@gmail.com' }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ inputs.no_llm }}" = "true" ]; then ARGS="$ARGS --no-llm"; fi
+          # The 08:30 and 09:00 crons exist only to retry a failed 08:00 run.
+          if [ "${{ github.event.schedule }}" != "0 5 * * *" ] \
+             && [ -n "${{ github.event.schedule }}" ]; then
+            ARGS="$ARGS --skip-if-done"
+          fi
+          echo "news_scanner run $ARGS"
+          python -m news_scanner run $ARGS
+
+          # Show where the brief went, so the log is self-explanatory.
+          if [ -f state/last_run.json ]; then
+            echo "--- delivery record ---"
+            cat state/last_run.json
+          fi
+
+      - name: Commit the digest
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name  "newsscanner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digests state
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "digest: $(date -u +%Y-%m-%d)"
+            # Another run may have pushed while we were working.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - name: Upload digest as a build artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-${{ github.run_id }}
+          path: digests/
+          retention-days: 30
+          if-no-files-found: warn

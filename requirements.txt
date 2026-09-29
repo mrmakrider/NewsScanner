@@ -1,0 +1,7 @@
+# NewsScanner has no third-party dependencies.
+#
+# It is built entirely on the Python standard library (urllib, xml.etree,
+# html.parser, json, smtplib, tomllib, zoneinfo) so that the scheduled job has
+# nothing to install and nothing to break.
+#
+# Requires Python 3.11 or newer (for tomllib).

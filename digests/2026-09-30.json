@@ -1,0 +1,1322 @@
+{
+ "date": "2026-09-30",
+ "generated_at": "2026-09-30T00:52:17.766753+03:00",
+ "window_hours": 26,
+ "provider": "none",
+ "stats": {
+  "total_articles": 42,
+  "outlets_reporting": 7,
+  "total_stories": 23,
+  "major_stories": 5,
+  "analysed_stories": 23,
+  "window_start": "2026-09-28T22:52:17.766753+03:00",
+  "window_end": "2026-09-30T00:52:17.766753+03:00",
+  "major_threshold": 3,
+  "categories": {
+   "Government & Politics": 5,
+   "Society & Services": 5,
+   "Security & Courts": 3,
+   "Sport": 2,
+   "World & Region": 4,
+   "Economy & Business": 3,
+   "Culture & Entertainment": 1
+  }
+ },
+ "synthesis": {
+  "editor_note_en": "23 distinct stories were carried across the Kuwaiti press in this window, 5 of them by three or more outlets. The most widely carried was: Cabinet clears abolition of Silk City development body. Configure an AI provider (GEMINI_API_KEY, OPENAI_API_KEY or ANTHROPIC_API_KEY) to enable per-story subtext analysis and the daily synthesis.",
+  "editor_note_ar": "تم إعداد هذا الملخص دون مزود ذكاء اصطناعي.",
+  "story_of_the_day": "S1",
+  "top_themes": [],
+  "not_being_said_en": "Available only with an AI provider configured.",
+  "watchlist_en": "",
+  "_source": "extractive"
+ },
+ "source_health": [
+  {
+   "source_id": "alrai",
+   "name": "الرأي",
+   "tier": 1,
+   "ok": true,
+   "articles": 11,
+   "targets": "1/1",
+   "optional": false,
+   "error": ""
+  },
+  {
+   "source_id": "alanba",
+   "name": "الأنباء",
+   "tier": 1,
+   "ok": true,
+   "articles": 5,
+   "targets": "1/1",
+   "optional": false,
+   "error": ""
+  },
+  {
+   "source_id": "aljarida",
+   "name": "الجريدة",
+   "tier": 1,
+   "ok": true,
+   "articles": 6,
+   "targets": "1/1",
+   "optional": false,
+   "error": ""
+  },
+  {
+   "source_id": "alqabas",
+   "name": "القبس",
+   "tier": 1,
+   "ok": true,
+   "articles": 2,
+   "targets": "1/1",
+   "optional": true,
+   "error": ""
+  },
+  {
+   "source_id": "kuwaittimes",
+   "name": "Kuwait Times",
+   "tier": 1,
+   "ok": true,
+   "articles": 9,
+   "targets": "1/1",
+   "optional": false,
+   "error": ""
+  },
+  {
+   "source_id": "arabtimes",
+   "name": "Arab Times",
+   "tier": 2,
+   "ok": true,
+   "articles": 7,
+   "targets": "1/1",
+   "optional": false,
+   "error": ""
+  },
+  {
+   "source_id": "timeskuwait",
+   "name": "Times Kuwait",
+   "tier": 2,
+   "ok": true,
+   "articles": 2,
+   "targets": "1/1",
+   "optional": false,
+   "error": ""
+  }
+ ],
+ "errors": [],
+ "stories": [
+  {
+   "key": "1b3146a777815fd4",
+   "score": 34.958,
+   "sources": [
+    "الرأي",
+    "الأنباء",
+    "الجريدة",
+    "Kuwait Times",
+    "Times Kuwait"
+   ],
+   "outlet_count": 5,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "مجلس الوزراء يوافق على إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير «الصبية» وجزيرة بوبيان",
+     "url": "https://example.invalid/alrai/1000",
+     "section": "local",
+     "summary": "وافق مجلس الوزراء في اجتماعه الأسبوعي على مشروع مرسوم بإلغاء المرسوم الخاص بإنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان، على أن تتولى الجهات المختصة استكمال الإجراءات.",
+     "body": "",
+     "published": "2026-09-30T00:52:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "إلغاء تطوير «الحرير» و«بوبيان» وتعديل «الشركات»",
+     "url": "https://example.invalid/alanba/1001",
+     "section": "local",
+     "summary": "أقر مجلس الوزراء إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان، كما وافق على تعديل قانون الشركات.",
+     "body": "",
+     "published": "2026-09-30T00:17:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان",
+     "url": "https://example.invalid/aljarida/1002",
+     "section": "local",
+     "summary": "وافق مجلس الوزراء أمس على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان، في خطوة تعيد رسم خريطة المشاريع الكبرى.",
+     "body": "",
+     "published": "2026-09-29T23:42:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Cabinet clears abolition of Silk City development body",
+     "url": "https://example.invalid/kuwaittimes/1003",
+     "section": "local",
+     "summary": "The Cabinet on Tuesday approved a draft decree abolishing the authority set up to develop Silk City and Bubiyan Island, saying the file would be handled by other government bodies.",
+     "body": "",
+     "published": "2026-09-29T23:07:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Govt approves cancellation of decree establishing Silk City, BIDA",
+     "url": "https://example.invalid/timeskuwait/1004",
+     "section": "local",
+     "summary": "The Council of Ministers approved a draft law cancelling the decree that established the Silk City and Bubiyan Island development authority.",
+     "body": "",
+     "published": "2026-09-29T22:32:17.769504+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Cabinet clears abolition of Silk City development body",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "The Cabinet on Tuesday approved a draft decree abolishing the authority set up to develop Silk City and Bubiyan Island, saying the file would be handled by other government bodies.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 5 outlet(s): الرأي, الأنباء, الجريدة, Kuwait Times, Times Kuwait.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: مجلس الوزراء يوافق على إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير «الصبية» وجزيرة بوبيان; إلغاء تطوير «الحرير» و«بوبيان» وتعديل «الشركات»; مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان; Govt approves cancellation of decree establishing Silk City, BIDA",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 5 وسيلة إعلامية: الرأي, الأنباء, الجريدة, Kuwait Times, Times Kuwait.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "819fddef9ca3f23d",
+   "score": 20.746,
+   "sources": [
+    "الجريدة",
+    "Kuwait Times",
+    "Times Kuwait"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«المركزي» يطلق نظام الكويت لحماية ودفع الأجور «KWPS»",
+     "url": "https://example.invalid/aljarida/1005",
+     "section": "local",
+     "summary": "أعلن بنك الكويت المركزي إطلاق نظام الكويت لحماية ودفع الأجور، الذي يضمن تحويل رواتب العاملين في القطاع الخاص عبر القنوات المصرفية.",
+     "body": "",
+     "published": "2026-09-29T21:57:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Wage payment system launched",
+     "url": "https://example.invalid/kuwaittimes/1006",
+     "section": "local",
+     "summary": "The Central Bank of Kuwait launched the Kuwait Wage Protection System, requiring private-sector salaries to be paid through approved local banks.",
+     "body": "",
+     "published": "2026-09-29T21:22:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Kuwait's New Wage System to Protect Private-Sector Employees' Salaries",
+     "url": "https://example.invalid/timeskuwait/1007",
+     "section": "local",
+     "summary": "A new wage protection system will require companies in the private sector to transfer salaries electronically, in a bid to cut down on unpaid-wage disputes.",
+     "body": "",
+     "published": "2026-09-29T20:47:17.769504+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "Wage payment system launched",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "The Central Bank of Kuwait launched the Kuwait Wage Protection System, requiring private-sector salaries to be paid through approved local banks.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الجريدة, Kuwait Times, Times Kuwait.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «المركزي» يطلق نظام الكويت لحماية ودفع الأجور «KWPS»; Kuwait's New Wage System to Protect Private-Sector Employees' Salaries",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الجريدة, Kuwait Times, Times Kuwait.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "53b81c2a70c2b233",
+   "score": 20.738,
+   "sources": [
+    "القبس",
+    "Arab Times",
+    "Kuwait Times"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alqabas",
+     "source_name": "القبس",
+     "lang": "ar",
+     "title": "الداخلية: ضبط 12 متهماً في 8 قضايا بحوزتهم مواد مخدرة ومؤثرات عقلية وسلاح",
+     "url": "https://example.invalid/alqabas/1018",
+     "section": "local",
+     "summary": "أعلنت وزارة الداخلية ضبط 12 متهماً في 8 قضايا منفصلة، وضبطت مواد مخدرة ومؤثرات عقلية وسلاحاً نارياً وذخيرة.",
+     "body": "",
+     "published": "2026-09-29T22:32:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Arrests 12 Suspects in 8 Cases, Seizes Drugs, Alcohol and Firearm",
+     "url": "https://example.invalid/arabtimes/1019",
+     "section": "local",
+     "summary": "Anti-narcotics officers arrested 12 suspects in eight separate cases and seized narcotics, alcohol and a firearm, the Interior Ministry said.",
+     "body": "",
+     "published": "2026-09-29T21:57:17.769504+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Anti-narcotics officers arrest 12 suspects in eight cases, seize drugs and weapon",
+     "url": "https://example.invalid/kuwaittimes/1020",
+     "section": "local",
+     "summary": "The General Department for Drug Control arrested 12 people in eight cases and referred them to the Public Prosecution.",
+     "body": "",
+     "published": "2026-09-29T21:22:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {
+    "headline_en": "Anti-narcotics officers arrest 12 suspects in eight cases, seize drugs and weapon",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "The General Department for Drug Control arrested 12 people in eight cases and referred them to the Public Prosecution.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): القبس, Arab Times, Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: الداخلية: ضبط 12 متهماً في 8 قضايا بحوزتهم مواد مخدرة ومؤثرات عقلية وسلاح; Kuwait Arrests 12 Suspects in 8 Cases, Seizes Drugs, Alcohol and Firearm",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: القبس, Arab Times, Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "a5c2e730437124cd",
+   "score": 20.737,
+   "sources": [
+    "Kuwait Times",
+    "Arab Times",
+    "الرأي"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Al-Mudhaf wins double gold as Kuwait shooters light up Asian Games",
+     "url": "https://example.invalid/kuwaittimes/1028",
+     "section": "local",
+     "summary": "Kuwait's shooters won two gold medals and two bronze at the Asian Games, with Al-Mudhaf taking an individual double.",
+     "body": "",
+     "published": "2026-09-30T00:52:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait shooters claim two golds at Asian Games",
+     "url": "https://example.invalid/arabtimes/1029",
+     "section": "local",
+     "summary": "Kuwait's shooting team claimed two gold medals at the Asian Games in Japan, adding to the country's medal tally.",
+     "body": "",
+     "published": "2026-09-30T00:17:17.769504+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ذهبيتان وبرونزيتان لـ«رماية» الكويت في آسياد اليابان",
+     "url": "https://example.invalid/alrai/1027",
+     "section": "local",
+     "summary": "حققت بعثة الكويت للرماية ذهبيتين وبرونزيتين في دورة الألعاب الآسيوية في اليابان.",
+     "body": "",
+     "published": "2026-09-29T17:17:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {
+    "headline_en": "Al-Mudhaf wins double gold as Kuwait shooters light up Asian Games",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "Kuwait's shooters won two gold medals and two bronze at the Asian Games, with Al-Mudhaf taking an individual double.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): Kuwait Times, Arab Times, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Kuwait shooters claim two golds at Asian Games; ذهبيتان وبرونزيتان لـ«رماية» الكويت في آسياد اليابان",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: Kuwait Times, Arab Times, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "b13b3c176a2b3609",
+   "score": 19.937,
+   "sources": [
+    "Arab Times",
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwaitization Axes 62 More Expat Judicial Jobs",
+     "url": "https://example.invalid/arabtimes/1041",
+     "section": "local",
+     "summary": "Sixty-two expatriate employees in supporting judicial roles will be replaced by Kuwaiti nationals in the second phase of Kuwaitization.",
+     "body": "",
+     "published": "2026-09-29T17:17:17.769504+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "السند: انطلاق المرحلة الثانية من تكويت الوظائف القضائية المساندة",
+     "url": "https://example.invalid/alrai/1012",
+     "section": "local",
+     "summary": "أعلن وزير العدل انطلاق المرحلة الثانية من توظيف الكويتيين في الوظائف القضائية المساندة، ضمن خطة الإحلال التدريجي.",
+     "body": "",
+     "published": "2026-09-29T17:52:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«العدل»: بدء المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة",
+     "url": "https://example.invalid/alanba/1013",
+     "section": "local",
+     "summary": "بدأت وزارة العدل تنفيذ المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة العامة، بحسب ما أعلنته الوزارة.",
+     "body": "",
+     "published": "2026-09-29T17:17:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«العدل»: بدء المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "بدأت وزارة العدل تنفيذ المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة العامة، بحسب ما أعلنته الوزارة.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): Arab Times, الرأي, الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Kuwaitization Axes 62 More Expat Judicial Jobs; السند: انطلاق المرحلة الثانية من تكويت الوظائف القضائية المساندة",
+    "watch_next_en": "",
+    "summary_ar": "بدأت وزارة العدل تنفيذ المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة العامة، بحسب ما أعلنته الوزارة.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: Arab Times, الرأي, الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "219953c2171677f0",
+   "score": 15.144,
+   "sources": [
+    "Kuwait Times",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Stage set for grand opening of Al-Shaheed Park Phase 3",
+     "url": "https://example.invalid/kuwaittimes/1017",
+     "section": "local",
+     "summary": "Al-Shaheed Park's third phase will be inaugurated under the patronage of His Highness the Amir, adding new gardens and a cultural centre.",
+     "body": "",
+     "published": "2026-09-29T23:07:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سمو الأمير يشمل برعايته حفل افتتاح حديقة الشهيد المرحلة الثالثة مساء غد",
+     "url": "https://example.invalid/alrai/1016",
+     "section": "local",
+     "summary": "يشمل حضرة صاحب السمو أمير البلاد برعايته الكريمة حفل افتتاح المرحلة الثالثة من حديقة الشهيد مساء غد.",
+     "body": "",
+     "published": "2026-09-29T23:42:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "Stage set for grand opening of Al-Shaheed Park Phase 3",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "Al-Shaheed Park's third phase will be inaugurated under the patronage of His Highness the Amir, adding new gardens and a cultural centre.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): Kuwait Times, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: سمو الأمير يشمل برعايته حفل افتتاح حديقة الشهيد المرحلة الثالثة مساء غد",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: Kuwait Times, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "6725522e21107992",
+   "score": 15.135,
+   "sources": [
+    "الرأي",
+    "Kuwait Times"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت والسعودية تعززان التنسيق الفني لإنجاز مشروع الربط المائي",
+     "url": "https://example.invalid/alrai/1033",
+     "section": "local",
+     "summary": "بحثت الكويت والسعودية سبل تعزيز التنسيق الفني لإنجاز مشروع الربط المائي بين البلدين.",
+     "body": "",
+     "published": "2026-09-29T21:57:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Kuwait, Saudi Arabia advance water interconnection project",
+     "url": "https://example.invalid/kuwaittimes/1032",
+     "section": "local",
+     "summary": "Kuwait and Saudi Arabia reviewed progress on the water interconnection project in a joint technical meeting.",
+     "body": "",
+     "published": "2026-09-29T22:32:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Kuwait, Saudi Arabia advance water interconnection project",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "Kuwait and Saudi Arabia reviewed progress on the water interconnection project in a joint technical meeting.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: الكويت والسعودية تعززان التنسيق الفني لإنجاز مشروع الربط المائي",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "184146193c845429",
+   "score": 15.134,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سعر برميل النفط الكويتي ينخفض إلى 106.51 دولار",
+     "url": "https://example.invalid/alrai/1014",
+     "section": "local",
+     "summary": "انخفض سعر برميل النفط الكويتي 1.23 دولار ليصل إلى 106.51 دولار للبرميل، وسط تقلبات أسواق الطاقة العالمية.",
+     "body": "",
+     "published": "2026-09-30T00:52:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "النفط الكويتي ينخفض إلى 106.51 دولار للبرميل",
+     "url": "https://example.invalid/aljarida/1015",
+     "section": "local",
+     "summary": "تراجع سعر برميل النفط الكويتي إلى 106.51 دولار للبرميل مقارنة بالجلسة السابقة.",
+     "body": "",
+     "published": "2026-09-30T00:17:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "سعر برميل النفط الكويتي ينخفض إلى 106.51 دولار",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "انخفض سعر برميل النفط الكويتي 1.23 دولار ليصل إلى 106.51 دولار للبرميل، وسط تقلبات أسواق الطاقة العالمية.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: النفط الكويتي ينخفض إلى 106.51 دولار للبرميل",
+    "watch_next_en": "",
+    "summary_ar": "انخفض سعر برميل النفط الكويتي 1.23 دولار ليصل إلى 106.51 دولار للبرميل، وسط تقلبات أسواق الطاقة العالمية.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "e27bac648bf0b52e",
+   "score": 14.347,
+   "sources": [
+    "Kuwait Times",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Crown Prince's visit to Switzerland to boost relations",
+     "url": "https://example.invalid/kuwaittimes/1011",
+     "section": "local",
+     "summary": "His Highness the Crown Prince held official talks in Bern with the President of the Swiss Confederation, covering trade, investment and cooperation.",
+     "body": "",
+     "published": "2026-09-29T18:27:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سمو ولي العهد ورئيس الاتحاد السويسري يترأسان جلسة المباحثات الرسمية بين الكويت وسويسرا",
+     "url": "https://example.invalid/alrai/1010",
+     "section": "local",
+     "summary": "ترأس سمو ولي العهد ورئيس الاتحاد السويسري جلسة المباحثات الرسمية التي عقدت في برن، وبحث الجانبان تعزيز العلاقات الثنائية.",
+     "body": "",
+     "published": "2026-09-29T19:02:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Crown Prince's visit to Switzerland to boost relations",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "His Highness the Crown Prince held official talks in Bern with the President of the Swiss Confederation, covering trade, investment and cooperation.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): Kuwait Times, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: سمو ولي العهد ورئيس الاتحاد السويسري يترأسان جلسة المباحثات الرسمية بين الكويت وسويسرا",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: Kuwait Times, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "3f8712d1d3dc414a",
+   "score": 14.331,
+   "sources": [
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "جامعة الكويت تعلن مواعيد التسجيل لـ«اختبار القدرات» لطلبة الـ12",
+     "url": "https://example.invalid/alrai/1008",
+     "section": "local",
+     "summary": "أعلنت جامعة الكويت عن مواعيد التسجيل في اختبار القدرات لطلبة الصف الثاني عشر للعام الدراسي المقبل.",
+     "body": "",
+     "published": "2026-09-29T20:12:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "جامعة الكويت تعلن مواعيد التسجيل لـ«الاختبار الوطني الموحد» لطلب التقديم",
+     "url": "https://example.invalid/alanba/1009",
+     "section": "local",
+     "summary": "حددت جامعة الكويت مواعيد التسجيل للاختبار الوطني الموحد لطلبة الثانوية العامة.",
+     "body": "",
+     "published": "2026-09-29T19:37:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "جامعة الكويت تعلن مواعيد التسجيل لـ«اختبار القدرات» لطلبة الـ12",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلنت جامعة الكويت عن مواعيد التسجيل في اختبار القدرات لطلبة الصف الثاني عشر للعام الدراسي المقبل.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: جامعة الكويت تعلن مواعيد التسجيل لـ«الاختبار الوطني الموحد» لطلب التقديم",
+    "watch_next_en": "",
+    "summary_ar": "أعلنت جامعة الكويت عن مواعيد التسجيل في اختبار القدرات لطلبة الصف الثاني عشر للعام الدراسي المقبل.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "4c1ee2202423f444",
+   "score": 13.628,
+   "sources": [
+    "Arab Times",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Iraq to host Gulf Cup 28",
+     "url": "https://example.invalid/arabtimes/1030",
+     "section": "local",
+     "summary": "The Gulf Cup will be hosted in Iraq, organisers confirmed, with Kuwait expected to take part in the regional tournament.",
+     "body": "",
+     "published": "2026-09-29T23:42:17.769504+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تحديد موعد انطلاق «خليجي 28» في العراق",
+     "url": "https://example.invalid/alrai/1031",
+     "section": "local",
+     "summary": "أعلن الاتحاد الخليجي تحديد موعد انطلاق بطولة خليجي 28 في العراق بمشاركة منتخبات المنطقة.",
+     "body": "",
+     "published": "2026-09-29T23:07:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "تحديد موعد انطلاق «خليجي 28» في العراق",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلن الاتحاد الخليجي تحديد موعد انطلاق بطولة خليجي 28 في العراق بمشاركة منتخبات المنطقة.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): Arab Times, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Iraq to host Gulf Cup 28",
+    "watch_next_en": "",
+    "summary_ar": "أعلن الاتحاد الخليجي تحديد موعد انطلاق بطولة خليجي 28 في العراق بمشاركة منتخبات المنطقة.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: Arab Times, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "04f0f9f7a3ed9388",
+   "score": 12.837,
+   "sources": [
+    "الرأي",
+    "Arab Times"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وزيرة «التنمية والاستدامة» تحيل إلى النيابة العامة واقعة فقد مستندات رسمية من «هيئة البيئة»",
+     "url": "https://example.invalid/alrai/1021",
+     "section": "local",
+     "summary": "أحالت وزيرة الشؤون الاجتماعية والتنمية والاستدامة واقعة فقد مستندات رسمية من الهيئة العامة للبيئة إلى النيابة العامة.",
+     "body": "",
+     "published": "2026-09-29T20:47:17.769504+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Missing Official Documents at the Environment Authority Referred to Prosecution",
+     "url": "https://example.invalid/arabtimes/1022",
+     "section": "local",
+     "summary": "The Minister of Social Affairs and Sustainable Development referred the case of missing official documents at the Environment Public Authority to the prosecution.",
+     "body": "",
+     "published": "2026-09-29T20:12:17.769504+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "وزيرة «التنمية والاستدامة» تحيل إلى النيابة العامة واقعة فقد مستندات رسمية من «هيئة البيئة»",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أحالت وزيرة الشؤون الاجتماعية والتنمية والاستدامة واقعة فقد مستندات رسمية من الهيئة العامة للبيئة إلى النيابة العامة.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, Arab Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Missing Official Documents at the Environment Authority Referred to Prosecution",
+    "watch_next_en": "",
+    "summary_ar": "أحالت وزيرة الشؤون الاجتماعية والتنمية والاستدامة واقعة فقد مستندات رسمية من الهيئة العامة للبيئة إلى النيابة العامة.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, Arab Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "44f262b0fb47d9b2",
+   "score": 8.044,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Vessel Struck by Suspected Projectile in Strait of Hormuz",
+     "url": "https://example.invalid/kuwaittimes/1034",
+     "section": "local",
+     "summary": "A vessel was struck by a suspected projectile in the Strait of Hormuz, shipping sources said, raising fresh concerns over Gulf navigation.",
+     "body": "",
+     "published": "2026-09-29T21:22:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Vessel Struck by Suspected Projectile in Strait of Hormuz",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "A vessel was struck by a suspected projectile in the Strait of Hormuz, shipping sources said, raising fresh concerns over Gulf navigation.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "0315157ba995fc7e",
+   "score": 7.233,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Kuwait-Swiss ties mark 60 yrs of diplomatic relations",
+     "url": "https://example.invalid/kuwaittimes/1040",
+     "section": "local",
+     "summary": "Kuwait and Switzerland marked 60 years of diplomatic relations during the Crown Prince's visit to Bern.",
+     "body": "",
+     "published": "2026-09-29T17:52:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Kuwait-Swiss ties mark 60 yrs of diplomatic relations",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "Kuwait and Switzerland marked 60 years of diplomatic relations during the Crown Prince's visit to Bern.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "6b55e2fb97254143",
+   "score": 7.232,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الشؤون»: حلّ 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص للنيابة",
+     "url": "https://example.invalid/alrai/1025",
+     "section": "local",
+     "summary": "أعلنت وزارة الشؤون الاجتماعية حل 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص إلى النيابة العامة.",
+     "body": "",
+     "published": "2026-09-29T18:27:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«الشؤون»: حلّ 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص للنيابة",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلنت وزارة الشؤون الاجتماعية حل 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص إلى النيابة العامة.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "أعلنت وزارة الشؤون الاجتماعية حل 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص إلى النيابة العامة.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "8d5c93fedf07dc9a",
+   "score": 7.232,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "رسوب شبه جماعي في اختبارات «إشرافية التعاونيات»",
+     "url": "https://example.invalid/aljarida/1026",
+     "section": "local",
+     "summary": "سجلت اختبارات إشرافية التعاونيات نسبة رسوب شبه جماعية، ما أثار جدلاً حول معايير التعيين في الجمعيات.",
+     "body": "",
+     "published": "2026-09-29T17:52:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "رسوب شبه جماعي في اختبارات «إشرافية التعاونيات»",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "سجلت اختبارات إشرافية التعاونيات نسبة رسوب شبه جماعية، ما أثار جدلاً حول معايير التعيين في الجمعيات.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "سجلت اختبارات إشرافية التعاونيات نسبة رسوب شبه جماعية، ما أثار جدلاً حول معايير التعيين في الجمعيات.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "adc55fa822e3d25e",
+   "score": 7.23,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "مجلس الأمة يبحث تقرير اللجنة المالية بشأن الميزانية العامة للدولة",
+     "url": "https://example.invalid/aljarida/1023",
+     "section": "local",
+     "summary": "يناقش مجلس الأمة في جلسته المقبلة تقرير اللجنة المالية والاقتصادية حول الميزانية العامة للدولة.",
+     "body": "",
+     "published": "2026-09-29T19:37:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "مجلس الأمة يبحث تقرير اللجنة المالية بشأن الميزانية العامة للدولة",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "يناقش مجلس الأمة في جلسته المقبلة تقرير اللجنة المالية والاقتصادية حول الميزانية العامة للدولة.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "يناقش مجلس الأمة في جلسته المقبلة تقرير اللجنة المالية والاقتصادية حول الميزانية العامة للدولة.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "27331dad80e58742",
+   "score": 7.23,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«المالية البرلمانية» تناقش الميزانية العامة وإعادة هيكلة الدعم",
+     "url": "https://example.invalid/alanba/1024",
+     "section": "local",
+     "summary": "ناقشت اللجنة المالية والاقتصادية في مجلس الأمة الميزانية العامة للدولة وملف إعادة هيكلة الدعم.",
+     "body": "",
+     "published": "2026-09-29T19:02:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«المالية البرلمانية» تناقش الميزانية العامة وإعادة هيكلة الدعم",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "ناقشت اللجنة المالية والاقتصادية في مجلس الأمة الميزانية العامة للدولة وملف إعادة هيكلة الدعم.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "ناقشت اللجنة المالية والاقتصادية في مجلس الأمة الميزانية العامة للدولة وملف إعادة هيكلة الدعم.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "8d48ff44b00e47d4",
+   "score": 7.229,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«الصحة» تعلن افتتاح أقسام جديدة في مستشفى الفروانية",
+     "url": "https://example.invalid/alanba/1039",
+     "section": "local",
+     "summary": "أعلنت وزارة الصحة افتتاح أقسام طبية جديدة في مستشفى الفروانية ضمن خطة توسعة الخدمات الصحية.",
+     "body": "",
+     "published": "2026-09-29T18:27:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«الصحة» تعلن افتتاح أقسام جديدة في مستشفى الفروانية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلنت وزارة الصحة افتتاح أقسام طبية جديدة في مستشفى الفروانية ضمن خطة توسعة الخدمات الصحية.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "أعلنت وزارة الصحة افتتاح أقسام طبية جديدة في مستشفى الفروانية ضمن خطة توسعة الخدمات الصحية.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "ba05a846740df762",
+   "score": 7.228,
+   "sources": [
+    "القبس"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alqabas",
+     "source_name": "القبس",
+     "lang": "ar",
+     "title": "روبيو: حادثة القاعدة الجوية البريطانية تحمل بصمات «طرف أجنبي»",
+     "url": "https://example.invalid/alqabas/1038",
+     "section": "local",
+     "summary": "قال وزير الخارجية الأميركي إن الحادثة في القاعدة الجوية البريطانية تحمل بصمات طرف أجنبي.",
+     "body": "",
+     "published": "2026-09-29T19:02:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "روبيو: حادثة القاعدة الجوية البريطانية تحمل بصمات «طرف أجنبي»",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "قال وزير الخارجية الأميركي إن الحادثة في القاعدة الجوية البريطانية تحمل بصمات طرف أجنبي.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): القبس.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "قال وزير الخارجية الأميركي إن الحادثة في القاعدة الجوية البريطانية تحمل بصمات طرف أجنبي.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: القبس.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "fd188da33a76fdfc",
+   "score": 7.224,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الذهب قرب أدنى مستوى في 7 أسابيع قبل بيانات أميركية",
+     "url": "https://example.invalid/aljarida/1037",
+     "section": "local",
+     "summary": "تراجع الذهب قرب أدنى مستوى في سبعة أسابيع قبل صدور بيانات اقتصادية أميركية.",
+     "body": "",
+     "published": "2026-09-29T19:37:17.769504+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "الذهب قرب أدنى مستوى في 7 أسابيع قبل بيانات أميركية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "تراجع الذهب قرب أدنى مستوى في سبعة أسابيع قبل صدور بيانات اقتصادية أميركية.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "تراجع الذهب قرب أدنى مستوى في سبعة أسابيع قبل صدور بيانات اقتصادية أميركية.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "a3bbc3193d55060a",
+   "score": 4.232,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Hurricane Polo slams Mexico with flooding and power cuts",
+     "url": "https://example.invalid/arabtimes/1035",
+     "section": "local",
+     "summary": "Hurricane Polo made landfall in Mexico, bringing flooding and widespread power cuts to coastal areas.",
+     "body": "",
+     "published": "2026-09-29T20:47:17.769504+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Hurricane Polo slams Mexico with flooding and power cuts",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "Hurricane Polo made landfall in Mexico, bringing flooding and widespread power cuts to coastal areas.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Arab Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Arab Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "ce9d573d950090ac",
+   "score": 4.226,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Taylor Swift sets new record at MTV VMAs",
+     "url": "https://example.invalid/arabtimes/1036",
+     "section": "local",
+     "summary": "Taylor Swift won a record number of MTV Video Music Awards, extending her tally.",
+     "body": "",
+     "published": "2026-09-29T20:12:17.769504+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Culture & Entertainment",
+   "analysis": {
+    "headline_en": "Taylor Swift sets new record at MTV VMAs",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "Taylor Swift won a record number of MTV Video Music Awards, extending her tally.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Arab Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Arab Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  }
+ ]
+}
