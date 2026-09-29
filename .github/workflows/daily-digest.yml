@@ -140,7 +140,9 @@ jobs:
         run: |
           git config user.name  "newsscanner-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add digests state
+          # Refresh the Pages archive (docs/) so today's edition is published.
+          python scripts/sync_docs.py
+          git add digests state docs
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
           else
@@ -149,6 +151,24 @@ jobs:
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
             git push
           fi
+
+      # Same as in pages.yml: a GITHUB_TOKEN push is not guaranteed to
+      # trigger a Pages build, so ask for one explicitly. Before Pages has
+      # been enabled (one-time owner step) this gets a 404 and exits 0
+      # with instructions in the log.
+      - name: Ask Pages to rebuild
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          code="$(curl -sS -o /tmp/pages.json -w '%{http_code}' \
+            -X POST \
+            -H 'Authorization: Bearer ${{ github.token }}' \
+            -H 'Accept: application/vnd.github+json' \
+            'https://api.github.com/repos/${{ github.repository }}/pages/builds')"
+          case "$code" in
+            20*) echo "Pages build requested (HTTP $code).";;
+            404) echo "::notice::Pages not enabled yet — see .github/workflows/pages.yml for the one-time enable step.";;
+            *)   echo "::error::Pages rebuild request failed (HTTP $code):"; cat /tmp/pages.json; exit 1;;
+          esac
 
       - name: Upload digest as a build artifact
         if: always()
