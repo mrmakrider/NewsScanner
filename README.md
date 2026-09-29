@@ -1,1 +1,241 @@
-# NewsScanner
+# NewsScanner 🇰🇼
+
+Every morning at **08:00 Kuwait time**, NewsScanner reads every Kuwaiti news
+outlet it can reach, merges the coverage into single stories, and emails you a
+briefed digest — with a reference to every original article, and an analysis
+that tries to read what is *between* the lines.
+
+```
+39 articles · 9 outlets  →  25 stories  →  3 major  →  1 email
+```
+
+- **Aggregates everything.** Nine outlets, ~55 feed endpoints, plus best-effort
+  scrapes for the outlets that publish no feed.
+- **Merges coverage.** Five outlets writing about the same event become one
+  story, in both Arabic and English, with every headline preserved.
+- **Keeps the receipts.** Every article in the appendix, with its outlet, time
+  and link. Nothing is summarised away.
+- **Reads between the lines.** Per story: what happened, why it matters, and
+  what a cautious Kuwaiti newsroom would notice but not print — attribution
+  patterns, what the headline stresses, what is missing, how outlets diverge.
+- **Says when it doesn't know.** Every inference is labelled as inference, with
+  a confidence level. If there is no subtext, it says so instead of inventing
+  intrigue.
+- **Zero dependencies.** Pure Python standard library. Nothing to install,
+  nothing to break at 3am.
+
+---
+
+## Quick start
+
+### 1. Fork or use this repository
+
+### 2. Add one AI provider key
+
+`Settings → Secrets and variables → Actions → New repository secret`
+
+| Secret | Where to get it | Notes |
+|---|---|---|
+| `GEMINI_API_KEY` | [aistudio.google.com](https://aistudio.google.com/apikey) | **Recommended** — free tier covers a daily job |
+| `OPENAI_API_KEY` | platform.openai.com | Alternative |
+| `ANTHROPIC_API_KEY` | console.anthropic.com | Alternative |
+| `OPENROUTER_API_KEY` | openrouter.ai | Alternative |
+| `GROQ_API_KEY` | console.groq.com | Alternative |
+
+Only one is needed. Whichever is present is detected automatically.
+
+> Without any key the job still runs, and sends an honestly-labelled
+> *extractive* digest — headlines, sources and links, with no subtext analysis.
+
+### 3. Add your email (optional but recommended)
+
+| Secret | Example |
+|---|---|
+| `SMTP_HOST` | `smtp.gmail.com` |
+| `SMTP_PORT` | `587` |
+| `SMTP_USER` | `you@gmail.com` |
+| `SMTP_PASSWORD` | a Gmail **App Password** (not your login password) |
+| `SMTP_SECURITY` | `starttls` (or `ssl` for port 465) |
+| `MAIL_FROM` | `you@gmail.com` |
+| `MAIL_TO` | `you@gmail.com` |
+
+For Gmail: enable 2-Step Verification, then create an App Password at
+<https://myaccount.google.com/apppasswords>. Normal passwords are rejected.
+
+### 4. Done
+
+The workflow in `.github/workflows/daily-digest.yml` runs at **05:00 UTC =
+08:00 Kuwait** (Kuwait is UTC+3 all year, so there is no daylight-saving trap).
+It emails the digest, commits `digests/` and `state/` back to the repository,
+and uploads the digest as a build artifact.
+
+Trigger it once by hand to check your setup:
+`Actions → Daily Kuwait News Brief → Run workflow` (tick **dry_run** first).
+
+> GitHub's scheduler can fire a few minutes late under load. If the time
+> matters to the minute, set the cron to `45 4 * * *` for a comfortable margin.
+
+---
+
+## What the digest looks like
+
+```
+digests/
+├── 2026-09-30.md      ← the briefing, committed to the repo
+├── 2026-09-30.html    ← the email version
+├── 2026-09-30.json    ← machine-readable: stories, analyses, source health
+└── latest.md          ← always the most recent run
+```
+
+See the structure for yourself without any network access:
+
+```bash
+python3 scripts/demo.py
+```
+
+---
+
+## How it works
+
+```
+ collect ──► cluster ──► enrich ──► analyse ──► render ──► deliver
+   │           │           │          │          │          │
+ 55 feeds     same story  fetch full  LLM or    MD/HTML/    SMTP +
+ in parallel  across 2    body text   extractive JSON        repo commit
+              languages
+```
+
+**1. Collect.** Every feed is fetched concurrently with retries and a real
+browser user-agent. A dead outlet is recorded in a *source health* table and
+never aborts the run.
+
+**2. Cluster.** Headlines are normalised (Arabic diacritics, `أ/إ/آ → ا`,
+`ة → ه`, `ى → ي`, Eastern Arabic numerals), stemmed, and mapped through a
+curated Arabic→English news lexicon — so `مجلس الوزراء` and `Cabinet` become
+the same token. Two headlines merge only if they are ≥ 0.50 similar **and**
+agree on at least two *distinctive* tokens, which is what stops
+"oil prices rise" from swallowing "gold prices rise". A second pass pairs up
+clusters that only overlap through that entity vocabulary, restricted to
+clusters that share no language — so it can never loosen same-language
+precision.
+
+**3. Enrich.** The full article text is fetched for the stories about to be
+analysed. Headlines alone produce shallow analysis.
+
+**4. Analyse.** Stories are sent to the model in batches, each with *every*
+outlet's version of the headline — the divergence between them is often the
+story. The model is instructed to work only from the supplied material,
+separate stated / implied / hypothesis, ground every inference in a concrete
+textual signal, and say plainly when there is no subtext.
+
+**5. Render & deliver.** Bilingual Markdown, HTML email, and JSON. Results are
+cached in `state/analysis_cache.json` so a re-run never pays twice.
+
+---
+
+## Configuration
+
+### Sources — `config/sources.toml`
+
+Currently configured (all verified live):
+
+| Outlet | Language | Tier | Feeds |
+|---|---|---|---|
+| الرأي — Al-Rai | ar | 1 | 6 |
+| الأنباء — Al-Anba | ar | 1 | 19 |
+| الجريدة — Al-Jarida | ar | 1 | 7 |
+| كويت نيوز — Kuwait News | ar | 2 | 1 |
+| كونا — KUNA (state wire) | ar | 1 | scrape* |
+| القبس — Al-Qabas | ar | 1 | scrape* |
+| Kuwait Times | en | 1 | 9 |
+| Arab Times | en | 2 | 8 |
+| Times Kuwait | en | 2 | 1 |
+
+\* KUNA publishes no public RSS and Al-Qabas dropped its feed; both are
+best-effort scrapes marked `optional`, so a failure is reported but harmless.
+In practice almost all KUNA wire copy still reaches you, because Al-Anba and
+Al-Jarida reprint it.
+
+Adding an outlet takes three lines:
+
+```toml
+[[source]]
+id = "example"
+name_en = "Example Daily"
+name_ar = "مثال"
+lang = "ar"
+type = "rss"
+tier = 2
+feeds = [ { url = "https://example.com/feed/", section = "local" } ]
+```
+
+Other settings live under `[settings]`:
+
+```toml
+window_hours = 26            # how far back the 08:00 run looks
+max_analyze  = 28            # stories that get full analysis
+major_outlet_threshold = 3   # outlets needed to call a story "major"
+```
+
+### Environment variables
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `NEWSCANNER_PROVIDER` | auto-detected | `gemini`, `openai`, `anthropic`, `openrouter`, `groq`, `ollama` |
+| `NEWSCANNER_MODEL` | per provider | Override the model name |
+| `NEWSCANNER_LANGUAGE` | `bilingual` | `bilingual`, `en`, `ar` |
+| `NEWSCANNER_TEMPERATURE` | `0.25` | Lower = more literal |
+| `NEWSCANNER_USE_OLLAMA` | – | `1` to allow the local Ollama provider |
+
+---
+
+## Command line
+
+```bash
+python3 -m news_scanner run                 # the daily job
+python3 -m news_scanner check-sources       # is every outlet reachable?
+python3 -m news_scanner run --dry-run       # everything except email
+python3 -m news_scanner run --no-llm        # extractive only, no API cost
+python3 -m news_scanner run --no-fetch-bodies   # faster, shallower
+python3 -m news_scanner run --hours 8       # narrow the window
+python3 -m news_scanner run --language en   # English-only analysis
+python3 -m news_scanner run --sources alrai,kuwaittimes   # test one pair
+python3 -m news_scanner run --max-analyze 10 -v
+```
+
+Run it locally around a cron job if you prefer your own machine:
+
+```bash
+cd /path/to/NewsScanner
+0 5 * * *  cd /path/to/NewsScanner && GEMINI_API_KEY=... python3 -m news_scanner run >> /tmp/newsscanner.log 2>&1
+```
+
+Requires **Python 3.11+** (for `tomllib`). Nothing to `pip install`.
+
+---
+
+## Honest limitations
+
+- **Clustering is lexical, not semantic.** Two stories can stay separate when
+  outlets paraphrase heavily — e.g. a headline about `ذهبيتان وبرونزيتان`
+  (nominative dual) and another about `بذهبيتين وبرونزيتين` (accusative dual)
+  will not always merge. Every article is still listed with its link, so the
+  cost of a miss is a repeated entry, never a lost one.
+- **Over-merging is bounded, not impossible.** The distinctive-token gate makes
+  it rare, and when it happens no information is lost: every outlet's own
+  headline and link stays in the reference list.
+- **"Between the lines" is machine inference.** It is labelled as such, carries
+  a confidence level, and is instructed to be honest when there is nothing to
+  read. It is a prompt for your own judgement, not a finding.
+- **Scraped sources are fragile.** KUNA and Al-Qabas may break when they
+  redesign. `check-sources` tells you.
+- **The state wire dominates coverage.** Most Kuwaiti outlets reprint KUNA, so
+  a wide cluster often means "the wire carried it", not "five newsrooms
+  independently confirmed it". The digest shows you each version so you can
+  tell the difference.
+
+## Legal
+
+NewsScanner reads publicly available RSS feeds and web pages and stores only
+headlines, links and short excerpts for personal briefing use. It does not
+republish article bodies. All content belongs to its original publishers.
