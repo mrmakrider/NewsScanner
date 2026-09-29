@@ -72,8 +72,9 @@ jobs:
           fi
 
       # A push made with GITHUB_TOKEN is not guaranteed to trigger a Pages
-      # build on its own, so ask for one explicitly. Harmless if a build is
-      # already queued.
+      # build on its own, so ask for one explicitly. This is belt-and-braces
+      # (branch-source sites also build on every push to main), so it is
+      # best-effort by design: any outcome is logged, none fails the run.
       - name: Ask Pages to rebuild
         run: |
           code="$(curl -sS -o /tmp/pages.json -w '%{http_code}' \
@@ -81,19 +82,19 @@ jobs:
             -H 'Authorization: Bearer ${{ github.token }}' \
             -H 'Accept: application/vnd.github+json' \
             'https://api.github.com/repos/${{ github.repository }}/pages/builds')"
+          body="$(tr -d '\n' < /tmp/pages.json)"
           case "$code" in
             20*)
-              echo "Pages build requested (HTTP $code)."
+              echo "::notice::Pages build requested (HTTP $code)."
               ;;
             404)
-              echo "::notice::GitHub Pages is not enabled yet, so there is nothing to rebuild. This is a one-time owner step:"
-              echo "  https://github.com/${{ github.repository }}/settings/pages"
-              echo "  Source: Deploy from a branch -> main + /docs -> Save"
-              echo "or run: gh api -X POST repos/${{ github.repository }}/pages -f 'source[branch]=main' -f 'source[path]=/docs'"
+              echo "::notice::GitHub Pages is not enabled yet, so there is nothing to rebuild. One-time owner step: https://github.com/${{ github.repository }}/settings/pages -> Deploy from a branch -> main + /docs -> Save (or: gh api -X POST repos/${{ github.repository }}/pages -f 'source[branch]=main' -f 'source[path]=/docs')"
+              ;;
+            403)
+              echo "::warning::Pages rebuild request not permitted (HTTP 403) — the push to main still queues a build once Pages is enabled. Response: $body"
               ;;
             *)
-              echo "::error::Pages rebuild request failed (HTTP $code):"
-              cat /tmp/pages.json
-              exit 1
+              echo "::warning::Pages rebuild request returned HTTP $code (ignored — builds also trigger from the push itself). Response: $body"
               ;;
           esac
+          exit 0
