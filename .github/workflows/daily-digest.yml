@@ -36,7 +36,7 @@ concurrency:
 
 jobs:
   digest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # pinned: ubuntu-latest migrates to Ubuntu 26 on 2026-10-19
     timeout-minutes: 30
 
     steps:
@@ -153,9 +153,9 @@ jobs:
           fi
 
       # Same as in pages.yml: a GITHUB_TOKEN push is not guaranteed to
-      # trigger a Pages build, so ask for one explicitly. Before Pages has
-      # been enabled (one-time owner step) this gets a 404 and exits 0
-      # with instructions in the log.
+      # trigger a Pages build, so ask for one explicitly. Belt-and-braces
+      # only (branch-source sites also build on push), so this is
+      # best-effort: any outcome is logged, none fails the run.
       - name: Ask Pages to rebuild
         if: ${{ inputs.dry_run != true }}
         run: |
@@ -164,11 +164,14 @@ jobs:
             -H 'Authorization: Bearer ${{ github.token }}' \
             -H 'Accept: application/vnd.github+json' \
             'https://api.github.com/repos/${{ github.repository }}/pages/builds')"
+          body="$(tr -d '\n' < /tmp/pages.json)"
           case "$code" in
-            20*) echo "Pages build requested (HTTP $code).";;
-            404) echo "::notice::Pages not enabled yet — see .github/workflows/pages.yml for the one-time enable step.";;
-            *)   echo "::error::Pages rebuild request failed (HTTP $code):"; cat /tmp/pages.json; exit 1;;
+            20*) echo "::notice::Pages build requested (HTTP $code).";;
+            404) echo "::notice::Pages not enabled yet — one-time owner step, see .github/workflows/pages.yml.";;
+            403) echo "::warning::Pages rebuild not permitted (HTTP 403), ignored. Response: $body";;
+            *)   echo "::warning::Pages rebuild returned HTTP $code, ignored. Response: $body";;
           esac
+          exit 0
 
       - name: Upload digest as a build artifact
         if: always()
