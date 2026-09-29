@@ -385,14 +385,21 @@ class TestParsing(unittest.TestCase):
 
 
 class TestAnalysis(unittest.TestCase):
-    def test_no_provider_detected_without_keys(self):
+    def test_no_keys_still_yields_a_provider(self):
+        """With no secrets configured the default is the keyless LLM7 gateway.
+
+        Falling back to `none` here would mean a fresh fork silently produces
+        the extractive digest, which is exactly the outcome LLM7 removes.
+        """
         import os
 
         saved = {k: os.environ.pop(k, None) for k in
                  ("GEMINI_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY",
-                  "GEMINI_KEY", "OPENAI_KEY")}
+                  "OPENROUTER_API_KEY", "GROQ_API_KEY", "LLM7_API_KEY",
+                  "OLLAMA_HOST", "NEWSCANNER_USE_OLLAMA", "NEWSCANNER_NO_LLM7",
+                  "NEWSCANNER_PROVIDER")}
         try:
-            self.assertEqual(detect_provider("auto")[0], "none")
+            self.assertEqual(detect_provider("auto"), ("llm7", "default", ""))
             self.assertEqual(detect_provider("none"), ("none", "", ""))
         finally:
             for key, value in saved.items():
@@ -536,6 +543,270 @@ class TestUtilities(unittest.TestCase):
             for key, value in saved.items():
                 if value is not None:
                     os.environ[key] = value
+
+
+class TestLLM7Provider(unittest.TestCase):
+    """LLM7 is the keyless default, so its wire format must be exactly right.
+
+    A local HTTP server speaks LLM7's documented OpenAI-compatible protocol,
+    which lets the real client, transport and parser run end to end offline.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        import http.server
+        import json as _json
+        import threading
+
+        class Handler(http.server.BaseHTTPRequestHandler):
+            # Real gateways answer over HTTP/1.1 with keep-alive; the mock
+            # should not be more forgiving than production.
+            protocol_version = "HTTP/1.1"
+
+            def do_POST(self):  # noqa: N802
+                length = int(self.headers.get("Content-Length", 0))
+                raw = self.rfile.read(length).decode("utf-8")
+                Handler.requests.append(
+                    {
+                        "path": self.path,
+                        "body": _json.loads(raw),
+                        "headers": {k.lower(): v for k, v in self.headers.items()},
+                    }
+                )
+                if Handler.fail_next:
+                    Handler.fail_next = False
+                    payload = {"error": {"message": "upstream busy"}}
+                    body = _json.dumps(payload).encode()
+                    self.send_response(503)
+                else:
+                    # Exactly the shape api.llm7.io returns.
+                    payload = {
+                        "id": "chatcmpl-test",
+                        "object": "chat.completion",
+                        "created": 0,
+                        "model": "default",
+                        "choices": [
+                            {
+                                "index": 0,
+                                "message": {
+                                    "role": "assistant",
+                                    "content": Handler.reply,
+                                },
+                                "finish_reason": "stop",
+                            }
+                        ],
+                        "usage": {
+                            "prompt_tokens": 1,
+                            "completion_tokens": 1,
+                            "total_tokens": 2,
+                        },
+                    }
+                    body = _json.dumps(payload).encode()
+                    self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+
+            def log_message(self, *args):  # silence the test output
+                pass
+
+        Handler.requests = []
+        Handler.reply = "{}"
+        Handler.fail_next = False
+        cls.handler = Handler
+        cls.server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+        cls.base_url = f"http://127.0.0.1:{cls.server.server_port}/v1"
+        cls.thread = threading.Thread(target=cls.server.serve_forever, daemon=True)
+        cls.thread.start()
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.server.shutdown()
+        cls.server.server_close()
+
+    def setUp(self):
+        import os
+
+        self.handler.requests.clear()
+        self.handler.fail_next = False
+        self._saved = {
+            k: os.environ.pop(k, None)
+            for k in (
+                "GEMINI_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY",
+                "OPENROUTER_API_KEY", "GROQ_API_KEY", "LLM7_API_KEY",
+                "OLLAMA_HOST", "NEWSCANNER_USE_OLLAMA", "NEWSCANNER_PROVIDER",
+                "NEWSCANNER_MODEL", "NEWSCANNER_NO_LLM7",
+            )
+        }
+        os.environ["NEWSCANNER_BASE_URL"] = self.base_url
+        # urllib honours proxy variables; a local ephemeral server must not.
+        self._proxies = {
+            k: os.environ.pop(k, None)
+            for k in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY", "no_proxy", "NO_PROXY")
+        }
+
+    def tearDown(self):
+        import os
+
+        os.environ.pop("NEWSCANNER_BASE_URL", None)
+        for key, value in self._saved.items():
+            if value is not None:
+                os.environ[key] = value
+        for key, value in self._proxies.items():
+            if value is not None:
+                os.environ[key] = value
+
+    # -- tests -------------------------------------------------------------
+    def test_llm7_is_the_default_without_any_key(self):
+        self.assertEqual(detect_provider("auto"), ("llm7", "default", ""))
+
+    def test_a_real_key_still_wins_over_the_keyless_default(self):
+        import os
+
+        os.environ["GEMINI_API_KEY"] = "test-key"
+        self.assertEqual(detect_provider("auto")[0], "gemini")
+
+    def test_llm7_can_be_turned_off(self):
+        import os
+
+        os.environ["NEWSCANNER_NO_LLM7"] = "1"
+        self.assertEqual(detect_provider("auto")[0], "none")
+
+    def test_request_matches_the_documented_llm7_shape(self):
+        import json
+
+        from news_scanner.analyze import LLMClient
+
+        self.handler.reply = json.dumps(
+            {"stories": [{"id": "S1", "summary_en": "ok"}]}
+        )
+        client = LLMClient("llm7", "default", "")
+        text = client.complete("SYSTEM PROMPT", "USER PROMPT")
+
+        self.assertEqual(len(self.handler.requests), 1)
+        sent = self.handler.requests[0]
+        self.assertEqual(sent["path"], "/v1/chat/completions")
+        self.assertIn("ok", text)
+
+        body = sent["body"]
+        self.assertEqual(body["model"], "default")
+        self.assertEqual(body["messages"][0]["role"], "system")
+        self.assertEqual(body["messages"][0]["content"], "SYSTEM PROMPT")
+        self.assertEqual(body["messages"][1]["role"], "user")
+        self.assertEqual(body["messages"][1]["content"], "USER PROMPT")
+        self.assertIn("temperature", body)
+        self.assertLessEqual(body["max_tokens"], 4000)
+        # The gateway fans out across backends, so JSON mode is not requested.
+        self.assertNotIn("response_format", body)
+        # And no credential is leaked when none was configured.
+        self.assertNotIn("authorization", sent["headers"])
+
+    def test_optional_token_is_sent_when_present(self):
+        import json
+        import os
+
+        from news_scanner.analyze import LLMClient
+
+        os.environ["LLM7_API_KEY"] = "sk-free-token"
+        self.handler.reply = json.dumps({"stories": []})
+        LLMClient("llm7", "default", "sk-free-token").complete("s", "u")
+        sent = self.handler.requests[0]
+        self.assertEqual(sent["headers"]["authorization"], "Bearer sk-free-token")
+
+    def test_transient_5xx_is_retried_by_the_transport(self):
+        import json
+
+        from news_scanner.analyze import LLMClient
+
+        self.handler.fail_next = True
+        self.handler.reply = json.dumps({"stories": [{"id": "S1"}]})
+        LLMClient("llm7", "default", "").complete("s", "u")
+        self.assertEqual(len(self.handler.requests), 2, "the 503 should be retried")
+
+    def test_end_to_end_analysis_and_render_through_the_gateway(self):
+        import json
+
+        canned = {
+            "stories": [
+                {
+                    "id": "S1",
+                    "headline_en": "Cabinet abolishes the Silk City development body",
+                    "summary_en": "A draft decree abolishing the authority was approved.",
+                    "why_it_matters_en": "A flagship project file changes hands.",
+                    "between_the_lines_en": "The decree names no individual minister.",
+                    "confidence": "medium",
+                    "confidence_reason": "Official statements only.",
+                },
+                {
+                    "id": "S2",
+                    "headline_en": "Crown Prince holds talks in Bern",
+                    "summary_en": "Talks covered trade and investment.",
+                    "why_it_matters_en": "Continuity in the Swiss file.",
+                    "between_the_lines_en": "No agenda detail was released.",
+                    "confidence": "low",
+                    "confidence_reason": "Wire copy only.",
+                },
+            ],
+            "editor_note_en": "Silk City was the day's pivot.",
+        }
+        self.handler.reply = json.dumps(canned, ensure_ascii=False)
+
+        engine = AnalysisEngine(
+            AnalysisConfig(provider="llm7", use_cache=False, cache_path=None)
+        )
+        self.assertEqual(engine.provider, "llm7")
+        self.assertEqual(engine.model, "default")
+
+        stories = build_stories(make_articles(SILK_CITY + CROWN_PRINCE))
+        result = engine.analyse(stories)
+        self.assertFalse(result.errors, result.errors)
+        self.assertEqual(result.provider, "llm7")
+
+        digest = Digest(
+            date="2026-09-30", generated_at=NOW, window_hours=24,
+            stories=stories,
+            analyses=[result.stories[s.key] for s in stories],
+            synthesis=result.synthesis,
+            source_health=[], llm_provider="llm7", errors=[],
+            stats={"analysed_stories": len(stories), "listed_stories": len(stories)},
+        )
+        markdown = render_markdown(digest)
+        self.assertIn("A draft decree abolishing the authority was approved.", markdown)
+        self.assertIn("names no individual minister", markdown)
+        self.assertIn("(inference)", markdown)
+        self.assertIn("the day's pivot", markdown)
+        # Every story still carries its sources.
+        self.assertIn("https://news.example/kuwaittimes/3", markdown)
+
+    def test_no_cache_never_writes_to_disk(self):
+        """--no-cache must not persist results a later real run would reuse."""
+        import json
+        import tempfile
+
+        self.handler.reply = json.dumps({"stories": [{"id": "S1", "summary_en": "stub"}]})
+        path = Path(tempfile.mkdtemp()) / "analysis_cache.json"
+        engine = AnalysisEngine(
+            AnalysisConfig(provider="llm7", use_cache=False, cache_path=path)
+        )
+        stories = build_stories(make_articles(SILK_CITY))
+        engine.analyse(stories)
+        engine.save_cache()
+        self.assertFalse(path.exists(), "a --no-cache run wrote a cache file")
+
+    def test_a_dead_gateway_degrades_instead_of_crashing(self):
+        """If LLM7 is unreachable the run must still produce a digest."""
+        import os
+
+        os.environ["NEWSCANNER_BASE_URL"] = "http://127.0.0.1:9/v1"  # discard port
+        engine = AnalysisEngine(
+            AnalysisConfig(provider="llm7", use_cache=False, cache_path=None)
+        )
+        stories = build_stories(make_articles(SILK_CITY))
+        result = engine.analyse(stories)
+        self.assertTrue(result.errors, "the failure should be reported")
+        self.assertEqual(len(result.stories), len(stories))
+        self.assertIn("without an ai provider", result.stories[stories[0].key]["why_it_matters_en"].lower())
 
 
 if __name__ == "__main__":

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -126,6 +127,95 @@ def cmd_check_sources(args: argparse.Namespace) -> int:
 
     print(f"\n{ok_count}/{len(health)} sources healthy · {len(articles)} articles fetched")
     return 0 if ok_count else 1
+
+
+def cmd_check_llm(args: argparse.Namespace) -> int:
+    """Ask the configured provider to analyse one real story end to end.
+
+    This is the dry run that matters: it proves the credential, the model name
+    and the network path all work together before 08:00 does.
+    """
+    from .analyze import LLMClient
+
+    stories = build_stories(_probe_articles())
+    story = stories[0]
+
+    print("Resolving provider…")
+    config = AnalysisConfig.from_env(
+        language=args.language, cache_path=None, use_cache=False
+    )
+    if args.provider:
+        config.provider = args.provider
+    if args.model:
+        config.model = args.model
+    if args.llm_off:
+        config.provider = "none"
+
+    engine = AnalysisEngine(config)
+    detected = "explicitly disabled" if engine.provider == "none" else engine.provider
+    print(f"  provider : {detected}")
+    print(f"  model    : {engine.model or '(none)'}")
+    if engine.provider == "llm7":
+        from .analyze import OPENAI_COMPATIBLE_BASES
+
+        base = os.getenv("NEWSCANNER_BASE_URL", "").strip() or OPENAI_COMPATIBLE_BASES["llm7"]
+        print(f"  endpoint : {base}/chat/completions")
+        print(f"  auth     : {'token supplied' if engine.api_key else 'anonymous (free tier)'}")
+
+    if engine.provider == "none":
+        print("\nNo provider available — the daily run would use the extractive fallback.")
+        print("Set GEMINI_API_KEY (or another provider key), or unset NEWSCANNER_NO_LLM7.")
+        return 1
+
+    print(f"\nSending one real story to {engine.provider}…")
+    if engine.client is None:
+        print("  client was not constructed — cannot test")
+        return 1
+    try:
+        payload = engine._analyse_batch([story], 0)  # noqa: SLF001 — a diagnostic
+    except Exception as exc:  # noqa: BLE001 — the point is to report the failure
+        print(f"  FAILED: {type(exc).__name__}: {exc}")
+        print("\nThe scheduled run would still complete, using the extractive fallback.")
+        return 1
+
+    items = payload.get("stories") or []
+    print(f"  OK — the model returned {len(items)} analysed story(ies)")
+    if items:
+        first = items[0]
+        for field in ("headline_en", "summary_en", "why_it_matters_en", "between_the_lines_en"):
+            value = str(first.get(field, "")).strip()
+            if value:
+                print(f"  {field}: {truncate(value, 150)}")
+
+    print("\nAnalysis is configured correctly.")
+    return 0
+
+
+def _probe_articles() -> list[Article]:
+    """A small, real headline pair used to exercise the analysis path."""
+    now = now_kuwait()
+    rows = [
+        (
+            "alrai", "الرأي", "ar",
+            "مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان",
+            "وافق مجلس الوزراء على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير "
+            "وجزيرة بوبيان، على أن تتولى جهات أخرى استكمال الملف.",
+        ),
+        (
+            "kuwaittimes", "Kuwait Times", "en",
+            "Cabinet clears abolition of Silk City development body",
+            "The Cabinet approved a draft decree abolishing the authority set up to develop "
+            "Silk City and Bubiyan Island.",
+        ),
+    ]
+    return [
+        Article(
+            source_id=sid, source_name=name, lang=lang, title=title, summary=summary,
+            url=f"https://example.invalid/{sid}", published=now - timedelta(hours=i + 1),
+            tier=1,
+        )
+        for i, (sid, name, lang, title, summary) in enumerate(rows)
+    ]
 
 
 def cmd_run(args: argparse.Namespace) -> int:
@@ -296,7 +386,8 @@ def build_parser() -> argparse.ArgumentParser:
         prog="newsscanner",
         description="Aggregate Kuwait's news into one analysed morning brief.",
     )
-    parser.add_argument("command", nargs="?", default="run", choices=["run", "check-sources"])
+    parser.add_argument("command", nargs="?", default="run",
+                        choices=["run", "check-sources", "check-llm"])
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG,
                         help="path to sources.toml")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT,
@@ -339,6 +430,8 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if args.command == "check-sources":
             return cmd_check_sources(args)
+        if args.command == "check-llm":
+            return cmd_check_llm(args)
         return cmd_run(args)
     except KeyboardInterrupt:
         log.warning("interrupted")

@@ -18,6 +18,9 @@ that tries to read what is *between* the lines.
 - **Reads between the lines.** Per story: what happened, why it matters, and
   what a cautious Kuwaiti newsroom would notice but not print — attribution
   patterns, what the headline stresses, what is missing, how outlets diverge.
+- **Works with no API key.** The default provider is the free LLM7 gateway, so
+  a fresh fork gets real analysis on its first run. Add your own key and it
+  takes over automatically.
 - **Says when it doesn't know.** Every inference is labelled as inference, with
   a confidence level. If there is no subtext, it says so instead of inventing
   intrigue.
@@ -30,22 +33,42 @@ that tries to read what is *between* the lines.
 
 ### 1. Fork or use this repository
 
-### 2. Add one AI provider key
+### 2. Nothing — AI analysis works out of the box
 
-`Settings → Secrets and variables → Actions → New repository secret`
+The default provider is **[LLM7](https://api.llm7.io/v1)**, an
+OpenAI-compatible gateway whose free tier needs no API key:
+
+```
+base URL : https://api.llm7.io/v1
+model    : default          # balance of quality and latency
+auth     : none required
+```
+
+So a fresh fork produces a fully analysed brief on its first run, with no
+secrets configured at all.
+
+**To use your own key instead**, add any one of these as a repository secret
+(`Settings → Secrets and variables → Actions`) — an explicitly configured key
+always takes precedence over the keyless default:
 
 | Secret | Where to get it | Notes |
 |---|---|---|
-| `GEMINI_API_KEY` | [aistudio.google.com](https://aistudio.google.com/apikey) | **Recommended** — free tier covers a daily job |
+| `GEMINI_API_KEY` | [aistudio.google.com](https://aistudio.google.com/apikey) | Most generous free tier for a daily job |
 | `OPENAI_API_KEY` | platform.openai.com | Alternative |
 | `ANTHROPIC_API_KEY` | console.anthropic.com | Alternative |
 | `OPENROUTER_API_KEY` | openrouter.ai | Alternative |
 | `GROQ_API_KEY` | console.groq.com | Alternative |
+| `LLM7_API_KEY` | [token.llm7.io](https://token.llm7.io/) | Optional — raises LLM7's rate limit |
 
-Only one is needed. Whichever is present is detected automatically.
+### 2b. Check it before 08:00 does
 
-> Without any key the job still runs, and sends an honestly-labelled
-> *extractive* digest — headlines, sources and links, with no subtext analysis.
+```bash
+python -m news_scanner check-llm -v
+```
+
+This sends one real story through the configured provider and prints the
+analysis it gets back, so a bad model name or an expired key surfaces
+immediately rather than at 08:00. The workflow runs it too.
 
 ### 3. Add your email (optional but recommended)
 
@@ -181,11 +204,18 @@ major_outlet_threshold = 3   # outlets needed to call a story "major"
 
 | Variable | Default | Purpose |
 |---|---|---|
-| `NEWSCANNER_PROVIDER` | auto-detected | `gemini`, `openai`, `anthropic`, `openrouter`, `groq`, `ollama` |
-| `NEWSCANNER_MODEL` | per provider | Override the model name |
+| `NEWSCANNER_PROVIDER` | auto-detected | `llm7`, `gemini`, `openai`, `anthropic`, `openrouter`, `groq`, `ollama`, `none` |
+| `NEWSCANNER_MODEL` | per provider | For LLM7 also accepts `fast` or `pro` |
 | `NEWSCANNER_LANGUAGE` | `bilingual` | `bilingual`, `en`, `ar` |
 | `NEWSCANNER_TEMPERATURE` | `0.25` | Lower = more literal |
+| `NEWSCANNER_NO_LLM7` | – | `1` to skip the keyless default and get the extractive digest |
+| `NEWSCANNER_BASE_URL` | `https://api.llm7.io/v1` | Point LLM7 at a mirror or self-hosted gateway |
+| `LLM7_API_KEY` | – | Optional LLM7 token, raises the rate limit |
 | `NEWSCANNER_USE_OLLAMA` | – | `1` to allow the local Ollama provider |
+
+**Provider precedence.** Explicit configuration always beats the default:
+`NEWSCANNER_PROVIDER` → any configured API key → `OLLAMA_HOST` →
+**LLM7 (keyless default)** → extractive fallback.
 
 ---
 
@@ -194,6 +224,7 @@ major_outlet_threshold = 3   # outlets needed to call a story "major"
 ```bash
 python3 -m news_scanner run                 # the daily job
 python3 -m news_scanner check-sources       # is every outlet reachable?
+python3 -m news_scanner check-llm           # does the analysis provider work?
 python3 -m news_scanner run --dry-run       # everything except email
 python3 -m news_scanner run --no-llm        # extractive only, no API cost
 python3 -m news_scanner run --no-fetch-bodies   # faster, shallower
@@ -229,6 +260,12 @@ Requires **Python 3.11+** (for `tomllib`). Nothing to `pip install`.
   read. It is a prompt for your own judgement, not a finding.
 - **Scraped sources are fragile.** KUNA and Al-Qabas may break when they
   redesign. `check-sources` tells you.
+- **The free LLM7 tier is shared and rate-limited** (roughly 100 requests per
+  hour anonymously, `default` routing). A run makes about a dozen calls, so
+  that is ample — but if the gateway is busy, the affected batch silently
+  degrades to the extractive text rather than failing the run. A token from
+  [token.llm7.io](https://token.llm7.io/) or your own provider key removes
+  the shared-tier variability.
 - **The state wire dominates coverage.** Most Kuwaiti outlets reprint KUNA, so
   a wide cluster often means "the wire carried it", not "five newsrooms
   independently confirmed it". The digest shows you each version so you can

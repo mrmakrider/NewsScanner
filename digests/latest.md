@@ -1,7 +1,7 @@
 # 🇰🇼 Kuwait Morning Brief
 ### Wednesday, 30 September 2026 · الأربعاء 30 سبتمبر 2026
 
-> Generated **00:40 Kuwait time** · window: last 26h · **42 articles** from **7 outlets** → **23 stories** (5 major)
+> Generated **00:47 Kuwait time** · window: last 26h · **42 articles** from **7 outlets** → **23 stories** (5 major)
 
 > ⚠️ **Extractive mode.** No AI provider key was found, so per-story subtext analysis is disabled. Set `GEMINI_API_KEY`, `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` to enable it.
 
@@ -53,11 +53,11 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (5)</b></summary>
 
-- **Kuwait Times** (en) — [Cabinet clears abolition of Silk City development body](https://example.invalid/kuwaittimes/1003) · 22:55
-- **الأنباء** (ar) — [إلغاء تطوير «الحرير» و«بوبيان» وتعديل «الشركات»](https://example.invalid/alanba/1001) · 00:05
-- **الجريدة** (ar) — [مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان](https://example.invalid/aljarida/1002) · 23:30
-- **الرأي** (ar) — [مجلس الوزراء يوافق على إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير «الصبية» وجزيرة بوبيان](https://example.invalid/alrai/1000) · 00:40
-- **Times Kuwait** (en) — [Govt approves cancellation of decree establishing Silk City, BIDA](https://example.invalid/timeskuwait/1004) · 22:20
+- **Kuwait Times** (en) — [Cabinet clears abolition of Silk City development body](https://example.invalid/kuwaittimes/1003) · 23:02
+- **الأنباء** (ar) — [إلغاء تطوير «الحرير» و«بوبيان» وتعديل «الشركات»](https://example.invalid/alanba/1001) · 00:12
+- **الجريدة** (ar) — [مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان](https://example.invalid/aljarida/1002) · 23:37
+- **الرأي** (ar) — [مجلس الوزراء يوافق على إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير «الصبية» وجزيرة بوبيان](https://example.invalid/alrai/1000) · 00:47
+- **Times Kuwait** (en) — [Govt approves cancellation of decree establishing Silk City, BIDA](https://example.invalid/timeskuwait/1004) · 22:27
 
 </details>
 
@@ -81,9 +81,9 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (3)</b></summary>
 
-- **Kuwait Times** (en) — [Wage payment system launched](https://example.invalid/kuwaittimes/1006) · 21:10
-- **الجريدة** (ar) — [«المركزي» يطلق نظام الكويت لحماية ودفع الأجور «KWPS»](https://example.invalid/aljarida/1005) · 21:45
-- **Times Kuwait** (en) — [Kuwait's New Wage System to Protect Private-Sector Employees' Salaries](https://example.invalid/timeskuwait/1007) · 20:35
+- **Kuwait Times** (en) — [Wage payment system launched](https://example.invalid/kuwaittimes/1006) · 21:17
+- **الجريدة** (ar) — [«المركزي» يطلق نظام الكويت لحماية ودفع الأجور «KWPS»](https://example.invalid/aljarida/1005) · 21:52
+- **Times Kuwait** (en) — [Kuwait's New Wage System to Protect Private-Sector Employees' Salaries](https://example.invalid/timeskuwait/1007) · 20:42
 
 </details>
 
@@ -107,9 +107,9 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (3)</b></summary>
 
-- **Kuwait Times** (en) — [Anti-narcotics officers arrest 12 suspects in eight cases, seize drugs and weapon](https://example.invalid/kuwaittimes/1020) · 21:10
-- **القبس** (ar) — [الداخلية: ضبط 12 متهماً في 8 قضايا بحوزتهم مواد مخدرة ومؤثرات عقلية وسلاح](https://example.invalid/alqabas/1018) · 22:20
-- **Arab Times** (en) — [Kuwait Arrests 12 Suspects in 8 Cases, Seizes Drugs, Alcohol and Firearm](https://example.invalid/arabtimes/1019) · 21:45
+- **Kuwait Times** (en) — [Anti-narcotics officers arrest 12 suspects in eight cases, seize drugs and weapon](https://example.invalid/kuwaittimes/1020) · 21:17
+- **القبس** (ar) — [الداخلية: ضبط 12 متهماً في 8 قضايا بحوزتهم مواد مخدرة ومؤثرات عقلية وسلاح](https://example.invalid/alqabas/1018) · 22:27
+- **Arab Times** (en) — [Kuwait Arrests 12 Suspects in 8 Cases, Seizes Drugs, Alcohol and Firearm](https://example.invalid/arabtimes/1019) · 21:52
 
 </details>
 
@@ -133,9 +133,9 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (3)</b></summary>
 
-- **Kuwait Times** (en) — [Al-Mudhaf wins double gold as Kuwait shooters light up Asian Games](https://example.invalid/kuwaittimes/1028) · 00:40
-- **الرأي** (ar) — [ذهبيتان وبرونزيتان لـ«رماية» الكويت في آسياد اليابان](https://example.invalid/alrai/1027) · 17:05
-- **Arab Times** (en) — [Kuwait shooters claim two golds at Asian Games](https://example.invalid/arabtimes/1029) · 00:05
+- **Kuwait Times** (en) — [Al-Mudhaf wins double gold as Kuwait shooters light up Asian Games](https://example.invalid/kuwaittimes/1028) · 00:47
+- **الرأي** (ar) — [ذهبيتان وبرونزيتان لـ«رماية» الكويت في آسياد اليابان](https://example.invalid/alrai/1027) · 17:12
+- **Arab Times** (en) — [Kuwait shooters claim two golds at Asian Games](https://example.invalid/arabtimes/1029) · 00:12
 
 </details>
 
@@ -161,9 +161,9 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (3)</b></summary>
 
-- **الأنباء** (ar) — [«العدل»: بدء المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة](https://example.invalid/alanba/1013) · 17:05
-- **الرأي** (ar) — [السند: انطلاق المرحلة الثانية من تكويت الوظائف القضائية المساندة](https://example.invalid/alrai/1012) · 17:40
-- **Arab Times** (en) — [Kuwaitization Axes 62 More Expat Judicial Jobs](https://example.invalid/arabtimes/1041) · 17:05
+- **الأنباء** (ar) — [«العدل»: بدء المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة](https://example.invalid/alanba/1013) · 17:12
+- **الرأي** (ar) — [السند: انطلاق المرحلة الثانية من تكويت الوظائف القضائية المساندة](https://example.invalid/alrai/1012) · 17:47
+- **Arab Times** (en) — [Kuwaitization Axes 62 More Expat Judicial Jobs](https://example.invalid/arabtimes/1041) · 17:12
 
 </details>
 
@@ -187,8 +187,8 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (2)</b></summary>
 
-- **Kuwait Times** (en) — [Stage set for grand opening of Al-Shaheed Park Phase 3](https://example.invalid/kuwaittimes/1017) · 22:55
-- **الرأي** (ar) — [سمو الأمير يشمل برعايته حفل افتتاح حديقة الشهيد المرحلة الثالثة مساء غد](https://example.invalid/alrai/1016) · 23:30
+- **Kuwait Times** (en) — [Stage set for grand opening of Al-Shaheed Park Phase 3](https://example.invalid/kuwaittimes/1017) · 23:02
+- **الرأي** (ar) — [سمو الأمير يشمل برعايته حفل افتتاح حديقة الشهيد المرحلة الثالثة مساء غد](https://example.invalid/alrai/1016) · 23:37
 
 </details>
 
@@ -212,8 +212,8 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (2)</b></summary>
 
-- **Kuwait Times** (en) — [Kuwait, Saudi Arabia advance water interconnection project](https://example.invalid/kuwaittimes/1032) · 22:20
-- **الرأي** (ar) — [الكويت والسعودية تعززان التنسيق الفني لإنجاز مشروع الربط المائي](https://example.invalid/alrai/1033) · 21:45
+- **Kuwait Times** (en) — [Kuwait, Saudi Arabia advance water interconnection project](https://example.invalid/kuwaittimes/1032) · 22:27
+- **الرأي** (ar) — [الكويت والسعودية تعززان التنسيق الفني لإنجاز مشروع الربط المائي](https://example.invalid/alrai/1033) · 21:52
 
 </details>
 
@@ -239,8 +239,8 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (2)</b></summary>
 
-- **الجريدة** (ar) — [النفط الكويتي ينخفض إلى 106.51 دولار للبرميل](https://example.invalid/aljarida/1015) · 00:05
-- **الرأي** (ar) — [سعر برميل النفط الكويتي ينخفض إلى 106.51 دولار](https://example.invalid/alrai/1014) · 00:40
+- **الجريدة** (ar) — [النفط الكويتي ينخفض إلى 106.51 دولار للبرميل](https://example.invalid/aljarida/1015) · 00:12
+- **الرأي** (ar) — [سعر برميل النفط الكويتي ينخفض إلى 106.51 دولار](https://example.invalid/alrai/1014) · 00:47
 
 </details>
 
@@ -264,8 +264,8 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (2)</b></summary>
 
-- **Kuwait Times** (en) — [Crown Prince's visit to Switzerland to boost relations](https://example.invalid/kuwaittimes/1011) · 18:15
-- **الرأي** (ar) — [سمو ولي العهد ورئيس الاتحاد السويسري يترأسان جلسة المباحثات الرسمية بين الكويت وسويسرا](https://example.invalid/alrai/1010) · 18:50
+- **Kuwait Times** (en) — [Crown Prince's visit to Switzerland to boost relations](https://example.invalid/kuwaittimes/1011) · 18:22
+- **الرأي** (ar) — [سمو ولي العهد ورئيس الاتحاد السويسري يترأسان جلسة المباحثات الرسمية بين الكويت وسويسرا](https://example.invalid/alrai/1010) · 18:57
 
 </details>
 
@@ -291,8 +291,8 @@ The 23 most widely carried stories this window, each with its sources. Full anal
 
 <details><summary><b>References (2)</b></summary>
 
-- **الأنباء** (ar) — [جامعة الكويت تعلن مواعيد التسجيل لـ«الاختبار الوطني الموحد» لطلب التقديم](https://example.invalid/alanba/1009) · 19:25
-- **الرأي** (ar) — [جامعة الكويت تعلن مواعيد التسجيل لـ«اختبار القدرات» لطلبة الـ12](https://example.invalid/alrai/1008) · 20:00
+- **الأنباء** (ar) — [جامعة الكويت تعلن مواعيد التسجيل لـ«الاختبار الوطني الموحد» لطلب التقديم](https://example.invalid/alanba/1009) · 19:32
+- **الرأي** (ar) — [جامعة الكويت تعلن مواعيد التسجيل لـ«اختبار القدرات» لطلبة الـ12](https://example.invalid/alrai/1008) · 20:07
 
 </details>
 
@@ -318,8 +318,8 @@ Not available — no AI provider is configured for this run. Outlets carrying it
 
 <details><summary><b>References (2)</b></summary>
 
-- **الرأي** (ar) — [تحديد موعد انطلاق «خليجي 28» في العراق](https://example.invalid/alrai/1031) · 22:55
-- **Arab Times** (en) — [Iraq to host Gulf Cup 28](https://example.invalid/arabtimes/1030) · 23:30
+- **الرأي** (ar) — [تحديد موعد انطلاق «خليجي 28» في العراق](https://example.invalid/alrai/1031) · 23:02
+- **Arab Times** (en) — [Iraq to host Gulf Cup 28](https://example.invalid/arabtimes/1030) · 23:37
 
 </details>
 
@@ -345,8 +345,8 @@ Not available — no AI provider is configured for this run. Outlets carrying it
 
 <details><summary><b>References (2)</b></summary>
 
-- **الرأي** (ar) — [وزيرة «التنمية والاستدامة» تحيل إلى النيابة العامة واقعة فقد مستندات رسمية من «هيئة البيئة»](https://example.invalid/alrai/1021) · 20:35
-- **Arab Times** (en) — [Missing Official Documents at the Environment Authority Referred to Prosecution](https://example.invalid/arabtimes/1022) · 20:00
+- **الرأي** (ar) — [وزيرة «التنمية والاستدامة» تحيل إلى النيابة العامة واقعة فقد مستندات رسمية من «هيئة البيئة»](https://example.invalid/alrai/1021) · 20:42
+- **Arab Times** (en) — [Missing Official Documents at the Environment Authority Referred to Prosecution](https://example.invalid/arabtimes/1022) · 20:07
 
 </details>
 
@@ -370,7 +370,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **Kuwait Times** (en) — [Vessel Struck by Suspected Projectile in Strait of Hormuz](https://example.invalid/kuwaittimes/1034) · 21:10
+- **Kuwait Times** (en) — [Vessel Struck by Suspected Projectile in Strait of Hormuz](https://example.invalid/kuwaittimes/1034) · 21:17
 
 </details>
 
@@ -394,7 +394,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **Kuwait Times** (en) — [Kuwait-Swiss ties mark 60 yrs of diplomatic relations](https://example.invalid/kuwaittimes/1040) · 17:40
+- **Kuwait Times** (en) — [Kuwait-Swiss ties mark 60 yrs of diplomatic relations](https://example.invalid/kuwaittimes/1040) · 17:47
 
 </details>
 
@@ -420,7 +420,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **الرأي** (ar) — [«الشؤون»: حلّ 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص للنيابة](https://example.invalid/alrai/1025) · 18:15
+- **الرأي** (ar) — [«الشؤون»: حلّ 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص للنيابة](https://example.invalid/alrai/1025) · 18:22
 
 </details>
 
@@ -446,7 +446,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **الجريدة** (ar) — [رسوب شبه جماعي في اختبارات «إشرافية التعاونيات»](https://example.invalid/aljarida/1026) · 17:40
+- **الجريدة** (ar) — [رسوب شبه جماعي في اختبارات «إشرافية التعاونيات»](https://example.invalid/aljarida/1026) · 17:47
 
 </details>
 
@@ -472,7 +472,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **الجريدة** (ar) — [مجلس الأمة يبحث تقرير اللجنة المالية بشأن الميزانية العامة للدولة](https://example.invalid/aljarida/1023) · 19:25
+- **الجريدة** (ar) — [مجلس الأمة يبحث تقرير اللجنة المالية بشأن الميزانية العامة للدولة](https://example.invalid/aljarida/1023) · 19:32
 
 </details>
 
@@ -498,7 +498,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **الأنباء** (ar) — [«المالية البرلمانية» تناقش الميزانية العامة وإعادة هيكلة الدعم](https://example.invalid/alanba/1024) · 18:50
+- **الأنباء** (ar) — [«المالية البرلمانية» تناقش الميزانية العامة وإعادة هيكلة الدعم](https://example.invalid/alanba/1024) · 18:57
 
 </details>
 
@@ -524,7 +524,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **الأنباء** (ar) — [«الصحة» تعلن افتتاح أقسام جديدة في مستشفى الفروانية](https://example.invalid/alanba/1039) · 18:15
+- **الأنباء** (ar) — [«الصحة» تعلن افتتاح أقسام جديدة في مستشفى الفروانية](https://example.invalid/alanba/1039) · 18:22
 
 </details>
 
@@ -550,7 +550,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **القبس** (ar) — [روبيو: حادثة القاعدة الجوية البريطانية تحمل بصمات «طرف أجنبي»](https://example.invalid/alqabas/1038) · 18:50
+- **القبس** (ar) — [روبيو: حادثة القاعدة الجوية البريطانية تحمل بصمات «طرف أجنبي»](https://example.invalid/alqabas/1038) · 18:57
 
 </details>
 
@@ -576,7 +576,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **الجريدة** (ar) — [الذهب قرب أدنى مستوى في 7 أسابيع قبل بيانات أميركية](https://example.invalid/aljarida/1037) · 19:25
+- **الجريدة** (ar) — [الذهب قرب أدنى مستوى في 7 أسابيع قبل بيانات أميركية](https://example.invalid/aljarida/1037) · 19:32
 
 </details>
 
@@ -600,7 +600,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **Arab Times** (en) — [Hurricane Polo slams Mexico with flooding and power cuts](https://example.invalid/arabtimes/1035) · 20:35
+- **Arab Times** (en) — [Hurricane Polo slams Mexico with flooding and power cuts](https://example.invalid/arabtimes/1035) · 20:42
 
 </details>
 
@@ -624,7 +624,7 @@ Not available — no AI provider is configured for this run.
 
 <details><summary><b>References (1)</b></summary>
 
-- **Arab Times** (en) — [Taylor Swift sets new record at MTV VMAs](https://example.invalid/arabtimes/1036) · 20:00
+- **Arab Times** (en) — [Taylor Swift sets new record at MTV VMAs](https://example.invalid/arabtimes/1036) · 20:07
 
 </details>
 
@@ -636,66 +636,66 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 
 ### الرأي — 11 articles
 
-- 00:40 `local` [مجلس الوزراء يوافق على إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير «الصبية» وجزيرة بوبيان](https://example.invalid/alrai/1000)
-- 17:05 `local` [ذهبيتان وبرونزيتان لـ«رماية» الكويت في آسياد اليابان](https://example.invalid/alrai/1027)
-- 17:40 `local` [السند: انطلاق المرحلة الثانية من تكويت الوظائف القضائية المساندة](https://example.invalid/alrai/1012)
-- 23:30 `local` [سمو الأمير يشمل برعايته حفل افتتاح حديقة الشهيد المرحلة الثالثة مساء غد](https://example.invalid/alrai/1016)
-- 21:45 `local` [الكويت والسعودية تعززان التنسيق الفني لإنجاز مشروع الربط المائي](https://example.invalid/alrai/1033)
-- 00:40 `local` [سعر برميل النفط الكويتي ينخفض إلى 106.51 دولار](https://example.invalid/alrai/1014)
-- 18:50 `local` [سمو ولي العهد ورئيس الاتحاد السويسري يترأسان جلسة المباحثات الرسمية بين الكويت وسويسرا](https://example.invalid/alrai/1010)
-- 20:00 `local` [جامعة الكويت تعلن مواعيد التسجيل لـ«اختبار القدرات» لطلبة الـ12](https://example.invalid/alrai/1008)
-- 22:55 `local` [تحديد موعد انطلاق «خليجي 28» في العراق](https://example.invalid/alrai/1031)
-- 20:35 `local` [وزيرة «التنمية والاستدامة» تحيل إلى النيابة العامة واقعة فقد مستندات رسمية من «هيئة البيئة»](https://example.invalid/alrai/1021)
-- 18:15 `local` [«الشؤون»: حلّ 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص للنيابة](https://example.invalid/alrai/1025)
+- 00:47 `local` [مجلس الوزراء يوافق على إلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير «الصبية» وجزيرة بوبيان](https://example.invalid/alrai/1000)
+- 17:12 `local` [ذهبيتان وبرونزيتان لـ«رماية» الكويت في آسياد اليابان](https://example.invalid/alrai/1027)
+- 17:47 `local` [السند: انطلاق المرحلة الثانية من تكويت الوظائف القضائية المساندة](https://example.invalid/alrai/1012)
+- 23:37 `local` [سمو الأمير يشمل برعايته حفل افتتاح حديقة الشهيد المرحلة الثالثة مساء غد](https://example.invalid/alrai/1016)
+- 21:52 `local` [الكويت والسعودية تعززان التنسيق الفني لإنجاز مشروع الربط المائي](https://example.invalid/alrai/1033)
+- 00:47 `local` [سعر برميل النفط الكويتي ينخفض إلى 106.51 دولار](https://example.invalid/alrai/1014)
+- 18:57 `local` [سمو ولي العهد ورئيس الاتحاد السويسري يترأسان جلسة المباحثات الرسمية بين الكويت وسويسرا](https://example.invalid/alrai/1010)
+- 20:07 `local` [جامعة الكويت تعلن مواعيد التسجيل لـ«اختبار القدرات» لطلبة الـ12](https://example.invalid/alrai/1008)
+- 23:02 `local` [تحديد موعد انطلاق «خليجي 28» في العراق](https://example.invalid/alrai/1031)
+- 20:42 `local` [وزيرة «التنمية والاستدامة» تحيل إلى النيابة العامة واقعة فقد مستندات رسمية من «هيئة البيئة»](https://example.invalid/alrai/1021)
+- 18:22 `local` [«الشؤون»: حلّ 15 جمعية تعاونية وعزل 76 عضواً وإحالة 304 أشخاص للنيابة](https://example.invalid/alrai/1025)
 
 ### Kuwait Times — 9 articles
 
-- 22:55 `local` [Cabinet clears abolition of Silk City development body](https://example.invalid/kuwaittimes/1003)
-- 21:10 `local` [Wage payment system launched](https://example.invalid/kuwaittimes/1006)
-- 21:10 `local` [Anti-narcotics officers arrest 12 suspects in eight cases, seize drugs and weapon](https://example.invalid/kuwaittimes/1020)
-- 00:40 `local` [Al-Mudhaf wins double gold as Kuwait shooters light up Asian Games](https://example.invalid/kuwaittimes/1028)
-- 22:55 `local` [Stage set for grand opening of Al-Shaheed Park Phase 3](https://example.invalid/kuwaittimes/1017)
-- 22:20 `local` [Kuwait, Saudi Arabia advance water interconnection project](https://example.invalid/kuwaittimes/1032)
-- 18:15 `local` [Crown Prince's visit to Switzerland to boost relations](https://example.invalid/kuwaittimes/1011)
-- 21:10 `local` [Vessel Struck by Suspected Projectile in Strait of Hormuz](https://example.invalid/kuwaittimes/1034)
-- 17:40 `local` [Kuwait-Swiss ties mark 60 yrs of diplomatic relations](https://example.invalid/kuwaittimes/1040)
+- 23:02 `local` [Cabinet clears abolition of Silk City development body](https://example.invalid/kuwaittimes/1003)
+- 21:17 `local` [Wage payment system launched](https://example.invalid/kuwaittimes/1006)
+- 21:17 `local` [Anti-narcotics officers arrest 12 suspects in eight cases, seize drugs and weapon](https://example.invalid/kuwaittimes/1020)
+- 00:47 `local` [Al-Mudhaf wins double gold as Kuwait shooters light up Asian Games](https://example.invalid/kuwaittimes/1028)
+- 23:02 `local` [Stage set for grand opening of Al-Shaheed Park Phase 3](https://example.invalid/kuwaittimes/1017)
+- 22:27 `local` [Kuwait, Saudi Arabia advance water interconnection project](https://example.invalid/kuwaittimes/1032)
+- 18:22 `local` [Crown Prince's visit to Switzerland to boost relations](https://example.invalid/kuwaittimes/1011)
+- 21:17 `local` [Vessel Struck by Suspected Projectile in Strait of Hormuz](https://example.invalid/kuwaittimes/1034)
+- 17:47 `local` [Kuwait-Swiss ties mark 60 yrs of diplomatic relations](https://example.invalid/kuwaittimes/1040)
 
 ### Arab Times — 7 articles
 
-- 21:45 `local` [Kuwait Arrests 12 Suspects in 8 Cases, Seizes Drugs, Alcohol and Firearm](https://example.invalid/arabtimes/1019)
-- 00:05 `local` [Kuwait shooters claim two golds at Asian Games](https://example.invalid/arabtimes/1029)
-- 17:05 `local` [Kuwaitization Axes 62 More Expat Judicial Jobs](https://example.invalid/arabtimes/1041)
-- 23:30 `local` [Iraq to host Gulf Cup 28](https://example.invalid/arabtimes/1030)
-- 20:00 `local` [Missing Official Documents at the Environment Authority Referred to Prosecution](https://example.invalid/arabtimes/1022)
-- 20:35 `local` [Hurricane Polo slams Mexico with flooding and power cuts](https://example.invalid/arabtimes/1035)
-- 20:00 `local` [Taylor Swift sets new record at MTV VMAs](https://example.invalid/arabtimes/1036)
+- 21:52 `local` [Kuwait Arrests 12 Suspects in 8 Cases, Seizes Drugs, Alcohol and Firearm](https://example.invalid/arabtimes/1019)
+- 00:12 `local` [Kuwait shooters claim two golds at Asian Games](https://example.invalid/arabtimes/1029)
+- 17:12 `local` [Kuwaitization Axes 62 More Expat Judicial Jobs](https://example.invalid/arabtimes/1041)
+- 23:37 `local` [Iraq to host Gulf Cup 28](https://example.invalid/arabtimes/1030)
+- 20:07 `local` [Missing Official Documents at the Environment Authority Referred to Prosecution](https://example.invalid/arabtimes/1022)
+- 20:42 `local` [Hurricane Polo slams Mexico with flooding and power cuts](https://example.invalid/arabtimes/1035)
+- 20:07 `local` [Taylor Swift sets new record at MTV VMAs](https://example.invalid/arabtimes/1036)
 
 ### الجريدة — 6 articles
 
-- 23:30 `local` [مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان](https://example.invalid/aljarida/1002)
-- 21:45 `local` [«المركزي» يطلق نظام الكويت لحماية ودفع الأجور «KWPS»](https://example.invalid/aljarida/1005)
-- 00:05 `local` [النفط الكويتي ينخفض إلى 106.51 دولار للبرميل](https://example.invalid/aljarida/1015)
-- 17:40 `local` [رسوب شبه جماعي في اختبارات «إشرافية التعاونيات»](https://example.invalid/aljarida/1026)
-- 19:25 `local` [مجلس الأمة يبحث تقرير اللجنة المالية بشأن الميزانية العامة للدولة](https://example.invalid/aljarida/1023)
-- 19:25 `local` [الذهب قرب أدنى مستوى في 7 أسابيع قبل بيانات أميركية](https://example.invalid/aljarida/1037)
+- 23:37 `local` [مجلس الوزراء يوافق على مشروع مرسوم بإلغاء مرسوم إنشاء جهاز تطوير مدينة الحرير وجزيرة بوبيان](https://example.invalid/aljarida/1002)
+- 21:52 `local` [«المركزي» يطلق نظام الكويت لحماية ودفع الأجور «KWPS»](https://example.invalid/aljarida/1005)
+- 00:12 `local` [النفط الكويتي ينخفض إلى 106.51 دولار للبرميل](https://example.invalid/aljarida/1015)
+- 17:47 `local` [رسوب شبه جماعي في اختبارات «إشرافية التعاونيات»](https://example.invalid/aljarida/1026)
+- 19:32 `local` [مجلس الأمة يبحث تقرير اللجنة المالية بشأن الميزانية العامة للدولة](https://example.invalid/aljarida/1023)
+- 19:32 `local` [الذهب قرب أدنى مستوى في 7 أسابيع قبل بيانات أميركية](https://example.invalid/aljarida/1037)
 
 ### الأنباء — 5 articles
 
-- 00:05 `local` [إلغاء تطوير «الحرير» و«بوبيان» وتعديل «الشركات»](https://example.invalid/alanba/1001)
-- 17:05 `local` [«العدل»: بدء المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة](https://example.invalid/alanba/1013)
-- 19:25 `local` [جامعة الكويت تعلن مواعيد التسجيل لـ«الاختبار الوطني الموحد» لطلب التقديم](https://example.invalid/alanba/1009)
-- 18:50 `local` [«المالية البرلمانية» تناقش الميزانية العامة وإعادة هيكلة الدعم](https://example.invalid/alanba/1024)
-- 18:15 `local` [«الصحة» تعلن افتتاح أقسام جديدة في مستشفى الفروانية](https://example.invalid/alanba/1039)
+- 00:12 `local` [إلغاء تطوير «الحرير» و«بوبيان» وتعديل «الشركات»](https://example.invalid/alanba/1001)
+- 17:12 `local` [«العدل»: بدء المرحلة الثانية من تكويت الوظائف القضائية المساندة في النيابة](https://example.invalid/alanba/1013)
+- 19:32 `local` [جامعة الكويت تعلن مواعيد التسجيل لـ«الاختبار الوطني الموحد» لطلب التقديم](https://example.invalid/alanba/1009)
+- 18:57 `local` [«المالية البرلمانية» تناقش الميزانية العامة وإعادة هيكلة الدعم](https://example.invalid/alanba/1024)
+- 18:22 `local` [«الصحة» تعلن افتتاح أقسام جديدة في مستشفى الفروانية](https://example.invalid/alanba/1039)
 
 ### Times Kuwait — 2 articles
 
-- 22:20 `local` [Govt approves cancellation of decree establishing Silk City, BIDA](https://example.invalid/timeskuwait/1004)
-- 20:35 `local` [Kuwait's New Wage System to Protect Private-Sector Employees' Salaries](https://example.invalid/timeskuwait/1007)
+- 22:27 `local` [Govt approves cancellation of decree establishing Silk City, BIDA](https://example.invalid/timeskuwait/1004)
+- 20:42 `local` [Kuwait's New Wage System to Protect Private-Sector Employees' Salaries](https://example.invalid/timeskuwait/1007)
 
 ### القبس — 2 articles
 
-- 22:20 `local` [الداخلية: ضبط 12 متهماً في 8 قضايا بحوزتهم مواد مخدرة ومؤثرات عقلية وسلاح](https://example.invalid/alqabas/1018)
-- 18:50 `local` [روبيو: حادثة القاعدة الجوية البريطانية تحمل بصمات «طرف أجنبي»](https://example.invalid/alqabas/1038)
+- 22:27 `local` [الداخلية: ضبط 12 متهماً في 8 قضايا بحوزتهم مواد مخدرة ومؤثرات عقلية وسلاح](https://example.invalid/alqabas/1018)
+- 18:57 `local` [روبيو: حادثة القاعدة الجوية البريطانية تحمل بصمات «طرف أجنبي»](https://example.invalid/alqabas/1038)
 
 ---
 

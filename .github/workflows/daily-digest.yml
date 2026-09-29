@@ -49,20 +49,40 @@ jobs:
       - name: Run the unit tests
         run: python -m unittest discover -s tests
 
-      - name: Collect, analyse and email
+      # Exercises the real analysis path against the live provider. Without
+      # this, a bad model name or an expired key is only discovered at 08:00.
+      - name: Verify the analysis provider
+        continue-on-error: true
         env:
-          # --- AI provider: set ONE of these -----------------------------
-          # The first key found is used. Gemini has the most generous free
-          # tier for a daily job; any of them works.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
+        run: python -m news_scanner check-llm -v
+
+      - name: Collect, analyse and email
+        env:
+          # --- AI provider: set ONE of these -----------------------------
+          # The first key found is used. Gemini has the most generous free
+          # tier for a daily job; any of them works.
+          #
+          # If you set NONE of them, analysis still runs: it falls back to
+          # the keyless LLM7 gateway (https://api.llm7.io/v1, model
+          # "default"), so a fresh fork produces a real brief on day one.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Optional: raises LLM7's rate limit. Not required.
+          LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
           # Optional overrides:
-          # NEWSCANNER_PROVIDER: gemini
-          # NEWSCANNER_MODEL: gemini-2.5-flash
+          # NEWSCANNER_PROVIDER: llm7
+          # NEWSCANNER_MODEL: default
           # NEWSCANNER_LANGUAGE: bilingual
+          # NEWSCANNER_NO_LLM7: "1"
 
           # --- Email delivery --------------------------------------------
           SMTP_HOST: ${{ secrets.SMTP_HOST }}

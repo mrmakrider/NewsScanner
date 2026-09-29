@@ -33,6 +33,9 @@ DEFAULT_MODELS = {
     "anthropic": "claude-sonnet-4-5-20250929",
     "openrouter": "google/gemini-2.5-flash",
     "groq": "llama-3.3-70b-versatile",
+    # LLM7's "default" routing mode balances quality against latency by
+    # picking the first available model. "fast" and "pro" also work.
+    "llm7": "default",
     "ollama": "llama3.1",
 }
 
@@ -42,9 +45,32 @@ KEY_ENV = {
     "anthropic": ("ANTHROPIC_API_KEY",),
     "openrouter": ("OPENROUTER_API_KEY",),
     "groq": ("GROQ_API_KEY",),
+    # Optional: a free token from https://token.llm7.io/ raises the rate
+    # limit. Anonymous access works without one.
+    "llm7": ("LLM7_API_KEY", "NEWSCANNER_LLM7_KEY"),
 }
 
-PROVIDER_ORDER = ["gemini", "openai", "anthropic", "openrouter", "groq", "ollama"]
+# OpenAI-compatible gateways and the base URL each one lives behind.
+OPENAI_COMPATIBLE_BASES = {
+    "openai": "https://api.openai.com/v1",
+    "openrouter": "https://openrouter.ai/api/v1",
+    "groq": "https://api.groq.com/openai/v1",
+    "llm7": "https://api.llm7.io/v1",
+}
+
+# Providers that honour the OpenAI `response_format: json_object` parameter.
+# LLM7 fans a request out across heterogeneous backends, so the parameter is
+# deliberately not sent there — parse_json_object() recovers JSON from prose
+# or fenced blocks anyway.
+JSON_MODE_PROVIDERS = {"openai", "openrouter", "groq"}
+
+# Providers that work with no API key at all.
+KEYLESS_PROVIDERS = {"llm7", "ollama"}
+
+# Auto-detection order. Explicit configuration always wins: an API key, an
+# OLLAMA_* opt-in or a NEWSCANNER_PROVIDER setting all take precedence over
+# the keyless LLM7 default below.
+PROVIDER_ORDER = ["gemini", "openai", "anthropic", "openrouter", "groq", "ollama", "llm7"]
 
 
 @dataclass
@@ -74,23 +100,39 @@ class AnalysisConfig:
 
 
 def detect_provider(requested: str = "auto") -> tuple[str, str, str]:
-    """Return ``(provider, model, api_key)`` or ``("none", "", "")``."""
+    """Return ``(provider, model, api_key)`` or ``("none", "", "")``.
+
+    Precedence, most deliberate first:
+
+    1. an explicit ``NEWSCANNER_PROVIDER``
+    2. any configured API key (Gemini, OpenAI, Anthropic, OpenRouter, Groq)
+    3. ``OLLAMA_HOST`` / ``NEWSCANNER_USE_OLLAMA=1``
+    4. **LLM7** — the keyless default, so an unconfigured checkout still gets
+       real analysis instead of the extractive fallback
+
+    Set ``NEWSCANNER_NO_LLM7=1`` to skip step 4.
+    """
     if requested == "none":
         return "none", "", ""
 
     if requested and requested != "auto":
         key = _key_for(requested)
-        if requested == "ollama" or key:
-            return requested, os.getenv("NEWSCANNER_MODEL", "") or DEFAULT_MODELS.get(requested, ""), key
+        if requested in KEYLESS_PROVIDERS or key:
+            model = os.getenv("NEWSCANNER_MODEL", "") or DEFAULT_MODELS.get(requested, "")
+            return requested, model, key
         log.warning("provider %r requested but no API key found", requested)
         return "none", "", ""
 
     for provider in PROVIDER_ORDER:
-        key = _key_for(provider)
         if provider == "ollama":
             if os.getenv("OLLAMA_HOST") or os.getenv("NEWSCANNER_USE_OLLAMA") == "1":
                 return provider, DEFAULT_MODELS[provider], ""
             continue
+        if provider == "llm7":
+            if os.getenv("NEWSCANNER_NO_LLM7", "").strip() == "1":
+                continue
+            return provider, os.getenv("NEWSCANNER_MODEL", "") or DEFAULT_MODELS["llm7"], _key_for("llm7")
+        key = _key_for(provider)
         if key:
             return provider, DEFAULT_MODELS.get(provider, ""), key
     return "none", "", ""
@@ -124,13 +166,20 @@ class LLMClient:
 
     # -- providers ---------------------------------------------------------
     def _openai_compatible(self, system: str, user: str, max_tokens: int) -> str:
-        bases = {
-            "openai": "https://api.openai.com/v1",
-            "openrouter": "https://openrouter.ai/api/v1",
-            "groq": "https://api.groq.com/openai/v1",
-        }
-        base = bases.get(self.provider, "https://api.openai.com/v1")
-        headers = {"Authorization": f"Bearer {self.api_key}"}
+        base = OPENAI_COMPATIBLE_BASES.get(
+            self.provider, OPENAI_COMPATIBLE_BASES["openai"]
+        )
+        base = (
+            os.getenv("NEWSCANNER_BASE_URL", "").strip().rstrip("/")
+            if self.provider == "llm7"
+            else ""
+        ) or base
+
+        headers: dict[str, str] = {}
+        # LLM7's free anonymous tier works with no credential at all, so the
+        # header is only sent when there is genuinely something to send.
+        if self.api_key:
+            headers["Authorization"] = f"Bearer {self.api_key}"
         if self.provider == "openrouter":
             headers["HTTP-Referer"] = "https://github.com/mrmakrider/NewsScanner"
             headers["X-Title"] = "NewsScanner"
@@ -142,14 +191,20 @@ class LLMClient:
                 {"role": "user", "content": user},
             ],
             "temperature": 0.25,
-            "response_format": {"type": "json_object"},
         }
+        if self.provider in JSON_MODE_PROVIDERS:
+            payload["response_format"] = {"type": "json_object"}
+
         # Reasoning-era OpenAI models renamed the cap parameter.
         if re.match(r"^(o\d|gpt-5)", self.model):
             payload["max_completion_tokens"] = max_tokens
             payload.pop("temperature", None)
             payload.pop("response_format", None)
         else:
+            if self.provider == "llm7":
+                # The gateway routes to whatever free backend is available,
+                # so ask for less than we would from a first-party API.
+                max_tokens = min(max_tokens, 4000)
             payload["max_tokens"] = max_tokens
 
         data = fetch_json(
@@ -472,7 +527,10 @@ class AnalysisEngine:
 
     def save_cache(self) -> None:
         path = self.config.cache_path
-        if not path or not self._cache_dirty:
+        # `use_cache=False` must mean "do not touch the cache at all". Writing
+        # anyway would let a --no-cache diagnostic run (or a test with a stub
+        # model) persist its results and serve them back to real runs later.
+        if not path or not self.config.use_cache or not self._cache_dirty:
             return
         # Keep the cache bounded.
         if len(self.cache) > 4000:
