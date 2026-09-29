@@ -13,12 +13,22 @@ import json
 import logging
 import os
 import re
+import time
+from collections import deque
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 from .http import FetchError, fetch_json
 from .models import Story
+from .resilience import (
+    CircuitBreaker,
+    Deadline,
+    Pacer,
+    classify_failure,
+    retry_after_of,
+    sleep_for,
+)
 from .util import fmt_local, truncate
 
 log = logging.getLogger(__name__)
@@ -72,6 +82,47 @@ KEYLESS_PROVIDERS = {"llm7", "ollama"}
 # the keyless LLM7 default below.
 PROVIDER_ORDER = ["gemini", "openai", "anthropic", "openrouter", "groq", "ollama", "llm7"]
 
+# The keyless LLM7 tier rate-limits by IP and reacts badly to a burst, so a
+# run without a token is paced from the start. Keyed providers get no floor:
+# they bill per token and are expected to absorb a full-speed run.
+KEYLESS_FLOOR_SECONDS = 2.5
+
+# A free gateway gives up on a slow generation well before the 150s default,
+# and a request that is going to time out is worth abandoning early so the
+# batch can be split into something that will actually finish.
+KEYLESS_TIMEOUT_CAP = 60
+
+# Longest single pause when every provider is cooling down. The breaker's own
+# cooldowns grow to 15 minutes; waiting that long only makes sense if there is
+# a budget to spend, so an unbudgeted run re-probes sooner instead.
+MAX_RECOVERY_PAUSE = 120.0
+
+
+def _env_float(name: str, default: float) -> float:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return default
+    try:
+        return float(raw)
+    except ValueError:
+        log.warning("%s=%r is not a number; using %s", name, raw, default)
+        return default
+
+
+def _env_int(name: str, default: int) -> int:
+    return int(_env_float(name, float(default)))
+
+
+def _env_float_optional(name: str) -> float | None:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return None
+    try:
+        return float(raw)
+    except ValueError:
+        log.warning("%s=%r is not a number; ignoring", name, raw)
+        return None
+
 
 @dataclass
 class AnalysisConfig:
@@ -85,6 +136,21 @@ class AnalysisConfig:
     cache_path: Path | None = None
     use_cache: bool = True
 
+    # -- resilience --------------------------------------------------------
+    # A wall-clock budget for the whole analysis step. The GitHub job is
+    # killed at 30 minutes; stopping early means the brief is still written,
+    # committed and emailed, with the un-analysed stories labelled as such.
+    max_llm_seconds: float = 0.0        # 0 = no budget (tests, ad-hoc runs)
+    call_attempts: int = 2              # rounds through the provider chain per call
+    retry_passes: int = 1               # deferred retries of what failed
+    pass_cooldown: float = 12.0         # seconds to let a throttled provider recover
+    min_interval: float | None = None   # override the per-provider pacer floor
+    max_interval: float = 20.0          # ceiling the pacer backs off to
+    breaker_threshold: int = 3          # failures before a provider is benched
+    breaker_cooldown: float = 45.0      # first cooldown, doubling per trip
+    incremental_cache: bool = True      # persist each batch, survive a crash
+    cache_flush_seconds: float = 30.0
+
     @classmethod
     def from_env(cls, **overrides) -> "AnalysisConfig":
         cfg = cls(
@@ -92,6 +158,11 @@ class AnalysisConfig:
             model=os.getenv("NEWSCANNER_MODEL", "").strip(),
             language=os.getenv("NEWSCANNER_LANGUAGE", "bilingual").strip().lower(),
             temperature=float(os.getenv("NEWSCANNER_TEMPERATURE", "0.25")),
+            max_llm_seconds=_env_float("NEWSCANNER_LLM_BUDGET", 0.0),
+            call_attempts=_env_int("NEWSCANNER_LLM_ATTEMPTS", 2),
+            retry_passes=_env_int("NEWSCANNER_LLM_RETRY_PASSES", 1),
+            min_interval=_env_float_optional("NEWSCANNER_LLM_MIN_INTERVAL"),
+            max_interval=_env_float("NEWSCANNER_LLM_MAX_INTERVAL", 20.0),
         )
         for key, value in overrides.items():
             if value is not None:
@@ -144,6 +215,83 @@ def _key_for(provider: str) -> str:
         if value:
             return value
     return ""
+
+
+@dataclass(frozen=True)
+class ProviderCandidate:
+    """One provider the engine may call, and the model to ask it for."""
+
+    provider: str
+    model: str
+    api_key: str
+
+    @property
+    def label(self) -> str:
+        return f"{self.provider}/{self.model}" if self.model else self.provider
+
+
+def detect_candidates(requested: str = "auto") -> list[ProviderCandidate]:
+    """Every provider this run may use, best first.
+
+    ``detect_provider`` answers "who should do the work". This answers the
+    follow-up question a scheduled job has to care about: "and who else, if
+    that one starts refusing?" The primary is always first, so an ordinary
+    run behaves exactly as before; the rest only matter on failure.
+
+    Two fallbacks are appended for the keyless default:
+
+    * the same gateway on its ``fast`` route, which is the documented answer
+      to the gateway timeouts (HTTP 524) the ``default`` route produces on
+      long prompts;
+    * nothing else, unless other API keys are configured.
+
+    A run with a real key therefore falls back to the keyless gateway rather
+    than falling all the way to extractive summaries. Set
+    ``NEWSCANNER_NO_LLM7=1`` to opt out of that, or ``NEWSCANNER_MODEL`` to
+    pin one model and suppress the fast-route variant.
+
+    An explicitly requested provider is the whole chain: pinning ``openai``
+    must not quietly spend someone else's quota, so the extra candidates are
+    only gathered in ``auto`` mode.
+    """
+    candidates: list[ProviderCandidate] = []
+    seen: set[tuple[str, str]] = set()
+    explicit_model = os.getenv("NEWSCANNER_MODEL", "").strip()
+
+    def add(provider: str, model: str, key: str) -> None:
+        if not provider or provider == "none":
+            return
+        model = model or DEFAULT_MODELS.get(provider, "")
+        signature = (provider, model)
+        if signature in seen:
+            return
+        seen.add(signature)
+        candidates.append(ProviderCandidate(provider, model, key))
+
+    primary = detect_provider(requested)
+    if primary[0] != "none":
+        add(*primary)
+
+    auto = requested in ("", "auto")
+    for provider in PROVIDER_ORDER:
+        if not auto and provider != primary[0]:
+            continue
+        if provider == "ollama":
+            if os.getenv("OLLAMA_HOST") or os.getenv("NEWSCANNER_USE_OLLAMA") == "1":
+                add(provider, DEFAULT_MODELS[provider], "")
+            continue
+        if provider == "llm7":
+            if os.getenv("NEWSCANNER_NO_LLM7", "").strip() == "1":
+                continue
+            add("llm7", explicit_model or DEFAULT_MODELS["llm7"], _key_for("llm7"))
+            if not explicit_model:
+                add("llm7", "fast", _key_for("llm7"))
+            continue
+        key = _key_for(provider)
+        if key:
+            add(provider, explicit_model or DEFAULT_MODELS.get(provider, ""), key)
+
+    return candidates
 
 
 class LLMClient:
@@ -208,7 +356,11 @@ class LLMClient:
             payload["max_tokens"] = max_tokens
 
         data = fetch_json(
-            f"{base}/chat/completions", payload, headers=headers, timeout=self.timeout
+            f"{base}/chat/completions",
+            payload,
+            headers=headers,
+            timeout=self.timeout,
+            retry_connect_errors=False,
         )
         return data["choices"][0]["message"]["content"]
 
@@ -226,7 +378,7 @@ class LLMClient:
                 "responseMimeType": "application/json",
             },
         }
-        data = fetch_json(url, payload, timeout=self.timeout)
+        data = fetch_json(url, payload, timeout=self.timeout, retry_connect_errors=False)
         candidates = data.get("candidates") or []
         if not candidates:
             raise FetchError(f"gemini returned no candidates: {str(data)[:300]}")
@@ -250,6 +402,7 @@ class LLMClient:
             payload,
             headers=headers,
             timeout=self.timeout,
+            retry_connect_errors=False,
         )
         blocks = data.get("content") or []
         return "".join(b.get("text", "") for b in blocks if b.get("type") == "text")
@@ -266,7 +419,9 @@ class LLMClient:
             "format": "json",
             "options": {"temperature": 0.25},
         }
-        data = fetch_json(f"{host}/api/chat", payload, timeout=self.timeout)
+        data = fetch_json(
+            f"{host}/api/chat", payload, timeout=self.timeout, retry_connect_errors=False
+        )
         return data.get("message", {}).get("content", "")
 
 
@@ -424,12 +579,19 @@ def build_story_user_prompt(
     *,
     language: str,
     max_story_chars: int,
-    index: int,
+    index: int = 0,
+    ids: list[str] | None = None,
 ) -> str:
+    """Build the per-batch prompt.
+
+    ``ids`` names each story explicitly. A batch that gets split in half after
+    a failure must keep the identifiers the model was given the first time
+    round, or the answers come back attached to the wrong stories.
+    """
     _, lang_instruction = _field_spec(language)
     blocks = []
     for offset, story in enumerate(stories):
-        sid = f"S{index + offset + 1}"
+        sid = ids[offset] if ids and offset < len(ids) else f"S{index + offset + 1}"
         primary = story.primary
 
         headline_lines = []
@@ -497,6 +659,41 @@ class AnalysisResult:
     model: str = ""
     analysed: int = 0
     errors: list[str] = field(default_factory=list)
+    # -- how hard the run had to work, for the log and the run report ------
+    providers_used: list[str] = field(default_factory=list)
+    retries: int = 0          # failed calls retried, at batch or story level
+    splits: int = 0           # batches halved to dodge a gateway timeout
+    missing: int = 0          # stories the model silently skipped
+
+
+class _ChainEntry:
+    """One callable provider: its client, its pacing, its breaker.
+
+    State lives here rather than in the engine so that a provider which is
+    throttled stays throttled across batches — the whole point of pacing is
+    that the next batch inherits what the last one learned.
+    """
+
+    def __init__(
+        self,
+        candidate: ProviderCandidate,
+        *,
+        timeout: int,
+        floor: float,
+        ceiling: float,
+        breaker_threshold: int,
+        breaker_cooldown: float,
+    ):
+        self.provider = candidate.provider
+        self.model = candidate.model
+        self.api_key = candidate.api_key
+        self.label = candidate.label
+        self.client = LLMClient(candidate.provider, candidate.model, candidate.api_key, timeout)
+        self.pacer = Pacer(floor=floor, ceiling=ceiling)
+        self.breaker = CircuitBreaker(
+            threshold=breaker_threshold, cooldown=breaker_cooldown
+        )
+        self.used = 0
 
 
 class AnalysisEngine:
@@ -512,8 +709,36 @@ class AnalysisEngine:
         )
         self.cache: dict[str, Any] = {}
         self._cache_dirty = False
+        self._last_flush = 0.0
+        # Whether anything this run was throttled (as opposed to unreachable or
+        # just wrong). Only throttles are worth waiting out; see _recovery_wait.
+        self._saw_throttle = False
         if config.use_cache and config.cache_path:
             self._load_cache()
+
+    # -- provider chain ----------------------------------------------------
+    def _build_chain(self) -> list[_ChainEntry]:
+        """The providers this run may use, each with its own pacing and breaker."""
+        entries: list[_ChainEntry] = []
+        for candidate in detect_candidates(self.config.provider):
+            keyless = candidate.provider in KEYLESS_PROVIDERS and not candidate.api_key
+            floor = self.config.min_interval
+            if floor is None:
+                floor = KEYLESS_FLOOR_SECONDS if keyless else 0.0
+            timeout = self.config.timeout
+            if keyless and candidate.provider == "llm7":
+                timeout = min(timeout, KEYLESS_TIMEOUT_CAP)
+            entries.append(
+                _ChainEntry(
+                    candidate,
+                    timeout=timeout,
+                    floor=floor,
+                    ceiling=max(floor, self.config.max_interval),
+                    breaker_threshold=self.config.breaker_threshold,
+                    breaker_cooldown=self.config.breaker_cooldown,
+                )
+            )
+        return entries
 
     # -- cache -------------------------------------------------------------
     def _load_cache(self) -> None:
@@ -567,84 +792,477 @@ class AnalysisEngine:
             result.analysed = len(stories)
             return result
 
-        pending: list[Story] = []
-        for story in stories:
-            key = self._cache_key(story)
-            cached = self.cache.get(key)
-            if isinstance(cached, dict) and cached.get("summary_en") or (
-                isinstance(cached, dict) and cached.get("summary_ar")
-            ):
-                result.stories[story.key] = cached
-            else:
-                pending.append(story)
+        self._saw_throttle = False
+        pending = self._pending(stories, result)
 
-        log.info(
-            "analysis: %d cached, %d to analyse via %s/%s",
-            len(result.stories), len(pending), self.provider, self.model,
-        )
+        entries = self._build_chain()
+        if not entries:
+            log.warning("no usable LLM provider — falling back to extractive analysis")
+            for story in pending:
+                result.stories[story.key] = extractive_analysis(
+                    story, self.config.language
+                )
+            result.synthesis = extractive_synthesis(stories, self.config.language)
+            result.analysed = len(result.stories)
+            return result
 
         size = max(1, self.config.batch_size)
-        for start in range(0, len(pending), size):
-            batch = pending[start : start + size]
-            index = start
-            try:
-                payload = self._analyse_batch(batch, index)
-            except Exception as exc:
-                result.errors.append(f"batch {start // size + 1}: {exc}")
-                log.warning("analysis batch failed (%s); using extractive fallback", exc)
-                for story in batch:
-                    result.stories[story.key] = extractive_analysis(
-                        story, self.config.language
-                    )
-                continue
+        log.info(
+            "analysis: %d cached, %d to analyse in ~%d call(s) via %s",
+            len(result.stories), len(pending), -(-len(pending) // size),
+            " → ".join(e.label for e in entries),
+        )
 
-            by_id = {}
-            for item in payload.get("stories", []) or []:
-                if isinstance(item, dict) and item.get("id"):
-                    by_id[str(item["id"]).strip().upper()] = item
+        deadline = Deadline(self.config.max_llm_seconds)
+        numbered = [(f"S{i + 1}", story) for i, story in enumerate(pending)]
+        queue = deque(numbered[i : i + size] for i in range(0, len(numbered), size))
+        unresolved = self._work(queue, entries, deadline, result)
 
-            for offset, story in enumerate(batch):
-                sid = f"S{index + offset + 1}"
-                item = by_id.get(sid)
-                if not item:
-                    result.stories[story.key] = extractive_analysis(
-                        story, self.config.language
-                    )
-                    continue
-                item.pop("id", None)
-                item["_source"] = "llm"
-                result.stories[story.key] = item
-                self.cache[self._cache_key(story)] = item
-                self._cache_dirty = True
+        # Deferred passes. What failed is retried after a cooldown rather than
+        # written off: throttles expire, and the retry carries trimmed prompts,
+        # so a gateway that timed out on a large payload gets a smaller one.
+        for pass_no in range(2, self.config.retry_passes + 2):
+            if not unresolved or deadline.expired():
+                break
+            wait = self._recovery_wait(pass_no, deadline)
+            if wait > 0:
+                log.info(
+                    "analysis: waiting %.0fs before retrying %d unresolved batch(es)",
+                    wait, len(unresolved),
+                )
+                time.sleep(wait)
+            if deadline.expired():
+                break
+            result.retries += len(unresolved)
+            unresolved = self._work(
+                deque(unresolved),
+                entries,
+                deadline,
+                result,
+                trim=self._trim(pass_no),
+                attempts=1,
+            )
 
+        for batch in unresolved:
+            for _sid, story in batch:
+                result.stories[story.key] = extractive_analysis(
+                    story, self.config.language
+                )
+
+        if result.providers_used:
+            # Name the provider that actually did the work rather than the one
+            # that was asked first: a run that failed over should say so.
+            result.provider = result.providers_used[0].split("/")[0]
         result.analysed = len(result.stories)
+        self._flush_cache(force=True)
 
         try:
-            result.synthesis = self._synthesise(stories, result.stories)
+            result.synthesis = self._synthesise(
+                stories, result.stories, entries, deadline, result
+            )
         except Exception as exc:
             result.errors.append(f"synthesis: {exc}")
             log.warning("synthesis failed: %s", exc)
             result.synthesis = extractive_synthesis(stories, self.config.language)
 
+        if result.splits or result.retries or result.missing or result.errors:
+            log.info(
+                "analysis: %d with a model · %d retried · %d batch(es) split · "
+                "%d skipped by the model · %d error(s)",
+                sum(1 for a in result.stories.values() if a.get("_source") == "llm"),
+                result.retries, result.splits, result.missing, len(result.errors),
+            )
         return result
 
+    # -- work queue --------------------------------------------------------
+    def _pending(self, stories: list[Story], result: AnalysisResult) -> list[Story]:
+        """Split the input into cache hits and stories that still need a call."""
+        pending: list[Story] = []
+        for story in stories:
+            cached = self.cache.get(self._cache_key(story))
+            if isinstance(cached, dict) and (cached.get("summary_en") or cached.get("summary_ar")):
+                result.stories[story.key] = cached
+            else:
+                pending.append(story)
+        return pending
+
+    def _trim(self, pass_no: int) -> float:
+        """How much of each story to keep on retry pass ``pass_no``.
+
+        A Cloudflare 524 from a gateway means the generation ran out of time,
+        and prompt size is the largest lever on that. Each pass keeps less of
+        the body text, down to a third — enough for the model to work with,
+        small enough to actually come back.
+        """
+        return max(0.35, 0.75 ** (max(1, pass_no) - 1))
+
+    def _recovery_wait(self, pass_no: int, deadline: Deadline) -> float:
+        """How long to pause before a deferred retry pass.
+
+        Only a throttle is worth waiting out. An unreachable gateway or a bad
+        key will not improve by sitting still — the retry is about sending a
+        smaller request, not about patience — so those get a token pause.
+        """
+        base = self.config.pass_cooldown if self._saw_throttle else min(1.0, self.config.pass_cooldown)
+        return deadline.clamp(base * (pass_no - 1))
+
+    def _work(
+        self,
+        queue: deque,
+        entries: list[_ChainEntry],
+        deadline: Deadline,
+        result: AnalysisResult,
+        trim: float = 1.0,
+        attempts: int | None = None,
+    ) -> list[list[tuple[str, Story]]]:
+        """Drain a queue of batches, returning the ones that could not be done."""
+        unresolved: list[list[tuple[str, Story]]] = []
+        while queue:
+            batch = queue.popleft()
+            if deadline.expired():
+                log.warning(
+                    "analysis: budget of %.0fs spent — %d batch(es) left un-analysed",
+                    self.config.max_llm_seconds, len(unresolved) + 1 + len(queue),
+                )
+                unresolved.append(batch)
+                unresolved.extend(queue)
+                break
+
+            # If every provider is benched there is nothing to send: pause for
+            # the earliest cooldown instead of burning through the queue on
+            # calls that cannot be made. Worth doing only when the trouble was
+            # a throttle — a host that is down stays down.
+            if self._saw_throttle and entries and all(not e.breaker.allow() for e in entries):
+                wait = deadline.clamp(
+                    min(min(e.breaker.remaining for e in entries), MAX_RECOVERY_PAUSE)
+                )
+                if wait > 0:
+                    log.info("analysis: every provider is cooling down — pausing %.0fs", wait)
+                    time.sleep(wait)
+                if deadline.expired():
+                    unresolved.append(batch)
+                    unresolved.extend(queue)
+                    break
+
+            leftover = self._attempt_batch(batch, entries, deadline, result, trim, attempts)
+            if leftover:
+                unresolved.append(leftover)
+        return unresolved
+
+    def _attempt_batch(
+        self,
+        batch: list[tuple[str, Story]],
+        entries: list[_ChainEntry],
+        deadline: Deadline,
+        result: AnalysisResult,
+        trim: float = 1.0,
+        attempts: int | None = None,
+    ) -> list[tuple[str, Story]]:
+        """Analyse a batch, halving it on failure before giving up on a story.
+
+        Splitting is the one thing that reliably fixes a gateway timeout: the
+        prompt that timed out will time out again, but half of it usually will
+        not. Only a single story that still fails is handed to the extractive
+        fallback — and the halves are tried breadth-first, so the run gets as
+        far as it can with the time it has.
+
+        The batch as it arrived gets the full retry budget; its halves get one
+        round each, because a split *is* a retry — re-running the same unhappy
+        provider on the same large prompt is what the split exists to avoid.
+        """
+        pending: list[list[tuple[str, Story]]] = [list(batch)]
+        failed: list[tuple[str, Story]] = []
+        first_round = True
+
+        while pending:
+            current = pending.pop(0)
+            rounds = (attempts if attempts is not None else self.config.call_attempts) \
+                if first_round else 1
+            first_round = False
+            max_chars = max(400, int(self.config.max_story_chars * trim))
+            try:
+                payload = self._analyse_batch(
+                    current,
+                    0,
+                    entries=entries,
+                    deadline=deadline,
+                    max_chars=max_chars,
+                    result=result,
+                    attempts=rounds,
+                )
+            except Exception as exc:
+                if len(current) > 1:
+                    mid = len(current) // 2
+                    result.splits += 1
+                    log.warning(
+                        "analysis: batch of %d failed (%s) — splitting into %d + %d",
+                        len(current), exc, mid, len(current) - mid,
+                    )
+                    pending.insert(0, current[:mid])
+                    pending.insert(1, current[mid:])
+                    continue
+                sid, story = current[0]
+                result.errors.append(f"{sid} {truncate(story.primary.title, 70)}: {exc}")
+                log.warning("analysis: giving up on %s — %s", sid, exc)
+                failed.append(current[0])
+                continue
+
+            self._store(current, payload, result)
+            self._flush_cache()
+
+        return failed
+
+    def _store(
+        self,
+        batch: list[tuple[str, Story]],
+        payload: dict,
+        result: AnalysisResult,
+    ) -> None:
+        """Attach a model's answers to the stories they belong to."""
+        by_id: dict[str, dict] = {}
+        for item in payload.get("stories", []) or []:
+            if isinstance(item, dict) and item.get("id"):
+                by_id[str(item["id"]).strip().upper()] = item
+
+        for sid, story in batch:
+            item = by_id.get(sid.strip().upper())
+            if not item:
+                # The model answered but skipped this one. That is a quality
+                # failure, not an outage: fall back quietly, and count it.
+                result.missing += 1
+                log.warning("analysis: no answer returned for %s", sid)
+                result.stories[story.key] = extractive_analysis(
+                    story, self.config.language
+                )
+                continue
+            item.pop("id", None)
+            item["_source"] = "llm"
+            result.stories[story.key] = item
+            self.cache[self._cache_key(story)] = item
+            self._cache_dirty = True
+
+    def _flush_cache(self, *, force: bool = False) -> None:
+        """Persist progress mid-run.
+
+        A run that dies at the step timeout keeps everything it managed to
+        analyse, and the 08:30 retry — or tomorrow's run — picks up from
+        there instead of paying for the same calls twice.
+        """
+        if not (self.config.incremental_cache and self.config.use_cache and self.config.cache_path):
+            return
+        now = time.monotonic()
+        if not force and now - self._last_flush < self.config.cache_flush_seconds:
+            return
+        self._last_flush = now
+        self.save_cache()
+
     # -- calls -------------------------------------------------------------
-    def _analyse_batch(self, batch: list[Story], index: int) -> dict:
-        assert self.client is not None
+    def _complete(
+        self,
+        entries: list[_ChainEntry],
+        *,
+        system: str,
+        user: str,
+        max_tokens: int,
+        kind: str,
+        deadline: Deadline,
+        result: AnalysisResult,
+        attempts: int | None = None,
+    ) -> str:
+        """One model call, paced, failed over and circuit-broken.
+
+        Each round walks the provider chain in order: a provider whose breaker
+        is open is skipped, the pacer sleeps its interval before the call, and
+        a failure is fed back into both the pacer and the breaker. A round
+        that fails everywhere backs off before the next one — and if *every*
+        provider is benched, the shortest cooldown is waited out instead of
+        returning empty-handed, because a job that runs once a day can afford
+        to wait for its only gateway to forgive it.
+        """
+        last_exc: Exception | None = None
+        rounds = max(1, attempts if attempts is not None else self.config.call_attempts)
+
+        for attempt in range(1, rounds + 1):
+            if deadline.expired():
+                raise last_exc or FetchError(
+                    f"{kind}: the analysis budget ran out before the call was made"
+                )
+            blocked: list[float] = []
+            down: set[str] = set()
+            for entry in entries:
+                if entry.provider in down:
+                    # Same provider, different model: the host has already
+                    # refused this round, so asking it again is just noise.
+                    continue
+                if not entry.breaker.allow():
+                    blocked.append(entry.breaker.remaining)
+                    continue
+                entry.pacer.wait(deadline)
+                try:
+                    out = entry.client.complete(system, user, max_tokens=max_tokens)
+                except Exception as exc:  # noqa: BLE001 — every failure is the policy's business
+                    last_exc = exc
+                    if classify_failure(exc) == "unreachable":
+                        down.add(entry.provider)
+                    self._record_failure(entry, exc)
+                    continue
+                entry.breaker.record_success()
+                entry.pacer.on_success()
+                entry.used += 1
+                if entry.label not in result.providers_used:
+                    result.providers_used.append(entry.label)
+                    if entry.provider != self.provider:
+                        log.info("analysis: failing over to %s", entry.label)
+                return out
+
+            if attempt >= rounds:
+                break
+
+            # How long the next round is worth waiting. A throttle clears with
+            # time and earns a real backoff; an unreachable host or a rejected
+            # key does not, and waiting on those only delays the fallback that
+            # actually helps — to another provider, or to the summary.
+            failure_kind = classify_failure(last_exc) if last_exc else "unknown"
+            wait = (
+                sleep_for(attempt, retry_after=retry_after_of(last_exc))
+                if failure_kind == "throttled"
+                else 0.5
+            )
+            if blocked:
+                # Everything is benched; the earliest recovery is the ceiling
+                # on how long it is worth waiting.
+                wait = min(wait, min(blocked))
+            wait = deadline.clamp(wait)
+            if wait <= 0:
+                break
+            if wait >= 1:
+                log.info(
+                    "%s: nothing callable (%s), waiting %.0fs before attempt %d/%d",
+                    kind, failure_kind, wait, attempt + 1, rounds,
+                )
+            time.sleep(wait)
+
+        raise last_exc or FetchError(f"{kind}: no provider available")
+
+    def _record_failure(self, entry: _ChainEntry, exc: Exception) -> None:
+        """Feed a failure into the provider's pacing and breaker."""
+        cooldown = entry.breaker.record_failure()
+        kind = classify_failure(exc)
+        if kind == "throttled":
+            self._saw_throttle = True
+        elif kind == "invalid":
+            # A rejected key or a malformed request will not fix itself on the
+            # next batch. Park the provider for good rather than paying for it
+            # on every batch of the run.
+            entry.breaker.record_failure()
+            entry.breaker.record_failure()
+        if kind == "throttled":
+            entry.pacer.on_throttle(retry_after_of(exc))
+        else:
+            # Nothing is reaching the provider, so there is nothing to pace.
+            # Spacing these calls out would only slow the run on its way to
+            # the breaker that is about to bench the provider anyway.
+            entry.pacer.reset()
+        if cooldown:
+            log.warning("%s: %s — circuit open for %.0fs (%s)", entry.label, exc, cooldown, kind)
+        else:
+            log.warning("%s: %s (%s)", entry.label, exc, kind)
+
+    def _analyse_batch(
+        self,
+        batch: list[Story] | list[tuple[str, Story]],
+        index: int = 0,
+        *,
+        entries: list[_ChainEntry] | None = None,
+        deadline: Deadline | None = None,
+        max_chars: int | None = None,
+        result: AnalysisResult | None = None,
+        attempts: int | None = None,
+    ) -> dict:
+        """One batch to the model.
+
+        Accepts either plain stories (the ``check-llm`` diagnostic calls it
+        that way) or ``(id, story)`` pairs, which is how the queue tracks a
+        batch across a split.
+        """
+        pairs: list[tuple[str, Story]] = []
+        for offset, item in enumerate(batch):
+            if isinstance(item, tuple):
+                pairs.append((str(item[0]), item[1]))
+            else:
+                pairs.append((f"S{index + offset + 1}", item))
+        if not pairs:
+            raise FetchError("empty batch")
+
+        if entries is None:
+            entries = self._build_chain()
+        if not entries:
+            raise FetchError("no LLM provider configured")
+        if deadline is None:
+            deadline = Deadline(0)
+        if result is None:
+            result = AnalysisResult()
+
         user = build_story_user_prompt(
-            batch,
+            [story for _sid, story in pairs],
             language=self.config.language,
-            max_story_chars=self.config.max_story_chars,
-            index=index,
+            max_story_chars=max_chars or self.config.max_story_chars,
+            ids=[sid for sid, _story in pairs],
         )
-        raw = self.client.complete(SYSTEM_PROMPT, user)
+        raw = self._complete(
+            entries,
+            system=SYSTEM_PROMPT,
+            user=user,
+            max_tokens=8000,
+            kind=f"batch {pairs[0][0]}",
+            deadline=deadline,
+            result=result,
+            attempts=attempts,
+        )
         payload = parse_json_object(raw)
         if not payload.get("stories"):
             raise FetchError("model returned no usable stories array")
         return payload
 
-    def _synthesise(self, stories: list[Story], analyses: dict[str, dict]) -> dict:
-        assert self.client is not None
+    def _synthesise(
+        self,
+        stories: list[Story],
+        analyses: dict[str, dict],
+        entries: list[_ChainEntry] | None = None,
+        deadline: Deadline | None = None,
+        result: AnalysisResult | None = None,
+    ) -> dict:
+        """The day's editorial synthesis.
+
+        This is one call over every analysed story, so it carries the largest
+        prompt of the run and is the first thing a gateway times out on. On
+        failure it is retried over the top stories only — a synthesis of the
+        day's twelve biggest stories is a better briefing than none.
+        """
+        try:
+            return self._synthesise_once(stories, analyses, entries, deadline, result)
+        except Exception as exc:
+            reduced = stories[:12]
+            if len(reduced) == len(stories):
+                raise
+            log.warning(
+                "synthesis failed over %d stories (%s) — retrying with the top %d",
+                len(stories), exc, len(reduced),
+            )
+            if result is not None:
+                result.retries += 1
+            return self._synthesise_once(reduced, analyses, entries, deadline, result)
+
+    def _synthesise_once(
+        self,
+        stories: list[Story],
+        analyses: dict[str, dict],
+        entries: list[_ChainEntry] | None = None,
+        deadline: Deadline | None = None,
+        result: AnalysisResult | None = None,
+    ) -> dict:
+        if self.client is None:
+            raise FetchError("no LLM provider configured")
         _, lang_instruction = _field_spec(self.config.language)
 
         lines = []
@@ -685,7 +1303,15 @@ only, leave the _en fields empty."""
             f"Return ONLY a JSON object matching this schema:\n{schema}\n\n"
             "--- STORIES ---\n\n" + "\n".join(lines)
         )
-        raw = self.client.complete(SYNTHESIS_SYSTEM, user, max_tokens=4000)
+        raw = self._complete(
+            entries if entries is not None else self._build_chain(),
+            system=SYNTHESIS_SYSTEM,
+            user=user,
+            max_tokens=4000,
+            kind="synthesis",
+            deadline=deadline if deadline is not None else Deadline(0),
+            result=result if result is not None else AnalysisResult(),
+        )
         payload = parse_json_object(raw)
         if not payload:
             raise FetchError("model returned no usable synthesis")

@@ -156,6 +156,13 @@ def cmd_check_llm(args: argparse.Namespace) -> int:
     detected = "explicitly disabled" if engine.provider == "none" else engine.provider
     print(f"  provider : {detected}")
     print(f"  model    : {engine.model or '(none)'}")
+    if engine.provider != "none":
+        from .analyze import detect_candidates
+
+        fallbacks = [c.label for c in detect_candidates(config.provider)[1:]]
+        print(f"  fallbacks: {' → '.join(fallbacks) if fallbacks else '(none)'}")
+        budget = config.max_llm_seconds
+        print(f"  budget   : {'unlimited' if not budget else f'{budget:.0f}s'}")
     if engine.provider == "llm7":
         from .analyze import OPENAI_COMPATIBLE_BASES
 
@@ -383,6 +390,21 @@ def cmd_run(args: argparse.Namespace) -> int:
     result = engine.analyse(top)
     engine.save_cache()
 
+    # Say plainly how much of the brief came from a model. A run that lost
+    # most of its calls but still produced a digest used to look successful in
+    # the log; the fallback is legitimate, the silence about it was not.
+    if result.providers_used and result.provider != engine.provider:
+        log.warning(
+            "the configured provider (%s) did not serve the run; %s did",
+            engine.provider, result.provider,
+        )
+    if result.errors or result.splits or result.retries:
+        log.warning(
+            "analysis was degraded: %d error(s), %d retried, %d batch(es) split, "
+            "%d story(ies) the model skipped",
+            len(result.errors), result.retries, result.splits, result.missing,
+        )
+
     analyses = [result.stories.get(story.key, {}) for story in top]
     # Stories beyond the analysis budget still appear in the appendix.
     tail = stories[max_analyze:]
@@ -411,6 +433,12 @@ def cmd_run(args: argparse.Namespace) -> int:
             "window_end": started.isoformat(),
             "major_threshold": major_threshold,
             "categories": {},
+            # How much the model actually contributed, and how hard it had to
+            # be pushed. Visible in the digest JSON and in the run log.
+            "analysis_retries": result.retries,
+            "analysis_splits": result.splits,
+            "analysis_missing": result.missing,
+            "analysis_providers": result.providers_used,
         },
     )
     from collections import Counter

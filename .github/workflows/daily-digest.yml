@@ -107,6 +107,13 @@ jobs:
           # NEWSCANNER_LANGUAGE: bilingual
           # NEWSCANNER_NO_LLM7: "1"
 
+          # Stop analysing after 20 minutes and write up what we have. The job
+          # itself is killed at 30, and a step killed mid-write produces no
+          # digest at all; this way a slow or throttled morning still delivers
+          # a brief, with the analysed stories marked as such. Everything
+          # already analysed is cached, so the 08:30 retry resumes from there.
+          NEWSCANNER_LLM_BUDGET: "1200"
+
           # --- Email delivery --------------------------------------------
           # The recipient defaults to mrmakrider@gmail.com. Set a MAIL_TO
           # secret to send somewhere else; comma-separate for several.
