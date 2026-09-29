@@ -6,7 +6,7 @@ briefed digest — with a reference to every original article, and an analysis
 that tries to read what is *between* the lines.
 
 ```
-39 articles · 9 outlets  →  25 stories  →  3 major  →  1 email
+42 articles · 7 outlets  →  23 stories  →  5 major  →  1 email
 ```
 
 - **Aggregates everything.** Nine outlets, ~55 feed endpoints, plus best-effort
@@ -70,33 +70,67 @@ This sends one real story through the configured provider and prints the
 analysis it gets back, so a bad model name or an expired key surfaces
 immediately rather than at 08:00. The workflow runs it too.
 
-### 3. Add your email (optional but recommended)
+### 3. Add the mailbox it sends from
 
-| Secret | Example |
+The brief is addressed to **mrmakrider@gmail.com** by default — you do not have
+to configure a recipient. Set a `MAIL_TO` secret only to send it somewhere else
+(comma-separate for several).
+
+Sending still needs a mailbox to send *from*. Add these four secrets:
+
+| Secret | Value |
 |---|---|
 | `SMTP_HOST` | `smtp.gmail.com` |
 | `SMTP_PORT` | `587` |
-| `SMTP_USER` | `you@gmail.com` |
-| `SMTP_PASSWORD` | a Gmail **App Password** (not your login password) |
-| `SMTP_SECURITY` | `starttls` (or `ssl` for port 465) |
-| `MAIL_FROM` | `you@gmail.com` |
-| `MAIL_TO` | `you@gmail.com` |
+| `SMTP_USER` | the Gmail account you send from |
+| `SMTP_PASSWORD` | a Gmail **App Password** — *not* your login password |
 
-For Gmail: enable 2-Step Verification, then create an App Password at
-<https://myaccount.google.com/apppasswords>. Normal passwords are rejected.
+Optional: `SMTP_SECURITY` (`starttls`, the default, or `ssl` for port 465),
+`MAIL_FROM` (defaults to `SMTP_USER`), `MAIL_TO`, `NEWSCANNER_NO_EMAIL=1` to
+switch delivery off.
 
-### 4. Done
+**Gmail will reject your normal password.** You need an App Password:
+turn on 2-Step Verification, then create one at
+<https://myaccount.google.com/apppasswords> and paste the 16-character code
+into `SMTP_PASSWORD`.
 
-The workflow in `.github/workflows/daily-digest.yml` runs at **05:00 UTC =
-08:00 Kuwait** (Kuwait is UTC+3 all year, so there is no daylight-saving trap).
-It emails the digest, commits `digests/` and `state/` back to the repository,
-and uploads the digest as a build artifact.
+Check it before 08:00 does:
 
-Trigger it once by hand to check your setup:
-`Actions → Daily Kuwait News Brief → Run workflow` (tick **dry_run** first).
+```bash
+python -m news_scanner check-email          # connects and authenticates
+python -m news_scanner check-email --send   # sends a real test message
+```
 
-> GitHub's scheduler can fire a few minutes late under load. If the time
-> matters to the minute, set the cron to `45 4 * * *` for a comfortable margin.
+### 4. Merge to `main` — this is what starts the clock
+
+**GitHub only fires `schedule` triggers for the default branch.** While this
+workflow sits on a feature branch it will never run by itself, no matter what
+the cron says.
+
+Once it is on `main`:
+
+| Kuwait time | UTC cron | What happens |
+|---|---|---|
+| **08:00** | `0 5 * * *` | Collects, analyses, emails the brief |
+| 08:30 | `30 5 * * *` | Retry — exits instantly if 08:00 already delivered |
+| 09:00 | `0 6 * * *` | Last chance for the day |
+
+The two later crons are a safety net for a dropped or failed run, not a second
+edition: they read `state/last_run.json` and do nothing if today's brief
+already went out, so you will never get the digest twice.
+
+Trigger it once by hand first:
+`Actions → Daily Kuwait News Brief → Run workflow` (tick **dry_run**).
+
+### Where it is sent
+
+`mrmakrider@gmail.com`, daily at 08:00 Kuwait time. Override the address with a
+`MAIL_TO` secret; nothing else needs changing.
+
+> GitHub's scheduler can fire a few minutes late under load, and it disables
+> crons after 60 days of repository inactivity — which this job prevents by
+> committing every day. If the exact minute matters, set the first cron to
+> `45 4 * * *` for a comfortable margin.
 
 ---
 
@@ -225,6 +259,7 @@ major_outlet_threshold = 3   # outlets needed to call a story "major"
 python3 -m news_scanner run                 # the daily job
 python3 -m news_scanner check-sources       # is every outlet reachable?
 python3 -m news_scanner check-llm           # does the analysis provider work?
+python3 -m news_scanner check-email --send  # does delivery actually work?
 python3 -m news_scanner run --dry-run       # everything except email
 python3 -m news_scanner run --no-llm        # extractive only, no API cost
 python3 -m news_scanner run --no-fetch-bodies   # faster, shallower

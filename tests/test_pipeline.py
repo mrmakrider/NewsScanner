@@ -24,6 +24,7 @@ from news_scanner.analyze import (  # noqa: E402
 )
 from news_scanner.dedupe import build_stories, categorize, major_count  # noqa: E402
 from news_scanner.deliver import email_configured  # noqa: E402
+from news_scanner.sources import collect  # noqa: E402
 from news_scanner.models import Article, Digest, Story  # noqa: E402
 from news_scanner.parse import parse_date, parse_feed  # noqa: E402
 from news_scanner.render import render_html, render_markdown  # noqa: E402
@@ -545,6 +546,186 @@ class TestUtilities(unittest.TestCase):
                     os.environ[key] = value
 
 
+class TestDelivery(unittest.TestCase):
+    """Email is the delivery channel, so its defaults are part of the contract."""
+
+    SMTP_VARS = (
+        "SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_USERNAME", "SMTP_PASSWORD",
+        "SMTP_PASS", "SMTP_SECURITY", "MAIL_FROM", "MAIL_TO",
+        "NEWSCANNER_NO_EMAIL",
+    )
+
+    def setUp(self):
+        import os
+
+        self._saved = {k: os.environ.pop(k, None) for k in self.SMTP_VARS}
+
+    def tearDown(self):
+        import os
+
+        for key in self.SMTP_VARS:
+            os.environ.pop(key, None)
+        for key, value in self._saved.items():
+            if value is not None:
+                os.environ[key] = value
+
+    def test_default_recipient_is_the_configured_address(self):
+        from news_scanner.deliver import DEFAULT_MAIL_TO, recipients
+
+        self.assertEqual(DEFAULT_MAIL_TO, "mrmakrider@gmail.com")
+        self.assertEqual(recipients(), ["mrmakrider@gmail.com"])
+
+    def test_mail_to_overrides_the_default(self):
+        import os
+
+        from news_scanner.deliver import recipients
+
+        os.environ["MAIL_TO"] = "someone@example.com"
+        self.assertEqual(recipients(), ["someone@example.com"])
+
+    def test_multiple_recipients_are_split(self):
+        import os
+
+        from news_scanner.deliver import recipients
+
+        os.environ["MAIL_TO"] = "a@example.com; b@example.com, c@example.com"
+        self.assertEqual(recipients(), ["a@example.com", "b@example.com", "c@example.com"])
+
+    def test_email_can_be_switched_off(self):
+        import os
+
+        from news_scanner.deliver import email_configured, email_enabled
+
+        os.environ["SMTP_HOST"] = "smtp.example.com"
+        os.environ["NEWSCANNER_NO_EMAIL"] = "1"
+        self.assertFalse(email_enabled())
+        self.assertFalse(email_configured())
+
+    def test_missing_smtp_host_still_counts_as_unconfigured(self):
+        from news_scanner.deliver import email_configured
+
+        self.assertFalse(email_configured(), "no SMTP_HOST means we cannot send")
+
+    def test_send_email_addresses_the_default_recipient(self):
+        """The To: header must carry the default address, not a placeholder."""
+        import os
+        import smtplib
+        from unittest import mock
+
+        os.environ["SMTP_HOST"] = "smtp.example.com"
+        os.environ["SMTP_USER"] = "sender@example.com"
+        os.environ["SMTP_PASSWORD"] = "app-password"
+
+        sent = {}
+
+        class FakeSMTP:
+            def __init__(self, host, port, **kwargs):
+                sent["host"] = host
+                sent["port"] = port
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *exc):
+                return False
+
+            def ehlo(self):
+                pass
+
+            def starttls(self, context=None):
+                sent["starttls"] = True
+
+            def login(self, user, password):
+                sent["login"] = (user, password)
+
+            def send_message(self, msg):
+                sent["message"] = msg
+
+        with mock.patch.object(smtplib, "SMTP", FakeSMTP):
+            from news_scanner.deliver import send_email
+
+            ok = send_email("Subject", "<p>html</p>", "text")
+
+        self.assertTrue(ok)
+        message = sent["message"]
+        self.assertEqual(message["To"], "mrmakrider@gmail.com")
+        self.assertEqual(message["Subject"], "Subject")
+        self.assertEqual(sent["host"], "smtp.example.com")
+        self.assertEqual(sent["login"], ("sender@example.com", "app-password"))
+        self.assertTrue(sent["starttls"])
+        # Both a plain-text and an HTML part must be present.
+        self.assertTrue(message.is_multipart())
+        self.assertIn("text/plain", message.as_string())
+        self.assertIn("text/html", message.as_string())
+
+    def test_send_email_is_a_no_op_without_smtp_host(self):
+        from news_scanner.deliver import send_email
+
+        self.assertFalse(send_email("Subject", "<p>x</p>", "x"))
+
+    def test_verify_email_explains_what_is_missing(self):
+        from news_scanner.deliver import verify_email
+
+        ok, detail = verify_email()
+        self.assertFalse(ok)
+        self.assertIn("SMTP_HOST", detail)
+
+
+class TestRunMarker(unittest.TestCase):
+    """The 08:30 retry relies on this marker; getting it wrong double-sends."""
+
+    def setUp(self):
+        from news_scanner import cli
+
+        self.cli = cli
+        self.marker = cli._run_marker_path()
+        self._backup = self.marker.read_text("utf-8") if self.marker.exists() else None
+        if self.marker.exists():
+            self.marker.unlink()
+
+    def tearDown(self):
+        if self.marker.exists():
+            self.marker.unlink()
+        if self._backup is not None:
+            self.marker.parent.mkdir(parents=True, exist_ok=True)
+            self.marker.write_text(self._backup, "utf-8")
+
+    def test_marker_round_trips(self):
+        self.assertEqual(self.cli._read_run_marker(), {})
+        self.cli._write_run_marker("2026-09-30", emailed=True, stories=23)
+        marker = self.cli._read_run_marker()
+        self.assertEqual(marker["date"], "2026-09-30")
+        self.assertTrue(marker["emailed"])
+        self.assertEqual(marker["stories"], 23)
+
+    def test_attempts_accumulate(self):
+        self.cli._write_run_marker("2026-09-30", emailed=False, stories=1)
+        self.cli._write_run_marker("2026-09-30", emailed=True, stories=1)
+        self.assertEqual(self.cli._read_run_marker()["attempts"], 2)
+
+    def test_corrupt_marker_does_not_crash(self):
+        self.marker.parent.mkdir(parents=True, exist_ok=True)
+        self.marker.write_text("{not json", "utf-8")
+        self.assertEqual(self.cli._read_run_marker(), {})
+
+    def test_skip_if_done_only_skips_for_today(self):
+        from scripts.demo import fake_collect
+
+        self.cli.collect = fake_collect
+        try:
+            self.cli._write_run_marker("2026-09-29", emailed=True, stories=5)
+            rc = self.cli.main(
+                ["run", "--skip-if-done", "--date", "2026-09-30", "--no-llm",
+                 "--dry-run", "--no-fetch-bodies", "--no-cache", "--no-marker",
+                 "--output", "/tmp/newsscanner-marker-test"]
+            )
+            self.assertEqual(rc, 0)
+            # It ran (and rewrote nothing) because the marker was for another day.
+            self.assertEqual(self.cli._read_run_marker()["date"], "2026-09-29")
+        finally:
+            self.cli.collect = collect
+
+
 class TestLLM7Provider(unittest.TestCase):
     """LLM7 is the keyless default, so its wire format must be exactly right.
 
@@ -624,6 +805,7 @@ class TestLLM7Provider(unittest.TestCase):
     def tearDownClass(cls):
         cls.server.shutdown()
         cls.server.server_close()
+        cls.thread.join(timeout=2)
 
     def setUp(self):
         import os

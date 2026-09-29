@@ -356,7 +356,8 @@ def main(argv: list[str] | None = None) -> int:
     cli.collect = fake_collect  # type: ignore[assignment]
     args = list(argv or [])
     if not args:
-        args = ["run", "--no-llm", "--no-email", "--no-fetch-bodies", "--no-cache", "-v"]
+        args = ["run", "--no-llm", "--no-email", "--no-fetch-bodies", "--no-cache",
+                "--no-marker", "-v"]
     return cli.main(args)
 
 

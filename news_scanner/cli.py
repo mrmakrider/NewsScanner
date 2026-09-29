@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
 import sys
@@ -11,12 +12,12 @@ from pathlib import Path
 
 from .analyze import AnalysisConfig, AnalysisEngine, detect_provider
 from .dedupe import build_stories, categorize, major_count
-from .deliver import email_configured, send_email, write_outputs
+from .deliver import email_configured, recipients, send_email, write_outputs
 from .extract import extract_body
 from .models import Article, Digest
 from .render import render_html, render_markdown, render_json
 from .sources import collect, load_config
-from .util import now_kuwait, to_kuwait, truncate
+from .util import fmt_local, now_kuwait, to_kuwait, truncate
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUTPUT = REPO_ROOT / "digests"
@@ -218,8 +219,115 @@ def _probe_articles() -> list[Article]:
     ]
 
 
+def _run_marker_path() -> Path:
+    return DEFAULT_CACHE.parent / "last_run.json"
+
+
+def _read_run_marker() -> dict:
+    path = _run_marker_path()
+    try:
+        return json.loads(path.read_text("utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def _write_run_marker(date_str: str, *, emailed: bool, stories: int) -> None:
+    """Record that today's brief went out.
+
+    The retry schedule reads this so a second attempt at 08:30 cannot send a
+    duplicate digest when the 08:00 run already succeeded.
+    """
+    path = _run_marker_path()
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(
+            json.dumps(
+                {
+                    "date": date_str,
+                    "delivered_at": now_kuwait().isoformat(),
+                    "emailed": emailed,
+                    "stories": stories,
+                    "attempts": int(_read_run_marker().get("attempts", 0)) + 1,
+                },
+                ensure_ascii=False,
+                indent=1,
+            )
+            + "\n",
+            "utf-8",
+        )
+    except OSError as exc:
+        log.warning("could not write run marker: %s", exc)
+
+
+def cmd_check_email(args: argparse.Namespace) -> int:
+    """Verify SMTP credentials and show exactly where the digest will go."""
+    from .deliver import DEFAULT_MAIL_TO, email_enabled, recipients, verify_email
+
+    to_list = recipients()
+    print("Delivery configuration")
+    print(f"  recipients : {', '.join(to_list)}")
+    if to_list == [DEFAULT_MAIL_TO]:
+        print(f"               (built-in default — set MAIL_TO to change it)")
+    print(f"  from       : {os.getenv('MAIL_FROM', '').strip() or os.getenv('SMTP_USER', '').strip() or '(SMTP_USER)'}")
+    print(f"  smtp host  : {os.getenv('SMTP_HOST', '').strip() or '(not set)'}")
+    print(f"  smtp port  : {os.getenv('SMTP_PORT', '').strip() or '587'}")
+    print(f"  security   : {os.getenv('SMTP_SECURITY', '').strip() or 'starttls'}")
+    print(f"  enabled    : {'no (NEWSCANNER_NO_EMAIL=1)' if not email_enabled() else 'yes'}")
+
+    smtp_user = os.getenv("SMTP_USER", "").strip()
+    if not smtp_user or not os.getenv("SMTP_PASSWORD", "").strip():
+        print("\nSMTP_USER / SMTP_PASSWORD are not both set.")
+        print("For Gmail you must use an App Password, not your account password:")
+        print("  https://myaccount.google.com/apppasswords")
+        print("Then set SMTP_HOST=smtp.gmail.com, SMTP_PORT=587, SMTP_SECURITY=starttls,")
+        print(f"SMTP_USER=<you@gmail.com>, SMTP_PASSWORD=<app password>.")
+
+    print("\nContacting the mail server…")
+    ok, detail = verify_email()
+    print(f"  {'OK' if ok else 'FAILED'} — {detail}")
+    if not ok:
+        print("\nThe digest would still be built and committed, but not emailed.")
+        return 1
+
+    if args.send:
+        from .deliver import send_email
+
+        subject = "🇰🇼 Kuwait Morning Brief — test message"
+        body = (
+            "<p>This is a test message from NewsScanner.</p>"
+            f"<p>If you are reading it, the daily 08:00 Kuwait brief will arrive "
+            f"here: <b>{', '.join(to_list)}</b>.</p>"
+        )
+        print("\nSending a test message…")
+        if send_email(subject, body, "NewsScanner test message — delivery is working."):
+            print(f"  OK — sent to {', '.join(to_list)}")
+            return 0
+        print("  FAILED — see the log above")
+        return 1
+
+    print("\nDelivery is configured. Re-run with --send to send a test message.")
+    return 0
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     started = now_kuwait()
+
+    # -- 0. has today's brief already gone out? ---------------------------
+    today = args.date or started.strftime("%Y-%m-%d")
+    if args.skip_if_done:
+        marker = _read_run_marker()
+        if marker.get("date") == today and marker.get("delivered_at"):
+            stamp = marker.get("delivered_at")
+            try:
+                label = fmt_local(datetime.fromisoformat(stamp))
+            except (TypeError, ValueError):
+                label = stamp
+            log.info("today's brief already went out at %s — nothing to do", label)
+            return 0
+
+    if args.mail_to:
+        os.environ["MAIL_TO"] = args.mail_to
+
     sources, settings = load_config(args.config)
 
     if args.sources:
@@ -282,7 +390,7 @@ def cmd_run(args: argparse.Namespace) -> int:
         log.info("%d lower-ranked stories listed without analysis", len(tail))
 
     # -- 4. assemble ------------------------------------------------------
-    digest_date = args.date or started.strftime("%Y-%m-%d")
+    digest_date = today
     digest = Digest(
         date=digest_date,
         generated_at=started,
@@ -329,24 +437,42 @@ def cmd_run(args: argparse.Namespace) -> int:
         log.info("wrote %s → %s", name, path)
 
     # -- 6. email ---------------------------------------------------------
+    delivered = False
     if args.no_email or args.dry_run:
         log.info("email skipped (dry run / --no-email)")
     elif not email_configured():
-        log.info(
-            "email not configured — set SMTP_HOST, SMTP_USER, SMTP_PASSWORD and "
-            "MAIL_TO to receive the brief in your inbox"
+        log.warning(
+            "email not configured — the brief was written and committed but not sent. "
+            "Set SMTP_HOST, SMTP_USER and SMTP_PASSWORD, then run "
+            "`python -m news_scanner check-email --send` to verify. "
+            "The recipient defaults to %s.",
+            ", ".join(recipients()),
         )
     else:
         date_label = datetime.strptime(digest_date, "%Y-%m-%d").strftime("%a %d %b %Y")
         subject = f"🇰🇼 Kuwait Morning Brief — {date_label} — {majors} major stories"
-        send_email(subject, html, _plain_text_fallback(digest))
+        delivered = send_email(subject, html, _plain_text_fallback(digest))
+        if not delivered:
+            log.error("the brief was built and committed, but email delivery failed")
+
+    # Record the completed delivery so the retry schedule can tell a finished
+    # run from one that died part-way through. A dry run, a --no-email run and
+    # a failed send must all leave the marker alone, or a later attempt would
+    # decide there was nothing left to do and the day's brief would never send.
+    if not (args.dry_run or args.no_email or args.no_marker):
+        if delivered or not email_configured():
+            _write_run_marker(digest_date, emailed=delivered, stories=len(stories))
 
     elapsed = (now_kuwait() - started).total_seconds()
     log.info(
         "done in %.1fs · %d articles → %d stories · %d major · %d analysed (%s)",
         elapsed, len(articles), len(stories), majors, len(top), result.provider,
     )
-    return 0
+    if args.dry_run or args.no_email or delivered or not email_configured():
+        return 0
+    # Email was configured and did not go out: surface it so the workflow
+    # fails visibly and the retry schedule runs again.
+    return 1
 
 
 def _plain_text_fallback(digest: Digest) -> str:
@@ -387,7 +513,7 @@ def build_parser() -> argparse.ArgumentParser:
         description="Aggregate Kuwait's news into one analysed morning brief.",
     )
     parser.add_argument("command", nargs="?", default="run",
-                        choices=["run", "check-sources", "check-llm"])
+                        choices=["run", "check-sources", "check-llm", "check-email"])
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG,
                         help="path to sources.toml")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT,
@@ -412,6 +538,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--no-fetch-bodies", action="store_true",
                         help="do not fetch full article text (faster, shallower analysis)")
     parser.add_argument("--dry-run", action="store_true", help="run everything except email")
+    parser.add_argument("--to", dest="mail_to", help="override the recipient address(es)")
+    parser.add_argument("--skip-if-done", action="store_true", dest="skip_if_done",
+                        help="exit without doing anything if today's brief already went out")
+    parser.add_argument("--no-marker", action="store_true", dest="no_marker",
+                        help="do not write state/last_run.json (diagnostics, demos)")
     parser.add_argument("-v", "--verbose", action="store_true")
     return parser
 
@@ -432,6 +563,8 @@ def main(argv: list[str] | None = None) -> int:
             return cmd_check_sources(args)
         if args.command == "check-llm":
             return cmd_check_llm(args)
+        if args.command == "check-email":
+            return cmd_check_email(args)
         return cmd_run(args)
     except KeyboardInterrupt:
         log.warning("interrupted")
