@@ -37,6 +37,33 @@ def _md_escape(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _renderable_links(synth: dict[str, Any], story_count: int) -> list[dict[str, str]]:
+    """Links safe to show, re-checked at the point of display.
+
+    The engine validates links before they reach a Digest, but a renderer also
+    reads digests written days ago and by older versions of the pipeline. A
+    link pointing at a story that is not on the page renders as a dead
+    reference, so the same check is applied again here — cheaply, and without
+    trusting that the data came through the current code path.
+    """
+    raw = synth.get("links")
+    if not isinstance(raw, list):
+        return []
+    valid = {f"S{i + 1}" for i in range(story_count)}
+    out: list[dict[str, str]] = []
+    for link in raw:
+        if not isinstance(link, dict):
+            continue
+        kind = str(link.get("type", "")).strip()
+        src = str(link.get("from", "")).strip()
+        dst = str(link.get("to", "")).strip()
+        evidence = str(link.get("evidence", "")).strip()
+        if not (kind and src and dst and evidence) or src not in valid or dst not in valid:
+            continue
+        out.append({"type": kind, "from": src, "to": dst, "evidence": evidence})
+    return out
+
+
 def _has_arabic(text: str) -> bool:
     return bool(re.search(r"[\u0600-\u06ff]", text or ""))
 
@@ -161,6 +188,50 @@ def render_markdown(digest: Digest) -> str:
         out.append("")
         out.append(watch)
         out.append("")
+
+    # -- connections ------------------------------------------------------
+    # The point of the whole link layer: today's stories shown against each
+    # other rather than as a list. Rendered immediately after the editorial
+    # material because it is what explains why the editor chose what they did.
+    links = _renderable_links(synth, len(stories))
+    if links:
+        out.append("## 🕸️ How today's stories connect")
+        out.append("")
+        by_kind: dict[str, list[dict[str, str]]] = {}
+        for link in links:
+            by_kind.setdefault(link["type"], []).append(link)
+        out.append(
+            f"*{len(links)} connections across {len(by_kind)} relationship "
+            "types.*"
+        )
+        out.append("")
+        for kind in sorted(by_kind, key=lambda k: (-len(by_kind[k]), k)):
+            label, _color = _link_label(kind)
+            out.append(f"**{_md_escape(label)}** ({len(by_kind[kind])})")
+            out.append("")
+            for edge in by_kind[kind]:
+                out.append(
+                    f"- **{_md_escape(edge['from'])} → {edge['to']}** — "
+                    f"{_md_escape(edge['evidence'])}"
+                )
+            out.append("")
+
+    # -- tactical / strategic ---------------------------------------------
+    tactical = _bilingual(synth.get("tactical_en", ""), synth.get("tactical_ar", ""))
+    strategic = _bilingual(synth.get("strategic_en", ""), synth.get("strategic_ar", ""))
+    if tactical or strategic:
+        out.append("## 🎯 Tactical and strategic")
+        out.append("")
+        if tactical:
+            out.append("**This week**")
+            out.append("")
+            out.append(tactical)
+            out.append("")
+        if strategic:
+            out.append("**The longer arc**")
+            out.append("")
+            out.append(strategic)
+            out.append("")
 
     # -- at a glance ------------------------------------------------------
     by_category = _group_by_category(stories)
@@ -370,6 +441,24 @@ _CSS_WRAP = (
 )
 
 
+# Relationship types, as the reader sees them. Each gets a colour so a graph
+# can be scanned rather than read: a page of same_actor edges in one colour
+# reads differently from a page of contradictions.
+_LINK_STYLES = {
+    "consequence": ("caused", "#0b6b4f"),
+    "reaction": ("in response to", "#8a5a00"),
+    "contradiction": ("outlets disagree", "#b00020"),
+    "same_actor": ("same actor", "#3b4fa0"),
+    "same_source_angle": ("same source", "#6b4fa0"),
+    "escalation": ("escalating", "#a03b00"),
+}
+
+
+def _link_label(kind: str) -> tuple[str, str]:
+    """(human label, colour) for a relationship type, with a safe default."""
+    return _LINK_STYLES.get(kind, (kind.replace("_", " "), "#65676b"))
+
+
 def _h(text: str) -> str:
     return html_mod.escape(text or "", quote=True)
 
@@ -460,6 +549,69 @@ def render_html(digest: Digest) -> str:
             )
         parts.append("</ul>")
 
+    links = _renderable_links(synth, len(stories))
+    if links:
+        # Group by relationship type so the shape of the day is legible at a
+        # glance: several contradictions in one edition is itself a finding.
+        by_kind: dict[str, list[dict[str, str]]] = {}
+        for link in links:
+            by_kind.setdefault(link["type"], []).append(link)
+
+        parts.append(
+            '<h2 style="font-size:17px;color:#0b6b4f;margin:24px 0 4px;">'
+            "🕸️ How today's stories connect</h2>"
+        )
+        total = len(links)
+        kinds = len(by_kind)
+        parts.append(
+            '<div style="font-size:12px;color:#65676b;margin-bottom:10px;">'
+            f"{total} connection{'' if total == 1 else 's'} across {kinds} "
+            f"relationship{'s' if kinds != 1 else ''}. Follow a number to jump "
+            "to that story.</div>"
+        )
+
+        for kind in sorted(by_kind, key=lambda k: (-len(by_kind[k]), k)):
+            label, color = _link_label(kind)
+            edges = by_kind[kind]
+            parts.append(
+                f'<div style="margin:12px 0 4px;font-size:13px;font-weight:700;'
+                f'color:{color};">{_h(label)} '
+                f'<span style="color:#65676b;font-weight:400;">({len(edges)})</span></div>'
+                '<ul style="margin:0;padding-left:20px;">'
+            )
+            for edge in edges:
+                parts.append(
+                    '<li style="margin-bottom:6px;">'
+                    f'<a href="#story-{_h(edge["from"])}" style="color:{color};'
+                    f'text-decoration:none;font-weight:700;">{_h(edge["from"])}</a>'
+                    '<span style="color:#65676b;"> → </span>'
+                    f'<a href="#story-{_h(edge["to"])}" style="color:{color};'
+                    f'text-decoration:none;font-weight:700;">{_h(edge["to"])}</a>'
+                    f' — {_h(edge["evidence"])}</li>'
+                )
+            parts.append("</ul>")
+
+    tactical = _bilingual(synth.get("tactical_en", ""), synth.get("tactical_ar", ""))
+    strategic = _bilingual(synth.get("strategic_en", ""), synth.get("strategic_ar", ""))
+    if tactical or strategic:
+        parts.append(
+            '<h2 style="font-size:17px;color:#0b6b4f;margin:24px 0 8px;">'
+            "🎯 Tactical and strategic</h2>"
+        )
+        if tactical:
+            parts.append(
+                '<div style="font-size:12px;font-weight:700;color:#65676b;'
+                f'margin:8px 0 4px;">THIS WEEK</div><div style="background:#f7f7f8;'
+                f'border-radius:8px;padding:12px 14px;">{_para(tactical)}</div>'
+            )
+        if strategic:
+            parts.append(
+                '<div style="font-size:12px;font-weight:700;color:#65676b;'
+                f'margin:12px 0 4px;">THE LONGER ARC</div>'
+                f'<div style="background:#eef4ff;border-radius:8px;padding:12px 14px;">'
+                f"{_para(strategic)}</div>"
+            )
+
     parts.append('<hr style="border:none;border-top:2px solid #e4e6eb;margin:26px 0 18px;">')
     parts.append('<h2 style="font-size:19px;color:#0b6b4f;margin:0 0 4px;">📰 The stories</h2>')
 
@@ -469,7 +621,10 @@ def render_html(digest: Digest) -> str:
         confidence = str(analysis.get("confidence", "")).lower()
         badge_color = {"high": "#2e7d32", "medium": "#b26a00", "low": "#b00020"}.get(confidence, "#65676b")
 
-        parts.append('<div style="margin:22px 0 0;padding-top:16px;border-top:1px solid #e4e6eb;">')
+        parts.append(
+            f'<div id="story-S{idx + 1}" style="margin:22px 0 0;padding-top:16px;'
+            'border-top:1px solid #e4e6eb;">'
+        )
         parts.append(
             f'<div style="font-size:16px;font-weight:700;margin-bottom:6px;" dir="auto">'
             f"{idx + 1}. {_h(primary.title)}</div>"
