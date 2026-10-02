@@ -355,6 +355,26 @@ def cmd_check_email(args: argparse.Namespace) -> int:
     return 0
 
 
+def _memory_kwargs(date_str: str) -> dict:
+    """What earlier editions concluded, for the synthesis call to reason against.
+
+    Excluded on ``date_str`` itself so the 08:30 retry does not get today's own
+    first attempt back as "previous days" and grade itself against it.
+    """
+    from . import memory
+
+    records = memory.load_recent(7, before=date_str)
+    if not records:
+        return {}
+    context = memory.build_context(records)
+    recurring = memory.recurring_entities(records)
+    log.info(
+        "memory: %d earlier edition(s) recalled (%d chars, %d recurring entities)",
+        len(records), len(context), len(recurring),
+    )
+    return {"memory_context": context, "recurring_entities": recurring}
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     started = now_kuwait()
 
@@ -417,7 +437,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     if args.llm_off:
         config.provider = "none"
 
-    engine = AnalysisEngine(config)
+    engine = AnalysisEngine(config, **_memory_kwargs(today))
     if engine.provider == "none":
         log.warning(
             "no LLM provider configured — running in extractive mode "
@@ -489,6 +509,23 @@ def cmd_run(args: argparse.Namespace) -> int:
     markdown = render_markdown(digest)
     html = render_html(digest)
     payload = render_json(digest)
+
+    # -- 4b. remember what today concluded --------------------------------
+    # Written before the output so a later run can read it even if rendering
+    # failed. The entity list rides along because a thread is only visible
+    # once you can see the same name recur across days.
+    if not (args.dry_run or args.no_cache):
+        from . import memory
+        from .analyze import build_entity_graph
+
+        today_memory = dict(result.synthesis)
+        today_memory["entities"] = sorted(
+            build_entity_graph(top, analyses)
+        )
+        if memory.append(None, digest_date, today_memory):
+            log.info("remembered today's analysis for tomorrow's edition")
+        else:
+            log.info("nothing worth remembering today (no synthesis to store)")
 
     # -- 5. output --------------------------------------------------------
     out_dir = Path(args.output) if args.output else DEFAULT_OUTPUT
