@@ -58,7 +58,23 @@ always takes precedence over the keyless default:
 | `ANTHROPIC_API_KEY` | console.anthropic.com | Alternative |
 | `OPENROUTER_API_KEY` | openrouter.ai | Alternative |
 | `GROQ_API_KEY` | console.groq.com | Alternative |
+| `CEREBRAS_API_KEY` | [cloud.cerebras.ai](https://cloud.cerebras.ai) | Free trial, no card; very fast |
+| `NVIDIA_API_KEY` | [build.nvidia.com/settings](https://build.nvidia.com/settings) | Free developer key, starts `nvapi-` |
 | `LLM7_API_KEY` | [token.llm7.io](https://token.llm7.io/) | Optional — raises LLM7's rate limit |
+
+#### Why more than one
+
+The keyless gateway is shared and rate-limits by IP, so it is the first thing
+to exhaust on a busy morning — and when it does, the analysis silently degrades
+to extractive summaries rather than failing loudly. Every key you add is
+another place the run can rotate to: the engine walks the configured providers
+in the order above, and a provider that returns 429 is benched for the rest of
+the run while the next one takes over.
+
+The four free tiers (`GEMINI_API_KEY`, `CEREBRAS_API_KEY`, `NVIDIA_API_KEY`,
+`GROQ_API_KEY`) all sign up without a card. A daily brief needs about 30 calls,
+so one key is usually enough — a second is cheap insurance, and
+`check-llm` prints the whole rotation chain when you want to see it.
 
 ### 2b. Check it before 08:00 does
 
