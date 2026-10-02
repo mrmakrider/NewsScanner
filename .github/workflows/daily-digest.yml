@@ -68,6 +68,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
         run: python -m news_scanner check-llm -v
 
@@ -76,6 +78,7 @@ jobs:
       - name: Verify email delivery
         continue-on-error: true
         env:
+          NEWSCANNER_NO_EMAIL: "1"
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -99,6 +102,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Free tiers that give the run somewhere to rotate when the primary
+          # is throttled. Both sign up without a card. Any subset is fine; the
+          # engine walks them in order and uses the first that answers.
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           # Optional: raises LLM7's rate limit. Not required.
           LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
           # Optional overrides:
@@ -115,6 +123,14 @@ jobs:
           NEWSCANNER_LLM_BUDGET: "1200"
 
           # --- Email delivery --------------------------------------------
+          # TEMPORARY: the stored SMTP_PASSWORD is a login password, not a
+          # 16-character App Password, so every send fails with
+          # "5.7.8 Username and Password not accepted" and the run exits 1
+          # before committing the digest. NEWSCANNER_NO_EMAIL=1 makes the
+          # step skip sending and return 0 instead, so the brief is built and
+          # committed while the mail config is sorted out.
+          # Remove this line once SMTP_PASSWORD is an App Password.
+          NEWSCANNER_NO_EMAIL: "1"
           # The recipient defaults to mrmakrider@gmail.com. Set a MAIL_TO
           # secret to send somewhere else; comma-separate for several.
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
