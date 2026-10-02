@@ -43,6 +43,11 @@ DEFAULT_MODELS = {
     "anthropic": "claude-sonnet-4-5-20250929",
     "openrouter": "google/gemini-2.5-flash",
     "groq": "llama-3.3-70b-versatile",
+    # Free-tier rotation partners. Both speak the OpenAI chat protocol, so
+    # adding them costs one line each and buys a second and third chance when
+    # the primary refuses the day's traffic.
+    "cerebras": "qwen-3.8-27b",
+    "nvidia": "meta/llama-3.3-70b-instruct",
     # LLM7's "default" routing mode balances quality against latency by
     # picking the first available model. "fast" and "pro" also work.
     "llm7": "default",
@@ -55,6 +60,8 @@ KEY_ENV = {
     "anthropic": ("ANTHROPIC_API_KEY",),
     "openrouter": ("OPENROUTER_API_KEY",),
     "groq": ("GROQ_API_KEY",),
+    "cerebras": ("CEREBRAS_API_KEY",),
+    "nvidia": ("NVIDIA_API_KEY", "NGC_API_KEY"),
     # Optional: a free token from https://token.llm7.io/ raises the rate
     # limit. Anonymous access works without one.
     "llm7": ("LLM7_API_KEY", "NEWSCANNER_LLM7_KEY"),
@@ -65,14 +72,19 @@ OPENAI_COMPATIBLE_BASES = {
     "openai": "https://api.openai.com/v1",
     "openrouter": "https://openrouter.ai/api/v1",
     "groq": "https://api.groq.com/openai/v1",
+    "cerebras": "https://api.cerebras.ai/v1",
+    "nvidia": "https://integrate.api.nvidia.com/v1",
     "llm7": "https://api.llm7.io/v1",
 }
 
 # Providers that honour the OpenAI `response_format: json_object` parameter.
-# LLM7 fans a request out across heterogeneous backends, so the parameter is
-# deliberately not sent there — parse_json_object() recovers JSON from prose
-# or fenced blocks anyway.
-JSON_MODE_PROVIDERS = {"openai", "openrouter", "groq"}
+# Cerebras documents JSON mode for both shared-inference models, so it is used.
+# NIM is deliberately absent: its catalog spans dozens of models behind one
+# URL, and whether a given one accepts the parameter varies, so sending it
+# blind risks a 400 that benches a provider which was working. LLM7 fans a
+# request out across heterogeneous backends for the same reason. Neither needs
+# it — parse_json_object() recovers JSON from prose or fenced blocks anyway.
+JSON_MODE_PROVIDERS = {"openai", "openrouter", "groq", "cerebras"}
 
 # Providers that work with no API key at all.
 KEYLESS_PROVIDERS = {"llm7", "ollama"}
@@ -80,7 +92,10 @@ KEYLESS_PROVIDERS = {"llm7", "ollama"}
 # Auto-detection order. Explicit configuration always wins: an API key, an
 # OLLAMA_* opt-in or a NEWSCANNER_PROVIDER setting all take precedence over
 # the keyless LLM7 default below.
-PROVIDER_ORDER = ["gemini", "openai", "anthropic", "openrouter", "groq", "ollama", "llm7"]
+PROVIDER_ORDER = [
+    "gemini", "openai", "anthropic", "openrouter", "groq",
+    "cerebras", "nvidia", "ollama", "llm7",
+]
 
 # The keyless LLM7 tier rate-limits by IP and reacts badly to a burst, so a
 # run without a token is paced from the start. Keyed providers get no floor:
