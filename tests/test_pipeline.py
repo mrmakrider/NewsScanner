@@ -726,6 +726,145 @@ class TestRunMarker(unittest.TestCase):
             self.cli.collect = collect
 
 
+class TestFreeProviderRotation(unittest.TestCase):
+    """The free tiers the brief rotates through when the primary is throttled.
+
+    A run that loses its only provider degrades to raw headlines instead of
+    failing, so the chain has to be right in configuration *and* on the wire.
+    """
+
+    PROVIDER_ENV = (
+        "GEMINI_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY",
+        "OPENROUTER_API_KEY", "GROQ_API_KEY", "CEREBRAS_API_KEY",
+        "NVIDIA_API_KEY", "NGC_API_KEY", "LLM7_API_KEY",
+        "OLLAMA_HOST", "NEWSCANNER_USE_OLLAMA", "NEWSCANNER_PROVIDER",
+        "NEWSCANNER_MODEL", "NEWSCANNER_NO_LLM7",
+    )
+
+    def setUp(self):
+        import os
+
+        # Taken out of the environment, not just overridden: these tests run
+        # before the ones that assert what the *absence* of a key means, and a
+        # leaked CEREBRAS_API_KEY would make the keyless default unreachable.
+        self._saved = {k: os.environ.pop(k, None) for k in self.PROVIDER_ENV}
+
+    def tearDown(self):
+        import os
+
+        for key in self.PROVIDER_ENV:
+            os.environ.pop(key, None)
+        for key, value in self._saved.items():
+            if value is not None:
+                os.environ[key] = value
+
+    def test_a_free_tier_becomes_the_primary(self):
+        import os
+
+        from news_scanner.analyze import detect_provider
+
+        os.environ["CEREBRAS_API_KEY"] = "csk-test"
+        provider, model, key = detect_provider("auto")
+        self.assertEqual(provider, "cerebras")
+        self.assertEqual(key, "csk-test")
+        self.assertEqual(model, "qwen-3.8-27b")
+
+    def test_the_nvidia_key_is_accepted_under_either_name(self):
+        import os
+
+        from news_scanner.analyze import detect_provider
+
+        os.environ["NVIDIA_API_KEY"] = "nvapi-test"
+        self.assertEqual(detect_provider("auto")[0], "nvidia")
+        del os.environ["NVIDIA_API_KEY"]
+        os.environ["NGC_API_KEY"] = "nvapi-test"
+        self.assertEqual(detect_provider("auto")[0], "nvidia")
+
+    def test_both_free_tiers_are_in_the_rotation_chain(self):
+        import os
+
+        from news_scanner.analyze import detect_candidates
+
+        os.environ["CEREBRAS_API_KEY"] = "csk-test"
+        os.environ["NVIDIA_API_KEY"] = "nvapi-test"
+        labels = [c.provider for c in detect_candidates("auto")]
+        # Every configured provider is callable, and llm7 remains the last
+        # resort behind all of them.
+        self.assertIn("cerebras", labels)
+        self.assertIn("nvidia", labels)
+        self.assertLess(labels.index("cerebras"), labels.index("nvidia"))
+        self.assertEqual(labels[-1], "llm7")
+
+    def test_json_mode_is_sent_only_where_it_is_documented(self):
+        from news_scanner.analyze import JSON_MODE_PROVIDERS
+
+        self.assertIn("cerebras", JSON_MODE_PROVIDERS)
+        # NIM's catalog spans many models behind one URL and does not promise
+        # the parameter on all of them, so it is left out on purpose.
+        self.assertNotIn("nvidia", JSON_MODE_PROVIDERS)
+        self.assertNotIn("llm7", JSON_MODE_PROVIDERS)
+
+    def test_the_rotation_is_tried_when_the_primary_refuses(self):
+        """The whole point: a 429 on the first provider must not end the run."""
+        import json
+        import os
+
+        import news_scanner.analyze as analyze_mod
+        from news_scanner.analyze import AnalysisConfig, AnalysisEngine
+        from news_scanner.http import FetchError
+
+        calls: list[str] = []
+
+        def fake_fetch(url, payload, **kwargs):
+            calls.append(url)
+            if "cerebras" in url:
+                raise FetchError("429 Too Many Requests", code=429)
+            return {
+                "choices": [
+                    {
+                        "index": 0,
+                        "message": {
+                            "role": "assistant",
+                            "content": json.dumps(
+                                {"stories": [{"id": "S1", "summary_en": "ok"}]}
+                            ),
+                        },
+                        "finish_reason": "stop",
+                    }
+                ]
+            }
+
+        os.environ["CEREBRAS_API_KEY"] = "csk-test"
+        os.environ["NVIDIA_API_KEY"] = "nvapi-test"
+        saved_fetch = analyze_mod.fetch_json
+        analyze_mod.fetch_json = fake_fetch
+        try:
+            engine = AnalysisEngine(
+                AnalysisConfig(
+                    provider="auto", use_cache=False, cache_path=None,
+                    max_llm_seconds=30,
+                )
+            )
+            stories = build_stories(make_articles(SILK_CITY))
+            result = engine.analyse(stories)
+
+            self.assertEqual(result.errors, [])
+            self.assertTrue(
+                any("cerebras" in url for url in calls),
+                f"the throttled provider should have been tried first, got {calls}",
+            )
+            self.assertTrue(
+                any("nvidia" in url for url in calls),
+                f"the run should have rotated to the next provider, got {calls}",
+            )
+            self.assertTrue(
+                any(label.startswith("nvidia/") for label in result.providers_used),
+                result.providers_used,
+            )
+        finally:
+            analyze_mod.fetch_json = saved_fetch
+
+
 class TestLLM7Provider(unittest.TestCase):
     """LLM7 is the keyless default, so its wire format must be exactly right.
 
