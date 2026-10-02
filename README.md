@@ -24,6 +24,13 @@ that tries to read what is *between* the lines.
 - **Says when it doesn't know.** Every inference is labelled as inference, with
   a confidence level. If there is no subtext, it says so instead of inventing
   intrigue.
+- **Shows how the day's stories connect.** Today's edition links each story to
+  the others it actually touches — one causes another, the outlets contradict
+  each other, the same actor appears in both — with the evidence for each
+  claim, so you can check it.
+- **Remembers.** Each edition keeps its conclusions and its entity graph in
+  `state/daily_memory.jsonl`. Tomorrow's analysis is written knowing what the
+  last seven days said, and is told which actors have been running all week.
 - **Zero dependencies.** Pure Python standard library. Nothing to install,
   nothing to break at 3am.
 
