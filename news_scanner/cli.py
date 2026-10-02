@@ -130,6 +130,34 @@ def cmd_check_sources(args: argparse.Namespace) -> int:
     return 0 if ok_count else 1
 
 
+# Free tiers worth having alongside the keyless default. Each speaks the
+# OpenAI chat protocol, so the engine rotates through them automatically when
+# the one in front is throttled, and none of them needs a card.
+_FREE_TIER_PROVIDERS = (
+    ("GEMINI_API_KEY", "aistudio.google.com/apikey — most generous"),
+    ("CEREBRAS_API_KEY", "cloud.cerebras.ai — fast, free trial"),
+    ("NVIDIA_API_KEY", "build.nvidia.com/settings — nvapi- key"),
+    ("GROQ_API_KEY", "console.groq.com"),
+)
+
+
+def print_rotation_advice(reason: str) -> None:
+    """Name the free tiers and where to get them, at the moment it helps.
+
+    A keyless gateway rate-limits by IP and is the first thing to exhaust on a
+    throttled morning, and a mistyped key is benched as invalid for the rest of
+    the run. Both end with the brief silently degraded to extractive summaries,
+    so say it here, where someone is actually looking, instead of leaving it to
+    be read out of a failed 08:00 job.
+    """
+    print(f"\n{reason}")
+    print("A free key gives the run somewhere to rotate to. None need a card:")
+    for env_name, signup in _FREE_TIER_PROVIDERS:
+        state = "set" if os.getenv(env_name, "").strip() else "not set"
+        print(f"  {env_name:<18} {state:<8} {signup}")
+    print("All of them are tried in order; the first one that answers wins.")
+
+
 def cmd_check_llm(args: argparse.Namespace) -> int:
     """Ask the configured provider to analyse one real story end to end.
 
@@ -175,6 +203,12 @@ def cmd_check_llm(args: argparse.Namespace) -> int:
         print("Set GEMINI_API_KEY (or another provider key), or unset NEWSCANNER_NO_LLM7.")
         return 1
 
+    if engine.provider == "llm7" and not engine.api_key:
+        print_rotation_advice(
+            "The keyless LLM7 gateway is shared and rate-limits by IP, so it is "
+            "the first thing to exhaust on a busy morning."
+        )
+
     print(f"\nSending one real story to {engine.provider}…")
     if engine.client is None:
         print("  client was not constructed — cannot test")
@@ -184,6 +218,11 @@ def cmd_check_llm(args: argparse.Namespace) -> int:
     except Exception as exc:  # noqa: BLE001 — the point is to report the failure
         print(f"  FAILED: {type(exc).__name__}: {exc}")
         print("\nThe scheduled run would still complete, using the extractive fallback.")
+        if engine.provider != "none":
+            print_rotation_advice(
+                "Every configured provider refused this call — usually one "
+                "provider's quota is spent and the rest need a key."
+            )
         return 1
 
     items = payload.get("stories") or []
