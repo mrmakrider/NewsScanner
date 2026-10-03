@@ -727,6 +727,78 @@ _STOP_ENTITIES = {
     "company", "sector", "week", "year", "day", "reuters", "agency",
 }
 
+def _outlet_names() -> set[str]:
+    """Source names from config/sources.toml, read once and cached.
+
+    Outlets are not actors. The model lists whichever papers it happens to be
+    looking at as "entities", and persisting those as a recurring thread would
+    tell tomorrow's run that "Al-Rai is running across several days" — which is
+    always true and so always useless. Reading the real source names means the
+    filter cannot drift from the configured outlets.
+    """
+    global _OUTLET_CACHE
+    if _OUTLET_CACHE is not None:
+        return _OUTLET_CACHE
+    names: set[str] = set()
+    try:
+        from .sources import load_config
+
+        sources, _settings = load_config()
+        for source in sources:
+            for value in (getattr(source, "name", ""), getattr(source, "id", "")):
+                cleaned = str(value or "").strip()
+                if cleaned:
+                    names.add(_squash(cleaned))
+    except Exception as exc:  # noqa: BLE001 — a filter must never break analysis
+        log.debug("could not read outlet names for the entity filter: %s", exc)
+    _OUTLET_CACHE = names
+    return names
+
+
+_OUTLET_CACHE: set[str] | None = None
+
+
+def _squash(name: str) -> str:
+    """Collapse a name to letters and digits so spelling variants still match.
+
+    Punctuation is dropped rather than replaced, so "Al-Ra'y", "Al-Rai" and
+    "alray" all squash to the same letters and match the same outlet.
+    """
+    return re.sub(r"[^a-z0-9\u0600-\u06ff]", "", (name or "").lower())
+
+
+def _looks_like_outlet(name: str) -> bool:
+    """True when an entity is a newspaper rather than an actor in the story.
+
+    The model transliterates Arabic paper names inconsistently — config calls
+    one "alrai" and the model writes "alray" — so an exact prefix test alone
+    misses variants. Relaxing the letters Arabic transliteration actually
+    confuses, on both sides of the comparison, catches those without loosening
+    the test generally: "Iran" and "OPEC" still do not match any outlet.
+    """
+    candidate = _relax(_squash(name))
+    if len(candidate) < 4:
+        return False
+    for outlet in _outlet_names():
+        relaxed = _relax(outlet)
+        if len(relaxed) < 4:
+            continue
+        if candidate.startswith(relaxed) or relaxed.startswith(candidate):
+            return True
+    return False
+
+
+def _relax(value: str) -> str:
+    """Collapse the letter pairs Arabic transliteration routinely swaps.
+
+    'ai'/'ay'/'ei' and doubled letters all reduce to the same form, which is
+    what makes 'alray', 'alrai' and 'alrayi' compare equal. Applied to both
+    sides so an exact spelling also matches its relaxed neighbours.
+    """
+    value = re.sub(r"([ae])y", r"\1i", value)
+    value = re.sub(r"ei", "i", value)
+    return re.sub(r"(.)\1+", r"\1", value)
+
 
 def normalise_entity(name: str) -> str:
     """Map a raw entity string to a canonical name, or '' if unusable."""
@@ -736,7 +808,17 @@ def normalise_entity(name: str) -> str:
     lowered = raw.lower().strip(" .،,")
     if lowered in _STOP_ENTITIES:
         return ""
-    return _ENTITY_ALIASES.get(lowered, raw.strip(" .،,"))
+    # Checked before canonicalisation so that a name the model spelled with an
+    # odd apostrophe still matches: "Al-Ra'y" and "Al-Rai" are one outlet.
+    if _looks_like_outlet(raw):
+        return ""
+    canonical = _ENTITY_ALIASES.get(lowered)
+    if canonical:
+        return canonical
+    # Title-case the rest so casing variants collapse: the model writes
+    # "Houthi Militia" and "Houthi militia" for the same actor, and two spellings
+    # of one entity would read as two separate threads.
+    return raw.strip(" .،,").title() if raw.isascii() else raw.strip(" .،,")
 
 
 def build_entity_graph(
