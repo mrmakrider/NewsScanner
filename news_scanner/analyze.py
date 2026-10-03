@@ -86,6 +86,11 @@ OPENAI_COMPATIBLE_BASES = {
 # it — parse_json_object() recovers JSON from prose or fenced blocks anyway.
 JSON_MODE_PROVIDERS = {"openai", "openrouter", "groq", "cerebras"}
 
+# Providers whose models reason before answering and count those reasoning
+# tokens against max_tokens. The briefing needs a JSON object, not a
+# derivation, so reasoning is turned off for it entirely.
+REASONING_EFFORT_PROVIDERS = {"cerebras"}
+
 # Providers that work with no API key at all.
 KEYLESS_PROVIDERS = {"llm7", "ollama"}
 
@@ -369,6 +374,16 @@ class LLMClient:
                 # so ask for less than we would from a first-party API.
                 max_tokens = min(max_tokens, 4000)
             payload["max_tokens"] = max_tokens
+
+        # Cerebras reasoning models (qwen-3.8-27b defaults to high effort) spend
+        # their reasoning tokens against max_tokens before writing any answer:
+        # observed 2249 reasoning tokens against a 4000 cap, which left too
+        # little room for the JSON and the response came back with no content
+        # at all — surfacing as KeyError('content') and killing the whole
+        # synthesis. These calls want a JSON object, not a derivation, so
+        # reasoning is switched off rather than merely budgeted for.
+        if self.provider in REASONING_EFFORT_PROVIDERS:
+            payload["reasoning_effort"] = "none"
 
         data = fetch_json(
             f"{base}/chat/completions",
