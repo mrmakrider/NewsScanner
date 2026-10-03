@@ -292,5 +292,55 @@ class TestRenderGuard(unittest.TestCase):
         self.assertEqual(len(colours), len(set(colours)))
 
 
+class TestReasoningBudget(unittest.TestCase):
+    """Reasoning tokens must not eat the response budget.
+
+    Cerebras reasoning models charge their thinking against ``max_tokens``.
+    qwen-3.8-27b defaults to high effort, and with a 4000 cap it spent 2249
+    tokens reasoning, left too little for the JSON, and returned no content at
+    all — which surfaced as ``KeyError('content')`` and silently produced a
+    digest with no synthesis whatsoever. These tests pin the fix.
+    """
+
+    def _payload_for(self, provider: str, model: str) -> dict:
+        import news_scanner.analyze as analyze_mod
+
+        captured: dict = {}
+        original = analyze_mod.fetch_json
+
+        def fake(url, payload, headers=None, **kw):
+            captured.update(payload)
+            return {"choices": [{"index": 0, "message": {"content": "{}"},
+                                 "finish_reason": "stop"}]}
+
+        analyze_mod.fetch_json = fake
+        try:
+            LLMClient = analyze_mod.LLMClient
+            LLMClient(provider, model, "key").complete("sys", "user")
+        finally:
+            analyze_mod.fetch_json = original
+        return captured
+
+    def test_reasoning_is_disabled_for_cerebras(self):
+        self.assertEqual(
+            self._payload_for("cerebras", "qwen-3.8-27b").get("reasoning_effort"),
+            "none",
+        )
+
+    def test_the_flag_is_not_sent_to_providers_that_would_reject_it(self):
+        """An unrecognised parameter is a 400 on strict providers."""
+        for provider in ("openai", "groq", "llm7", "nvidia"):
+            self.assertNotIn(
+                "reasoning_effort", self._payload_for(provider, "some-model"),
+                f"{provider} should not receive reasoning_effort",
+            )
+
+    def test_json_mode_still_reaches_cerebras(self):
+        """Both flags are needed: JSON shape and a budget to write it in."""
+        payload = self._payload_for("cerebras", "qwen-3.8-27b")
+        self.assertEqual(payload.get("response_format"), {"type": "json_object"})
+        self.assertEqual(payload.get("reasoning_effort"), "none")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
