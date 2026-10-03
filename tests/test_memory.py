@@ -10,6 +10,7 @@ reader skimming the brief.
 from __future__ import annotations
 
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
@@ -353,11 +354,15 @@ class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
 
     def _run(self, env: dict[str, str]) -> int:
         import os
+        import tempfile
 
         from news_scanner import cli
 
-        # Stub the collector: these tests are about the marker, and hitting
-        # the live feeds would make them slow and network-dependent.
+        # Stub the collector: these tests are about the marker, and hitting the
+        # live feeds would make them slow and network-dependent. The output
+        # directory must also be redirected — cmd_run writes a real digest, and
+        # the workflow commits whatever is in digests/, so a test writing there
+        # publishes fixture data as if it were today's edition.
         from scripts.demo import fake_collect
 
         saved_collect = cli.collect
@@ -367,6 +372,7 @@ class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
             os.environ.pop(k, None)
         os.environ.update(env)
         cli.collect = fake_collect
+        out_dir = tempfile.mkdtemp(prefix="ns-test-out-")
         try:
             return cli.cmd_run(
                 type("A", (), {
@@ -375,7 +381,7 @@ class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
                     "max_analyze": 1, "major_outlets": 3, "provider": None,
                     "model": None, "llm_off": True, "language": "en",
                     "no_cache": True, "dry_run": False, "no_email": False,
-                    "no_marker": False, "output": None, "no_html": False,
+                    "no_marker": False, "output": out_dir, "no_html": False,
                     "no_fetch_bodies": True, "workers": 1,
                 })()
             )
@@ -506,6 +512,72 @@ class TestTranslationTable(unittest.TestCase):
             self.assertTrue(
                 normalize_text(word).strip(), f"{word} lost its translation"
             )
+
+
+class TestSuiteDoesNotPublish(unittest.TestCase):
+    """No test may write into a directory the workflow commits.
+
+    ``git add digests state docs`` in the workflow runs after the unit tests,
+    so a test that leaves a digest behind publishes fixture data as if it were
+    a real edition. That happened once: a marker test called cmd_run with the
+    default output directory and the site showed 23 fixture stories as today's
+    news. Each run below is therefore redirected to a temporary directory.
+    """
+
+    def setUp(self):
+        import os
+
+        self.digests = Path("digests")
+        self.before = (
+            {p.name for p in self.digests.iterdir()} if self.digests.exists() else set()
+        )
+
+    def test_the_marker_tests_leave_the_digest_directory_untouched(self):
+        import tempfile
+
+        from scripts.demo import fake_collect
+        from news_scanner import cli
+
+        out_dir = tempfile.mkdtemp(prefix="ns-guard-")
+        saved_collect = cli.collect
+        saved_env = {k: os.environ.get(k) for k in
+                     ("NEWSCANNER_NO_EMAIL", "SMTP_HOST", "MAIL_TO")}
+        for k in saved_env:
+            os.environ.pop(k, None)
+        os.environ["NEWSCANNER_NO_EMAIL"] = "1"
+        cli.collect = fake_collect
+        try:
+            cli.cmd_run(
+                type("A", (), {
+                    "date": "2026-10-04", "skip_if_done": False, "mail_to": None,
+                    "config": None, "sources": None, "hours": None,
+                    "max_analyze": 1, "major_outlets": 3, "provider": None,
+                    "model": None, "llm_off": True, "language": "en",
+                    "no_cache": True, "dry_run": False, "no_email": False,
+                    "no_marker": False, "output": out_dir, "no_html": False,
+                    "no_fetch_bodies": True, "workers": 1,
+                })()
+            )
+        finally:
+            cli.collect = saved_collect
+            for k, v in saved_env.items():
+                os.environ.pop(k, None)
+                if v is not None:
+                    os.environ[k] = v
+
+        after = {p.name for p in self.digests.iterdir()} if self.digests.exists() else set()
+        self.assertEqual(
+            after - self.before, set(),
+            "a test wrote into digests/ — the workflow would publish it",
+        )
+
+    def test_no_stray_output_is_written_into_the_repo(self):
+        """A belt-and-braces check over the whole suite's own footprint."""
+        stray = [
+            str(p) for p in Path(".").rglob("2026-10-04.*")
+            if p.parts and p.parts[0] in ("digests", "docs")
+        ]
+        self.assertEqual(stray, [], "fixture output left in a published directory")
 
 
 if __name__ == "__main__":
