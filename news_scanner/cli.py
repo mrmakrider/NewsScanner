@@ -12,7 +12,13 @@ from pathlib import Path
 
 from .analyze import AnalysisConfig, AnalysisEngine, detect_provider
 from .dedupe import build_stories, categorize, major_count
-from .deliver import email_configured, recipients, send_email, write_outputs
+from .deliver import (
+    email_configured,
+    email_enabled,
+    recipients,
+    send_email,
+    write_outputs,
+)
 from .extract import extract_body
 from .models import Article, Digest
 from .render import render_html, render_markdown, render_json
@@ -559,12 +565,18 @@ def cmd_run(args: argparse.Namespace) -> int:
         if not delivered:
             log.error("the brief was built and committed, but email delivery failed")
 
-    # Record the completed delivery so the retry schedule can tell a finished
-    # run from one that died part-way through. A dry run, a --no-email run and
-    # a failed send must all leave the marker alone, or a later attempt would
-    # decide there was nothing left to do and the day's brief would never send.
-    if not (args.dry_run or args.no_email or args.no_marker):
-        if delivered or not email_configured():
+    # Record the completed run so the retry schedule can tell a finished run
+    # from one that died part-way through. A dry run and a failed send must
+    # leave the marker alone, or a later attempt would decide there was
+    # nothing left to do and the day's brief would never go out.
+    #
+    # A run with email deliberately switched off (NEWSCANNER_NO_EMAIL=1) counts
+    # as finished: the digest was built, committed and published, which is the
+    # whole of what that mode is for. Writing emailed=false would make the
+    # 08:30 and 09:00 retries read the marker, decide the day was done, and
+    # exit — so those crons would do nothing for as long as the switch is on.
+    if not (args.dry_run or args.no_marker):
+        if delivered or not email_configured() or not email_enabled():
             _write_run_marker(digest_date, emailed=delivered, stories=len(stories))
 
     elapsed = (now_kuwait() - started).total_seconds()
