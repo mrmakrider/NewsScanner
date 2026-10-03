@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import codecs
+
 import gzip
 import io
 import json
@@ -163,7 +165,10 @@ def fetch(
 
 def fetch_text(url: str, **kwargs) -> str:
     raw, _ = fetch(url, **kwargs)
-    return decode(raw)
+    # A feed that states its charset is read with it. Skipping this was why an
+    # iso-8859-6 or windows-1252 feed could arrive as Arabic-looking nonsense:
+    # the guess chain cannot tell those codecs apart from the bytes alone.
+    return decode(raw, guess_encoding_from_meta(raw))
 
 
 def fetch_json(
@@ -193,23 +198,77 @@ def fetch_json(
         raise FetchError(f"{url}: invalid JSON response ({exc})") from exc
 
 
-def decode(raw: bytes) -> str:
-    """Decode bytes trying the encodings Arabic news sites actually use."""
-    for enc in ("utf-8", "cp1256", "iso-8859-6", "windows-1252", "latin-1"):
+def decode(raw: bytes, declared: str | None = None) -> str:
+    """Decode bytes using the encodings Arabic news sites actually use.
+
+    ``declared`` is the charset the document states for itself, when one was
+    found, and it is the only reliable answer. cp1256 and iso-8859-6 are both
+    single-byte codecs that decode every byte without raising and both yield
+    Arabic, so nothing in the byte stream can distinguish them — measurements
+    of Arabic-letter ratio and stray-symbol count come out identical for both.
+    A wrong guess does not crash; it silently yields a headline that reads as
+    Arabic but is not, which is far worse than a visible decode failure.
+
+    Without a declaration, UTF-8 is tried first (strict, so it never guesses)
+    and cp1256 second, which is what most Kuwaiti outlets actually serve.
+    """
+    if declared:
+        try:
+            return raw.decode(declared)
+        except (UnicodeDecodeError, LookupError):
+            # The page lies about its encoding, or was served truncated. Fall
+            # through to the guess chain rather than trusting the claim.
+            log.debug("declared charset %r did not decode; guessing", declared)
+
+    for enc in ("utf-8", "cp1256"):
         try:
             return raw.decode(enc)
         except (UnicodeDecodeError, LookupError):
             continue
+    # Undecodable: mark it rather than silently substituting. A visible
+    # replacement character tells a reader the text is damaged; a
+    # plausible-looking wrong decoding does not.
     return raw.decode("utf-8", errors="replace")
 
 
 def guess_encoding_from_meta(raw: bytes) -> str | None:
-    head = raw[:2048].lower()
-    for marker in (b'charset="', b"charset='", b"encoding="):
+    """The charset the document declares for itself, if it declares one.
+
+    Quoted forms are matched first: ``encoding="utf-8"`` also contains the
+    unquoted marker ``encoding=``, and matching that one leaves the opening
+    quote at the head of the value, which then looks like an unknown codec and
+    gets discarded.
+    """
+    head = raw[:4096].lower()
+    markers = (
+        (b'charset="', b'"'),
+        (b"charset='", b"'"),
+        (b'encoding="', b'"'),
+        (b"encoding='", b"'"),
+        (b"charset=", b""),
+        (b"encoding=", b""),
+    )
+    for marker, closer in markers:
         idx = head.find(marker)
-        if idx != -1:
-            rest = head[idx + len(marker):]
-            end = rest.find(rest[:1])
-            if end > 0:
-                return rest[:end].decode("ascii", "ignore").strip()
+        if idx == -1:
+            continue
+        rest = head[idx + len(marker):]
+        end = len(rest)
+        for i, byte in enumerate(rest):
+            # Stop at the closing quote, or at any byte that cannot occur in an
+            # encoding name. '"' and "'" terminate the unquoted forms too.
+            if byte in (0x22, 0x27, 0x3B, 0x20, 0x3E, 0x2F, 0x0A, 0x0D, 0x09):
+                end = i
+                break
+        name = rest[:end].decode("ascii", "ignore").strip()
+        if name and _is_known_encoding(name):
+            return name
     return None
+
+
+def _is_known_encoding(name: str) -> str | None:
+    try:
+        codecs.lookup(name)
+    except (LookupError, TypeError):
+        return None
+    return name
