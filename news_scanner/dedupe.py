@@ -45,6 +45,21 @@ SAME_STORY_THRESHOLD = 0.50
 # so "oil prices rise" and "gold prices rise" cannot merge on boilerplate.
 MIN_SHARED_DISTINCTIVE = 2
 
+# Casualty vocabulary. Two headlines about the same incident that disagree on
+# how many died, or on whether anyone died at all, are not two write-ups of one
+# story — merging them hides a correction or reports a toll that was revised.
+# Token overlap cannot catch this on its own: "One killed in Farwaniya blaze"
+# and "Two killed in Farwaniya blaze" share four of five tokens and score 0.75,
+# comfortably above the threshold.
+_CASUALTY_TOKENS = {"kill", "dead", "death", "deth", "injur", "hurt", "wound",
+                    "casualt", "fatal", "surviv"}
+
+# How many casualties the headline reports, as a token count. Absent means the
+# headline states no toll at all, which is not a contradiction.
+_COUNT_TOKENS = {t for t in ("1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                             "11", "12", "13", "14", "15", "16", "17", "18",
+                             "19", "20")}
+
 # Rule for pairing an Arabic cluster with an English one.
 CROSS_LANG_ANCHOR_MIN = 2
 CROSS_LANG_ANCHOR_SCORE = 0.30
@@ -252,6 +267,25 @@ def _similarity(ta: set[str], tb: set[str]) -> float:
     return max(jaccard(ta, tb), containment(ta, tb))
 
 
+def _casualty_conflict(ta: set[str], tb: set[str]) -> bool:
+    """True when two headlines report incompatible casualty figures.
+
+    Returning 0.0 is not an option for a containment score either, since a
+    short wire line legitimately contains a long rewrite's tokens. So the
+    disagreement has to be an explicit veto rather than a lower score.
+    """
+    ca, cb = ta & _CASUALTY_TOKENS, tb & _CASUALTY_TOKENS
+    # Different casualty vocabulary — "killed" against "injured" — is the
+    # clearest signal that these describe different outcomes.
+    if ca and cb and not (ca & cb):
+        return True
+    # Same vocabulary, different toll.
+    na, nb = ta & _COUNT_TOKENS, tb & _COUNT_TOKENS
+    if na and nb and na != nb:
+        return True
+    return False
+
+
 def cluster_articles(
     articles: list[Article],
     *,
@@ -285,6 +319,8 @@ def cluster_articles(
             if len(dist & cluster_distinct[ci]) < MIN_SHARED_DISTINCTIVE:
                 continue
             for member in cluster_tokens[ci]:
+                if _casualty_conflict(toks, member):
+                    continue
                 score = _similarity(toks, member)
                 if score > best_score:
                     best_ci, best_score = ci, score
