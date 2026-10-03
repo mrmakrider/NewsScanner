@@ -669,9 +669,13 @@ def canonical_tokens(text: str) -> set[str]:
         t
         for t in tokens
         if t not in _STOPWORDS_STEMMED
-        and len(t) > 1
         # Bare years match every second story in a newspaper; drop them.
         and not _YEAR_RE.match(t)
+        # Single letters are usually noise, but a count is not: NUMBER_WORDS
+        # canonicalises "one".."ninety" to digits, so a bare len>1 test here
+        # silently deleted every count and made "One killed" and "Two killed"
+        # token-identical — two different stories that then clustered as one.
+        and (len(t) > 1 or t.isdigit())
     }
 
 
