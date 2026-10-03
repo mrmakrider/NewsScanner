@@ -211,7 +211,7 @@ def scrape_html_list(
     """
     raw, _ = fetch(url, headers={"Accept": "text/html,*/*"})
     enc = guess_encoding_from_meta(raw)
-    markup = decode(raw) if not enc else _safe_decode(raw, enc)
+    markup = decode(raw, enc)
 
     base_host = urlparse(url).netloc
     inc = re.compile(include_pattern, re.IGNORECASE) if include_pattern else None
@@ -252,13 +252,6 @@ def scrape_html_list(
             )
         )
     return articles
-
-
-def _safe_decode(raw: bytes, encoding: str) -> str:
-    try:
-        return raw.decode(encoding, errors="replace")
-    except LookupError:
-        return decode(raw)
 
 
 def load_feed(
