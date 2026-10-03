@@ -111,7 +111,7 @@ def cmd_check_sources(args: argparse.Namespace) -> int:
         sources = [s for s in sources if s.id in wanted]
 
     print(f"Checking {len(sources)} sources…\n")
-    articles, health = collect(sources, max_workers=args.workers)
+    articles, health = collect(sources, max_workers=max(1, int(args.workers or 1)))
 
     width = max((len(h.name) for h in health), default=20)
     ok_count = 0
@@ -411,9 +411,14 @@ def cmd_run(args: argparse.Namespace) -> int:
     max_analyze = args.max_analyze or settings.max_analyze
     major_threshold = args.major_outlets or settings.major_outlet_threshold
 
+    # ThreadPoolExecutor raises on max_workers < 1, and a zero or negative
+    # value would otherwise abort the run before any article is fetched.
+    workers = max(1, int(args.workers or 1))
+
     # -- 1. collect -------------------------------------------------------
-    log.info("collecting from %d sources (window %dh)…", len(sources), window_hours)
-    articles, health = collect(sources, max_workers=args.workers)
+    log.info("collecting from %d sources (window %dh, %d workers)…",
+             len(sources), window_hours, workers)
+    articles, health = collect(sources, max_workers=workers)
     articles = within_window(articles, window_hours)
     log.info("collected %d articles in window", len(articles))
 
@@ -429,7 +434,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     # -- 3. enrich + analyse the top stories ------------------------------
     top = stories[:max_analyze]
     if not args.no_fetch_bodies:
-        enrich_bodies(top, limit=len(top), workers=args.workers)
+        enrich_bodies(top, limit=len(top), workers=workers)
 
     config = AnalysisConfig.from_env(
         language=None if args.language is None else args.language,
@@ -649,6 +654,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--no-llm", action="store_true", dest="llm_off",
                         help="skip AI analysis, use the extractive fallback")
     parser.add_argument("--no-email", action="store_true", help="do not send email")
+    # check-email reads this after connecting. It was referenced by the command
+    # but never declared, so a bare `check-email` — the form the workflow runs —
+    # raised AttributeError *after* a successful authentication, and
+    # continue-on-error swallowed it. The SMTP pre-flight therefore never
+    # reported a bad app password.
+    parser.add_argument("--send", action="store_true",
+                        help="with check-email: send a real test message")
     parser.add_argument("--no-cache", action="store_true", help="ignore the analysis cache")
     parser.add_argument("--no-html", action="store_true", help="do not write the .html file")
     parser.add_argument("--no-fetch-bodies", action="store_true",
