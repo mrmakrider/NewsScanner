@@ -1,23 +1,23 @@
 {
  "date": "2026-10-03",
- "generated_at": "2026-10-03T10:12:48.346087+03:00",
+ "generated_at": "2026-10-03T11:03:01.018654+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 141,
+  "total_articles": 140,
   "outlets_reporting": 6,
-  "total_stories": 117,
-  "major_stories": 2,
+  "total_stories": 118,
+  "major_stories": 1,
   "analysed_stories": 28,
-  "window_start": "2026-10-02T08:12:48.346087+03:00",
-  "window_end": "2026-10-03T10:12:48.346087+03:00",
+  "window_start": "2026-10-02T09:03:01.018654+03:00",
+  "window_end": "2026-10-03T11:03:01.018654+03:00",
   "major_threshold": 3,
   "categories": {
-   "Economy & Business": 15,
-   "World & Region": 46,
-   "Government & Politics": 35,
-   "Society & Services": 6,
+   "Economy & Business": 13,
+   "Society & Services": 5,
    "Security & Courts": 8,
+   "World & Region": 55,
+   "Government & Politics": 30,
    "Sport": 7
   },
   "analysis_retries": 0,
@@ -28,76 +28,79 @@
   ]
  },
  "synthesis": {
-  "editor_note_en": "The dominant narrative today is the escalation of the Houthi-Saudi conflict, which has moved from sporadic attacks to a sustained ballistic missile campaign targeting deep inside Saudi Arabia (Khamis Mushait, Medina). This is not just a regional security issue; it is now a direct driver of global energy markets, as evidenced by the divergence between rising Kuwaiti crude prices and falling global benchmarks, and Trump's unconfirmed claim that Europe is releasing diesel reserves to cap prices. The US is actively managing this crisis behind closed doors at Camp David, signaling that the conflict is being treated as a multi-front war involving Iran. For Kuwait, the risk is no longer just diplomatic; it is economic and logistical, with the potential for supply chain disruptions and market volatility.",
-  "editor_note_ar": "الخط الرئيسي اليوم هو تصاعد حدة الصراع بين الحوثيين والسعودية، حيث انتقل من هجمات متفرقة إلى حملة صاروخية باليستية مستمرة تستهدف عمق الأراضي السعودية (خميس مشيط، المدينة المنورة). هذا ليس مجرد قضية أمنية إقليمية، بل أصبح محركاً مباشراً لأسواق الطاقة العالمية، كما يتضح من التباين بين ارتفاع أسعار النفط الكويتي وانخفاض المؤشرات العالمية، ومن ادعاء ترامب غير المؤكد بأن أوروبا تطلق احتياطيات الديزل لكبح الأسعار. الولايات المتحدة تدير هذا الأزمات خلف أبواب مغلقة في كامب ديفيد، مما يشير إلى أن الصراع يُعامل كحرب متعددة الجبهات تشمل إيران. بالنسبة للكويت، الخطر لم يعد دبلوماسياً فحسب، بل أصبح اقتصادياً ولوجستياً، مع احتمال حدوث اضطرابات في سلاسل الإمداد وتقلبات في السوق.",
-  "story_of_the_day": "S12",
-  "tactical_en": "Watch for official confirmation from European energy agencies regarding Trump's claim of diesel reserve releases (S28). Monitor the next 24-48 hours for further Houthi missile launches towards Khamis Mushait or Medina, as the Coalition reports interceptions within the last 24 hours (S12, S14). Track the outcome of the US Camp David meeting (S26) for any public statements on Iran or Yemen strategy. Note the closure of Road 207 in Kuwait starting today (S5) for local traffic planning.",
-  "tactical_ar": "راقب التأكيد الرسمي من وكالات الطاقة الأوروبية بشأن ادعاء ترامب بإطلاق احتياطيات الديزل (S28). راقب الساعات الـ 48 القادمة لأي إطلاق صاروخي حوثي إضافي نحو خميس مشيط أو المدينة المنورة، حيث تتحدث التقارير عن اعتراضات خلال الـ 24 ساعة الماضية (S12, S14). تتبع نتائج اجتماع كامب ديفيد الأمريكي (S26) لأي تصريحات عامة حول استراتيجية إيران أو اليمن. لاحظ إغلاق طريق 207 في الكويت بدءاً من اليوم (S5) للتخطيط المروري المحلي.",
-  "strategic_en": "The coverage reveals a normalization of ballistic missile attacks on Saudi infrastructure as a recurring feature of the regional conflict, rather than an exceptional event. The simultaneous focus on energy prices (S1, S28) and military interceptions (S10, S11, S12, S14) indicates that the market and the military are now inextricably linked in the public narrative. The US involvement (S26) suggests a shift from passive support to active strategic management of the Yemen front, potentially signaling a longer-term engagement. The lack of detailed Kuwaiti response to the WHO warning on Gaza (S15) suggests a prioritization of immediate security and economic concerns over humanitarian diplomacy in the current news cycle.",
-  "strategic_ar": "تكشف التغطية عن تطبيع هجمات الصواريخ الباليستية على البنية التحتية السعودية كسمة متكررة في الصراع الإقليمي، بدلاً من كونها حدثاً استثنائياً. التركيز المتزامن على أسعار الطاقة (S1, S28) والاعتراضات العسكرية (S10, S11, S12, S14) يشير إلى أن السوق والعسكري أصبحا مترابطين بشكل لا ينفصل في السرد العام. التدخل الأمريكي (S26) يوحي بتحول من الدعم السلبي إلى الإدارة الاستراتيجية النشطة لجبهة اليمن، مما قد يشير إلى انخراط طويل الأمد. غياب رد كويتي مفصل على تحذير منظمة الصحة العالمية بشأن غزة (S15) يوحي بأولوية للأمن والاقتصاد الفوريين على الدبلوماسية الإنسانية في دورة الأخبار الحالية.",
+  "editor_note_en": "The day is defined by a sharp divergence in energy markets: Kuwaiti crude rose to $105.91 while global benchmarks fell, a discrepancy that signals official pricing is decoupling from spot realities. Simultaneously, the Houthi missile campaign against Saudi Arabia has escalated in volume and proximity, with multiple interceptions reported in Khamis Mushait and Medina. Domestically, the narrative is split between routine security enforcement (drug seizures, food fraud) and soft-power promotion (Martyrs Park, UNIDO credentials). The most significant omission is the lack of any Kuwaiti government response to the regional security escalation, leaving the local impact of the Saudi conflict unaddressed.",
+  "editor_note_ar": "تتسم تغطية اليوم بانفصال حاد في أسواق الطاقة؛ حيث ارتفع سعر برميل النفط الكويتي إلى 105.91 دولاراً بينما هبطت المعايير العالمية، مما يشير إلى أن التسعير الرسمي يتحرك بمعزل عن واقع السوق الفوري. في الوقت ذاته، تصاعدت وتيرة الهجمات الصاروخية الحوثية على السعودية، مع تقارير عن اعتراض عدة صواريخ في خميس مشيط والمدينة المنورة. محلياً، تتوزع الرواية بين إجراءات أمنية روتينية (مكافحة المخدرات والغش التجاري) ودعاية للنفوذ الناعم (حديقة الشهيد وتعيينات الأمم المتحدة). والأهم من ذلك هو غياب أي رد فعل حكومي كويتي على التصعيد الأمني الإقليمي، مما يترك الأثر المحلي للصراع السعودي دون معالجة.",
+  "story_of_the_day": "S1",
+  "tactical_en": "This week, the US Federal Reserve is expected to delay its rate hike to December due to weak jobs data, which will impact global liquidity and Kuwaiti bond yields. Domestically, Road 207 will be fully closed from October 3 to 24 for maintenance, requiring immediate logistical adjustments for commuters. The Houthi attacks on Saudi infrastructure are ongoing, with the next 48 hours critical for assessing whether the coalition's interceptions are preventing damage to critical assets like the Medina power station.",
+  "tactical_ar": "هذا الأسبوع، يُتوقع أن يؤجل الاحتياطي الفيدرالي الأمريكي رفع أسعار الفائدة إلى ديسمبر بسبب ضعف بيانات التوظيف، مما سيؤثر على السيولة العالمية وعوائد السندات الكويتية. محلياً، سيتم إغلاق طريق 207 بالكامل من 3 إلى 24 أكتوبر للصيانة، مما يتطلب تعديلات لوجستية فورية للمواطنين. كما أن الهجمات الحوثية على البنية التحتية السعودية مستمرة، حيث تعتبر الـ48 ساعة القادمة حاسمة لتقييم ما إذا كانت اعتراضات التحالف تمنع الأضرار عن الأصول الحيوية مثل محطة الكهرباء في المدينة.",
+  "strategic_en": "The coverage reveals a normalization of the Houthi-Saudi conflict as a background noise, with Kuwaiti outlets reprinting coalition statements without local analysis. The divergence in oil pricing suggests a strategic effort to maintain fiscal stability despite global market softness. The emphasis on UNIDO cooperation and food security signals a long-term pivot towards supply chain resilience and economic diversification, moving away from pure hydrocarbon dependence.",
+  "strategic_ar": "تكشف التغطية عن تطبيع الصراع الحوثي-السعودي كخلفية ضجيجية، حيث تعيد الصحف الكويتية نشر بيانات التحالف دون تحليل محلي. يشير الانحراف في أسعار النفط إلى جهد استراتيجي للحفاظ على الاستقرار المالي رغم ضعف الأسواق العالمية. كما أن التأكيد على التعاون مع منظمة الأمم المتحدة للتنمية الصناعية والأمن الغذائي يشير إلى تحول طويل الأمد نحو مرونة سلاسل الإمداد وتنويع الاقتصاد، مبتعداً عن الاعتماد الكلي على الهيدروكربونات.",
   "links": [
    {
-    "type": "consequence",
-    "from": "S12",
-    "to": "S28",
-    "evidence": "The escalation of Houthi missile attacks (S12) is cited by Trump as a primary driver for the need to release diesel reserves to cap prices (S28)."
-   },
-   {
     "type": "same_actor",
-    "from": "S12",
-    "to": "S14",
-    "evidence": "Both stories report on Coalition interceptions of Houthi missiles towards Khamis Mushait, with S14 providing a specific count discrepancy (1 vs 3) that highlights the ongoing nature of the attacks."
+    "from": "S18",
+    "to": "S27",
+    "evidence": "Both stories feature Ambassador Fawaz Boursali discussing cooperation with UNIDO in Vienna."
    },
    {
-    "type": "reaction",
-    "from": "S11",
-    "to": "S26",
-    "evidence": "The Houthi attack on Medina (S11) is part of the broader Yemen conflict that is the subject of the secret US Camp David meeting (S26)."
+    "type": "escalation",
+    "from": "S10",
+    "to": "S11",
+    "evidence": "S11 reports a specific interception in Khamis Mushait that is part of the broader wave of attacks described in S10."
    },
    {
     "type": "consequence",
+    "from": "S9",
+    "to": "S8",
+    "evidence": "The Houthi attack on Medina infrastructure (S9) is part of the same campaign that caused debris injuries in Ahad Rafidah (S8)."
+   },
+   {
+    "type": "contradiction",
     "from": "S1",
-    "to": "S28",
-    "evidence": "The rise in Kuwaiti crude prices (S1) is part of the broader energy market volatility that Trump claims to be addressing via European diesel releases (S28)."
+    "to": "S24",
+    "evidence": "S1 shows rising Kuwaiti oil prices while S24 highlights global economic weakness and falling global benchmarks, creating a market divergence."
    }
   ],
   "top_themes": [
    {
-    "theme_en": "Houthi-Saudi Escalation",
-    "theme_ar": "تصاعد الحوثيين والسعودية",
-    "story_ids": [
-     "S10",
-     "S11",
-     "S12",
-     "S14"
-    ],
-    "note_en": "Multiple interceptions of ballistic missiles targeting deep Saudi cities indicate a sustained and escalating campaign.",
-    "note_ar": "اعتراضات متعددة لصواريخ باليستية تستهدف مدن سعودية عميقة تشير إلى حملة مستمرة ومتصاعدة."
-   },
-   {
-    "theme_en": "Energy Market Volatility",
-    "theme_ar": "تقلبات سوق الطاقة",
+    "theme_en": "Energy Market Divergence",
+    "theme_ar": "التباين في أسواق الطاقة",
     "story_ids": [
      "S1",
-     "S28"
-    ],
-    "note_en": "Divergence between local and global oil prices and political claims about reserve releases highlight market sensitivity to regional conflict.",
-    "note_ar": "التباين بين أسعار النفط المحلية والعالمية والادعاءات السياسية حول إطلاق الاحتياطيات يبرز حساسية السوق للصراع الإقليمي."
-   },
-   {
-    "theme_en": "US Strategic Involvement",
-    "theme_ar": "التدخل الاستراتيجي الأمريكي",
-    "story_ids": [
+     "S24",
      "S26"
     ],
-    "note_en": "Secret high-level US meetings on Iran and Yemen signal a shift to active management of the regional crisis.",
-    "note_ar": "اجتماعات أمريكية سرية رفيعة المستوى حول إيران واليمن تشير إلى تحول نحو الإدارة النشطة للأزمة الإقليمية."
+    "note_en": "Kuwaiti crude is rising while global benchmarks and US policy signals suggest a cooling market.",
+    "note_ar": "يرتفع النفط الكويتي بينما تشير المعايير العالمية وإشارات السياسة الأمريكية إلى تباطؤ في السوق."
+   },
+   {
+    "theme_en": "Regional Security Escalation",
+    "theme_ar": "التصعيد الأمني الإقليمي",
+    "story_ids": [
+     "S8",
+     "S9",
+     "S10",
+     "S11"
+    ],
+    "note_en": "Houthi attacks on Saudi Arabia are increasing in frequency and targeting critical infrastructure.",
+    "note_ar": "تزداد هجمات الحوثيين على السعودية تكراراً وتستهدف البنية التحتية الحيوية."
+   },
+   {
+    "theme_en": "Domestic Governance & Order",
+    "theme_ar": "الحكم المحلي والنظام",
+    "story_ids": [
+     "S2",
+     "S3",
+     "S6"
+    ],
+    "note_en": "Routine enforcement of traffic, customs, and food safety regulations highlights state control over daily life.",
+    "note_ar": "تطبيق روتيني لقواعد المرور والجمارك وسلامة الغذاء يبرز سيطرة الدولة على الحياة اليومية."
    }
   ],
-  "not_being_said_en": "The coverage conspicuously avoids any detailed Kuwaiti government response to the Houthi missile attacks or the potential impact on Kuwaiti security or shipping lanes. While the WHO warning on Gaza (S15) is reported, there is no mention of any Kuwaiti humanitarian aid or diplomatic statement, suggesting a deliberate de-prioritization of the Gaza humanitarian crisis in favor of immediate security and economic narratives. The 'secret' nature of the Camp David meeting (S26) is highlighted, but the specific outcomes or US strategic shifts are not detailed, leaving the reader with a sense of uncertainty about the next steps in the conflict.",
-  "not_being_said_ar": "تتجنب التغطية بشكل ملحوظ أي رد حكومي كويتي مفصل على هجمات الصواريخ الحوثية أو التأثير المحتمل على الأمن الكويتي أو خطوط الشحن. على الرغم من تغطية تحذير منظمة الصحة العالمية بشأن غزة (S15)، إلا أنه لا يوجد ذكر لأي مساعدات إنسانية كويتية أو بيان دبلوماسي، مما يوحي بإقصاء متعمد لأزمة غزة الإنسانية لصالح سرديات الأمن والاقتصاد الفوريين. يُبرز الطابع 'السري' لاجتماع كامب ديفيد (S26)، لكن النتائج المحددة أو التحولات الاستراتيجية الأمريكية غير مفصلة، مما يترك القارئ بشعور بعدم اليقين بشأن الخطوات التالية في الصراع.",
-  "watchlist_en": "Official European confirmation of diesel reserve releases, Next Houthi missile launch/interception reports, Public statements from Camp David meeting, Kuwaiti government response to regional security escalation",
-  "watchlist_ar": "تأكيد أوروبي رسمي لإطلاق احتياطيات الديزل، تقارير إطلاق/اعتراض صاروخ حوثي تالية، تصريحات عامة من اجتماع كامب ديفيد، رد الحكومة الكويتية على التصعيد الأمني الإقليمي",
+  "not_being_said_en": "The coverage conspicuously avoids any Kuwaiti government statement or analysis regarding the Houthi attacks on Saudi Arabia, despite the proximity and potential spillover effects. There is no mention of Kuwaiti citizens or residents affected by the regional conflict. Furthermore, the divergence between the rising Kuwaiti oil price and falling global benchmarks is not explained by any official source, leaving the rationale for the pricing formula opaque to the public.",
+  "not_being_said_ar": "تتجنب التغطية بشكل ملحوظ أي بيان أو تحليل حكومي كويتي بشأن الهجمات الحوثية على السعودية، رغم القرب الجغرافي والأثر المحتمل. لا يوجد ذكر للمواطنين أو المقيمين الكويتيين المتأثرين بالصراع الإقليمي. علاوة على ذلك، لا يفسر أي مصدر رسمي التباين بين ارتفاع سعر النفط الكويتي وهبوط المعايير العالمية، مما يترك مبررات معادلة التسعير غامضة أمام الجمهور.",
+  "watchlist_en": "Official KPC explanation for the oil price divergence, Saudi coalition response to the Medina power station attack, Kuwaiti government statement on regional security, Road 207 maintenance progress",
+  "watchlist_ar": "الشرح الرسمي من شركة البترول الكويتية لتباين أسعار النفط، رد فعل التحالف السعودي على هجوم محطة الكهرباء في المدينة، بيان الحكومة الكويتية بشأن الأمن الإقليمي، تقدم أعمال الصيانة في طريق 207",
   "_source": "llm"
  },
  "source_health": [
@@ -196,13 +199,14 @@
  "stories": [
   {
    "key": "a973023b07f95f53",
-   "score": 19.01,
+   "score": 26.545,
    "sources": [
     "كويت نيوز",
     "الرأي",
+    "الجريدة",
     "الأنباء"
    ],
-   "outlet_count": 3,
+   "outlet_count": 4,
    "articles": [
     {
      "source_id": "kuwaitnews",
@@ -222,10 +226,22 @@
      "lang": "ar",
      "title": "سعر برميل النفط الكويتي يرتفع إلى 105.91 دولار",
      "url": "https://www.alraimedia.com/article/1781414/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-10591-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "latest",
+     "section": "economy",
      "summary": "ارتفع سعر برميل النفط الكويتي 1.32 دولار ليبلغ 105.91 دولار للبرميل في تداولات يوم أمس الجمعة مقابل 104.59 دولار في تداولات يوم أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويت...",
      "body": "",
      "published": "2026-10-03T09:15:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "النفط الكويتي يرتفع 1.32 دولار ليبلغ 105.91 دولار للبرميل",
+     "url": "https://www.aljarida.com/article/146291",
+     "section": "economy",
+     "summary": "ارتفع سعر برميل النفط الكويتي 1.32 دولار ليبلغ 105.91 دولاراً للبرميل في تداولات يوم أمس الجمعة، مقابل 104.59 دولاراً في تداولات يوم أول من أمس، وفقاً للسعر المعلن من مؤسسة البترول...",
+     "body": "",
+     "published": "2026-10-03T09:07:00+03:00",
      "tier": 1
     },
     {
@@ -258,7 +274,7 @@
      "lang": "ar",
      "title": "سعر برميل النفط الكويتي يرتفع إلى 104.59 دولار",
      "url": "https://www.alraimedia.com/article/1781377/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-10459-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "latest",
+     "section": "economy",
      "summary": "ارتفع سعر برميل النفط الكويتي 2.35 دولار ليبلغ 104.59 دولار للبرميل في تداولات يوم أمس الخميس مقابل 102.24 دولار في تداولات يوم أول من أمس وفق السعر المعلن من مؤسسة البترول الكويتي...",
      "body": "",
      "published": "2026-10-02T09:19:00+03:00",
@@ -267,18 +283,18 @@
    ],
    "category": "Economy & Business",
    "analysis": {
-    "headline_en": "Kuwaiti Crude Price Rises to $105.91",
+    "headline_en": "Kuwaiti crude price rises to $105.91 per barrel",
     "headline_ar": "سعر برميل النفط الكويتي يرتفع إلى 105.91 دولار",
-    "summary_en": "The Kuwaiti crude oil price rose by $1.32 to reach $105.91 per barrel in Friday's trading, up from $104.59 the previous day, according to the Kuwait Petroleum Corporation. In global markets, Brent crude futures fell by 6 cents to $102.25, while US West Texas Intermediate (WTI) futures dropped by $1.76 to $91.11.",
-    "summary_ar": "ارتفع سعر برميل النفط الكويتي 1.32 دولار ليبلغ 105.91 دولار للبرميل في تداولات يوم أمس الجمعة، مقابل 104.59 دولار في تداولات أول من أمس، وفقاً للسعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية، انخفضت العقود الآجلة لخام برنت 6 سنتات لتبلغ 102.25 دولار، كما انخفضت عقود خام غرب تكساس الوسيط الأمريكي 1.76 دولار لتبلغ 91.11 دولاراً.",
-    "why_it_matters_en": "The widening gap between the Kuwaiti benchmark and global prices (Brent/WTI) directly impacts the state's revenue projections and the budget surplus, as the domestic price is the primary metric for fiscal planning.",
-    "why_it_matters_ar": "التباعد بين سعر النفط الكويتي والمعايير العالمية (برنت/غرب تكساس) يؤثر مباشرة على توقعات الإيرادات الحكومية وفائض الميزانية، حيث يُعد السعر المحلي المؤشر الأساسي للتخطيط المالي.",
-    "between_the_lines_en": "The material presents a routine daily price update. The divergence between the rising local price and falling global benchmarks is a standard market mechanic (reflecting the specific quality and regional premium of Kuwaiti crude) rather than a signal of hidden geopolitical tension or supply disruption, as no such factors are mentioned in the text.",
-    "between_the_lines_ar": "المادة تقدم تحديثاً روتينياً للأسعار اليومية. التباعد بين ارتفاع السعر المحلي وانخفاض المعايير العالمية هو آلية سوقية قياسية (تعكس الجودة المحددة والقيمة الإقليمية للنفط الكويتي) وليس مؤشراً على توتر جيوسياسي خفي أو اضطراب في الإمدادات، حيث لم يُذكر أي من هذه العوامل في النص.",
-    "watch_next_en": "Monitor the next daily KPC price announcement to see if the local premium over Brent continues to widen or stabilizes.",
-    "watch_next_ar": "مراقبة إعلان مؤسسة البترول الكويتية اليومي التالي لمعرفة ما إذا كان الفارق المحلي عن برنت سيستمر في الاتساع أم سيستقر.",
+    "summary_en": "The Kuwaiti crude oil price increased by $1.32 to reach $105.91 per barrel in Friday's trading, up from $104.59 the previous day, according to the Kuwait Petroleum Corporation. Globally, Brent crude futures fell by 6 cents to $102.25, while US West Texas Intermediate (WTI) dropped by $1.76 to $91.11.",
+    "summary_ar": "ارتفع سعر برميل النفط الكويتي 1.32 دولار ليبلغ 105.91 دولار للبرميل في تداولات يوم الجمعة، مقارنة بـ 104.59 دولار في تداولات يوم الخميس، وفقاً للسعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية، انخفضت العقود الآجلة لخام برنت 6 سنتات لتبلغ 102.25 دولار، كما انخفضت عقود خام غرب تكساس الوسيط الأمريكي 1.76 دولار لتبلغ 91.11 دولار.",
+    "why_it_matters_en": "The widening gap between the official Kuwaiti price ($105.91) and global benchmarks (Brent at $102.25) highlights the premium attached to Kuwaiti crude. This premium directly impacts the state's revenue projections and the budget surplus, as the official price is the basis for fiscal calculations, not the spot market price.",
+    "why_it_matters_ar": "التباعد بين السعر الرسمي للنفط الكويتي (105.91 دولار) والمعايير العالمية (برنت عند 102.25 دولار) يبرز العلاوة المرتبطة بالنفط الكويتي. تؤثر هذه العلاوة مباشرة على توقعات إيرادات الدولة وفائض الميزانية، حيث أن السعر الرسمي هو الأساس للحسابات المالية وليس سعر السوق الفوري.",
+    "between_the_lines_en": "The reporting is a standard daily KPC price update, but the divergence between the rising Kuwaiti price and the falling global benchmarks (Brent and WTI) is notable. The Kuwaiti price is an official metric, not a spot trade, so its rise while global prices fall suggests the KPC is maintaining or adjusting its official pricing formula independently of immediate spot market dips. The lack of commentary on *why* the global prices fell (e.g., demand concerns, geopolitical shifts) is typical for this routine item, but the specific numbers show a decoupling that fiscal analysts will note.",
+    "between_the_lines_ar": "التغطية هي تحديث يومي قياسي لسعر مؤسسة البترول، لكن التباعد بين ارتفاع السعر الكويتي وانخفاض المعايير العالمية (برنت وغرب تكساس) يستحق الانتباه. السعر الكويتي هو مؤشر رسمي وليس تداولاً فورياً، لذا فإن ارتفاعه بينما تنخفض الأسعار العالمية يشير إلى أن المؤسسة تحافظ على معادلة تسعيرها الرسمية أو تعدلها بشكل مستقل عن الانخفاضات الفورية في السوق. غياب التعليق على *سبب* انخفاض الأسعار العالمية (مثل مخاوف الطلب أو التحولات الجيوسياسية) هو أمر معتاد في هذا النوع من الأخبار الروتينية، لكن الأرقام المحددة تُظهر انفصالاً سيلاحظه المحللون الماليون.",
+    "watch_next_en": "Monitor the next KPC official price announcement to see if the premium over Brent widens further or if it aligns more closely with global spot prices. Also, watch for any Ministry of Finance commentary on how this price level affects the current fiscal year's revenue targets.",
+    "watch_next_ar": "راقب إعلان السعر الرسمي القادم من مؤسسة البترول لمعرفة ما إذا كانت العلاوة فوق برنت ستتسع أكثر أم ستقترب من أسعار السوق العالمية. كما راقب أي تعليقات من وزارة المالية حول تأثير هذا المستوى السعري على أهداف إيرادات السنة المالية الحالية.",
     "confidence": "high",
-    "confidence_reason": "The text is a straightforward factual report with no ambiguous language or omitted context that would suggest hidden motives.",
+    "confidence_reason": "The data points (prices) are explicit, and the divergence is a factual observation from the provided text.",
     "entities": [
      "Kuwait Petroleum Corporation",
      "Brent Crude",
@@ -286,231 +302,9 @@
     ],
     "tags": [
      "Oil Prices",
-     "Economy",
      "KPC",
-     "Global Markets"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "43085e293f7d5278",
-   "score": 16.869,
-   "sources": [
-    "الأنباء",
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الإمارات: عملية إرهابية وراء واقعة «فلاي دبي»",
-     "url": "https://www.alanba.com.kw/1378989",
-     "section": "gulf",
-     "summary": "أعلن المستشار الدكتور حمد الشامسي، النائب العام للاتحاد، في الإمارات، في تصريح نقلته وكالة الأنباء الإماراتية، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية.",
-     "body": "النائب العام أكد أن التحقيقات كشفت عن شروع مساعد قائد الطائرة بتنفيذ مخططه أثناء الرحلة مستخدماً «فأس الطوارئ»\n\nالتحقيقات لا تزال جارية لكشف جميع ملابسات الواقعة ودوافعها والصلات المرتبطة بها\n\nأعلن المستشار د. حمد الشامسي، النائب العام للاتحاد، في الإمارات، في تصريح نقلته وكالة الأنباء الإماراتية، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية.\n\nوأوضح أن مساعد قائد الطائرة باشر تنفيذ مخططه أثناء الرحلة، حيث اعتدى على قائد الطائرة داخل قمرة القيادة مستخدما (فأس الطوارئ) (Crash Axe)، وحاول السيطرة على أدوات التحكم بالطائرة.\n\nوأكد النائب العام أن التحقيقات لا تزال جارية لكشف جميع ملابسات الواقعة ودوافعها والصلات المرتبطة بها، إلى جانب استكمال الفحوص الفنية وفحص الأدلة المادية والرقمية، على أن تعلن النتائج النهائية فور استكمال الإجراءات اللازمة.",
-     "published": "2026-10-03T06:56:47+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "النائب العام الإماراتي: مساعد قائد طائرة «فلاي دبي» خطط لتنفيذ عملية إرهابية",
-     "url": "https://www.alraimedia.com/article/1781416/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D9%86%D8%A7%D8%A6%D8%A8-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D9%82%D8%A7%D8%A6%D8%AF-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A-%D8%AE%D8%B7%D8%B7-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعلن المستشار الدكتور حمد الشامسي، النائب العام الإماراتي، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية.وبحسب وكالة الأ...",
-     "body": "",
-     "published": "2026-10-03T09:52:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الإمارات: مساعد قائد طائرة فلاي دبي هاجم قائدها بفأس الطوارئ",
-     "url": "https://www.aljarida.com/article/146292",
-     "section": "latest",
-     "summary": "ذكرت وكالة أنباء الإمارات اليوم السبت ⁠أن النائب العام للدولة، ⁠حمد سيف الشامسي، أعلن أن التحقيقات ‌في واقعة ​رحلة فلاي دبي ‌إف.زد 1073 ​كشفت عن ‌شروع مساعد قائد الط...",
-     "body": "",
-     "published": "2026-10-03T09:13:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "UAE: Terrorist Act Behind 'Fly Dubai' Incident",
-    "headline_ar": "الإمارات: عملية إرهابية وراء واقعة «فلاي دبي»",
-    "summary_en": "UAE Federal Prosecutor Dr. Hamad Al Shamsi announced that investigations into Fly Dubai flight FZ1073 revealed the co-pilot attempted a terrorist act by attacking the pilot with a crash axe and trying to seize control of the aircraft. The investigation is ongoing to determine the motives and connections behind the incident.",
-    "summary_ar": "أعلن المستشار د. حمد الشامسي، النائب العام للاتحاد، في الإمارات، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية. وأوضح أن مساعد قائد الطائرة اعتدى على قائد الطائرة داخل قمرة القيادة مستخدماً «فأس الطوارئ»، وحاول السيطرة على أدوات التحكم بالطائرة، فيما لا تزال التحقيقات جارية لكشف الدوافع والصلات المرتبطة بالواقعة.",
-    "why_it_matters_en": "This incident highlights aviation security vulnerabilities in the Gulf region and may lead to tightened security protocols for regional carriers, potentially affecting travel safety perceptions and insurance costs for airlines operating in the area.",
-    "why_it_matters_ar": "تسلط هذه الحادثة الضوء على ثغرات أمن الطيران في منطقة الخليج، وقد تؤدي إلى تشديد بروتوكولات الأمن للنواقل الإقليمية، مما قد يؤثر على إدراك سلامة السفر وتكاليف التأمين لشركات الطيران العاملة في المنطقة.",
-    "between_the_lines_en": "The use of the term 'terrorist act' (عملية إرهابية) by the UAE prosecutor, rather than 'hijacking' or 'assault,' signals an intent to frame the incident within a broader security narrative. The omission of the co-pilot's nationality or specific background in the initial report suggests a cautious approach to avoid inflaming regional tensions or revealing sensitive intelligence details prematurely.",
-    "between_the_lines_ar": "استخدام مصطلح «عملية إرهابية» من قبل النائب العام الإماراتي، بدلاً من «اختطاف» أو «اعتداء»، يشير إلى نية تأطير الحادثة ضمن سردية أمنية أوسع. وإغفال جنسية مساعد قائد الطائرة أو خلفيته المحددة في التقرير الأولي يوحي بموقف حذر لتجنب تأجيج التوترات الإقليمية أو الكشف عن تفاصيل استخباراتية حساسة مبكراً.",
-    "watch_next_en": "Watch for the official release of the co-pilot's identity and nationality, and any subsequent statements from Kuwaiti aviation authorities regarding security protocol reviews.",
-    "watch_next_ar": "مراقبة الإعلان الرسمي عن هوية وجنسية مساعد قائد الطائرة، وأي تصريحات لاحقة من السلطات الجوية الكويتية بشأن مراجعة بروتوكولات الأمن.",
-    "confidence": "medium",
-    "confidence_reason": "The framing is clear, but the specific implications for Kuwaiti policy are inferred from general regional security trends rather than explicit statements in the text.",
-    "entities": [
-     "UAE Federal Prosecutor",
-     "Dr. Hamad Al Shamsi",
-     "Fly Dubai",
-     "Flight FZ1073"
-    ],
-    "tags": [
-     "Aviation Security",
-     "Terrorism",
-     "UAE",
-     "Regional Security"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "b54a586b69ec7aec",
-   "score": 16.518,
-   "sources": [
-    "الأنباء",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "ولي العهد يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
-     "url": "https://www.alanba.com.kw/1378991",
-     "section": "official",
-     "summary": "بعث سمو ولي العهد الشيخ صباح الخالد، ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية، د.فرانك فالتر شتاينماير، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية، وراجيا للرئيس شتاينماير دوام الصحة والعافية.",
-     "body": "بعث سمو ولي العهد الشيخ صباح الخالد، ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية، د.فرانك فالتر شتاينماير، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية، وراجيا للرئيس شتاينماير دوام الصحة والعافية.",
-     "published": "2026-10-03T07:00:32+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "رئيس مجلس الوزراء يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
-     "url": "https://www.alanba.com.kw/1378990",
-     "section": "official",
-     "summary": "بعث سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية الصديقة د.فرانك فالتر شتاينماير بمناسبة ذكرى يوم الوحدة الألمانية.",
-     "body": "",
-     "published": "2026-10-03T06:59:07+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "صاحب السمو الأمير يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
-     "url": "https://www.alanba.com.kw/1378988",
-     "section": "official",
-     "summary": "بعث صاحب السمو الأمير الشيخ مشعل الأحمد ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية الصديقة د.فرانك فالتر شتاينماير عبر فيها سموه عن خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية،",
-     "body": "",
-     "published": "2026-10-03T06:41:30+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "ولي العهد يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
-     "url": "https://www.aljarida.com/article/146290",
-     "section": "local",
-     "summary": "بعث سمو ولي العهد الشيخ صباح خالد الحمد الصباح حفظه الله ببرقية تهنئة إلى فخامة الرئيس الدكتور فرانك فالتر شتاينماير رئيس جمهورية ألمانيا الاتحادية الصديقة ضمنها سموه خالص تهانيه ب...",
-     "body": "",
-     "published": "2026-10-03T09:04:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Crown Prince Congratulates German President on Unity Day",
-    "headline_ar": "ولي العهد يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
-    "summary_en": "Crown Prince Sheikh Sabah Al-Khalid sent a congratulatory telegram to German President Dr. Frank-Walter Steinmeier on the occasion of German Unity Day, wishing him good health and well-being.",
-    "summary_ar": "بعث سمو ولي العهد الشيخ صباح الخالد ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية، د. فرانك فالتر شتاينماير، بمناسبة ذكرى يوم الوحدة الألمانية، راجياً له دوام الصحة والعافية.",
-    "why_it_matters_en": "This is a routine diplomatic protocol that maintains bilateral relations between Kuwait and Germany, a key European partner in trade and investment.",
-    "why_it_matters_ar": "هذا إجراء دبلوماسي روتيني يحافظ على العلاقات الثنائية بين الكويت وألمانيا، الشريك الأوروبي الرئيسي في التجارة والاستثمار.",
-    "between_the_lines_en": "No significant subtext — this reads as a routine administrative announcement. The simultaneous congratulations from the Amir, Prime Minister, and Crown Prince are standard protocol for major national holidays of partner states and do not indicate a specific new diplomatic initiative.",
-    "between_the_lines_ar": "لا يوجد سياق خفي ذو أهمية — هذا يُقرأ كإعلان إداري روتيني. التهاني المتزامنة من الأمير ورئيس الوزراء وولي العهد هي بروتوكول قياسي للأعياد الوطنية الكبرى للدول الشريكة ولا تشير إلى مبادرة دبلوماسية جديدة محددة.",
-    "watch_next_en": "None. This is a standard diplomatic courtesy with no expected follow-up actions.",
-    "watch_next_ar": "لا يوجد. هذه مجاملة دبلوماسية قياسية ولا يُتوقع أي إجراءات لاحقة.",
-    "confidence": "high",
-    "confidence_reason": "The content is purely ceremonial and follows a predictable pattern of diplomatic correspondence.",
-    "entities": [
-     "Crown Prince Sheikh Sabah Al-Khalid",
-     "Dr. Frank-Walter Steinmeier",
-     "Germany"
-    ],
-    "tags": [
-     "Diplomacy",
-     "Germany",
-     "Protocol",
-     "Foreign Affairs"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "71d63b0f0b504aa1",
-   "score": 15.178,
-   "sources": [
-    "الجريدة",
-    "الأنباء"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«الأرصاد»: طقس حار ورطب نهاراً مع فرص أمطار متفرقة وتكوّن الضباب",
-     "url": "https://www.aljarida.com/article/146289",
-     "section": "local",
-     "summary": "توقعت إدارة الأرصاد الجوية أن يكون الطقس اليوم السبت حاراً وغائماً جزئياً، مع ارتفاع في معدلات الرطوبة، خصوصاً على المناطق الساحلية، فيما تكون الرياح جنوبية شرقية إلى متقلبة الاتجا...",
-     "body": "",
-     "published": "2026-10-03T08:59:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«الأرصاد»: طقس حار ورطب مع فرصة لأمطار خفيفة متفرقة..و«العظمى»: 40",
-     "url": "https://www.alanba.com.kw/1378986",
-     "section": "kuwait",
-     "summary": "توقعت إدارة الأرصاد الجوية أن يسود لنهار اليوم السبت، طقس حار وغائم جزئيا و رطب خاصة على المناطق الساحلية والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 38 كم/ساعة مع فرصة لأمطار خفيفة متفرقة وفرصة لتكون الضباب في المساء.",
-     "body": "توقعت إدارة الأرصاد الجوية أن يسود لنهار اليوم السبت، طقس حار وغائم جزئيا و رطب خاصة على المناطق الساحلية والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 38 كم/ساعة مع فرصة لأمطار خفيفة متفرقة وفرصة لتكون الضباب في المساء.\n\nأما ليلا سيكون الطقس مائلا للحرارة إلى معتدل و غائم جزئيا ورطبا والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 35 كم/ساعة مع فرصة أمطار متفرقة و فرصة لتكون الضباب على بعض المناطق .\n\nودرجة الحرارة العظمى المتوقعة 40 درجة مئوية أما الصغرى فتصل إلى 29 درجة مئوية.",
-     "published": "2026-10-03T05:39:52+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "Weather: Hot and Humid Day with Chance of Scattered Rain and Fog",
-    "headline_ar": "«الأرصاد»: طقس حار ورطب نهاراً مع فرص أمطار متفرقة وتكوّن الضباب",
-    "summary_en": "The Meteorology Department forecast a hot, partly cloudy, and humid day for Saturday, with a chance of light scattered rain and fog in the evening. The maximum temperature is expected to reach 40 degrees Celsius, while the minimum will be 29 degrees.",
-    "summary_ar": "توقعت إدارة الأرصاد الجوية أن يسود لنهار اليوم السبت طقس حار وغائم جزئياً ورطب، خاصة على المناطق الساحلية، مع فرصة لأمطار خفيفة متفرقة وفرصة لتكون الضباب في المساء. أما ليلاً فسيكون الطقس مائلاً للحرارة إلى معتدل وغائم جزئياً ورطباً، مع فرصة لأمطار متفرقة وتكوّن الضباب على بعض المناطق. ودرجة الحرارة العظمى المتوقعة 40 درجة مئوية، والصغرى 29 درجة.",
-    "why_it_matters_en": "The combination of high humidity, heat, and potential fog affects traffic safety and outdoor activities, particularly for commuters and workers in the early morning and evening hours.",
-    "why_it_matters_ar": "مزيج الرطوبة العالية والحرارة واحتمال الضباب يؤثر على سلامة المرور والأنشطة الخارجية، خاصة للموظفين والعمال في ساعات الصباح الباكر والمساء.",
-    "between_the_lines_en": "No significant subtext — this is a standard daily weather forecast. The specific mention of fog on coastal areas is a routine safety advisory for drivers and does not imply any unusual meteorological event.",
-    "between_the_lines_ar": "لا يوجد سياق خفي ذو أهمية — هذا توقع طقس يومي قياسي. الإشارة المحددة إلى الضباب في المناطق الساحلية هي تنبيه أمني روتيني للسائقين ولا توحي بأي حدث مناخي غير معتاد.",
-    "watch_next_en": "Monitor local traffic reports for any delays due to fog in the early morning hours.",
-    "watch_next_ar": "مراقبة تقارير المرور المحلية عن أي تأخيرات بسبب الضباب في ساعات الصباح الباكر.",
-    "confidence": "high",
-    "confidence_reason": "The text is a factual meteorological report with no political or economic implications.",
-    "entities": [
-     "Meteorology Department"
-    ],
-    "tags": [
-     "Weather",
-     "Public Safety",
-     "Traffic",
-     "Environment"
+     "Global Markets",
+     "Fiscal Revenue"
     ],
     "_source": "llm"
    }
@@ -647,8 +441,133 @@
    }
   },
   {
+   "key": "edbd76ddebeafbbe",
+   "score": 12.217,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "بيت التمويل الكويتي شريك استراتيجي لبرنامج \"مع الطلبة\"",
+     "url": "https://www.alanba.com.kw/1378961",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-02T16:23:01+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
+     "url": "https://www.alraimedia.com/article/1781390/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D8%B4%D8%B1%D9%8A%D9%83-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF-%D8%A3%D8%AF%D9%81%D9%86%D8%AA%D8%B4%D8%B1",
+     "section": "latest",
+     "summary": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
+     "body": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
+     "published": "2026-10-02T17:21:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "Kuwait Finance House Becomes Strategic Partner of 'Al-Shahid Adventure' Program",
+    "headline_ar": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
+    "summary_en": "Kuwait Finance House (KFH) has announced it is a strategic partner in the 'Al-Shahid Adventure' program. The provided text contains only the headline and no further details about the program's nature, beneficiaries, or financial terms.",
+    "summary_ar": "أعلن بيت التمويل الكويتي (بيتك) أنه شريك استراتيجي في برنامج «الشهيد أدفنتشر». النص المقدم يحتوي على العنوان فقط دون تفاصيل إضافية حول طبيعة البرنامج أو المستفيدين أو الشروط المالية.",
+    "why_it_matters_en": "This is a corporate branding move by KFH, likely targeting a younger demographic or a specific niche market (adventure/outdoor). It has no direct policy or economic impact on the state, but it signals KFH's continued aggressive marketing strategy to maintain market share against competitors like National Bank of Kuwait.",
+    "why_it_matters_ar": "هذه خطوة تسويقية مؤسسية من 'بيتك'، تستهدف على الأرجح شريحة سنية أو سوقاً متخصصة (مغامرات/هواء الطلق). لا يوجد لها تأثير مباشر على سياسة الدولة أو اقتصادها، لكنها تشير إلى استمرار استراتيجية التسويق العدوانية لـ'بيتك' للحفاظ على حصته السوقية أمام منافسين مثل بنك الكويت الوطني.",
+    "between_the_lines_en": "There is no subtext to analyze. The material is a bare headline with no body text, no attribution to a specific official, and no context on what 'Al-Shahid Adventure' is. It reads as a routine corporate press release or sponsorship announcement. The divergence in headlines (Al-Anbaa mentions 'Ma Al-Tabbin' while Al-Ra'i mentions 'Al-Shahid Adventure') suggests either a typo in one outlet or two different programs being conflated, but without body text, this cannot be resolved.",
+    "between_the_lines_ar": "لا يوجد سياق خفي للتحليل. المادة عبارة عن عنوان فارغ دون نص أساسي، دون إسناد لمسؤول محدد، ودون سياق حول ما هو 'الشهيد أدفنتشر'. يبدو كإعلان رعاية أو بيان صحفي مؤسسي روتيني. التباين في العناوين (الأنباء تذكر 'مع الطلبة' بينما الرأي تذكر 'الشهيد أدفنتشر') يوحي إما بخطأ مطبعي في أحد المنصتين أو بخلط بين برنامجين مختلفين، لكن دون نص أساسي لا يمكن حل هذا التباين.",
+    "watch_next_en": "Check KFH's official social media channels or website for a detailed press release explaining the 'Al-Shahid Adventure' partnership and clarifying if it is related to the 'Ma Al-Tabbin' program mentioned by Al-Anbaa.",
+    "watch_next_ar": "راجع قنوات التواصل الاجتماعي الرسمية أو موقع 'بيتك' للحصول على بيان صحفي مفصل يوضح شراكة 'الشهيد أدفنتشر' ويحدد ما إذا كانت مرتبطة ببرنامج 'مع الطلبة' الذي ذكرته الأنباء.",
+    "confidence": "low",
+    "confidence_reason": "The lack of body text makes it impossible to verify the nature of the partnership or resolve the headline discrepancy between outlets.",
+    "entities": [
+     "Kuwait Finance House (KFH)",
+     "Al-Shahid Adventure",
+     "Ma Al-Tabbin (mentioned in Al-Anbaa headline)"
+    ],
+    "tags": [
+     "Banking",
+     "Corporate News",
+     "Sponsorship",
+     "KFH"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "43085e293f7d5278",
+   "score": 11.869,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الإمارات: عملية إرهابية وراء واقعة «فلاي دبي»",
+     "url": "https://www.alanba.com.kw/1378989",
+     "section": "gulf",
+     "summary": "أعلن المستشار الدكتور حمد الشامسي، النائب العام للاتحاد، في الإمارات، في تصريح نقلته وكالة الأنباء الإماراتية، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية.",
+     "body": "النائب العام أكد أن التحقيقات كشفت عن شروع مساعد قائد الطائرة بتنفيذ مخططه أثناء الرحلة مستخدماً «فأس الطوارئ»\n\nالتحقيقات لا تزال جارية لكشف جميع ملابسات الواقعة ودوافعها والصلات المرتبطة بها\n\nأعلن المستشار د. حمد الشامسي، النائب العام للاتحاد، في الإمارات، في تصريح نقلته وكالة الأنباء الإماراتية، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية.\n\nوأوضح أن مساعد قائد الطائرة باشر تنفيذ مخططه أثناء الرحلة، حيث اعتدى على قائد الطائرة داخل قمرة القيادة مستخدما (فأس الطوارئ) (Crash Axe)، وحاول السيطرة على أدوات التحكم بالطائرة.\n\nوأكد النائب العام أن التحقيقات لا تزال جارية لكشف جميع ملابسات الواقعة ودوافعها والصلات المرتبطة بها، إلى جانب استكمال الفحوص الفنية وفحص الأدلة المادية والرقمية، على أن تعلن النتائج النهائية فور استكمال الإجراءات اللازمة.",
+     "published": "2026-10-03T07:02:26+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "النائب العام الإماراتي: مساعد قائد طائرة «فلاي دبي» خطط لتنفيذ عملية إرهابية",
+     "url": "https://www.alraimedia.com/article/1781416/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D9%86%D8%A7%D8%A6%D8%A8-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D9%82%D8%A7%D8%A6%D8%AF-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A-%D8%AE%D8%B7%D8%B7-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعلن المستشار الدكتور حمد الشامسي، النائب العام الإماراتي، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية.وبحسب وكالة الأ...",
+     "body": "",
+     "published": "2026-10-03T09:52:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "UAE: Terrorist act behind 'Fly Dubai' incident",
+    "headline_ar": "الإمارات: عملية إرهابية وراء واقعة «فلاي دبي»",
+    "summary_en": "UAE Federal Public Prosecutor Dr. Hamad Al Shamsi stated that investigations into Fly Dubai flight FZ1073 revealed the co-pilot attempted to carry out a terrorist act. He used the emergency crash axe to attack the pilot in the cockpit and attempted to seize control of the aircraft. Investigations into motives and connections are ongoing.",
+    "summary_ar": "أعلن المستشار د. حمد الشامسي، النائب العام للاتحاد، في الإمارات، أن التحقيقات في واقعة رحلة «فلاي دبي» رقم (FZ1073) كشفت عن شروع مساعد قائد الطائرة في تنفيذ عملية إرهابية. وأوضح أن مساعد قائد الطائرة باشر تنفيذ مخططه أثناء الرحلة، حيث اعتدى على قائد الطائرة داخل قمرة القيادة مستخدماً «فأس الطوارئ»، وحاول السيطرة على أدوات التحكم بالطائرة. التحقيقات لا تزال جارية لكشف جميع ملابسات الواقعة ودوافعها والصلات المرتبطة بها.",
+    "why_it_matters_en": "This incident has immediate implications for regional aviation security and insurance premiums. For Kuwait, it reinforces the need for stringent security protocols at Kuwait International Airport and for airlines operating in the region, as the 'crash axe' threat is a specific, low-tech vulnerability that security agencies must address. It also affects the perception of safety for Gulf-based carriers.",
+    "why_it_matters_ar": "لحادث تداعيات فورية على أمن الطيران الإقليمي وأقسام التأمين. بالنسبة للكويت، يعزز الحاجة إلى بروتوكولات أمنية صارمة في مطار الكويت الدولي وللشركات التي تعمل في المنطقة، حيث أن تهديد «فأس الطوارئ» هو ثغرة منخفضة التقنية يجب على الوكالات الأمنية معالجتها. كما يؤثر على إدراك السلامة للشركات الخليجية.",
+    "between_the_lines_en": "The UAE's rapid and definitive labeling of the act as 'terrorist' (rather than 'mental health crisis' or 'unauthorized act') is a significant framing choice. By attributing it to a 'plot' and 'connections' (as per the prosecutor's statement), the UAE is signaling a security threat rather than an isolated incident. For Kuwaiti readers, the omission of the co-pilot's nationality or background in the initial report is standard but notable; it suggests the investigation is sensitive. The use of the 'crash axe' is a specific detail that highlights a known security gap in cockpit protection, which Kuwaiti aviation authorities will likely review internally.",
+    "between_the_lines_ar": "التصنيف السريع والحاسم من الإمارات للعمل بأنه «إرهابي» (بدلاً من «أزمة صحية نفسية» أو «عمل غير مصرح به») هو خيار تأطير مهم. من خلال نسبته إلى «مخطط» و«صلات» (كما في تصريح النائب العام)، تشير الإمارات إلى تهديد أمني وليس حادثاً معزولاً. للقراء الكويتيين، غياب جنسية مساعد الطيار أو خلفيته في التقرير الأولي هو أمر قياسي لكنه يستحق الانتباه؛ إذ يشير إلى حساسية التحقيق. استخدام «فأس الطوارئ» هو تفصيل محدد يبرز ثغرة معروفة في حماية قمرة القيادة، والتي من المرجح أن تراجعها السلطات الجوية الكويتية داخلياً.",
+    "watch_next_en": "Watch for the release of the co-pilot's identity and nationality by UAE authorities. Monitor Kuwaiti Civil Aviation Authority statements or internal directives regarding cockpit security protocols, specifically concerning the storage and access to emergency tools like the crash axe.",
+    "watch_next_ar": "راقب إعلان السلطات الإماراتية لهوية مساعد الطيار وجنسيته. راقب بيانات هيئة الطيران المدني الكويتية أو التوجيهات الداخلية بشأن بروتوكولات أمن قمرة القيادة، وتحديداً ما يتعلق بتخزين الأدوات الطارئة مثل فأس الطوارئ والوصول إليها.",
+    "confidence": "medium",
+    "confidence_reason": "The facts are clear, but the interpretation of the 'terrorist' label as a strategic framing choice is an inference based on standard geopolitical reporting patterns, not explicitly stated in the text.",
+    "entities": [
+     "UAE Federal Public Prosecutor",
+     "Dr. Hamad Al Shamsi",
+     "Fly Dubai",
+     "Flight FZ1073"
+    ],
+    "tags": [
+     "Aviation Security",
+     "Terrorism",
+     "UAE",
+     "Regional Safety"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "2ee54bfc9eff82ec",
-   "score": 12.258,
+   "score": 11.658,
    "sources": [
     "الجريدة",
     "الرأي"
@@ -708,68 +627,6 @@
      "Food Security",
      "Al-Jahra",
      "Interior Ministry"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "edbd76ddebeafbbe",
-   "score": 12.217,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "بيت التمويل الكويتي شريك استراتيجي لبرنامج \"مع الطلبة\"",
-     "url": "https://www.alanba.com.kw/1378961",
-     "section": "kuwait",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-02T16:23:01+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
-     "url": "https://www.alraimedia.com/article/1781390/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D8%B4%D8%B1%D9%8A%D9%83-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF-%D8%A3%D8%AF%D9%81%D9%86%D8%AA%D8%B4%D8%B1",
-     "section": "latest",
-     "summary": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
-     "body": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
-     "published": "2026-10-02T17:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "Kuwait Finance House Becomes Strategic Partner of 'Al-Shahid Adventure' Program",
-    "headline_ar": "بيت التمويل الكويتي شريك استراتيجي في «الشهيد أدفنتشر»",
-    "summary_en": "Kuwait Finance House (KFH) has announced it is a strategic partner in the 'Al-Shahid Adventure' program. The provided text contains only the headline and no further details about the program's nature, beneficiaries, or financial terms.",
-    "summary_ar": "أعلن بيت التمويل الكويتي (بيتك) أنه شريك استراتيجي في برنامج «الشهيد أدفنتشر». النص المقدم يحتوي على العنوان فقط دون تفاصيل إضافية حول طبيعة البرنامج أو المستفيدين أو الشروط المالية.",
-    "why_it_matters_en": "This is a corporate branding move by KFH, likely targeting a younger demographic or a specific niche market (adventure/outdoor). It has no direct policy or economic impact on the state, but it signals KFH's continued aggressive marketing strategy to maintain market share against competitors like National Bank of Kuwait.",
-    "why_it_matters_ar": "هذه خطوة تسويقية مؤسسية من 'بيتك'، تستهدف على الأرجح شريحة سنية أو سوقاً متخصصة (مغامرات/هواء الطلق). لا يوجد لها تأثير مباشر على سياسة الدولة أو اقتصادها، لكنها تشير إلى استمرار استراتيجية التسويق العدوانية لـ'بيتك' للحفاظ على حصته السوقية أمام منافسين مثل بنك الكويت الوطني.",
-    "between_the_lines_en": "There is no subtext to analyze. The material is a bare headline with no body text, no attribution to a specific official, and no context on what 'Al-Shahid Adventure' is. It reads as a routine corporate press release or sponsorship announcement. The divergence in headlines (Al-Anbaa mentions 'Ma Al-Tabbin' while Al-Ra'i mentions 'Al-Shahid Adventure') suggests either a typo in one outlet or two different programs being conflated, but without body text, this cannot be resolved.",
-    "between_the_lines_ar": "لا يوجد سياق خفي للتحليل. المادة عبارة عن عنوان فارغ دون نص أساسي، دون إسناد لمسؤول محدد، ودون سياق حول ما هو 'الشهيد أدفنتشر'. يبدو كإعلان رعاية أو بيان صحفي مؤسسي روتيني. التباين في العناوين (الأنباء تذكر 'مع الطلبة' بينما الرأي تذكر 'الشهيد أدفنتشر') يوحي إما بخطأ مطبعي في أحد المنصتين أو بخلط بين برنامجين مختلفين، لكن دون نص أساسي لا يمكن حل هذا التباين.",
-    "watch_next_en": "Check KFH's official social media channels or website for a detailed press release explaining the 'Al-Shahid Adventure' partnership and clarifying if it is related to the 'Ma Al-Tabbin' program mentioned by Al-Anbaa.",
-    "watch_next_ar": "راجع قنوات التواصل الاجتماعي الرسمية أو موقع 'بيتك' للحصول على بيان صحفي مفصل يوضح شراكة 'الشهيد أدفنتشر' ويحدد ما إذا كانت مرتبطة ببرنامج 'مع الطلبة' الذي ذكرته الأنباء.",
-    "confidence": "low",
-    "confidence_reason": "The lack of body text makes it impossible to verify the nature of the partnership or resolve the headline discrepancy between outlets.",
-    "entities": [
-     "Kuwait Finance House (KFH)",
-     "Al-Shahid Adventure",
-     "Ma Al-Tabbin (mentioned in Al-Anbaa headline)"
-    ],
-    "tags": [
-     "Banking",
-     "Corporate News",
-     "Sponsorship",
-     "KFH"
     ],
     "_source": "llm"
    }
@@ -844,7 +701,7 @@
   },
   {
    "key": "ea9ee9458ae6426c",
-   "score": 11.059,
+   "score": 10.459,
    "sources": [
     "الأنباء",
     "الرأي"
@@ -869,7 +726,7 @@
      "lang": "ar",
      "title": "الدفاع المدني السعودي: إصابة مقيم آسيوي إثر سقوط شظايا صاروخ في محافظة أحد رفيدة",
      "url": "https://www.alraimedia.com/article/1781406/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%85%D9%82%D9%8A%D9%85-%D8%A2%D8%B3%D9%8A%D9%88%D9%8A-%D8%A5%D8%AB%D8%B1-%D8%B3%D9%82%D9%88%D8%B7-%D8%B4%D8%B8%D8%A7%D9%8A%D8%A7-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%A3%D8%AD%D8%AF-%D8%B1%D9%81%D9%8A%D8%AF%D8%A9",
-     "section": "latest",
+     "section": "world",
      "summary": "أعلن الدفاع المدني السعودي أمس الجمعة إصابة مقيم من جنسية آسيوية وأضرارا في مصلى داخل مبنى وعدد من المركبات إثر سقوط شظايا صاروخ باليستي جرى اعتراضه وتدميره في محافظة أحد رفيدة بمن...",
      "body": "أعلن الدفاع المدني السعودي أمس الجمعة إصابة مقيم من جنسية آسيوية وأضرارا في مصلى داخل مبنى وعدد من المركبات إثر سقوط شظايا صاروخ باليستي جرى اعتراضه وتدميره في محافظة أحد رفيدة بمنطقة عسير.\n\nونقلت وكالة الأنباء السعودية «واس» عن المتحدث الرسمي للدفاع المدني السعودي القول إن الصاروخ أطلقته ميليشيا الحوثي، مضيفا أن الجهات المختصة نفذت الإجراءات المعتمدة في مثل هذه الحالات.",
      "published": "2026-10-03T01:26:00+03:00",
@@ -909,7 +766,7 @@
   },
   {
    "key": "bd1e606e362da050",
-   "score": 10.863,
+   "score": 10.263,
    "sources": [
     "الرأي",
     "الأنباء"
@@ -922,9 +779,9 @@
      "lang": "ar",
      "title": "باكستان تدين بشدة هجوم ميليشيات الحوثي على محطة لتوزيع الكهرباء في المدينة المنورة",
      "url": "https://www.alraimedia.com/article/1781397/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A8%D8%B4%D8%AF%D8%A9-%D9%87%D8%AC%D9%88%D9%85-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B9%D9%84%D9%89-%D9%85%D8%AD%D8%B7%D8%A9-%D9%84%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9",
-     "section": "latest",
+     "section": "world",
      "summary": "دانت باكستان بشدة اليوم الجمعة الهجوم الذي شنته ميليشيات الحوثي على محطة لتوزيع الكهرباء في المدينة المنورة بالمملكة العربية السعودية. وقالت وزارة الخارجية الباكستانية في بيان إن...",
-     "body": "دانت باكستان بشدة اليوم الجمعة الهجوم الذي شنته ميليشيات الحوثي على محطة لتوزيع الكهرباء في المدينة المنورة بالمملكة العربية السعودية.\n\nالمفوضية الأوروبية تصرف أكثر من 3 مليارات دولار لأوكرانيا لدعم الاستقرار المالي والإصلاحات منذ ساعتين «الصحة العالمية» تحذر من تدهور الوضع الصحي في غزة منذ ساعتين\n\nوقالت وزارة الخارجية الباكستانية في بيان إن «هذا الهجوم المستنكر الذي استهدف البنية التحتية المدنية المزودة للكهرباء للمسجد النبوي الشريف يعد استفزازا خطيرا ومصدر قلق وألم عميق لملايين المسلمين حول العالم».\n\nوأكدت الوزارة ضرورة احترام حرمة الحرمين الشريفين وسلامة المصلين والمعتمرين في جميع الظروف مشددة على الدعوة إلى وقف فوري وغير مشروط لمثل هذه الأعمال المتهورة التي تشكل أيضا تهديدا خطيرا للسلم والأمن الإقليميين.\n\nوأضافت أن «باكستان تجدد تضامنها الراسخ مع المملكة العربية السعودية وتعرب عن دعمها الكامل لسيادة المملكة وسلامة أراضيها وأمنها».\n\nوشددت على الوقوف بحزم إلى جانب المملكة في جهودها الرامية لحماية الحرمين الشريفين والحفاظ على سلامة شعبها وضمان أمن المعتمرين مؤكدة أن باكستان دأبت وستواصل بذل كافة الجهود لتحقيق السلام والاستقرار الدائمين في المنطقة.\n\nوكان تحالف دعم الشرعية في اليمن أعلن أمس الخميس «وقوع هجوم إرهابي فجر الثلاثاء استهدف محطة (طيبة) لتوزيع الكهرباء بالمدينة المنورة» مبينا أن نتائج التحقيق والاستدلال من الجهات المختصة أثبتت «تورط الميليشيات الحوثية بالتخطيط والتنفيذ لهذا العمل الإرهابي الجبان من خلال المراجعة العملياتية وبقايا حطام المسيرة المستخدمة».",
+     "body": "دانت باكستان بشدة اليوم الجمعة الهجوم الذي شنته ميليشيات الحوثي على محطة لتوزيع الكهرباء في المدينة المنورة بالمملكة العربية السعودية.\n\nمجموعة السبع تتفق على السحب من مخزونات الديزل والنفط عقب ضغط أميركي منذ 24 دقيقة المفوضية الأوروبية تصرف أكثر من 3 مليارات دولار لأوكرانيا لدعم الاستقرار المالي والإصلاحات منذ ساعتين\n\nوقالت وزارة الخارجية الباكستانية في بيان إن «هذا الهجوم المستنكر الذي استهدف البنية التحتية المدنية المزودة للكهرباء للمسجد النبوي الشريف يعد استفزازا خطيرا ومصدر قلق وألم عميق لملايين المسلمين حول العالم».\n\nوأكدت الوزارة ضرورة احترام حرمة الحرمين الشريفين وسلامة المصلين والمعتمرين في جميع الظروف مشددة على الدعوة إلى وقف فوري وغير مشروط لمثل هذه الأعمال المتهورة التي تشكل أيضا تهديدا خطيرا للسلم والأمن الإقليميين.\n\nوأضافت أن «باكستان تجدد تضامنها الراسخ مع المملكة العربية السعودية وتعرب عن دعمها الكامل لسيادة المملكة وسلامة أراضيها وأمنها».\n\nوشددت على الوقوف بحزم إلى جانب المملكة في جهودها الرامية لحماية الحرمين الشريفين والحفاظ على سلامة شعبها وضمان أمن المعتمرين مؤكدة أن باكستان دأبت وستواصل بذل كافة الجهود لتحقيق السلام والاستقرار الدائمين في المنطقة.\n\nوكان تحالف دعم الشرعية في اليمن أعلن أمس الخميس «وقوع هجوم إرهابي فجر الثلاثاء استهدف محطة (طيبة) لتوزيع الكهرباء بالمدينة المنورة» مبينا أن نتائج التحقيق والاستدلال من الجهات المختصة أثبتت «تورط الميليشيات الحوثية بالتخطيط والتنفيذ لهذا العمل الإرهابي الجبان من خلال المراجعة العملياتية وبقايا حطام المسيرة المستخدمة».",
      "published": "2026-10-02T19:55:00+03:00",
      "tier": 1
     },
@@ -987,7 +844,7 @@
   },
   {
    "key": "521e30c31f109877",
-   "score": 10.446,
+   "score": 9.846,
    "sources": [
     "الأنباء",
     "الرأي"
@@ -1012,7 +869,7 @@
      "lang": "ar",
      "title": "التحالف: اعتراض 3 صواريخ بالستية أطلقتها الميليشيا الحوثية باتجاه خميس مشيط",
      "url": "https://www.alraimedia.com/article/1781400/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-3-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%A7%D9%84%D8%B3%D8%AA%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%AE%D9%85%D9%8A%D8%B3-%D9%85%D8%B4%D9%8A%D8%B7",
-     "section": "latest",
+     "section": "world",
      "summary": "أعلن المتحدث الرسمي باسم قوات التحالف اللواء الركن تركي المالكي، اليوم الجمعة، اعتراض وتدمير 3 صواريخ باليستية أطلقها الحوثيون باتجاه خميس مشيط.",
      "body": "أعلن المتحدث الرسمي باسم قوات التحالف اللواء الركن تركي المالكي، اليوم الجمعة، اعتراض وتدمير 3 صواريخ باليستية أطلقها الحوثيون باتجاه خميس مشيط.\n\nتحالف دعم الشرعية: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية باتجاه خميس مشيط منذ 17 ساعة «التحالف»: اعتراض وتدمير صاروخين بالستيين في خميس مشيط وجازان منذ 23 ساعة",
      "published": "2026-10-02T20:55:00+03:00",
@@ -1053,74 +910,6 @@
    }
   },
   {
-   "key": "34df8d430ffcef81",
-   "score": 10.159,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "إغلاق مئات المدارس الثانوية في فرنسا مع تصاعد احتجاجات الطلاب",
-     "url": "https://www.alraimedia.com/article/1781383/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A5%D8%BA%D9%84%D8%A7%D9%82-%D9%85%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%85%D8%B9-%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8",
-     "section": "latest",
-     "summary": "أُغلقت نحو 400 مدرسة ثانوية في أنحاء فرنسا اليوم بسبب احتجاجات طلابية مستمرة منذ أسبوع، أُصيب خلالها عشرات الموظفين وأوقفت الشرطة على إثرها نحو ألفي شخص، وفق مسؤولين. وبدأت الاحتجا...",
-     "body": "أُغلقت نحو 400 مدرسة ثانوية في أنحاء فرنسا اليوم بسبب احتجاجات طلابية مستمرة منذ أسبوع، أُصيب خلالها عشرات الموظفين وأوقفت الشرطة على إثرها نحو ألفي شخص، وفق مسؤولين.\n\nماكرون يدعو مجموعة السبع لتنسيق خطواتها في ملف الديزل من دون قيود على التصدير منذ 49 دقيقة رئيس كوريا الجنوبية يهدد بإجراءات ضد أوكرانيا بسبب جنديين من كوريا الشمالية منذ 4 ساعات\n\nويقول الطلاب إن ساعات الدراسة طويلة بشكل مفرط، وإن الظروف في المدارس غير ملائمة، بما في ذلك ارتفاع درجات الحرارة داخل الفصول، فضلا عن كثرة غياب الموظفين.\n\nوتقول الحكومة إن هذه الشكاوى مشروعة، لكنها ترفض أعمال العنف.\n\nوقال وزير التعليم الفرنسي إدوار جيفراي إن «حركة طلاب المدارس الثانوية باتت رهينة لمجموعات هامشية شديدة العنف»، مضيفا أن من المتوقع أن يغلق الجمعة نحو 400 مدرسة ثانوية من أصل 3700 في البلاد.\n\nوتعتزم مدارس ثانوية كثيرة تنظيم الدراسة عن بُعد، خاصة في مدينة مرسيليا بجنوب البلاد.\n\nوقال جيفراي لقناة «بي إف إم تي في» إن 65 موظفا على الأقل أُصيبوا منذ بدء الحركة، بينهم 40 مديرا لمدارس ثانوية.\n\nوأضاف «على الأهالي أن يتحملوا مسؤولياتهم بوضوح ويخبروا أولادهم بألا يذهبوا» إلى التظاهرات.\n\nوتابع «الأهم الآن هو ضمان ألا يبقى أبناؤنا في الشوارع، لأنهم معرضون للخطر».\n\nمن جهته، قال وزير العدل جيرالد دارمانان إنه طلب من المدعين العامين تحميل الأهل مسؤولية الأضرار التي يتسبب بها أبناؤهم خلال الاحتجاجات، وإلزامهم «بدفع تكاليف الإصلاحات».\n\nوأضاف دارمانان لإذاعة «آر تي إل» أن نحو ألفي شخص وُضعوا قيد الحجز لدى الشرطة منذ بدء الحركة، «90 بالمئة منهم قاصرون».",
-     "published": "2026-10-02T12:17:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "إغلاق مئات المدارس الثانوية في فرنسا مع تصاعد احتجاجات الطلاب",
-     "url": "https://www.aljarida.com/article/146258",
-     "section": "latest",
-     "summary": "أُغلقت نحو 400 مدرسة ثانوية في أنحاء فرنسا الجمعة بسبب احتجاجات طلابية مستمرة منذ أسبوع، أُصيب خلالها عشرات الموظفين وأوقفت الشرطة على إثرها نحو ألفي شخص، وفق مسؤولين.وبدأت الاحتجا...",
-     "body": "",
-     "published": "2026-10-02T12:09:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "Hundreds of secondary schools closed in France as student protests escalate",
-    "headline_ar": "إغلاق مئات المدارس الثانوية في فرنسا مع تصاعد احتجاجات الطلاب",
-    "summary_en": "About 400 secondary schools in France were closed on Friday amid a week of student protests over long study hours, poor conditions and staff absences. Officials said at least 65 school employees were injured, including 40 principals, and about 2,000 people were detained, 90% of them minors; ministers said the movement was taken over by violent fringe groups and called parents responsible.",
-    "summary_ar": "أُغلقت نحو 400 مدرسة ثانوية في فرنسا الجمعة ضمن احتجاجات طلابية مستمرة منذ أسبوع على طول ساعات الدراسة وسوء الظروف وغياب الموظفين. وقال مسؤولون إن 65 موظفاً على الأقل أصيبوا بينهم 40 مديراً، وإن نحو ألفي شخص أوقفوا 90% منهم قاصرون، فيما اتهم الوزراء الحركة بأنها رهينة لمجموعات عنيفة ودعوا الآباء إلى تحمل المسؤولية.",
-    "why_it_matters_en": "The reporting states a French legal step: prosecutors are asked to hold parents liable for damage caused by their minor children. The concrete consequence is higher legal exposure for families and a possible template for managing student unrest.",
-    "why_it_matters_ar": "لا يوجد أثر كويتي مباشر في النص، لكن الحكومة الفرنسية تتجه إلى خطوة قانونية تتجاوز ضبط الاحتجاجات عبر مطالبة المدعين العامين بمحاسبة الآباء مالياً عن الأضرار التي يسببها أبناؤهم القاصرون. هذه الخطوة ترفع المخاطر القانونية على العائلات وحركات الطلاب في فرنسا، وقد تُستشهد كنموذج في التعامل مع الاحتجاجات الطلابية في دول الخليج.",
-    "between_the_lines_en": "Both outlets use the same headline, suggesting a shared wire or agency text. The headline stresses school closures and rising protests, while the body concedes the students’ complaints are legitimate but then pivots to violence, parental responsibility and legal liability. The named ministers provide official figures for injuries and detentions, but there is no independent verification, no named student group, no mention of strikes or exam impact, and no Kuwaiti angle. The notable subtext is not the closures themselves but the French state’s legal escalation against parents of minors.",
-    "between_the_lines_ar": "الخبران يحملان العنوان نفسه، ما يوحي بنص مشترك من وكالة أو مصدر موحد. العنوان يركز على إغلاق مئات المدارس وتصاعد الاحتجاجات، بينما يعترف النص بأن شكاوى الطلاب مشروعة ثم ينتقل إلى العنف ومسؤولية الآباء والمساءلة القانونية. الوزراء المسمّون يقدمون أرقاماً رسمية عن الإصابات والاعتقالات، لكن لا يوجد تحقق مستقل، ولا ذكر لجهة طلابية محددة، ولا إشارة إلى إضراب أو تأثير على الامتحانات، ولا زاوية كويتية. الإشارة الأهم ليست في الإغلاقات نفسها، بل في التصعيد القانوني الفرنسي تجاه آباء القاصرين المشاركين في الاحتجاجات.",
-    "watch_next_en": "Watch for French court or prosecutor guidance on parental liability, any official casualty update, and whether closures expand beyond the estimated 400 schools.",
-    "watch_next_ar": "متابعة ما إذا أصدرت النيابة أو القضاء الفرنسي إرشادات عملية حول مسؤولية الآباء، وأي تحديث رسمي للإصابات، وهل تتوسع الإغلاقات عن نحو 400 مدرسة.",
-    "confidence": "medium",
-    "confidence_reason": "The legal escalation is explicit in ministerial statements, but the story lacks independent verification and a Kuwaiti-specific angle.",
-    "entities": [
-     "France",
-     "Édouard Geffray",
-     "Gérald Darmanin",
-     "Marseille",
-     "BFM TV",
-     "RTL",
-     "French government"
-    ],
-    "tags": [
-     "France",
-     "student protests",
-     "school closures",
-     "parental liability",
-     "minors",
-     "education"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "a323767f03be3d74",
    "score": 9.759,
    "sources": [
@@ -1135,7 +924,7 @@
      "lang": "en",
      "title": "Saudi Arabia Intercepts 3 Houthi Ballistic Missiles Targeting Khamis Mushait",
      "url": "https://www.arabtimesonline.com/news/saudi-arabia-intercepts-3-houthi-ballistic-missiles-targeting-khamis-mushait/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 2: Saudi air defenses intercepted and destroyed three ballistic missiles launched by Yemen’s Houthi group toward the southern Saudi city of Khamis Mushait on Friday, th...",
      "body": "",
      "published": "2026-10-02T21:52:00+03:00",
@@ -1189,8 +978,149 @@
    }
   },
   {
+   "key": "34df8d430ffcef81",
+   "score": 9.559,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "إغلاق مئات المدارس الثانوية في فرنسا مع تصاعد احتجاجات الطلاب",
+     "url": "https://www.alraimedia.com/article/1781383/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A5%D8%BA%D9%84%D8%A7%D9%82-%D9%85%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%85%D8%B9-%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8",
+     "section": "world",
+     "summary": "أُغلقت نحو 400 مدرسة ثانوية في أنحاء فرنسا اليوم بسبب احتجاجات طلابية مستمرة منذ أسبوع، أُصيب خلالها عشرات الموظفين وأوقفت الشرطة على إثرها نحو ألفي شخص، وفق مسؤولين. وبدأت الاحتجا...",
+     "body": "أُغلقت نحو 400 مدرسة ثانوية في أنحاء فرنسا اليوم بسبب احتجاجات طلابية مستمرة منذ أسبوع، أُصيب خلالها عشرات الموظفين وأوقفت الشرطة على إثرها نحو ألفي شخص، وفق مسؤولين.\n\nماكرون يدعو مجموعة السبع لتنسيق خطواتها في ملف الديزل من دون قيود على التصدير منذ ساعة رئيس كوريا الجنوبية يهدد بإجراءات ضد أوكرانيا بسبب جنديين من كوريا الشمالية منذ 4 ساعات\n\nويقول الطلاب إن ساعات الدراسة طويلة بشكل مفرط، وإن الظروف في المدارس غير ملائمة، بما في ذلك ارتفاع درجات الحرارة داخل الفصول، فضلا عن كثرة غياب الموظفين.\n\nوتقول الحكومة إن هذه الشكاوى مشروعة، لكنها ترفض أعمال العنف.\n\nوقال وزير التعليم الفرنسي إدوار جيفراي إن «حركة طلاب المدارس الثانوية باتت رهينة لمجموعات هامشية شديدة العنف»، مضيفا أن من المتوقع أن يغلق الجمعة نحو 400 مدرسة ثانوية من أصل 3700 في البلاد.\n\nوتعتزم مدارس ثانوية كثيرة تنظيم الدراسة عن بُعد، خاصة في مدينة مرسيليا بجنوب البلاد.\n\nوقال جيفراي لقناة «بي إف إم تي في» إن 65 موظفا على الأقل أُصيبوا منذ بدء الحركة، بينهم 40 مديرا لمدارس ثانوية.\n\nوأضاف «على الأهالي أن يتحملوا مسؤولياتهم بوضوح ويخبروا أولادهم بألا يذهبوا» إلى التظاهرات.\n\nوتابع «الأهم الآن هو ضمان ألا يبقى أبناؤنا في الشوارع، لأنهم معرضون للخطر».\n\nمن جهته، قال وزير العدل جيرالد دارمانان إنه طلب من المدعين العامين تحميل الأهل مسؤولية الأضرار التي يتسبب بها أبناؤهم خلال الاحتجاجات، وإلزامهم «بدفع تكاليف الإصلاحات».\n\nوأضاف دارمانان لإذاعة «آر تي إل» أن نحو ألفي شخص وُضعوا قيد الحجز لدى الشرطة منذ بدء الحركة، «90 بالمئة منهم قاصرون».",
+     "published": "2026-10-02T12:17:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "إغلاق مئات المدارس الثانوية في فرنسا مع تصاعد احتجاجات الطلاب",
+     "url": "https://www.aljarida.com/article/146258",
+     "section": "latest",
+     "summary": "أُغلقت نحو 400 مدرسة ثانوية في أنحاء فرنسا الجمعة بسبب احتجاجات طلابية مستمرة منذ أسبوع، أُصيب خلالها عشرات الموظفين وأوقفت الشرطة على إثرها نحو ألفي شخص، وفق مسؤولين.وبدأت الاحتجا...",
+     "body": "",
+     "published": "2026-10-02T12:09:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "Hundreds of secondary schools closed in France as student protests escalate",
+    "headline_ar": "إغلاق مئات المدارس الثانوية في فرنسا مع تصاعد احتجاجات الطلاب",
+    "summary_en": "About 400 secondary schools in France were closed on Friday amid a week of student protests over long study hours, poor conditions and staff absences. Officials said at least 65 school employees were injured, including 40 principals, and about 2,000 people were detained, 90% of them minors; ministers said the movement was taken over by violent fringe groups and called parents responsible.",
+    "summary_ar": "أُغلقت نحو 400 مدرسة ثانوية في فرنسا الجمعة ضمن احتجاجات طلابية مستمرة منذ أسبوع على طول ساعات الدراسة وسوء الظروف وغياب الموظفين. وقال مسؤولون إن 65 موظفاً على الأقل أصيبوا بينهم 40 مديراً، وإن نحو ألفي شخص أوقفوا 90% منهم قاصرون، فيما اتهم الوزراء الحركة بأنها رهينة لمجموعات عنيفة ودعوا الآباء إلى تحمل المسؤولية.",
+    "why_it_matters_en": "The reporting states a French legal step: prosecutors are asked to hold parents liable for damage caused by their minor children. The concrete consequence is higher legal exposure for families and a possible template for managing student unrest.",
+    "why_it_matters_ar": "لا يوجد أثر كويتي مباشر في النص، لكن الحكومة الفرنسية تتجه إلى خطوة قانونية تتجاوز ضبط الاحتجاجات عبر مطالبة المدعين العامين بمحاسبة الآباء مالياً عن الأضرار التي يسببها أبناؤهم القاصرون. هذه الخطوة ترفع المخاطر القانونية على العائلات وحركات الطلاب في فرنسا، وقد تُستشهد كنموذج في التعامل مع الاحتجاجات الطلابية في دول الخليج.",
+    "between_the_lines_en": "Both outlets use the same headline, suggesting a shared wire or agency text. The headline stresses school closures and rising protests, while the body concedes the students’ complaints are legitimate but then pivots to violence, parental responsibility and legal liability. The named ministers provide official figures for injuries and detentions, but there is no independent verification, no named student group, no mention of strikes or exam impact, and no Kuwaiti angle. The notable subtext is not the closures themselves but the French state’s legal escalation against parents of minors.",
+    "between_the_lines_ar": "الخبران يحملان العنوان نفسه، ما يوحي بنص مشترك من وكالة أو مصدر موحد. العنوان يركز على إغلاق مئات المدارس وتصاعد الاحتجاجات، بينما يعترف النص بأن شكاوى الطلاب مشروعة ثم ينتقل إلى العنف ومسؤولية الآباء والمساءلة القانونية. الوزراء المسمّون يقدمون أرقاماً رسمية عن الإصابات والاعتقالات، لكن لا يوجد تحقق مستقل، ولا ذكر لجهة طلابية محددة، ولا إشارة إلى إضراب أو تأثير على الامتحانات، ولا زاوية كويتية. الإشارة الأهم ليست في الإغلاقات نفسها، بل في التصعيد القانوني الفرنسي تجاه آباء القاصرين المشاركين في الاحتجاجات.",
+    "watch_next_en": "Watch for French court or prosecutor guidance on parental liability, any official casualty update, and whether closures expand beyond the estimated 400 schools.",
+    "watch_next_ar": "متابعة ما إذا أصدرت النيابة أو القضاء الفرنسي إرشادات عملية حول مسؤولية الآباء، وأي تحديث رسمي للإصابات، وهل تتوسع الإغلاقات عن نحو 400 مدرسة.",
+    "confidence": "medium",
+    "confidence_reason": "The legal escalation is explicit in ministerial statements, but the story lacks independent verification and a Kuwaiti-specific angle.",
+    "entities": [
+     "France",
+     "Édouard Geffray",
+     "Gérald Darmanin",
+     "Marseille",
+     "BFM TV",
+     "RTL",
+     "French government"
+    ],
+    "tags": [
+     "France",
+     "student protests",
+     "school closures",
+     "parental liability",
+     "minors",
+     "education"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "b54a586b69ec7aec",
+   "score": 9.418,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "ولي العهد يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
+     "url": "https://www.alanba.com.kw/1378991",
+     "section": "official",
+     "summary": "بعث سمو ولي العهد الشيخ صباح الخالد، ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية، د.فرانك فالتر شتاينماير، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية، وراجيا للرئيس شتاينماير دوام الصحة والعافية.",
+     "body": "بعث سمو ولي العهد الشيخ صباح الخالد، ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية، د.فرانك فالتر شتاينماير، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية، وراجيا للرئيس شتاينماير دوام الصحة والعافية.",
+     "published": "2026-10-03T07:00:32+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "رئيس مجلس الوزراء يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
+     "url": "https://www.alanba.com.kw/1378990",
+     "section": "official",
+     "summary": "بعث سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية الصديقة د.فرانك فالتر شتاينماير بمناسبة ذكرى يوم الوحدة الألمانية.",
+     "body": "",
+     "published": "2026-10-03T06:59:07+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "صاحب السمو الأمير يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
+     "url": "https://www.alanba.com.kw/1378988",
+     "section": "official",
+     "summary": "بعث صاحب السمو الأمير الشيخ مشعل الأحمد ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية الصديقة د.فرانك فالتر شتاينماير عبر فيها سموه عن خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية،",
+     "body": "",
+     "published": "2026-10-03T06:41:30+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Crown Prince congratulates German President on Unity Day",
+    "headline_ar": "ولي العهد يهنئ رئيس ألمانيا بذكرى يوم الوحدة",
+    "summary_en": "Crown Prince Sheikh Sabah Al-Khalid sent a congratulatory telegram to German President Dr. Frank-Walter Steinmeier on the occasion of German Unity Day, wishing him health and well-being. The Prime Minister and the Amir also sent similar congratulatory messages.",
+    "summary_ar": "بعث سمو ولي العهد الشيخ صباح الخالد ببرقية تهنئة إلى رئيس جمهورية ألمانيا الاتحادية، د. فرانك فالتر شتاينماير، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية، وراجياً للرئيس شتاينماير دوام الصحة والعافية. كما بعث رئيس مجلس الوزراء وصاحب السمو الأمير ببرقيات تهنئة مماثلة.",
+    "why_it_matters_en": "This is a routine diplomatic protocol. However, the simultaneous sending of messages by the Amir, Prime Minister, and Crown Prince underscores the high level of formality and the importance Kuwait places on maintaining stable diplomatic channels with major European powers, particularly Germany, which is a key partner in energy and infrastructure sectors.",
+    "why_it_matters_ar": "هذه بروتوكول دبلوماسي روتيني. ومع ذلك، فإن إرسال الرسائل المتزامنة من الأمير ورئيس الوزراء وولي العهد يؤكد على مستوى الرسمية العالي والأهمية التي توليها الكويت للحفاظ على قنوات دبلوماسية مستقرة مع القوى الأوروبية الكبرى، ولا سيما ألمانيا، التي تعد شريكاً رئيسياً في قطاعي الطاقة والبنية التحتية.",
+    "between_the_lines_en": "No significant subtext. This is a standard, formulaic diplomatic announcement. The inclusion of all three senior figures (Amir, PM, Crown Prince) is a standard practice for major national holidays of partner countries and does not signal a specific new development or tension. It is a maintenance of diplomatic courtesy.",
+    "between_the_lines_ar": "لا يوجد سياق خفي جوهري. هذه إعلان دبلوماسي قياسي وصيغته ثابتة. تضمين جميع الشخصيات الثلاث (الأمير، رئيس الوزراء، ولي العهد) هو ممارسة قياسية للأعياد الوطنية الكبرى لدول الشراكة ولا يشير إلى تطور جديد محدد أو توتر. إنه صيانة للود الدبلوماسي.",
+    "watch_next_en": "None. This is a closed, routine item.",
+    "watch_next_ar": "لا شيء. هذا عنصر روتيني مغلق.",
+    "confidence": "high",
+    "confidence_reason": "The text is purely formulaic and contains no data points that suggest hidden meaning or deviation from standard practice.",
+    "entities": [
+     "Sheikh Sabah Al-Khalid",
+     "Frank-Walter Steinmeier",
+     "Germany"
+    ],
+    "tags": [
+     "Diplomacy",
+     "Germany",
+     "Royal Family",
+     "Protocol"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "08b354407cad8e0b",
-   "score": 9.759,
+   "score": 9.159,
    "sources": [
     "كويت نيوز",
     "الرأي"
@@ -1215,14 +1145,14 @@
      "lang": "ar",
      "title": "«الصحة العالمية» تحذر من تدهور الوضع الصحي في غزة",
      "url": "https://www.alraimedia.com/article/1781392/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%AA%D8%AF%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9",
-     "section": "latest",
+     "section": "world",
      "summary": "حذرت منظمة الصحة العالمية من تدهور الوضع الصحي في قطاع غزة في ظل استمرار النقص المزمن في الأدوية والمستلزمات والمعدات الطبية مشددة على أن نظام الموافقة الذي ينتهجه الاحتلال الإسرائ...",
-     "body": "حذرت منظمة الصحة العالمية من تدهور الوضع الصحي في قطاع غزة في ظل استمرار النقص المزمن في الأدوية والمستلزمات والمعدات الطبية مشددة على أن نظام الموافقة الذي ينتهجه الاحتلال الإسرائيلي على دخول الإمدادات الطبية يمثل أحد أبرز العوائق أمام تقديم الخدمات الصحية.\n\nالنائب العام الإماراتي: مساعد قائد طائرة «فلاي دبي» خطط لتنفيذ عملية إرهابية منذ 22 دقيقة جرحى إثر اصطدام سيارة بحشد في شمال سيدني منذ 3 ساعات\n\nوأضافت أن «الإجراءات اللازمة للحصول على الموافقة تتغير بصورة منتظمة» إذ يضيف الاحتلال شروطا جديدة في كثير من الأحيان من دون تفسير واضح فضلا عن تشديده الإجراءات المطلوبة لدخول الإمدادات الطبية إلى القطاع.\n\nوأكدت أن الحصول على الموافقة الأولية لا يعني بالضرورة وصول الإمدادات إلى وجهتها إذ لا تزال هناك إجراءات وفحوص إضافية قبل دخولها إلى غزة كما يمكن رفض دخول بعض الشحنات حتى بعد منح الموافقة الأولية.\n\nوأعربت عن قلقها إزاء الرفض المتكرر لسلطة الاحتلال لدخول معدات أساسية من بينها أجهزة الأشعة السينية ومعدات التعقيم وقطع الغيار الخاصة بأجهزة التصوير المقطعي من دون توضيح الأسباب.\n\nوحذرت من أن التأخير في التخزين يهدد صلاحية الأدوية وسلامة المعدات الطبية قبل وصولها إلى المرضى الذين يحتاجون إليها داعية إلى ضمان دخول المساعدات الإنسانية والإمدادات الصحية إلى غزة على نطاق واسعة.\n\nكما طالبت بتوفير إرشادات واضحة ومنشورة في شأن الإجراءات ومتطلبات إدخال الإمدادات بهدف الحد من عمليات الرفض والتأخير.",
+     "body": "حذرت منظمة الصحة العالمية من تدهور الوضع الصحي في قطاع غزة في ظل استمرار النقص المزمن في الأدوية والمستلزمات والمعدات الطبية مشددة على أن نظام الموافقة الذي ينتهجه الاحتلال الإسرائيلي على دخول الإمدادات الطبية يمثل أحد أبرز العوائق أمام تقديم الخدمات الصحية.\n\nالمفوضية الأوروبية تصرف أكثر من 3 مليارات دولار لأوكرانيا لدعم الاستقرار المالي والإصلاحات منذ 19 دقيقة باكستان: اجتماع للجنة الدفاع السياسي الإستراتيجي في الرياض الأسبوع المقبل منذ ساعتين\n\nوأضافت أن «الإجراءات اللازمة للحصول على الموافقة تتغير بصورة منتظمة» إذ يضيف الاحتلال شروطا جديدة في كثير من الأحيان من دون تفسير واضح فضلا عن تشديده الإجراءات المطلوبة لدخول الإمدادات الطبية إلى القطاع.\n\nوأكدت أن الحصول على الموافقة الأولية لا يعني بالضرورة وصول الإمدادات إلى وجهتها إذ لا تزال هناك إجراءات وفحوص إضافية قبل دخولها إلى غزة كما يمكن رفض دخول بعض الشحنات حتى بعد منح الموافقة الأولية.\n\nوأعربت عن قلقها إزاء الرفض المتكرر لسلطة الاحتلال لدخول معدات أساسية من بينها أجهزة الأشعة السينية ومعدات التعقيم وقطع الغيار الخاصة بأجهزة التصوير المقطعي من دون توضيح الأسباب.\n\nوحذرت من أن التأخير في التخزين يهدد صلاحية الأدوية وسلامة المعدات الطبية قبل وصولها إلى المرضى الذين يحتاجون إليها داعية إلى ضمان دخول المساعدات الإنسانية والإمدادات الصحية إلى غزة على نطاق واسعة.\n\nكما طالبت بتوفير إرشادات واضحة ومنشورة في شأن الإجراءات ومتطلبات إدخال الإمدادات بهدف الحد من عمليات الرفض والتأخير.",
      "published": "2026-10-02T17:36:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Society & Services",
+   "category": "World & Region",
    "analysis": {
     "headline_en": "WHO warns of deteriorating health situation in Gaza",
     "headline_ar": "«الصحة العالمية» تحذر من تدهور الوضع الصحي في غزة",
@@ -1255,51 +1185,47 @@
    }
   },
   {
-   "key": "8b7c7b2cffbe6d25",
-   "score": 8.059,
+   "key": "71d63b0f0b504aa1",
+   "score": 8.078,
    "sources": [
-    "الجريدة"
+    "الأنباء"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
+     "source_id": "alanba",
+     "source_name": "الأنباء",
      "lang": "ar",
-     "title": "الأمير: كل التقدم والازدهار لألمانيا وشعبها",
-     "url": "https://www.aljarida.com/article/146288",
-     "section": "local",
-     "summary": "بعث حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح حفظه الله ورعاه ببرقية تهنئة إلى فخامة الرئيس الدكتور فرانك فالتر شتاينماير رئيس جمهورية ألمانيا الاتحادية الصديقة ع...",
-     "body": "سموه بعث برقية تهنئة لشتاينماير بمناسبة ذكرى يوم الوحدة الألمانية\n\nبعث حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح حفظه الله ورعاه ببرقية تهنئة إلى فخامة الرئيس الدكتور فرانك فالتر شتاينماير رئيس جمهورية ألمانيا الاتحادية الصديقة عبر فيها سموه حفظه الله عن خالص تهانيه بمناسبة ذكرى يوم الوحدة الألمانية.متمنيا سموه رعاه الله لفخامته موفور الصحة والعافية ولجمهورية ألمانيا الاتحادية وشعبها الصديق كل التقدم والازدهار.",
-     "published": "2026-10-03T08:47:00+03:00",
+     "title": "«الأرصاد»: طقس حار ورطب مع فرصة لأمطار خفيفة متفرقة..و«العظمى»: 40",
+     "url": "https://www.alanba.com.kw/1378986",
+     "section": "kuwait",
+     "summary": "توقعت إدارة الأرصاد الجوية أن يسود لنهار اليوم السبت، طقس حار وغائم جزئيا و رطب خاصة على المناطق الساحلية والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 38 كم/ساعة مع فرصة لأمطار خفيفة متفرقة وفرصة لتكون الضباب في المساء.",
+     "body": "توقعت إدارة الأرصاد الجوية أن يسود لنهار اليوم السبت، طقس حار وغائم جزئيا و رطب خاصة على المناطق الساحلية والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 38 كم/ساعة مع فرصة لأمطار خفيفة متفرقة وفرصة لتكون الضباب في المساء.\n\nأما ليلا سيكون الطقس مائلا للحرارة إلى معتدل و غائم جزئيا ورطبا والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 35 كم/ساعة مع فرصة أمطار متفرقة و فرصة لتكون الضباب على بعض المناطق .\n\nودرجة الحرارة العظمى المتوقعة 40 درجة مئوية أما الصغرى فتصل إلى 29 درجة مئوية.",
+     "published": "2026-10-03T05:39:52+00:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "Society & Services",
    "analysis": {
-    "headline_en": "Amir: All progress and prosperity to Germany and its people",
-    "headline_ar": "الأمير: كل التقدم والازدهار لألمانيا وشعبها",
-    "summary_en": "The Amir of Kuwait, Sheikh Meshal Al-Ahmad Al-Jaber Al-Sabah, sent a congratulatory telegram to German President Frank-Walter Steinmeier on the occasion of German Unity Day. The message expressed best wishes for the President's health and for the progress and prosperity of Germany and its people.",
-    "summary_ar": "بعث حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح ببرقية تهنئة إلى الرئيس الألماني فرانك فالتر شتاينماير بمناسبة ذكرى يوم الوحدة الألمانية. وتمنى سموه لفخامته الصحة والعافية، ولألمانيا وشعبها التقدم والازدهار.",
-    "why_it_matters_en": "This is a routine diplomatic protocol action. It maintains standard bilateral relations between Kuwait and Germany but does not indicate any new policy shift, economic agreement, or political development.",
-    "why_it_matters_ar": "هذا إجراء دبلوماسي روتيني. إنه يحافظ على العلاقات الثنائية القياسية بين الكويت وألمانيا، لكنه لا يشير إلى أي تحول جديد في السياسة أو اتفاق اقتصادي أو تطور سياسي.",
-    "between_the_lines_en": "No significant subtext — this reads as a routine administrative announcement. The report is a standard KUNA-style wire piece with no additional context, interviews, or analysis. It is published by Al-Jarida, a private outlet, but the content is purely ceremonial and lacks any political or economic weight that would warrant deeper editorial interpretation.",
-    "between_the_lines_ar": "لا يوجد سياق خفي ذو أهمية — هذا يُقرأ كإعلان إداري روتيني. التقرير هو قطعة سلكية قياسية بأسلوب كونا، دون أي سياق إضافي أو مقابلات أو تحليل. نُشر في صحيفة الجريدة، وهي صحيفة خاصة، لكن المحتوى احتفالي بحت ويخلو من أي وزن سياسي أو اقتصادي يستدعي تفسيراً تحريرياً أعمق.",
-    "watch_next_en": "None. This is a closed item with no follow-up expected.",
-    "watch_next_ar": "لا يوجد. هذا عنصر مغلق ولا يُتوقع أي متابعة.",
+    "headline_en": "Weather: Hot and humid with chance of light rain, high of 40C",
+    "headline_ar": "«الأرصاد»: طقس حار ورطب مع فرصة لأمطار خفيفة متفرقة..و«العظمى»: 40",
+    "summary_en": "The Meteorology Department forecast hot, partly cloudy, and humid weather for Saturday, with a chance of light scattered rain and evening fog. The high temperature is expected to reach 40°C, with a low of 29°C. Winds are light to moderate, southeasterly to variable.",
+    "summary_ar": "توقعت إدارة الأرصاد الجوية أن يسود لنهار اليوم السبت طقس حار وغائم جزئياً ورطب خاصة على المناطق الساحلية، والرياح جنوبية شرقية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة، مع فرصة لأمطار خفيفة متفرقة وفرصة لتكون الضباب في المساء. أما ليلاً فسيكون الطقس مائلاً للحرارة إلى معتدل وغائم جزئياً ورطباً. ودرجة الحرارة العظمى المتوقعة 40 درجة مئوية، أما الصغرى فتصل إلى 29 درجة مئوية.",
+    "why_it_matters_en": "The combination of 40°C heat and high humidity (with potential fog) affects public health (heat stress) and transportation (reduced visibility from fog). For the energy sector, high temperatures drive up electricity and water demand, straining the grid. The 'chance of rain' is often a seasonal transition signal, but the high humidity is the more immediate operational concern for logistics and outdoor work.",
+    "why_it_matters_ar": "مزيج الحرارة 40 درجة مئوية والرطوبة العالية (مع احتمال الضباب) يؤثر على الصحة العامة (الإجهاد الحراري) والنقل (انخفاض الرؤية بسبب الضباب). لقطاع الطاقة، ترفع درجات الحرارة العالية من الطلب على الكهرباء والماء، مما يرهق الشبكة. «فرصة الأمطار» غالباً ما تكون إشارة انتقال موسمي، لكن الرطوبة العالية هي القلق التشغيلي الأكثر فورية للخدمات اللوجستية والعمل في الهواء الطلق.",
+    "between_the_lines_en": "No significant subtext. This is a standard daily weather forecast. The specific numbers (40°C, 29°C) and conditions are factual and do not imply any hidden agenda or unusual event beyond the typical late-summer/early-autumn weather patterns in Kuwait.",
+    "between_the_lines_ar": "لا يوجد سياق خفي جوهري. هذا توقع طقس يومي قياسي. الأرقام المحددة (40 درجة، 29 درجة) والظروف هي وقائع ولا تشير إلى أي أجندة خفية أو حدث غير عادي يتجاوز أنماط الطقس المعتادة في أواخر الصيف/بداية الخريف في الكويت.",
+    "watch_next_en": "Monitor for any weather-related disruptions to airport operations or road traffic if the fog or rain materializes as forecast.",
+    "watch_next_ar": "راقب أي اضطرابات مرتبطة بالطقس في عمليات المطار أو حركة المرور إذا تحققت التوقعات بشأن الضباب أو الأمطار.",
     "confidence": "high",
-    "confidence_reason": "The content is explicitly ceremonial and contains no factual claims beyond the act of sending a telegram, leaving no room for subtextual analysis.",
+    "confidence_reason": "The content is purely meteorological data with no political or economic subtext.",
     "entities": [
-     "Sheikh Meshal Al-Ahmad Al-Jaber Al-Sabah",
-     "Frank-Walter Steinmeier",
-     "Germany",
-     "Al-Jarida"
+     "Meteorology Department"
     ],
     "tags": [
-     "Diplomacy",
-     "Germany",
-     "Kuwait",
-     "Protocol"
+     "Weather",
+     "Public Services",
+     "Energy Demand"
     ],
     "_source": "llm"
    }
@@ -1383,7 +1309,7 @@
      "url": "https://www.alraimedia.com/article/1781415/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/156-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1-%D8%AD%D8%AC%D9%85-%D8%B3%D9%8A%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89",
      "section": "economy",
      "summary": "ذكر تقرير اقتصادي متخصص، اليوم السبت، ان حجم سيولة البورصة الكويتية في الشهور التسعة الأولى من العام الجاري (أي في 181 يوم عمل) بلغ نحو 15.6 مليار دينار (نحو 47.8 مليار دولار).وقال...",
-     "body": "ذكر تقرير اقتصادي متخصص، اليوم السبت، ان حجم سيولة البورصة الكويتية في الشهور التسعة الأولى من العام الجاري (أي في 181 يوم عمل) بلغ نحو 15.6 مليار دينار (نحو 47.8 مليار دولار).\n\nوقال تقرير (الشال للاستشارات) ان معدل قيمة التداول اليومي للفترة بلغ نحو 86.5 مليون دينار (نحو 265.5 مليون دولار) أي منخفضا بنحو 19.1 في المئة مقارنة بمعدل قيمة التداول اليومي للفترة ذاتها من عام 2025 البالغ نحو 106.9 مليون دينار (نحو 328 مليون دولار) ومنخفضا بنسبة 19.7 في المئة مقارنة مع معدل عام 2025 البالغ نحو 107.6 مليون دينار (نحو 330 مليون دولار).\n\nسعر برميل النفط الكويتي يرتفع إلى 105.91 دولار منذ 24 دقيقة توقعات بتأجيل المركزي الأميركي رفع الفائدة إلى ديسمبر بدلاً من أكتوبر منذ 8 ساعات\n\nوأشار التقرير الى ان سيولة البورصة جاءت مرتفعة في سبتمبر مقارنة بسيولة أغسطس حيث بلغت نحو 2.448 مليار دينار (نحو 7.515 مليار دولار) مقارنة بنحو 1.777 مليار دينار (نحو 5.455 مليار دولار) أي بارتفاع بنسبة 37.7 في المئة.\n\nوأضاف ان معدل قيمة التداول اليومي لشهر سبتمبر بلغ نحو 111.3 مليون دينار (نحو 341.6 مليون دولار) محققا ارتفاعا بنحو 31.5 في المئة عن مستوى معدل تلك القيمة لشهر أغسطس البالغ نحو 84.6 مليون دينار (نحو 259.7 مليون دولار).\n\nوأكد التقرير ان توجهات السيولة منذ بداية العام تشير إلى أن نصف الشركات المدرجة لم تحصل سوى على 8.1 في المئة فقط من تلك السيولة ضمنها 50 شركة حظيت بنحو 3.3 في المئة فقط وشركتان من دون أي تداول.\n\nوأضاف ان 12 شركة من الشركات الصغيرة نسبيا والسائلة تبلغ قيمتها السوقية نحو 3.8 في المئة من إجمالي قيمة الشركات المدرجة حظيت على نحو 19.9 في المئة من سيولة البورصة أي أن نصيبها من السيولة بلغ نحو 5.3 ضعف مساهمتها في القيمة السوقية.\n\nوقال التقرير «ذلك يعني أن نشاط السيولة الكبير لازال يحرم نحو نصف الشركات المدرجة منها وعلى النقيض يميل بقوة إلى شركات قيمتها السوقية ضئيلة».\n\nوأشار إلى ان السوق الأول حظي بنحو 1.2 مليار دينار (نحو 3.6 مليار دولار) أو ما نسبته 51.1 في المئة من سيولة البورصة وضمنه حظيت نحو نصف شركاته على 76.6 في المئة من سيولته ونحو 1ر39 في المئة من كامل سيولة البورصة بينما حظي النصف الآخر على ما تبقى أو نحو 23.4 في المئة من سيولته.\n\nوأضاف التقرير ان السوق الرئيسي حظي بنحو 1.1 مليار دينار (نحو 3.3 مليار دولار) أو نحو 48.9 في المئة من سيولة البورصة وضمنه حظيت 20 في المئة من شركاته على 72.1 في المئة من سيولته بينما اكتفت 80 في المئة من شركاته بنحو 27.9 في المئة من سيولته ما يعني أن مستوى تركز السيولة فيه أيضا عال.\n\nوبين ان نصيب تداولات السوق الرئيسي من إجمالي قيمة تداولات البورصة خلال الأشهر التسعة الأولى من العام الجاري بلغ نحو 36.1 في المئة.\n\nواختتم التقرير تحليله لأداء البورصة بمقارنة توزيع السيولة بين السوقين الأول والرئيسي ليرى انخفاضا في نصيب (الرئيسي) من إجمالي السيولة لما مضى من عام 2026 مقارنة بتوزيعها للفترة ذاتها من عام 2025 حينها كان نصيب (الأول) 56.7 في المئة تاركا نحو 43.3 في المئة لسيولة السوق الرئيسي.",
+     "body": "ذكر تقرير اقتصادي متخصص، اليوم السبت، ان حجم سيولة البورصة الكويتية في الشهور التسعة الأولى من العام الجاري (أي في 181 يوم عمل) بلغ نحو 15.6 مليار دينار (نحو 47.8 مليار دولار).\n\nوقال تقرير (الشال للاستشارات) ان معدل قيمة التداول اليومي للفترة بلغ نحو 86.5 مليون دينار (نحو 265.5 مليون دولار) أي منخفضا بنحو 19.1 في المئة مقارنة بمعدل قيمة التداول اليومي للفترة ذاتها من عام 2025 البالغ نحو 106.9 مليون دينار (نحو 328 مليون دولار) ومنخفضا بنسبة 19.7 في المئة مقارنة مع معدل عام 2025 البالغ نحو 107.6 مليون دينار (نحو 330 مليون دولار).\n\nسعر برميل النفط الكويتي يرتفع إلى 105.91 دولار منذ ساعة توقعات بتأجيل المركزي الأميركي رفع الفائدة إلى ديسمبر بدلاً من أكتوبر منذ 10 ساعات\n\nوأشار التقرير الى ان سيولة البورصة جاءت مرتفعة في سبتمبر مقارنة بسيولة أغسطس حيث بلغت نحو 2.448 مليار دينار (نحو 7.515 مليار دولار) مقارنة بنحو 1.777 مليار دينار (نحو 5.455 مليار دولار) أي بارتفاع بنسبة 37.7 في المئة.\n\nوأضاف ان معدل قيمة التداول اليومي لشهر سبتمبر بلغ نحو 111.3 مليون دينار (نحو 341.6 مليون دولار) محققا ارتفاعا بنحو 31.5 في المئة عن مستوى معدل تلك القيمة لشهر أغسطس البالغ نحو 84.6 مليون دينار (نحو 259.7 مليون دولار).\n\nوأكد التقرير ان توجهات السيولة منذ بداية العام تشير إلى أن نصف الشركات المدرجة لم تحصل سوى على 8.1 في المئة فقط من تلك السيولة ضمنها 50 شركة حظيت بنحو 3.3 في المئة فقط وشركتان من دون أي تداول.\n\nوأضاف ان 12 شركة من الشركات الصغيرة نسبيا والسائلة تبلغ قيمتها السوقية نحو 3.8 في المئة من إجمالي قيمة الشركات المدرجة حظيت على نحو 19.9 في المئة من سيولة البورصة أي أن نصيبها من السيولة بلغ نحو 5.3 ضعف مساهمتها في القيمة السوقية.\n\nوقال التقرير «ذلك يعني أن نشاط السيولة الكبير لازال يحرم نحو نصف الشركات المدرجة منها وعلى النقيض يميل بقوة إلى شركات قيمتها السوقية ضئيلة».\n\nوأشار إلى ان السوق الأول حظي بنحو 1.2 مليار دينار (نحو 3.6 مليار دولار) أو ما نسبته 51.1 في المئة من سيولة البورصة وضمنه حظيت نحو نصف شركاته على 76.6 في المئة من سيولته ونحو 1ر39 في المئة من كامل سيولة البورصة بينما حظي النصف الآخر على ما تبقى أو نحو 23.4 في المئة من سيولته.\n\nوأضاف التقرير ان السوق الرئيسي حظي بنحو 1.1 مليار دينار (نحو 3.3 مليار دولار) أو نحو 48.9 في المئة من سيولة البورصة وضمنه حظيت 20 في المئة من شركاته على 72.1 في المئة من سيولته بينما اكتفت 80 في المئة من شركاته بنحو 27.9 في المئة من سيولته ما يعني أن مستوى تركز السيولة فيه أيضا عال.\n\nوبين ان نصيب تداولات السوق الرئيسي من إجمالي قيمة تداولات البورصة خلال الأشهر التسعة الأولى من العام الجاري بلغ نحو 36.1 في المئة.\n\nواختتم التقرير تحليله لأداء البورصة بمقارنة توزيع السيولة بين السوقين الأول والرئيسي ليرى انخفاضا في نصيب (الرئيسي) من إجمالي السيولة لما مضى من عام 2026 مقارنة بتوزيعها للفترة ذاتها من عام 2025 حينها كان نصيب (الأول) 56.7 في المئة تاركا نحو 43.3 في المئة لسيولة السوق الرئيسي.",
      "published": "2026-10-03T09:18:00+03:00",
      "tier": 1
     }
@@ -1413,55 +1339,6 @@
      "Stock Market",
      "Finance",
      "Investment"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "b7a4d238001e456d",
-   "score": 7.2,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "\"الأرصاد\": انخفاض الرؤية الأفقية بسبب الضباب",
-     "url": "https://www.alanba.com.kw/1378982",
-     "section": "kuwait",
-     "summary": "",
-     "body": "حذرت الأرصاد الجوية من انخفاض الرؤية الأفقية بسب الضباب، وذلك بدءا من الساعة 12 بعد منتصف الليل من اليوم السبت وحتى الثامنة صباحا.\n\nوقالت الإدارة أن انخفاض الرؤية الأفقية يصل إلى أقل من 1000م على بعض المناطق في البلاد.",
-     "published": "2026-10-02T21:16:08+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Meteorology: Horizontal visibility reduced due to fog",
-    "headline_ar": "\"الأرصاد\": انخفاض الرؤية الأفقية بسبب الضباب",
-    "summary_en": "Meteorology warned of reduced horizontal visibility due to fog from midnight Saturday until 8 a.m. It said visibility would be below 1,000 meters in some areas of the country.",
-    "summary_ar": "حذرت الأرصاد الجوية من انخفاض الرؤية الأفقية بسبب الضباب بدءاً من الساعة 12 بعد منتصف الليل السبت وحتى الثامنة صباحاً. وقالت الإدارة إن الرؤية ستصل إلى أقل من 1000 متر في بعض مناطق البلاد.",
-    "why_it_matters_en": "It changes early Saturday travel conditions, with visibility below 1,000 meters in some areas, so drivers and travelers face higher risk between midnight and 8 a.m.",
-    "why_it_matters_ar": "يغيّر الخبر ظروف السفر في ساعات الصباح الأولى من السبت، إذ تنخفض الرؤية إلى أقل من 1000 متر في بعض المناطق، ما يزيد مخاطر القيادة والتنقل بين منتصف الليل والثامنة صباحاً.",
-    "between_the_lines_en": "No significant subtext — this reads as a routine meteorological warning.",
-    "between_the_lines_ar": "لا يوجد ما بين السطور يُذكر — الخبر إنذار أرصادي روتيني.",
-    "watch_next_en": "Watch whether Meteorology issues a follow-up warning after 8 a.m. or extends the fog advisory.",
-    "watch_next_ar": "مراقبة ما إذا كانت الأرصاد ستصدر تحذيراً لاحقاً بعد الثامنة صباحاً أو تمديد إنذار الضباب.",
-    "confidence": "high",
-    "confidence_reason": "The warning is directly attributed to Meteorology with a clear time window and visibility threshold.",
-    "entities": [
-     "Meteorology Administration",
-     "Kuwait"
-    ],
-    "tags": [
-     "weather",
-     "fog",
-     "visibility",
-     "safety",
-     "traffic"
     ],
     "_source": "llm"
    }
@@ -1513,6 +1390,55 @@
      "Economy",
      "Food Security",
      "International Cooperation"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "b7a4d238001e456d",
+   "score": 6.6,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "\"الأرصاد\": انخفاض الرؤية الأفقية بسبب الضباب",
+     "url": "https://www.alanba.com.kw/1378982",
+     "section": "kuwait",
+     "summary": "",
+     "body": "حذرت الأرصاد الجوية من انخفاض الرؤية الأفقية بسب الضباب، وذلك بدءا من الساعة 12 بعد منتصف الليل من اليوم السبت وحتى الثامنة صباحا.\n\nوقالت الإدارة أن انخفاض الرؤية الأفقية يصل إلى أقل من 1000م على بعض المناطق في البلاد.",
+     "published": "2026-10-02T21:16:08+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Meteorology: Horizontal visibility reduced due to fog",
+    "headline_ar": "\"الأرصاد\": انخفاض الرؤية الأفقية بسبب الضباب",
+    "summary_en": "Meteorology warned of reduced horizontal visibility due to fog from midnight Saturday until 8 a.m. It said visibility would be below 1,000 meters in some areas of the country.",
+    "summary_ar": "حذرت الأرصاد الجوية من انخفاض الرؤية الأفقية بسبب الضباب بدءاً من الساعة 12 بعد منتصف الليل السبت وحتى الثامنة صباحاً. وقالت الإدارة إن الرؤية ستصل إلى أقل من 1000 متر في بعض مناطق البلاد.",
+    "why_it_matters_en": "It changes early Saturday travel conditions, with visibility below 1,000 meters in some areas, so drivers and travelers face higher risk between midnight and 8 a.m.",
+    "why_it_matters_ar": "يغيّر الخبر ظروف السفر في ساعات الصباح الأولى من السبت، إذ تنخفض الرؤية إلى أقل من 1000 متر في بعض المناطق، ما يزيد مخاطر القيادة والتنقل بين منتصف الليل والثامنة صباحاً.",
+    "between_the_lines_en": "No significant subtext — this reads as a routine meteorological warning.",
+    "between_the_lines_ar": "لا يوجد ما بين السطور يُذكر — الخبر إنذار أرصادي روتيني.",
+    "watch_next_en": "Watch whether Meteorology issues a follow-up warning after 8 a.m. or extends the fog advisory.",
+    "watch_next_ar": "مراقبة ما إذا كانت الأرصاد ستصدر تحذيراً لاحقاً بعد الثامنة صباحاً أو تمديد إنذار الضباب.",
+    "confidence": "high",
+    "confidence_reason": "The warning is directly attributed to Meteorology with a clear time window and visibility threshold.",
+    "entities": [
+     "Meteorology Administration",
+     "Kuwait"
+    ],
+    "tags": [
+     "weather",
+     "fog",
+     "visibility",
+     "safety",
+     "traffic"
     ],
     "_source": "llm"
    }
@@ -1713,8 +1639,8 @@
    }
   },
   {
-   "key": "0f8c8da432ec759c",
-   "score": 6.555,
+   "key": "106f85147a6aa91f",
+   "score": 6.059,
    "sources": [
     "الرأي"
    ],
@@ -1724,93 +1650,41 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "جرحى إثر اصطدام سيارة بحشد في شمال سيدني",
-     "url": "https://www.alraimedia.com/article/1781411/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AC%D8%B1%D8%AD%D9%89-%D8%A5%D8%AB%D8%B1-%D8%A7%D8%B5%D8%B7%D8%AF%D8%A7%D9%85-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A8%D8%AD%D8%B4%D8%AF-%D9%81%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%B3%D9%8A%D8%AF%D9%86%D9%8A",
-     "section": "latest",
-     "summary": "قالت الشرطة الأسترالية إن ​سيارة اندفعت نحو حشد ‌من الناس في مدينة نيوكاسل بأستراليا اليوم السبت، مما أدى ⁠إلى إصابة عدة أشخاص.وألقي ⁠القبض على السائق ⁠في ‌مكان الحادث با...",
-     "body": "قالت الشرطة الأسترالية إن ​سيارة اندفعت نحو حشد ‌من الناس في مدينة نيوكاسل بأستراليا اليوم السبت، مما أدى ⁠إلى إصابة عدة أشخاص.\n\nوألقي ⁠القبض على السائق ⁠في ‌مكان الحادث بالمدينة التي تبعد بنحو 110 كيلومترات من شمال ‌سيدني عاصمة ولاية نيو ساوث ويلز.\n\nواشنطن: نجاح «العزم الصلب» انتصار حقيقي للجهود الجماعية لمحاربة «داعش» منذ 53 دقيقة ترامب: أميركا ستملأ قريبا مخزونها الاستراتيجي من النفط منذ ساعتين\n\nوقال رئيس بلدية ‌نيوكاسل جافين موريس ⁠في تصريحات ⁠نقلها التلفزيون ⁠إن ​عدة أشخاص، بينهم أطفال، أصيبوا بجروح خطيرة.",
-     "published": "2026-10-03T06:30:00+03:00",
+     "title": "توقعات بتأجيل المركزي الأميركي رفع الفائدة إلى ديسمبر بدلاً من أكتوبر",
+     "url": "https://www.alraimedia.com/article/1781405/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-%D8%A5%D9%84%D9%89-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A8%D8%AF%D9%84%D8%A7-%D9%85%D9%86-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1",
+     "section": "economy",
+     "summary": "عزز تقرير ⁠سوق العمل الأميركية الصادر أمس الجمعة، والذي ​أظهر تباطؤا أكبر من المتوقع في التوظيف، توجه صانعي السياسة في مجلس الاحتياطي ⁠الاتحادي (البنك المركزي الأميركي) نحو عدم الم...",
+     "body": "ومع ذلك، فقد يتغير هذا ‌التقدير عقب البيانات التي لم تصدر بعد، ولا سيما مؤشر أسعار المستهلك الذي يحظى بمتابعة وثيقة باعتباره مقياسا للتضخم والذي سيصدر قبل اجتماع السياسة النقدية لمجلس الاحتياطي في يومي 27 و28 أكتوبر.\n\n«نفط الكويت»: «مطربة» ينتج 1.5 مليون برميل نفط وملياري قدم مكعبة غاز خلال عام منذ 10 ساعات «أوبن ايه آي»: فصل 3 باحثين لإساءة تعاملهم مع معلومات حساسة منذ 15 ساعة\n\nوالتزم ⁠رئيس مجلس الاحتياطي الاتحادي كيفن وورش بسياسته المتمثلة في عدم الإدلاء بأي تصريحات بخصوص مكامن ⁠الخطر التي يراها أو المسار الذي ‌قد تحتاج أسعار الفائدة إلى اتخاذه، لكن زملاءه لم يلتزموا بهذا القدر من التحفظ.\n\nوردا على سؤال شبكة فوكس بيزنس عما إذا كان ينبغي لمجلس الاحتياطي رفع أسعار الفائدة أو تثبيتها في الاجتماع المقبل، قال أوستان جولسبي، رئيس البنك المركزي في شيكاجو، عن ذلك «هناك مجال واسع لوضع أي خيار على الطاولة».\n\nوأضاف جولسبي أنه يعتقد بأن أحدث بيانات الوظائف تظهر ‌أن سوق العمل مستقرة.\n\nوتابع «أعتقد أن الجانب المتعلق بالتضخم من مهام الاحتياطي الاتحادي، هو مصدر المشكلة. علينا أن نراقب ذلك عن كثب».\n\nوأفادت وزارة العمل اليوم الجمعة بأن أرباب العمل في الولايات المتحدة أضافوا 29 ألف وظيفة فقط الشهر الماضي، وهو رقم يقل عن توقعات ​خبراء اقتصاد أشارت إلى إضافة 90 ألف وظيفة، وجرى تعديل أرقام التوظيف لشهر أغسطس آب بالخفض.\n\nوبعد أن رفع ⁠الاحتياطي الاتحادي تكاليف الاقتراض قصيرة الأجل الشهر الماضي، أشار صانعو السياسة إلى أنهم سيقدمون على الأرجح على رفع آخر على الأقل بحلول نهاية العام إذا استمرت حرب إيران وغيرها من الصدمات التي دفعت التضخم إلى الارتفاع.\n\nومع استمرار تعثر التوصل إلى اتفاق لوقف الحرب وبقاء التوتر التجاري ​في صدارة الاهتمام، كانت التوقعات تشير حتى مطلع هذا الأسبوع إلى سلسلة سريعة من رفع أسعار الفائدة، ⁠بالتزامن مع ارتفاع عوائد ‌السندات طويلة الأجل التي سجلت أعلى ​مستوياتها في 24 عاما أمس الخميس. وارتفعت أيضا معدلات الفائدة على الرهن العقاري فوق سبعة في المئة.\n\nوأظهر تحليل لأداة فيد ووتش التابعة لمجموعة سي.إم.إي إلى أن المستثمرين يتوقعون احتمالا 25 في المئة لرفع أسعار الفائدة في أكتوبر، واحتمالا كبيرا للغاية لرفعها في ديسمبر ديسمبر.\n\nوأظهرت بيانات صدرت هذا الأسبوع أن معدل التضخم، وفقا للمقياس الذي يعتمده الاحتياطي الاتحادي، بلغ 3.4 في المئة في أغسطس ، وهي نسبة تفوق بكثير المعدل المستهدف البالغ اثنين في المئة، لكنها جاءت دون توقعات خبراء الاقتصاد.",
+     "published": "2026-10-03T00:45:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "Economy & Business",
    "analysis": {
-    "headline_en": "Injured After Car Plows into Crowd in North Sydney",
-    "headline_ar": "جرحى إثر اصطدام سيارة بحشد في شمال سيدني",
-    "summary_en": "Australian police reported that a car drove into a crowd in Newcastle, Australia, injuring several people, including children. The driver was arrested at the scene. The incident occurred in a city approximately 110 kilometers north of Sydney.",
-    "summary_ar": "أفادت الشرطة الأسترالية بأن سيارة اندفعت نحو حشد من الناس في مدينة نيوكاسل بأستراليا، مما أدى إلى إصابة عدة أشخاص، بينهم أطفال. وأُلقي القبض على السائق في مكان الحادث. وقع الحادث في مدينة تبعد حوالي 110 كيلومترات شمال سيدني.",
-    "why_it_matters_en": "This is an international security incident with no direct impact on Kuwait. It is reported as breaking international news. The mention of 'children' and 'serious injuries' highlights the severity, but there is no Kuwaiti angle such as citizens being affected or a specific threat level change for Kuwait.",
-    "why_it_matters_ar": "هذا حادث أمني دولي لا يحمل أي تأثير مباشر على الكويت. يُبلّغ عنه كخبر دولي عاجل. ذكر «الأطفال» و«الإصابات الخطيرة» يُبرز خطورة الحادث، لكن لا توجد زاوية كويتية مثل تأثر المواطنين أو تغيير محدد في مستوى التهديد للكويت.",
-    "between_the_lines_en": "The story is a brief wire report. The categorization as 'Government & Politics' is again a misclassification, likely defaulting to 'Security' which is often grouped under politics in broad categorizations. The lack of detail on the motive (terror vs. accident) is typical for early-stage reporting. The inclusion of unrelated headlines (Trump, Iran) in the body text suggests a copy-paste error from a news aggregator or a poor layout in the source material provided, but the core story is a standard international crime/security update.",
-    "between_the_lines_ar": "الخبر تقرير موجز من وكالات الأنباء. تصنيفه تحت «الحكومة والسياسة» هو مرة أخرى تصنيف خاطئ، ربما بسبب الافتراض بأن «الأمن» يُصنف غالباً تحت السياسة في التصنيفات الواسعة. غياب التفاصيل حول الدافع (إرهاب أم حادث) هو نموذجي للتقارير المبكرة. تضمين عناوين غير ذات صلة (ترامب، إيران) في نص الخبر يشير إلى خطأ نسخ ولصق من مجمّع أخبار أو سوء تنسيق في المادة المصدرية المقدمة، لكن الخبر الأساسي هو تحديث قياسي لجريمة/أمن دولي.",
-    "watch_next_en": "Official statements from Australian authorities regarding the motive of the attack and the condition of the victims.",
-    "watch_next_ar": "البيانات الرسمية من السلطات الأسترالية بشأن دافع الهجوم وحالة الضحايا.",
-    "confidence": "high",
-    "confidence_reason": "The text is a short, factual wire report with no local context, making the assessment of it as standard international news definitive.",
-    "entities": [
-     "Newcastle",
-     "Australia",
-     "Gavin Morris"
-    ],
-    "tags": [
-     "Security",
-     "International",
-     "Crime"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "2121e07db7b4e29a",
-   "score": 6.549,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "أكسيوس: كبار مستشاري ترامب اجتمعوا سرا بكامب ديفيد بشأن إيران واليمن",
-     "url": "https://www.aljarida.com/article/146287",
-     "section": "latest",
-     "summary": "أفاد ⁠موقع ⁠أكسيوس بأن ‌كبار ​أعضاء ‌حكومة ​الرئيس ‌الأمريكي دونالد ‌ترامب عقدوا اجتماعا سريا ​في المنتجع الرئاسي بكامب ​ديفيد ‌لمناقشة الخطوات التال...",
-     "body": "أفاد ⁠موقع ⁠أكسيوس بأن ‌كبار ​أعضاء ‌حكومة ​الرئيس ‌الأمريكي دونالد ‌ترامب عقدوا اجتماعا سريا ​في المنتجع الرئاسي بكامب ​ديفيد ‌لمناقشة الخطوات التالية بشأن الحرب مع إيران والصراع ⁠بين السعودية والحوثيين ⁠في اليمن.\n\nونقل ‌الموقع ​عن مصادر ‌مطلعة ​أن ⁠نائب ​الرئيس ‌جيه.دي فانس ترأس الاجتماع.",
-     "published": "2026-10-03T08:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Axios: Trump's Senior Advisors Met Secretly at Camp David on Iran and Yemen",
-    "headline_ar": "أكسيوس: كبار مستشاري ترامب اجتمعوا سرا بكامب ديفيد بشأن إيران واليمن",
-    "summary_en": "According to Axios, senior members of the US government held a secret meeting at Camp David to discuss next steps regarding the war with Iran and the conflict between Saudi Arabia and the Houthis in Yemen. Vice President JD Vance chaired the meeting, according to informed sources.",
-    "summary_ar": "أفاد موقع أكسيوس بأن كبار أعضاء الحكومة الأمريكية عقدوا اجتماعاً سرياً في المنتجع الرئاسي بكامب ديفيد لمناقشة الخطوات التالية بشأن الحرب مع إيران والصراع بين السعودية والحوثيين في اليمن. ونُقل عن مصادر مطلعة أن نائب الرئيس جيه.دي فانس ترأس الاجتماع.",
-    "why_it_matters_en": "This signals a high-level US strategic reassessment of the Middle East, specifically linking the Iran conflict with the Saudi-Houthi dynamic. For Kuwait, this implies potential shifts in US regional security commitments, naval deployments, or diplomatic pressure on Gulf states to take sides or mediate. The 'secret' nature suggests a lack of consensus or a desire to avoid public backlash before a decision is made.",
-    "why_it_matters_ar": "يشير هذا إلى إعادة تقييم استراتيجية أمريكية رفيعة المستوى للشرق الأوسط، تربط بشكل محدد بين الصراع مع إيران وديناميكية السعودية-الحوثيين. بالنسبة للكويت، هذا يعني احتمالية حدوث تغييرات في التزامات الأمن الأمريكي الإقليمية، أو الانتشار البحري، أو الضغط الدبلوماسي على دول الخليج للتخذ موقف أو الوساطة. طبيعة «السرية» تشير إلى غياب الإجماع أو الرغبة في تجنب رد فعل عام قبل اتخاذ قرار.",
-    "between_the_lines_en": "The reliance on a single US digital outlet (Axios) for a story of this magnitude, without confirmation from the White House or State Department, suggests the information is leaking from within the administration but has not been officially sanctioned. The specific mention of the 'Saudi-Houthi' conflict alongside Iran is significant for Kuwait, as it frames the regional crisis as a multi-front issue where US policy must balance its alliance with Saudi Arabia against the threat from Iran. The 'secret' label is a journalistic device to imply exclusivity, but the core signal is that the US is actively formulating a new, possibly more aggressive or coordinated, strategy that has not yet been communicated to allies like Kuwait.",
-    "between_the_lines_ar": "الاعتماد على موقع رقمي أمريكي واحد (أكسيوس) لقصة بهذا الحجم، دون تأكيد من البيت الأبيض أو وزارة الخارجية، يشير إلى أن المعلومات تسرب من داخل الإدارة لكنها لم تُعتمد رسمياً بعد. ذكر «الصراع السعودي-الحوثي» تحديداً إلى جانب إيران مهم للكويت، لأنه يُصوّر الأزمة الإقليمية كقضية متعددة الجبهات يجب على السياسة الأمريكية فيها موازنة تحالفها مع السعودية ضد التهديد الإيراني. تسمية «السرية» هي حيلة صحفية للتأثير على الحصرية، لكن الإشارة الجوهرية هي أن الولايات المتحدة بصدد صياغة استراتيجية جديدة، ربما أكثر عدوانية أو تنسيقاً، لم تُبلّغ بعد حلفاء مثل الكويت.",
-    "watch_next_en": "Official US statements on the status of the Iran conflict and any changes in US naval presence in the Gulf. Watch for Kuwaiti diplomatic statements reacting to any new US policy shifts.",
-    "watch_next_ar": "البيانات الرسمية الأمريكية بشأن حالة الصراع مع إيران وأي تغييرات في الوجود البحري الأمريكي في الخليج. راقب البيانات الدبلوماسية الكويتية التي تستجيب لأي تغييرات جديدة في السياسة الأمريكية.",
+    "headline_en": "Expectations of US Fed rate hike delay to December instead of October",
+    "headline_ar": "توقعات بتأجيل المركزي الأميركي رفع الفائدة إلى ديسمبر بدلا من أكتوبر",
+    "summary_en": "Markets are increasingly expecting the US Federal Reserve to delay its next interest rate hike to December instead of October, following weaker-than-expected US jobs data (29,000 jobs added vs. 90,000 expected). Inflation remains above target at 3.4%, but the labor market weakness is influencing policy expectations. Long-term bond yields hit 24-year highs, and mortgage rates exceeded 7%.",
+    "summary_ar": "يتزايد توقع الأسواق لتأجيل الاحتياطي الفيدرالي الأميركي لرفع أسعار الفائدة القادم إلى ديسمبر بدلاً من أكتوبر، بعد بيانات وظائف أميركية أضعف من المتوقع (إضافة 29 ألف وظيفة مقابل توقعات بـ 90 ألفاً). لا يزال التضخم فوق المستهدف عند 3.4%، لكن ضعف سوق العمل يؤثر على توقعات السياسة. سجلت عوائد السندات طويلة الأجل أعلى مستوياتها في 24 عاماً، وتجاوزت معدلات الفائدة على الرهن العقاري 7%.",
+    "why_it_matters_en": "US monetary policy directly impacts Kuwait's sovereign debt costs, currency stability (pegged to USD), and the value of its massive US Treasury holdings. A delay in rate hikes suggests a softer US economic outlook, which could reduce the yield on Kuwait's US bond portfolio. However, high inflation and bond yields indicate continued global financial tightness, affecting the cost of borrowing for Kuwaiti businesses and the state.",
+    "why_it_matters_ar": "السياسة النقدية الأميركية تؤثر مباشرة على تكاليف الدين السيادي الكويتي، واستقرار العملة (مرتبطة بالدولار)، وقيمة محافظها الضخمة من سندات الخزانة الأميركية. تأجيل رفع أسعار الفائدة يشير إلى توقعات اقتصادية أميركية أكثر ليونة، مما قد يقلل من العائد على محفظة الكويت من السندات الأميركية. ومع ذلك، فإن التضخم المرتفع وعوائد السندات يشير إلى استمرار تشديد مالي عالمي، مما يؤثر على تكلفة الاقتراض للشركات الكويتية والدولة.",
+    "between_the_lines_en": "The article highlights a divergence between inflation (3.4%, above target) and labor market weakness (29k jobs). The Fed's dilemma is clear: they cannot cut rates due to inflation, but the weak jobs data makes aggressive hikes risky. The mention of 'Iran war' and 'trade tensions' as drivers of inflation is a significant geopolitical signal. For Kuwait, the key takeaway is that the 'easy money' era is over, and the cost of capital is rising globally. The 24-year high in bond yields is a warning sign for any long-term infrastructure projects in Kuwait that rely on foreign financing or are sensitive to global interest rates.",
+    "between_the_lines_ar": "يبرز المقال تباعداً بين التضخم (3.4%، فوق المستهدف) وضعف سوق العمل (29 ألف وظيفة). حيرة الاحتياطي الفيدرالي واضحة: لا يمكنه خفض أسعار الفائدة بسبب التضخم، لكن بيانات الوظائف الضعيفة تجعل الرفع العدواني محفوفاً بالمخاطر. ذكر «حرب إيران» و«التوترات التجارية» كمحركات للتضخم هو إشارة جيوسياسية مهمة. بالنسبة للكويت، الدرس الرئيسي هو أن عصر «السيولة السهلة» انتهى، وأن تكلفة رأس المال ترتفع عالمياً. أعلى مستوى لعوائد السندات في 24 عاماً هو علامة تحذير لأي مشاريع بنية تحتية طويلة الأجل في الكويت تعتمد على التمويل الأجنبي أو تكون حساسة لمعدلات الفائدة العالمية.",
+    "watch_next_en": "Watch the US Consumer Price Index (CPI) data release before the Fed's October 27-28 meeting. Monitor Kuwaiti Ministry of Finance or Central Bank statements on how global interest rate trends are affecting the country's debt servicing costs and currency management.",
+    "watch_next_ar": "راقب بيانات مؤشر أسعار المستهلكين (CPI) في الولايات المتحدة قبل اجتماع الاحتياطي الفيدرالي في يومي 27 و28 أكتوبر. راقب بيانات وزارة المالية أو بنك الكويت المركزي حول كيفية تأثير اتجاهات أسعار الفائدة العالمية على تكاليف خدمة الدين وإدارة العملة في البلاد.",
     "confidence": "medium",
-    "confidence_reason": "The source is a single digital outlet citing 'informed sources' without official confirmation, making the details of the meeting's content and outcome speculative, though the likelihood of a high-level meeting is high.",
+    "confidence_reason": "The economic data is factual, but the interpretation of its specific impact on Kuwait's fiscal position is an inference based on standard economic principles, not explicitly detailed in the text.",
     "entities": [
-     "Trump",
-     "JD Vance",
-     "Camp David",
-     "Axios",
-     "Iran",
-     "Yemen",
-     "Saudi Arabia",
-     "Houthis"
+     "US Federal Reserve",
+     "Kevin Warsh",
+     "Austan Goolsbee",
+     "US Department of Labor"
     ],
     "tags": [
-     "US Politics",
-     "Middle East",
-     "Security",
-     "Diplomacy",
-     "Iran"
+     "US Economy",
+     "Interest Rates",
+     "Inflation",
+     "Global Markets",
+     "Kuwaiti Debt"
     ],
     "_source": "llm"
    }
@@ -1936,17 +1810,47 @@
      "url": "https://www.alanba.com.kw/1378958",
      "section": "kuwait",
      "summary": "",
-     "body": "",
+     "body": "سفيرنا في ڤيينا قدم أوراق اعتماده مندوبا دائما لدى منظمة الأمم المتحدة للتنميةالصناعية\n\nقدم سفيرنا لدى النمسا فواز بورسلي أوراق اعتماده مندوبا دائما لدولة الكويت لدى منظمة الأمم المتحدة للتنمية الصناعية (UNIDO).ونقلت سفارتنا في ڤيينا في بيان ل \"كونا) الجمعة تأكيد السفير بورسلي خلال لقائه مدير عام المنظمة غيرد مولر أهمية تعزيز التعاون بين دولة الكويت والمنظمة في المجالات ذات الأولوية المشتركة بما يخدم المصالح المتبادلة ويدعم جهود التنمية الصناعية المستدامة.وشدد بورسلي على أهمية توسيع آفاق التعاون وتبادل الخبرات بين الجانبين في عدد من المجالات الحيوية وفي مقدمتها الأمن الغذائي وسلاسل الإمداد والابتكار والتحول الرقمي بما يسهم في دعم التنمية وتعزيز القدرات في هذه المجالات.",
      "published": "2026-10-02T12:28:44+00:00",
      "tier": 1
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "Boursali: Expanding cooperation and exchange of expertise between Kuwait and UNIDO in food security, supply chains and innovation",
+    "headline_ar": "بورسلي: توسيع آفاق التعاون وتبادل الخبرات بين الكويت وUNIDO بمجالات الأمن الغذائي وسلاسل الإمداد والابتكار",
+    "summary_en": "Kuwait's ambassador to Austria, Fawaz Boursali, presented his credentials in Vienna as permanent representative to the UN Industrial Development Organization (UNIDO). During a meeting with UNIDO Director-General Gerd Müller, he stressed cooperation in food security, supply chains, innovation and digital transformation.",
+    "summary_ar": "قدّم سفير الكويت لدى النمسا فواز بورسلي أوراق اعتماده في فيينا مبعوثاً دائماً لدى منظمة الأمم المتحدة للتنمية الصناعية (UNIDO). وخلال لقائه مدير عام المنظمة غيرد مولر، شدد على التعاون في مجالات الأمن الغذائي وسلاسل الإمداد والابتكار والتحول الرقمي.",
+    "why_it_matters_en": "It formalizes Kuwait's diplomatic channel with UNIDO and puts food security, supply chains, innovation and digital transformation on the agenda for future industrial-development cooperation. The practical effect will depend on whether this leads to named projects, technical assistance, or standards work.",
+    "why_it_matters_ar": "ترسّخ القناة الدبلوماسية الكويتية مع منظمة الأمم المتحدة للتنمية الصناعية، وتضع الأمن الغذائي وسلاسل الإمداد والابتكار والتحول الرقمي على طاولة التعاون المستقبلي. الأثر العملي سيعتمد على ما إذا كان ذلك سيترجم إلى مشاريع مسمّاة أو مساعدة تقنية أو أعمال معايير.",
+    "between_the_lines_en": "Stated: Boursali presented credentials as Kuwait's permanent representative to UNIDO and met Gerd Müller. Implied: Kuwait wants to deepen cooperation in food security, supply chains, innovation and digital transformation. Hypothesis: with no named ministry, project, budget, or timeline, this is a positioning statement rather than an operational agreement.",
+    "between_the_lines_ar": "المنصوص عليه: بورسلي قدّم أوراق اعتماده مبعوثاً دائماً لدى UNIDO والتقى غيرد مولر. الضمني: الكويت تريد تعميق التعاون في الأمن الغذائي وسلاسل الإمداد والابتكار والتحول الرقمي. فرضيتي: مع غياب وزارة مسمّاة أو مشروع أو ميزانية أو جدول زمني، الخبر أقرب إلى بيان تموضعي منه إلى اتفاق تشغيلي.",
+    "watch_next_en": "Watch for a Kuwaiti ministry or UNIDO announcement naming a project, technical-assistance program, or meeting on food security/supply chains within the next few weeks.",
+    "watch_next_ar": "الانتظار خلال الأسابيع المقبلة: إعلان من وزارة كويتية أو من UNIDO يسمّي مشروعاً أو برنامج مساعدة تقنية أو اجتماعاً حول الأمن الغذائي وسلاسل الإمداد.",
+    "confidence": "medium",
+    "confidence_reason": "The story is a standard diplomatic statement with no concrete project or budget, so the priority-area inference is supported but not confirmed.",
+    "entities": [
+     "Fawaz Boursali",
+     "Gerd Müller",
+     "UNIDO",
+     "Kuwait",
+     "Austria",
+     "Vienna",
+     "KUNA"
+    ],
+    "tags": [
+     "diplomacy",
+     "UNIDO",
+     "food security",
+     "supply chains",
+     "industrial development"
+    ],
+    "_source": "llm"
+   }
   },
   {
-   "key": "6dec6105941f96fd",
-   "score": 5.759,
+   "key": "435b7267b0ceb6fe",
+   "score": 5.459,
    "sources": [
     "الرأي"
    ],
@@ -1956,69 +1860,47 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "واشنطن: نجاح «العزم الصلب» انتصار حقيقي للجهود الجماعية لمحاربة «داعش»",
-     "url": "https://www.alraimedia.com/article/1781410/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%86%D8%AC%D8%A7%D8%AD-%D8%A7%D9%84%D8%B9%D8%B2%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A8-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D8%AD%D9%82%D9%8A%D9%82%D9%8A-%D9%84%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D8%A8%D8%A9-%D8%AF%D8%A7%D8%B9%D8%B4",
-     "section": "latest",
-     "summary": "أكدت الولايات المتحدة الأميركية فجر اليوم السبت أن نجاح عملية «العزم الصلب» التي اختتمت في العراق الأربعاء الماضي «انتصار حقيقي» للجهود الجماعية لمحاربة ما يسمى تنظيم «داعش».جاء ذل...",
-     "body": "",
-     "published": "2026-10-03T05:43:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "cf65ad29f6589864",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "استشهاد 5 فلسطينيين في غارة جوية للاحتلال الإسرائيلي غرب غزة",
-     "url": "https://www.alraimedia.com/article/1781408/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D8%B3%D8%AA%D8%B4%D9%87%D8%A7%D8%AF-5-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%BA%D8%A7%D8%B1%D8%A9-%D8%AC%D9%88%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D8%BA%D8%B1%D8%A8-%D8%BA%D8%B2%D8%A9",
-     "section": "latest",
-     "summary": "ارتكب الاحتلال الإسرائيلي مجزرة جديدة بحق عائلة فلسطينية استشهد على إثرها خمسة فلسطينيين بينهم أربع نساء ورجل فى أعقاب استهداف شقة سكنية غرب مدينة غزة.وقالت السلطات الصحية في غزة ف...",
-     "body": "",
-     "published": "2026-10-03T03:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "106f85147a6aa91f",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "توقعات بتأجيل المركزي الأميركي رفع الفائدة إلى ديسمبر بدلاً من أكتوبر",
-     "url": "https://www.alraimedia.com/article/1781405/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-%D8%A5%D9%84%D9%89-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A8%D8%AF%D9%84%D8%A7-%D9%85%D9%86-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1",
-     "section": "latest",
-     "summary": "عزز تقرير ⁠سوق العمل الأميركية الصادر أمس الجمعة، والذي ​أظهر تباطؤا أكبر من المتوقع في التوظيف، توجه صانعي السياسة في مجلس الاحتياطي ⁠الاتحادي (البنك المركزي الأميركي) نحو عدم الم...",
-     "body": "",
-     "published": "2026-10-03T00:45:00+03:00",
+     "title": "«نفط الكويت»: «مطربة» ينتج 1.5 مليون برميل نفط وملياري قدم مكعبة غاز خلال عام",
+     "url": "https://www.alraimedia.com/article/1781385/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D8%B7%D8%B1%D8%A8%D8%A9-%D9%8A%D9%86%D8%AA%D8%AC-15-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D9%86%D9%81%D8%B7-%D9%88%D9%85%D9%84%D9%8A%D8%A7%D8%B1%D9%8A-%D9%82%D8%AF%D9%85-%D9%85%D9%83%D8%B9%D8%A8%D8%A9-%D8%BA%D8%A7%D8%B2-%D8%AE%D9%84%D8%A7%D9%84-%D8%B9%D8%A7%D9%85",
+     "section": "economy",
+     "summary": "أنتج مرفق مطربة للاختبارات طويلة الأمد (MLTTF) التابع لشركة نفط الكويت أكثر من 1.5 مليون برميل من النفط وملياري قدم مكعبة من الغاز خلال عامه الأول من التشغيل، فيما بلغت معدلات الإن...",
+     "body": "أنتج مرفق مطربة للاختبارات طويلة الأمد (MLTTF) التابع لشركة نفط الكويت أكثر من 1.5 مليون برميل من النفط وملياري قدم مكعبة من الغاز خلال عامه الأول من التشغيل، فيما بلغت معدلات الإنتاج في ذروتها نحو 7800 برميل نفط يومياً و8 ملايين قدم مكعبة قياسية من الغاز يومياً.\n\nسعر برميل النفط الكويتي يرتفع إلى 104.59 دولار منذ 5 ساعات نمر الصباح: تطوير منظمة «أوابك» يؤسس لمرحلة أوسع في العمل العربي للطاقة منذ يوم\n\nوأوضحت أن الزيارة جاءت بعد مرور عام على بدء التشغيل، تقديراً للجهود المتميزة وروح العمل الجماعي التي أسهمت في تحقيق هذه النتائج، وتعزيز أعمال الشركة في تطوير الحقول النائية والمعقدة.",
+     "published": "2026-10-02T14:14:00+03:00",
      "tier": 1
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "Kuwait Oil: Matriba facility produces 1.5 million barrels of oil and 2 billion cubic feet of gas in first year",
+    "headline_ar": "«نفط الكويت»: «مطربة» ينتج 1.5 مليون برميل نفط وملياري قدم مكعبة غاز خلال عام",
+    "summary_en": "Kuwait Oil Company (KOC) announced that its Matriba Long-Term Test Facility (MLTTF) produced over 1.5 million barrels of oil and 2 billion cubic feet of gas during its first year of operation. Peak production rates reached approximately 7,800 barrels of oil per day and 8 million cubic feet of gas per day.",
+    "summary_ar": "أعلنت شركة نفط الكويت أن مرفق مطربة للاختبارات طويلة الأمد أنتج أكثر من 1.5 مليون برميل من النفط وملياري قدم مكعبة من الغاز خلال عامه الأول من التشغيل، حيث بلغت معدلات الإنتاج في ذروتها نحو 7800 برميل نفط و8 ملايين قدم مكعبة من الغاز يومياً.",
+    "why_it_matters_en": "This validates the technical feasibility of developing remote and complex fields, a key component of KOC’s strategy to maintain production levels as mature fields decline. The gas co-production is particularly relevant for domestic power generation and export potential.",
+    "why_it_matters_ar": "يؤكد هذا الإنجاز الجدوى التقنية لتطوير الحقول النائية والمعقدة، وهو عنصر أساسي في استراتيجية نفط الكويت للحفاظ على مستويات الإنتاج مع تراجع الحقول الناضجة، كما أن إنتاج الغاز المصاحب له أهمية خاصة لتوليد الطاقة محلياً وإمكانات التصدير.",
+    "between_the_lines_en": "The story is carried solely by Al-Rai, a private paper, rather than the state wire KUNA, suggesting this is a corporate PR milestone rather than a national policy announcement. The attribution is vague ('it clarified'), likely referring to a KOC press release, and the text focuses heavily on 'team spirit' and 'commendation' of efforts, which is typical language for internal morale boosting rather than technical reporting. The omission of specific field names or detailed technical parameters (beyond peak rates) indicates this is a high-level summary for public consumption, not a detailed engineering report. The timing, coinciding with a rise in Kuwaiti crude prices to $104.59, may be intended to reinforce a positive narrative around the oil sector's performance.",
+    "between_the_lines_ar": "نشر الخبر في صحيفة الرأي الخاصة فقط، وليس عبر وكالة الأنباء الكويتية (كونا)، مما يشير إلى أنه إنجاز مؤسسي داخلي وليس إعلاناً سياسياً وطنياً. المصدر غير محدد بوضوح ('وأوضحت')، وهو ما يشير على الأرجح إلى بيان صحفي من شركة نفط الكويت، ويركز النص بشدة على 'روح العمل الجماعي' و'التقدير للجهود المتميزة'، وهي لغة نموذجية لتعزيز المعنويات الداخلية بدلاً من التقارير التقنية. غياب أسماء الحقول المحددة أو المعايير التقنية التفصيلية (بخلاف معدلات الذروة) يدل على أن هذا ملخص عام للاستهلاك العام وليس تقريراً هندسياً مفصلاً. قد يكون توقيت الخبر، الذي يتزامن مع ارتفاع سعر برميل النفط الكويتي إلى 104.59 دولار، مقصوداً لتعزيز السرد الإيجابي حول أداء قطاع النفط.",
+    "watch_next_en": "Check if KUNA or other state-aligned outlets pick up this story in the coming days, which would signal a shift from corporate PR to a broader national energy narrative. Also, monitor for any official announcements regarding the expansion of the Matriba facility or similar remote field developments.",
+    "watch_next_ar": "راقب ما إذا كانت وكالة الأنباء الكويتية (كونا) أو وسائل الإعلام الحكومية الأخرى ستتناول هذا الخبر في الأيام القادمة، مما قد يشير إلى تحول من العلاقات العامة المؤسسية إلى سردية طاقة وطنية أوسع. كما راقب أي إعلانات رسمية حول توسيع مرفق مطربة أو تطوير حقول نائية مماثلة.",
+    "confidence": "medium",
+    "confidence_reason": "The analysis is based on standard media patterns in Kuwait (private vs. state wire) and the specific language used in the text, but the lack of direct confirmation from KOC or KUNA limits certainty about the strategic intent.",
+    "entities": [
+     "Kuwait Oil Company",
+     "Matriba Long-Term Test Facility",
+     "Al-Rai"
+    ],
+    "tags": [
+     "Oil",
+     "Gas",
+     "KOC",
+     "Energy",
+     "Production"
+    ],
+    "_source": "llm"
+   }
   },
   {
-   "key": "bb75001f445b6033",
-   "score": 5.757,
+   "key": "f26a8a83ded17083",
+   "score": 5.459,
    "sources": [
     "الرأي"
    ],
@@ -2028,40 +1910,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "سيول: كوريا الشمالية أطلقت مقذوفا باتجاه البحر قبالة الساحل الشرقي",
-     "url": "https://www.alraimedia.com/article/1781407/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B3%D9%8A%D9%88%D9%84-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA-%D9%85%D9%82%D8%B0%D9%88%D9%81%D8%A7-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%82%D8%A8%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A",
-     "section": "latest",
-     "summary": "قالت هيئة ⁠الأركان المشتركة لكوريا الجنوبية في ​بيان إن كوريا الشمالية ‌أطلقت مقذوفا غير معروف باتجاه البحر قبالة سواحلها الشرقية.يأتي الإطلاق بعد أن أصدرت كيم ⁠يو جونغ، شقيقة...",
+     "title": "«أوبن ايه آي»: فصل 3 باحثين لإساءة تعاملهم مع معلومات حساسة",
+     "url": "https://www.alraimedia.com/article/1781378/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A3%D9%88%D8%A8%D9%86-%D8%A7%D9%8A%D9%87-%D8%A2%D9%8A-%D9%81%D8%B5%D9%84-3-%D8%A8%D8%A7%D8%AD%D8%AB%D9%8A%D9%86-%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D9%87%D9%85-%D9%85%D8%B9-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%AD%D8%B3%D8%A7%D8%B3%D8%A9",
+     "section": "economy",
+     "summary": "أعلنت شركة «أوبن ايه آي» فصل ثلاثة باحثين وتقول إنهم أساؤوا التعامل مع «معلومات حساسة» وانتهكوا سياساتها، بما في ذلك العمل مع جهة خارجية تُقيّم نماذج الذكاء الاصطناعي. ولم تفصح الش...",
      "body": "",
-     "published": "2026-10-03T02:22:00+03:00",
+     "published": "2026-10-02T09:45:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "26f44c4f74b477e5",
-   "score": 5.753,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب: أميركا ستملأ قريبا مخزونها الاستراتيجي من النفط",
-     "url": "https://www.alraimedia.com/article/1781409/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%B3%D8%AA%D9%85%D9%84%D8%A3-%D9%82%D8%B1%D9%8A%D8%A8%D8%A7-%D9%85%D8%AE%D8%B2%D9%88%D9%86%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B7",
-     "section": "latest",
-     "summary": "قال الرئيس ‌الأمريكي دونالد ترامب أمس ⁠الجمعة ⁠إن الولايات ⁠المتحدة ستقوم ‌قريبا بملء احتياطياتها الاستراتيجية ‌من النفط.وأضاف ترامب في ​تجمع ⁠بولاية ألاباما «سنقوم...",
-     "body": "",
-     "published": "2026-10-03T04:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -2089,7 +1947,7 @@
    "analysis": {}
   },
   {
-   "key": "64da0669f39f927e",
+   "key": "6dec6105941f96fd",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -2100,12 +1958,12 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«يونيسف»: تضرر 436 مدرسة يعرض 100 ألف طفل لخطر فقدان مقاعدهم الدراسية في لبنان",
-     "url": "https://www.alraimedia.com/article/1781403/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%8A%D9%88%D9%86%D9%8A%D8%B3%D9%81-%D8%AA%D8%B6%D8%B1%D8%B1-436-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D9%8A%D8%B9%D8%B1%D8%B6-100-%D8%A3%D9%84%D9%81-%D8%B7%D9%81%D9%84-%D9%84%D8%AE%D8%B7%D8%B1-%D9%81%D9%82%D8%AF%D8%A7%D9%86-%D9%85%D9%82%D8%A7%D8%B9%D8%AF%D9%87%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%84%D8%A8%D9%86%D8%A7%D9%86",
-     "section": "latest",
-     "summary": "أكدت المديرة التنفيذية لمنظمة الأمم المتحدة للطفولة (يونيسف) كاثرين راسل ان تضرر وتدمير نحو 436 مدرسة في مختلف المناطق اللبنانية يعرض زهاء 100 ألف طفل لخطر فقدان مقاعدهم الدراسية و...",
+     "title": "واشنطن: نجاح «العزم الصلب» انتصار حقيقي للجهود الجماعية لمحاربة «داعش»",
+     "url": "https://www.alraimedia.com/article/1781410/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%86%D8%AC%D8%A7%D8%AD-%D8%A7%D9%84%D8%B9%D8%B2%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A8-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1-%D8%AD%D9%82%D9%8A%D9%82%D9%8A-%D9%84%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D8%A8%D8%A9-%D8%AF%D8%A7%D8%B9%D8%B4",
+     "section": "world",
+     "summary": "أكدت الولايات المتحدة الأميركية فجر اليوم السبت أن نجاح عملية «العزم الصلب» التي اختتمت في العراق الأربعاء الماضي «انتصار حقيقي» للجهود الجماعية لمحاربة ما يسمى تنظيم «داعش».جاء ذل...",
      "body": "",
-     "published": "2026-10-02T23:05:00+03:00",
+     "published": "2026-10-03T05:43:00+03:00",
      "tier": 1
     }
    ],
@@ -2113,7 +1971,7 @@
    "analysis": {}
   },
   {
-   "key": "775114399d00f3e9",
+   "key": "cf65ad29f6589864",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -2124,12 +1982,36 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "وزير الخارجية المصري يؤكد رفض الاجراءات الأحادية في نهر النيل",
-     "url": "https://www.alraimedia.com/article/1781401/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%A4%D9%83%D8%AF-%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%A7%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9-%D9%81%D9%8A-%D9%86%D9%87%D8%B1-%D8%A7%D9%84%D9%86%D9%8A%D9%84",
-     "section": "latest",
-     "summary": "أكد وزير الخارجية المصري الدكتور بدر عبدالعاطي اليوم الجمعة ضرورة الالتزام بقواعد القانون الدولي ورفض الاجراءات الأحادية في نهر النيل.وذكرت وزارة الخارجية المصرية في بيان أن ذلك جا...",
+     "title": "استشهاد 5 فلسطينيين في غارة جوية للاحتلال الإسرائيلي غرب غزة",
+     "url": "https://www.alraimedia.com/article/1781408/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D8%B3%D8%AA%D8%B4%D9%87%D8%A7%D8%AF-5-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%BA%D8%A7%D8%B1%D8%A9-%D8%AC%D9%88%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D8%BA%D8%B1%D8%A8-%D8%BA%D8%B2%D8%A9",
+     "section": "world",
+     "summary": "ارتكب الاحتلال الإسرائيلي مجزرة جديدة بحق عائلة فلسطينية استشهد على إثرها خمسة فلسطينيين بينهم أربع نساء ورجل فى أعقاب استهداف شقة سكنية غرب مدينة غزة.وقالت السلطات الصحية في غزة ف...",
      "body": "",
-     "published": "2026-10-02T22:05:00+03:00",
+     "published": "2026-10-03T03:21:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "ac851dc13dc782b6",
+   "score": 5.159,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "السعودية: إصابة آسيوي وتضرر مصلى بعد اعتراض صاروخ باليستي",
+     "url": "https://www.aljarida.com/article/146286",
+     "section": "world",
+     "summary": "صرّح المتحدث الرسمي للدفاع المدني بأنه في يوم الجمعة باشر الدفاع المدني في محافظة أحد رفيدة بمنطقة عسير، سقوط شظايا صاروخ باليستي بعد اعتراضه وتدميره، تم إطلاقه من قبل الميليشيا ال...",
+     "body": "",
+     "published": "2026-10-03T01:36:00+03:00",
      "tier": 1
     }
    ],
@@ -2209,54 +2091,6 @@
    "analysis": {}
   },
   {
-   "key": "bd9114dcb0e18efc",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "المفوضية الأوروبية تصرف أكثر من 3 مليارات دولار لأوكرانيا لدعم الاستقرار المالي والإصلاحات",
-     "url": "https://www.alraimedia.com/article/1781393/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B1%D9%81-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-3-%D9%85%D9%84%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%84%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA",
-     "section": "latest",
-     "summary": "أعلنت المفوضية الأوروبية اليوم الجمعة صرف 9ر2 مليار يورو (26ر3 مليارات دولار) لأوكرانيا لدعم احتياجاتها التمويلية والحفاظ على عمل الإدارة العامة في البلاد بعد نجاحها في تنفيذ إصلاح...",
-     "body": "",
-     "published": "2026-10-02T17:39:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "0d07b74bbdf8cb2f",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الداخلية»: ضبط 5 متهمين باستغلال مشروع خيري للاستيلاء على التبرعات",
-     "url": "https://www.alraimedia.com/article/1781388/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B6%D8%A8%D8%B7-5-%D9%85%D8%AA%D9%87%D9%85%D9%8A%D9%86-%D8%A8%D8%A7%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D9%84-%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AE%D9%8A%D8%B1%D9%8A-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%84%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%A8%D8%B1%D8%B9%D8%A7%D8%AA",
-     "section": "latest",
-     "summary": "تمكن قطاع الأمن الجنائي ممثلا في الإدارة العامة للمباحث الجنائية من كشف واقعة استغلال مشروع خيري لجمع التبرعات العينية وإعادة بيعها والاستفادة من عائداتها لمصلحة شخصية تورط فيها (5...",
-     "body": "",
-     "published": "2026-10-02T16:18:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
    "key": "f3595e1b27cb4cc1",
    "score": 5.158,
    "sources": [
@@ -2281,7 +2115,7 @@
    "analysis": {}
   },
   {
-   "key": "d6182f7d7629427e",
+   "key": "bb75001f445b6033",
    "score": 5.157,
    "sources": [
     "الرأي"
@@ -2292,16 +2126,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "مجموعة السبع تتفق على السحب من مخزونات الديزل والنفط عقب ضغط أميركي",
-     "url": "https://www.alraimedia.com/article/1781399/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9-%D8%AA%D8%AA%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%AD%D8%A8-%D9%85%D9%86-%D9%85%D8%AE%D8%B2%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%B9%D9%82%D8%A8-%D8%B6%D8%BA%D8%B7-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A",
-     "section": "latest",
-     "summary": "اتفقت دول مجموعة السبع اليوم الجمعة ⁠على سحب 100 مليون برميل من الديزل ​والنفط الخام من احتياطيات الطوارئ، في خطوة رحب بها الرئيس الأميركي دونالد ترامب في ‌ظل مساعيه لتهدئة ال...",
+     "title": "سيول: كوريا الشمالية أطلقت مقذوفا باتجاه البحر قبالة الساحل الشرقي",
+     "url": "https://www.alraimedia.com/article/1781407/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B3%D9%8A%D9%88%D9%84-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA-%D9%85%D9%82%D8%B0%D9%88%D9%81%D8%A7-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%82%D8%A8%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A",
+     "section": "world",
+     "summary": "قالت هيئة ⁠الأركان المشتركة لكوريا الجنوبية في ​بيان إن كوريا الشمالية ‌أطلقت مقذوفا غير معروف باتجاه البحر قبالة سواحلها الشرقية.يأتي الإطلاق بعد أن أصدرت كيم ⁠يو جونغ، شقيقة...",
      "body": "",
-     "published": "2026-10-02T20:02:00+03:00",
+     "published": "2026-10-03T02:22:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Economy & Business",
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -2329,6 +2163,54 @@
    "analysis": {}
   },
   {
+   "key": "0f8c8da432ec759c",
+   "score": 5.155,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "جرحى إثر اصطدام سيارة بحشد في شمال سيدني",
+     "url": "https://www.alraimedia.com/article/1781411/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AC%D8%B1%D8%AD%D9%89-%D8%A5%D8%AB%D8%B1-%D8%A7%D8%B5%D8%B7%D8%AF%D8%A7%D9%85-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A8%D8%AD%D8%B4%D8%AF-%D9%81%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%B3%D9%8A%D8%AF%D9%86%D9%8A",
+     "section": "world",
+     "summary": "قالت الشرطة الأسترالية إن ​سيارة اندفعت نحو حشد ‌من الناس في مدينة نيوكاسل بأستراليا اليوم السبت، مما أدى ⁠إلى إصابة عدة أشخاص.وألقي ⁠القبض على السائق ⁠في ‌مكان الحادث با...",
+     "body": "",
+     "published": "2026-10-03T06:30:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "26f44c4f74b477e5",
+   "score": 5.153,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب: أميركا ستملأ قريبا مخزونها الاستراتيجي من النفط",
+     "url": "https://www.alraimedia.com/article/1781409/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%B3%D8%AA%D9%85%D9%84%D8%A3-%D9%82%D8%B1%D9%8A%D8%A8%D8%A7-%D9%85%D8%AE%D8%B2%D9%88%D9%86%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B7",
+     "section": "world",
+     "summary": "قال الرئيس ‌الأمريكي دونالد ترامب أمس ⁠الجمعة ⁠إن الولايات ⁠المتحدة ستقوم ‌قريبا بملء احتياطياتها الاستراتيجية ‌من النفط.وأضاف ترامب في ​تجمع ⁠بولاية ألاباما «سنقوم...",
+     "body": "",
+     "published": "2026-10-03T04:21:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "a8f0da4fddd07047",
    "score": 5.153,
    "sources": [
@@ -2350,54 +2232,6 @@
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e0359266d55aa382",
-   "score": 5.1,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "أي تغريدات الطيور أجمل في أذن الإنسان؟ ولماذا يهتم الباحثون بذلك؟",
-     "url": "https://www.alanba.com.kw/1378984",
-     "section": "world",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-02T21:58:52+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "af5af27423b48c5f",
-   "score": 5.1,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الجيل الخامس يصل إلى القمر.. «ناسا» تُمهد لشبكة اتصالات على السطح",
-     "url": "https://www.alanba.com.kw/1378983",
-     "section": "world",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-02T21:20:51+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -2425,23 +2259,47 @@
    "analysis": {}
   },
   {
-   "key": "0799a4f0785a7819",
-   "score": 4.8,
+   "key": "64da0669f39f927e",
+   "score": 4.559,
    "sources": [
-    "الأنباء"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
+     "source_id": "alrai",
+     "source_name": "الرأي",
      "lang": "ar",
-     "title": "تركيا تدين اعتداء الحوثيين على البنية التحتية للمسجد النبوي الشريف بالمدينة المنورة",
-     "url": "https://www.alanba.com.kw/1378954",
-     "section": "gulf",
-     "summary": "",
+     "title": "«يونيسف»: تضرر 436 مدرسة يعرض 100 ألف طفل لخطر فقدان مقاعدهم الدراسية في لبنان",
+     "url": "https://www.alraimedia.com/article/1781403/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%8A%D9%88%D9%86%D9%8A%D8%B3%D9%81-%D8%AA%D8%B6%D8%B1%D8%B1-436-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D9%8A%D8%B9%D8%B1%D8%B6-100-%D8%A3%D9%84%D9%81-%D8%B7%D9%81%D9%84-%D9%84%D8%AE%D8%B7%D8%B1-%D9%81%D9%82%D8%AF%D8%A7%D9%86-%D9%85%D9%82%D8%A7%D8%B9%D8%AF%D9%87%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%84%D8%A8%D9%86%D8%A7%D9%86",
+     "section": "world",
+     "summary": "أكدت المديرة التنفيذية لمنظمة الأمم المتحدة للطفولة (يونيسف) كاثرين راسل ان تضرر وتدمير نحو 436 مدرسة في مختلف المناطق اللبنانية يعرض زهاء 100 ألف طفل لخطر فقدان مقاعدهم الدراسية و...",
      "body": "",
-     "published": "2026-10-02T13:38:47+00:00",
+     "published": "2026-10-02T23:05:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "775114399d00f3e9",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وزير الخارجية المصري يؤكد رفض الاجراءات الأحادية في نهر النيل",
+     "url": "https://www.alraimedia.com/article/1781401/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%A4%D9%83%D8%AF-%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%A7%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9-%D9%81%D9%8A-%D9%86%D9%87%D8%B1-%D8%A7%D9%84%D9%86%D9%8A%D9%84",
+     "section": "world",
+     "summary": "أكد وزير الخارجية المصري الدكتور بدر عبدالعاطي اليوم الجمعة ضرورة الالتزام بقواعد القانون الدولي ورفض الاجراءات الأحادية في نهر النيل.وذكرت وزارة الخارجية المصرية في بيان أن ذلك جا...",
+     "body": "",
+     "published": "2026-10-02T22:05:00+03:00",
      "tier": 1
     }
    ],
@@ -2497,6 +2355,54 @@
    "analysis": {}
   },
   {
+   "key": "bd9114dcb0e18efc",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "المفوضية الأوروبية تصرف أكثر من 3 مليارات دولار لأوكرانيا لدعم الاستقرار المالي والإصلاحات",
+     "url": "https://www.alraimedia.com/article/1781393/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B1%D9%81-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-3-%D9%85%D9%84%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%84%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA",
+     "section": "world",
+     "summary": "أعلنت المفوضية الأوروبية اليوم الجمعة صرف 9ر2 مليار يورو (26ر3 مليارات دولار) لأوكرانيا لدعم احتياجاتها التمويلية والحفاظ على عمل الإدارة العامة في البلاد بعد نجاحها في تنفيذ إصلاح...",
+     "body": "",
+     "published": "2026-10-02T17:39:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "0d07b74bbdf8cb2f",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الداخلية»: ضبط 5 متهمين باستغلال مشروع خيري للاستيلاء على التبرعات",
+     "url": "https://www.alraimedia.com/article/1781388/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B6%D8%A8%D8%B7-5-%D9%85%D8%AA%D9%87%D9%85%D9%8A%D9%86-%D8%A8%D8%A7%D8%B3%D8%AA%D8%BA%D9%84%D8%A7%D9%84-%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AE%D9%8A%D8%B1%D9%8A-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%84%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%A8%D8%B1%D8%B9%D8%A7%D8%AA",
+     "section": "latest",
+     "summary": "تمكن قطاع الأمن الجنائي ممثلا في الإدارة العامة للمباحث الجنائية من كشف واقعة استغلال مشروع خيري لجمع التبرعات العينية وإعادة بيعها والاستفادة من عائداتها لمصلحة شخصية تورط فيها (5...",
+     "body": "",
+     "published": "2026-10-02T16:18:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
    "key": "1fb1f29f58bebd92",
    "score": 4.559,
    "sources": [
@@ -2545,47 +2451,23 @@
    "analysis": {}
   },
   {
-   "key": "435b7267b0ceb6fe",
+   "key": "c6026d685b3ca29f",
    "score": 4.559,
    "sources": [
-    "الرأي"
+    "Kuwait Times"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«نفط الكويت»: «مطربة» ينتج 1.5 مليون برميل نفط وملياري قدم مكعبة غاز خلال عام",
-     "url": "https://www.alraimedia.com/article/1781385/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D8%B7%D8%B1%D8%A8%D8%A9-%D9%8A%D9%86%D8%AA%D8%AC-15-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D9%86%D9%81%D8%B7-%D9%88%D9%85%D9%84%D9%8A%D8%A7%D8%B1%D9%8A-%D9%82%D8%AF%D9%85-%D9%85%D9%83%D8%B9%D8%A8%D8%A9-%D8%BA%D8%A7%D8%B2-%D8%AE%D9%84%D8%A7%D9%84-%D8%B9%D8%A7%D9%85",
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Spanish lawmakers vote on housing decrees amid protests",
+     "url": "https://kuwaittimes.com/article/50827/world/spanish-lawmakers-vote-on-housing-decrees-amid-protests/",
      "section": "latest",
-     "summary": "أنتج مرفق مطربة للاختبارات طويلة الأمد (MLTTF) التابع لشركة نفط الكويت أكثر من 1.5 مليون برميل من النفط وملياري قدم مكعبة من الغاز خلال عامه الأول من التشغيل، فيما بلغت معدلات الإن...",
+     "summary": "MADRID: Spanish lawmakers were due to vote on Friday on two government housing decrees drawn up after an outcry over the eviction of an 87-year-old woman. Their passage is in doubt...",
      "body": "",
-     "published": "2026-10-02T14:14:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "b3d68e5203307566",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "2051 اعتداء نفذها جيش الاحتلال والمستوطنون في سبتمبر",
-     "url": "https://www.alraimedia.com/article/1781384/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/2051-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D9%86%D9%81%D8%B0%D9%87%D8%A7-%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86%D9%88%D9%86-%D9%81%D9%8A-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1",
-     "section": "latest",
-     "summary": "قالت هيئة مقاومة الجدار والاستيطان الفلسطينية إن قوات الاحتلال والمستوطنين نفذوا خلال شهر سبتمبر الماضي ما مجموعه 2051 اعتداء ضد المواطنين الفلسطينيين وأراضيهم وممتلكاتهم. وبينت ال...",
-     "body": "",
-     "published": "2026-10-02T14:06:00+03:00",
+     "published": "2026-10-02T12:34:00+03:00",
      "tier": 1
     }
    ],
@@ -2593,27 +2475,51 @@
    "analysis": {}
   },
   {
-   "key": "0a90fdc26c82f22f",
+   "key": "c4035cecdd7127ad",
    "score": 4.559,
    "sources": [
-    "الرأي"
+    "Kuwait Times"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ماكرون يدعو مجموعة السبع لتنسيق خطواتها في ملف الديزل من دون قيود على التصدير",
-     "url": "https://www.alraimedia.com/article/1781382/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D9%8A%D8%AF%D8%B9%D9%88-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9-%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%AE%D8%B7%D9%88%D8%A7%D8%AA%D9%87%D8%A7-%D9%81%D9%8A-%D9%85%D9%84%D9%81-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D9%85%D9%86-%D8%AF%D9%88%D9%86-%D9%82%D9%8A%D9%88%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1",
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Lebanon PM says war recovery beyond state's capacity",
+     "url": "https://kuwaittimes.com/article/50826/world/lebanon-pm-says-war-recovery-beyond-states-capacity/",
      "section": "latest",
-     "summary": "دعا الرئيس الفرنسي إيمانويل ماكرون اليوم دول مجموعة السبع إلى التنسيق بهدف خفض أسعار الوقود، في وقت يقترح الرئيس الأميركي دونالد ترامب على الأوروبيين السحب من احتياطاتهم الإستراتيج...",
+     "summary": "NABATIEH: Lebanese Prime Minister Nawaf Salam said on Friday that rebuilding the areas destroyed in the latest Israel-Hezbollah war was beyond the state's capacity. He called for f...",
      "body": "",
-     "published": "2026-10-02T11:53:00+03:00",
+     "published": "2026-10-02T12:18:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Economy & Business",
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "f04ab2f1c177b177",
+   "score": 4.559,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Talks fail to end Northern Ireland parade standoff",
+     "url": "https://kuwaittimes.com/article/50825/world/talks-fail-to-end-northern-ireland-parade-standoff/",
+     "section": "latest",
+     "summary": "PORTADOWN: Talks to end a standoff over a contentious Protestant parade in Northern Ireland have ended without agreement, Britain's minister for the region said, as the dispute ent...",
+     "body": "",
+     "published": "2026-10-02T12:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2809,30 +2715,6 @@
    "analysis": {}
   },
   {
-   "key": "f26a8a83ded17083",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«أوبن ايه آي»: فصل 3 باحثين لإساءة تعاملهم مع معلومات حساسة",
-     "url": "https://www.alraimedia.com/article/1781378/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A3%D9%88%D8%A8%D9%86-%D8%A7%D9%8A%D9%87-%D8%A2%D9%8A-%D9%81%D8%B5%D9%84-3-%D8%A8%D8%A7%D8%AD%D8%AB%D9%8A%D9%86-%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D9%87%D9%85-%D9%85%D8%B9-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%AD%D8%B3%D8%A7%D8%B3%D8%A9",
-     "section": "latest",
-     "summary": "أعلنت شركة «أوبن ايه آي» فصل ثلاثة باحثين وتقول إنهم أساؤوا التعامل مع «معلومات حساسة» وانتهكوا سياساتها، بما في ذلك العمل مع جهة خارجية تُقيّم نماذج الذكاء الاصطناعي. ولم تفصح الش...",
-     "body": "",
-     "published": "2026-10-02T09:45:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "a30b667eed714cee",
    "score": 4.559,
    "sources": [
@@ -2897,7 +2779,7 @@
      "section": "world",
      "summary": "أفادت السلطات السعودية الجمعة بسقوط مقذوف أطلقه الحوثيون على مدرسة بمدينة نجران السعودية المحاذية لليمن، ما تسبّب في أضرار مادية، وذلك في خضم تجدد النزاع اليمني.ونشر الدفاع المدني...",
      "body": "",
-     "published": "2026-10-02T23:12:00+03:00",
+     "published": "2026-10-02T23:56:00+03:00",
      "tier": 1
     }
    ],
@@ -2977,7 +2859,7 @@
    "analysis": {}
   },
   {
-   "key": "d1203e7e41c58df3",
+   "key": "d6182f7d7629427e",
    "score": 4.557,
    "sources": [
     "الرأي"
@@ -2988,16 +2870,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "باكستان: اجتماع للجنة الدفاع السياسي الإستراتيجي في الرياض الأسبوع المقبل",
-     "url": "https://www.alraimedia.com/article/1781386/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84",
-     "section": "latest",
-     "summary": "قال وزير خارجية باكستان محمد إسحاق دار ⁠اليوم الجمعة إن الرياض ستستضيف اجتماعا ⁠طارئا للجنة الدفاع السياسي ⁠الإستراتيجي، بموجب اتفاقية ⁠مكة ‌المبرمة بين باكستان وتركيا والسعود...",
+     "title": "مجموعة السبع تتفق على السحب من مخزونات الديزل والنفط عقب ضغط أميركي",
+     "url": "https://www.alraimedia.com/article/1781399/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9-%D8%AA%D8%AA%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%AD%D8%A8-%D9%85%D9%86-%D9%85%D8%AE%D8%B2%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%B9%D9%82%D8%A8-%D8%B6%D8%BA%D8%B7-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A",
+     "section": "world",
+     "summary": "اتفقت دول مجموعة السبع اليوم الجمعة ⁠على سحب 100 مليون برميل من الديزل ​والنفط الخام من احتياطيات الطوارئ، في خطوة رحب بها الرئيس الأميركي دونالد ترامب في ‌ظل مساعيه لتهدئة ال...",
      "body": "",
-     "published": "2026-10-02T15:09:00+03:00",
+     "published": "2026-10-02T20:02:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3049,30 +2931,6 @@
    "analysis": {}
   },
   {
-   "key": "92360c455e8a669f",
-   "score": 4.557,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رئيس كوريا الجنوبية يهدد بإجراءات ضد أوكرانيا بسبب جنديين من كوريا الشمالية",
-     "url": "https://www.alraimedia.com/article/1781376/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D8%A6%D9%8A%D8%B3-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A8%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%B6%D8%AF-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AC%D9%86%D8%AF%D9%8A%D9%8A%D9%86-%D9%85%D9%86-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "​هدد الرئيس الكوري الجنوبي لي جيه-ميونج اليوم ⁠الجمعة باتخاذ إجراءات لم يحددها ​ضد أوكرانيا ما لم تعترف كييف بما تصفه سيول ‌بأنه اتفاق سري يتعلق بنقل جنديين كوريين شماليين تم...",
-     "body": "",
-     "published": "2026-10-02T08:23:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "b0e69a2345958e82",
    "score": 4.555,
    "sources": [
@@ -3114,30 +2972,6 @@
      "summary": "أشاد مستشار الرئيس الإماراتي أنور قرقاش الجمعة بشجاعة قائد طائرة «فلاي دبي» سميت ماتشار الذي تعرّض لاعتداء من مساعده خلال رحلة بين دبي وتل أبيب هبطت اضطراريا في تبوك ال...",
      "body": "",
      "published": "2026-10-02T14:15:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "109f9f16f242f6bd",
-   "score": 4.554,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "السلطات البريطانية تحذر من لعبة أطفال «مسرطنة» تباع على «شي إن»",
-     "url": "https://www.aljarida.com/article/146279",
-     "section": "world",
-     "summary": "حذرت السلطات في بريطانيا من لعبة أطفال تباع عبر منصة «شي إن»، بعد الاشتباه في احتواء الرمال الموجودة داخلها على مادة الأسبستوس المسببة للسرطان.وقال مكتب سلامة المنتجات...",
-     "body": "",
-     "published": "2026-10-02T21:00:00+03:00",
      "tier": 1
     }
    ],
@@ -3241,6 +3075,54 @@
    "analysis": {}
   },
   {
+   "key": "e0359266d55aa382",
+   "score": 4.5,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "أي تغريدات الطيور أجمل في أذن الإنسان؟ ولماذا يهتم الباحثون بذلك؟",
+     "url": "https://www.alanba.com.kw/1378984",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-02T21:58:52+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "af5af27423b48c5f",
+   "score": 4.5,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الجيل الخامس يصل إلى القمر.. «ناسا» تُمهد لشبكة اتصالات على السطح",
+     "url": "https://www.alanba.com.kw/1378983",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-02T21:20:51+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "06f003584a640b2c",
    "score": 4.359,
    "sources": [
@@ -3254,7 +3136,7 @@
      "lang": "en",
      "title": "Tanker Hit by Unknown Projectile Off Oman Coast",
      "url": "https://www.arabtimesonline.com/news/tanker-hit-by-unknown-projectile-off-oman-coast/",
-     "section": "general",
+     "section": "latest",
      "summary": "LONDON, Oct 3: A crude oil tanker was struck by an unknown projectile about 4 nautical miles east of Oman, the United Kingdom Maritime Trade Operations (UKMTO) reported on Friday,...",
      "body": "",
      "published": "2026-10-03T07:44:00+03:00",
@@ -3266,10 +3148,58 @@
      "lang": "en",
      "title": "One More Tanker hit by unknown projectile in Strait of Hormuz",
      "url": "https://www.arabtimesonline.com/news/one-more-tanker-hit-by-unknown-projectile-in-strait-of-hormuz/",
-     "section": "general",
+     "section": "latest",
      "summary": "London, Oct 2: A tanker was struck by an unknown projectile while transiting the Strait of Hormuz, causing a small fire and a temporary blackout onboard, the United Kingdom Maritim...",
      "body": "",
      "published": "2026-10-02T19:42:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "0799a4f0785a7819",
+   "score": 4.2,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "تركيا تدين اعتداء الحوثيين على البنية التحتية للمسجد النبوي الشريف بالمدينة المنورة",
+     "url": "https://www.alanba.com.kw/1378954",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-02T13:38:47+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "aef4fb5738d0a68b",
+   "score": 4.11,
+   "sources": [
+    "كويت نيوز"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "كوريا الشمالية تُطلق صاروخا بالستيا بعدما طالبتها سيول باعتذار",
+     "url": "https://kuwaitnews.com/136488/",
+     "section": "latest",
+     "summary": "أعلنت سيول السبت أن بيونغ يانغ أطلقت صاروخا بالستيا، وذلك بعد أيام من مطالبتها باعتذار على انفجار اتُهمت بتنفيذه وأسفر عن إصابة ثلاثة جنود كوريين جنوبيين في المنطقة منزوعة السلاح. ونفت بيونغ يانغ مسؤوليتها عن انفجار لغم أرضي الشهر الماضي […]\n\nThe post كوريا الشمالية تُطلق صاروخا بالستيا بعدما طالبتها سيول باعتذار appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-10-03T08:00:57+00:00",
      "tier": 2
     }
    ],
@@ -3290,7 +3220,7 @@
      "lang": "en",
      "title": "Flydubai Co-Pilot Had Previously Been Removed From Oman Air Role Over Extremism Concerns: CNN",
      "url": "https://www.arabtimesonline.com/news/flydubai-co-pilot-had-previously-been-removed-from-oman-air-role-over-extremism-concerns-cnn/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW YORK, Oct 3: The Omani co-pilot accused of attacking the captain of a Flydubai flight bound for Tel Aviv had previously been removed from a role at Oman’s national airline foll...",
      "body": "",
      "published": "2026-10-03T07:57:00+03:00",
@@ -3314,7 +3244,7 @@
      "lang": "en",
      "title": "Trump’s Top Security Aides Hold Secret Camp David Talks on Iran, Yemen",
      "url": "https://www.arabtimesonline.com/news/trumps-top-security-aides-hold-secret-camp-david-talks-on-iran-yemen/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 3: Top national security officials in the Trump administration held a secret meeting at Camp David on Friday to discuss the next steps in the war with Iran and the...",
      "body": "",
      "published": "2026-10-03T07:52:00+03:00",
@@ -3342,6 +3272,78 @@
      "summary": "فيما قال إن لجنة الدفاع السياسي الاستراتيجي، المنصوص عليها بموجب اتفاق مكة للدفاع المشترك، ستعقد اجتماعًا في الرياض قريبًا،أكد وزير خارجية باكستان، محمد إسحاق دار، اليوم الجمعة، رف...",
      "body": "",
      "published": "2026-10-02T15:19:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "b3d68e5203307566",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "2051 اعتداء نفذها جيش الاحتلال والمستوطنون في سبتمبر",
+     "url": "https://www.alraimedia.com/article/1781384/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/2051-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D9%86%D9%81%D8%B0%D9%87%D8%A7-%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86%D9%88%D9%86-%D9%81%D9%8A-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1",
+     "section": "world",
+     "summary": "قالت هيئة مقاومة الجدار والاستيطان الفلسطينية إن قوات الاحتلال والمستوطنين نفذوا خلال شهر سبتمبر الماضي ما مجموعه 2051 اعتداء ضد المواطنين الفلسطينيين وأراضيهم وممتلكاتهم. وبينت ال...",
+     "body": "",
+     "published": "2026-10-02T14:06:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "0a90fdc26c82f22f",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ماكرون يدعو مجموعة السبع لتنسيق خطواتها في ملف الديزل من دون قيود على التصدير",
+     "url": "https://www.alraimedia.com/article/1781382/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D9%8A%D8%AF%D8%B9%D9%88-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%B9-%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%AE%D8%B7%D9%88%D8%A7%D8%AA%D9%87%D8%A7-%D9%81%D9%8A-%D9%85%D9%84%D9%81-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D9%85%D9%86-%D8%AF%D9%88%D9%86-%D9%82%D9%8A%D9%88%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1",
+     "section": "world",
+     "summary": "دعا الرئيس الفرنسي إيمانويل ماكرون اليوم دول مجموعة السبع إلى التنسيق بهدف خفض أسعار الوقود، في وقت يقترح الرئيس الأميركي دونالد ترامب على الأوروبيين السحب من احتياطاتهم الإستراتيج...",
+     "body": "",
+     "published": "2026-10-02T11:53:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "d1203e7e41c58df3",
+   "score": 3.957,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "باكستان: اجتماع للجنة الدفاع السياسي الإستراتيجي في الرياض الأسبوع المقبل",
+     "url": "https://www.alraimedia.com/article/1781386/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84",
+     "section": "world",
+     "summary": "قال وزير خارجية باكستان محمد إسحاق دار ⁠اليوم الجمعة إن الرياض ستستضيف اجتماعا ⁠طارئا للجنة الدفاع السياسي ⁠الإستراتيجي، بموجب اتفاقية ⁠مكة ‌المبرمة بين باكستان وتركيا والسعود...",
+     "body": "",
+     "published": "2026-10-02T15:09:00+03:00",
      "tier": 1
     }
    ],
@@ -3493,30 +3495,6 @@
    "analysis": {}
   },
   {
-   "key": "b9474a5d2f8f139e",
-   "score": 3.316,
-   "sources": [
-    "كويت نيوز"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "دوري الأمم الأوروبية: مانشيني يفرمل البداية المثالية لزيدان وبلجيكا تستعيد التوازن",
-     "url": "https://kuwaitnews.com/136466/",
-     "section": "latest",
-     "summary": "فرمل المنتخب الإيطالي بقيادة مدربه روبرتو مانشيني في ولايته الثانية على راس إدارته الفنية البداية المثالية لزين الدين زيدان مع منتخب بلاده فرنسا عندما ارغمه على التعادل 1-1 الجمعة في “ستاد دو فرانس” في باريس في الجولة الثالثة من منافسات […]\n\nThe post دوري الأمم الأوروبية: مانشيني يفرمل البداية المثالية لزيدان وبلجيكا تستعيد التوازن appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-10-02T21:19:17+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
    "key": "942d5532df222c72",
    "score": 3.059,
    "sources": [
@@ -3535,6 +3513,30 @@
      "body": "",
      "published": "2026-10-02T13:21:00+03:00",
      "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "b9474a5d2f8f139e",
+   "score": 2.716,
+   "sources": [
+    "كويت نيوز"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "دوري الأمم الأوروبية: مانشيني يفرمل البداية المثالية لزيدان وبلجيكا تستعيد التوازن",
+     "url": "https://kuwaitnews.com/136466/",
+     "section": "latest",
+     "summary": "فرمل المنتخب الإيطالي بقيادة مدربه روبرتو مانشيني في ولايته الثانية على راس إدارته الفنية البداية المثالية لزين الدين زيدان مع منتخب بلاده فرنسا عندما ارغمه على التعادل 1-1 الجمعة في “ستاد دو فرانس” في باريس في الجولة الثالثة من منافسات […]\n\nThe post دوري الأمم الأوروبية: مانشيني يفرمل البداية المثالية لزيدان وبلجيكا تستعيد التوازن appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-10-02T21:19:17+00:00",
+     "tier": 2
     }
    ],
    "category": "Sport",
@@ -3578,7 +3580,7 @@
      "lang": "en",
      "title": "Two Iranians Charged Over Alleged Terror Plot Targeting Manchester Jewish Community",
      "url": "https://www.arabtimesonline.com/news/two-iranians-charged-over-alleged-terror-plot-targeting-manchester-jewish-community/",
-     "section": "general",
+     "section": "latest",
      "summary": "LONDON, Oct 2: British police have charged two Iranian nationals over an alleged terrorist plot targeting the Jewish community in Manchester, saying the suspected attack was disrup...",
      "body": "",
      "published": "2026-10-02T23:40:00+03:00",
@@ -3626,7 +3628,7 @@
      "lang": "en",
      "title": "Gandhi’s Satyagraha Echoes in India as 700+ Gen Z Protesters Detained",
      "url": "https://www.arabtimesonline.com/news/gandhis-satyagraha-echoes-in-india-as-700-gen-z-protesters-detained/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW DELHI, Oct 2: More than 700 protesters were detained by Delhi Police on Friday as opposition leaders, student groups and activists gathered in and around Jantar Mantar to deman...",
      "body": "",
      "published": "2026-10-02T23:12:00+03:00",
@@ -3650,7 +3652,7 @@
      "lang": "en",
      "title": "Iran-Backed Houthi Projectile Hits Saudi School in Najran",
      "url": "https://www.arabtimesonline.com/news/iran-backed-houthi-projectile-hits-saudi-school-in-najran/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 2: A hostile projectile fired by Yemen’s Houthi militia struck a school in Najran, southern Saudi Arabia, causing material damage, Saudi Civil Defense said Friday.The o...",
      "body": "",
      "published": "2026-10-02T22:56:00+03:00",
@@ -3674,7 +3676,7 @@
      "lang": "en",
      "title": "Yemen Army Claims 474 Operations Against Houthis, 1,540 Casualties in 24 Hours",
      "url": "https://www.arabtimesonline.com/news/yemen-army-claims-474-operations-against-houthis-1540-casualties-in-24-hours/",
-     "section": "general",
+     "section": "latest",
      "summary": "SANAA, Oct 2: Yemen’s internationally recognized government said its forces carried out 474 military operations against Houthi targets across multiple fronts during the past 24 hou...",
      "body": "",
      "published": "2026-10-02T21:57:00+03:00",
@@ -3698,7 +3700,7 @@
      "lang": "en",
      "title": "Flydubai Suspends Tel Aviv Flights After Cockpit Scuffle, Captain Returns to UAE",
      "url": "https://www.arabtimesonline.com/news/flydubai-suspends-tel-aviv-flights-after-cockpit-scuffle-captain-returns-to-uae/",
-     "section": "general",
+     "section": "latest",
      "summary": "DUBAI, Oct 2: Flydubai has temporarily suspended all flights to Tel Aviv until further notice at the request of authorities following a cockpit incident aboard flight FZ1073, which...",
      "body": "",
      "published": "2026-10-02T19:28:00+03:00",
@@ -3722,7 +3724,7 @@
      "lang": "en",
      "title": "Flydubai Pilot Smit Machchhar Is a ‘True Hero,’ UAE Adviser Says — But Warns Against Conspiracy Theories",
      "url": "https://www.arabtimesonline.com/news/flydubai-pilot-smit-machchhar-is-a-true-hero-uae-adviser-says-but-warns-against-conspiracy-theories/",
-     "section": "general",
+     "section": "latest",
      "summary": "DUBAI, Oct 2: UAE diplomatic adviser Anwar Gargash has joined growing praise for Indian flydubai pilot Captain Smit Machchhar, who is being hailed as a hero for his actions during...",
      "body": "",
      "published": "2026-10-02T21:57:00+03:00",
@@ -3746,7 +3748,7 @@
      "lang": "en",
      "title": "US approves waiver for 40 daily Iran flights to Najaf, Iraq says",
      "url": "https://www.arabtimesonline.com/news/us-approves-waiver-for-40-daily-iran-flights-to-najaf-iraq-says/",
-     "section": "general",
+     "section": "latest",
      "summary": "BAGHDAD, Oct 2: The United States has approved a waiver allowing Iranian airlines, except Mahan Air, to operate up to 40 flights a day to and from Najaf International Airport, Ira...",
      "body": "",
      "published": "2026-10-02T19:18:00+03:00",
@@ -3842,7 +3844,7 @@
      "lang": "en",
      "title": "LNG Shipments Through Hormuz Hit Highest Level Since Iran War Began: Reuters",
      "url": "https://www.arabtimesonline.com/news/lng-shipments-through-hormuz-hit-highest-level-since-iran-war-began-reuters/",
-     "section": "general",
+     "section": "latest",
      "summary": "SINGAPORE, Oct 2: Liquefied natural gas (LNG) shipments through the Strait of Hormuz reached their highest monthly level since the US-Israeli war on Iran began, with 19 cargoes rec...",
      "body": "",
      "published": "2026-10-02T14:01:00+03:00",
@@ -3890,7 +3892,7 @@
      "lang": "en",
      "title": "UAE Withdraws Landing Approval, El Al Cancels Dubai Rescue Flights",
      "url": "https://www.arabtimesonline.com/news/uae-withdraws-landing-approval-el-al-cancels-dubai-rescue-flights/",
-     "section": "general",
+     "section": "latest",
      "summary": "DUBAI, Oct 2 : Israel's flag carrier El Al has cancelled planned rescue flights from Dubai after Israeli airlines were informed that they no longer had approval to land in the Unit...",
      "body": "",
      "published": "2026-10-02T11:46:00+03:00",
@@ -3914,7 +3916,7 @@
      "lang": "en",
      "title": "Saudi Arabia says Houthis made two attempts targeting holy cities in September",
      "url": "https://www.arabtimesonline.com/news/saudi-arabia-says-houthis-made-two-attempts-targeting-holy-cities-in-september/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 2 : Saudi Arabia has reported two incidents in September involving alleged Houthi attacks targeting or threatening the holy cities of Mecca and Medina, renewing tension...",
      "body": "",
      "published": "2026-10-02T11:31:00+03:00",
@@ -3938,7 +3940,7 @@
      "lang": "en",
      "title": "130 Million Indian Voters’ Rights Under Threat – India Protests Intensify Over Voter Rolls, Demand Resignation of Poll Chief",
      "url": "https://www.arabtimesonline.com/news/130-million-indian-voters-rights-under-threat-india-protests-intensify-over-voter-rolls-demand-resignation-of-poll-chief/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW DELHI, Oct 2: Fresh protests erupted in India on Friday as the youth-led Cockroach Janta Party (CJP) and separate student and civil-society groups demanded the resignation of C...",
      "body": "",
      "published": "2026-10-02T11:12:00+03:00",
@@ -3962,7 +3964,7 @@
      "lang": "en",
      "title": "US sends 9,000 troops and third aircraft carrier toward Middle East as Trump weighs new Iran strikes",
      "url": "https://www.arabtimesonline.com/news/us-sends-9000-troops-and-third-aircraft-carrier-toward-middle-east-as-trump-weighs-new-iran-strikes/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 2 : The United States is sending about 9,000 sailors and Marines and a third aircraft carrier toward the Middle East, as President Donald Trump weighs whether to re...",
      "body": "",
      "published": "2026-10-02T10:49:00+03:00",
@@ -3986,7 +3988,7 @@
      "lang": "en",
      "title": "Saudi Arabia denies reports of suicide bomber at Grand Mosque in Mecca",
      "url": "https://www.arabtimesonline.com/news/saudi-arabia-denies-reports-of-suicide-bomber-at-grand-mosque-in-mecca/",
-     "section": "general",
+     "section": "latest",
      "summary": "MECCA, Oct 2 : Saudi authorities on Friday denied reports circulating on social media that a suicide bomber wearing an explosive vest had attempted to approach the Kaaba at the Gra...",
      "body": "",
      "published": "2026-10-02T09:56:00+03:00",
@@ -4010,7 +4012,7 @@
      "lang": "en",
      "title": "India Erupts! ‘Cockroach’ Movement Takes to Streets, Demands Election Chief Quit",
      "url": "https://www.arabtimesonline.com/news/india-erupts-cockroach-movement-takes-to-streets-demands-election-chief-quit/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW DELHI (AP), Oct 2: India’s “Cockroach” youth movement has called for new protests in the country’s financial hub of Mumbai for Friday to demand the resignation of the chief el...",
      "body": "",
      "published": "2026-10-02T14:08:00+03:00",
@@ -4034,7 +4036,7 @@
      "lang": "en",
      "title": "40 Attacks a Week! Iran Targets Commercial Ships in Strait of Hormuz: NYT",
      "url": "https://www.arabtimesonline.com/news/40-attacks-a-week-iran-targets-commercial-ships-in-strait-of-hormuz-nyt/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 2: Iran has been launching about 30 drone attacks and 10 anti-ship missile attacks each week against commercial vessels in the Strait of Hormuz since early August,...",
      "body": "",
      "published": "2026-10-02T11:02:00+03:00",
