@@ -86,6 +86,11 @@ OPENAI_COMPATIBLE_BASES = {
 # it — parse_json_object() recovers JSON from prose or fenced blocks anyway.
 JSON_MODE_PROVIDERS = {"openai", "openrouter", "groq", "cerebras"}
 
+# Providers whose models reason before answering and count those reasoning
+# tokens against max_tokens. The briefing needs a JSON object, not a
+# derivation, so reasoning is turned off for it entirely.
+REASONING_EFFORT_PROVIDERS = {"cerebras"}
+
 # Providers that work with no API key at all.
 KEYLESS_PROVIDERS = {"llm7", "ollama"}
 
@@ -369,6 +374,16 @@ class LLMClient:
                 # so ask for less than we would from a first-party API.
                 max_tokens = min(max_tokens, 4000)
             payload["max_tokens"] = max_tokens
+
+        # Cerebras reasoning models (qwen-3.8-27b defaults to high effort) spend
+        # their reasoning tokens against max_tokens before writing any answer:
+        # observed 2249 reasoning tokens against a 4000 cap, which left too
+        # little room for the JSON and the response came back with no content
+        # at all — surfacing as KeyError('content') and killing the whole
+        # synthesis. These calls want a JSON object, not a derivation, so
+        # reasoning is switched off rather than merely budgeted for.
+        if self.provider in REASONING_EFFORT_PROVIDERS:
+            payload["reasoning_effort"] = "none"
 
         data = fetch_json(
             f"{base}/chat/completions",
@@ -661,6 +676,115 @@ def _category_of(story: Story) -> str:
     return categorize(story)
 
 
+# How today's stories may relate. Closed set on purpose: an open one lets the
+# model invent a relationship type per link, which makes the graph unreadable
+# and impossible to count or compare across days.
+LINK_TYPES = {
+    "consequence", "reaction", "contradiction", "same_actor",
+    "same_source_angle", "escalation",
+}
+
+
+# --------------------------------------------------------------------------
+# The entity graph
+# --------------------------------------------------------------------------
+#
+# The model is bad at one thing and good at most others: knowing that
+# "مجلس الوزراء", "the cabinet" and "Cabinet of Ministers" are the same actor.
+# Resolving that in Python and handing the model a finished index is cheaper
+# than letting it guess, and a wrong guess here quietly corrupts every link
+# the model draws downstream.
+
+# Arabic and English names for bodies that appear in Kuwaiti coverage almost
+# every day. Matching on these is exact, not fuzzy: a partial match would link
+# "the health ministry" to "a health report", which is worse than no link.
+_ENTITY_ALIASES = {
+    "the cabinet": "Kuwait Cabinet",
+    "cabinet of ministers": "Kuwait Cabinet",
+    "المجلس": "Kuwait Cabinet",
+    "مجلس الوزراء": "Kuwait Cabinet",
+    "المجلس الوزاري": "Kuwait Cabinet",
+    "the emir": "Kuwait Emir",
+    "emir of kuwait": "Kuwait Emir",
+    "صاحب السمو الأمير": "Kuwait Emir",
+    "the parliament": "Kuwait Parliament",
+    "البرلمان": "Kuwait Parliament",
+    "مجلس الوزراء": "Kuwait Cabinet",
+    "the ministry of finance": "Ministry of Finance",
+    "وزارة المالية": "Ministry of Finance",
+    "the supreme court": "Supreme Court",
+    "المحكمة الدستورية": "Constitutional Court",
+    "kuwait fund": "Kuwait Investment Authority",
+    "kia": "Kuwait Investment Authority",
+    "صندوق الكويت": "Kuwait Investment Authority",
+    "the amir": "Kuwait Emir",
+}
+
+# Entities too generic to carry meaning in a link graph.
+_STOP_ENTITIES = {
+    "kuwait", "news", "today", "the", "government", "official", "officials",
+    "source", "sources", "report", "reports", "ministry", "council", "committee",
+    "company", "sector", "week", "year", "day", "reuters", "agency",
+}
+
+
+def normalise_entity(name: str) -> str:
+    """Map a raw entity string to a canonical name, or '' if unusable."""
+    raw = re.sub(r"\s+", " ", (name or "").strip())
+    if not raw:
+        return ""
+    lowered = raw.lower().strip(" .،,")
+    if lowered in _STOP_ENTITIES:
+        return ""
+    return _ENTITY_ALIASES.get(lowered, raw.strip(" .،,"))
+
+
+def build_entity_graph(
+    stories: list[Story], analyses: list[dict[str, Any]]
+) -> dict[str, list[str]]:
+    """Map each resolved entity to the story ids that mention it.
+
+    Built here rather than asked for, because it is a lookup: the model
+    should be told who is who, not asked to work it out from scratch on every
+    run. Entities that appear in exactly one story carry no cross-story
+    signal, so they are left out to keep the prompt small.
+    """
+    index: dict[str, set[str]] = {}
+    for idx, analysis in enumerate(analyses):
+        sid = f"S{idx + 1}"
+        for raw in analysis.get("entities") or []:
+            name = normalise_entity(str(raw))
+            if name:
+                index.setdefault(name, set()).add(sid)
+
+    # Only entities spanning two or more stories tell the model something it
+    # could not have inferred from one batch of five.
+    return {name: sorted(ids) for name, ids in sorted(index.items()) if len(ids) >= 2}
+
+
+def render_entity_graph(graph: dict[str, list[str]]) -> str:
+    """The graph as prompt lines: ``- Entity: S1, S4, S9``."""
+    if not graph:
+        return ""
+    lines = [f"- {name}: {', '.join(ids)}" for name, ids in graph.items()]
+    return "\n".join(lines)
+
+
+def build_link_context(
+    stories: list[Story], analyses: list[dict[str, Any]]
+) -> tuple[str, dict[str, list[str]]]:
+    """Return ``(prompt_block, graph)`` for the synthesis call."""
+    graph = build_entity_graph(stories, analyses)
+    rendered = render_entity_graph(graph)
+    if not rendered:
+        return "", graph
+    return (
+        "ENTITIES SPANNING MORE THAN ONE STORY (resolved for you; treat each as "
+        "the same actor wherever it appears):\n" + rendered + "\n",
+        graph,
+    )
+
+
 # --------------------------------------------------------------------------
 # Engine
 # --------------------------------------------------------------------------
@@ -712,7 +836,13 @@ class _ChainEntry:
 
 
 class AnalysisEngine:
-    def __init__(self, config: AnalysisConfig):
+    def __init__(
+        self,
+        config: AnalysisConfig,
+        *,
+        memory_context: str = "",
+        recurring_entities: list[str] | None = None,
+    ):
         self.config = config
         self.provider, self.model, self.api_key = detect_provider(config.provider)
         if config.model:
@@ -728,6 +858,12 @@ class AnalysisEngine:
         # Whether anything this run was throttled (as opposed to unreachable or
         # just wrong). Only throttles are worth waiting out; see _recovery_wait.
         self._saw_throttle = False
+        # What earlier editions concluded, handed to the synthesis call so the
+        # day's analysis can be read against yesterday's rather than in
+        # isolation. Set by cmd_run from the memory store; empty is correct
+        # for a first run and for tests.
+        self.memory_context = memory_context
+        self.recurring_entities = list(recurring_entities or [])
         if config.use_cache and config.cache_path:
             self._load_cache()
 
@@ -873,7 +1009,8 @@ class AnalysisEngine:
 
         try:
             result.synthesis = self._synthesise(
-                stories, result.stories, entries, deadline, result
+                stories, result.stories, entries, deadline, result,
+                self.memory_context, self.recurring_entities,
             )
         except Exception as exc:
             result.errors.append(f"synthesis: {exc}")
@@ -906,8 +1043,10 @@ class AnalysisEngine:
 
         A Cloudflare 524 from a gateway means the generation ran out of time,
         and prompt size is the largest lever on that. Each pass keeps less of
-        the body text, down to a third — enough for the model to work with,
-        small enough to actually come back.
+        the body text — enough for the model to work with, small enough to
+        actually come back. With the default ``retry_passes=1`` the retry keeps
+        75% of the body; the 35% floor is only reached if several passes are
+        configured.
         """
         return max(0.35, 0.75 ** (max(1, pass_no) - 1))
 
@@ -1239,6 +1378,7 @@ class AnalysisEngine:
             raise FetchError("model returned no usable stories array")
         return payload
 
+
     def _synthesise(
         self,
         stories: list[Story],
@@ -1246,6 +1386,8 @@ class AnalysisEngine:
         entries: list[_ChainEntry] | None = None,
         deadline: Deadline | None = None,
         result: AnalysisResult | None = None,
+        memory_context: str = "",
+        recurring: list[str] | None = None,
     ) -> dict:
         """The day's editorial synthesis.
 
@@ -1255,7 +1397,9 @@ class AnalysisEngine:
         day's twelve biggest stories is a better briefing than none.
         """
         try:
-            return self._synthesise_once(stories, analyses, entries, deadline, result)
+            out = self._synthesise_once(
+                stories, analyses, entries, deadline, result, memory_context, recurring
+            )
         except Exception as exc:
             reduced = stories[:12]
             if len(reduced) == len(stories):
@@ -1266,7 +1410,10 @@ class AnalysisEngine:
             )
             if result is not None:
                 result.retries += 1
-            return self._synthesise_once(reduced, analyses, entries, deadline, result)
+            out = self._synthesise_once(
+                reduced, analyses, entries, deadline, result, memory_context, recurring
+            )
+        return _validate_links(out, len(stories))
 
     def _synthesise_once(
         self,
@@ -1275,10 +1422,29 @@ class AnalysisEngine:
         entries: list[_ChainEntry] | None = None,
         deadline: Deadline | None = None,
         result: AnalysisResult | None = None,
+        memory_context: str = "",
+        recurring: list[str] | None = None,
     ) -> dict:
         if self.client is None:
             raise FetchError("no LLM provider configured")
         _, lang_instruction = _field_spec(self.config.language)
+
+        # The entity graph is derived here, not by the model: it is a lookup
+        # over data we already hold, and getting an identity wrong would
+        # silently corrupt every link drawn from it.
+        analysis_list = [analyses.get(s.key, {}) for s in stories]
+        graph_block, _graph = build_link_context(stories, analysis_list)
+        memory_block = (
+            f"\nWHAT EARLIER EDITIONS SAID (use it to judge whether today's news "
+            f"continues, reverses or outgrows these; say so explicitly if it does):\n"
+            f"{memory_context}\n"
+            if memory_context else ""
+        )
+        recurring_block = (
+            "\nENTITIES STILL RUNNING ACROSS SEVERAL DAYS (a thread worth "
+            f"checking today):\n- " + ", ".join(recurring) + "\n"
+            if recurring else ""
+        )
 
         lines = []
         for idx, story in enumerate(stories):
@@ -1301,6 +1467,14 @@ class AnalysisEngine:
   "editor_note_en": "one tight paragraph (4-6 sentences) - the single most important thing about today and why",
   "editor_note_ar": "الملاحظة التحريرية بالعربية",
   "story_of_the_day": "S3",
+  "tactical_en": "what matters THIS WEEK: which decisions are pending, who has to act, on what date",
+  "tactical_ar": "ما يهم هذا الأسبوع",
+  "strategic_en": "what this week's pattern means over months: what is being normalised, what trajectory the coverage reveals",
+  "strategic_ar": "ما الذي يكشفه هذا النمط على المدىmonths",
+  "links": [
+    {"type": "consequence|reaction|contradiction|same_actor|same_source_angle|escalation",
+     "from": "S4", "to": "S9", "evidence": "one clause naming the specific connection"}
+  ],
   "top_themes": [
     {"theme_en": "short label", "theme_ar": "التسمية بالعربية", "story_ids": ["S1", "S5"], "note_en": "one sentence", "note_ar": "جملة واحدة"}
   ],
@@ -1309,6 +1483,16 @@ class AnalysisEngine:
   "watchlist_en": "2-4 comma-separated concrete things to watch next",
   "watchlist_ar": "ما يجب متابعته"
 }
+LINKS ARE THE POINT OF THIS CALL. Two stories that merely share a topic are
+not linked. Link them only when one of these holds, and say which:
+- consequence: one follows from or causes the other
+- reaction: the second is coverage responding to the first
+- contradiction: the two outlets tell incompatible accounts of one situation
+- same_actor: the same resolved entity appears in both
+- same_source_angle: the same underlying source is being cited from two directions
+- escalation: a conflict or process has measurably advanced
+If today's stories genuinely do not connect, return an empty links array. Do not \
+invent connections to fill the field.
 If the requested language is English only, you may leave the _ar fields empty; if Arabic \
 only, leave the _en fields empty."""
 
@@ -1316,6 +1500,9 @@ only, leave the _en fields empty."""
             "Here is the full set of analysed stories for today's Kuwait briefing.\n\n"
             f"{lang_instruction}\n\n"
             f"Return ONLY a JSON object matching this schema:\n{schema}\n\n"
+            f"{graph_block}"
+            f"{memory_block}"
+            f"{recurring_block}"
             "--- STORIES ---\n\n" + "\n".join(lines)
         )
         raw = self._complete(
@@ -1332,6 +1519,39 @@ only, leave the _en fields empty."""
             raise FetchError("model returned no usable synthesis")
         payload["_source"] = "llm"
         return payload
+
+
+def _validate_links(payload: dict, story_count: int) -> dict:
+    """Drop links the model invented, and links that point nowhere.
+
+    A model asked to draw a graph will cheerfully emit ``S99`` or invent a
+    "same_actor" between two stories with nothing in common. Rendering a
+    dangling or nonsensical edge is worse than rendering no graph, because a
+    reader cannot tell invented structure from real structure — so anything
+    that does not check out is removed here, before it reaches the page.
+    """
+    links = payload.get("links")
+    if not isinstance(links, list):
+        payload["links"] = []
+        return payload
+
+    valid_ids = {f"S{i + 1}" for i in range(story_count)}
+    kept: list[dict[str, str]] = []
+    for link in links:
+        if not isinstance(link, dict):
+            continue
+        src, dst = str(link.get("from", "")).strip(), str(link.get("to", "")).strip()
+        kind = str(link.get("type", "")).strip().lower()
+        if src not in valid_ids or dst not in valid_ids or src == dst:
+            continue
+        if kind not in LINK_TYPES:
+            continue
+        evidence = str(link.get("evidence", "")).strip()
+        if not evidence:
+            continue
+        kept.append({"type": kind, "from": src, "to": dst, "evidence": evidence})
+    payload["links"] = kept
+    return payload
 
 
 # --------------------------------------------------------------------------
