@@ -488,7 +488,6 @@ def render_html(digest: Digest) -> str:
     analysed_count = min(
         digest.stats.get("analysed_stories", len(stories)), len(stories)
     )
-    listed_limit = digest.stats.get("listed_stories", 60)
     parts: list[str] = []
 
     parts.append(
