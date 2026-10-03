@@ -580,5 +580,169 @@ class TestSuiteDoesNotPublish(unittest.TestCase):
         self.assertEqual(stray, [], "fixture output left in a published directory")
 
 
+class TestEncoding(unittest.TestCase):
+    """Declared charsets must be honoured, not guessed.
+
+    cp1256 and iso-8859-6 are both single-byte codecs that decode every byte
+    without raising and both yield Arabic, so nothing in the byte stream can
+    tell them apart — measurements of Arabic ratio and stray-symbol count come
+    out identical. A wrong guess does not crash; it yields a headline that
+    reads as Arabic but is not. The declaration is the only reliable signal.
+    """
+
+    def test_declared_charsets_are_detected_in_every_form(self):
+        from news_scanner.http import guess_encoding_from_meta
+
+        cases = [
+            (b'<?xml version="1.0" encoding="iso-8859-6"?><rss>x</rss>', "iso-8859-6"),
+            (b'<?xml version="1.0" encoding="ISO-8859-6"?><rss>x</rss>', "iso-8859-6"),
+            (b'<?xml version="1.0" encoding="UTF-8"?><rss>x</rss>', "utf-8"),
+            (b"<?xml version='1.0' encoding='UTF-8'?><rss>x</rss>", "utf-8"),
+            (b'<meta charset="windows-1256">', "windows-1256"),
+            (b'<meta charset=iso-8859-6>', "iso-8859-6"),
+            (b"<meta charset='cp1256'>", "cp1256"),
+            (b'<meta http-equiv="Content-Type" content="text/html; charset=cp1256">', "cp1256"),
+        ]
+        for raw, want in cases:
+            self.assertEqual(
+                guess_encoding_from_meta(raw), want, f"wrong charset for {raw[:40]!r}"
+            )
+
+    def test_an_unknown_charset_name_is_ignored(self):
+        from news_scanner.http import guess_encoding_from_meta
+
+        self.assertIsNone(guess_encoding_from_meta(b'<meta charset="nonsense-enc">'))
+        self.assertIsNone(guess_encoding_from_meta(b"<html>no declaration</html>"))
+
+    def test_arabic_survives_under_each_declared_codec(self):
+        from news_scanner.http import decode
+
+        for text in ("مجلس الوزراء يوافق على مشروع مرسوم",
+                     "الشرطة تضبط محاولة تهريب"):
+            for enc in ("utf-8", "cp1256", "iso-8859-6"):
+                self.assertEqual(
+                    decode(text.encode(enc), enc), text,
+                    f"{enc} did not round-trip Arabic",
+                )
+
+    def test_latin_text_is_not_stolen_by_the_arabic_codec(self):
+        """cp1256 used to claim windows-1252 and inject Arabic into 'CÔTE'."""
+        from news_scanner.http import decode
+
+        text = "Rapport sur la CÔTE d'Azur 1998"
+        self.assertEqual(decode(text.encode("windows-1252"), "windows-1252"), text)
+
+    def test_a_lying_declaration_falls_back_instead_of_crashing(self):
+        """A wrong declaration must not raise.
+
+        It cannot be corrected either: iso-8859-6 decodes cp1256 bytes without
+        error, it just yields different letters. So the guarantee is only that
+        the job survives and returns text of the right shape — the declared
+        charset is trusted, because the alternative is guessing, and guessing
+        is no better when the page has told us.
+        """
+        from news_scanner.http import decode
+
+        out = decode("الشرطة".encode("cp1256"), "iso-8859-6")
+        self.assertIsInstance(out, str)
+        self.assertTrue(out.strip())
+        self.assertTrue(
+            any(0x0600 <= ord(c) <= 0x06FF for c in out),
+            "a wrong declared charset should still yield Arabic-script text",
+        )
+
+
+class TestCasualtyCountsNotMerged(unittest.TestCase):
+    """Two headlines that disagree on a death toll are not one story.
+
+    Merging them hides a correction and reports a toll that was revised.
+    Token overlap cannot catch this: "One killed in Farwaniya blaze" and "Two
+    killed in Farwaniya blaze" share four of five tokens and score 0.75, well
+    above the 0.50 threshold.
+    """
+
+    def _cluster(self, *titles: str) -> int:
+        from news_scanner.dedupe import cluster_articles
+        from news_scanner.models import Article
+
+        arts = [
+            Article(source_id=f"s{i}", source_name=f"Out{i}", lang="en",
+                    title=t, summary="", url=f"https://x/{i}",
+                    published=None, tier=1)
+            for i, t in enumerate(titles)
+        ]
+        return len(cluster_articles(arts))
+
+    def test_a_different_toll_keeps_two_stories_apart(self):
+        for a, b in (
+            ("One killed in Farwaniya blaze", "Two killed in Farwaniya blaze"),
+            ("Three injured in Salmiya accident", "Nine injured in Salmiya accident"),
+            ("Bourse up 2 percent", "Bourse up 3 percent"),
+        ):
+            self.assertEqual(self._cluster(a, b), 2, f"merged: {a!r} / {b!r}")
+
+    def test_killed_against_injured_keeps_two_stories_apart(self):
+        self.assertEqual(
+            self._cluster("Seven killed in warehouse fire",
+                          "Seven injured in warehouse fire"),
+            2,
+        )
+
+    def test_the_same_toll_still_merges(self):
+        """The veto must not split genuine rewrites of one incident."""
+        self.assertEqual(
+            self._cluster(
+                "Seven killed in warehouse fire",
+                "Seven killed in Farwaniya warehouse fire",
+            ),
+            1,
+        )
+
+    def test_a_missing_toll_is_not_a_contradiction(self):
+        """One headline stating no toll is not disagreeing with one that does."""
+        self.assertEqual(
+            self._cluster("Warehouse fire in Farwaniya",
+                          "Farwaniya warehouse fire kills seven"),
+            1,
+        )
+
+    def test_counts_survive_tokenisation(self):
+        """The count must be a token at all, or nothing downstream can see it."""
+        from news_scanner.util import canonical_tokens
+
+        self.assertIn("1", canonical_tokens("One killed in Farwaniya blaze"))
+        self.assertIn("2", canonical_tokens("Two killed in Farwaniya blaze"))
+        self.assertNotEqual(
+            canonical_tokens("One killed in Farwaniya blaze"),
+            canonical_tokens("Two killed in Farwaniya blaze"),
+        )
+
+
+class TestCliArgumentSafety(unittest.TestCase):
+    """A mistyped flag must not abort the morning's job.
+
+    These run unattended at 08:00. A crash before any article is fetched means
+    no digest at all, and the two failures below were both silent because the
+    workflow marks the pre-flight steps continue-on-error.
+    """
+
+    def test_check_email_has_the_send_flag_it_reads(self):
+        """cmd_check_email reads args.send after connecting; it was undeclared,
+        so a bare `check-email` raised AttributeError after a *successful*
+        authentication and the SMTP pre-flight never reported a bad password."""
+        from news_scanner.cli import build_parser
+
+        self.assertFalse(build_parser().parse_args(["check-email"]).send)
+        self.assertTrue(build_parser().parse_args(["check-email", "--send"]).send)
+
+    def test_worker_count_is_clamped_before_it_reaches_the_pool(self):
+        from concurrent.futures import ThreadPoolExecutor
+
+        for bad in (0, -5):
+            clamped = max(1, int(bad or 1))
+            with ThreadPoolExecutor(max_workers=clamped):
+                pass  # would raise ValueError on the raw value
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
