@@ -342,5 +342,171 @@ class TestReasoningBudget(unittest.TestCase):
         self.assertEqual(payload.get("reasoning_effort"), "none")
 
 
+class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
+    """A no-email run is a finished run, and must be recorded as one.
+
+    With NEWSCANNER_NO_EMAIL=1 the digest is still built, committed and
+    published. If the marker were not written, the 08:30 and 09:00 retry crons
+    would find nothing to do and exit — silently disabling the daily job for
+    as long as the switch stays on.
+    """
+
+    def _run(self, env: dict[str, str]) -> int:
+        import os
+
+        from news_scanner import cli
+
+        # Stub the collector: these tests are about the marker, and hitting
+        # the live feeds would make them slow and network-dependent.
+        from scripts.demo import fake_collect
+
+        saved_collect = cli.collect
+        saved_env = {k: os.environ.get(k) for k in
+                     ("NEWSCANNER_NO_EMAIL", "SMTP_HOST", "MAIL_TO")}
+        for k in saved_env:
+            os.environ.pop(k, None)
+        os.environ.update(env)
+        cli.collect = fake_collect
+        try:
+            return cli.cmd_run(
+                type("A", (), {
+                    "date": "2026-10-04", "skip_if_done": False, "mail_to": None,
+                    "config": None, "sources": None, "hours": None,
+                    "max_analyze": 1, "major_outlets": 3, "provider": None,
+                    "model": None, "llm_off": True, "language": "en",
+                    "no_cache": True, "dry_run": False, "no_email": False,
+                    "no_marker": False, "output": None, "no_html": False,
+                    "no_fetch_bodies": True, "workers": 1,
+                })()
+            )
+        finally:
+            cli.collect = saved_collect
+            for k, v in saved_env.items():
+                os.environ.pop(k, None)
+                if v is not None:
+                    os.environ[k] = v
+
+    def setUp(self):
+        import os
+
+        self.marker = os.path.join("state", "last_run.json")
+        self._backup = None
+        if os.path.exists(self.marker):
+            with open(self.marker) as fh:
+                self._backup = fh.read()
+        if os.path.exists(self.marker):
+            os.remove(self.marker)
+
+    def tearDown(self):
+        import os
+
+        if self._backup is not None:
+            with open(self.marker, "w") as fh:
+                fh.write(self._backup)
+        elif os.path.exists(self.marker):
+            os.remove(self.marker)
+
+    def test_a_no_email_run_records_the_day_as_done(self):
+        self._run({"NEWSCANNER_NO_EMAIL": "1"})
+        from news_scanner import cli
+
+        marker = cli._read_run_marker()
+        self.assertEqual(marker.get("date"), "2026-10-04")
+        self.assertTrue(marker.get("delivered_at"))
+
+    def test_the_run_still_succeeds(self):
+        """A no-email run must exit 0, or the workflow fails and skips the commit."""
+        self.assertEqual(self._run({"NEWSCANNER_NO_EMAIL": "1"}), 0)
+
+
+class TestOutletFilter(unittest.TestCase):
+    """Outlets must never become "recurring entities".
+
+    Left in, they tell tomorrow's run that "Al-Anba is running across several
+    days" — true of every single edition, so true of none. The real actors the
+    link graph depends on get crowded out by the paper names instead.
+    """
+
+    def test_configured_outlets_are_filtered(self):
+        for name in ("Al-Anba", "Al-Jarida", "Kuwait News", "alrai",
+                     "Kuwait Times", "Times Kuwait"):
+            self.assertEqual(normalise_entity(name), "", f"{name} should be filtered")
+
+    def test_real_actors_survive(self):
+        for name in ("Kuwait Cabinet", "Kuwait Investment Authority",
+                     "Ministry of Finance", "Iran", "Khamis Mushait"):
+            self.assertNotEqual(normalise_entity(name), "", f"{name} is an actor")
+
+    def test_casing_variants_collapse_to_one_entity(self):
+        """Two spellings of one actor would read as two separate threads."""
+        self.assertEqual(
+            normalise_entity("Houthi Militia"), normalise_entity("Houthi militia")
+        )
+
+    def test_a_short_word_is_not_matched_by_luck(self):
+        """Prefix matching must not swallow a short or unrelated entity."""
+        self.assertNotEqual(normalise_entity("Khamis Mushait"), "")
+
+
+    def test_transliteration_variants_are_caught(self):
+        """The model spells 'alrai' as 'alray'; config says alrai."""
+        for variant in ("Al-Ra'y", "alray", "Al-Rai", "Alray"):
+            self.assertEqual(normalise_entity(variant), "", f"{variant} is an outlet")
+
+    def test_relaxed_matching_does_not_swallow_real_actors(self):
+        """A fuzzy outlet match must not become a fuzzy everything-match."""
+        for actor in ("Iran", "OPEC", "Yemen", "Aden", "Hezbollah",
+                      "Kuwait Airways", "Ministry of Health"):
+            self.assertNotEqual(
+                normalise_entity(actor), "", f"{actor} is an actor, not an outlet"
+            )
+
+    def test_an_unlisted_paper_is_not_assumed_to_be_an_outlet(self):
+        """Only the configured sources are filtered, so a real entity survives."""
+        self.assertNotEqual(normalise_entity("Kuwait Mirror"), "")
+
+
+class TestTranslationTable(unittest.TestCase):
+    """No Arabic term may silently lose a meaning.
+
+    A dictionary literal with the same key twice keeps only the last one, so a
+    second 'متهم' entry quietly replaced 'suspect' with 'defendant' and the
+    distinction between the two never survived to the digest. A duplicate that
+    is a genuine synonym is harmless; one that narrows the meaning is data loss.
+    """
+
+    def test_no_duplicate_keys_in_the_translation_table(self):
+        """A repeated key with a *different* value silently drops the first.
+
+        Identical repeats are harmless, so only conflicting ones are a failure:
+        that is the case where a term loses a meaning it genuinely had.
+        """
+        import ast
+
+        tree = ast.parse(Path("news_scanner/util.py").read_text("utf-8"))
+        conflicts: dict[str, list[str]] = {}
+        for node in ast.walk(tree):
+            if not isinstance(node, ast.Dict):
+                continue
+            values: dict[str, list[str]] = {}
+            for key, value in zip(node.keys, node.values):
+                if isinstance(key, ast.Constant) and isinstance(key.value, str):
+                    values.setdefault(key.value, []).append(ast.unparse(value))
+            for word, seen in values.items():
+                if len(set(seen)) > 1:
+                    conflicts[word] = seen
+        self.assertEqual(
+            conflicts, {}, f"a term lost a meaning: {conflicts}"
+        )
+
+    def test_crime_terms_keep_a_translation(self):
+        from news_scanner.util import normalize_text
+
+        for word in ("متهم", "قضية", "قضايا", "الأجور", "الرواتب"):
+            self.assertTrue(
+                normalize_text(word).strip(), f"{word} lost its translation"
+            )
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
