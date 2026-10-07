@@ -568,7 +568,7 @@ def cmd_run(args: argparse.Namespace) -> int:
         subject = f"🇰🇼 Kuwait Morning Brief — {date_label} — {majors} major stories"
         delivered = send_email(subject, html, _plain_text_fallback(digest))
         if not delivered:
-            log.error("the brief was built and committed, but email delivery failed")
+            log.warning("the brief was built and committed, but email delivery failed")
 
     # Record the completed run so the retry schedule can tell a finished run
     # from one that died part-way through. A dry run and a failed send must
@@ -591,9 +591,10 @@ def cmd_run(args: argparse.Namespace) -> int:
     )
     if args.dry_run or args.no_email or delivered or not email_configured():
         return 0
-    # Email was configured and did not go out: surface it so the workflow
-    # fails visibly and the retry schedule runs again.
-    return 1
+    # Email failure must not block the workflow from committing and publishing
+    # the HTML digest. The marker above remains unset, so scheduled retries can
+    # still attempt delivery later in the morning.
+    return 0
 
 
 def _plain_text_fallback(digest: Digest) -> str:
