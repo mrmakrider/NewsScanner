@@ -21,6 +21,7 @@ from news_scanner.analyze import (  # noqa: E402
     AnalysisEngine,
     detect_provider,
     extractive_analysis,
+    extractive_synthesis,
 )
 from news_scanner.dedupe import build_stories, categorize, major_count  # noqa: E402
 from news_scanner.deliver import email_configured  # noqa: E402
@@ -276,7 +277,59 @@ class TestRendering(unittest.TestCase):
     def test_extractive_run_is_labelled_honestly(self):
         markdown = render_markdown(self._digest())
         self.assertIn("without an ai provider", markdown.lower())
+        self.assertIn("evidence-only mode", markdown.lower())
+        self.assertIn("coverage signals", markdown.lower())
         self.assertIn("Confidence", markdown)
+
+    def test_hybrid_analysis_is_labeled_at_the_story(self):
+        digest = self._digest()
+        digest.analyses[0]["_source"] = "hybrid"
+        digest.analyses[0]["_llm_fields"] = ["summary_en"]
+
+        markdown = render_markdown(digest)
+
+        self.assertIn("Hybrid recovery", markdown)
+        self.assertIn("no inference; observable evidence only", markdown)
+
+    def test_deterministic_synthesis_uses_topic_counts_and_no_speculative_links(self):
+        stories = []
+        for index, title in enumerate((
+            "Kuwait parliament votes on a new law",
+            "Kuwait parliament debates a cabinet law",
+        )):
+            story = Story()
+            story.add(Article(
+                source_id=f"desk-{index}", source_name=f"Outlet {index}",
+                lang="en", title=title, url=f"https://news.example/{index}",
+                summary=f"Source text for {title}",
+            ))
+            stories.append(story)
+        synthesis = extractive_synthesis(stories, "bilingual")
+
+        self.assertEqual(synthesis["_source"], "extractive")
+        self.assertTrue(synthesis["editor_note_en"])
+        self.assertTrue(synthesis["editor_note_ar"])
+        self.assertEqual(synthesis["links"], [])
+        self.assertEqual(len(synthesis["top_themes"]), 1)
+        self.assertEqual(synthesis["top_themes"][0]["story_ids"], ["S1", "S2"])
+
+    def test_fallback_flags_headline_figures_without_treating_them_as_a_conflict(self):
+        story = Story()
+        for source, title in (
+            ("Outlet A", "Police seize ٨ weapons in Kuwait"),
+            ("Outlet B", "Police seize 9 weapons in Kuwait"),
+        ):
+            story.add(Article(
+                source_id=source, source_name=source, lang="en", title=title,
+                url=f"https://news.example/{source[-1]}", summary="Police report.",
+            ))
+
+        analysis = extractive_analysis(story, "en")
+
+        self.assertIn("Figures in headlines differ", analysis["coverage_evidence_en"])
+        self.assertIn("A: 8", analysis["coverage_evidence_en"])
+        self.assertIn("B: 9", analysis["coverage_evidence_en"])
+        self.assertIn("does not establish", analysis["coverage_evidence_en"])
 
     def test_markdown_links_survive_brackets_in_titles(self):
         story = Story()

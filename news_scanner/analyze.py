@@ -29,7 +29,7 @@ from .resilience import (
     retry_after_of,
     sleep_for,
 )
-from .util import fmt_local, truncate
+from .util import fmt_local, normalize_text, truncate
 
 log = logging.getLogger(__name__)
 
@@ -514,6 +514,58 @@ def parse_json_object(text: str) -> dict:
     return {}
 
 
+_STORY_RESPONSE_FIELDS = {
+    "headline_en", "headline_ar", "summary_en", "summary_ar",
+    "why_it_matters_en", "why_it_matters_ar", "between_the_lines_en",
+    "between_the_lines_ar", "watch_next_en", "watch_next_ar", "confidence",
+    "confidence_reason", "entities", "tags", "headline", "summary",
+    "why_it_matters", "between_the_lines", "watch_next",
+}
+
+
+def _normalise_story_payload(
+    payload: dict[str, Any], batch: list[tuple[str, Story]]
+) -> dict[str, Any]:
+    """Recover common, safe-to-map variants of a story response.
+
+    Models sometimes return one story object instead of the documented wrapper,
+    a mapping keyed by story id instead of an array, or omit ids when asked for
+    one item. These forms can be repaired without guessing when there is exactly
+    one requested story, or when the response count exactly matches the request.
+    Unknown and duplicate identifiers are never reassigned to another story.
+    """
+    raw = payload.get("stories")
+    rows: list[dict[str, Any]] = []
+    if isinstance(raw, list):
+        rows = [dict(row) for row in raw if isinstance(row, dict)]
+    elif isinstance(raw, dict):
+        if _STORY_RESPONSE_FIELDS.intersection(raw):
+            rows = [dict(raw)]
+        else:
+            for sid, row in raw.items():
+                if isinstance(row, dict):
+                    item = dict(row)
+                    item.setdefault("id", sid)
+                    rows.append(item)
+    elif _STORY_RESPONSE_FIELDS.intersection(payload):
+        rows = [dict(payload)]
+
+    requested_ids = [sid.strip().upper() for sid, _story in batch]
+    allowed = set(requested_ids)
+    recovered: list[dict[str, Any]] = []
+    for index, row in enumerate(rows):
+        sid = str(row.get("id", "")).strip().upper()
+        if not sid and len(rows) == len(requested_ids):
+            sid = requested_ids[index]
+        if not sid and len(requested_ids) == 1:
+            sid = requested_ids[0]
+        if sid not in allowed:
+            continue
+        row["id"] = sid
+        recovered.append(row)
+    return {**payload, "stories": recovered}
+
+
 # --------------------------------------------------------------------------
 # Prompts
 # --------------------------------------------------------------------------
@@ -885,6 +937,7 @@ class AnalysisResult:
     retries: int = 0          # failed calls retried, at batch or story level
     splits: int = 0           # batches halved to dodge a gateway timeout
     missing: int = 0          # stories the model silently skipped
+    repaired: int = 0         # partial model/cache answers completed deterministically
 
 
 class _ChainEntry:
@@ -1082,10 +1135,6 @@ class AnalysisEngine:
                     story, self.config.language
                 )
 
-        if result.providers_used:
-            # Name the provider that actually did the work rather than the one
-            # that was asked first: a run that failed over should say so.
-            result.provider = result.providers_used[0].split("/")[0]
         result.analysed = len(result.stories)
         self._flush_cache(force=True)
 
@@ -1098,6 +1147,23 @@ class AnalysisEngine:
             result.errors.append(f"synthesis: {exc}")
             log.warning("synthesis failed: %s", exc)
             result.synthesis = extractive_synthesis(stories, self.config.language)
+
+        if result.providers_used:
+            # Name the provider that actually did the work rather than the one
+            # that was asked first: a run that failed over should say so.
+            result.provider = result.providers_used[0].split("/")[0]
+        elif any(
+            item.get("_source") in {"llm", "hybrid"}
+            for item in result.stories.values()
+        ):
+            # Cached model analyses still contribute to this digest even when
+            # no provider call was needed (or the synthesis call failed).
+            result.provider = self.provider
+        else:
+            # A configured endpoint is not the same thing as a provider that
+            # actually answered. Downstream rendering uses this to label a
+            # fully degraded run honestly.
+            result.provider = "none"
 
         if result.splits or result.retries or result.missing or result.errors:
             log.info(
@@ -1113,9 +1179,18 @@ class AnalysisEngine:
         """Split the input into cache hits and stories that still need a call."""
         pending: list[Story] = []
         for story in stories:
-            cached = self.cache.get(self._cache_key(story))
+            key = self._cache_key(story)
+            cached = self.cache.get(key)
             if isinstance(cached, dict) and (cached.get("summary_en") or cached.get("summary_ar")):
-                result.stories[story.key] = cached
+                repaired, changed = _merge_model_analysis(
+                    cached, story, self.config.language
+                )
+                result.stories[story.key] = repaired
+                if changed or repaired != cached:
+                    self.cache[key] = repaired
+                    self._cache_dirty = True
+                if changed:
+                    result.repaired += 1
             else:
                 pending.append(story)
         return pending
@@ -1271,10 +1346,13 @@ class AnalysisEngine:
                     story, self.config.language
                 )
                 continue
-            item.pop("id", None)
-            item["_source"] = "llm"
-            result.stories[story.key] = item
-            self.cache[self._cache_key(story)] = item
+            repaired, was_repaired = _merge_model_analysis(
+                item, story, self.config.language
+            )
+            if was_repaired:
+                result.repaired += 1
+            result.stories[story.key] = repaired
+            self.cache[self._cache_key(story)] = repaired
             self._cache_dirty = True
 
     def _flush_cache(self, *, force: bool = False) -> None:
@@ -1456,6 +1534,7 @@ class AnalysisEngine:
             attempts=attempts,
         )
         payload = parse_json_object(raw)
+        payload = _normalise_story_payload(payload, pairs)
         if not payload.get("stories"):
             raise FetchError("model returned no usable stories array")
         return payload
@@ -1597,9 +1676,9 @@ only, leave the _en fields empty."""
             result=result if result is not None else AnalysisResult(),
         )
         payload = parse_json_object(raw)
-        if not payload:
-            raise FetchError("model returned no usable synthesis")
-        payload["_source"] = "llm"
+        payload = _normalise_synthesis(payload, stories, self.config.language)
+        if payload.get("_source") != "llm" and result is not None:
+            result.repaired += 1
         return payload
 
 
@@ -1650,71 +1729,367 @@ def _first_sentences(text: str, count: int = 3, limit: int = 420) -> str:
     return truncate(out or text, limit)
 
 
+def _coverage_evidence(story: Story) -> tuple[str, str]:
+    """Summarise observable coverage differences without inferring motives."""
+    articles = story.articles
+    ar_count = sum(1 for article in articles if article.lang == "ar")
+    en_count = sum(1 for article in articles if article.lang == "en")
+    bodies = sum(1 for article in articles if (article.body or "").strip())
+    english = [
+        f"Coverage: {story.outlet_count} outlet(s), {ar_count} Arabic and "
+        f"{en_count} English article(s); full text was fetched for {bodies} of "
+        f"{len(articles)} article(s)."
+    ]
+    arabic = [
+        f"التغطية: {story.outlet_count} وسيلة، منها {ar_count} مادة بالعربية "
+        f"و{en_count} بالإنجليزية؛ وتوفر النص الكامل لـ{bodies} من أصل "
+        f"{len(articles)} مادة."
+    ]
+
+    distinct_titles = {
+        normalize_text(article.title) for article in articles if article.title
+    }
+    if len(distinct_titles) > 1:
+        english.append(
+            "Headline wording differs across outlets; the original versions are "
+            "preserved in the references."
+        )
+        arabic.append("تختلف صياغة العناوين بين الوسائل؛ والعناوين الأصلية محفوظة في المراجع.")
+
+    digit_map = str.maketrans(
+        "٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789"
+    )
+    figures: list[tuple[str, list[str]]] = []
+    for article in articles:
+        title = article.title.translate(digit_map)
+        values = list(dict.fromkeys(re.findall(r"(?<![\w])\d[\d,]*(?:\.\d+)?\s*%?", title)))
+        if values:
+            figures.append((article.source_name, values))
+    if len(figures) > 1 and len({tuple(values) for _source, values in figures}) > 1:
+        rendered = "; ".join(
+            f"{source}: {', '.join(values)}" for source, values in figures[:4]
+        )
+        english.append(
+            "Figures in headlines differ (" + rendered + "); this text comparison "
+            "does not establish whether the figures refer to the same measure."
+        )
+        arabic.append(
+            "تختلف الأرقام الواردة في العناوين (" + rendered + ")؛ ولا يثبت هذا "
+            "المقارنة النصية وحدها أن الأرقام تتعلق بالمقياس نفسه."
+        )
+
+    dated = [article for article in articles if article.published is not None]
+    if len(dated) > 1:
+        try:
+            earliest = min(dated, key=lambda article: article.published)
+            latest = max(dated, key=lambda article: article.published)
+            span_hours = (latest.published - earliest.published).total_seconds() / 3600
+        except (TypeError, AttributeError):
+            span_hours = 0.0
+            earliest = latest = None
+        if span_hours >= 2 and earliest is not None and latest is not None:
+            english.append(
+                f"Outlet publication timestamps span about {span_hours:.1f} hours "
+                f"({earliest.source_name} {earliest.published:%H:%M} to "
+                f"{latest.source_name} {latest.published:%H:%M}); timestamps alone "
+                "do not establish an update or a causal sequence."
+            )
+            arabic.append(
+                f"تتباعد أوقات النشر المسجلة بنحو {span_hours:.1f} ساعة "
+                f"(من {earliest.source_name} {earliest.published:%H:%M} إلى "
+                f"{latest.source_name} {latest.published:%H:%M})؛ ولا تثبت الأوقات "
+                "وحدها وجود تحديث أو تسلسل سببي."
+            )
+
+    return " ".join(english), " ".join(arabic)
+
+
+def _merge_model_analysis(
+    raw: dict[str, Any], story: Story, language: str
+) -> tuple[dict[str, Any], bool]:
+    """Keep usable model fields and deterministically fill everything else."""
+    fallback = extractive_analysis(story, language)
+    if not isinstance(raw, dict) or raw.get("_source") == "extractive":
+        return fallback, True
+
+    primary_lang = story.primary.lang if story.articles else "en"
+    target_lang = language if language in ("en", "ar") else (
+        primary_lang if primary_lang in ("en", "ar") else "en"
+    )
+    aliases = {
+        "summary": f"summary_{target_lang}",
+        "why_it_matters": f"why_it_matters_{target_lang}",
+        "between_the_lines": f"between_the_lines_{target_lang}",
+        "watch_next": f"watch_next_{target_lang}",
+        "headline": f"headline_{target_lang}",
+    }
+    candidate = dict(raw)
+    for alias, canonical in aliases.items():
+        if canonical not in candidate and isinstance(candidate.get(alias), str):
+            candidate[canonical] = candidate[alias]
+
+    claimed = raw.get("_llm_fields")
+    allowed_claims = set(claimed) if isinstance(claimed, list) else None
+    string_fields = {
+        "headline_en", "headline_ar", "summary_en", "summary_ar",
+        "why_it_matters_en", "why_it_matters_ar", "between_the_lines_en",
+        "between_the_lines_ar", "watch_next_en", "watch_next_ar",
+        "confidence_reason",
+    }
+    model_fields: dict[str, Any] = {}
+    for key in string_fields:
+        value = candidate.get(key)
+        if (
+            isinstance(value, str)
+            and value.strip()
+            and (allowed_claims is None or key in allowed_claims)
+        ):
+            model_fields[key] = truncate(value.strip(), 1800)
+
+    confidence = candidate.get("confidence")
+    if (
+        isinstance(confidence, str)
+        and confidence.strip().lower() in {"high", "medium", "low"}
+        and (allowed_claims is None or "confidence" in allowed_claims)
+    ):
+        model_fields["confidence"] = confidence.strip().lower()
+
+    for key in ("entities", "tags"):
+        values = candidate.get(key)
+        if allowed_claims is not None and key not in allowed_claims:
+            continue
+        if isinstance(values, str):
+            values = re.split(r"[,;\n]", values)
+        if isinstance(values, list):
+            cleaned = [truncate(value.strip(), 100) for value in values
+                       if isinstance(value, str) and value.strip()]
+            if cleaned:
+                model_fields[key] = cleaned[:20]
+
+    substantive = set(model_fields) - {"entities", "tags"}
+    if not substantive:
+        return fallback, True
+
+    merged = dict(fallback)
+    merged.update(model_fields)
+    merged["_llm_fields"] = sorted(model_fields)
+    for locale, why_text, evidence_text in (
+        (
+            "en",
+            "Evidence-only supplement: the model did not provide a complete rationale in English. This records coverage and category without inferring motives or subtext.",
+            "No model subtext was available in English; observable coverage signals are listed separately, without inference.",
+        ),
+        (
+            "ar",
+            "استكمال قائم على الأدلة فقط: لم يقدم النموذج تعليلاً كاملاً بالعربية. يقتصر هذا النص على التغطية والتصنيف دون استنتاج الدوافع أو ما بين السطور.",
+            "لم يتوفر تحليل استدلالي من النموذج بالعربية؛ وتُعرض إشارات التغطية المرصودة منفصلة دون استنتاج.",
+        ),
+    ):
+        why_key = f"why_it_matters_{locale}"
+        evidence_key = f"between_the_lines_{locale}"
+        if why_key in merged and why_key not in model_fields:
+            merged[why_key] = why_text
+        if evidence_key in merged and evidence_key not in model_fields:
+            merged[evidence_key] = evidence_text
+    if "confidence_reason" not in model_fields:
+        merged["confidence_reason"] = (
+            "Confidence kept low; the deterministic completion does not estimate "
+            "model confidence or infer interpretation."
+        )
+    required = (
+        f"summary_{target_lang}",
+        f"why_it_matters_{target_lang}",
+        f"between_the_lines_{target_lang}",
+        "confidence",
+        "confidence_reason",
+    )
+    complete = all(field in model_fields for field in required)
+    merged["_source"] = "llm" if complete else "hybrid"
+    return merged, not complete
+
+
+def _normalise_synthesis(
+    raw: dict[str, Any], stories: list[Story], language: str
+) -> dict[str, Any]:
+    """Validate a partial synthesis and fill omissions with safe coverage facts."""
+    fields = (
+        "editor_note_en", "editor_note_ar", "tactical_en", "tactical_ar",
+        "strategic_en", "strategic_ar", "not_being_said_en",
+        "not_being_said_ar", "watchlist_en", "watchlist_ar",
+    )
+    model_fields = {
+        field: truncate(value.strip(), 2400)
+        for field in fields
+        if isinstance((value := raw.get(field)), str) and value.strip()
+    }
+    if not model_fields:
+        fallback = extractive_synthesis(stories, language)
+        fallback["_fallback_reason"] = "model response did not contain synthesis fields"
+        return fallback
+
+    merged = dict(extractive_synthesis(stories, language))
+    merged.update(model_fields)
+    valid_ids = {f"S{i + 1}" for i in range(len(stories))}
+    story_of_day = str(raw.get("story_of_the_day", "")).strip()
+    if story_of_day in valid_ids:
+        merged["story_of_the_day"] = story_of_day
+
+    themes = raw.get("top_themes")
+    if isinstance(themes, list):
+        valid_themes = []
+        for theme in themes:
+            if not isinstance(theme, dict):
+                continue
+            safe_theme = {
+                key: truncate(value.strip(), 500)
+                for key, value in theme.items()
+                if key in {"theme_en", "theme_ar", "note_en", "note_ar"}
+                and isinstance(value, str) and value.strip()
+            }
+            ids = theme.get("story_ids")
+            if isinstance(ids, list):
+                safe_theme["story_ids"] = [
+                    str(sid).strip() for sid in ids if str(sid).strip() in valid_ids
+                ]
+            if safe_theme.get("theme_en") or safe_theme.get("theme_ar"):
+                valid_themes.append(safe_theme)
+        if valid_themes:
+            merged["top_themes"] = valid_themes[:8]
+
+    merged["links"] = raw.get("links") if isinstance(raw.get("links"), list) else []
+    requested_lang = language if language in ("en", "ar") else "en"
+    required = (
+        f"editor_note_{requested_lang}",
+        f"not_being_said_{requested_lang}",
+        f"watchlist_{requested_lang}",
+    )
+    complete = all(field in model_fields for field in required)
+    merged["_source"] = "llm" if complete else "hybrid"
+    merged["_llm_fields"] = sorted(model_fields)
+    return merged
+
+
 def extractive_analysis(story: Story, language: str) -> dict[str, Any]:
-    """Rule-based stand-in used when no LLM is configured or a call fails."""
+    """Evidence-only story analysis for outages, malformed answers, and no-key runs."""
     primary = story.primary
-    text = primary.body or primary.summary or ""
+    best_copy = next(
+        (article for article in story.articles if (article.body or article.summary).strip()),
+        primary,
+    )
+    text = best_copy.body or best_copy.summary or ""
     summary = _first_sentences(text)
-    others = [a for a in story.articles if a is not primary]
+    summary = summary or primary.title
+    evidence_en, evidence_ar = _coverage_evidence(story)
+    category = _category_of(story)
     note = (
-        f"Analysed without an AI provider. This story was carried by "
-        f"{story.outlet_count} outlet(s): {', '.join(story.sources)}."
+        "Analysed without an AI provider. This evidence-only fallback records "
+        f"the story's category ({category}) and coverage across "
+        f"{', '.join(story.sources)}, but does not infer causes, motives, or subtext."
     )
 
     item: dict[str, Any] = {
         "headline_en": primary.title if primary.lang == "en" else "",
         "headline_ar": primary.title if primary.lang == "ar" else "",
         "confidence": "low",
-        "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+        "confidence_reason": "Evidence-only fallback; no model evaluated interpretation.",
         "entities": [],
-        "tags": story.sections[:4],
+        "tags": list(dict.fromkeys([category, *story.sections]))[:5],
+        "coverage_evidence_en": evidence_en,
+        "coverage_evidence_ar": evidence_ar,
         "_source": "extractive",
     }
+    summary_lang = best_copy.lang if best_copy.lang in ("en", "ar") else "en"
+    item[f"summary_{summary_lang}"] = summary
     if language in ("bilingual", "en"):
-        item["summary_en"] = summary or primary.title
         item["why_it_matters_en"] = note
         item["between_the_lines_en"] = (
-            "Not available — no AI provider is configured for this run. "
-            + (
-                "Outlets carrying it: " + "; ".join(a.title for a in others[:4])
-                if others
-                else ""
-            )
+            "No AI provider was available; no subtext is inferred in deterministic mode. The separate evidence "
+            "signals below describe only observable outlet coverage, headline "
+            "variation, figures, and publication timestamps."
         )
-        item["watch_next_en"] = ""
+        item["watch_next_en"] = "No predictive watchlist is generated in evidence-only mode."
     if language in ("bilingual", "ar"):
-        arabic_note = (
-            "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر "
-            f"{story.outlet_count} وسيلة إعلامية: {', '.join(story.sources)}."
+        item["why_it_matters_ar"] = (
+            "تم التحليل دون مزود ذكاء اصطناعي. يحدد هذا البديل فئة الخبر ونطاق "
+            "تغطيته، ولا يستنتج الأسباب أو الدوافع أو ما بين السطور."
         )
-        item["summary_ar"] = (summary or primary.title) if primary.lang == "ar" else ""
-        item["why_it_matters_ar"] = arabic_note
         item["between_the_lines_ar"] = (
-            "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة."
+            "لا تُستنتج دلالات ضمن هذا الوضع؛ وتعرض إشارات التغطية المنفصلة "
+            "اختلافات العناوين والأرقام وأوقات النشر المرصودة فقط."
         )
-        item["watch_next_ar"] = ""
+        item["watch_next_ar"] = "لا تُنشأ قائمة تنبؤية للمتابعة في وضع الأدلة فقط."
     return item
 
 
 def extractive_synthesis(stories: list[Story], language: str) -> dict[str, Any]:
-    top = stories[0] if stories else None
-    majors = [s for s in stories if s.outlet_count >= 3]
+    indexed = list(enumerate(stories))
+    top_index, top = max(
+        indexed,
+        key=lambda row: (row[1].outlet_count, row[1].score, -row[0]),
+        default=(-1, None),
+    )
+    majors = sum(1 for story in stories if story.outlet_count >= 3)
+    outlet_names = {name for story in stories for name in story.sources}
+    category_ar = {
+        "Government & Politics": "الحكومة والسياسة",
+        "Economy & Business": "الاقتصاد والأعمال",
+        "Security & Courts": "الأمن والمحاكم",
+        "Society & Services": "المجتمع والخدمات",
+        "Sport": "الرياضة",
+        "World & Region": "العالم والمنطقة",
+        "Culture & Entertainment": "الثقافة والترفيه",
+        "Opinion & Analysis": "الرأي والتحليل",
+        "Other": "أخرى",
+    }
+    categories: dict[str, list[int]] = {}
+    for index, story in enumerate(stories, start=1):
+        categories.setdefault(_category_of(story), []).append(index)
+    top_themes = []
+    for category, ids in sorted(categories.items(), key=lambda row: (-len(row[1]), row[0])):
+        if len(ids) < 2 or len(top_themes) >= 4:
+            continue
+        top_themes.append({
+            "theme_en": category,
+            "theme_ar": category_ar.get(category, "أخرى"),
+            "story_ids": [f"S{i}" for i in ids],
+            "note_en": f"{len(ids)} stories share this desk classification; it is a topic grouping, not a causal link.",
+            "note_ar": f"تندرج {len(ids)} أخبار ضمن هذا التصنيف التحريري؛ وهذا تجميع موضوعي لا يثبت علاقة سببية.",
+        })
+
+    title = top.primary.title if top else ""
     note_en = (
-        f"{len(stories)} distinct stories were carried across the Kuwaiti press in this "
-        f"window, {len(majors)} of them by three or more outlets."
-        + (f" The most widely carried was: {top.primary.title}." if top else "")
-        + " Configure an AI provider (GEMINI_API_KEY, OPENAI_API_KEY or "
-        "ANTHROPIC_API_KEY) to enable per-story subtext analysis and the daily synthesis."
+        f"Coverage map: {len(stories)} distinct story cluster(s) across "
+        f"{len(outlet_names)} outlet(s); {majors} cluster(s) were carried by "
+        f"three or more outlets. "
+        + (f"The broadest coverage was for: “{title}”. " if top else "")
+        + f"The collected material includes {sum(1 for story in stories for a in story.articles if a.lang == 'ar')} Arabic "
+        f"and {sum(1 for story in stories for a in story.articles if a.lang == 'en')} English article(s). "
+        "This deterministic view reports observed coverage only; it does not infer motives, omissions, or future outcomes."
+    )
+    note_ar = (
+        f"خريطة التغطية: {len(stories)} مجموعة خبرية عبر {len(outlet_names)} وسيلة؛ "
+        f"غطّت ثلاث وسائل أو أكثر {majors} مجموعة. "
+        + (f"وكانت أوسع تغطية للخبر: «{title}». " if top else "")
+        + f"تتضمن المواد {sum(1 for story in stories for a in story.articles if a.lang == 'ar')} مادة بالعربية "
+        f"و{sum(1 for story in stories for a in story.articles if a.lang == 'en')} بالإنجليزية. "
+        "تعرض هذه الخريطة التغطية المرصودة فقط ولا تستنتج دوافع أو omissions أو نتائج مستقبلية."
     )
     payload: dict[str, Any] = {
-        "editor_note_en": note_en,
-        "editor_note_ar": "تم إعداد هذا الملخص دون مزود ذكاء اصطناعي.",
-        "story_of_the_day": "S1" if top else "",
-        "top_themes": [],
-        "not_being_said_en": "Available only with an AI provider configured.",
-        "watchlist_en": "",
+        "editor_note_en": note_en if language != "ar" else "",
+        "editor_note_ar": note_ar if language != "en" else "",
+        "story_of_the_day": f"S{top_index + 1}" if top else "",
+        "top_themes": top_themes,
+        "not_being_said_en": (
+            "No claims about omissions are made in evidence-only mode. The themes above are counts of collected stories, not conclusions about what was deliberately left out."
+            if language != "ar" else ""
+        ),
+        "not_being_said_ar": (
+            "لا تُطرح ادعاءات بشأن المحذوفات في وضع الأدلة فقط؛ والموضوعات أعلاه أعداد للمواد المجموعة وليست استنتاجات عمّا جرى إغفاله عمداً."
+            if language != "en" else ""
+        ),
+        "watchlist_en": "No predictive watchlist is generated in evidence-only mode." if language != "ar" else "",
+        "watchlist_ar": "لا تُنشأ قائمة تنبؤية للمتابعة في وضع الأدلة فقط." if language != "en" else "",
+        "links": [],
         "_source": "extractive",
     }
-    if language == "ar":
-        payload["editor_note_en"] = ""
     return payload

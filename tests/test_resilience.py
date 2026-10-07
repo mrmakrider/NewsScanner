@@ -522,6 +522,7 @@ class TestEngineDegradation(EngineCase):
             "with no provider, every story needs the extractive fallback",
         )
         self.assertFalse(result.providers_used)
+        self.assertEqual(result.provider, "none")
 
     def test_a_spent_budget_degrades_instead_of_overrunning(self):
         result = self.engine(max_llm_seconds=0.0001).analyse(make_stories(3))
@@ -544,6 +545,43 @@ class TestEngineDegradation(EngineCase):
             all(a.get("_source") == "llm" for a in result.stories.values()),
             "the per-story analysis should have survived",
         )
+
+    def test_idless_partial_story_and_synthesis_are_repaired(self):
+        """Useful model text survives while missing fields get safe local defaults."""
+        def fake_complete(self, system, user, *, max_tokens=8000):
+            if "editor_note_en" in user:
+                return json.dumps({"editor_note_en": "A brief model note."})
+            # A common schema slip: one unwrapped story, no id, and only one field.
+            return json.dumps({"summary": "The model's short factual summary."})
+
+        stories = make_stories(1)
+        with mock.patch("news_scanner.analyze.LLMClient.complete", fake_complete):
+            result = self.engine(batch_size=1, call_attempts=1).analyse(stories)
+
+        analysis = result.stories[stories[0].key]
+        self.assertEqual(analysis["summary_en"], "The model's short factual summary.")
+        self.assertEqual(analysis["_source"], "hybrid")
+        self.assertIn("evidence-only supplement", analysis["why_it_matters_en"].lower())
+        self.assertNotIn("without an ai provider", analysis["why_it_matters_en"].lower())
+        self.assertEqual(result.repaired, 2)
+        self.assertEqual(result.synthesis["_source"], "hybrid")
+        self.assertIn("evidence-only mode", result.synthesis["not_being_said_en"])
+        self.assertFalse(result.errors, result.errors)
+
+    def test_irrelevant_synthesis_object_uses_full_deterministic_synthesis(self):
+        def fake_complete(self, system, user, *, max_tokens=8000):
+            if "editor_note_en" in user:
+                return json.dumps({"unrelated": "not a synthesis"})
+            return answer(user)
+
+        with mock.patch("news_scanner.analyze.LLMClient.complete", fake_complete):
+            result = self.engine(call_attempts=1).analyse(make_stories(2))
+
+        self.assertEqual(result.synthesis["_source"], "extractive")
+        self.assertTrue(result.synthesis["editor_note_en"])
+        self.assertEqual(result.synthesis["links"], [])
+        self.assertGreaterEqual(result.repaired, 1)
+        self.assertFalse(result.errors, result.errors)
 
 
 class TestEngineCache(EngineCase):
@@ -585,6 +623,26 @@ class TestEngineCache(EngineCase):
         )
         self.assertEqual(len(result.stories), 2)
         self.assertTrue(all(a.get("_source") == "llm" for a in result.stories.values()))
+
+    def test_cached_model_analyses_are_not_mislabeled_as_fully_degraded(self):
+        def fake_complete(self, system, user, *, max_tokens=8000):
+            return answer(user)
+
+        with mock.patch("news_scanner.analyze.LLMClient.complete", fake_complete):
+            first = self.engine(use_cache=True, cache_path=self.cache_path)
+            first.analyse(make_stories(1))
+            first.save_cache()
+
+        def failed_synthesis(self, system, user, *, max_tokens=8000):
+            raise FetchError("provider unavailable")
+
+        with mock.patch("news_scanner.analyze.LLMClient.complete", failed_synthesis):
+            second = self.engine(use_cache=True, cache_path=self.cache_path)
+            result = second.analyse(make_stories(1))
+
+        self.assertEqual(result.provider, "llm7")
+        self.assertEqual(result.stories[make_stories(1)[0].key]["_source"], "llm")
+        self.assertEqual(result.synthesis["_source"], "extractive")
 
 
 class TestTransportContract(unittest.TestCase):
