@@ -82,6 +82,25 @@ class SyncDocsTest(unittest.TestCase):
         second = index.index("2026-09-29")
         self.assertLess(hero, second)
 
+    def test_landing_page_has_accessible_responsive_navigation(self) -> None:
+        self.write_digest("2026-09-30.html")
+
+        self.publish()
+
+        index = (self.docs / "index.html").read_text(encoding="utf-8")
+        for feature in (
+            'class="skip-link"',
+            '<main>',
+            'aria-labelledby="archive-title"',
+            'class="archive-link"',
+            'time datetime="2026-09-30"',
+            'lang="ar" dir="rtl"',
+            ":focus-visible",
+            "@media (max-width: 600px)",
+            "prefers-reduced-motion",
+        ):
+            self.assertIn(feature, index)
+
     def test_sync_is_idempotent(self) -> None:
         self.write_digest("2026-09-30.html")
         self.publish()

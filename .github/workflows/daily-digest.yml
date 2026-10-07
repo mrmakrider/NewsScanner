@@ -74,11 +74,12 @@ jobs:
         run: python -m news_scanner check-llm -v
 
       # Catches a bad app password or a blocked SMTP port here, rather than
-      # discovering it when the 08:00 brief silently fails to arrive.
+      # discovering it when the 08:00 brief silently fails to arrive. If this
+      # check fails, the digest is still published and email is skipped below.
       - name: Verify email delivery
+        id: email_check
         continue-on-error: true
         env:
-          NEWSCANNER_NO_EMAIL: "1"
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -123,14 +124,11 @@ jobs:
           NEWSCANNER_LLM_BUDGET: "1200"
 
           # --- Email delivery --------------------------------------------
-          # TEMPORARY: the stored SMTP_PASSWORD is a login password, not a
-          # 16-character App Password, so every send fails with
-          # "5.7.8 Username and Password not accepted" and the run exits 1
-          # before committing the digest. NEWSCANNER_NO_EMAIL=1 makes the
-          # step skip sending and return 0 instead, so the brief is built and
-          # committed while the mail config is sorted out.
-          # Remove this line once SMTP_PASSWORD is an App Password.
-          NEWSCANNER_NO_EMAIL: "1"
+          # Only send when the SMTP check above succeeds. A bad/missing Gmail
+          # password must not prevent the digest from being committed. Once
+          # SMTP_PASSWORD is replaced with a valid App Password, the check
+          # passes and delivery automatically turns back on.
+          NEWSCANNER_NO_EMAIL: ${{ steps.email_check.outcome != 'success' && '1' || '' }}
           # The recipient defaults to mrmakrider@gmail.com. Set a MAIL_TO
           # secret to send somewhere else; comma-separate for several.
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
