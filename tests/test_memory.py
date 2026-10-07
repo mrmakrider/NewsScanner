@@ -26,6 +26,22 @@ from news_scanner.analyze import (
 from news_scanner.render import _link_label, _renderable_links
 
 
+def _snapshot_repo_outputs() -> dict[str, bytes]:
+    """Capture generated repository files so the suite detects only its own writes."""
+    root = Path(__file__).resolve().parent.parent
+    snapshot: dict[str, bytes] = {}
+    for name in ("digests", "docs", "state"):
+        directory = root / name
+        if directory.is_dir():
+            for path in directory.rglob("*"):
+                if path.is_file():
+                    snapshot[str(path.relative_to(root))] = path.read_bytes()
+    return snapshot
+
+
+_REPO_OUTPUTS_BEFORE_TESTS = _snapshot_repo_outputs()
+
+
 class TestMemoryStore(unittest.TestCase):
     def setUp(self):
         self.dir = Path(tempfile.mkdtemp())
@@ -554,7 +570,7 @@ class TestSuiteDoesNotPublish(unittest.TestCase):
                     "max_analyze": 1, "major_outlets": 3, "provider": None,
                     "model": None, "llm_off": True, "language": "en",
                     "no_cache": True, "dry_run": False, "no_email": False,
-                    "no_marker": False, "output": out_dir, "no_html": False,
+                    "no_marker": True, "output": out_dir, "no_html": False,
                     "no_fetch_bodies": True, "workers": 1,
                 })()
             )
@@ -573,11 +589,19 @@ class TestSuiteDoesNotPublish(unittest.TestCase):
 
     def test_no_stray_output_is_written_into_the_repo(self):
         """A belt-and-braces check over the whole suite's own footprint."""
-        stray = [
-            str(p) for p in Path(".").rglob("2026-10-04.*")
-            if p.parts and p.parts[0] in ("digests", "docs")
-        ]
-        self.assertEqual(stray, [], "fixture output left in a published directory")
+        current = _snapshot_repo_outputs()
+        before = _REPO_OUTPUTS_BEFORE_TESTS
+        added = sorted(current.keys() - before.keys())
+        removed = sorted(before.keys() - current.keys())
+        modified = sorted(
+            name for name in current.keys() & before.keys()
+            if current[name] != before[name]
+        )
+        self.assertEqual(
+            {"added": added, "removed": removed, "modified": modified},
+            {"added": [], "removed": [], "modified": []},
+            "tests must not leave outputs in digests/, docs/, or state/",
+        )
 
 
 class TestEncoding(unittest.TestCase):

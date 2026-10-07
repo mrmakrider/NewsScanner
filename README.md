@@ -117,6 +117,12 @@ turn on 2-Step Verification, then create one at
 <https://myaccount.google.com/apppasswords> and paste the 16-character code
 into `SMTP_PASSWORD`.
 
+In GitHub, open [NewsScanner's Actions secrets](https://github.com/mrmakrider/NewsScanner/settings/secrets/actions)
+and update the existing `SMTP_PASSWORD` secret (or add it if it is missing).
+The workflow verifies SMTP before sending: while the credential is missing or
+invalid, it still publishes the digest and skips email; once the App Password
+authenticates, email delivery turns on automatically.
+
 Check it before 08:00 does:
 
 ```bash
