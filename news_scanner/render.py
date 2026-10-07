@@ -137,9 +137,9 @@ def render_markdown(digest: Digest) -> str:
 
     if digest.llm_provider == "none":
         out.append(
-            "> ⚠️ **Extractive mode.** No AI provider key was found, so per-story "
-            "subtext analysis is disabled. Set `GEMINI_API_KEY`, `OPENAI_API_KEY` or "
-            "`ANTHROPIC_API_KEY` to enable it."
+            "> ⚠️ **Evidence-only mode.** No LLM analysis was available for this run; "
+            "the digest reports source text and observable coverage signals without "
+            "inferring subtext."
         )
         out.append("")
 
@@ -277,6 +277,12 @@ def render_markdown(digest: Digest) -> str:
             f"{humanize_age(story.latest)}"
         )
         out.append("")
+        if analysis.get("_source") == "hybrid":
+            out.append(
+                "*Hybrid recovery: usable model text was retained; missing fields "
+                "were completed from observable evidence.*"
+            )
+            out.append("")
 
         headline_ar = str(analysis.get("headline_ar", "")).strip()
         headline_en = str(analysis.get("headline_en", "")).strip()
@@ -308,8 +314,16 @@ def render_markdown(digest: Digest) -> str:
         if btl:
             # Mark the epistemic status at the point of use: a machine reading
             # is not the same thing as a reported fact.
-            from_llm = str(analysis.get("_source", "")) == "llm"
-            label = "**🔎 Between the lines** *(inference)*" if from_llm else "**🔎 Between the lines.**"
+            llm_fields = set(analysis.get("_llm_fields") or [])
+            from_llm = (
+                str(analysis.get("_source", "")) == "llm"
+                or bool(llm_fields & {"between_the_lines_en", "between_the_lines_ar"})
+            )
+            label = (
+                "**🔎 Between the lines** *(inference)*"
+                if from_llm
+                else "**🔎 Between the lines** *(no inference; observable evidence only)*"
+            )
             out.append(label)
             out.append("")
             for paragraph in btl.split("\n\n"):
@@ -317,6 +331,14 @@ def render_markdown(digest: Digest) -> str:
                 if paragraph:
                     out.append(f"> {paragraph}" if _has_arabic(paragraph) else paragraph)
                     out.append("")
+
+        coverage = _bilingual(
+            analysis.get("coverage_evidence_en", ""),
+            analysis.get("coverage_evidence_ar", ""),
+        )
+        if coverage:
+            out.append(f"**Coverage signals.** {coverage}")
+            out.append("")
 
         confidence = str(analysis.get("confidence", "")).strip()
         reason = str(analysis.get("confidence_reason", "")).strip()
@@ -508,8 +530,8 @@ def render_html(digest: Digest) -> str:
     if digest.llm_provider == "none":
         parts.append(
             '<div style="background:#fff4e5;border-left:4px solid #f0a04b;padding:10px 12px;'
-            'margin-bottom:18px;font-size:13px;">⚠️ <b>Extractive mode</b> — no AI provider '
-            "key configured, so subtext analysis is disabled.</div>"
+            'margin-bottom:18px;font-size:13px;">⚠️ <b>Evidence-only mode</b> — no LLM '
+            "analysis was available for this run; observable coverage is reported without inferred subtext.</div>"
         )
 
     note = _bilingual(synth.get("editor_note_en", ""), synth.get("editor_note_ar", ""))
@@ -633,6 +655,12 @@ def render_html(digest: Digest) -> str:
             f"{_h(categorize(story))} · carried by {story.outlet_count} outlet"
             f"{'s' if story.outlet_count != 1 else ''}: {_h(', '.join(story.sources))}</div>"
         )
+        if analysis.get("_source") == "hybrid":
+            parts.append(
+                '<div style="font-size:12px;color:#6b4e16;margin:6px 0 10px;">'
+                "Hybrid recovery: usable model text was retained; missing fields "
+                "were completed from observable evidence.</div>"
+            )
 
         headline_alt = (
             analysis.get("headline_en", "")
@@ -665,8 +693,13 @@ def render_html(digest: Digest) -> str:
         )
         if btl:
             # Same epistemic labelling as the Markdown version.
-            heading = "🔎 BETWEEN THE LINES"
-            if str(analysis.get("_source", "")) == "llm":
+            llm_fields = set(analysis.get("_llm_fields") or [])
+            from_llm = (
+                str(analysis.get("_source", "")) == "llm"
+                or bool(llm_fields & {"between_the_lines_en", "between_the_lines_ar"})
+            )
+            heading = "🔎 BETWEEN THE LINES" if from_llm else "🔎 OBSERVABLE EVIDENCE — NO INFERENCE"
+            if from_llm:
                 heading += (
                     '<span style="font-weight:400;color:#5b7a6d;">'
                     " &mdash; inference, not reported fact</span>"
@@ -679,6 +712,16 @@ def render_html(digest: Digest) -> str:
                 + "</div>"
                 + _para(btl)
                 + "</div>"
+            )
+
+        coverage = _bilingual(
+            analysis.get("coverage_evidence_en", ""),
+            analysis.get("coverage_evidence_ar", ""),
+        )
+        if coverage:
+            parts.append(
+                '<div style="font-size:12px;color:#5b6573;margin:8px 0;">'
+                f"<b>Coverage signals.</b> {_para(coverage)}</div>"
             )
 
         if confidence:

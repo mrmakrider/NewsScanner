@@ -72,8 +72,9 @@ always takes precedence over the keyless default:
 #### Why more than one
 
 The keyless gateway is shared and rate-limits by IP, so it is the first thing
-to exhaust on a busy morning — and when it does, the analysis silently degrades
-to extractive summaries rather than failing loudly. Every key you add is
+to exhaust on a busy morning. If every model fails, the digest still includes
+source text and a deterministic evidence map — headline variation, reported
+figures, outlet reach and publication times — without inventing subtext. Every key you add is
 another place the run can rotate to: the engine walks the configured providers
 in the order above, and a provider that returns 429 is benched for the rest of
 the run while the next one takes over.
@@ -338,10 +339,21 @@ analysis step is built to bend rather than break:
   travel with their stories, so answers never land on the wrong one.
 - **Deferred retries with trimmed prompts.** Whatever still failed is retried
   once more after a pause, with less body text per story.
+- **An evidence-first local analyzer.** If no model answers, the digest still
+  reports the source's extractive summary, category, outlet and language reach,
+  headline variants, differing headline figures, and publication-time spread.
+  Its daily fallback groups stories by category and outlet coverage. It never
+  invents motive, causality, omissions, or predictions; it leaves story links
+  empty unless a model supplies a validated connection.
+- **Self-healing structured output.** A single story returned outside the usual
+  JSON wrapper, an id omitted from an unambiguous answer, or a partial story or
+  synthesis is normalized and completed from source data. The digest marks
+  repaired answers as hybrid and distinguishes model inference from observable
+  evidence; upgraded cache entries do not require another model call.
 - **A budget and an honest report.** `NEWSCANNER_LLM_BUDGET` caps the step so
   the job always gets to write, commit and email a digest; the run log and the
-  digest JSON record how many stories came from a model, how many were
-  retried, split or silently skipped.
+  digest JSON record model coverage, fallback coverage, repairs, retries,
+  splits, and stories skipped by the model.
 - **A resumable cache.** Each successful batch is written to
   `state/analysis_cache.json` as it happens. A run that dies at the 30-minute
   step timeout — or a retry at 08:30 — only pays for what is still missing.

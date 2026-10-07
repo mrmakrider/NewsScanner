@@ -468,11 +468,12 @@ def cmd_run(args: argparse.Namespace) -> int:
             "the configured provider (%s) did not serve the run; %s did",
             engine.provider, result.provider,
         )
-    if result.errors or result.splits or result.retries:
+    if result.errors or result.splits or result.retries or result.repaired:
         log.warning(
-            "analysis was degraded: %d error(s), %d retried, %d batch(es) split, "
-            "%d story(ies) the model skipped",
+            "analysis needed recovery: %d error(s), %d retried, %d batch(es) split, "
+            "%d story(ies) skipped, %d answer(s) repaired",
             len(result.errors), result.retries, result.splits, result.missing,
+            result.repaired,
         )
 
     analyses = [result.stories.get(story.key, {}) for story in top]
@@ -508,7 +509,17 @@ def cmd_run(args: argparse.Namespace) -> int:
             "analysis_retries": result.retries,
             "analysis_splits": result.splits,
             "analysis_missing": result.missing,
+            "analysis_repaired": result.repaired,
             "analysis_providers": result.providers_used,
+            "analysis_model_stories": sum(
+                1 for item in result.stories.values() if item.get("_source") == "llm"
+            ),
+            "analysis_hybrid_stories": sum(
+                1 for item in result.stories.values() if item.get("_source") == "hybrid"
+            ),
+            "analysis_fallback_stories": sum(
+                1 for item in result.stories.values() if item.get("_source") == "extractive"
+            ),
         },
     )
     from collections import Counter
