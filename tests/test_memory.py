@@ -359,8 +359,8 @@ class TestReasoningBudget(unittest.TestCase):
         self.assertEqual(payload.get("reasoning_effort"), "none")
 
 
-class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
-    """A no-email run is a finished run, and must be recorded as one.
+class TestEmailRunMarker(unittest.TestCase):
+    """No-email runs finish; failed sends stay retryable without blocking output.
 
     With NEWSCANNER_NO_EMAIL=1 the digest is still built, committed and
     published. If the marker were not written, the 08:30 and 09:00 retry crons
@@ -389,6 +389,7 @@ class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
         os.environ.update(env)
         cli.collect = fake_collect
         out_dir = tempfile.mkdtemp(prefix="ns-test-out-")
+        self.output_dir = out_dir
         try:
             return cli.cmd_run(
                 type("A", (), {
@@ -439,6 +440,18 @@ class TestRunMarkerWhenEmailIsOff(unittest.TestCase):
     def test_the_run_still_succeeds(self):
         """A no-email run must exit 0, or the workflow fails and skips the commit."""
         self.assertEqual(self._run({"NEWSCANNER_NO_EMAIL": "1"}), 0)
+
+    def test_failed_email_keeps_html_and_leaves_the_day_retryable(self):
+        from unittest.mock import patch
+
+        from news_scanner import cli
+
+        with patch.object(cli, "send_email", return_value=False):
+            result = self._run({"SMTP_HOST": "smtp.example.test"})
+
+        self.assertEqual(result, 0)
+        self.assertTrue((Path(self.output_dir) / "2026-10-04.html").is_file())
+        self.assertFalse(cli._read_run_marker())
 
 
 class TestOutletFilter(unittest.TestCase):
