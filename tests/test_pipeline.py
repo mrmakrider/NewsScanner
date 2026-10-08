@@ -751,6 +751,56 @@ class TestDelivery(unittest.TestCase):
         self.assertEqual(attempts, 2)
         sleep.assert_called_once_with(1)
 
+    def test_ssl_send_preserves_helo_fallback_for_legacy_relays(self):
+        import os
+        import smtplib
+        from unittest import mock
+
+        from news_scanner import deliver
+
+        os.environ["SMTP_HOST"] = "smtp.example.com"
+        os.environ["SMTP_PORT"] = "465"
+        os.environ["SMTP_SECURITY"] = "ssl"
+        greetings = []
+        messages = []
+
+        class FakeSMTPSSL:
+            def __init__(self, *args, **kwargs):
+                self.ehlo_resp = None
+                self.helo_resp = None
+
+            def ehlo(self):
+                greetings.append("EHLO")
+                self.ehlo_resp = (500, b"EHLO unsupported")
+                return self.ehlo_resp
+
+            def helo(self):
+                greetings.append("HELO")
+                self.helo_resp = (250, b"OK")
+                return self.helo_resp
+
+            def send_message(self, message):
+                if not (self.helo_resp or self.ehlo_resp):
+                    code, _ = self.ehlo()
+                    if not 200 <= code < 300:
+                        self.helo()
+                if not (
+                    self.helo_resp and 200 <= self.helo_resp[0] < 300
+                    or self.ehlo_resp and 200 <= self.ehlo_resp[0] < 300
+                ):
+                    raise smtplib.SMTPHeloError(500, b"no supported greeting")
+                messages.append(message)
+
+            def quit(self):
+                pass
+
+        with mock.patch.object(smtplib, "SMTP_SSL", FakeSMTPSSL):
+            ok = deliver.send_email("Subject", "<p>html</p>", "text")
+
+        self.assertTrue(ok)
+        self.assertEqual(greetings, ["EHLO", "HELO"])
+        self.assertEqual(len(messages), 1)
+
     def test_send_email_is_a_no_op_without_smtp_host(self):
         from news_scanner.deliver import send_email
 

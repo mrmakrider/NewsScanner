@@ -59,10 +59,11 @@ def _open_smtp(
         else smtplib.SMTP(host, port, timeout=timeout)
     )
     try:
-        server.ehlo()
-        if not use_ssl and security == "starttls":
-            server.starttls(context=context)
+        if not use_ssl:
             server.ehlo()
+            if security == "starttls":
+                server.starttls(context=context)
+                server.ehlo()
         if user:
             server.login(user, password)
     except Exception:
