@@ -73,11 +73,10 @@ jobs:
           LLM7_API_KEY: ${{ secrets.LLM7_API_KEY }}
         run: python -m news_scanner check-llm -v
 
-      # Catches a bad app password or a blocked SMTP port here, rather than
-      # discovering it when the 08:00 brief silently fails to arrive. If this
-      # check fails, the digest is still published and email is skipped below.
+      # Diagnostic only: a preflight disconnect must not suppress the actual
+      # send attempt. A failed delivery leaves the run marker unset so the
+      # 08:30 and 09:00 scheduled retries can try again.
       - name: Verify email delivery
-        id: email_check
         continue-on-error: true
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
@@ -124,11 +123,9 @@ jobs:
           NEWSCANNER_LLM_BUDGET: "1200"
 
           # --- Email delivery --------------------------------------------
-          # Only send when the SMTP check above succeeds. A bad/missing Gmail
-          # password must not prevent the digest from being committed. Once
-          # SMTP_PASSWORD is replaced with a valid App Password, the check
-          # passes and delivery automatically turns back on.
-          NEWSCANNER_NO_EMAIL: ${{ steps.email_check.outcome != 'success' && '1' || '' }}
+          # The SMTP preflight is diagnostic, not a send gate. Let the real
+          # send run even after a transient preflight disconnect; on a failed
+          # send the app leaves the marker unset and the retry crons can try.
           # The recipient defaults to mrmakrider@gmail.com. Set a MAIL_TO
           # secret to send somewhere else; comma-separate for several.
           SMTP_HOST: ${{ secrets.SMTP_HOST }}

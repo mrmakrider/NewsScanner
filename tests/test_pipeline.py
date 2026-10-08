@@ -658,6 +658,149 @@ class TestDelivery(unittest.TestCase):
         self.assertIn("text/plain", message.as_string())
         self.assertIn("text/html", message.as_string())
 
+    def test_send_email_retries_disconnect_before_message_submission(self):
+        """A transient connect failure gets one retry, but only one send."""
+        import os
+        import smtplib
+        from unittest import mock
+
+        from news_scanner import deliver
+
+        os.environ["SMTP_HOST"] = "smtp.example.com"
+        os.environ["SMTP_USER"] = "sender@example.com"
+        os.environ["SMTP_PASSWORD"] = "app-password"
+
+        attempts = 0
+        messages = []
+
+        class FakeSMTP:
+            def ehlo(self):
+                pass
+
+            def starttls(self, context=None):
+                pass
+
+            def login(self, user, password):
+                pass
+
+            def send_message(self, message):
+                messages.append(message)
+
+            def quit(self):
+                pass
+
+        def connect(*args, **kwargs):
+            nonlocal attempts
+            attempts += 1
+            if attempts == 1:
+                raise smtplib.SMTPServerDisconnected("connection unexpectedly closed")
+            return FakeSMTP()
+
+        with mock.patch.object(smtplib, "SMTP", side_effect=connect), mock.patch.object(
+            deliver.time, "sleep"
+        ) as sleep:
+            ok = deliver.send_email("Subject", "<p>html</p>", "text")
+
+        self.assertTrue(ok)
+        self.assertEqual(attempts, 2)
+        self.assertEqual(len(messages), 1)
+        sleep.assert_called_once_with(1)
+
+    def test_verify_email_retries_server_disconnect(self):
+        import os
+        import smtplib
+        from unittest import mock
+
+        from news_scanner import deliver
+
+        os.environ["SMTP_HOST"] = "smtp.example.com"
+        os.environ["SMTP_USER"] = "sender@example.com"
+        os.environ["SMTP_PASSWORD"] = "app-password"
+
+        attempts = 0
+
+        class FakeSMTP:
+            def ehlo(self):
+                pass
+
+            def starttls(self, context=None):
+                pass
+
+            def login(self, user, password):
+                pass
+
+            def noop(self):
+                return 250, b"OK"
+
+            def quit(self):
+                pass
+
+        def connect(*args, **kwargs):
+            nonlocal attempts
+            attempts += 1
+            if attempts == 1:
+                raise smtplib.SMTPServerDisconnected("connection unexpectedly closed")
+            return FakeSMTP()
+
+        with mock.patch.object(smtplib, "SMTP", side_effect=connect), mock.patch.object(
+            deliver.time, "sleep"
+        ) as sleep:
+            ok, detail = deliver.verify_email()
+
+        self.assertTrue(ok, detail)
+        self.assertEqual(attempts, 2)
+        sleep.assert_called_once_with(1)
+
+    def test_ssl_send_preserves_helo_fallback_for_legacy_relays(self):
+        import os
+        import smtplib
+        from unittest import mock
+
+        from news_scanner import deliver
+
+        os.environ["SMTP_HOST"] = "smtp.example.com"
+        os.environ["SMTP_PORT"] = "465"
+        os.environ["SMTP_SECURITY"] = "ssl"
+        greetings = []
+        messages = []
+
+        class FakeSMTPSSL:
+            def __init__(self, *args, **kwargs):
+                self.ehlo_resp = None
+                self.helo_resp = None
+
+            def ehlo(self):
+                greetings.append("EHLO")
+                self.ehlo_resp = (500, b"EHLO unsupported")
+                return self.ehlo_resp
+
+            def helo(self):
+                greetings.append("HELO")
+                self.helo_resp = (250, b"OK")
+                return self.helo_resp
+
+            def send_message(self, message):
+                if not (self.helo_resp or self.ehlo_resp):
+                    code, _ = self.ehlo()
+                    if not 200 <= code < 300:
+                        self.helo()
+                if not (
+                    self.helo_resp and 200 <= self.helo_resp[0] < 300
+                    or self.ehlo_resp and 200 <= self.ehlo_resp[0] < 300
+                ):
+                    raise smtplib.SMTPHeloError(500, b"no supported greeting")
+                messages.append(message)
+
+            def quit(self):
+                pass
+
+        with mock.patch.object(smtplib, "SMTP_SSL", FakeSMTPSSL):
+            ok = deliver.send_email("Subject", "<p>html</p>", "text")
+
+        self.assertTrue(ok)
+        self.assertEqual(greetings, ["EHLO", "HELO"])
+        self.assertEqual(len(messages), 1)
+
     def test_send_email_is_a_no_op_without_smtp_host(self):
         from news_scanner.deliver import send_email
 

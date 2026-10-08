@@ -6,6 +6,7 @@ import logging
 import os
 import smtplib
 import ssl
+import time
 from email.message import EmailMessage
 from email.utils import formataddr
 from pathlib import Path
@@ -40,6 +41,51 @@ def email_configured() -> bool:
     return bool(email_enabled() and _env("SMTP_HOST") and recipients())
 
 
+def _open_smtp(
+    host: str,
+    port: int,
+    *,
+    security: str,
+    user: str,
+    password: str,
+    context: ssl.SSLContext,
+    timeout: int,
+):
+    """Open and authenticate one SMTP connection, without sending mail."""
+    use_ssl = security in ("ssl", "tls", "smtps")
+    server = (
+        smtplib.SMTP_SSL(host, port, context=context, timeout=timeout)
+        if use_ssl
+        else smtplib.SMTP(host, port, timeout=timeout)
+    )
+    try:
+        if not use_ssl:
+            server.ehlo()
+            if security == "starttls":
+                server.starttls(context=context)
+                server.ehlo()
+        if user:
+            server.login(user, password)
+    except Exception:
+        try:
+            server.close()
+        except Exception:
+            pass
+        raise
+    return server
+
+
+def _close_smtp(server) -> None:
+    """Close an SMTP session quietly; a failed QUIT must not undo a send."""
+    try:
+        server.quit()
+    except Exception:
+        try:
+            server.close()
+        except Exception:
+            pass
+
+
 def verify_email() -> tuple[bool, str]:
     """Connect (and authenticate) without sending anything.
 
@@ -60,28 +106,39 @@ def verify_email() -> tuple[bool, str]:
     password = _env("SMTP_PASSWORD", "SMTP_PASS")
     security = _env("SMTP_SECURITY", default="starttls").lower()
     context = ssl.create_default_context()
-
-    try:
-        if security in ("ssl", "tls", "smtps"):
-            with smtplib.SMTP_SSL(host, port, context=context, timeout=30) as server:
-                if user:
-                    server.login(user, password)
-                server.noop()
-        else:
-            with smtplib.SMTP(host, port, timeout=30) as server:
-                server.ehlo()
-                if security == "starttls":
-                    server.starttls(context=context)
-                    server.ehlo()
-                if user:
-                    server.login(user, password)
-                server.noop()
-    except Exception as exc:  # noqa: BLE001 — the point is to report it
-        return False, f"{type(exc).__name__}: {exc}"
-
     detail = f"connected to {host}:{port} ({security})"
     detail += " and authenticated" if user else " (no credentials configured)"
-    return True, detail
+
+    # A preflight is safe to repeat: it authenticates and sends NOOP, but never
+    # submits a message. SMTP relays occasionally close an otherwise valid
+    # connection, so give that specific transient failure one short retry.
+    for attempt in range(2):
+        server = None
+        disconnected = None
+        try:
+            server = _open_smtp(
+                host, port, security=security, user=user, password=password,
+                context=context, timeout=30,
+            )
+            code, response = server.noop()
+            if code >= 400:
+                return False, f"SMTP NOOP failed: {code} {response!r}"
+            return True, detail
+        except smtplib.SMTPServerDisconnected as exc:
+            disconnected = exc
+        except Exception as exc:  # noqa: BLE001 — the point is to report it
+            return False, f"{type(exc).__name__}: {exc}"
+        finally:
+            if server is not None:
+                _close_smtp(server)
+
+        if attempt == 0:
+            log.warning("SMTP disconnected during preflight; retrying once")
+            time.sleep(1)
+        else:
+            return False, f"{type(disconnected).__name__}: {disconnected}"
+
+    return False, "SMTP preflight failed"
 
 
 def send_email(subject: str, html_body: str, text_body: str) -> bool:
@@ -113,24 +170,37 @@ def send_email(subject: str, html_body: str, text_body: str) -> bool:
     msg.add_alternative(html_body, subtype="html")
 
     context = ssl.create_default_context()
+    server = None
+    for attempt in range(2):
+        try:
+            server = _open_smtp(
+                host, port, security=security, user=user, password=password,
+                context=context, timeout=45,
+            )
+            break
+        except smtplib.SMTPServerDisconnected as exc:
+            if attempt == 0:
+                log.warning("SMTP disconnected before message submission; retrying once")
+                time.sleep(1)
+                continue
+            log.error("email delivery failed: %s", exc)
+            return False
+        except Exception as exc:
+            log.error("email delivery failed: %s", exc)
+            return False
+
+    if server is None:
+        return False
     try:
-        if security in ("ssl", "tls", "smtps"):
-            with smtplib.SMTP_SSL(host, port, context=context, timeout=45) as server:
-                if user:
-                    server.login(user, password)
-                server.send_message(msg)
-        else:
-            with smtplib.SMTP(host, port, timeout=45) as server:
-                server.ehlo()
-                if security == "starttls":
-                    server.starttls(context=context)
-                    server.ehlo()
-                if user:
-                    server.login(user, password)
-                server.send_message(msg)
+        # Do not automatically retry send_message: if the server disconnects
+        # after accepting DATA, the delivery result is ambiguous and a second
+        # submission could send the digest twice. The scheduled run can retry.
+        server.send_message(msg)
     except Exception as exc:
         log.error("email delivery failed: %s", exc)
         return False
+    finally:
+        _close_smtp(server)
 
     log.info("digest emailed to %s", ", ".join(to_list))
     return True
