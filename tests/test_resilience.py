@@ -535,10 +535,14 @@ class TestEngineDegradation(EngineCase):
                 raise FetchError("HTTP Error 524", code=524)
             return answer(user)
 
+        engine = self.engine(call_attempts=1)
+        engine.memory_context = "- 2026-10-08: A prior editorial note to compare against."
+        engine.recurring_entities = ["Kuwait Cabinet"]
         with mock.patch("news_scanner.analyze.LLMClient.complete", fake_complete):
-            result = self.engine(call_attempts=1).analyse(make_stories(2))
+            result = engine.analyse(make_stories(2))
 
         self.assertTrue(result.synthesis.get("editor_note_en"))
+        self.assertIn("2026-10-08", result.synthesis["strategic_en"])
         self.assertTrue(any("synthesis" in e for e in result.errors), result.errors)
         self.assertTrue(
             all(a.get("_source") == "llm" for a in result.stories.values()),

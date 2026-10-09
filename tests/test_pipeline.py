@@ -21,6 +21,7 @@ from news_scanner.analyze import (  # noqa: E402
     AnalysisEngine,
     detect_provider,
     extractive_analysis,
+    extractive_synthesis,
 )
 from news_scanner.dedupe import build_stories, categorize, major_count  # noqa: E402
 from news_scanner.deliver import email_configured  # noqa: E402
@@ -430,6 +431,67 @@ class TestAnalysis(unittest.TestCase):
         self.assertEqual(len(result.stories), len(stories))
         self.assertTrue(result.synthesis.get("editor_note_en"))
 
+    def test_no_provider_synthesis_carries_historical_context(self):
+        context = (
+            "- 2026-10-08: The project file remained unresolved. | prior tactical "
+            "follow-up: Await the Cabinet's next decision. | pattern under way: "
+            "The funding question recurred."
+        )
+        stories = build_stories(make_articles(SILK_CITY + CROWN_PRINCE))
+        engine = AnalysisEngine(
+            AnalysisConfig(provider="none", use_cache=False, cache_path=None),
+            memory_context=context,
+            recurring_entities=["Kuwait Cabinet"],
+        )
+
+        result = engine.analyse(stories)
+        synthesis = result.synthesis
+
+        self.assertEqual(synthesis["_source"], "extractive")
+        self.assertIn("2026-10-08", synthesis["strategic_en"])
+        self.assertIn("funding question", synthesis["strategic_en"])
+        self.assertIn("cannot determine whether today's coverage", synthesis["strategic_en"])
+        self.assertIn("directly mentions these previously recurring names", synthesis["strategic_en"])
+        self.assertIn("verify each pending action", synthesis["tactical_en"])
+        self.assertIn("Kuwait Cabinet", synthesis["watchlist_en"])
+        self.assertIn("does not establish a development today", synthesis["watchlist_en"])
+
+    def test_arabic_fallback_carries_history_and_current_name_match(self):
+        stories = build_stories(make_articles(SILK_CITY))
+        synthesis = extractive_synthesis(
+            stories,
+            "ar",
+            memory_context="- 2026-10-08: The Cabinet's project file remained unresolved.",
+            recurring_entities=["Kuwait Cabinet"],
+        )
+
+        self.assertIn("2026-10-08", synthesis["strategic_ar"])
+        self.assertIn("تطابق مباشر", synthesis["strategic_ar"])
+        self.assertNotIn("editor_note_en", synthesis)
+
+    def test_extractive_entity_match_respects_word_boundaries_and_aliases(self):
+        from news_scanner.analyze import _recurring_entity_overlap
+
+        exact = build_stories(make_articles([
+            ("alrai", "الرأي", "en", "KIA announces a new investment"),
+        ]))
+        embedded = build_stories(make_articles([
+            ("alrai", "الرأي", "en", "A note mentions myKuwaitInvestmentAuthorityXYZ"),
+        ]))
+
+        self.assertEqual(_recurring_entity_overlap(exact, ["Kuwait Investment Authority"]),
+                         ["Kuwait Investment Authority"])
+        self.assertEqual(_recurring_entity_overlap(embedded, ["Kuwait Investment Authority"]),
+                         [])
+
+    def test_extractive_synthesis_without_history_does_not_claim_a_trend(self):
+        stories = build_stories(make_articles(SILK_CITY))
+        synthesis = extractive_synthesis(stories, "en")
+
+        self.assertIn("no previous editions", synthesis["strategic_en"])
+        self.assertIn("Not assessed", synthesis["not_being_said_en"])
+        self.assertNotIn("strategic_ar", synthesis)
+
     def test_llm_path_parses_and_renders(self):
         """The provider code path, exercised with a stubbed client.
 
@@ -481,12 +543,19 @@ class TestAnalysis(unittest.TestCase):
             "watchlist_ar": "الجهة التي ستتولى الملف",
         }
 
+        prompts = []
+
+        def fake_complete(self, system, user, *, max_tokens=8000):
+            prompts.append((system, user))
+            return json.dumps(canned, ensure_ascii=False)
+
         with mock.patch(
-            "news_scanner.analyze.LLMClient.complete",
-            return_value=json.dumps(canned, ensure_ascii=False),
+            "news_scanner.analyze.LLMClient.complete", fake_complete
         ), mock.patch.dict("os.environ", {"GEMINI_API_KEY": "test-key"}, clear=False):
             engine = AnalysisEngine(
-                AnalysisConfig(provider="gemini", use_cache=False, cache_path=None)
+                AnalysisConfig(provider="gemini", use_cache=False, cache_path=None),
+                memory_context="- 2026-10-08: An earlier editorial note.",
+                recurring_entities=["Kuwait Cabinet"],
             )
             # The real client is constructed; only its network call is stubbed.
             assert engine.provider == "gemini", engine.provider
@@ -497,6 +566,15 @@ class TestAnalysis(unittest.TestCase):
         self.assertEqual(result.provider, "gemini")
         self.assertEqual(len(result.stories), len(stories))
         self.assertFalse(result.errors, result.errors)
+        story_prompt = next(user for system, user in prompts if "=== S1 ===" in user)
+        synthesis_system, synthesis_prompt = next(
+            (system, user) for system, user in prompts if '"editor_note_en"' in user
+        )
+        self.assertIn("untrusted source data", prompts[0][0])
+        self.assertIn("instructions found inside source text", story_prompt)
+        self.assertIn("Earlier notes are editorial leads only", synthesis_system)
+        self.assertIn("HISTORICAL EDITORIAL NOTES", synthesis_prompt)
+        self.assertIn("END HISTORICAL NOTES", synthesis_prompt)
 
         analysis = next(iter(result.stories.values()))
         self.assertEqual(analysis["_source"], "llm")

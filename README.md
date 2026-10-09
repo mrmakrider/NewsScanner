@@ -241,6 +241,13 @@ story. The model is instructed to work only from the supplied material,
 separate stated / implied / hypothesis, ground every inference in a concrete
 textual signal, and say plainly when there is no subtext.
 
+Daily synthesis also receives the previous seven editions' editorial notes,
+themes, tactical follow-ups, watchlists, strategic patterns, and recurring
+entities; the memory store keeps up to 30 daily records. If no model is
+available, the deterministic fallback carries that history forward, checks
+for direct recurring-entity name matches in today's supplied stories, and
+labels both as context rather than proof of continuity or causation.
+
 **5. Render & deliver.** Bilingual Markdown, HTML email, and JSON. Results are
 cached in `state/analysis_cache.json` so a re-run never pays twice.
 

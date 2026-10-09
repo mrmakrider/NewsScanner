@@ -5,12 +5,12 @@ This answers a different question: "what has this publication been tracking,
 and did today's news change the picture?" A model has no state between runs,
 so continuity has to be written down and handed back.
 
-The store is an append-only JSONL file, one record per day::
+The store is a JSONL file, one record per day::
 
     state/daily_memory.jsonl
     {"date": "2026-10-02", "editor_note_en": "...", "links": [...], ...}
 
-Append-only because a crashed run must never corrupt earlier days, and
+Updates are atomic so a crashed run must never corrupt earlier days, and
 because the file is the artefact a reader can audit. Bounded because an
 unbounded file in a git repository is a liability, not an asset — only the
 most recent ``KEEP_DAYS`` records are retained.
@@ -21,6 +21,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -89,12 +90,34 @@ def append(path: Path | None, date_str: str, synthesis: dict[str, Any]) -> bool:
         if len(kept) > KEEP_DAYS:
             kept = kept[-KEEP_DAYS:]
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(
-            "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in kept),
-            "utf-8",
-        )
+        content = "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in kept)
+        # Keep the temporary file beside the destination so replacement is
+        # atomic on the same filesystem. A failure before replace leaves the
+        # previous memory file untouched.
+        tmp_path: Path | None = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="w",
+                encoding="utf-8",
+                dir=target.parent,
+                prefix=f".{target.name}.",
+                suffix=".tmp",
+                delete=False,
+            ) as handle:
+                tmp_path = Path(handle.name)
+                handle.write(content)
+                handle.flush()
+                os.fsync(handle.fileno())
+            os.replace(tmp_path, target)
+            tmp_path = None
+        finally:
+            if tmp_path is not None:
+                try:
+                    tmp_path.unlink()
+                except OSError:
+                    pass
         return True
-    except (OSError, ValueError) as exc:
+    except (OSError, TypeError, ValueError) as exc:
         # ValueError covers the embedded-NUL and other invalid-path cases that
         # are not OSError subclasses; a path this broken is the caller's
         # mistake and must not take the whole run down with it.
@@ -162,32 +185,69 @@ def recurring_entities(
 
 
 def build_context(
-    records: list[dict[str, Any]], *, max_chars: int = 2400
+    records: list[dict[str, Any]], *, max_chars: int = 2400, language: str = "en"
 ) -> str:
-    """Render remembered days as prompt context.
+    """Render remembered days as bounded editorial and follow-up context.
 
     Bounded by characters, not records: a long-running brief would otherwise
     build a prompt that grows without limit, which is exactly the call that
-    times out and loses the whole synthesis.
+    times out and loses the whole synthesis. Retain the newest context when an
+    individual record is oversized rather than dropping every record.
     """
-    if not records:
+    if not records or max_chars <= 0:
         return ""
+    preferred = "ar" if language == "ar" else "en"
+    alternate = "en" if preferred == "ar" else "ar"
+
+    def localized(record: dict[str, Any], field: str) -> str:
+        return str(
+            record.get(f"{field}_{preferred}")
+            or record.get(f"{field}_{alternate}")
+            or ""
+        ).strip()
+
+    labels = (
+        {
+            "themes": "موضوعات متكررة",
+            "tactical": "متابعة تكتيكية سابقة",
+            "watchlist": "قائمة متابعة سابقة",
+            "strategic": "نمط سابق",
+        }
+        if preferred == "ar"
+        else {
+            "themes": "recurring themes",
+            "tactical": "prior tactical follow-up",
+            "watchlist": "prior watchlist",
+            "strategic": "pattern under way",
+        }
+    )
     lines: list[str] = []
     for record in records:
-        note = str(record.get("editor_note_en", "")).strip()
-        if not note:
-            continue
-        entry = f"- {record.get('date')}: {note}"
+        note = localized(record, "editor_note")
         themes = [
-            str(t.get("theme_en", "")).strip()
+            str(t.get(f"theme_{preferred}") or t.get(f"theme_{alternate}") or "").strip()
             for t in (record.get("top_themes") or [])
-            if isinstance(t, dict) and str(t.get("theme_en", "")).strip()
+            if isinstance(t, dict) and str(
+                t.get(f"theme_{preferred}") or t.get(f"theme_{alternate}") or ""
+            ).strip()
         ]
+        tactical = localized(record, "tactical")
+        watchlist = localized(record, "watchlist")
+        strategic = localized(record, "strategic")
+        if not any((note, themes, tactical, watchlist, strategic)):
+            continue
+        entry = f"- {record.get('date')}: {note or ('إصدار سابق' if preferred == 'ar' else 'prior edition')}"
         if themes:
-            entry += f" | recurring themes: {'; '.join(themes[:4])}"
-        strategic = str(record.get("strategic_en", "")).strip()
+            entry += f" | {labels['themes']}: {'; '.join(themes[:4])}"
+        if tactical:
+            entry += f" | {labels['tactical']}: {tactical}"
+        if watchlist:
+            entry += f" | {labels['watchlist']}: {watchlist}"
         if strategic:
-            entry += f" | pattern under way: {strategic}"
+            entry += f" | {labels['strategic']}: {strategic}"
+        entry = " ".join(entry.split())
+        if len(entry) > max_chars:
+            entry = entry[:max_chars - 1].rstrip() + "…"
         lines.append(entry)
 
     if not lines:

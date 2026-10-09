@@ -14,6 +14,7 @@ import os
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from news_scanner import memory
 from news_scanner.analyze import (
@@ -106,6 +107,19 @@ class TestMemoryStore(unittest.TestCase):
         bad = self.dir / "nope" / "x" / "\0bad"
         self.assertFalse(memory.append(bad, "2026-10-02", {"editor_note_en": "x"}))
 
+    def test_failed_atomic_replace_preserves_previous_history(self):
+        memory.append(self.path, "2026-10-01", {"editor_note_en": "keep this"})
+        original = self.path.read_bytes()
+
+        with mock.patch("news_scanner.memory.os.replace", side_effect=OSError("simulated")):
+            self.assertFalse(
+                memory.append(self.path, "2026-10-02", {"editor_note_en": "new day"})
+            )
+
+        self.assertEqual(self.path.read_bytes(), original)
+        self.assertEqual(memory.load_all(self.path)[0]["editor_note_en"], "keep this")
+        self.assertEqual(list(self.dir.glob(".daily_memory.jsonl.*.tmp")), [])
+
     def test_load_recent_excludes_the_day_being_written(self):
         """The 08:30 retry must not grade itself against its own first attempt."""
         memory.append(self.path, "2026-09-30", {"editor_note_en": "old"})
@@ -161,6 +175,52 @@ class TestMemoryStore(unittest.TestCase):
     def test_context_is_empty_when_nothing_worth_saying(self):
         self.assertEqual(memory.build_context([]), "")
         self.assertEqual(memory.build_context([{"date": "2026-10-02"}]), "")
+
+    def test_context_includes_tactical_and_watchlist_follow_ups(self):
+        context = memory.build_context([
+            {
+                "date": "2026-10-08",
+                "editor_note_en": "The project file remained unresolved.",
+                "top_themes": [{"theme_en": "Public projects"}],
+                "tactical_en": "Await the Cabinet's next decision.",
+                "watchlist_en": "The next funding announcement.",
+                "strategic_en": "The funding question recurred.",
+            }
+        ])
+
+        self.assertIn("prior tactical follow-up: Await the Cabinet's next decision.", context)
+        self.assertIn("prior watchlist: The next funding announcement.", context)
+        self.assertIn("pattern under way: The funding question recurred.", context)
+
+    def test_arabic_context_prefers_arabic_memory_fields(self):
+        context = memory.build_context(
+            [{
+                "date": "2026-10-08",
+                "editor_note_en": "English note",
+                "editor_note_ar": "ملاحظة سابقة",
+                "tactical_en": "English follow-up",
+                "tactical_ar": "متابعة سابقة",
+                "top_themes": [{
+                    "theme_en": "Public projects",
+                    "theme_ar": "المشروعات العامة",
+                }],
+            }],
+            language="ar",
+        )
+
+        self.assertIn("ملاحظة سابقة", context)
+        self.assertIn("المشروعات العامة", context)
+        self.assertIn("متابعة تكتيكية سابقة: متابعة سابقة", context)
+        self.assertNotIn("English", context)
+
+    def test_oversized_latest_record_is_clipped_not_discarded(self):
+        context = memory.build_context(
+            [{"date": "2026-10-08", "editor_note_en": "latest " + "x" * 200}],
+            max_chars=40,
+        )
+
+        self.assertTrue(context.startswith("- 2026-10-08: latest"))
+        self.assertLessEqual(len(context), 40)
 
 
 class TestEntityGraph(unittest.TestCase):

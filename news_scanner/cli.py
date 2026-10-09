@@ -361,7 +361,7 @@ def cmd_check_email(args: argparse.Namespace) -> int:
     return 0
 
 
-def _memory_kwargs(date_str: str) -> dict:
+def _memory_kwargs(date_str: str, language: str = "bilingual") -> dict:
     """What earlier editions concluded, for the synthesis call to reason against.
 
     Excluded on ``date_str`` itself so the 08:30 retry does not get today's own
@@ -372,7 +372,7 @@ def _memory_kwargs(date_str: str) -> dict:
     records = memory.load_recent(7, before=date_str)
     if not records:
         return {}
-    context = memory.build_context(records)
+    context = memory.build_context(records, language=language)
     recurring = memory.recurring_entities(records)
     log.info(
         "memory: %d earlier edition(s) recalled (%d chars, %d recurring entities)",
@@ -448,7 +448,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     if args.llm_off:
         config.provider = "none"
 
-    engine = AnalysisEngine(config, **_memory_kwargs(today))
+    engine = AnalysisEngine(config, **_memory_kwargs(today, config.language))
     if engine.provider == "none":
         log.warning(
             "no LLM provider configured — running in extractive mode "
