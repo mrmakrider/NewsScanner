@@ -21,8 +21,9 @@ class TestDailyEmailWorkflow(unittest.TestCase):
         self.assertIn("continue-on-error: true", preflight)
         self.assertNotIn("steps.email_check.outcome", workflow)
         self.assertNotIn("NEWSCANNER_NO_EMAIL:", workflow)
-        self.assertIn('cron: "30 5 * * *"', workflow)
-        self.assertIn('cron: "0 6 * * *"', workflow)
+        self.assertIn('cron: "0 0 * * *"', workflow)
+        self.assertIn('cron: "30 0 * * *"', workflow)
+        self.assertIn('cron: "0 1 * * *"', workflow)
 
 
 if __name__ == "__main__":

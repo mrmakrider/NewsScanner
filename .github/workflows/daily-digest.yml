@@ -1,20 +1,20 @@
 name: Daily Kuwait News Brief
 
-# Runs every morning at 08:00 Kuwait time.
-# Kuwait is UTC+3 all year (no daylight saving), so 08:00 local = 05:00 UTC.
+# Runs every morning at 03:00 Kuwait time.
+# Kuwait is UTC+3 all year (no daylight saving), so 03:00 local = 00:00 UTC.
 #
 # Two extra crons are a safety net, not a second edition: GitHub's scheduler
-# can drop a run under load, so at 08:30 and 09:00 Kuwait the job starts,
+# can drop a run under load, so at 03:30 and 04:00 Kuwait the job starts,
 # finds today's brief already sent (state/last_run.json) and exits at once.
-# If 08:00 succeeded, nothing is sent twice.
+# If 03:00 succeeded, nothing is sent twice.
 #
 # NOTE: GitHub only fires `schedule` for the DEFAULT branch. Merge this file
 # to main, or the cron will never run.
 on:
   schedule:
-    - cron: "0 5 * * *"      # 08:00 Kuwait — the brief
-    - cron: "30 5 * * *"     # 08:30 Kuwait — retry if 08:00 failed
-    - cron: "0 6 * * *"      # 09:00 Kuwait — last chance
+    - cron: "0 0 * * *"      # 03:00 Kuwait — the brief
+    - cron: "30 0 * * *"     # 03:30 Kuwait — retry if 03:00 failed
+    - cron: "0 1 * * *"      # 04:00 Kuwait — last chance
   workflow_dispatch:
     inputs:
       dry_run:
@@ -59,7 +59,7 @@ jobs:
         run: python -m unittest discover -s tests
 
       # Exercises the real analysis path against the live provider. Without
-      # this, a bad model name or an expired key is only discovered at 08:00.
+      # this, a bad model name or an expired key is only discovered at 03:00.
       - name: Verify the analysis provider
         continue-on-error: true
         env:
@@ -75,7 +75,7 @@ jobs:
 
       # Diagnostic only: a preflight disconnect must not suppress the actual
       # send attempt. A failed delivery leaves the run marker unset so the
-      # 08:30 and 09:00 scheduled retries can try again.
+      # 03:30 and 04:00 scheduled retries can try again.
       - name: Verify email delivery
         continue-on-error: true
         env:
@@ -119,7 +119,7 @@ jobs:
           # itself is killed at 30, and a step killed mid-write produces no
           # digest at all; this way a slow or throttled morning still delivers
           # a brief, with the analysed stories marked as such. Everything
-          # already analysed is cached, so the 08:30 retry resumes from there.
+          # already analysed is cached, so the 03:30 retry resumes from there.
           NEWSCANNER_LLM_BUDGET: "1200"
 
           # --- Email delivery --------------------------------------------
@@ -139,8 +139,8 @@ jobs:
           ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
           if [ "${{ inputs.no_llm }}" = "true" ]; then ARGS="$ARGS --no-llm"; fi
-          # The 08:30 and 09:00 crons exist only to retry a failed 08:00 run.
-          if [ "${{ github.event.schedule }}" != "0 5 * * *" ] \
+          # The 03:30 and 04:00 crons exist only to retry a failed 03:00 run.
+          if [ "${{ github.event.schedule }}" != "0 0 * * *" ] \
              && [ -n "${{ github.event.schedule }}" ]; then
             ARGS="$ARGS --skip-if-done"
           fi
