@@ -1,24 +1,24 @@
 {
  "date": "2026-10-10",
- "generated_at": "2026-10-10T07:53:14.678340+03:00",
+ "generated_at": "2026-10-10T09:11:38.483281+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 163,
+  "total_articles": 161,
   "outlets_reporting": 6,
-  "total_stories": 116,
+  "total_stories": 114,
   "major_stories": 9,
   "analysed_stories": 28,
-  "window_start": "2026-10-09T05:53:14.678340+03:00",
-  "window_end": "2026-10-10T07:53:14.678340+03:00",
+  "window_start": "2026-10-09T07:11:38.483281+03:00",
+  "window_end": "2026-10-10T09:11:38.483281+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 37,
-   "World & Region": 36,
-   "Economy & Business": 16,
-   "Society & Services": 8,
-   "Security & Courts": 8,
-   "Sport": 9,
+   "World & Region": 29,
+   "Government & Politics": 39,
+   "Society & Services": 9,
+   "Economy & Business": 15,
+   "Security & Courts": 10,
+   "Sport": 10,
    "Culture & Entertainment": 1,
    "Opinion & Analysis": 1
   },
@@ -30,37 +30,37 @@
   ]
  },
  "synthesis": {
-  "editor_note_en": "Today’s coverage is dominated by a sharp escalation in regional security rhetoric, specifically the explicit attribution of attacks on Saudi infrastructure to Houthi and Iranian aggression in Kuwaiti UN statements (S23, S26). This diplomatic hardening is mirrored domestically by a visible push for institutional discipline, evidenced by the mass closure of non-compliant establishments (S7) and the adoption of Saudi-style financial surveillance models (S21, S24). The state is signaling a transition from passive neutrality to active alignment with regional security architectures, while simultaneously tightening internal regulatory controls. The absence of any mention of the specific operational details of the UK-Kuwait military talks (S1) suggests a deliberate separation of diplomatic signaling from operational specifics.",
-  "editor_note_ar": "تتصدر تغطية اليوم تصعيد حاد في الخطاب الأمني الإقليمي، وتحديداً الإسناد الصريح للهجمات على البنية التحتية السعودية إلى العدوان الحوثي والإيراني في بيانات الكويت أمام الأمم المتحدة (S23, S26). يعكس هذا التصلب الدبلوماسي دفعاً داخلياً مرئياً نحو الانضباط المؤسسي، كما يتضح من الإغلاق الجماعي للمنشآت المخالفة (S7) وتبني نماذج الرقابة المالية السعودية (S21, S24). تشير الدولة إلى تحول من الحياد السلبي إلى المواءمة النشطة مع البنى الأمنية الإقليمية، مع تشديد الرقابة التنظيمية الداخلية في الوقت نفسه. غياب أي ذكر للتفاصيل التشغيلية لمباحثات الكويت-بريطانيا العسكرية (S1) يوحي بفصل مقصود بين الإشارات الدبلوماسية والتفاصيل العملياتية.",
-  "story_of_the_day": "S23",
-  "tactical_en": "The immediate priority is the operational response to the Houthi attacks on Riyadh (S2, S9). Kuwait must finalize the details of its military cooperation with the UK (S1) and US (S17) within the coming days to ensure interoperability. Additionally, the UN Special Representative's visit (S1) requires a concrete diplomatic output regarding Resolution 2792 before the end of the week.",
-  "tactical_ar": "الأولوية العاجلة هي الاستجابة التشغيلية لهجمات الحوثيين على الرياض (S2, S9). يجب على الكويت تحديد تفاصيل تعاونها العسكري مع المملكة المتحدة (S1) والولايات المتحدة (S17) خلال الأيام القادمة لضمان التشغيل المشترك. بالإضافة إلى ذلك، تتطلب زيارة الممثل الخاص للأمم المتحدة (S1) مخرجات دبلوماسية ملموسة بشأن القرار 2792 قبل نهاية الأسبوع.",
-  "strategic_en": "The coverage reveals a normalization of Kuwait’s integration into a hard-security bloc, moving beyond traditional non-alignment. The explicit linkage of current Houthi/Iranian actions to the 1990 invasion (S23) suggests a long-term strategy to internationalize Kuwait’s grievance and secure permanent UN backing. The focus on 'actual job needs' in public hiring (S3) and strict fire safety enforcement (S7) indicates a parallel domestic push for institutional discipline and efficiency to support this external hardening.",
-  "strategic_ar": "تكشف التغطية عن تطبيع اندماج الكويت في كتلة أمنية صلبة، متجاوزةً الحياد التقليدي. يشير الربط الصريح بين الإجراءات الحالية للحوثيين/إيران وغزو 1990 (S23) إلى استراتيجية طويلة الأمد لتدويل شكوى الكويت وضمان دعم دائم من الأمم المتحدة. يوضح التركيز على 'الاحتياجات الفعلية للوظائف' في التوظيف الحكومي (S3) وتطبيق صارم لسلامة الحريق (S7) دفعاً موازياً داخلياً للانضباط المؤسسي والكفاءة لدعم هذا التصلب الخارجي.",
+  "editor_note_en": "Today’s coverage is defined by a sharp escalation in the Houthi-Iranian threat axis, marked by the first confirmed lethal attacks on Saudi civilian infrastructure (King Khalid Airport) and Kuwait’s immediate, high-level diplomatic and military response. The state is actively consolidating its security architecture through parallel channels: high-level military talks with the UK (S2), naval engagement in Europe (S4), and explicit UN condemnations citing specific resolutions (S10, S23, S27). This external hardening is mirrored by a domestic push for institutional discipline, seen in strict fire safety enforcement (S7) and anti-corruption technical exchanges with Saudi Arabia (S21). The day is not quiet; it is a coordinated effort to signal Kuwait’s shift from passive neutrality to active regional security alignment.",
+  "editor_note_ar": "تتسم تغطية اليوم بتصعيد حاد في محور التهديد الحوثي-الإيراني، يتجلى في أول هجمات مميتة مؤكدة على البنية التحتية المدنية السعودية (مطار الملك خالد) والاستجابة الدبلوماسية والعسكرية الفورية من الكويت. تعمل الدولة على توطيد بنيتها الأمنية عبر قنوات متوازية: محادثات عسكرية رفيعة المستوى مع بريطانيا (S2)، وتفاعل بحري في أوروبا (S4)، وإدانات أممية صريحة تستشهد بقرارات محددة (S10، S23، S27). يعكس هذا التصلب الخارجي دفعاً داخلياً نحو الانضباط المؤسسي، يظهر في تطبيق صارم لمعايير السلامة من الحرائق (S7) وتبادلات تقنية لمكافحة الفساد مع السعودية (S21). اليوم ليس هادئاً؛ إنه جهد منسق لإظهار تحول الكويت من الحياد السلبي إلى المواءمة النشطة مع الأمن الإقليمي.",
+  "story_of_the_day": "S1",
+  "tactical_en": "Finalization of military interoperability details with the UK following the meeting between Lt. Gen. Al-Shuraiman and Rear Admiral Green (S2); operational response to Houthi missile platforms destroyed by the Coalition (S9); and the outcome of the UN Security Council's enforcement of Resolution 2817 as demanded by Kuwait (S10, S27).",
+  "tactical_ar": "إتمام تفاصيل التشغيل المشترك العسكري مع المملكة المتحدة بعد الاجتماع بين اللواء الشريمان والعميد غرين (S2)؛ والاستجابة العملياتية لمنصات إطلاق الصواريخ الحوثية التي دمرها التحالف (S9)؛ ونتيجة تنفيذ مجلس الأمن للقرار 2817 كما طالبته الكويت (S10، S27).",
+  "strategic_en": "The coverage reveals a normalization of Kuwait’s integration into a hard-security bloc, moving beyond traditional non-alignment. The explicit linkage of current Houthi/Iranian actions to the 1990 invasion in UN statements (S27) suggests a long-term strategy to internationalize Kuwait’s grievance and secure permanent UN backing. The focus on 'actual job needs' in public hiring (S6) and strict fire safety enforcement (S7) indicates a parallel domestic push for institutional discipline to support this external hardening.",
+  "strategic_ar": "تكشف التغطية عن تطبيع اندماج الكويت في كتلة أمنية صلبة، متجاوزةً الحياد التقليدي. يشير الربط الصريح بين الإجراءات الحالية للحوثيين/إيران وغزو 1990 في البيانات الأممية (S27) إلى استراتيجية طويلة الأمد لتدويل شكوى الكويت وضمان دعم أممي دائم. يوضح التركيز على 'الاحتياجات الفعلية للوظائف' في التوظيف الحكومي (S6) وتطبيق صارم لمعايير السلامة من الحرائق (S7) دفعاً موازياً على المستوى الداخلي نحو الانضباط المؤسسي لدعم هذا التصلب الخارجي.",
   "links": [
    {
+    "type": "consequence",
+    "from": "S1",
+    "to": "S3",
+    "evidence": "The Houthi attacks on King Khalid Airport (S1) directly triggered the triple condolence protocol from the Emir, PM, and Crown Prince to the Saudi King (S3)."
+   },
+   {
+    "type": "reaction",
+    "from": "S1",
+    "to": "S9",
+    "evidence": "The Coalition's announcement of destroying 3 missile platforms (S9) is framed as a direct response to the Houthi attacks on Saudi infrastructure (S1)."
+   },
+   {
     "type": "same_actor",
-    "from": "S21",
+    "from": "S12",
     "to": "S24",
-    "evidence": "Both stories report on the same delegation from Kuwait's Anti-Corruption Authority (Nizah) led by Dr. Rana Al-Fares visiting Saudi Arabia's SAFIU to study financial investigation methods."
+    "evidence": "Both stories report on the same meeting between Health Undersecretary Sheikh Dr. Salman Khalifa Al-Sabah and the Philadelphia Children's Hospital delegation, including Angela B. Worster."
    },
    {
     "type": "same_source_angle",
     "from": "S23",
-    "to": "S26",
-    "evidence": "Both stories carry the same Kuwaiti diplomatic statement at the UN Sixth Committee, with S23 (Al-Rai) and S26 (Al-Anba) providing parallel but slightly differently headlined versions of the same pre-cleared text."
-   },
-   {
-    "type": "reaction",
-    "from": "S2",
-    "to": "S3",
-    "evidence": "The triple condolence messages from the Emir, PM, and Crown Prince (S3) are a direct diplomatic reaction to the Houthi attacks on King Khalid Airport (S2)."
-   },
-   {
-    "type": "consequence",
-    "from": "S2",
-    "to": "S9",
-    "evidence": "The Coalition's announcement of destroying Houthi missile platforms (S9) is a direct military consequence/response to the attacks on Saudi infrastructure (S2)."
+    "to": "S27",
+    "evidence": "Both are parallel reports of Kuwait's statement at the UN Sixth Committee, citing the same resolutions and condemning the same Iranian and Houthi actions."
    }
   ],
   "top_themes": [
@@ -70,29 +70,45 @@
     "story_ids": [
      "S1",
      "S2",
+     "S4",
      "S9",
+     "S10",
      "S23",
-     "S26"
+     "S27"
     ],
-    "note_en": "Kuwait is actively aligning with regional security architectures and explicitly naming Iranian/Houthi threats in diplomatic forums.",
-    "note_ar": "تقوم الكويت بنشاط بمواءمة نفسها مع البنى الأمنية الإقليمية والإسناد الصريح للتهديدات الإيرانية/الحوثية في المحافل الدبلوماسية."
+    "note_en": "Kuwait is actively aligning with regional and international security architectures in response to Houthi/Iranian threats.",
+    "note_ar": "تعمل الكويت بنشاط على المواءمة مع البنى الأمنية الإقليمية والدولية استجابةً للتهديدات الحوثية/الإيرانية."
    },
    {
     "theme_en": "Institutional Discipline",
     "theme_ar": "الانضباط المؤسسي",
     "story_ids": [
+     "S6",
      "S7",
      "S21",
-     "S24"
+     "S25"
     ],
-    "note_en": "A parallel domestic push for strict enforcement of safety regulations and adoption of advanced financial surveillance models.",
-    "note_ar": "دفع موازٍ داخلي نحو تطبيق صارم لوائح السلامة وتبني نماذج متقدمة للرقابة المالية."
+    "note_en": "A parallel domestic push for efficiency, safety, and anti-corruption measures supports the external security posture.",
+    "note_ar": "دفع موازٍ على المستوى الداخلي نحو الكفاءة والسلامة وإجراءات مكافحة الفساد يدعم الموقف الأمني الخارجي."
+   },
+   {
+    "theme_en": "Diplomatic Multilateralism",
+    "theme_ar": "التعددية الدبلوماسية",
+    "story_ids": [
+     "S10",
+     "S11",
+     "S22",
+     "S23",
+     "S27"
+    ],
+    "note_en": "Kuwait is leveraging UN platforms to assert its sovereignty, condemn aggression, and advocate for decolonization and AI governance.",
+    "note_ar": "تستغل الكويت منصات الأمم المتحدة لإثبات سيادتها، وإدانة العدوان، والدعوة إلى إنهاء الاستعمار وحوكمة الذكاء الاصطناعي."
    }
   ],
-  "not_being_said_en": "The specific operational details of the UK-Kuwait military cooperation discussed in S1 are not stated in the supplied reports. The reports confirm the meeting occurred but omit any mention of specific agreements, equipment transfers, or joint exercise schedules, suggesting a deliberate separation of diplomatic signaling from operational specifics.",
-  "not_being_said_ar": "التفاصيل التشغيلية المحددة للتعاون العسكري بين الكويت والمملكة المتحدة التي ناقشتها S1 غير مذكورة في التقارير المقدمة. تؤكد التقارير حدوث الاجتماع لكنها تحذف أي ذكر لاتفاقات محددة أو نقل معدات أو جداول تمارين مشتركة، مما يوحي بفصل مقصود بين الإشارات الدبلوماسية والتفاصيل التشغيلية.",
-  "watchlist_en": "1. Specific outcomes of UK-Kuwait military talks (S1). 2. Further Houthi attacks on Gulf infrastructure (S2, S9). 3. Domestic reaction to citizenship stripping decisions (historical context, not confirmed today). 4. UN Security Council response to Resolution 2792 (historical context, not confirmed today).",
-  "watchlist_ar": "1. النتائج المحددة لمباحثات الكويت-بريطانيا العسكرية (S1). 2. هجمات حوثية إضافية على البنية التحتية الخليجية (S2, S9). 3. رد الفعل المحلي على قرارات سلب الجنسية (سياق تاريخي، غير مؤكد اليوم). 4. رد مجلس الأمن على القرار 2792 (سياق تاريخي، غير مؤكد اليوم).",
+  "not_being_said_en": "The specific operational details of the UK-Kuwait military cooperation (S2) are omitted, with no mention of specific equipment, joint exercises, or command structures. Additionally, the environmental impact and cause of the Mina Abdullah fire (S5) are not stated in the supplied reports, leaving the severity of the incident unclear.",
+  "not_being_said_ar": "تُغفل التفاصيل التشغيلية المحددة للتعاون العسكري بين بريطانيا والكويت (S2)، دون ذكر أي معدات أو مناورات مشتركة أو هياكل قيادة. بالإضافة إلى ذلك، لا يُذكر في التقارير المقدمة الأثر البيئي وسبب حريق ميناء عبدالله (S5)، مما يجعل شدة الحادث غير واضحة.",
+  "watchlist_en": "1. Specific outcomes of UK-Kuwait military talks (S2) within the coming days. 2. UN Security Council response to Resolution 2817 enforcement demands (S10, S27). 3. Further Houthi attacks on Gulf infrastructure or retaliation by the Coalition (S1, S9). 4. Domestic reaction to the 43 fire safety closures in Farwaniya (S7).",
+  "watchlist_ar": "1. النتائج المحددة لمحادثات بريطانيا-الكويت العسكرية (S2) خلال الأيام القادمة. 2. استجابة مجلس الأمن لمطالب تنفيذ القرار 2817 (S10، S27). 3. هجمات حوثية إضافية على البنية التحتية الخليجية أو رد فعل من التحالف (S1، S9). 4. رد الفعل المحلي على إغلاق 43 منشأة بسبب السلامة من الحرائق في الفروانية (S7).",
   "_source": "llm"
  },
  "source_health": [
@@ -190,6 +206,206 @@
  "errors": [],
  "stories": [
   {
+   "key": "db709eff5b63aaf7",
+   "score": 25.204,
+   "sources": [
+    "الأنباء",
+    "الرأي",
+    "كويت نيوز",
+    "الجريدة"
+   ],
+   "outlet_count": 4,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الإمارات تدين بشدة اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي وطائرة تابعة للخطوط السعودية",
+     "url": "https://www.alanba.com.kw/1379984",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-09T20:41:44+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "السعودية تدين أمام مجلس الأمن اعتداءات ميليشيا الحوثي الإرهابية على أراضيها",
+     "url": "https://www.alanba.com.kw/1379982",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-09T20:41:44+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "قطر تدين بأشد العبارات الاعتداءات على مطار الملك خالد الدولي وطائرة تابعة للخطوط السعودية",
+     "url": "https://www.alraimedia.com/article/1782147/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D9%82%D8%B7%D8%B1-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A8%D8%A3%D8%B4%D8%AF-%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "دانت دولة قطر اليوم الجمعة بأشد العبارات اعتداءات جماعة الحوثي على مطار الملك خالد الدولي بالمملكة العربية السعودية الشقيقة التي استهدفت مرافق المطار وطائرة تابعة للخطوط الجوية الس...",
+     "body": "",
+     "published": "2026-10-09T18:22:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "البحرين تدين بشدة الاعتداءات الحوثية على مطار الملك خالد وطائرة سعودية: انتهاك صارخ للقانون الدولي",
+     "url": "https://www.alanba.com.kw/1379956",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-09T14:59:15+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "البحرين تدين بشدة الاعتداءات الحوثية على مطار الملك خالد الدولي وطائرة تابعة للخطوط السعودية",
+     "url": "https://www.alraimedia.com/article/1782145/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A8%D8%B4%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعربت مملكة البحرين اليوم الجمعة عن إدانتها واستنكارها الشديدين للاعتداءين الإرهابيين اللذين نفذتهما ميليشيات الحوثي واستهدفا مرافق مطار الملك خالد الدولي وطائرة تابعة للخطوط الجوي...",
+     "body": "أعربت مملكة البحرين اليوم الجمعة عن إدانتها واستنكارها الشديدين للاعتداءين الإرهابيين اللذين نفذتهما ميليشيات الحوثي واستهدفا مرافق مطار الملك خالد الدولي وطائرة تابعة للخطوط الجوية السعودية في المملكة العربية السعودية الشقيقة ما أسفر عن مقتل ثلاثة مواطنين سعوديين وإصابة عدد من المواطنين والمقيمين.\n\nالصين والاتحاد الأوروبي يعززان الحوار لتجنب تصعيد تجاري منذ 36 دقيقة «الجنائية الدولية»: منح القاضية بيلاي نوبل السلام اعتراف ⁠مهم ‌بدور العدالة الدولية منذ 3 ساعات\n\nوأكدت الوزارة تضامن مملكة البحرين الكامل مع المملكة العربية السعودية الشقيقة ودعمها التام لكل ما تتخذه من إجراءات لصون سيادتها وأمنها واستقرارها وسلامة أراضيها وحماية مواطنيها والمقيمين على أراضيها وحقها في الدفاع عن النفس وفقا للمادة (51) من ميثاق الأمم المتحدة.\n\nوأعربت عن خالص التعازي وصادق المواساة للمملكة العربية السعودية ولأسر وذوي الضحايا سائلة المولى عز وجل أن يتغمدهم بواسع رحمته ومتمنية للمصابين الشفاء العاجل.\n\nوشددت وزارة الخارجية على دعوة مملكة البحرين لمجلس الأمن إلى اتخاذ موقف حازم لإيقاف الاعتداءات الإرهابية الحوثية المتكررة على الأعيان والمنشآت والمطارات المدنية ومحاسبة مرتكبيها وضمان التنفيذ الكامل لقرارات مجلس الأمن ذات الصلة وفي مقدمتها القراران (2216) و(2817) بما يكفل حماية المدنيين وصون الأمن والسلم الإقليميين والدوليين.",
+     "published": "2026-10-09T17:46:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الكويت تدين الاعتداءات السافرة لميليشيا الحوثي على مطار الملك خالد الدولي في السعودية: انتهاك صارخ لسيادة المملكة",
+     "url": "https://www.alanba.com.kw/1379947",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-09T14:43:39+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "دولة الكويت تدين وتستنكر بشدة اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي بالرياض",
+     "url": "https://kuwaitnews.com/136798/",
+     "section": "latest",
+     "summary": "أعربت وزارة الخارجية اليوم الجمعة عن إدانة دولة الكويت واستنكارها الشديدين للاعتداءات السافرة التي شنتها ميليشيا الحوثي على مطار الملك خالد الدولي في المملكة العربية السعودية الشقيقة امس الخميس. وأكدت (الخارجية) في بيان أن تلك الاعتداءات التي استهدفت مرافق المطار […]\n\nThe post دولة الكويت تدين وتستنكر بشدة اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي بالرياض appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-10-09T14:30:36+00:00",
+     "tier": 2
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "البديوي يُدين الهجوم الحوثي الإرهابي على مطار الملك خالد الدولي بالرياض",
+     "url": "https://www.aljarida.com/article/146952",
+     "section": "world",
+     "summary": "أعرب الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي اليوم الجمعة عن بالغ استنكاره وإدانته القاطعة للهجوم الإرهابي الذي أقدمت عليه ميليشيات الحوثي باستهداف مطار الملك خ...",
+     "body": "",
+     "published": "2026-10-09T15:36:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الكويت تُدين الاعتداءات الحوثية السافرة على مطار الملك خالد: أمن السعودية من أمننا",
+     "url": "https://www.aljarida.com/article/146948",
+     "section": "local",
+     "summary": "أعربت وزارة الخارجية عن إدانة دولة الكويت واستنكارها الشديدين للاعتداءات السافرة التي شنتها ميليشيا الحوثي على مطار الملك خالد الدولي في المملكة العربية السعودية الشقيقة أمس.واستهد...",
+     "body": "",
+     "published": "2026-10-09T14:11:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت تستنكر بشدة الاعتداءات الحوثية السافرة على مطار الملك خالد في السعودية",
+     "url": "https://www.alraimedia.com/article/1782137/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D9%86%D9%83%D8%B1-%D8%A8%D8%B4%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%81%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "أعربت وزارة الخارجية عن إدانة دولة الكويت واستنكارها الشديدين للاعتداءات السافرة التي شنتها ميليشيا الحوثي على مطار الملك خالد الدولي في المملكة العربية السعودية الشقيقة بتاريخ 8 أ...",
+     "body": "",
+     "published": "2026-10-09T14:10:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الأردن يدين اعتداء ميليشيا الحوثي على مطار الملك خالد الدولي في الرياض",
+     "url": "https://www.alanba.com.kw/1379945",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-09T10:58:21+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "السعودية: استشهاد 3 مواطنين سعوديين في اعتداءين على مطار الملك خالد الدولي",
+     "url": "https://www.alanba.com.kw/1379937",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-09T08:40:16+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "السعودية: ‏اعتداءان يستهدفان مرافق مطار الملك خالد وطائرة للخطوط السعودية",
+     "url": "https://www.alraimedia.com/article/1782128/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D9%86-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A7%D9%86-%D9%85%D8%B1%D8%A7%D9%81%D9%82-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D9%88%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعلنت الهيئة العامة للطيران المدني في السعودية \"تعرض مطار الملك خالد الدولي لاعتداءين أمس الخميس، حيث استهدف الاعتداء الأول مرافق المطار، فيما استهدف الاعتداء الثاني طائرة تابعة لل...",
+     "body": "",
+     "published": "2026-10-09T10:49:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Gulf States and Kuwait Condemn Houthi Attacks on King Khalid International Airport and Saudi Aircraft",
+    "headline_ar": "دول الخليج والكويت تدين اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي وطائرة سعودية",
+    "summary_en": "Houthi forces carried out two attacks on King Khalid International Airport in Riyadh and a Saudi Airlines aircraft, resulting in the deaths of three Saudi citizens and injuries to others. Bahrain, Qatar, Jordan, and Kuwait issued formal condemnations, with Bahrain explicitly calling on the UN Security Council to enforce resolutions 2216 and 2817.",
+    "summary_ar": "نفذت ميليشيا الحوثي هجومين على مطار الملك خالد الدولي في الرياض وطائرة تابعة للخطوط السعودية، مما أسفر عن مقتل ثلاثة مواطنين سعوديين وإصابة آخرين. أصدرت البحرين وقطر والأردن والكويت إدانات رسمية، حيث دعت البحرين صراحةً مجلس الأمن إلى فرض قراراته 2216 و2817.",
+    "why_it_matters_en": "The explicit invocation of UN Security Council resolutions 2216 and 2817 by Bahrain signals a shift from diplomatic condemnation to a demand for international legal enforcement, potentially escalating the regional security framework and affecting Kuwait's strategic alignment with Saudi defense interests.",
+    "why_it_matters_ar": "الإشارة الصريحة من قبل البحرين إلى قرارات مجلس الأمن 2216 و2817 تشير إلى تحول من الإدانة الدبلوماسية إلى المطالبة بتطبيق قانوني دولي، مما قد يرفع من حدة الإطار الأمني الإقليمي ويؤثر على المواءمة الاستراتيجية للكويت مع مصالح الدفاع السعودية.",
+    "between_the_lines_en": "The divergence in attribution is notable: while Kuwait's statement (via Al-Jarida and Al-Rai) uses standard diplomatic language ('blatant violation of sovereignty'), Bahrain's statement (via Al-Rai) is the only one in the provided text that explicitly cites specific UN Security Council resolutions (2216, 2817) and Article 51 of the UN Charter. This suggests Bahrain is positioning itself as the primary diplomatic driver for internationalizing the conflict, whereas Kuwait is maintaining a supportive but legally cautious stance. The absence of any mention of a direct military response or 'red line' crossing in the Kuwaiti statements, despite the high-profile target (Riyadh airport), indicates a preference for diplomatic containment over immediate military escalation rhetoric.",
+    "between_the_lines_ar": "يلاحظ تباين في مصادر الخبر: بينما استخدمت الكويت (عبر الجريدة والرأي) لغة دبلوماسية قياسية ('انتهاك صارخ للسيادة')، فإن بيان البحرين (عبر الرأي) هو الوحيد في النص المقدم الذي يستشهد صراحةً بقرارات مجلس الأمن (2216، 2817) والمادة 51 من ميثاق الأمم المتحدة. هذا يشير إلى أن البحرين تضع نفسها كقائد دبلوماسي رئيسي لتدويل الصراع، في حين تحتفظ الكويت بموقف داعم لكن حذر قانونياً. غياب أي ذكر لرد عسكري مباشر أو 'تجاوز خط أحمر' في البيانات الكويتية، رغم استهداف هدف بارز (مطار الرياض)، يدل على تفضيل الاحتواء الدبلوماسي على التصعيد العسكري اللفظي الفوري.",
+    "watch_next_en": "Monitor for any follow-up statements from the Kuwaiti Ministry of Foreign Affairs that explicitly reference the UN Security Council resolutions cited by Bahrain, or any changes in Kuwaiti military posture or diplomatic communications with Riyadh regarding joint defense mechanisms.",
+    "watch_next_ar": "راقب أي بيانات متابعة من وزارة الخارجية الكويتية تشير صراحةً إلى قرارات مجلس الأمن التي استشهدت بها البحرين، أو أي تغييرات في الموقف العسكري الكويتي أو الاتصالات الدبلوماسية مع الرياض بشأن آليات الدفاع المشترك.",
+    "confidence": "high",
+    "confidence_reason": "The specific legal citations in the Bahraini statement versus the general diplomatic language in the Kuwaiti statement are clearly visible in the provided text.",
+    "entities": [
+     "King Khalid International Airport",
+     "Saudi Airlines",
+     "Houthi Militia",
+     "Bahrain Ministry of Foreign Affairs",
+     "Kuwait Ministry of Foreign Affairs",
+     "UN Security Council"
+    ],
+    "tags": [
+     "Security",
+     "Houthi Attacks",
+     "Saudi Arabia",
+     "Diplomacy",
+     "UN Resolutions"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "b1ba1f1d4e664460",
    "score": 24.859,
    "sources": [
@@ -276,206 +492,6 @@
      "UK-Kuwait Relations",
      "Military Cooperation",
      "Diplomacy"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "db709eff5b63aaf7",
-   "score": 24.199,
-   "sources": [
-    "الأنباء",
-    "الرأي",
-    "كويت نيوز",
-    "الجريدة"
-   ],
-   "outlet_count": 4,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الإمارات تدين بشدة اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي وطائرة تابعة للخطوط السعودية",
-     "url": "https://www.alanba.com.kw/1379984",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-09T20:41:44+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "السعودية تدين أمام مجلس الأمن اعتداءات ميليشيا الحوثي الإرهابية على أراضيها",
-     "url": "https://www.alanba.com.kw/1379982",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-09T20:41:44+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "قطر تدين بأشد العبارات الاعتداءات على مطار الملك خالد الدولي وطائرة تابعة للخطوط السعودية",
-     "url": "https://www.alraimedia.com/article/1782147/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D9%82%D8%B7%D8%B1-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A8%D8%A3%D8%B4%D8%AF-%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "دانت دولة قطر اليوم الجمعة بأشد العبارات اعتداءات جماعة الحوثي على مطار الملك خالد الدولي بالمملكة العربية السعودية الشقيقة التي استهدفت مرافق المطار وطائرة تابعة للخطوط الجوية الس...",
-     "body": "",
-     "published": "2026-10-09T18:22:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "البحرين تدين بشدة الاعتداءات الحوثية على مطار الملك خالد وطائرة سعودية: انتهاك صارخ للقانون الدولي",
-     "url": "https://www.alanba.com.kw/1379956",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-09T14:59:15+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "البحرين تدين بشدة الاعتداءات الحوثية على مطار الملك خالد الدولي وطائرة تابعة للخطوط السعودية",
-     "url": "https://www.alraimedia.com/article/1782145/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A8%D8%B4%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعربت مملكة البحرين اليوم الجمعة عن إدانتها واستنكارها الشديدين للاعتداءين الإرهابيين اللذين نفذتهما ميليشيات الحوثي واستهدفا مرافق مطار الملك خالد الدولي وطائرة تابعة للخطوط الجوي...",
-     "body": "أعربت مملكة البحرين اليوم الجمعة عن إدانتها واستنكارها الشديدين للاعتداءين الإرهابيين اللذين نفذتهما ميليشيات الحوثي واستهدفا مرافق مطار الملك خالد الدولي وطائرة تابعة للخطوط الجوية السعودية في المملكة العربية السعودية الشقيقة ما أسفر عن مقتل ثلاثة مواطنين سعوديين وإصابة عدد من المواطنين والمقيمين.\n\nالصين والاتحاد الأوروبي يعززان الحوار لتجنب تصعيد تجاري منذ 36 دقيقة «الجنائية الدولية»: منح القاضية بيلاي نوبل السلام اعتراف ⁠مهم ‌بدور العدالة الدولية منذ 3 ساعات\n\nوأكدت الوزارة تضامن مملكة البحرين الكامل مع المملكة العربية السعودية الشقيقة ودعمها التام لكل ما تتخذه من إجراءات لصون سيادتها وأمنها واستقرارها وسلامة أراضيها وحماية مواطنيها والمقيمين على أراضيها وحقها في الدفاع عن النفس وفقا للمادة (51) من ميثاق الأمم المتحدة.\n\nوأعربت عن خالص التعازي وصادق المواساة للمملكة العربية السعودية ولأسر وذوي الضحايا سائلة المولى عز وجل أن يتغمدهم بواسع رحمته ومتمنية للمصابين الشفاء العاجل.\n\nوشددت وزارة الخارجية على دعوة مملكة البحرين لمجلس الأمن إلى اتخاذ موقف حازم لإيقاف الاعتداءات الإرهابية الحوثية المتكررة على الأعيان والمنشآت والمطارات المدنية ومحاسبة مرتكبيها وضمان التنفيذ الكامل لقرارات مجلس الأمن ذات الصلة وفي مقدمتها القراران (2216) و(2817) بما يكفل حماية المدنيين وصون الأمن والسلم الإقليميين والدوليين.",
-     "published": "2026-10-09T17:46:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الكويت تدين الاعتداءات السافرة لميليشيا الحوثي على مطار الملك خالد الدولي في السعودية: انتهاك صارخ لسيادة المملكة",
-     "url": "https://www.alanba.com.kw/1379947",
-     "section": "kuwait",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-09T14:43:39+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "دولة الكويت تدين وتستنكر بشدة اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي بالرياض",
-     "url": "https://kuwaitnews.com/136798/",
-     "section": "latest",
-     "summary": "أعربت وزارة الخارجية اليوم الجمعة عن إدانة دولة الكويت واستنكارها الشديدين للاعتداءات السافرة التي شنتها ميليشيا الحوثي على مطار الملك خالد الدولي في المملكة العربية السعودية الشقيقة امس الخميس. وأكدت (الخارجية) في بيان أن تلك الاعتداءات التي استهدفت مرافق المطار […]\n\nThe post دولة الكويت تدين وتستنكر بشدة اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي بالرياض appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-10-09T14:30:36+00:00",
-     "tier": 2
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "البديوي يُدين الهجوم الحوثي الإرهابي على مطار الملك خالد الدولي بالرياض",
-     "url": "https://www.aljarida.com/article/146952",
-     "section": "world",
-     "summary": "أعرب الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي اليوم الجمعة عن بالغ استنكاره وإدانته القاطعة للهجوم الإرهابي الذي أقدمت عليه ميليشيات الحوثي باستهداف مطار الملك خ...",
-     "body": "",
-     "published": "2026-10-09T15:36:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الكويت تُدين الاعتداءات الحوثية السافرة على مطار الملك خالد: أمن السعودية من أمننا",
-     "url": "https://www.aljarida.com/article/146948",
-     "section": "latest",
-     "summary": "أعربت وزارة الخارجية عن إدانة دولة الكويت واستنكارها الشديدين للاعتداءات السافرة التي شنتها ميليشيا الحوثي على مطار الملك خالد الدولي في المملكة العربية السعودية الشقيقة أمس.واستهد...",
-     "body": "",
-     "published": "2026-10-09T14:11:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت تستنكر بشدة الاعتداءات الحوثية السافرة على مطار الملك خالد في السعودية",
-     "url": "https://www.alraimedia.com/article/1782137/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D9%86%D9%83%D8%B1-%D8%A8%D8%B4%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%81%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "أعربت وزارة الخارجية عن إدانة دولة الكويت واستنكارها الشديدين للاعتداءات السافرة التي شنتها ميليشيا الحوثي على مطار الملك خالد الدولي في المملكة العربية السعودية الشقيقة بتاريخ 8 أ...",
-     "body": "",
-     "published": "2026-10-09T14:10:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الأردن يدين اعتداء ميليشيا الحوثي على مطار الملك خالد الدولي في الرياض",
-     "url": "https://www.alanba.com.kw/1379945",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-09T10:58:21+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "السعودية: استشهاد 3 مواطنين سعوديين في اعتداءين على مطار الملك خالد الدولي",
-     "url": "https://www.alanba.com.kw/1379937",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-09T08:40:16+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "السعودية: ‏اعتداءان يستهدفان مرافق مطار الملك خالد وطائرة للخطوط السعودية",
-     "url": "https://www.alraimedia.com/article/1782128/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D9%86-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A7%D9%86-%D9%85%D8%B1%D8%A7%D9%81%D9%82-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%AE%D8%A7%D9%84%D8%AF-%D9%88%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعلنت الهيئة العامة للطيران المدني في السعودية \"تعرض مطار الملك خالد الدولي لاعتداءين أمس الخميس، حيث استهدف الاعتداء الأول مرافق المطار، فيما استهدف الاعتداء الثاني طائرة تابعة لل...",
-     "body": "",
-     "published": "2026-10-09T10:49:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Gulf States and Kuwait Condemn Houthi Attacks on King Khalid International Airport and Saudi Aircraft",
-    "headline_ar": "دول الخليج والكويت تدين اعتداءات ميليشيا الحوثي على مطار الملك خالد الدولي وطائرة سعودية",
-    "summary_en": "Houthi forces carried out two attacks on King Khalid International Airport in Riyadh and a Saudi Airlines aircraft, resulting in the deaths of three Saudi citizens and injuries to others. Bahrain, Qatar, Jordan, and Kuwait issued formal condemnations, with Bahrain explicitly calling on the UN Security Council to enforce resolutions 2216 and 2817.",
-    "summary_ar": "نفذت ميليشيا الحوثي هجومين على مطار الملك خالد الدولي في الرياض وطائرة تابعة للخطوط السعودية، مما أسفر عن مقتل ثلاثة مواطنين سعوديين وإصابة آخرين. أصدرت البحرين وقطر والأردن والكويت إدانات رسمية، حيث دعت البحرين صراحةً مجلس الأمن إلى فرض قراراته 2216 و2817.",
-    "why_it_matters_en": "The explicit invocation of UN Security Council resolutions 2216 and 2817 by Bahrain signals a shift from diplomatic condemnation to a demand for international legal enforcement, potentially escalating the regional security framework and affecting Kuwait's strategic alignment with Saudi defense interests.",
-    "why_it_matters_ar": "الإشارة الصريحة من قبل البحرين إلى قرارات مجلس الأمن 2216 و2817 تشير إلى تحول من الإدانة الدبلوماسية إلى المطالبة بتطبيق قانوني دولي، مما قد يرفع من حدة الإطار الأمني الإقليمي ويؤثر على المواءمة الاستراتيجية للكويت مع مصالح الدفاع السعودية.",
-    "between_the_lines_en": "The divergence in attribution is notable: while Kuwait's statement (via Al-Jarida and Al-Rai) uses standard diplomatic language ('blatant violation of sovereignty'), Bahrain's statement (via Al-Rai) is the only one in the provided text that explicitly cites specific UN Security Council resolutions (2216, 2817) and Article 51 of the UN Charter. This suggests Bahrain is positioning itself as the primary diplomatic driver for internationalizing the conflict, whereas Kuwait is maintaining a supportive but legally cautious stance. The absence of any mention of a direct military response or 'red line' crossing in the Kuwaiti statements, despite the high-profile target (Riyadh airport), indicates a preference for diplomatic containment over immediate military escalation rhetoric.",
-    "between_the_lines_ar": "يلاحظ تباين في مصادر الخبر: بينما استخدمت الكويت (عبر الجريدة والرأي) لغة دبلوماسية قياسية ('انتهاك صارخ للسيادة')، فإن بيان البحرين (عبر الرأي) هو الوحيد في النص المقدم الذي يستشهد صراحةً بقرارات مجلس الأمن (2216، 2817) والمادة 51 من ميثاق الأمم المتحدة. هذا يشير إلى أن البحرين تضع نفسها كقائد دبلوماسي رئيسي لتدويل الصراع، في حين تحتفظ الكويت بموقف داعم لكن حذر قانونياً. غياب أي ذكر لرد عسكري مباشر أو 'تجاوز خط أحمر' في البيانات الكويتية، رغم استهداف هدف بارز (مطار الرياض)، يدل على تفضيل الاحتواء الدبلوماسي على التصعيد العسكري اللفظي الفوري.",
-    "watch_next_en": "Monitor for any follow-up statements from the Kuwaiti Ministry of Foreign Affairs that explicitly reference the UN Security Council resolutions cited by Bahrain, or any changes in Kuwaiti military posture or diplomatic communications with Riyadh regarding joint defense mechanisms.",
-    "watch_next_ar": "راقب أي بيانات متابعة من وزارة الخارجية الكويتية تشير صراحةً إلى قرارات مجلس الأمن التي استشهدت بها البحرين، أو أي تغييرات في الموقف العسكري الكويتي أو الاتصالات الدبلوماسية مع الرياض بشأن آليات الدفاع المشترك.",
-    "confidence": "high",
-    "confidence_reason": "The specific legal citations in the Bahraini statement versus the general diplomatic language in the Kuwaiti statement are clearly visible in the provided text.",
-    "entities": [
-     "King Khalid International Airport",
-     "Saudi Airlines",
-     "Houthi Militia",
-     "Bahrain Ministry of Foreign Affairs",
-     "Kuwait Ministry of Foreign Affairs",
-     "UN Security Council"
-    ],
-    "tags": [
-     "Security",
-     "Houthi Attacks",
-     "Saudi Arabia",
-     "Diplomacy",
-     "UN Resolutions"
     ],
     "_source": "llm"
    }
@@ -681,83 +697,6 @@
    }
   },
   {
-   "key": "01b258f182e34d4b",
-   "score": 19.662,
-   "sources": [
-    "الأنباء",
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الرئيس التنفيذي بالوكالة لـ «ناقلات النفط»: نعتز بالتكريم الخليجي تقديراً لجهود الشركة في توطين العمالة الوطنية",
-     "url": "https://www.alanba.com.kw/1379950",
-     "section": "kuwait",
-     "summary": "نائب رئيس الوزراء البحريني الشيخ خالد بن عبدالله آل خليفة مكرما الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية الشيخ خالد أحمد المالك بحضور الأمين العام لمجلس التعاون الخليجي جاسم البديوي",
-     "body": "أكد أنه يشكل حافزاً لمواصلة العمل على تطوير الكوادر الوطنية وتأهيلها\n\nأكد الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية الشيخ خالد أحمد المالك اعتزازه بالتكريم الخليجي الذي حظي به تقديرا لدور الشركة في دعم سياسات توطين وإحلال العمالة الوطنية وتعزيز مشاركة الكفاءات الكويتية في سوق العمل. جاء ذلك في تصريح أدلى به الشيخ خالد الأحمد لـ «كونا» بمناسبة تكريمه من قبل نائب رئيس الوزراء البحريني الشيخ خالد بن عبدالله آل خليفة في احتفالية أقيمت الخميس بحضور نائب رئيس الوزراء ووزير الدولة لشؤون مجلس الوزراء شريدة المعوشرجي ورؤساء الوفود الخليجية المشاركة في الاجتماع الـ22 للجنة وزراء ورؤساء أجهزة الخدمة المدنية والاجتماع الـ12 للجنة وزراء العمل والاجتماع الـ12 للجنة وزراء الشؤون والتنمية الاجتماعية التي تستضيفها مملكة البحرين، والأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي. وأعرب الشيخ خالد الأحمد عن اعتزازه بهذا التكريم الذي يعكس تقدير الجهود المبذولة في دعم سياسات توطين وإحلال العمالة الوطنية وتعزيز مشاركة الكفاءات الكويتية في سوق العمل، مؤكدا أن هذا التقدير يشكل حافزا لمواصلة العمل على تطوير الكوادر الوطنية وتأهيلها بما يسهم في تحقيق الأهداف التنموية للدولة. وأشاد بالدور الذي تضطلع به مملكة البحرين الشقيقة في استضافة وتنظيم الفعاليات الخليجية وتعزيز مسيرة التعاون المشترك بين دول مجلس التعاون، معربا عن خالص شكره وتقديره للقائمين على الاحتفالية على هذا التكريم الذي يجسد الاهتمام الخليجي بتقدير الكفاءات الوطنية وإبراز إسهاماتها في تطوير بيئات العمل والارتقاء بالأداء المؤسسي. ويتميز القطاع النفطي الكويتي بدوره المحوري في دعم جهود توطين وإحلال العمالة الوطنية وتعزيز مشاركة الكفاءات الكويتية في سوق العمل من خلال توفير فرص العمل وتأهيل الكوادر الوطنية وتطوير مهاراتها وتهيئة بيئة عمل مناسبة تسهم في تعزيز حضور المواطنين بمختلف التخصصات والمجالات النفطية، بما يدعم مسيرة التنمية ويرسخ دور الكفاءات الوطنية في سوق العمل.",
-     "published": "2026-10-09T13:39:19+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الرئيس التنفيذي بالوكالة لناقلات النفط: نعتز بالتكريم الخليجي تقديراً لجهود الشركة في توطين العمالة الوطنية",
-     "url": "https://www.aljarida.com/article/146954",
-     "section": "economy",
-     "summary": "أكد الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية الشيخ خالد أحمد المالك الصباح اليوم الجمعة اعتزازه بالتكريم الخليجي الذي حظي به تقديرا لدور الشركة في دعم سياسات توطين وإحل...",
-     "body": "",
-     "published": "2026-10-09T16:10:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "خالد الصباح: نعتز بالتكريم الخليجي تقديرا لجهود «الناقلات» في توطين العمالة",
-     "url": "https://www.alraimedia.com/article/1782142/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D9%86%D8%B9%D8%AA%D8%B2-%D8%A8%D8%A7%D9%84%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%D8%A7-%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9",
-     "section": "economy",
-     "summary": "أكد الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الشيخ خالد أحمد المالك الصباح اليوم، اعتزازه بالتكريم الخليجي الذي حظي به تقديرا لدور الشركة في دعم سياسات توطين وإحلال العمالة الوط...",
-     "body": "",
-     "published": "2026-10-09T16:07:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "Kuwait Oil Tanker Company CEO Honored for Nationalization Efforts at GCC Meeting",
-    "headline_ar": "الرئيس التنفيذي بالوكالة لـ 'ناقلات النفط' الكويتية يتلقى تكريماً خليجياً لجهود توطين العمالة",
-    "summary_en": "Sheikh Khalid Ahmad Al-Malek, Acting CEO of Kuwait Oil Tanker Company (KOTC), was honored by Bahraini Deputy PM Sheikh Khalid bin Abdullah Al-Khalifa at a GCC meeting in Bahrain for the company's efforts in nationalizing the workforce. The award was presented during the 22nd meeting of GCC Ministers of Civil Service.",
-    "summary_ar": "تم تكريم الشيخ خالد أحمد المالك، الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية (KOTC)، من قبل نائب رئيس الوزراء البحريني الشيخ خالد بن عبدالله آل خليفة في اجتماع خليجي في البحرين لجهود الشركة في توطين العمالة. تم تقديم الجائزة خلال الاجتماع الـ22 لوزراء الخدمة المدنية في مجلس التعاون.",
-    "why_it_matters_en": "This recognition highlights the success of Kuwait's 'Kuwaitization' policy in the critical oil sector, a key pillar of the National Development Vision. It demonstrates that state-owned enterprises are meeting nationalization targets, which is a political priority for the government and a source of pride for the leadership, potentially influencing future labor policies and budget allocations for training.",
-    "why_it_matters_ar": "يبرز هذا التكريم نجاح سياسة 'التكويت' في قطاع النفط الحساس، وهو ركيزة أساسية من رؤية التنمية الوطنية. يوضح أن المؤسسات المملوكة للدولة تحقق أهداف التوطين، وهو أولوية سياسية للحكومة ومصدر فخر للقيادة، مما قد يؤثر على سياسات العمل المستقبلية وتخصيصات الميزانية للتدريب.",
-    "between_the_lines_en": "The fact that the CEO is 'Acting' (بالوكالة) is a subtle detail. It suggests that the permanent CEO position may be vacant or in transition, yet the company is still achieving high-profile nationalization goals. This could imply that the current leadership is effective despite the interim status, or that the nationalization drive is a top-down mandate that continues regardless of executive turnover. The presence of the Deputy PM and the GCC Secretary General at the ceremony elevates this from a corporate award to a political endorsement of Kuwait's labor policy by the entire GCC bloc.",
-    "between_the_lines_ar": "الحقيقة أن الرئيس التنفيذي هو 'بالوكالة' هي تفصيلة خفية. تشير إلى أن منصب الرئيس التنفيذي الدائم قد يكون شاغراً أو في مرحلة انتقالية، ومع ذلك فإن الشركة تحقق أهداف توطين بارزة. قد يوحي هذا بأن القيادة الحالية فعالة على الرغم من الوضع المؤقت، أو أن حملة التوطين هي أمر صادر من الأعلى يستمر بغض النظر عن تقلبات الإدارة. حضور نائب رئيس الوزراء والأمين العام لمجلس التعاون في الحفل يرفع هذا من جائزة مؤسسية إلى تأييد سياسي لسياسة العمل الكويتية من قبل كتلة مجلس التعاون بأكملها.",
-    "watch_next_en": "Monitor for announcements regarding the appointment of a permanent CEO for KOTC, and watch for any new government initiatives or budget allocations specifically aimed at furthering nationalization in the oil sector, potentially linked to this recognition.",
-    "watch_next_ar": "راقب الإعلانات المتعلقة بتعيين رئيس تنفيذي دائم لشركة ناقلات النفط، وانتظر أي مبادرات حكومية جديدة أو تخصيصات ميزانية تهدف بشكل محدد إلى تعزيز التوطين في قطاع النفط، ربما مرتبطة بهذا التكريم.",
-    "confidence": "medium",
-    "confidence_reason": "The 'Acting' status is a factual detail from the text, but the inference about political endorsement and transition is interpretive based on the high-level attendees.",
-    "entities": [
-     "Sheikh Khalid Ahmad Al-Malek",
-     "Kuwait Oil Tanker Company (KOTC)",
-     "Sheikh Khalid bin Abdullah Al-Khalifa",
-     "GCC"
-    ],
-    "tags": [
-     "Economy",
-     "Labor",
-     "Kuwaitization",
-     "Oil Sector",
-     "GCC"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "9480ae83fcd215f3",
    "score": 19.357,
    "sources": [
@@ -833,8 +772,85 @@
    }
   },
   {
+   "key": "01b258f182e34d4b",
+   "score": 18.762,
+   "sources": [
+    "الأنباء",
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الرئيس التنفيذي بالوكالة لـ «ناقلات النفط»: نعتز بالتكريم الخليجي تقديراً لجهود الشركة في توطين العمالة الوطنية",
+     "url": "https://www.alanba.com.kw/1379950",
+     "section": "kuwait",
+     "summary": "نائب رئيس الوزراء البحريني الشيخ خالد بن عبدالله آل خليفة مكرما الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية الشيخ خالد أحمد المالك بحضور الأمين العام لمجلس التعاون الخليجي جاسم البديوي",
+     "body": "أكد أنه يشكل حافزاً لمواصلة العمل على تطوير الكوادر الوطنية وتأهيلها\n\nأكد الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية الشيخ خالد أحمد المالك اعتزازه بالتكريم الخليجي الذي حظي به تقديرا لدور الشركة في دعم سياسات توطين وإحلال العمالة الوطنية وتعزيز مشاركة الكفاءات الكويتية في سوق العمل. جاء ذلك في تصريح أدلى به الشيخ خالد الأحمد لـ «كونا» بمناسبة تكريمه من قبل نائب رئيس الوزراء البحريني الشيخ خالد بن عبدالله آل خليفة في احتفالية أقيمت الخميس بحضور نائب رئيس الوزراء ووزير الدولة لشؤون مجلس الوزراء شريدة المعوشرجي ورؤساء الوفود الخليجية المشاركة في الاجتماع الـ22 للجنة وزراء ورؤساء أجهزة الخدمة المدنية والاجتماع الـ12 للجنة وزراء العمل والاجتماع الـ12 للجنة وزراء الشؤون والتنمية الاجتماعية التي تستضيفها مملكة البحرين، والأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي. وأعرب الشيخ خالد الأحمد عن اعتزازه بهذا التكريم الذي يعكس تقدير الجهود المبذولة في دعم سياسات توطين وإحلال العمالة الوطنية وتعزيز مشاركة الكفاءات الكويتية في سوق العمل، مؤكدا أن هذا التقدير يشكل حافزا لمواصلة العمل على تطوير الكوادر الوطنية وتأهيلها بما يسهم في تحقيق الأهداف التنموية للدولة. وأشاد بالدور الذي تضطلع به مملكة البحرين الشقيقة في استضافة وتنظيم الفعاليات الخليجية وتعزيز مسيرة التعاون المشترك بين دول مجلس التعاون، معربا عن خالص شكره وتقديره للقائمين على الاحتفالية على هذا التكريم الذي يجسد الاهتمام الخليجي بتقدير الكفاءات الوطنية وإبراز إسهاماتها في تطوير بيئات العمل والارتقاء بالأداء المؤسسي. ويتميز القطاع النفطي الكويتي بدوره المحوري في دعم جهود توطين وإحلال العمالة الوطنية وتعزيز مشاركة الكفاءات الكويتية في سوق العمل من خلال توفير فرص العمل وتأهيل الكوادر الوطنية وتطوير مهاراتها وتهيئة بيئة عمل مناسبة تسهم في تعزيز حضور المواطنين بمختلف التخصصات والمجالات النفطية، بما يدعم مسيرة التنمية ويرسخ دور الكفاءات الوطنية في سوق العمل.",
+     "published": "2026-10-09T13:39:19+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الرئيس التنفيذي بالوكالة لناقلات النفط: نعتز بالتكريم الخليجي تقديراً لجهود الشركة في توطين العمالة الوطنية",
+     "url": "https://www.aljarida.com/article/146954",
+     "section": "economy",
+     "summary": "أكد الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية الشيخ خالد أحمد المالك الصباح اليوم الجمعة اعتزازه بالتكريم الخليجي الذي حظي به تقديرا لدور الشركة في دعم سياسات توطين وإحل...",
+     "body": "",
+     "published": "2026-10-09T16:10:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "خالد الصباح: نعتز بالتكريم الخليجي تقديرا لجهود «الناقلات» في توطين العمالة",
+     "url": "https://www.alraimedia.com/article/1782142/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D9%86%D8%B9%D8%AA%D8%B2-%D8%A8%D8%A7%D9%84%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC%D9%8A-%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%D8%A7-%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9",
+     "section": "latest",
+     "summary": "أكد الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الشيخ خالد أحمد المالك الصباح اليوم، اعتزازه بالتكريم الخليجي الذي حظي به تقديرا لدور الشركة في دعم سياسات توطين وإحلال العمالة الوط...",
+     "body": "",
+     "published": "2026-10-09T16:07:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "Kuwait Oil Tanker Company CEO Honored for Nationalization Efforts at GCC Meeting",
+    "headline_ar": "الرئيس التنفيذي بالوكالة لـ 'ناقلات النفط' الكويتية يتلقى تكريماً خليجياً لجهود توطين العمالة",
+    "summary_en": "Sheikh Khalid Ahmad Al-Malek, Acting CEO of Kuwait Oil Tanker Company (KOTC), was honored by Bahraini Deputy PM Sheikh Khalid bin Abdullah Al-Khalifa at a GCC meeting in Bahrain for the company's efforts in nationalizing the workforce. The award was presented during the 22nd meeting of GCC Ministers of Civil Service.",
+    "summary_ar": "تم تكريم الشيخ خالد أحمد المالك، الرئيس التنفيذي بالوكالة لشركة ناقلات النفط الكويتية (KOTC)، من قبل نائب رئيس الوزراء البحريني الشيخ خالد بن عبدالله آل خليفة في اجتماع خليجي في البحرين لجهود الشركة في توطين العمالة. تم تقديم الجائزة خلال الاجتماع الـ22 لوزراء الخدمة المدنية في مجلس التعاون.",
+    "why_it_matters_en": "This recognition highlights the success of Kuwait's 'Kuwaitization' policy in the critical oil sector, a key pillar of the National Development Vision. It demonstrates that state-owned enterprises are meeting nationalization targets, which is a political priority for the government and a source of pride for the leadership, potentially influencing future labor policies and budget allocations for training.",
+    "why_it_matters_ar": "يبرز هذا التكريم نجاح سياسة 'التكويت' في قطاع النفط الحساس، وهو ركيزة أساسية من رؤية التنمية الوطنية. يوضح أن المؤسسات المملوكة للدولة تحقق أهداف التوطين، وهو أولوية سياسية للحكومة ومصدر فخر للقيادة، مما قد يؤثر على سياسات العمل المستقبلية وتخصيصات الميزانية للتدريب.",
+    "between_the_lines_en": "The fact that the CEO is 'Acting' (بالوكالة) is a subtle detail. It suggests that the permanent CEO position may be vacant or in transition, yet the company is still achieving high-profile nationalization goals. This could imply that the current leadership is effective despite the interim status, or that the nationalization drive is a top-down mandate that continues regardless of executive turnover. The presence of the Deputy PM and the GCC Secretary General at the ceremony elevates this from a corporate award to a political endorsement of Kuwait's labor policy by the entire GCC bloc.",
+    "between_the_lines_ar": "الحقيقة أن الرئيس التنفيذي هو 'بالوكالة' هي تفصيلة خفية. تشير إلى أن منصب الرئيس التنفيذي الدائم قد يكون شاغراً أو في مرحلة انتقالية، ومع ذلك فإن الشركة تحقق أهداف توطين بارزة. قد يوحي هذا بأن القيادة الحالية فعالة على الرغم من الوضع المؤقت، أو أن حملة التوطين هي أمر صادر من الأعلى يستمر بغض النظر عن تقلبات الإدارة. حضور نائب رئيس الوزراء والأمين العام لمجلس التعاون في الحفل يرفع هذا من جائزة مؤسسية إلى تأييد سياسي لسياسة العمل الكويتية من قبل كتلة مجلس التعاون بأكملها.",
+    "watch_next_en": "Monitor for announcements regarding the appointment of a permanent CEO for KOTC, and watch for any new government initiatives or budget allocations specifically aimed at furthering nationalization in the oil sector, potentially linked to this recognition.",
+    "watch_next_ar": "راقب الإعلانات المتعلقة بتعيين رئيس تنفيذي دائم لشركة ناقلات النفط، وانتظر أي مبادرات حكومية جديدة أو تخصيصات ميزانية تهدف بشكل محدد إلى تعزيز التوطين في قطاع النفط، ربما مرتبطة بهذا التكريم.",
+    "confidence": "medium",
+    "confidence_reason": "The 'Acting' status is a factual detail from the text, but the inference about political endorsement and transition is interpretive based on the high-level attendees.",
+    "entities": [
+     "Sheikh Khalid Ahmad Al-Malek",
+     "Kuwait Oil Tanker Company (KOTC)",
+     "Sheikh Khalid bin Abdullah Al-Khalifa",
+     "GCC"
+    ],
+    "tags": [
+     "Economy",
+     "Labor",
+     "Kuwaitization",
+     "Oil Sector",
+     "GCC"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "0c44dddbfb6257af",
-   "score": 18.359,
+   "score": 17.759,
    "sources": [
     "كويت نيوز",
     "الأنباء",
@@ -986,7 +1002,7 @@
   },
   {
    "key": "89cfb2b6acbc3773",
-   "score": 15.909,
+   "score": 16.509,
    "sources": [
     "الأنباء",
     "الجريدة",
@@ -1036,7 +1052,7 @@
      "lang": "ar",
      "title": "«التحالف»: دمرنا 3 منصات إطلاق للصواريخ تستخدمها الميليشيا الحوثية لتهديد الأمن الاقليمي",
      "url": "https://www.alraimedia.com/article/1782129/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AF%D9%85%D8%B1%D9%86%D8%A7-3-%D9%85%D9%86%D8%B5%D8%A7%D8%AA-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%84%D9%84%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%AA%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D9%82%D9%84%D9%8A%D9%85%D9%8A",
-     "section": "world",
+     "section": "latest",
      "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي تدمير 3 منصات اطلاق للصواريخ تستخدمها الميليشيا الحوثية لتهديد الأمن الاقليمي. وقال: ال...",
      "body": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي تدمير 3 منصات اطلاق للصواريخ تستخدمها الميليشيا الحوثية لتهديد الأمن الاقليمي.\n\nالسعودية: ‏اعتداءان يستهدفان مرافق مطار الملك خالد وطائرة للخطوط السعودية منذ ساعة عُمان تدين استهداف مطاري أبها والملك خالد وترفض تعريض أمن المملكة للخطر منذ 16 ساعة",
      "published": "2026-10-09T11:32:00+03:00",
@@ -1075,7 +1091,7 @@
   },
   {
    "key": "d734bf16f3b551b0",
-   "score": 15.159,
+   "score": 14.359,
    "sources": [
     "الأنباء",
     "الرأي"
@@ -1330,6 +1346,71 @@
    }
   },
   {
+   "key": "993e66e4549b3bcd",
+   "score": 10.759,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب: روسيا ستزود أميركا والأسواق العالمية بالديزل",
+     "url": "https://www.alraimedia.com/article/1782159/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%B3%D8%AA%D8%B2%D9%88%D8%AF-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84",
+     "section": "latest",
+     "summary": "قال الرئيس الأميركي ​دونالد ترامب اليوم الجمعة إن روسيا وافقت على توريد أكثر من 300 ألف طن ⁠من وقود الديزل على الفور إلى الولايات المتحدة والأسواق العالمية، في ​خطوة تستهدف خفض أسع...",
+     "body": "",
+     "published": "2026-10-09T23:42:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "ترامب: أميركا ستستورد الديزل من روسيا",
+     "url": "https://www.aljarida.com/article/146974",
+     "section": "world",
+     "summary": "قال الرئيس الأميركي دونالد ترامب إن الولايات المتحدة ستستورد الديزل من روسيا، ما يخفف الضغط الأميركي المستمر منذ سنوات على موسكو وتهدف الخطوة إلى كبح جماح الأسعار قبيل انتخابات الت...",
+     "body": "• الاتفاق أُبرم بمكالمة هاتفية كانت ستناقش الاشتباه بالطاعون بروسيا • بعد فرضه الشهر الماضي عقوبات واسعة عليها لتقييد اقتصادها\n\nقال الرئيس الأميركي دونالد ترامب إن الولايات المتحدة ستستورد الديزل من روسيا، ما يخفف الضغط الأميركي المستمر منذ سنوات على موسكو وتهدف الخطوة إلى كبح جماح الأسعار قبيل انتخابات التجديد النصفي.\n\nويأتي إعلان ترامب الصادم بعد أن وقّع الشهر الماضي قانونا واسعا لفرض عقوبات على روسيا يهدف إلى تقييد اقتصادها في مجال الطاقة، من بين مجالات أخرى، الذي يغذي حربها ضد أوكرانيا. ويفرض القانون عقوبات على مسؤولين روس وبنوك وأسطول الظل من ناقلات النفط، ويحظر أي استثمار أمريكي جديد في روسيا والتعامل مع الديون السيادية.",
+     "published": "2026-10-09T22:49:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Trump: Russia will supply America and global markets with diesel",
+    "headline_ar": "ترامب: روسيا ستزود أميركا والأسواق العالمية بالديزل",
+    "summary_en": "US President Donald Trump announced that the US will import diesel from Russia, a move intended to curb prices ahead of mid-term elections. This decision comes shortly after the US signed a broad sanctions law targeting Russia's energy sector, creating a significant contradiction in US policy.",
+    "summary_ar": "أعلن الرئيس الأمريكي دونالد ترامب أن الولايات المتحدة ستستورد الديزل من روسيا، وهي خطوة تهدف إلى كبح الأسعار قبيل انتخابات التجديد النصفي. يأتي هذا القرار بعد وقت قصير من توقيع الولايات المتحدة قانوناً واسعاً للعقوبات يستهدف قطاع الطاقة الروسي، مما يخلق تناقضاً كبيراً في السياسة الأمريكية.",
+    "why_it_matters_en": "This policy reversal undermines the effectiveness of recent US sanctions on Russia and could destabilize global energy markets. For Kuwait, it signals a potential shift in US energy diplomacy that may affect OPEC+ dynamics and the pricing power of Gulf oil producers, as US demand for Russian diesel reduces the need for alternative sources.",
+    "why_it_matters_ar": "يضعف هذا التراجع عن السياسة فعالية العقوبات الأمريكية الأخيرة على روسيا وقد يزعزع استقرار أسواق الطاقة العالمية. بالنسبة للكويت، يشير إلى تحول محتمل في الدبلوماسية الأمريكية للطاقة قد يؤثر على ديناميكيات أوبك+ وقوة تسعير منتجي النفط الخليجيين، حيث يقلل الطلب الأمريكي على الديزل الروسي الحاجة إلى مصادر بديلة.",
+    "between_the_lines_en": "The headline emphasizes the 'shocking' nature of the announcement, while the body notes it was made during a call about plague suspicions, suggesting a lack of formal diplomatic protocol. The contradiction with the recent sanctions law implies a transactional approach to energy policy driven by domestic political pressure (mid-term elections) rather than strategic consistency. This could weaken the leverage of Gulf states in negotiating energy deals with the US.",
+    "between_the_lines_ar": "يؤكد العنوان على الطبيعة 'المفاجئة' للإعلان، بينما يشير النص إلى أنه تم خلال مكالمة حول اشتباه بالطاعون، مما يوحي بعدم وجود بروتوكول دبلوماسي رسمي. التناقض مع قانون العقوبات الأخير يوحي بنهج تبادلي في سياسة الطاقة مدفوع بالضغط السياسي الداخلي (الانتخابات النصافية) بدلاً من الاتساق الاستراتيجي. قد يضعف هذا من نفوذ الدول الخليجية في التفاوض على صفقات الطاقة مع الولايات المتحدة.",
+    "watch_next_en": "Watch for official US State Department or Treasury clarifications on how this diesel import aligns with the new sanctions law, and any reaction from OPEC+ members regarding market stability.",
+    "watch_next_ar": "راقب توضيحات رسمية من وزارة الخارجية أو الخزانة الأمريكية حول كيفية توافق استيراد الديزل مع قانون العقوبات الجديد، وأي رد فعل من أعضاء أوبك+ بشأن استقرار السوق.",
+    "confidence": "medium",
+    "confidence_reason": "The source is a brief report on a political statement with limited context on the specific terms of the trade deal.",
+    "entities": [
+     "Donald Trump",
+     "Russia",
+     "United States",
+     "Diesel",
+     "Sanctions"
+    ],
+    "tags": [
+     "Energy",
+     "US-Russia Relations",
+     "Sanctions",
+     "Politics",
+     "Oil Markets"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "90e09a4f9251a55a",
    "score": 10.455,
    "sources": [
@@ -1396,66 +1477,64 @@
    }
   },
   {
-   "key": "993e66e4549b3bcd",
-   "score": 10.159,
+   "key": "3ac8ae8d66bb308e",
+   "score": 10.155,
    "sources": [
-    "الرأي",
-    "الجريدة"
+    "الجريدة",
+    "الرأي"
    ],
    "outlet_count": 2,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب: روسيا ستزود أميركا والأسواق العالمية بالديزل",
-     "url": "https://www.alraimedia.com/article/1782159/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%B3%D8%AA%D8%B2%D9%88%D8%AF-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84",
-     "section": "world",
-     "summary": "قال الرئيس الأميركي ​دونالد ترامب اليوم الجمعة إن روسيا وافقت على توريد أكثر من 300 ألف طن ⁠من وقود الديزل على الفور إلى الولايات المتحدة والأسواق العالمية، في ​خطوة تستهدف خفض أسع...",
-     "body": "",
-     "published": "2026-10-09T23:42:00+03:00",
-     "tier": 1
-    },
-    {
      "source_id": "aljarida",
      "source_name": "الجريدة",
      "lang": "ar",
-     "title": "ترامب: أميركا ستستورد الديزل من روسيا",
-     "url": "https://www.aljarida.com/article/146974",
+     "title": "«المسح الجيولوجي» الأميركية: زلزال بقوة 8 درجات يهزّ بنما",
+     "url": "https://www.aljarida.com/article/146968",
      "section": "world",
-     "summary": "قال الرئيس الأميركي دونالد ترامب إن الولايات المتحدة ستستورد الديزل من روسيا، ما يخفف الضغط الأميركي المستمر منذ سنوات على موسكو وتهدف الخطوة إلى كبح جماح الأسعار قبيل انتخابات الت...",
-     "body": "• الاتفاق أُبرم بمكالمة هاتفية كانت ستناقش الاشتباه بالطاعون بروسيا • بعد فرضه الشهر الماضي عقوبات واسعة عليها لتقييد اقتصادها\n\nقال الرئيس الأميركي دونالد ترامب إن الولايات المتحدة ستستورد الديزل من روسيا، ما يخفف الضغط الأميركي المستمر منذ سنوات على موسكو وتهدف الخطوة إلى كبح جماح الأسعار قبيل انتخابات التجديد النصفي.\n\nويأتي إعلان ترامب الصادم بعد أن وقّع الشهر الماضي قانونا واسعا لفرض عقوبات على روسيا يهدف إلى تقييد اقتصادها في مجال الطاقة، من بين مجالات أخرى، الذي يغذي حربها ضد أوكرانيا. ويفرض القانون عقوبات على مسؤولين روس وبنوك وأسطول الظل من ناقلات النفط، ويحظر أي استثمار أمريكي جديد في روسيا والتعامل مع الديون السيادية.",
-     "published": "2026-10-09T22:49:00+03:00",
+     "summary": "ذكر شهود ‌من رويترز ​أن ‌سكان ​بنما ‌سيتي، عاصمة ‌بنما، شعروا ​بزلزال قوي.وذكرت هيئة ​المسح ‌الجيولوجي الأميركية أن قوة الزلزال بلغت ثماني درجات، ⁠وأفادت ب...",
+     "body": "",
+     "published": "2026-10-09T21:31:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "زلزال بقوة 8 درجات يهز بنما",
+     "url": "https://www.alraimedia.com/article/1782151/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D8%A8%D9%82%D9%88%D8%A9-8-%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D9%8A%D9%87%D8%B2-%D8%A8%D9%86%D9%85%D8%A7",
+     "section": "latest",
+     "summary": "ذكر شهود من رويترز أن ⁠سكان بنما ⁠سيتي، عاصمة ⁠بنما، ‌شعروا بزلزال قوي.وذكرت هيئة ‌المسح الجيولوجي الأميركية أن ​قوة ⁠الزلزال بلغت ثماني درجات، ​وأفادت بأنه وقع ⁠على &zwn...",
+     "body": "ذكر شهود من رويترز أن ⁠سكان بنما ⁠سيتي، عاصمة ⁠بنما، ‌شعروا بزلزال قوي.\n\nوذكرت هيئة ‌المسح الجيولوجي الأميركية أن ​قوة ⁠الزلزال بلغت ثماني درجات، ​وأفادت بأنه وقع ⁠على ‌طول ​الساحل ‌الجنوبي للبلاد.\n\nالنيابة العامة الإماراتية عن حادثة «فلا دبي»: كانت ضمن مخطط إرهابي يستهدف مطار بن غوريون منذ ساعة ترامب: ترقبوا أخباراً مهمة في شأن الديزل منذ ساعتين",
+     "published": "2026-10-09T21:23:00+03:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
    "analysis": {
-    "headline_en": "Trump: Russia will supply America and global markets with diesel",
-    "headline_ar": "ترامب: روسيا ستزود أميركا والأسواق العالمية بالديزل",
-    "summary_en": "US President Donald Trump announced that the US will import diesel from Russia, a move intended to curb prices ahead of mid-term elections. This decision comes shortly after the US signed a broad sanctions law targeting Russia's energy sector, creating a significant contradiction in US policy.",
-    "summary_ar": "أعلن الرئيس الأمريكي دونالد ترامب أن الولايات المتحدة ستستورد الديزل من روسيا، وهي خطوة تهدف إلى كبح الأسعار قبيل انتخابات التجديد النصفي. يأتي هذا القرار بعد وقت قصير من توقيع الولايات المتحدة قانوناً واسعاً للعقوبات يستهدف قطاع الطاقة الروسي، مما يخلق تناقضاً كبيراً في السياسة الأمريكية.",
-    "why_it_matters_en": "This policy reversal undermines the effectiveness of recent US sanctions on Russia and could destabilize global energy markets. For Kuwait, it signals a potential shift in US energy diplomacy that may affect OPEC+ dynamics and the pricing power of Gulf oil producers, as US demand for Russian diesel reduces the need for alternative sources.",
-    "why_it_matters_ar": "يضعف هذا التراجع عن السياسة فعالية العقوبات الأمريكية الأخيرة على روسيا وقد يزعزع استقرار أسواق الطاقة العالمية. بالنسبة للكويت، يشير إلى تحول محتمل في الدبلوماسية الأمريكية للطاقة قد يؤثر على ديناميكيات أوبك+ وقوة تسعير منتجي النفط الخليجيين، حيث يقلل الطلب الأمريكي على الديزل الروسي الحاجة إلى مصادر بديلة.",
-    "between_the_lines_en": "The headline emphasizes the 'shocking' nature of the announcement, while the body notes it was made during a call about plague suspicions, suggesting a lack of formal diplomatic protocol. The contradiction with the recent sanctions law implies a transactional approach to energy policy driven by domestic political pressure (mid-term elections) rather than strategic consistency. This could weaken the leverage of Gulf states in negotiating energy deals with the US.",
-    "between_the_lines_ar": "يؤكد العنوان على الطبيعة 'المفاجئة' للإعلان، بينما يشير النص إلى أنه تم خلال مكالمة حول اشتباه بالطاعون، مما يوحي بعدم وجود بروتوكول دبلوماسي رسمي. التناقض مع قانون العقوبات الأخير يوحي بنهج تبادلي في سياسة الطاقة مدفوع بالضغط السياسي الداخلي (الانتخابات النصافية) بدلاً من الاتساق الاستراتيجي. قد يضعف هذا من نفوذ الدول الخليجية في التفاوض على صفقات الطاقة مع الولايات المتحدة.",
-    "watch_next_en": "Watch for official US State Department or Treasury clarifications on how this diesel import aligns with the new sanctions law, and any reaction from OPEC+ members regarding market stability.",
-    "watch_next_ar": "راقب توضيحات رسمية من وزارة الخارجية أو الخزانة الأمريكية حول كيفية توافق استيراد الديزل مع قانون العقوبات الجديد، وأي رد فعل من أعضاء أوبك+ بشأن استقرار السوق.",
-    "confidence": "medium",
-    "confidence_reason": "The source is a brief report on a political statement with limited context on the specific terms of the trade deal.",
+    "headline_en": "USGS: Magnitude 8 earthquake hits Panama",
+    "headline_ar": "«المسح الجيولوجي» الأميركية: زلزال بقوة 8 درجات يهزّ بنما",
+    "summary_en": "The US Geological Survey reported a magnitude 8 earthquake along the southern coast of Panama. Witnesses in Panama City reported feeling the strong tremors. The report was published alongside other news items, including updates on the Flydubai incident and Trump's diesel remarks.",
+    "summary_ar": "أفادت هيئة المسح الجيولوجي الأمريكية بوقوع زلزال بقوة 8 درجات على طول الساحل الجنوبي لبنما. وشعر سكان مدينة بنما بالهزات القوية. نُشر التقرير إلى جانب أخبار أخرى، بما في ذلك مستجدات حادثة فلاي دبي وتعليقات ترامب حول الديزل.",
+    "why_it_matters_en": "While primarily a regional event, a magnitude 8 earthquake in the Panama region can have global implications for shipping routes through the Panama Canal, which is a critical artery for global trade. Any disruption could affect logistics and supply chains, including those relevant to Kuwait's import/export activities.",
+    "why_it_matters_ar": "على الرغم من كونها حدثاً إقليمياً في المقام الأول، يمكن أن يكون لزلزال بقوة 8 درجات في منطقة بنما آثار عالمية على مسارات الشحن عبر قناة بنما، التي تعد شرياناً حيوياً للتجارة العالمية. أي اضطراب قد يؤثر على سلاسل التوريد واللوجستيات، بما في ذلك تلك ذات الصلة بأنشطة الاستيراد والتصدير في الكويت.",
+    "between_the_lines_en": "The story is a brief wire report with no local Kuwaiti angle. Its placement alongside major political and security news suggests it is being treated as a standard international update rather than a priority story. The lack of details on damage or casualties in the supplied text indicates that the immediate impact is still being assessed, and the story is likely to be updated as more information becomes available.",
+    "between_the_lines_ar": "القصة هي تقرير سلكي موجز لا يحتوي على زاوية كويتية محلية. وضعها إلى جانب أخبار سياسية وأمنية كبرى يوحي بأنها تُعامل كتحديث دولي قياسي وليس قصة ذات أولوية. غياب التفاصيل حول الأضرار أو الضحايا في النص المقدم يشير إلى أن التأثير الفوري لا يزال قيد التقييم، ومن المرجح أن يتم تحديث القصة مع توفر المزيد من المعلومات.",
+    "watch_next_en": "Monitor for any disruptions to shipping through the Panama Canal and updates on the earthquake's impact on infrastructure in the region.",
+    "watch_next_ar": "راقب أي اضطرابات في الشحن عبر قناة بنما وتحديثات حول تأثير الزلزال على البنية التحتية في المنطقة.",
+    "confidence": "high",
+    "confidence_reason": "The source is a factual wire report with no subtext beyond its standard placement in the news cycle.",
     "entities": [
-     "Donald Trump",
-     "Russia",
-     "United States",
-     "Diesel",
-     "Sanctions"
+     "USGS",
+     "Panama",
+     "Panama City",
+     "Earthquake"
     ],
     "tags": [
-     "Energy",
-     "US-Russia Relations",
-     "Sanctions",
-     "Politics",
-     "Oil Markets"
+     "Natural Disaster",
+     "Panama",
+     "Geology",
+     "International News"
     ],
     "_source": "llm"
    }
@@ -1520,69 +1599,6 @@
      "Sports",
      "Government Policy",
      "Content Creation"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "3ac8ae8d66bb308e",
-   "score": 9.555,
-   "sources": [
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«المسح الجيولوجي» الأميركية: زلزال بقوة 8 درجات يهزّ بنما",
-     "url": "https://www.aljarida.com/article/146968",
-     "section": "world",
-     "summary": "ذكر شهود ‌من رويترز ​أن ‌سكان ​بنما ‌سيتي، عاصمة ‌بنما، شعروا ​بزلزال قوي.وذكرت هيئة ​المسح ‌الجيولوجي الأميركية أن قوة الزلزال بلغت ثماني درجات، ⁠وأفادت ب...",
-     "body": "",
-     "published": "2026-10-09T21:31:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "زلزال بقوة 8 درجات يهز بنما",
-     "url": "https://www.alraimedia.com/article/1782151/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D8%A8%D9%82%D9%88%D8%A9-8-%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D9%8A%D9%87%D8%B2-%D8%A8%D9%86%D9%85%D8%A7",
-     "section": "world",
-     "summary": "ذكر شهود من رويترز أن ⁠سكان بنما ⁠سيتي، عاصمة ⁠بنما، ‌شعروا بزلزال قوي.وذكرت هيئة ‌المسح الجيولوجي الأميركية أن ​قوة ⁠الزلزال بلغت ثماني درجات، ​وأفادت بأنه وقع ⁠على &zwn...",
-     "body": "ذكر شهود من رويترز أن ⁠سكان بنما ⁠سيتي، عاصمة ⁠بنما، ‌شعروا بزلزال قوي.\n\nوذكرت هيئة ‌المسح الجيولوجي الأميركية أن ​قوة ⁠الزلزال بلغت ثماني درجات، ​وأفادت بأنه وقع ⁠على ‌طول ​الساحل ‌الجنوبي للبلاد.\n\nالنيابة العامة الإماراتية عن حادثة «فلا دبي»: كانت ضمن مخطط إرهابي يستهدف مطار بن غوريون منذ ساعة ترامب: ترقبوا أخباراً مهمة في شأن الديزل منذ ساعتين",
-     "published": "2026-10-09T21:23:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "USGS: Magnitude 8 earthquake hits Panama",
-    "headline_ar": "«المسح الجيولوجي» الأميركية: زلزال بقوة 8 درجات يهزّ بنما",
-    "summary_en": "The US Geological Survey reported a magnitude 8 earthquake along the southern coast of Panama. Witnesses in Panama City reported feeling the strong tremors. The report was published alongside other news items, including updates on the Flydubai incident and Trump's diesel remarks.",
-    "summary_ar": "أفادت هيئة المسح الجيولوجي الأمريكية بوقوع زلزال بقوة 8 درجات على طول الساحل الجنوبي لبنما. وشعر سكان مدينة بنما بالهزات القوية. نُشر التقرير إلى جانب أخبار أخرى، بما في ذلك مستجدات حادثة فلاي دبي وتعليقات ترامب حول الديزل.",
-    "why_it_matters_en": "While primarily a regional event, a magnitude 8 earthquake in the Panama region can have global implications for shipping routes through the Panama Canal, which is a critical artery for global trade. Any disruption could affect logistics and supply chains, including those relevant to Kuwait's import/export activities.",
-    "why_it_matters_ar": "على الرغم من كونها حدثاً إقليمياً في المقام الأول، يمكن أن يكون لزلزال بقوة 8 درجات في منطقة بنما آثار عالمية على مسارات الشحن عبر قناة بنما، التي تعد شرياناً حيوياً للتجارة العالمية. أي اضطراب قد يؤثر على سلاسل التوريد واللوجستيات، بما في ذلك تلك ذات الصلة بأنشطة الاستيراد والتصدير في الكويت.",
-    "between_the_lines_en": "The story is a brief wire report with no local Kuwaiti angle. Its placement alongside major political and security news suggests it is being treated as a standard international update rather than a priority story. The lack of details on damage or casualties in the supplied text indicates that the immediate impact is still being assessed, and the story is likely to be updated as more information becomes available.",
-    "between_the_lines_ar": "القصة هي تقرير سلكي موجز لا يحتوي على زاوية كويتية محلية. وضعها إلى جانب أخبار سياسية وأمنية كبرى يوحي بأنها تُعامل كتحديث دولي قياسي وليس قصة ذات أولوية. غياب التفاصيل حول الأضرار أو الضحايا في النص المقدم يشير إلى أن التأثير الفوري لا يزال قيد التقييم، ومن المرجح أن يتم تحديث القصة مع توفر المزيد من المعلومات.",
-    "watch_next_en": "Monitor for any disruptions to shipping through the Panama Canal and updates on the earthquake's impact on infrastructure in the region.",
-    "watch_next_ar": "راقب أي اضطرابات في الشحن عبر قناة بنما وتحديثات حول تأثير الزلزال على البنية التحتية في المنطقة.",
-    "confidence": "high",
-    "confidence_reason": "The source is a factual wire report with no subtext beyond its standard placement in the news cycle.",
-    "entities": [
-     "USGS",
-     "Panama",
-     "Panama City",
-     "Earthquake"
-    ],
-    "tags": [
-     "Natural Disaster",
-     "Panama",
-     "Geology",
-     "International News"
     ],
     "_source": "llm"
    }
@@ -1834,166 +1850,6 @@
    }
   },
   {
-   "key": "6b30bedbfe421472",
-   "score": 7.259,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "وكيل «الصحة» استقبل وفدا من مستشفى فيلادلفيا للأطفال: تعاون للارتقاء بمستوى الرعاية",
-     "url": "https://www.alraimedia.com/article/1782157/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D9%88%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%88%D9%81%D8%AF%D8%A7-%D9%85%D9%86-%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D9%81%D9%8A%D9%84%D8%A7%D8%AF%D9%84%D9%81%D9%8A%D8%A7-%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84-%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%84%D9%84%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%D8%A1-%D8%A8%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "استقبل وكيل وزارة الصحة الشيخ الدكتور سلمان خليفة الصباح اليوم الجمعة وفدا من مستشفى فيلادلفيا للأطفال بالولايات المتحدة الأميركية ضم نائبة الرئيس للاستراتيجية العالمية وتطوير الأع...",
-     "body": "استقبل وكيل وزارة الصحة الشيخ الدكتور سلمان خليفة الصباح اليوم الجمعة وفدا من مستشفى فيلادلفيا للأطفال بالولايات المتحدة الأميركية ضم نائبة الرئيس للاستراتيجية العالمية وتطوير الأعمال أنجيلا بي وورستر والمدير الإداري العالمي في المستشفى عبدالله موستات.\n\nوذكرت «الصحة» في بيان أنه جرى خلال اللقاء النقاش حول سبل تعزيز التعاون الصحي المشترك وتبادل الخبرات بما يدعم تطوير الخدمات الصحية المقدمة للأطفال.\n\nالكويت تجدد دعمها للعدالة الدولية وتؤكد ضرورة احترام القانون الدولي منذ 9 دقائق سمو رئيس مجلس الوزراء يعزي خادم الحرمين الشريفين باستشهاد ثلاثة مواطنين سعوديين منذ 19 دقيقة\n\nوأضافت أن هذه اللقاءات تأتي في إطار حرص الوزارة على تعزيز التواصل مع المؤسسات الصحية العالمية واستكشاف فرص التعاون والاستفادة من الخبرات والتجارب المتخصصة بما يسهم في الارتقاء بمستوى الرعاية الصحية.",
-     "published": "2026-10-09T22:27:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "Health Undersecretary meets Philadelphia Children's Hospital delegation",
-    "headline_ar": "وكيل «الصحة» استقبل وفدا من مستشفى فيلادلفيا للأطفال: تعاون للارتقاء بمستوى الرعاية",
-    "summary_en": "The Undersecretary of Health, Sheikh Dr. Salman Khalifa Al-Sabah, met with a delegation from Philadelphia Children's Hospital in the US. The meeting discussed enhancing healthcare cooperation and exchanging expertise to improve pediatric care in Kuwait.",
-    "summary_ar": "استقبل وكيل وزارة الصحة الشيخ الدكتور سلمان خليفة الصباح وفداً من مستشفى فيلادلفيا للأطفال في الولايات المتحدة. ناقش الاجتماع تعزيز التعاون الصحي وتبادل الخبرات لتحسين رعاية الأطفال في الكويت.",
-    "why_it_matters_en": "Kuwait is exploring partnerships with top-tier US pediatric institutions to upgrade its local healthcare services. This indicates a continued reliance on foreign expertise to fill gaps in specialized medical care, particularly for children.",
-    "why_it_matters_ar": "تستكشف الكويت شراكات مع مؤسسات أمريكية رائدة في طب الأطفال لترقية خدماتها الصحية المحلية. يشير هذا إلى استمرار الاعتماد على الخبرة الأجنبية لسد الفجوات في الرعاية الطبية المتخصصة، لا سيما للأطفال.",
-    "between_the_lines_en": "The story is framed as a 'cooperation' and 'exchange of expertise' rather than a specific contract or service agreement. The presence of a 'Global Strategy' executive (Angela B. Worster) suggests the discussion is about high-level institutional partnerships rather than simple patient referrals. The fact that this is reported by Al-Ray (a private outlet) rather than just KUNA suggests it may have been a press release from the Ministry of Health that was picked up by local media. The omission of any specific financial terms or signed agreements implies this is still in the exploratory or diplomatic phase of the relationship.",
-    "between_the_lines_ar": "يُطرح الخبر على أنه «تعاون» و«تبادل خبرات» بدلاً من عقد أو اتفاقية خدمة محددة. وجود مسؤول عن «الاستراتيجية العالمية» (أنجيلا بي وورستر) يوحي بأن النقاش يدور حول شراكات مؤسسية عالية المستوى بدلاً من إحالات المرضى البسيطة. حقيقة أن هذا يُنشر في الرأي (صحيفة خاصة) بدلاً من كونا فقط يشير إلى أنه ربما كان بياناً صحفياً من وزارة الصحة التقطته وسائل الإعلام المحلية. عدم ذكر أي شروط مالية محددة أو اتفاقيات موقعة يوحي بأن هذا لا يزال في مرحلة استكشافية أو دبلوماسية من العلاقة.",
-    "watch_next_en": "Whether a formal memorandum of understanding (MOU) is signed between the Ministry of Health and Philadelphia Children's Hospital.",
-    "watch_next_ar": "ما إذا تم توقيع مذكرة تفاهم (MOU) رسمية بين وزارة الصحة ومستشفى فيلادلفيا للأطفال.",
-    "confidence": "medium",
-    "confidence_reason": "The interpretation of the 'exploratory' nature is based on the absence of specific contractual details in the text, which is a reasonable inference but not explicitly confirmed.",
-    "entities": [
-     "Sheikh Dr. Salman Khalifa Al-Sabah",
-     "Philadelphia Children's Hospital",
-     "Angela B. Worster",
-     "Abdullah Mostafa"
-    ],
-    "tags": [
-     "Healthcare",
-     "Pediatrics",
-     "International Cooperation",
-     "Ministry of Health"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "f5e2397716e694f6",
-   "score": 7.258,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت تجدد دعمها للعدالة الدولية وتؤكد ضرورة احترام القانون الدولي",
-     "url": "https://www.alraimedia.com/article/1782158/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%AC%D8%AF%D8%AF-%D8%AF%D8%B9%D9%85%D9%87%D8%A7-%D9%84%D9%84%D8%B9%D8%AF%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D9%88%D8%AA%D8%A4%D9%83%D8%AF-%D8%B6%D8%B1%D9%88%D8%B1%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A",
-     "section": "local",
-     "summary": "جددت دولة الكويت دعمها الراسخ لتعزيز العدالة الدولية ورفضها لانتهاكات القانون الدولي ومبادئ ميثاق الأمم المتحدة مؤكدة التزامها بتعزيز العمل متعدد الأطراف وتسوية المنازعات بالوسائل...",
-     "body": "جددت دولة الكويت دعمها الراسخ لتعزيز العدالة الدولية ورفضها لانتهاكات القانون الدولي ومبادئ ميثاق الأمم المتحدة مؤكدة التزامها بتعزيز العمل متعدد الأطراف وتسوية المنازعات بالوسائل السلمية وضرورة إرساء نظام دولي قائم على العدالة والمساواة بعيدا عن الانتقائية وازدواجية المعايير.\n\nجاء ذلك في كلمة دولة الكويت التي ألقاها الملحق الدبلوماسي محمد المطيري أمام اللجنة السادسة المعنية بالشؤون القانونية التابعة للجمعية العامة للأمم المتحدة خلال مناقشة البند (84) المعنون (سيادة القانون على الصعيدين الوطني والدولي).\n\nوكيل «الصحة» استقبل وفدا من مستشفى فيلادلفيا للأطفال: تعون للارتقاء بمستوى الرعاية منذ 10 دقائق سمو رئيس مجلس الوزراء يعزي خادم الحرمين الشريفين باستشهاد ثلاثة مواطنين سعوديين منذ 16 دقيقة\n\nوفي الشأن الإقليمي أعرب المطيري عن إدانته للاعتداءات الإيرانية على دولة الكويت ودول مجلس التعاون لدول الخليج العربية والأردن باعتبارها انتهاكا لسيادة الدول وتهديدا للأمن والاستقرار الإقليميين محذرا من مغبة التصعيد واتساع رقعة الصراع في المنطقة.\n\nكما أدان الاعتداءات على السفن والناقلات في مضيق هرمز لما تمثله من تهديد لسلامة الملاحة البحرية والأمن والسلم الدوليين مطالبا إيران بالامتثال لقرار مجلس الأمن الدولي (2817) واحترام التزاماتها بموجب القانون الدولي.\n\nواستنكر كذلك الاعتداءات التي شنتها ميليشيا الحوثي على المملكة العربية السعودية والهجمات والتهديدات التي تستهدف الملاحة في البحر الأحمر ومضيق باب المندب لما تشكله من انتهاك للسيادة وتهديد للتجارة العالمية وسلاسل الإمداد.\n\nوفيما يتعلق بالقضية الفلسطينية أكد المطيري دعم دولة الكويت للجهود الدولية الرامية إلى تنفيذ حل الدولتين معتبرا إعلان نيويورك بشأن التسوية السلمية للقضية الفلسطينية خطوة مهمة نحو تحقيق سلام عادل ودائم على أساس إقامة دولة فلسطينية مستقلة على حدود الرابع من يونيو 1967 وعاصمتها القدس الشرقية.\n\nوشدد على أهمية احترام الرأي الاستشاري لمحكمة العدل الدولية الصادر في 19 يوليو 2024 الذي أكد عدم قانونية استمرار الوجود الإسرائيلي في الأرض الفلسطينية المحتلة وما يترتب على ذلك من التزامات قانونية.\n\nوأدان بشدة ممارسات الاحتلال الإسرائيلي ضد الشعب الفلسطيني بما فيها التجويع والتهجير القسري والاعتداءات على المدنيين والتوسع الاستيطاني مؤكدا ضرورة إنهاء الاحتلال غير القانوني وضمان المساءلة عن الانتهاكات وصون الحقوق المشروعة للشعب الفلسطيني.\n\nكما استنكر الاعتداءات الإسرائيلية المتواصلة على سوريا بما فيها التوغلات والاعتقالات وعمليات الاختطاف التي تستهدف المدنيين مطالبا بإيقاف هذه الاعتداءات والانسحاب من جميع الأراضي السورية المحتلة بما فيها الجولان السوري المحتل.\n\nوأكد المطيري دعم دولة الكويت الكامل للبنان في بسط سيادته وسلطته على كامل أراضيه وحصر السلاح بيد الدولة محذرا من تداعيات استمرار الاعتداءات الإسرائيلية في لبنان على الأمن والسلم الدوليين.\n\nوفي سياق متصل استذكر المطيري تجربة دولة الكويت مع العدوان العراقي عام 1990 وما جسدته من أهمية الاحتكام إلى ميثاق الأمم المتحدة واحترام سيادة الدول وسلامة أراضيها وعدم جواز الاستيلاء على الأراضي بالقوة مؤكدا أن احترام القانون الدولي وتنفيذ قرارات مجلس الأمن يمثلان ضمانة أساسية لأمن الدول واستقرارها ولا سيما الدول الصغيرة.\n\nوعلى المستوى الوطني لفت إلى مواصلة دولة الكويت تطوير منظومتها التشريعية والقضائية وتعزيز كفاءة المؤسسات العدلية وتيسير الوصول إلى العدالة وتمكين المرأة وتكافؤ الفرص بما يعزز الشفافية والمساءلة والحوكمة الرشيدة.\n\nوشدد على أهمية تعزيز التعاون بين اللجنة السادسة ولجنة القانون الدولي وإشراك الدول الأعضاء بفاعلية في تطوير القواعد القانونية الدولية بما يراعي مختلف النظم القانونية والتجارب الوطنية.\n\nوجدد المطيري في ختام كلمة الكويت التزام البلاد بتعزيز سيادة القانون على المستويين الوطني والدولي ودعم الجهود الرامية إلى تحقيق العدالة والمساءلة دون تمييز وبناء نظام دولي أكثر عدلا وإنصافا.",
-     "published": "2026-10-09T22:31:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "Kuwait renews support for international justice, condemns Iranian attacks on Gulf states and Jordan",
-    "headline_ar": "الكويت تجدد دعمها للعدالة الدولية وتؤكد ضرورة احترام القانون الدولي",
-    "summary_en": "Kuwait’s diplomatic attaché Muhammad Al-Mutairi addressed the UN General Assembly’s Sixth Committee, condemning Iranian attacks on Kuwait, GCC states, and Jordan, as well as Houthi attacks on Saudi Arabia. The statement called for Iran to comply with UN Security Council Resolution 2817 and demanded an end to Israeli occupation of Palestinian and Syrian territories, including the Golan Heights.",
-    "summary_ar": "ألقى الملحق الدبلوماسي محمد المطيري كلمة الكويت أمام اللجنة السادسة للجمعية العامة للأمم المتحدة، أدان فيها الاعتداءات الإيرانية على الكويت ودول مجلس التعاون والأردن، وكذلك هجمات الحوثيين على السعودية. وطالبت الكلمة إيران بالامتثال لقرار مجلس الأمن 2817، ودعت إلى إنهاء الاحتلال الإسرائيلي للأراضي الفلسطينية والسورية بما فيها الجولان.",
-    "why_it_matters_en": "This formalizes Kuwait’s diplomatic stance against Iranian aggression in a multilateral forum, linking regional security threats directly to violations of international law. It also signals Kuwait’s alignment with the 'New York Declaration' on the Palestinian issue and its firm position on the Golan Heights, reinforcing its role as a mediator and advocate for sovereignty in the region.",
-    "why_it_matters_ar": "ترسي هذه الكلمة الموقف الدبلوماسي الكويتي الرسمي ضد العدوان الإيراني في إطار متعدد الأطراف، حيث تربط التهديدات الأمنية الإقليمية بانتهاك القانون الدولي. كما تعكس موقف الكويت الداعم لإعلان نيويورك بشأن القضية الفلسطينية وموقفها الثابت من هضبة الجولان، مما يعزز دورها كوسيط ومدافع عن السيادة الإقليمية.",
-    "between_the_lines_en": "The headline focuses on 'international justice,' but the body text explicitly names 'Iranian aggression' against Kuwait and the GCC, a specific attribution rarely seen in such generic diplomatic statements. The inclusion of Jordan alongside the GCC states suggests a broader coalition of concern. The reference to the 1990 Iraqi invasion serves as a rhetorical anchor, framing current threats as existential violations of sovereignty rather than mere border incidents. The call for Iran to comply with UNSC 2817 indicates a shift from diplomatic dialogue to legal accountability.",
-    "between_the_lines_ar": "يركز العنوان على 'العدالة الدولية'، لكن نص الكلمة يذكر صراحةً 'الاعتداءات الإيرانية' على الكويت ودول مجلس التعاون، وهو إسناد محدد نادرًا ما يظهر في البيانات الدبلوماسية العامة. إدراج الأردن إلى جانب دول المجلس يوحي بتحالف أوسع من القلق الإقليمي. الإشارة إلى غزو العراق عام 1990 تعمل كمرجع بلاغي، حيث تصوّر التهديدات الحالية كانتهاكات وجودية للسيادة وليس مجرد حوادث حدودية. المطالبة بامتثال إيران لقرار مجلس الأمن 2817 تشير إلى تحول من الحوار الدبلوماسي إلى المساءلة القانونية.",
-    "watch_next_en": "Monitor for any follow-up diplomatic notes or sanctions discussions involving Kuwait, the US, and the EU regarding UNSC 2817 compliance. Watch for reactions from Iranian and Houthi officials to the specific naming of Kuwait in the UN record.",
-    "watch_next_ar": "راقب أي ملاحظات دبلوماسية لاحقة أو مناقشات عقوبات تشمل الكويت والولايات المتحدة والاتحاد الأوروبي بشأن الامتثال لقرار مجلس الأمن 2817. راقب ردود الفعل من المسؤولين الإيرانيين والحوثيين على ذكر اسم الكويت صراحةً في سجلات الأمم المتحدة.",
-    "confidence": "high",
-    "confidence_reason": "The text explicitly names the aggressors and specific UN resolutions, providing clear signals for interpretation.",
-    "entities": [
-     "Muhammad Al-Mutairi",
-     "UN General Assembly",
-     "Iran",
-     "GCC",
-     "Jordan",
-     "Houthi",
-     "Saudi Arabia",
-     "Israel",
-     "Palestine",
-     "Syria",
-     "Lebanon"
-    ],
-    "tags": [
-     "Diplomacy",
-     "UN",
-     "Regional Security",
-     "Iran",
-     "International Law"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "0eb6139e1d9c3cb3",
-   "score": 7.255,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«نزاهة» تطّلع على تجربة السعودية في تلقي بلاغات المعاملات المالية المشبوهة وتحليلها",
-     "url": "https://www.aljarida.com/article/146972",
-     "section": "local",
-     "summary": "في إطار اهتمامها بتطوير أدوات الكشف عن الفساد وتتبع عائداته، زار وفد الهيئة العامة لمكافحة الفساد «نزاهة» في دولة الكويت الإدارة العامة للتحريات المالية السعودية، التاب...",
-     "body": "• الفارس: تتبّع أموال الفساد وكشف مساراتها ركيزة أساسية لمواجهته وملاحقة عائداته • الديحاني: التقنيات الذكية وتكامل المعلومات يعززان الدقة والكفاءة بالكشف عن الشبهات المالية • برامج ذكية متطورة وربط مع الجهات الحكومية المختصة لدعم التحريات المالية ورفع دقتها\n\nفي إطار اهتمامها بتطوير أدوات الكشف عن الفساد وتتبع عائداته، زار وفد الهيئة العامة لمكافحة الفساد «نزاهة» في دولة الكويت الإدارة العامة للتحريات المالية السعودية، التابعة لرئاسة أمن الدولة، حيث كان في استقباله المدير العام اللواء محمد بن عبد الرحمن المهنا، بحضور الدكتور ناصر أبا الخيل، نائب رئيس هيئة الرقابة ومكافحة الفساد للتعاون الدولي في المملكة العربية السعودية.\n\nوترأست الوفد رئيس الهيئة الدكتورة رنا عبدالله الفارس، بمشاركة نائب رئيس مجلس الإدارة الأستاذ الدكتور ماجد محمد الديحاني، وعضو مجلس الإدارة السيدة ضي عصام العتيبي، والأمين العام المساعد لقطاع كشف الفساد والتحقيق السيد فواز مهلهل المضف، وممثل إدارة التعاون الدولي السيد عبدالرحمن الوزان.\n\nواطّلع الوفد على التجربة السعودية في تلقي بلاغات المعاملات المالية المشبوهة وتحليلها، وتوظيف برامج ذكية وتقنيات حديثة ومتطورة للكشف عن الشبهات المالية، إلى جانب التعاون والربط مع جميع الجهات الحكومية ذات الصلة، بما يتيح تكامل المعلومات ويدعم الوصول إلى نتائج أكثر دقة وفاعلية.\n\nوقالت: «لا تكتمل مواجهة الفساد بكشف الواقعة وحدها، فمن الضروري معرفة أين ذهبت الأموال، وكيف انتقلت، ومن المستفيد منها. وكلما تعززت القدرة على الإجابة عن هذه الأسئلة، أصبحت ملاحقة العائدات غير المشروعة واستردادها أكثر فاعلية».\n\nوأضافت أن ما يميز هذه التجربة هو الجمع بين الأدوات التقنية المتقدمة والتكامل المؤسسي، من خلال توظيف البرامج الذكية في تحليل المعلومات، وربطها بالبيانات المتاحة لدى الجهات ذات الصلة، بما يساعد على كشف العلاقات بين المعاملات والأطراف المرتبطة بها وتكوين صورة أشمل لحركة الأموال.\n\nوأشارت الفارس إلى أن مواجهة الأساليب المتطورة لإخفاء الأموال تستلزم تطويراً مستمراً لأدوات الكشف والتحليل، وتعاوناً وثيقاً بين الجهات المعنية، تتكامل فيه المعلومات المالية مع أعمال التحري والتحقيق، ضمن الاختصاصات والأطر القانونية المنظمة لعمل كل جهة.\n\nمن جانبه، أكد الديحاني أن أهمية التحليل المالي تكمن في تحويل البيانات المتفرقة إلى معلومات تساعد الجهات المختصة على فهم المعاملات المشبوهة وكشف الروابط بين الأشخاص والكيانات ذات الصلة.\n\nوقال: «قد لا تكشف المعاملة المالية منفردةً الصورة كاملة، لكن تحليلها وربطها بمعاملات ومعلومات أخرى قد يُظهر أنماطاً تستدعي الفحص والتحقيق. وتوظيف التقنيات الذكية، إلى جانب تكامل المعلومات بين الجهات، يعزز دقة هذا التحليل ويرفع كفاءة الكشف عن الشبهات المالية».\n\nوأضاف أن الربط مع الجهات الحكومية ذات الصلة يمثل عنصراً مهماً في دعم التحريات المالية، لما يوفره من معلومات تساعد على استكمال التحليل والتحقق من الروابط ذات الصلة، مؤكداً أن فاعلية هذه المنظومة تقوم على تكامل التقنية والكفاءات المتخصصة وجودة البيانات.\n\nوأوضح أن الاطلاع على التجربة السعودية يتيح الاستفادة من خبراتها في تحليل البلاغات والتنسيق مع الجهات المحلية والوحدات النظيرة دولياً، بما يدعم تطوير القدرات الفنية وفهم مسارات الأموال المرتبطة بشبهات الفساد.\n\nوتختص الإدارة العامة للتحريات المالية السعودية بتلقي بلاغات المعاملات المالية المشبوهة من المؤسسات المالية والمهن والأعمال غير المالية المحددة، وتحليل المعلومات والبيانات وإعداد التقارير بشأنها، وإحالة ما يستدعي منها إلى الجهات المختصة، إلى جانب تبادل المعلومات والخبرات محلياً ودولياً.\n\nوأعربت الفارس عن تقديرها للواء محمد بن عبد الرحمن المهنا على حسن الاستقبال، مؤكدة أهمية تبادل الخبرات في توظيف التقنيات الحديثة وتطوير التعاون المؤسسي لكشف التدفقات المالية غير المشروعة وملاحقة عائدات الفساد.\n\nوتأتي الزيارة ضمن برنامج وفد «نزاهة» في المملكة العربية السعودية، الذي يشمل الاطلاع على تجارب مؤسسية متخصصة تتكامل أدوارها في الوقاية من الفساد وكشفه وملاحقة عائداته وحماية المال العام.",
-     "published": "2026-10-09T21:58:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Nizah delegation studies Saudi model for tracking suspicious financial transactions",
-    "headline_ar": "«نزاهة» تطّلع على تجربة السعودية في تلقي بلاغات المعاملات المالية المشبوهة وتحليلها",
-    "summary_en": "A delegation from Kuwait’s Anti-Corruption Authority (Nizah), led by Dr. Rana Al-Faris, visited Saudi Arabia’s General Directorate of Financial Investigations to study its methods for analyzing suspicious financial transactions. The visit focused on the use of smart technologies and data integration with government entities to trace illicit funds.",
-    "summary_ar": "زار وفد من الهيئة العامة لمكافحة الفساد (نزاهة) الكويتية، برئاسة الدكتورة رنا الفارس، الإدارة العامة للتحريات المالية السعودية لدراسة أساليبها في تحليل المعاملات المالية المشبوهة. ركزت الزيارة على استخدام التقنيات الذكية وتكامل البيانات مع الجهات الحكومية لتتبع الأموال غير المشروعة.",
-    "why_it_matters_en": "Kuwait is actively upgrading its anti-corruption infrastructure by adopting advanced Saudi models for financial forensics. This suggests a move towards more sophisticated, data-driven corruption investigations, potentially impacting high-profile cases involving complex money laundering networks.",
-    "why_it_matters_ar": "تقوم الكويت بتحديث بنيتها التحتية لمكافحة الفساد عبر تبنّي نماذج سعودية متقدمة في الطب الشرعي المالي. يشير ذلك إلى تحرك نحو تحقيقات فساد أكثر تعقيدًا وتعتمد على البيانات، مما قد يؤثر على القضايا البارزة التي تتضمن شبكات غسيل أموال معقدة.",
-    "between_the_lines_en": "The choice to study the Saudi model, specifically under the National Security Council, highlights a shift towards security-integrated financial oversight rather than purely judicial. The emphasis on 'smart programs' and 'data integration' implies that current Kuwaiti systems may be viewed as fragmented or slow. The presence of senior Nizah officials suggests this is a priority initiative, possibly linked to upcoming legislative reforms or specific high-value investigations requiring better asset tracing capabilities.",
-    "between_the_lines_ar": "اختيار دراسة النموذج السعودي، وتحديدًا تحت مظلة مجلس الأمن الوطني، يسلط الضوء على تحول نحو إشراف مالي متكامل مع الأمن وليس قضائيًا بحتًا. التأكيد على 'البرامج الذكية' و'تكامل البيانات' يوحي بأن الأنظمة الكويتية الحالية قد تُنظر إليها على أنها مجزأة أو بطيئة. وجود مسؤولين كبار من نزاهة يشير إلى أن هذه أولوية، ربما مرتبطة بإصلاحات تشريعية قادمة أو تحقيقات عالية القيمة تتطلب تحسين قدرات تتبع الأصول.",
-    "watch_next_en": "Look for announcements regarding new digital infrastructure investments by Nizah or the Ministry of Finance. Watch for any new bilateral agreements between Kuwait and Saudi Arabia on financial intelligence sharing.",
-    "watch_next_ar": "انتظر إعلانات حول استثمارات جديدة في البنية التحتية الرقمية لنزاهة أو وزارة المالية. راقب أي اتفاقيات ثنائية جديدة بين الكويت والسعودية في مجال مشاركة المعلومات المالية.",
-    "confidence": "medium",
-    "confidence_reason": "The text describes the visit and technical details but does not explicitly link it to specific ongoing cases or legislative changes, requiring inference from the context of 'upgrading tools'.",
-    "entities": [
-     "Nizah",
-     "Dr. Rana Al-Faris",
-     "Majed Al-Dihani",
-     "Saudi General Directorate of Financial Investigations",
-     "National Security Council"
-    ],
-    "tags": [
-     "Anti-Corruption",
-     "Financial Intelligence",
-     "Kuwait-Saudi Relations",
-     "Technology",
-     "Governance"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "72ec0c6a7e67bb14",
    "score": 7.21,
    "sources": [
@@ -2098,6 +1954,56 @@
      "Regional Security",
      "State Messaging",
      "Iran"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "6b30bedbfe421472",
+   "score": 6.659,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وكيل «الصحة» استقبل وفدا من مستشفى فيلادلفيا للأطفال: تعاون للارتقاء بمستوى الرعاية",
+     "url": "https://www.alraimedia.com/article/1782157/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D9%88%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%88%D9%81%D8%AF%D8%A7-%D9%85%D9%86-%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D9%81%D9%8A%D9%84%D8%A7%D8%AF%D9%84%D9%81%D9%8A%D8%A7-%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84-%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%84%D9%84%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%D8%A1-%D8%A8%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "استقبل وكيل وزارة الصحة الشيخ الدكتور سلمان خليفة الصباح اليوم الجمعة وفدا من مستشفى فيلادلفيا للأطفال بالولايات المتحدة الأميركية ضم نائبة الرئيس للاستراتيجية العالمية وتطوير الأع...",
+     "body": "استقبل وكيل وزارة الصحة الشيخ الدكتور سلمان خليفة الصباح اليوم الجمعة وفدا من مستشفى فيلادلفيا للأطفال بالولايات المتحدة الأميركية ضم نائبة الرئيس للاستراتيجية العالمية وتطوير الأعمال أنجيلا بي وورستر والمدير الإداري العالمي في المستشفى عبدالله موستات.\n\nوذكرت «الصحة» في بيان أنه جرى خلال اللقاء النقاش حول سبل تعزيز التعاون الصحي المشترك وتبادل الخبرات بما يدعم تطوير الخدمات الصحية المقدمة للأطفال.\n\nالكويت تجدد دعمها للعدالة الدولية وتؤكد ضرورة احترام القانون الدولي منذ 9 دقائق سمو رئيس مجلس الوزراء يعزي خادم الحرمين الشريفين باستشهاد ثلاثة مواطنين سعوديين منذ 19 دقيقة\n\nوأضافت أن هذه اللقاءات تأتي في إطار حرص الوزارة على تعزيز التواصل مع المؤسسات الصحية العالمية واستكشاف فرص التعاون والاستفادة من الخبرات والتجارب المتخصصة بما يسهم في الارتقاء بمستوى الرعاية الصحية.",
+     "published": "2026-10-09T22:27:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "Health Undersecretary meets Philadelphia Children's Hospital delegation",
+    "headline_ar": "وكيل «الصحة» استقبل وفدا من مستشفى فيلادلفيا للأطفال: تعاون للارتقاء بمستوى الرعاية",
+    "summary_en": "The Undersecretary of Health, Sheikh Dr. Salman Khalifa Al-Sabah, met with a delegation from Philadelphia Children's Hospital in the US. The meeting discussed enhancing healthcare cooperation and exchanging expertise to improve pediatric care in Kuwait.",
+    "summary_ar": "استقبل وكيل وزارة الصحة الشيخ الدكتور سلمان خليفة الصباح وفداً من مستشفى فيلادلفيا للأطفال في الولايات المتحدة. ناقش الاجتماع تعزيز التعاون الصحي وتبادل الخبرات لتحسين رعاية الأطفال في الكويت.",
+    "why_it_matters_en": "Kuwait is exploring partnerships with top-tier US pediatric institutions to upgrade its local healthcare services. This indicates a continued reliance on foreign expertise to fill gaps in specialized medical care, particularly for children.",
+    "why_it_matters_ar": "تستكشف الكويت شراكات مع مؤسسات أمريكية رائدة في طب الأطفال لترقية خدماتها الصحية المحلية. يشير هذا إلى استمرار الاعتماد على الخبرة الأجنبية لسد الفجوات في الرعاية الطبية المتخصصة، لا سيما للأطفال.",
+    "between_the_lines_en": "The story is framed as a 'cooperation' and 'exchange of expertise' rather than a specific contract or service agreement. The presence of a 'Global Strategy' executive (Angela B. Worster) suggests the discussion is about high-level institutional partnerships rather than simple patient referrals. The fact that this is reported by Al-Ray (a private outlet) rather than just KUNA suggests it may have been a press release from the Ministry of Health that was picked up by local media. The omission of any specific financial terms or signed agreements implies this is still in the exploratory or diplomatic phase of the relationship.",
+    "between_the_lines_ar": "يُطرح الخبر على أنه «تعاون» و«تبادل خبرات» بدلاً من عقد أو اتفاقية خدمة محددة. وجود مسؤول عن «الاستراتيجية العالمية» (أنجيلا بي وورستر) يوحي بأن النقاش يدور حول شراكات مؤسسية عالية المستوى بدلاً من إحالات المرضى البسيطة. حقيقة أن هذا يُنشر في الرأي (صحيفة خاصة) بدلاً من كونا فقط يشير إلى أنه ربما كان بياناً صحفياً من وزارة الصحة التقطته وسائل الإعلام المحلية. عدم ذكر أي شروط مالية محددة أو اتفاقيات موقعة يوحي بأن هذا لا يزال في مرحلة استكشافية أو دبلوماسية من العلاقة.",
+    "watch_next_en": "Whether a formal memorandum of understanding (MOU) is signed between the Ministry of Health and Philadelphia Children's Hospital.",
+    "watch_next_ar": "ما إذا تم توقيع مذكرة تفاهم (MOU) رسمية بين وزارة الصحة ومستشفى فيلادلفيا للأطفال.",
+    "confidence": "medium",
+    "confidence_reason": "The interpretation of the 'exploratory' nature is based on the absence of specific contractual details in the text, which is a reasonable inference but not explicitly confirmed.",
+    "entities": [
+     "Sheikh Dr. Salman Khalifa Al-Sabah",
+     "Philadelphia Children's Hospital",
+     "Angela B. Worster",
+     "Abdullah Mostafa"
+    ],
+    "tags": [
+     "Healthcare",
+     "Pediatrics",
+     "International Cooperation",
+     "Ministry of Health"
     ],
     "_source": "llm"
    }
@@ -2208,8 +2114,8 @@
    }
   },
   {
-   "key": "9b6a7cd1a6a5e166",
-   "score": 6.659,
+   "key": "f5e2397716e694f6",
+   "score": 6.658,
    "sources": [
     "الرأي"
    ],
@@ -2219,41 +2125,51 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "الزيد: وزارة المواصلات ماضية في تطوير قطاع البريد وتحديث منظومة خدماته",
-     "url": "https://www.alraimedia.com/article/1782138/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B2%D9%8A%D8%AF-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A7%D8%AA-%D9%85%D8%A7%D8%B6%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D9%88%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%87",
+     "title": "الكويت تجدد دعمها للعدالة الدولية وتؤكد ضرورة احترام القانون الدولي",
+     "url": "https://www.alraimedia.com/article/1782158/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%AC%D8%AF%D8%AF-%D8%AF%D8%B9%D9%85%D9%87%D8%A7-%D9%84%D9%84%D8%B9%D8%AF%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D9%88%D8%AA%D8%A4%D9%83%D8%AF-%D8%B6%D8%B1%D9%88%D8%B1%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A",
      "section": "local",
-     "summary": "يبرز اليوم العالمي للبريد الذي يصادف التاسع من أكتوبر من كل عام مسيرة البريد الكويتي ودوره في ربط البلاد بالعالم وخدمة المجتمع والتجارة، فيما تتجه وزارة المواصلات إلى تطوير تشريعات...",
-     "body": "",
-     "published": "2026-10-09T14:49:00+03:00",
+     "summary": "جددت دولة الكويت دعمها الراسخ لتعزيز العدالة الدولية ورفضها لانتهاكات القانون الدولي ومبادئ ميثاق الأمم المتحدة مؤكدة التزامها بتعزيز العمل متعدد الأطراف وتسوية المنازعات بالوسائل...",
+     "body": "جددت دولة الكويت دعمها الراسخ لتعزيز العدالة الدولية ورفضها لانتهاكات القانون الدولي ومبادئ ميثاق الأمم المتحدة مؤكدة التزامها بتعزيز العمل متعدد الأطراف وتسوية المنازعات بالوسائل السلمية وضرورة إرساء نظام دولي قائم على العدالة والمساواة بعيدا عن الانتقائية وازدواجية المعايير.\n\nجاء ذلك في كلمة دولة الكويت التي ألقاها الملحق الدبلوماسي محمد المطيري أمام اللجنة السادسة المعنية بالشؤون القانونية التابعة للجمعية العامة للأمم المتحدة خلال مناقشة البند (84) المعنون (سيادة القانون على الصعيدين الوطني والدولي).\n\nوكيل «الصحة» استقبل وفدا من مستشفى فيلادلفيا للأطفال: تعون للارتقاء بمستوى الرعاية منذ 10 دقائق سمو رئيس مجلس الوزراء يعزي خادم الحرمين الشريفين باستشهاد ثلاثة مواطنين سعوديين منذ 16 دقيقة\n\nوفي الشأن الإقليمي أعرب المطيري عن إدانته للاعتداءات الإيرانية على دولة الكويت ودول مجلس التعاون لدول الخليج العربية والأردن باعتبارها انتهاكا لسيادة الدول وتهديدا للأمن والاستقرار الإقليميين محذرا من مغبة التصعيد واتساع رقعة الصراع في المنطقة.\n\nكما أدان الاعتداءات على السفن والناقلات في مضيق هرمز لما تمثله من تهديد لسلامة الملاحة البحرية والأمن والسلم الدوليين مطالبا إيران بالامتثال لقرار مجلس الأمن الدولي (2817) واحترام التزاماتها بموجب القانون الدولي.\n\nواستنكر كذلك الاعتداءات التي شنتها ميليشيا الحوثي على المملكة العربية السعودية والهجمات والتهديدات التي تستهدف الملاحة في البحر الأحمر ومضيق باب المندب لما تشكله من انتهاك للسيادة وتهديد للتجارة العالمية وسلاسل الإمداد.\n\nوفيما يتعلق بالقضية الفلسطينية أكد المطيري دعم دولة الكويت للجهود الدولية الرامية إلى تنفيذ حل الدولتين معتبرا إعلان نيويورك بشأن التسوية السلمية للقضية الفلسطينية خطوة مهمة نحو تحقيق سلام عادل ودائم على أساس إقامة دولة فلسطينية مستقلة على حدود الرابع من يونيو 1967 وعاصمتها القدس الشرقية.\n\nوشدد على أهمية احترام الرأي الاستشاري لمحكمة العدل الدولية الصادر في 19 يوليو 2024 الذي أكد عدم قانونية استمرار الوجود الإسرائيلي في الأرض الفلسطينية المحتلة وما يترتب على ذلك من التزامات قانونية.\n\nوأدان بشدة ممارسات الاحتلال الإسرائيلي ضد الشعب الفلسطيني بما فيها التجويع والتهجير القسري والاعتداءات على المدنيين والتوسع الاستيطاني مؤكدا ضرورة إنهاء الاحتلال غير القانوني وضمان المساءلة عن الانتهاكات وصون الحقوق المشروعة للشعب الفلسطيني.\n\nكما استنكر الاعتداءات الإسرائيلية المتواصلة على سوريا بما فيها التوغلات والاعتقالات وعمليات الاختطاف التي تستهدف المدنيين مطالبا بإيقاف هذه الاعتداءات والانسحاب من جميع الأراضي السورية المحتلة بما فيها الجولان السوري المحتل.\n\nوأكد المطيري دعم دولة الكويت الكامل للبنان في بسط سيادته وسلطته على كامل أراضيه وحصر السلاح بيد الدولة محذرا من تداعيات استمرار الاعتداءات الإسرائيلية في لبنان على الأمن والسلم الدوليين.\n\nوفي سياق متصل استذكر المطيري تجربة دولة الكويت مع العدوان العراقي عام 1990 وما جسدته من أهمية الاحتكام إلى ميثاق الأمم المتحدة واحترام سيادة الدول وسلامة أراضيها وعدم جواز الاستيلاء على الأراضي بالقوة مؤكدا أن احترام القانون الدولي وتنفيذ قرارات مجلس الأمن يمثلان ضمانة أساسية لأمن الدول واستقرارها ولا سيما الدول الصغيرة.\n\nوعلى المستوى الوطني لفت إلى مواصلة دولة الكويت تطوير منظومتها التشريعية والقضائية وتعزيز كفاءة المؤسسات العدلية وتيسير الوصول إلى العدالة وتمكين المرأة وتكافؤ الفرص بما يعزز الشفافية والمساءلة والحوكمة الرشيدة.\n\nوشدد على أهمية تعزيز التعاون بين اللجنة السادسة ولجنة القانون الدولي وإشراك الدول الأعضاء بفاعلية في تطوير القواعد القانونية الدولية بما يراعي مختلف النظم القانونية والتجارب الوطنية.\n\nوجدد المطيري في ختام كلمة الكويت التزام البلاد بتعزيز سيادة القانون على المستويين الوطني والدولي ودعم الجهود الرامية إلى تحقيق العدالة والمساءلة دون تمييز وبناء نظام دولي أكثر عدلا وإنصافا.",
+     "published": "2026-10-09T22:31:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "813f07778198d80b",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "منح وكيل «الخدمات الطبية الأهلية» وسام مجلس التعاون للخدمة المدنية والتنمية الإدارية",
-     "url": "https://www.alraimedia.com/article/1782136/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D9%86%D8%AD-%D9%88%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D8%A9-%D9%88%D8%B3%D8%A7%D9%85-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%84%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "منحت وكيل وزارة الصحة المساعد لشؤون الخدمات الطبية الأهلية الدكتورة فاطمة النجار وسام مجلس التعاون للخدمة المدنية والتنمية الإدارية تقديراً لمسيرتها المهنية وإسهاماتها في العمل الت...",
-     "body": "",
-     "published": "2026-10-09T14:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "Kuwait renews support for international justice, condemns Iranian attacks on Gulf states and Jordan",
+    "headline_ar": "الكويت تجدد دعمها للعدالة الدولية وتؤكد ضرورة احترام القانون الدولي",
+    "summary_en": "Kuwait’s diplomatic attaché Muhammad Al-Mutairi addressed the UN General Assembly’s Sixth Committee, condemning Iranian attacks on Kuwait, GCC states, and Jordan, as well as Houthi attacks on Saudi Arabia. The statement called for Iran to comply with UN Security Council Resolution 2817 and demanded an end to Israeli occupation of Palestinian and Syrian territories, including the Golan Heights.",
+    "summary_ar": "ألقى الملحق الدبلوماسي محمد المطيري كلمة الكويت أمام اللجنة السادسة للجمعية العامة للأمم المتحدة، أدان فيها الاعتداءات الإيرانية على الكويت ودول مجلس التعاون والأردن، وكذلك هجمات الحوثيين على السعودية. وطالبت الكلمة إيران بالامتثال لقرار مجلس الأمن 2817، ودعت إلى إنهاء الاحتلال الإسرائيلي للأراضي الفلسطينية والسورية بما فيها الجولان.",
+    "why_it_matters_en": "This formalizes Kuwait’s diplomatic stance against Iranian aggression in a multilateral forum, linking regional security threats directly to violations of international law. It also signals Kuwait’s alignment with the 'New York Declaration' on the Palestinian issue and its firm position on the Golan Heights, reinforcing its role as a mediator and advocate for sovereignty in the region.",
+    "why_it_matters_ar": "ترسي هذه الكلمة الموقف الدبلوماسي الكويتي الرسمي ضد العدوان الإيراني في إطار متعدد الأطراف، حيث تربط التهديدات الأمنية الإقليمية بانتهاك القانون الدولي. كما تعكس موقف الكويت الداعم لإعلان نيويورك بشأن القضية الفلسطينية وموقفها الثابت من هضبة الجولان، مما يعزز دورها كوسيط ومدافع عن السيادة الإقليمية.",
+    "between_the_lines_en": "The headline focuses on 'international justice,' but the body text explicitly names 'Iranian aggression' against Kuwait and the GCC, a specific attribution rarely seen in such generic diplomatic statements. The inclusion of Jordan alongside the GCC states suggests a broader coalition of concern. The reference to the 1990 Iraqi invasion serves as a rhetorical anchor, framing current threats as existential violations of sovereignty rather than mere border incidents. The call for Iran to comply with UNSC 2817 indicates a shift from diplomatic dialogue to legal accountability.",
+    "between_the_lines_ar": "يركز العنوان على 'العدالة الدولية'، لكن نص الكلمة يذكر صراحةً 'الاعتداءات الإيرانية' على الكويت ودول مجلس التعاون، وهو إسناد محدد نادرًا ما يظهر في البيانات الدبلوماسية العامة. إدراج الأردن إلى جانب دول المجلس يوحي بتحالف أوسع من القلق الإقليمي. الإشارة إلى غزو العراق عام 1990 تعمل كمرجع بلاغي، حيث تصوّر التهديدات الحالية كانتهاكات وجودية للسيادة وليس مجرد حوادث حدودية. المطالبة بامتثال إيران لقرار مجلس الأمن 2817 تشير إلى تحول من الحوار الدبلوماسي إلى المساءلة القانونية.",
+    "watch_next_en": "Monitor for any follow-up diplomatic notes or sanctions discussions involving Kuwait, the US, and the EU regarding UNSC 2817 compliance. Watch for reactions from Iranian and Houthi officials to the specific naming of Kuwait in the UN record.",
+    "watch_next_ar": "راقب أي ملاحظات دبلوماسية لاحقة أو مناقشات عقوبات تشمل الكويت والولايات المتحدة والاتحاد الأوروبي بشأن الامتثال لقرار مجلس الأمن 2817. راقب ردود الفعل من المسؤولين الإيرانيين والحوثيين على ذكر اسم الكويت صراحةً في سجلات الأمم المتحدة.",
+    "confidence": "high",
+    "confidence_reason": "The text explicitly names the aggressors and specific UN resolutions, providing clear signals for interpretation.",
+    "entities": [
+     "Muhammad Al-Mutairi",
+     "UN General Assembly",
+     "Iran",
+     "GCC",
+     "Jordan",
+     "Houthi",
+     "Saudi Arabia",
+     "Israel",
+     "Palestine",
+     "Syria",
+     "Lebanon"
+    ],
+    "tags": [
+     "Diplomacy",
+     "UN",
+     "Regional Security",
+     "Iran",
+     "International Law"
+    ],
+    "_source": "llm"
+   }
   },
   {
    "key": "90ae6fae1a8a9631",
@@ -2271,12 +2187,62 @@
      "url": "https://www.aljarida.com/article/146966",
      "section": "local",
      "summary": "قالت وزارة الصحة إنه جرى اليوم تكريم الوكيل المساعد لشؤون الخدمات الطبية الأهلية د. فاطمة عبد الرحمن النجار بوسام مجلس التعاون للخدمة المدنية والتنمية الإدارية تقديرا لمسيرتها...",
-     "body": "",
+     "body": "• بوسام مجلس التعاون تقديراً لمسيرتها المهنية وإسهاماتها في العمل التطوعي\n\nقالت وزارة الصحة إنه جرى اليوم تكريم الوكيل المساعد لشؤون الخدمات الطبية الأهلية د. فاطمة عبد الرحمن النجار بوسام مجلس التعاون للخدمة المدنية والتنمية الإدارية تقديرا لمسيرتها المهنية وإسهاماتها في العمل التطوعي وخدمة المجتمع\n\nجاء ذلك ضمن حفل تكريم المشاريع والشخصيات الرائدة في مجال الخدمة المدنية والعمل والشؤون الاجتماعية لدول مجلس التعاون في مملكة البحرين.\n\nوتقدمت وزارة الصحة بخالص التهنئة إلى الدكتورة فاطمة النجار معربة عن اعتزازها بهذا التكريم المستحق، وتقديرها لما قدمته من جهود وإسهامات في خدمة المجتمع.",
      "published": "2026-10-09T20:40:00+03:00",
      "tier": 1
     }
    ],
    "category": "Society & Services",
+   "analysis": {
+    "headline_en": "GCC Award for Dr. Fatima Al-Najjar, Assistant Undersecretary of Health for Private Medical Services",
+    "headline_ar": "تكريم خليجي للدكتورة فاطمة النجار وكيل «الصحة» المساعد لـ«الخدمات الطبية الأهلية»",
+    "summary_en": "The Ministry of Health announced that Dr. Fatima Abdulrahman Al-Najjar, Assistant Undersecretary for Private Medical Services, received the GCC Award for Civil Service and Administrative Development. The award was presented in Bahrain to recognize her professional career and contributions to volunteer work and community service.",
+    "summary_ar": "أعلنت وزارة الصحة عن تكريم الوكيل المساعد لشؤون الخدمات الطبية الأهلية د. فاطمة عبد الرحمن النجار بوسام مجلس التعاون للخدمة المدنية والتنمية الإدارية. جاء التكريم خلال حفل في مملكة البحرين تقديراً لمسيرتها المهنية وإسهاماتها في العمل التطوعي وخدمة المجتمع.",
+    "why_it_matters_en": "This is a standard personnel recognition event. It confirms the continued operational status of the Assistant Undersecretary for Private Medical Services, a role critical for regulating the private healthcare sector in Kuwait. There are no policy, budgetary, or political changes implied by this announcement.",
+    "why_it_matters_ar": "يُعد هذا الخبر إخباراً روتينياً بتكريم وظيفي. يؤكد استمرار عمل الوكيل المساعد لشؤون الخدمات الطبية الأهلية، وهي جهة محورية في تنظيم القطاع الصحي الخاص في الكويت. لا يحمل الإعلان أي تغييرات في السياسات أو الميزانيات أو الشؤون السياسية.",
+    "between_the_lines_en": "No significant subtext — this reads as a routine administrative announcement. The attribution is a direct statement from the Ministry of Health, the event took place in Bahrain (a neutral GCC venue), and the language is purely celebratory with no mention of specific reforms, new regulations, or strategic shifts in the private healthcare sector. The omission of any policy context is consistent with the nature of a personal award ceremony rather than a signal of hidden agenda.",
+    "between_the_lines_ar": "لا يوجد سياق خفي جوهري — هذا الخبر يقرأ كإعلان إداري روتيني. المصدر هو تصريح مباشر من وزارة الصحة، والأحداث جرت في البحرين (موقع خليجي محايد)، واللغة احتفالية بحتة دون ذكر أي إصلاحات محددة أو لوائح جديدة أو تحولات استراتيجية في القطاع الصحي الخاص. غياب السياق السياسي يتوافق مع طبيعة حفل تكريم شخصي وليس مؤشراً على أجندة خفية.",
+    "watch_next_en": "Monitor for any subsequent announcements from the Private Medical Services Department regarding new regulations or partnerships, as high-profile awards sometimes precede the announcement of new initiatives, though this is not indicated in the current text.",
+    "watch_next_ar": "مراقبة أي إعلانات لاحقة من إدارة الخدمات الطبية الأهلية بشأن لوائح جديدة أو شراكات، حيث قد تسبق الجوائز البارزة الإعلان عن مبادرات جديدة، على الرغم من أن النص الحالي لا يشير إلى ذلك.",
+    "confidence": "high",
+    "confidence_reason": "The text is a standard, unambiguous press release with no conflicting signals or omitted critical context.",
+    "entities": [
+     "Ministry of Health",
+     "Dr. Fatima Abdulrahman Al-Najjar",
+     "GCC Award for Civil Service and Administrative Development",
+     "Bahrain"
+    ],
+    "tags": [
+     "Health",
+     "Personnel",
+     "GCC",
+     "Private Sector"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "0eb6139e1d9c3cb3",
+   "score": 6.655,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«نزاهة» تطّلع على تجربة السعودية في تلقي بلاغات المعاملات المالية المشبوهة وتحليلها",
+     "url": "https://www.aljarida.com/article/146972",
+     "section": "local",
+     "summary": "في إطار اهتمامها بتطوير أدوات الكشف عن الفساد وتتبع عائداته، زار وفد الهيئة العامة لمكافحة الفساد «نزاهة» في دولة الكويت الإدارة العامة للتحريات المالية السعودية، التاب...",
+     "body": "",
+     "published": "2026-10-09T21:58:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -2376,6 +2342,54 @@
    "analysis": {}
   },
   {
+   "key": "9b6a7cd1a6a5e166",
+   "score": 6.059,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الزيد: وزارة المواصلات ماضية في تطوير قطاع البريد وتحديث منظومة خدماته",
+     "url": "https://www.alraimedia.com/article/1782138/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B2%D9%8A%D8%AF-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A7%D8%AA-%D9%85%D8%A7%D8%B6%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D9%88%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%87",
+     "section": "local",
+     "summary": "يبرز اليوم العالمي للبريد الذي يصادف التاسع من أكتوبر من كل عام مسيرة البريد الكويتي ودوره في ربط البلاد بالعالم وخدمة المجتمع والتجارة، فيما تتجه وزارة المواصلات إلى تطوير تشريعات...",
+     "body": "",
+     "published": "2026-10-09T14:49:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "813f07778198d80b",
+   "score": 6.059,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "منح وكيل «الخدمات الطبية الأهلية» وسام مجلس التعاون للخدمة المدنية والتنمية الإدارية",
+     "url": "https://www.alraimedia.com/article/1782136/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D9%86%D8%AD-%D9%88%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D8%A9-%D9%88%D8%B3%D8%A7%D9%85-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%84%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "منحت وكيل وزارة الصحة المساعد لشؤون الخدمات الطبية الأهلية الدكتورة فاطمة النجار وسام مجلس التعاون للخدمة المدنية والتنمية الإدارية تقديراً لمسيرتها المهنية وإسهاماتها في العمل الت...",
+     "body": "",
+     "published": "2026-10-09T14:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "8bc56587bf07d80d",
    "score": 6.059,
    "sources": [
@@ -2393,6 +2407,126 @@
      "summary": "أكدت وزير الأشغال العامة الدكتورة نورة المشعان اليوم، مواصلة الجولات الميدانية على مواقع صيانة الطرق في مختلف المحافظات لمتابعة سير الأعمال والتأكد من تنفيذها وإنجازها وفق المواصفا...",
      "body": "",
      "published": "2026-10-09T13:07:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "48072c7aca7d8cc4",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Driver faces deportation for dirtying road in Jabriya",
+     "url": "https://kuwaittimes.com/article/51268/kuwait/driver-faces-deportation-for-dirtying-road-in-jabriya/",
+     "section": "kuwait",
+     "summary": "KUWAIT: A Bangladeshi truck driver has been detained pending deportation and his vehicle impounded for throwing material that dirtied a road in Jabriya, the General Traffic Departm...",
+     "body": "",
+     "published": "2026-10-09T09:15:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "f7ec5162fde8b648",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Domestic driver held for dealing drugs on family trips",
+     "url": "https://kuwaittimes.com/article/51267/kuwait/domestic-driver-held-for-dealing-drugs-on-family-trips/",
+     "section": "kuwait",
+     "summary": "KUWAIT: A Sri Lankan domestic driver has been arrested for selling crystal meth in Ardiya. He distributed the drugs while driving his employer’s family, using his job to avoid susp...",
+     "body": "",
+     "published": "2026-10-09T08:58:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "11febed9e60efe2e",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Kuwait urges UN to turn resolutions into tangible results",
+     "url": "https://kuwaittimes.com/article/51264/kuwait/kuwait-urges-un-to-turn-resolutions-into-tangible-results/",
+     "section": "kuwait",
+     "summary": "NEW YORK: Kuwait has said the strength of the United Nations (UN) lies in implementing its resolutions and achieving tangible results on the ground, not in how many it adopts. It a...",
+     "body": "",
+     "published": "2026-10-09T08:41:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "fcd52b74371dacdf",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Kuwait urges global financial reform, bigger UN voice for developing nations",
+     "url": "https://kuwaittimes.com/article/51263/kuwait/kuwait-urges-global-financial-reform-bigger-un-voice-for-developing-nations/",
+     "section": "kuwait",
+     "summary": "NEW YORK: Kuwait has called for reform of the international financial architecture, stronger representation for developing countries at the United Nations, more concessional and cl...",
+     "body": "",
+     "published": "2026-10-09T08:24:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "15caf93439cb3504",
+   "score": 6.058,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Today in Kuwait’s history",
+     "url": "https://kuwaittimes.com/article/51262/kuwait/today-in-kuwaits-history/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Following are events that took place in Kuwait on October 9:1972 — The State of Kuwait opened its first embassy in Brazil.1976 — Amir Sheikh Sabah Al-Salem Al-Sabah signed...",
+     "body": "",
+     "published": "2026-10-09T08:11:00+03:00",
      "tier": 1
     }
    ],
@@ -2445,54 +2579,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "b408389ba475e436",
-   "score": 6.051,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«أوبن أيه.آي» تتوقع إيرادات بقيمة 70 مليار دولار خلال 2026",
-     "url": "https://www.aljarida.com/article/146949",
-     "section": "economy",
-     "summary": "قالت مصادر مطلعة إن شركة تطبيقات الذكاء الاصطناعي «أوبن أيه.آي» تتوقع تحقيق إيرادات سنوية بنحو 70 مليار دولار بنهاية العام الحالي، مدعومة بالنمو القوي لقطاعه...",
-     "body": "",
-     "published": "2026-10-09T14:36:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "bc3c0e6e243a9532",
-   "score": 6.011,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "\"الشارقة للكتاب\" تكشف تفاصيل الدورة الـ45 من \"الشارقة الدولي للكتاب\" والدورة الـ16 من \"مؤتمر الناشرين\" 13 الجاري",
-     "url": "https://www.alanba.com.kw/1379931",
-     "section": "kuwait",
-     "summary": "صورة أرشيفية من معرض الشارقة للكتاب",
-     "body": "",
-     "published": "2026-10-09T03:05:12+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2568,30 +2654,6 @@
    "analysis": {}
   },
   {
-   "key": "c15364715ba08452",
-   "score": 5.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "دراسة: الإشعاع يضاهي الجراحة في علاج سرطان البروستاتا",
-     "url": "https://www.alraimedia.com/article/1782165/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B4%D8%B9%D8%A7%D8%B9-%D9%8A%D8%B6%D8%A7%D9%87%D9%8A-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9-%D9%81%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%D8%AA%D8%A7",
-     "section": "last-page",
-     "summary": "قال باحثون ​خلال أحدث اجتماعات الجمعية الأميركية لعلم العلاج الإشعاعي للأورام، ⁠الذي عقد في بوسطن، إن العلاج الإشعاعي نجح ​في السيطرة على سرطان البروستاتا الموضعي بنفس كفاءة الجراح...",
-     "body": "",
-     "published": "2026-10-10T04:18:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "2ab098ce24bc7631",
    "score": 5.958,
    "sources": [
@@ -2616,7 +2678,31 @@
    "analysis": {}
   },
   {
-   "key": "c3f569a3de600e01",
+   "key": "f841d8dd171fa92a",
+   "score": 5.759,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: ننفذ عملية واسعة تستهدف عناصر وقدرات الميليشيا الحوثية الإرهابية",
+     "url": "https://www.alraimedia.com/article/1782160/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D9%86%D9%86%D9%81%D8%B0-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D9%88%D8%A7%D8%B3%D8%B9%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D9%88%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعلن تحالف دعم الشرعية في اليمن اليوم السبت تدمير 136 هدفا عسكريا بمناطق سيطرة الميليشيا الحوثية الإرهابية في إطار عملية واسعة تستهدف عناصرها وقدراتها. وقال المتحدث الرسمي باسم قوا...",
+     "body": "",
+     "published": "2026-10-10T00:06:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "3a895183130cf07a",
    "score": 5.758,
    "sources": [
     "الرأي"
@@ -2627,21 +2713,21 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«الكويت» ينفرد بصدارة «دوري زين» بفوز كبير على النصر",
-     "url": "https://www.alraimedia.com/article/1782154/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%8A%D9%86%D9%81%D8%B1%D8%AF-%D8%A8%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B2%D9%8A%D9%86-%D8%A8%D9%81%D9%88%D8%B2-%D9%83%D8%A8%D9%8A%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%86%D8%B5%D8%B1",
+     "title": "ترامب يعيّن كيتي زاكارايا متحدثة جديدة باسم البيت الأبيض",
+     "url": "https://www.alraimedia.com/article/1782163/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B9%D9%8A%D9%86-%D9%83%D9%8A%D8%AA%D9%8A-%D8%B2%D8%A7%D9%83%D8%A7%D8%B1%D8%A7%D9%8A%D8%A7-%D9%85%D8%AA%D8%AD%D8%AF%D8%AB%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%A8%D8%A7%D8%B3%D9%85-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6",
      "section": "latest",
-     "summary": "واصل «الكويت» صدارة ترتيب «دوري زين» الممتاز لكرة القدم بعد اكتساحه مضيفه النصر 7-1 اليوم الجمعة في افتتاح الجولة الرابعة.واستفاد «الأبيض» من تعادل كاظمة، شريكه السابق في الصدارة،...",
+     "summary": "اختار دونالد ترامب أمس الجمعة كيتي زاكارايا، وهي معلّقة مقربة من حركة «ماغا»، لتكون المتحدثة الجديدة باسم البيت الأبيض، مشيدا بولائها.وعلّق الرئيس الجمهوري، لدى إعلانه التعيين عبر...",
      "body": "",
-     "published": "2026-10-09T22:07:00+03:00",
+     "published": "2026-10-10T01:57:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Sport",
+   "category": "World & Region",
    "analysis": {}
   },
   {
    "key": "c6dcf88563de2179",
-   "score": 5.519,
+   "score": 5.609,
    "sources": [
     "الرأي"
    ],
@@ -2653,7 +2739,7 @@
      "lang": "ar",
      "title": "الأمين العام للأمم المتحدة يدين الإعلان الأميركي بفرض عقوبات على المحكمة الجنائية الدولية",
      "url": "https://www.alraimedia.com/article/1782156/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%8A%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A8%D9%81%D8%B1%D8%B6-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
-     "section": "world",
+     "section": "latest",
      "summary": "أدان الأمين العام للأمم المتحدة أنطونيو غوتيريش اليوم الجمعة إعلان الولايات المتحدة فرض عقوبات على المحكمة الجنائية الدولية كمؤسسة مجددا دعمه الراسخ لاستقلالية المحكمة ومسؤوليها. و...",
      "body": "",
      "published": "2026-10-09T22:22:00+03:00",
@@ -2665,14 +2751,14 @@
      "lang": "ar",
      "title": "الولايات المتحدة تعلن فرض عقوبات على المحكمة الجنائية الدولية",
      "url": "https://www.alraimedia.com/article/1782146/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D9%81%D8%B1%D8%B6-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
-     "section": "world",
+     "section": "latest",
      "summary": "فرضت الولايات المتحدة الجمعة عقوبات على المحكمة الجنائية الدولية، متعهّدة بشلّ نشاطها بعد ساعات من منح لجنة نوبل جائزة السلام إلى القاضية السابقة في المحكمة نافي بيلاي.وتبرّر واشنط...",
      "body": "",
      "published": "2026-10-09T18:14:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -2700,23 +2786,23 @@
    "analysis": {}
   },
   {
-   "key": "ca3612be666f5906",
-   "score": 5.459,
+   "key": "b408389ba475e436",
+   "score": 5.451,
    "sources": [
-    "الرأي"
+    "الجريدة"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
      "lang": "ar",
-     "title": "«أنثروبيك» تمنع مستخدميها من أي «قسوة غير مبررة» تجاه أداتها «كلود»",
-     "url": "https://www.alraimedia.com/article/1782127/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83-%D8%AA%D9%85%D9%86%D8%B9-%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%87%D8%A7-%D9%85%D9%86-%D8%A3%D9%8A-%D9%82%D8%B3%D9%88%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%A8%D8%B1%D8%B1%D8%A9-%D8%AA%D8%AC%D8%A7%D9%87-%D8%A3%D8%AF%D8%A7%D8%AA%D9%87%D8%A7-%D9%83%D9%84%D9%88%D8%AF",
+     "title": "«أوبن أيه.آي» تتوقع إيرادات بقيمة 70 مليار دولار خلال 2026",
+     "url": "https://www.aljarida.com/article/146949",
      "section": "economy",
-     "summary": "أعلنت شركة «أنثروبيك» أنها ستمنع مستخدميها من ممارسة أي «سلوك مسيء أو قاس بصورة مستمرة ومن دون مبرر» تجاه برنامجها للذكاء الاصطناعي «كلود». وسيُطبّق القرار اعتبارا من 12 نوفمبر وست...",
+     "summary": "قالت مصادر مطلعة إن شركة تطبيقات الذكاء الاصطناعي «أوبن أيه.آي» تتوقع تحقيق إيرادات سنوية بنحو 70 مليار دولار بنهاية العام الحالي، مدعومة بالنمو القوي لقطاعه...",
      "body": "",
-     "published": "2026-10-09T10:08:00+03:00",
+     "published": "2026-10-09T14:36:00+03:00",
      "tier": 1
     }
    ],
@@ -2724,31 +2810,7 @@
    "analysis": {}
   },
   {
-   "key": "ffbb5e26a4ab7fd2",
-   "score": 5.459,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "سعر برميل النفط الكويتي يرتفع إلى 108.10 دولار",
-     "url": "https://www.alraimedia.com/article/1782125/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-10810-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "economy",
-     "summary": "ارتفع سعر برميل النفط الكويتي 4.89 دولار ليبلغ 108.10 دولار للبرميل في تداولات يوم أمس الخميس مقابل 103.21 دولار في تداولات يوم أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويت...",
-     "body": "",
-     "published": "2026-10-09T09:19:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "f841d8dd171fa92a",
+   "key": "c15364715ba08452",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -2759,16 +2821,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "التحالف: ننفذ عملية واسعة تستهدف عناصر وقدرات الميليشيا الحوثية الإرهابية",
-     "url": "https://www.alraimedia.com/article/1782160/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D9%86%D9%86%D9%81%D8%B0-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D9%88%D8%A7%D8%B3%D8%B9%D8%A9-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D9%88%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعلن تحالف دعم الشرعية في اليمن اليوم السبت تدمير 136 هدفا عسكريا بمناطق سيطرة الميليشيا الحوثية الإرهابية في إطار عملية واسعة تستهدف عناصرها وقدراتها. وقال المتحدث الرسمي باسم قوا...",
+     "title": "دراسة: الإشعاع يضاهي الجراحة في علاج سرطان البروستاتا",
+     "url": "https://www.alraimedia.com/article/1782165/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D8%A5%D8%B4%D8%B9%D8%A7%D8%B9-%D9%8A%D8%B6%D8%A7%D9%87%D9%8A-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9-%D9%81%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%D8%AA%D8%A7",
+     "section": "last-page",
+     "summary": "قال باحثون ​خلال أحدث اجتماعات الجمعية الأميركية لعلم العلاج الإشعاعي للأورام، ⁠الذي عقد في بوسطن، إن العلاج الإشعاعي نجح ​في السيطرة على سرطان البروستاتا الموضعي بنفس كفاءة الجراح...",
      "body": "",
-     "published": "2026-10-10T00:06:00+03:00",
+     "published": "2026-10-10T04:18:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2796,7 +2858,79 @@
    "analysis": {}
   },
   {
-   "key": "3a895183130cf07a",
+   "key": "45fea4c4af1e845e",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "النيابة العامة الإماراتية عن حادثة «فلا دبي»: كانت ضمن مخطط إرهابي يستهدف مطار بن غوريون",
+     "url": "https://www.alraimedia.com/article/1782150/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D8%A9-%D8%B9%D9%86-%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9-%D9%81%D9%84%D8%A7-%D8%AF%D8%A8%D9%8A-%D9%83%D8%A7%D9%86%D8%AA-%D8%B6%D9%85%D9%86-%D9%85%D8%AE%D8%B7%D8%B7-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A8%D9%86-%D8%BA%D9%88%D8%B1%D9%8A%D9%88%D9%86",
+     "section": "latest",
+     "summary": "أعلن النائب العام الإماراتي المستشار الدكتور حمد سيف الشامسي، أن التحقيقات التي تباشرها النيابة العامة في شأن واقعة رحلة شركة «فلاي دبي» رقم (FZ1073)، المتجهة من دبي إلى تل أبيب بت...",
+     "body": "",
+     "published": "2026-10-09T20:19:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "0d45d88b0a1dd68f",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الجنائية الدولية» تندد بالعقوبات الأميركية: اعتداء على سيادة القانون",
+     "url": "https://www.alraimedia.com/article/1782148/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D9%86%D8%AF%D8%AF-%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%B3%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86",
+     "section": "latest",
+     "summary": "نددت المحكمة الجنائية الدولية اليوم الجمعة بالعقوبات التي أعلنت الولايات المتحدة فرضها عليها، معتبرة انها «اعتداء على سيادة القانون».وقالت المحكمة في بيان إن هذه العقوبات تمثل «اعت...",
+     "body": "",
+     "published": "2026-10-09T18:24:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "54b3e4360cd3977c",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الصين والاتحاد الأوروبي يعززان الحوار لتجنب تصعيد تجاري",
+     "url": "https://www.alraimedia.com/article/1782144/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B9%D8%B2%D8%B2%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D9%88%D8%A7%D8%B1-%D9%84%D8%AA%D8%AC%D9%86%D8%A8-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A",
+     "section": "latest",
+     "summary": "اتفقت الصين والاتحاد الأوروبي اليوم الجمعة على مواصلة الحوار التجاري وتعزيزه، بعد محادثات استمرت يومين في بكين بهدف تجنب تصعيد على خلفية اختلال المبادلات، وفق وزارة التجارة الصينية...",
+     "body": "",
+     "published": "2026-10-09T17:13:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "c3f569a3de600e01",
    "score": 5.158,
    "sources": [
     "الرأي"
@@ -2807,12 +2941,36 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "ترامب يعيّن كيتي زاكارايا متحدثة جديدة باسم البيت الأبيض",
-     "url": "https://www.alraimedia.com/article/1782163/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B9%D9%8A%D9%86-%D9%83%D9%8A%D8%AA%D9%8A-%D8%B2%D8%A7%D9%83%D8%A7%D8%B1%D8%A7%D9%8A%D8%A7-%D9%85%D8%AA%D8%AD%D8%AF%D8%AB%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%A8%D8%A7%D8%B3%D9%85-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6",
-     "section": "world",
-     "summary": "اختار دونالد ترامب أمس الجمعة كيتي زاكارايا، وهي معلّقة مقربة من حركة «ماغا»، لتكون المتحدثة الجديدة باسم البيت الأبيض، مشيدا بولائها.وعلّق الرئيس الجمهوري، لدى إعلانه التعيين عبر...",
+     "title": "«الكويت» ينفرد بصدارة «دوري زين» بفوز كبير على النصر",
+     "url": "https://www.alraimedia.com/article/1782154/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%8A%D9%86%D9%81%D8%B1%D8%AF-%D8%A8%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%AF%D9%88%D8%B1%D9%8A-%D8%B2%D9%8A%D9%86-%D8%A8%D9%81%D9%88%D8%B2-%D9%83%D8%A8%D9%8A%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%86%D8%B5%D8%B1",
+     "section": "latest",
+     "summary": "واصل «الكويت» صدارة ترتيب «دوري زين» الممتاز لكرة القدم بعد اكتساحه مضيفه النصر 7-1 اليوم الجمعة في افتتاح الجولة الرابعة.واستفاد «الأبيض» من تعادل كاظمة، شريكه السابق في الصدارة،...",
      "body": "",
-     "published": "2026-10-10T01:57:00+03:00",
+     "published": "2026-10-09T22:07:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "17a8911743722c77",
+   "score": 5.157,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب: ترقبوا أخباراً مهمة في شأن الديزل",
+     "url": "https://www.alraimedia.com/article/1782149/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AA%D8%B1%D9%82%D8%A8%D9%88%D8%A7-%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7-%D9%85%D9%87%D9%85%D8%A9-%D9%81%D9%8A-%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84",
+     "section": "latest",
+     "summary": "قال الرئيس الأميركي دونالد ⁠ترامب اليوم الجمعة إن ​هناك «أخبارا مهمة» مقبلة في شأن الديزل، في وقت ‌لا تزال فيه الأسعار قرب مستويات قياسية مرتفعة قبل أسابيع من انتخابات التجديد...",
+     "body": "",
+     "published": "2026-10-09T19:31:00+03:00",
      "tier": 1
     }
    ],
@@ -2892,30 +3050,6 @@
    "analysis": {}
   },
   {
-   "key": "45fea4c4af1e845e",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "النيابة العامة الإماراتية عن حادثة «فلا دبي»: كانت ضمن مخطط إرهابي يستهدف مطار بن غوريون",
-     "url": "https://www.alraimedia.com/article/1782150/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%8A%D8%A9-%D8%B9%D9%86-%D8%AD%D8%A7%D8%AF%D8%AB%D8%A9-%D9%81%D9%84%D8%A7-%D8%AF%D8%A8%D9%8A-%D9%83%D8%A7%D9%86%D8%AA-%D8%B6%D9%85%D9%86-%D9%85%D8%AE%D8%B7%D8%B7-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A8%D9%86-%D8%BA%D9%88%D8%B1%D9%8A%D9%88%D9%86",
-     "section": "world",
-     "summary": "أعلن النائب العام الإماراتي المستشار الدكتور حمد سيف الشامسي، أن التحقيقات التي تباشرها النيابة العامة في شأن واقعة رحلة شركة «فلاي دبي» رقم (FZ1073)، المتجهة من دبي إلى تل أبيب بت...",
-     "body": "",
-     "published": "2026-10-09T20:19:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "1756b7c5108ecbac",
    "score": 4.559,
    "sources": [
@@ -2933,30 +3067,6 @@
      "summary": "أعرب الاتحاد الأوروبي اليوم الجمعة عن أسفه البالغ لإعلان الولايات المتحدة عزمها فرض عقوبات على المحكمة الجنائية الدولية مؤكدا استعداده لاتخاذ جميع التدابير اللازمة لتمكين المحكمة م...",
      "body": "",
      "published": "2026-10-09T19:03:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "0d45d88b0a1dd68f",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الجنائية الدولية» تندد بالعقوبات الأميركية: اعتداء على سيادة القانون",
-     "url": "https://www.alraimedia.com/article/1782148/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D9%86%D8%AF%D8%AF-%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%B3%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86",
-     "section": "world",
-     "summary": "نددت المحكمة الجنائية الدولية اليوم الجمعة بالعقوبات التي أعلنت الولايات المتحدة فرضها عليها، معتبرة انها «اعتداء على سيادة القانون».وقالت المحكمة في بيان إن هذه العقوبات تمثل «اعت...",
-     "body": "",
-     "published": "2026-10-09T18:24:00+03:00",
      "tier": 1
     }
    ],
@@ -2988,30 +3098,6 @@
    "analysis": {}
   },
   {
-   "key": "54b3e4360cd3977c",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الصين والاتحاد الأوروبي يعززان الحوار لتجنب تصعيد تجاري",
-     "url": "https://www.alraimedia.com/article/1782144/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B9%D8%B2%D8%B2%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D9%88%D8%A7%D8%B1-%D9%84%D8%AA%D8%AC%D9%86%D8%A8-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A",
-     "section": "world",
-     "summary": "اتفقت الصين والاتحاد الأوروبي اليوم الجمعة على مواصلة الحوار التجاري وتعزيزه، بعد محادثات استمرت يومين في بكين بهدف تجنب تصعيد على خلفية اختلال المبادلات، وفق وزارة التجارة الصينية...",
-     "body": "",
-     "published": "2026-10-09T17:13:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "230ed7b7c386c316",
    "score": 4.559,
    "sources": [
@@ -3025,34 +3111,34 @@
      "lang": "ar",
      "title": "البديوي: تعمد ميليشيات الحوثي استهداف المطارات المدنية والمدنيين يستدعي تحركا دوليا جادا",
      "url": "https://www.alraimedia.com/article/1782139/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%88%D9%8A-%D8%AA%D8%B9%D9%85%D8%AF-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86-%D9%8A%D8%B3%D8%AA%D8%AF%D8%B9%D9%8A-%D8%AA%D8%AD%D8%B1%D9%83%D8%A7-%D8%AF%D9%88%D9%84%D9%8A%D8%A7-%D8%AC%D8%A7%D8%AF%D8%A7",
-     "section": "world",
+     "section": "latest",
      "summary": "أعرب الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي اليوم، عن بالغ استنكاره وإدانته القاطعة للهجوم الإرهابي الذي أقدمت عليه ميليشيات الحوثي باستهداف مطار الملك خالد ال...",
      "body": "",
      "published": "2026-10-09T15:09:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
-   "key": "302d98d700dddd97",
+   "key": "017a0151a1826c1a",
    "score": 4.559,
    "sources": [
-    "الجريدة"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
+     "source_id": "alrai",
+     "source_name": "الرأي",
      "lang": "ar",
-     "title": "اريتريا وإثيوبيا تتبادلان الاتهامات بشن «عدوان صارخ» و«حرب غير مبررة»",
-     "url": "https://www.aljarida.com/article/146951",
-     "section": "world",
-     "summary": "تبادلت إثيوبيا وإريتريا الجمعة الاتهامات بشنّ حرب عدوانية، في وقت يهدّد نزاع داخلي إثيوبي بالتحوّل إلى حرب إقليمية.وتدهورت العلاقات بشكل حاد في الآونة الأخرية بين البلدين الجارين ا...",
+     "title": "رئيس الوزراء الباكستاني يدين هجمات ميليشيا الحوثي ضد السعودية",
+     "url": "https://www.alraimedia.com/article/1782130/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86%D9%8A-%D9%8A%D8%AF%D9%8A%D9%86-%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "دان رئيس الوزراء الباكستان محمد شهباز شريف بشدة اليوم، الهجمات الإرهابية المتكررة التي تشنها ميليشيا الحوثي ضد المملكة العربية السعودية بما في ذلك استهداف مطاري الملك خالد وأبها ال...",
      "body": "",
-     "published": "2026-10-09T14:29:00+03:00",
+     "published": "2026-10-09T11:41:00+03:00",
      "tier": 1
     }
    ],
@@ -3173,6 +3259,30 @@
      "summary": "CHICAGO: The Cleveland Guardians scored six runs in the sixth inning to beat the Chicago White Sox 9-5 on Thursday, forcing a deciding fifth game in their best-of-five American Lea...",
      "body": "",
      "published": "2026-10-09T10:15:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "ca3612be666f5906",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«أنثروبيك» تمنع مستخدميها من أي «قسوة غير مبررة» تجاه أداتها «كلود»",
+     "url": "https://www.alraimedia.com/article/1782127/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83-%D8%AA%D9%85%D9%86%D8%B9-%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%87%D8%A7-%D9%85%D9%86-%D8%A3%D9%8A-%D9%82%D8%B3%D9%88%D8%A9-%D8%BA%D9%8A%D8%B1-%D9%85%D8%A8%D8%B1%D8%B1%D8%A9-%D8%AA%D8%AC%D8%A7%D9%87-%D8%A3%D8%AF%D8%A7%D8%AA%D9%87%D8%A7-%D9%83%D9%84%D9%88%D8%AF",
+     "section": "latest",
+     "summary": "أعلنت شركة «أنثروبيك» أنها ستمنع مستخدميها من ممارسة أي «سلوك مسيء أو قاس بصورة مستمرة ومن دون مبرر» تجاه برنامجها للذكاء الاصطناعي «كلود». وسيُطبّق القرار اعتبارا من 12 نوفمبر وست...",
+     "body": "",
+     "published": "2026-10-09T10:08:00+03:00",
      "tier": 1
     }
    ],
@@ -3348,51 +3458,27 @@
    "analysis": {}
   },
   {
-   "key": "48072c7aca7d8cc4",
+   "key": "ffbb5e26a4ab7fd2",
    "score": 4.559,
    "sources": [
-    "Kuwait Times"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Driver faces deportation for dirtying road in Jabriya",
-     "url": "https://kuwaittimes.com/article/51268/kuwait/driver-faces-deportation-for-dirtying-road-in-jabriya/",
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سعر برميل النفط الكويتي يرتفع إلى 108.10 دولار",
+     "url": "https://www.alraimedia.com/article/1782125/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-10810-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
      "section": "latest",
-     "summary": "KUWAIT: A Bangladeshi truck driver has been detained pending deportation and his vehicle impounded for throwing material that dirtied a road in Jabriya, the General Traffic Departm...",
+     "summary": "ارتفع سعر برميل النفط الكويتي 4.89 دولار ليبلغ 108.10 دولار للبرميل في تداولات يوم أمس الخميس مقابل 103.21 دولار في تداولات يوم أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويت...",
      "body": "",
-     "published": "2026-10-09T09:15:00+03:00",
+     "published": "2026-10-09T09:19:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "f7ec5162fde8b648",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Domestic driver held for dealing drugs on family trips",
-     "url": "https://kuwaittimes.com/article/51267/kuwait/domestic-driver-held-for-dealing-drugs-on-family-trips/",
-     "section": "latest",
-     "summary": "KUWAIT: A Sri Lankan domestic driver has been arrested for selling crystal meth in Ardiya. He distributed the drugs while driving his employer’s family, using his job to avoid susp...",
-     "body": "",
-     "published": "2026-10-09T08:58:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -3420,54 +3506,6 @@
    "analysis": {}
   },
   {
-   "key": "11febed9e60efe2e",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait urges UN to turn resolutions into tangible results",
-     "url": "https://kuwaittimes.com/article/51264/kuwait/kuwait-urges-un-to-turn-resolutions-into-tangible-results/",
-     "section": "latest",
-     "summary": "NEW YORK: Kuwait has said the strength of the United Nations (UN) lies in implementing its resolutions and achieving tangible results on the ground, not in how many it adopts. It a...",
-     "body": "",
-     "published": "2026-10-09T08:41:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "fcd52b74371dacdf",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait urges global financial reform, bigger UN voice for developing nations",
-     "url": "https://kuwaittimes.com/article/51263/kuwait/kuwait-urges-global-financial-reform-bigger-un-voice-for-developing-nations/",
-     "section": "latest",
-     "summary": "NEW YORK: Kuwait has called for reform of the international financial architecture, stronger representation for developing countries at the United Nations, more concessional and cl...",
-     "body": "",
-     "published": "2026-10-09T08:24:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "5e4d2baed89210a3",
    "score": 4.558,
    "sources": [
@@ -3489,6 +3527,30 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "857718cff702a333",
+   "score": 4.558,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الاتحاد الأوروبي يسعى إلى نتائج «ملموسة» في المفاوضات التجارية مع الصين",
+     "url": "https://www.alraimedia.com/article/1782126/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B3%D8%B9%D9%89-%D8%A5%D9%84%D9%89-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%85%D9%84%D9%85%D9%88%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%B5%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "قال مفوّض التجارة في الاتحاد الأوروبي ماروش شيفتشوفيتش إنه من الضروري تحقيق «نتائج ملموسة» في المحادثات المقرّر اختتامها في الصين اليوم. وقال شيفتشوفيتش في منشور على منصة «إكس» في...",
+     "body": "",
+     "published": "2026-10-09T09:37:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3516,31 +3578,7 @@
    "analysis": {}
   },
   {
-   "key": "15caf93439cb3504",
-   "score": 4.558,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Today in Kuwait’s history",
-     "url": "https://kuwaittimes.com/article/51262/kuwait/today-in-kuwaits-history/",
-     "section": "latest",
-     "summary": "KUWAIT: Following are events that took place in Kuwait on October 9:1972 — The State of Kuwait opened its first embassy in Brazil.1976 — Amir Sheikh Sabah Al-Salem Al-Sabah signed...",
-     "body": "",
-     "published": "2026-10-09T08:11:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "17a8911743722c77",
+   "key": "6aabdb94ec342750",
    "score": 4.557,
    "sources": [
     "الرأي"
@@ -3551,16 +3589,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "ترامب: ترقبوا أخباراً مهمة في شأن الديزل",
-     "url": "https://www.alraimedia.com/article/1782149/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AA%D8%B1%D9%82%D8%A8%D9%88%D8%A7-%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7-%D9%85%D9%87%D9%85%D8%A9-%D9%81%D9%8A-%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84",
-     "section": "world",
-     "summary": "قال الرئيس الأميركي دونالد ⁠ترامب اليوم الجمعة إن ​هناك «أخبارا مهمة» مقبلة في شأن الديزل، في وقت ‌لا تزال فيه الأسعار قرب مستويات قياسية مرتفعة قبل أسابيع من انتخابات التجديد...",
+     "title": "رئيس كوريا الجنوبية يشرف على أول اختبار لصاروخ فرط صوتي مطور محلياً",
+     "url": "https://www.alraimedia.com/article/1782123/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D8%A6%D9%8A%D8%B3-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9-%D9%8A%D8%B4%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A3%D9%88%D9%84-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D9%84%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%81%D8%B1%D8%B7-%D8%B5%D9%88%D8%AA%D9%8A-%D9%85%D8%B7%D9%88%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A7",
+     "section": "latest",
+     "summary": "أشرف ⁠الرئيس الكوري الجنوبي لي ​جيه-ميونغ على أول اختبار لإطلاق ‌صاروخ فرط صوتي تم تطويره محليا، وفقا لما أورده مكتب الرئاسة في ⁠بيان صدر أمس الخميس.يأتي اختبار الصاروخ، ⁠وهو...",
      "body": "",
-     "published": "2026-10-09T19:31:00+03:00",
+     "published": "2026-10-09T07:21:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -3577,14 +3615,14 @@
      "lang": "ar",
      "title": "«الجنائية الدولية»: منح القاضية بيلاي نوبل السلام اعتراف ⁠مهم ‌بدور العدالة الدولية",
      "url": "https://www.alraimedia.com/article/1782140/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D9%85%D9%86%D8%AD-%D8%A7%D9%84%D9%82%D8%A7%D8%B6%D9%8A%D8%A9-%D8%A8%D9%8A%D9%84%D8%A7%D9%8A-%D9%86%D9%88%D8%A8%D9%84-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D9%81-%D9%85%D9%87%D9%85-%D8%A8%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
-     "section": "world",
+     "section": "latest",
      "summary": "قالت المحكمة الجنائية ​الدولية إن ‌جائزة نوبل للسلام التي منحت لقاضيتها السابقة نافي ⁠بيلاي اليوم، ⁠تعد اعترافا ⁠مهما ‌بدور العدالة الدولية باعتبارها ركيزة أساسية للسلام....",
      "body": "",
      "published": "2026-10-09T14:29:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3605,6 +3643,30 @@
      "summary": "انتقد الرئيس الأميركي، دونالد ترامب، اليوم الجمعة، منح القاضية المولودة في جنوب أفريقيا نافي بيلاي، جائزة نوبل للسلام لعام 2026، قائلاً إن الجائزة الدولية «أُهينت».وفاز...",
      "body": "",
      "published": "2026-10-09T17:40:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "7fd701c16c0a9088",
+   "score": 4.554,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الأمم المتحدة ترحب بفوز بيلاي بنوبل للسلام: نحن ‌بحاجة ​إلى مزيد ‌من التفاني والالتزام ⁠تجاه ⁠حقوق الإنسان",
+     "url": "https://www.alraimedia.com/article/1782135/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D9%81%D9%88%D8%B2-%D8%A8%D9%8A%D9%84%D8%A7%D9%8A-%D8%A8%D9%86%D9%88%D8%A8%D9%84-%D9%84%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D9%86%D8%AD%D9%86-%D8%A8%D8%AD%D8%A7%D8%AC%D8%A9-%D8%A5%D9%84%D9%89-%D9%85%D8%B2%D9%8A%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85-%D8%AA%D8%AC%D8%A7%D9%87-%D8%AD%D9%82%D9%88%D9%82-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86",
+     "section": "latest",
+     "summary": "رحب ​مكتب مفوض ‌الأمم المتحدة السامي لحقوق الإنسان اليوم، بنبأ فوز ⁠القاضية نافي بيلاي بجائزة ⁠نوبل ‌للسلام، وعبر عن تقديره لجهودها ‌الدؤوبة في الدفاع عن حقوق الإنسا...",
+     "body": "",
+     "published": "2026-10-09T12:41:00+03:00",
      "tier": 1
     }
    ],
@@ -3660,6 +3722,30 @@
    "analysis": {}
   },
   {
+   "key": "302d98d700dddd97",
+   "score": 3.959,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "اريتريا وإثيوبيا تتبادلان الاتهامات بشن «عدوان صارخ» و«حرب غير مبررة»",
+     "url": "https://www.aljarida.com/article/146951",
+     "section": "world",
+     "summary": "تبادلت إثيوبيا وإريتريا الجمعة الاتهامات بشنّ حرب عدوانية، في وقت يهدّد نزاع داخلي إثيوبي بالتحوّل إلى حرب إقليمية.وتدهورت العلاقات بشكل حاد في الآونة الأخرية بين البلدين الجارين ا...",
+     "body": "",
+     "published": "2026-10-09T14:29:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "e5ca992a64f153a6",
    "score": 3.959,
    "sources": [
@@ -3708,54 +3794,6 @@
    "analysis": {}
   },
   {
-   "key": "017a0151a1826c1a",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رئيس الوزراء الباكستاني يدين هجمات ميليشيا الحوثي ضد السعودية",
-     "url": "https://www.alraimedia.com/article/1782130/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86%D9%8A-%D9%8A%D8%AF%D9%8A%D9%86-%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "دان رئيس الوزراء الباكستان محمد شهباز شريف بشدة اليوم، الهجمات الإرهابية المتكررة التي تشنها ميليشيا الحوثي ضد المملكة العربية السعودية بما في ذلك استهداف مطاري الملك خالد وأبها ال...",
-     "body": "",
-     "published": "2026-10-09T11:41:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "f7eee574bce6f0b0",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ممداني يطالب ترامب بسحب عناصر إدارة الهجرة والجمارك من نيويورك",
-     "url": "https://www.alraimedia.com/article/1782122/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D9%85%D8%AF%D8%A7%D9%86%D9%8A-%D9%8A%D8%B7%D8%A7%D9%84%D8%A8-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A8%D8%B3%D8%AD%D8%A8-%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B1%D9%83-%D9%85%D9%86-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83",
-     "section": "world",
-     "summary": "قال رئيس بلدية نيويورك زهران ممداني أمس الخميس إنه سيطلب من الرئيس دونالد ترامب سحب عناصر إدارة الهجرة والجمارك من المدينة، غداة حادث إطلاق نار مرتبط بالجهاز الاتحادي.وأفادت شرطة ن...",
-     "body": "",
-     "published": "2026-10-09T06:24:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "c1d64d521e57c47d",
    "score": 3.959,
    "sources": [
@@ -3780,30 +3818,6 @@
    "analysis": {}
   },
   {
-   "key": "857718cff702a333",
-   "score": 3.958,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الاتحاد الأوروبي يسعى إلى نتائج «ملموسة» في المفاوضات التجارية مع الصين",
-     "url": "https://www.alraimedia.com/article/1782126/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B3%D8%B9%D9%89-%D8%A5%D9%84%D9%89-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%85%D9%84%D9%85%D9%88%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D8%B5%D9%8A%D9%86",
-     "section": "world",
-     "summary": "قال مفوّض التجارة في الاتحاد الأوروبي ماروش شيفتشوفيتش إنه من الضروري تحقيق «نتائج ملموسة» في المحادثات المقرّر اختتامها في الصين اليوم. وقال شيفتشوفيتش في منشور على منصة «إكس» في...",
-     "body": "",
-     "published": "2026-10-09T09:37:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "be9d7bc739fa3023",
    "score": 3.957,
    "sources": [
@@ -3825,54 +3839,6 @@
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "6aabdb94ec342750",
-   "score": 3.957,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رئيس كوريا الجنوبية يشرف على أول اختبار لصاروخ فرط صوتي مطور محلياً",
-     "url": "https://www.alraimedia.com/article/1782123/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D8%A6%D9%8A%D8%B3-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9-%D9%8A%D8%B4%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A3%D9%88%D9%84-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D9%84%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%81%D8%B1%D8%B7-%D8%B5%D9%88%D8%AA%D9%8A-%D9%85%D8%B7%D9%88%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A7",
-     "section": "world",
-     "summary": "أشرف ⁠الرئيس الكوري الجنوبي لي ​جيه-ميونغ على أول اختبار لإطلاق ‌صاروخ فرط صوتي تم تطويره محليا، وفقا لما أورده مكتب الرئاسة في ⁠بيان صدر أمس الخميس.يأتي اختبار الصاروخ، ⁠وهو...",
-     "body": "",
-     "published": "2026-10-09T07:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "7fd701c16c0a9088",
-   "score": 3.954,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الأمم المتحدة ترحب بفوز بيلاي بنوبل للسلام: نحن ‌بحاجة ​إلى مزيد ‌من التفاني والالتزام ⁠تجاه ⁠حقوق الإنسان",
-     "url": "https://www.alraimedia.com/article/1782135/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D9%81%D9%88%D8%B2-%D8%A8%D9%8A%D9%84%D8%A7%D9%8A-%D8%A8%D9%86%D9%88%D8%A8%D9%84-%D9%84%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D9%86%D8%AD%D9%86-%D8%A8%D8%AD%D8%A7%D8%AC%D8%A9-%D8%A5%D9%84%D9%89-%D9%85%D8%B2%D9%8A%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85-%D8%AA%D8%AC%D8%A7%D9%87-%D8%AD%D9%82%D9%88%D9%82-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86",
-     "section": "world",
-     "summary": "رحب ​مكتب مفوض ‌الأمم المتحدة السامي لحقوق الإنسان اليوم، بنبأ فوز ⁠القاضية نافي بيلاي بجائزة ⁠نوبل ‌للسلام، وعبر عن تقديره لجهودها ‌الدؤوبة في الدفاع عن حقوق الإنسا...",
-     "body": "",
-     "published": "2026-10-09T12:41:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3985,7 +3951,7 @@
      "lang": "en",
      "title": "Trump Says US May Take Action Against Iran, Claims Tehran Is ‘Failing Badly’",
      "url": "https://www.arabtimesonline.com/news/trump-says-us-may-take-action-against-iran-claims-tehran-is-failing-badly/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 10: US President Donald Trump said Friday that Washington may take further action against Iran, claiming the country’s military has been defeated and its economy is...",
      "body": "",
      "published": "2026-10-10T01:42:00+03:00",
@@ -4009,7 +3975,7 @@
      "lang": "en",
      "title": "India’s Democracy Under Siege as Anti-Modi Satire Is Silenced",
      "url": "https://www.arabtimesonline.com/news/indias-democracy-under-siege-as-anti-modi-satire-is-silenced/",
-     "section": "latest",
+     "section": "general",
      "summary": "NEW DELHI, Oct 10: Instagram has removed a parody video by Indian stand-up comedian Brijesh Jha criticising the deletion of his name and those of his father and sister from West Be...",
      "body": "",
      "published": "2026-10-10T01:32:00+03:00",
@@ -4057,7 +4023,7 @@
      "lang": "en",
      "title": "7.7-Magnitude Earthquake Rocks Panama, Second Powerful Quake Triggers Evacuations",
      "url": "https://www.arabtimesonline.com/news/77-magnitude-earthquake-rocks-panama-second-powerful-quake-triggers-evacuations/",
-     "section": "latest",
+     "section": "general",
      "summary": "PANAMA CITY, Oct 10: A powerful magnitude-7.7 earthquake struck Panama on Friday, followed by a magnitude-6.6 tremor and dozens of aftershocks, damaging buildings, cracking roads a...",
      "body": "",
      "published": "2026-10-10T00:44:00+03:00",
@@ -4081,7 +4047,7 @@
      "lang": "en",
      "title": "Vatican Condemns USA Plan to Turn Execution Into Public Spectacle",
      "url": "https://www.arabtimesonline.com/news/vatican-condemns-usa-plan-to-turn-execution-into-public-spectacle/",
-     "section": "latest",
+     "section": "general",
      "summary": "VATICAN CITY, Oct 10: Vatican Secretary of State Cardinal Pietro Parolin has condemned the idea of turning an execution into a public spectacle, describing the proposal as “unaccep...",
      "body": "",
      "published": "2026-10-10T00:37:00+03:00",
@@ -4105,7 +4071,7 @@
      "lang": "en",
      "title": "Eight Nations Condemn US Sanctions Threat Against International Criminal Court",
      "url": "https://www.arabtimesonline.com/news/eight-nations-condemn-us-sanctions-threat-against-international-criminal-court/",
-     "section": "latest",
+     "section": "general",
      "summary": "LONDON, Oct 10: Canada, Denmark, France, Germany, Italy, Japan, the Netherlands and the United Kingdom have expressed strong opposition to US sanctions announced against the Intern...",
      "body": "",
      "published": "2026-10-10T00:32:00+03:00",
@@ -4129,7 +4095,7 @@
      "lang": "en",
      "title": "Saudi-led Coalition Destroys 136 Iran-Backed Houthi Military Targets in Yemen",
      "url": "https://www.arabtimesonline.com/news/saudi-led-coalition-destroys-136-iran-backed-houthi-military-targets-in-yemen/",
-     "section": "latest",
+     "section": "general",
      "summary": "RIYADH, Oct 10: The Saudi-led coalition supporting legitimacy in Yemen has launched large-scale military operations targeting Iran -backed Houthi forces and their military capabili...",
      "body": "",
      "published": "2026-10-10T00:26:00+03:00",
@@ -4225,7 +4191,7 @@
      "lang": "en",
      "title": "Delhi Blocks Voter Roll Protest, Deploys 20,000 Security Personnel; Mass Detentions Reported",
      "url": "https://www.arabtimesonline.com/news/delhi-blocks-voter-roll-protest-deploys-20000-security-personnel-mass-detentions-reported/",
-     "section": "latest",
+     "section": "general",
      "summary": "NEW DELHI, Oct 9: Indian authorities have stepped up security across the national capital and denied permission for a planned weekend protest against the deletion of voters from el...",
      "body": "",
      "published": "2026-10-09T16:38:00+03:00",
@@ -4249,7 +4215,7 @@
      "lang": "en",
      "title": "Vessel Hit by Unknown Projectile off UAE Coast",
      "url": "https://www.arabtimesonline.com/news/vessel-hit-by-unknown-projectile-off-uae-coast/",
-     "section": "latest",
+     "section": "general",
      "summary": "DUBAI, Oct 9: A vessel was struck by an unknown projectile off the coast of the United Arab Emirates on Friday, causing a fire that was later extinguished, the United Kingdom Marit...",
      "body": "",
      "published": "2026-10-09T16:26:00+03:00",
@@ -4273,7 +4239,7 @@
      "lang": "en",
      "title": "Three Saudis Killed in Riyadh Airport Attacks by Iran-Backed Houthis",
      "url": "https://www.arabtimesonline.com/news/three-saudis-killed-in-riyadh-airport-attacks-by-iran-backed-houthis/",
-     "section": "latest",
+     "section": "general",
      "summary": "RIYADH, Oct 9: Three Saudi citizens were killed and several others injured in two attacks targeting King Khalid International Airport facilities and a Saudia aircraft, Saudi Arabia...",
      "body": "",
      "published": "2026-10-09T16:20:00+03:00",
