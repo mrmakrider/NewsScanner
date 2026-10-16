@@ -1,23 +1,23 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-16T07:48:38.560638+03:00",
+ "generated_at": "2026-10-16T08:17:30.224875+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 367,
+  "total_articles": 363,
   "outlets_reporting": 7,
-  "total_stories": 294,
+  "total_stories": 290,
   "major_stories": 17,
   "analysed_stories": 28,
-  "window_start": "2026-10-15T05:48:38.560638+03:00",
-  "window_end": "2026-10-16T07:48:38.560638+03:00",
+  "window_start": "2026-10-15T06:17:30.224875+03:00",
+  "window_end": "2026-10-16T08:17:30.224875+03:00",
   "major_threshold": 3,
   "categories": {
    "Sport": 23,
-   "Government & Politics": 92,
-   "Society & Services": 26,
+   "Government & Politics": 91,
+   "Society & Services": 24,
    "Security & Courts": 11,
-   "World & Region": 71,
+   "World & Region": 70,
    "Economy & Business": 44,
    "Opinion & Analysis": 25,
    "Culture & Entertainment": 2
@@ -30,64 +30,66 @@
   ]
  },
  "synthesis": {
-  "editor_note_en": "The day is defined by the collision between routine domestic administrative churn and a sudden, high-stakes regional security disruption. The most significant development is the GCC’s postponement of the Gulf-EU Summit (S11), explicitly attributed to ongoing Houthi attacks and the suspension of operations at King Khalid International Airport, marking a tangible escalation in regional volatility. This external threat contrasts sharply with the internal focus on bureaucratic continuity, such as the annulment of supervisory exam results (S4) and the launch of new digital services (S2, S19). While Kuwait continues to project diplomatic assertiveness through multilateral roles (S1, S7, S27), the security backdrop now directly impacts high-level diplomatic logistics, signaling that regional instability is no longer just a backdrop but an active operational constraint.",
-  "editor_note_ar": "تتسم تغطية اليوم بتصادم حاد بين الروتين الإداري المحلي والتوتر الأمني الإقليمي المفاجئ. التطور الأبرز يتمثل في تأجيل مجلس التعاون الخليجي للقمة الخليجية-الأوروبية (S11)، حيث عُزيت الخطوة صراحةً إلى الهجمات الحوثية المستمرة وتعليق العمليات في مطار الملك خالد الدولي، مما يؤكد تصاعد حقيقي في عدم الاستقرار الإقليمي. يتناقض هذا التهديد الخارجي مع التركيز الداخلي على الاستمرارية البيروقراطية، مثل إلغاء نتائج اختبارات الوظائف الإشرافية (S4) وإطلاق خدمات رقمية جديدة (S2، S19). ورغم استمرار الكويت في تعزيز حضورها الدبلوماسي عبر أدوار متعددة الأطراف (S1، S7، S27)، إلا أن الخلفية الأمنية أصبحت الآن قيداً تشغيلياً مباشراً على اللوجستيات الدبلوماسية رفيعة المستوى، مما يشير إلى أن عدم الاستقرار الإقليمي لم يعد مجرد خلفية، بل تحول إلى عامل مؤثر فعلياً على سير العمل.",
-  "story_of_the_day": "S11",
-  "tactical_en": "The Gulf-EU Summit, originally scheduled for October 24 in Riyadh, has been postponed to an unknown date due to security concerns regarding Houthi attacks and the suspension of operations at King Khalid International Airport (S11). The 'Wadafati' job fair concludes on October 17 (S16). The new Penal Code is nearing final drafting, with 'Electronic Agencies' for judicial services set to launch next month (S26).",
-  "tactical_ar": "تم تأجيل القمة الخليجية-الأوروبية، التي كانت مقررة في 24 أكتوبر في الرياض، إلى موعد غير محدد بسبب مخاوف أمنية تتعلق بالهجمات الحوثية وتعليق العمليات في مطار الملك خالد الدولي (S11). ينتهي معرض «وظيفتي» في 17 أكتوبر (S16). يقترب قانون الجزاء الجديد من الصياغة النهائية، مع إطلاق «الوكالات الإلكترونية» للخدمات القضائية الشهر المقبل (S26).",
-  "strategic_en": "Today’s material supports a pattern of Kuwait leveraging multilateral platforms (UNODC, UNESCO, CICA) to consolidate diplomatic capital and showcase technical expertise (S1, S7, S27). This diplomatic assertiveness is occurring simultaneously with a measurable escalation in regional security threats, as evidenced by the GCC’s decision to postpone a major summit due to Houthi activity (S11). The juxtaposition suggests that while Kuwait is actively building its international profile, the regional security environment is becoming a more immediate and disruptive factor in diplomatic planning.",
-  "strategic_ar": "تدعم مواد اليوم نمطاً يظهر فيه استغلال الكويت للمنصات متعددة الأطراف (المكتب الأممي، اليونسكو، منتدى التفاعل) لترسيخ رأس المال الدبلوماسي وإبراز الخبرة التقنية (S1، S7، S27). يحدث هذا الحسم الدبلوماسي بالتزامن مع تصاعد ملمس في التهديدات الأمنية الإقليمية، كما يتضح من قرار مجلس التعاون بتأجيل قمة كبرى بسبب النشاط الحوثي (S11). يشير هذا التباين إلى أنه في حين تعمل الكويت بنشاط على بناء ملفها الدولي، فإن البيئة الأمنية الإقليمية أصبحت عاملاً أكثر إلحاحاً وتأثيراً في التخطيط الدبلوماسي.",
+  "editor_note_en": "The day is defined by the collision between Kuwait's routine domestic administrative churn and the sudden disruption of high-level regional diplomacy. The most significant development is the GCC's postponement of the Gulf-EU Summit (S10), explicitly attributed to Houthi attacks and the suspension of operations at King Khalid International Airport, marking a tangible escalation in regional security volatility. This external threat contrasts sharply with the internal focus on bureaucratic continuity, such as the annulment of education exam results (S11) and the launch of digital services (S2, S19). While Kuwait continues to project soft power through international appointments (S1, S5, S9), the inability to host a major summit signals that regional instability is now directly impacting Kuwait's diplomatic calendar.",
+  "editor_note_ar": "تتسم تغطية اليوم بتصادم حاد بين الروتين الإداري المحلي والتعثر المفاجئ في الدبلوماسية الإقليمية العليا. التطور الأهم هو تأجيل مجلس التعاون الخليجي للقمة الخليجية-الأوروبية (S10)، حيث عُزى القرار صراحةً إلى الهجمات الحوثية وتعليق العمليات في مطار الملك خالد الدولي، مما يمثل تصعيداً ملموساً للتوترات الأمنية الإقليمية. يتناقض هذا التهديد الخارجي بوضوح مع التركيز الداخلي على الاستمرارية البيروقراطية، مثل إلغاء نتائج اختبارات التعليم (S11) وإطلاق الخدمات الرقمية (S2, S19). وبينما تواصل الكويت تعزيز نفوذها الناعم من خلال التعيينات الدولية (S1, S5, S9)، فإن تعذر استضافة قمة كبرى يشير إلى أن عدم الاستقرار الإقليمي أصبح يؤثر مباشرة على الأجندة الدبلوماسية للبلاد.",
+  "story_of_the_day": "S10",
+  "tactical_en": "The GCC Secretary-General announced the postponement of the Gulf-EU Summit, originally scheduled for October 24 in Riyadh, to an unknown later date due to Houthi attacks and airport suspensions (S10). The 'Wadafati' job fair concludes on October 17 (S16). The new Penal Code drafting is nearing completion, with 'Electronic Agencies' for judicial services launching next month (S26).",
+  "tactical_ar": "أعلن الأمين العام لمجلس التعاون عن تأجيل القمة الخليجية-الأوروبية، التي كانت مقررة في 24 أكتوبر في الرياض، إلى موعد لاحق غير محدد بسبب الهجمات الحوثية وتعليق العمليات في المطار (S10). ينتهي معرض «وظيفتي» في 17 أكتوبر (S16). يقترب الصياغة النهائية لقانون الجزاء الجديد من الاكتمال، مع إطلاق «الوكالات الإلكترونية» للخدمات القضائية الشهر المقبل (S26).",
+  "strategic_en": "Today's material supports a pattern where regional security volatility is beginning to directly constrain Kuwait's diplomatic ambitions. While Kuwait continues to secure high-profile international roles (S1, S5, S9), the postponement of the Gulf-EU Summit (S10) indicates that the Houthi threat is no longer just a backdrop but an active disruptor of GCC-led initiatives. This contrasts with the historical context of routine diplomatic engagement, suggesting a shift where security concerns are overriding scheduled multilateral events.",
+  "strategic_ar": "تدعم مواد اليوم نمطاً يبدأ فيه عدم الاستقرار الأمني الإقليمي في تقييد الطموحات الدبلوماسية للكويت بشكل مباشر. وبينما تواصل الكويت تأمين أدوار دولية بارزة (S1, S5, S9)، فإن تأجيل القمة الخليجية-الأوروبية (S10) يشير إلى أن التهديد الحوثي لم يعد مجرد خلفية بل أصبح معطلاً نشطاً للمبادرات التي يقودها مجلس التعاون. يتناقض هذا مع السياق التاريخي للتفاعل الدبلوماسي الروتيني، مما يوحي بتحول حيث تتجاوز اعتبارات الأمن الأحداث متعددة الأطراف المجدولة.",
   "links": [
+   {
+    "type": "same_actor",
+    "from": "S11",
+    "to": "S17",
+    "evidence": "Both stories feature Education Minister Sayed Jalal Al-Taptoubai (referred to as Al-Taptoubai in S11 and Al-Tabtabai in S17) making official announcements regarding the education sector."
+   },
    {
     "type": "same_actor",
     "from": "S16",
     "to": "S18",
-    "evidence": "The Public Authority for Manpower is the responsible actor in both the 'Wadafati' job fair (S16) and the hiring of new Kuwaiti employees for Al-Najaa Charity (S18)."
-   },
-   {
-    "type": "same_actor",
-    "from": "S4",
-    "to": "S17",
-    "evidence": "Education Minister Sayed Jalal Al-Taptoubai is the central figure in both the annulment of supervisory exam results (S4) and the reception of award-winning students (S17)."
+    "evidence": "Both stories involve the Public Authority for Manpower (PAM) in the context of youth employment and Kuwaitization, with S16 highlighting a job fair and S18 highlighting hiring by a charity."
    }
   ],
   "top_themes": [
    {
-    "theme_en": "Regional Security Escalation",
-    "theme_ar": "تصاعد الأمن الإقليمي",
+    "theme_en": "Regional Security Disruption",
+    "theme_ar": "اضطراب الأمن الإقليمي",
     "story_ids": [
-     "S11"
+     "S10"
     ],
-    "note_en": "The postponement of the Gulf-EU Summit due to Houthi attacks marks a tangible shift in regional stability.",
-    "note_ar": "تأجيل القمة الخليجية-الأوروبية بسبب الهجمات الحوثية يُمثل تحولاً ملموساً في الاستقرار الإقليمي."
+    "note_en": "Houthi attacks have forced the postponement of a major GCC-led diplomatic event.",
+    "note_ar": "أجبرت الهجمات الحوثية على تأجيل حدث دبلوماسي كبير يقوده مجلس التعاون."
    },
    {
-    "theme_en": "Bureaucratic Continuity & Digitalization",
-    "theme_ar": "الاستمرارية البيروقراطية والرقمنة",
+    "theme_en": "Bureaucratic Correction & Digitalization",
+    "theme_ar": "التصحيح البيروقراطي والرقمنة",
     "story_ids": [
+     "S11",
      "S2",
-     "S9",
-     "S19"
+     "S19",
+     "S7"
     ],
-    "note_en": "Multiple ministries are launching or updating digital services and data linkages, emphasizing administrative efficiency.",
-    "note_ar": "تطلق عدة وزارات خدمات رقمية أو تحدّث الروابط البياناتية، مع التركيز على الكفاءة الإدارية."
+    "note_en": "A cluster of stories highlights the government's push for digital services and the correction of administrative errors, such as the annulment of exam results.",
+    "note_ar": "تسلط مجموعة من القصص الضوء على دفع الحكومة للخدمات الرقمية وتصحيح الأخطاء الإدارية، مثل إلغاء نتائج الاختبارات."
    },
    {
-    "theme_en": "Diplomatic Multilateralism",
-    "theme_ar": "التعددية الدبلوماسية",
+    "theme_en": "International Soft Power",
+    "theme_ar": "القوة الناعمة الدولية",
     "story_ids": [
      "S1",
-     "S7",
-     "S27"
+     "S5",
+     "S9",
+     "S25"
     ],
-    "note_en": "Kuwait is actively securing leadership roles and committee positions in international bodies like UNODC, UNESCO, and CICA.",
-    "note_ar": "تعمل الكويت بنشاط على تأمين أدوار قيادية ومقاعد في لجان هيئات دولية مثل مكتب الأمم المتحدة، اليونسكو، ومنتدى التفاعل."
+    "note_en": "Kuwaiti institutions and individuals are securing prominent roles in international bodies, projecting competence and influence.",
+    "note_ar": "تتصدر المؤسسات والأفراد الكويتيون أدواراً بارزة في الهيئات الدولية، مما يعكس الكفاءة والتأثير."
    }
   ],
-  "not_being_said_en": "The supplied reports do not state any specific Kuwaiti operational adjustments or official statements regarding the Houthi attacks on Saudi Arabia, other than the GCC's general announcement of the summit postponement (S11). The specific impact on Kuwaiti airspace, travel, or security protocols is not stated in the supplied reports. Additionally, the specific reasons for the annulment of the supervisory exam results (S4) are not detailed, only the decision to retake them.",
-  "not_being_said_ar": "لا تذكر التقارير المقدمة أي تعديلات تشغيلية كويتية محددة أو بيانات رسمية بشأن الهجمات الحوثية على السعودية، باستثناء الإعلان العام لمجلس التعاون عن تأجيل القمة (S11). لا يُذكر في التقارير المقدمة الأثر المحدد على المجال الجوي الكويتي أو السفر أو بروتوكولات الأمن. بالإضافة إلى ذلك، لا تُفصّل الأسباب المحددة لإلغاء نتائج اختبارات الوظائف الإشرافية (S4)، بل يُذكر فقط قرار إعادة الاختبار.",
-  "watchlist_en": "1. Any official Kuwaiti statement or operational adjustment following the Houthi missile incident in Riyadh (S11). 2. The outcome of the 'Wadafati' job fair and any announcements regarding youth employment (S16). 3. The final publication of the new Penal Code and the launch of 'Electronic Agencies' for judicial services (S26). 4. Any public reaction or implementation details regarding the annulment of supervisory exam results (S4).",
-  "watchlist_ar": "1. أي بيان كويتي رسمي أو تعديل تشغيلي عقب حادثة الصواريخ الحوثية في الرياض (S11). 2. نتائج معرض «وظيفتي» وأي إعلانات تتعلق بتوظيف الشباب (S16). 3. النشر النهائي لقانون الجزاء الجديد وإطلاق «الوكالات الإلكترونية» للخدمات القضائية (S26). 4. أي رد فعل عام أو تفاصيل تنفيذية بشأن إلغاء نتائج اختبارات الوظائف الإشرافية (S4).",
+  "not_being_said_en": "The supplied reports do not state the specific nature of the 'systemic flaw' or controversy that led to the annulment of the fourth phase education exams (S11), nor do they provide details on the specific 'common issues' discussed in the military meeting with Russia (S6). The reports also omit any specific Kuwaiti operational adjustments or security alerts in response to the Houthi attacks that caused the summit postponement (S10), focusing instead on the diplomatic decision itself.",
+  "not_being_said_ar": "لا تذكر التقارير المقدمة الطبيعة المحددة للـ 'خلل الجوهري' أو الجدل الذي أدى إلى إلغاء اختبارات المرحلة الرابعة للتعليم (S11)، كما لا تقدم تفاصيل حول 'القضايا المشتركة' المحددة التي ناقشها الاجتماع العسكري مع روسيا (S6). كما تتجاهل التقارير أي تعديلات تشغيلية أو إنذارات أمنية كويتية محددة استجابةً للهجمات الحوثية التي أدت إلى تأجيل القمة (S10)، مع التركيز بدلاً من ذلك على القرار الدبلوماسي بحد ذاته.",
+  "watchlist_en": "1. The new date for the Gulf-EU Summit and any further GCC statements on Houthi threats (S10). 2. The outcome of the review process for the annulled education exams and any public reaction to the decision (S11). 3. The launch of the 'Electronic Agencies' for judicial services and the final publication of the new Penal Code (S26). 4. Any official Kuwaiti security response or travel advisories related to the Houthi attacks on Saudi Arabia (S10).",
+  "watchlist_ar": "1. الموعد الجديد للقمة الخليجية-الأوروبية وأي تصريحات إضافية من مجلس التعاون حول التهديدات الحوثية (S10). 2. نتيجة عملية مراجعة اختبارات التعليم الملغاة وأي رد فعل عام على القرار (S11). 3. إطلاق «الوكالات الإلكترونية» للخدمات القضائية والنشر النهائي لقانون الجزاء الجديد (S26). 4. أي استجابة أمنية كويتية رسمية أو نصائح سفر تتعلق بالهجمات الحوثية على السعودية (S10).",
   "_source": "llm"
  },
  "source_health": [
@@ -456,156 +458,6 @@
    }
   },
   {
-   "key": "3ae2e6dda06b57e4",
-   "score": 21.459,
-   "sources": [
-    "الأنباء",
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«التربية»: إلغاء نتائج اختبارات المرحلة الرابعة للوظائف الإشرافية وإعادتها للجميع",
-     "url": "https://www.alanba.com.kw/1380938",
-     "section": "kuwait",
-     "summary": "آلاء خليفةأصدر وزير التربيةم. سيد جلال الطبطبائي قرارا بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية وإعادة الامتحانات",
-     "body": "",
-     "published": "2026-10-15T19:51:44+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "وزير التربية يقرر إلغاء نتائج اختبارات المرحلة الرابعة للوظائف الإشرافية وإعادتها للجميع",
-     "url": "https://www.alraimedia.com/article/1782794/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%8A%D9%82%D8%B1%D8%B1-%D8%A5%D9%84%D8%BA%D8%A7%D8%A1-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%A7%D9%84%D8%A5%D8%B4%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%D9%88%D8%A5%D8%B9%D8%A7%D8%AF%D8%AA%D9%87%D8%A7-%D9%84%D9%84%D8%AC%D9%85%D9%8A%D8%B9",
-     "section": "local",
-     "summary": "أصدر وزير التربية المهندس سيد جلال الطبطبائي قراراً بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية، وإعادة الامتحانات لجميع المتقدمين، وذلك ع...",
-     "body": "أصدر وزير التربية المهندس سيد جلال الطبطبائي قراراً بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية، وإعادة الامتحانات لجميع المتقدمين، وذلك عقب استكمال...",
-     "published": "2026-10-15T09:18:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«التربية» تلغي نتائج اختبارات «الإشرافية التعليمية»",
-     "url": "https://www.aljarida.com/article/147546",
-     "section": "local",
-     "summary": "أصدر وزير التربية م. سيد جلال الطبطبائي، اليوم، قراراً بإلغاء نتائج المرحلة الرابعة من الاختبارات الإشرافية التعليمية وإعادتها لجميع المتقدمين. وأعلنت «التربية&raq...",
-     "body": "",
-     "published": "2026-10-15T09:11:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "Education Minister Annuls Results of Fourth Phase Supervisory Job Exams, Orders Retake for All",
-    "headline_ar": "«التربية»: إلغاء نتائج اختبارات المرحلة الرابعة للوظائف الإشرافية وإعادتها للجميع",
-    "summary_en": "Education Minister Engineer Sayed Jalal Al-Taptoubai issued a decision to annul all results of the fourth phase exams for educational supervisory positions. The minister ordered that the exams be retaken by all applicants following the completion of a review process.",
-    "summary_ar": "أصدر وزير التربية المهندس سيد جلال الطبطبائي قراراً بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية، وإعادة الامتحانات لجميع المتقدمين، وذلك عقب استكمال مراجعة النتائج.",
-    "why_it_matters_en": "This decision resets the hiring timeline for supervisory roles, creating uncertainty for candidates who had passed and potentially delaying the filling of key administrative posts in schools. It signals a strict stance on procedural integrity in public sector recruitment.",
-    "why_it_matters_ar": "يُعيد هذا القرار ضبط إيقاع التوظيف للمناصب الإشرافية، مما يخلق حالة من عدم اليقين للمرشحين الذين اجتازوا الاختبارات، وقد يؤخر شغل المناصب الإدارية الرئيسية في المدارس. كما يشير إلى موقف صارم بشأن النزاهة الإجرائية في توظيف القطاع العام.",
-    "between_the_lines_en": "The phrase 'following the completion of...' (عقب استكمال...) is truncated in the source, but the immediate annulment of an entire phase's results suggests a systemic flaw or a significant controversy was identified, rather than isolated errors. The use of 'all applicants' (لجميع المتقدمين) implies the integrity of the previous results was compromised across the board, not just for specific individuals. The timing, late in the evening, suggests a decision made to preempt further public or parliamentary scrutiny.",
-    "between_the_lines_ar": "عبارة «عقب استكمال...» مقطوعة في المصدر، لكن إلغاء نتائج مرحلة كاملة فوراً يوحي بوجود خلل منهجي أو جدل كبير تم رصده، وليس أخطاء معزولة. استخدام عبارة «لجميع المتقدمين» يشير إلى أن نزاهة النتائج السابقة كانت معطلة بشكل شامل، وليس لأفراد محددين. والتوقيت، في وقت متأخر من الليل، يوحي بقرار اتُخذ للحد من مزيد من التدقيق العام أو البرلماني.",
-    "watch_next_en": "Watch for the specific reason cited in the full official statement or parliamentary questions regarding the 'completion' of the review, and the new timeline for the retake exams.",
-    "watch_next_ar": "راقب السبب المحدد المذكور في البيان الرسمي الكامل أو الأسئلة البرلمانية بشأن «استكمال» المراجعة، والجدول الزمني الجديد لإعادة الاختبارات.",
-    "confidence": "medium",
-    "confidence_reason": "The source text is truncated, leaving the specific trigger for the annulment unstated, but the scale of the decision (all applicants) is explicit.",
-    "entities": [
-     "Sayed Jalal Al-Taptoubai",
-     "Ministry of Education"
-    ],
-    "tags": [
-     "Education",
-     "Public Sector",
-     "Recruitment",
-     "Ministerial Decision"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "ceb5e5bf1aee5acf",
-   "score": 21.459,
-   "sources": [
-    "الأنباء",
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "وزير الخارجية تسلم نسخة من أوراق اعتماد سفيري عمان والعراق",
-     "url": "https://www.alanba.com.kw/1380880",
-     "section": "official",
-     "summary": "تسلم وزير الخارجيةالشيخ جراح الجابر نسخة من أوراق اعتمادالسفير علي بن أحمد بن سالم الشنفري سفير سلطنة عمان لدى دولة الكويت، وذلك خلال اللقاء الذي تم في ديوان ع",
-     "body": "",
-     "published": "2026-10-15T19:37:40+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "وزير الخارجية يتسلم نسخة من أوراق اعتماد سفيري سلطنة عمان والعراق",
-     "url": "https://www.aljarida.com/article/147575",
-     "section": "local",
-     "summary": "تسلم وزير الخارجية، الشيخ جراح جابر الأحمد الصباح، نسخة من أوراق اعتماد سفير سلطنة عُمان، علي بن أحمد بن سالم الشنفري.وقالت وزارة الخارجية في بيان اليوم الخميس إن الوزير الصباح تمن...",
-     "body": "",
-     "published": "2026-10-15T15:46:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الجابر يتسلّم أوراق اعتماد سفيري عُمان والعراق لدى الكويت",
-     "url": "https://www.alraimedia.com/article/1782815/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%A7%D8%A8%D8%B1-%D9%8A%D8%AA%D8%B3%D9%84%D9%85-%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D8%B3%D9%81%D9%8A%D8%B1%D9%8A-%D8%B9%D9%85%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%84%D8%AF%D9%89-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
-     "section": "local",
-     "summary": "تسلم وزير الخارجية الشيخ جراح الجابر، نسخة من أوراق اعتماد السفير علي بن أحمد بن سالم الشنفري، سفير سلطنة عُمان لدى دولة الكويت، خلال اللقاء الذي تم، اليوم الخميس،كما تسلم الجابر ا...",
-     "body": "تسلم وزير الخارجية الشيخ جراح الجابر، نسخة من أوراق اعتماد السفير علي بن أحمد بن سالم الشنفري، سفير سلطنة عُمان لدى دولة الكويت، خلال اللقاء الذي تم، اليوم الخميس، كما تسلم الجابر الأحمد الصباح،...",
-     "published": "2026-10-15T15:44:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Foreign Minister receives credentials of Omani and Iraqi ambassadors",
-    "headline_ar": "وزير الخارجية تسلم نسخة من أوراق اعتماد سفيري عمان والعراق",
-    "summary_en": "Kuwaiti Foreign Minister Sheikh Jeraah Al-Jaber received the credentials of Ali bin Ahmed bin Salem Al-Shanfari, the new Omani Ambassador to Kuwait, and the Iraqi Ambassador. The meeting took place on Thursday.",
-    "summary_ar": "تسلم وزير الخارجية الشيخ جراح الجابر نسخة من أوراق اعتماد السفير علي بن أحمد بن سالم الشنفري، سفير سلطنة عُمان لدى دولة الكويت، والسفير العراقي. وتم اللقاء يوم الخميس.",
-    "why_it_matters_en": "The simultaneous receipt of credentials from Oman and Iraq signals a diplomatic reset or normalization phase with both Gulf and non-Gulf neighbors. It underscores Kuwait's role as a neutral mediator and its commitment to maintaining stable bilateral relations in a region often marked by geopolitical friction.",
-    "why_it_matters_ar": "استلام أوراق اعتماد سفيري عُمان والعراق في وقت واحد يُشير إلى مرحلة إعادة ضبط الدبلوماسية أو تطبيع العلاقات مع كلا الجارين، الخليجي وغير الخليجي. ويُبرز دور الكويت كوسيط محايد والتزامها بالحفاظ على علاقات ثنائية مستقرة في منطقة غالباً ما تتسم بالاحتكاك الجيوسياسي.",
-    "between_the_lines_en": "The story is brief and lacks detail on the specific topics discussed during the meetings. The fact that both events are bundled into a single short wire report suggests they are routine diplomatic courtesies rather than the culmination of high-stakes negotiations. However, the timing (Thursday) and the specific naming of the Omani ambassador (Al-Shanfari) may indicate a renewed focus on the Kuwait-Oman axis, which has historically been a stable pillar of Kuwaiti foreign policy. The absence of any mention of the Iraqi ambassador's name in the provided text (though implied by the headline) is a minor omission in the source material.",
-    "between_the_lines_ar": "الخبر مختصر ويخلو من التفاصيل حول المواضيع المحددة التي ناقشها الاجتماعان. حقيقة دمج الحدثين في تقرير سلكي قصير واحد يوحي بأنهما مجاملات دبلوماسية روتينية وليست نتيجة مفاوضات حساسة. ومع ذلك، قد يشير التوقيت (الخميس) والتسمية المحددة للسفير العماني (الشنفري) إلى تركيز متجدد على محور الكويت-عُمان، الذي كان تاريخياً ركيزة مستقرة للسياسة الخارجية الكويتية. وعدم ذكر اسم السفير العراقي في النص المقدم (على الرغم من تلميح العنوان) هو إغفال بسيط في المادة المصدرية.",
-    "watch_next_en": "Look for follow-up statements from the Omani or Iraqi foreign ministries regarding specific bilateral agreements or trade discussions that may have been initiated during these credential presentations.",
-    "watch_next_ar": "انتظر بيانات متابعة من وزارات الخارجية العمانية أو العراقية حول اتفاقيات ثنائية محددة أو مناقشات تجارية قد تكون بدأت خلال مراسم تقديم أوراق الاعتماد هذه.",
-    "confidence": "low",
-    "confidence_reason": "The source material is extremely sparse, making it difficult to discern any specific diplomatic subtext beyond routine protocol.",
-    "entities": [
-     "Sheikh Jeraah Al-Jaber",
-     "Ali bin Ahmed bin Salem Al-Shanfari",
-     "Oman",
-     "Iraq"
-    ],
-    "tags": [
-     "Diplomacy",
-     "Foreign Policy",
-     "Gulf Relations",
-     "Iraq Relations"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "eb39b43abfe7716f",
    "score": 21.459,
    "sources": [
@@ -915,6 +767,82 @@
    }
   },
   {
+   "key": "ceb5e5bf1aee5acf",
+   "score": 21.459,
+   "sources": [
+    "الأنباء",
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "وزير الخارجية تسلم نسخة من أوراق اعتماد سفيري عمان والعراق",
+     "url": "https://www.alanba.com.kw/1380880",
+     "section": "official",
+     "summary": "تسلم وزير الخارجيةالشيخ جراح الجابر نسخة من أوراق اعتمادالسفير علي بن أحمد بن سالم الشنفري سفير سلطنة عمان لدى دولة الكويت، وذلك خلال اللقاء الذي تم في ديوان ع",
+     "body": "",
+     "published": "2026-10-15T19:37:40+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "وزير الخارجية يتسلم نسخة من أوراق اعتماد سفيري سلطنة عمان والعراق",
+     "url": "https://www.aljarida.com/article/147575",
+     "section": "local",
+     "summary": "تسلم وزير الخارجية، الشيخ جراح جابر الأحمد الصباح، نسخة من أوراق اعتماد سفير سلطنة عُمان، علي بن أحمد بن سالم الشنفري.وقالت وزارة الخارجية في بيان اليوم الخميس إن الوزير الصباح تمن...",
+     "body": "",
+     "published": "2026-10-15T15:46:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الجابر يتسلّم أوراق اعتماد سفيري عُمان والعراق لدى الكويت",
+     "url": "https://www.alraimedia.com/article/1782815/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%A7%D8%A8%D8%B1-%D9%8A%D8%AA%D8%B3%D9%84%D9%85-%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D8%B3%D9%81%D9%8A%D8%B1%D9%8A-%D8%B9%D9%85%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%84%D8%AF%D9%89-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
+     "section": "local",
+     "summary": "تسلم وزير الخارجية الشيخ جراح الجابر، نسخة من أوراق اعتماد السفير علي بن أحمد بن سالم الشنفري، سفير سلطنة عُمان لدى دولة الكويت، خلال اللقاء الذي تم، اليوم الخميس،كما تسلم الجابر ا...",
+     "body": "تسلم وزير الخارجية الشيخ جراح الجابر، نسخة من أوراق اعتماد السفير علي بن أحمد بن سالم الشنفري، سفير سلطنة عُمان لدى دولة الكويت، خلال اللقاء الذي تم، اليوم الخميس، كما تسلم الجابر الأحمد الصباح،...",
+     "published": "2026-10-15T15:44:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Foreign Minister receives credentials of Omani and Iraqi ambassadors",
+    "headline_ar": "وزير الخارجية تسلم نسخة من أوراق اعتماد سفيري عمان والعراق",
+    "summary_en": "Kuwaiti Foreign Minister Sheikh Jeraah Al-Jaber received the credentials of Ali bin Ahmed bin Salem Al-Shanfari, the new Omani Ambassador to Kuwait, and the Iraqi Ambassador. The meeting took place on Thursday.",
+    "summary_ar": "تسلم وزير الخارجية الشيخ جراح الجابر نسخة من أوراق اعتماد السفير علي بن أحمد بن سالم الشنفري، سفير سلطنة عُمان لدى دولة الكويت، والسفير العراقي. وتم اللقاء يوم الخميس.",
+    "why_it_matters_en": "The simultaneous receipt of credentials from Oman and Iraq signals a diplomatic reset or normalization phase with both Gulf and non-Gulf neighbors. It underscores Kuwait's role as a neutral mediator and its commitment to maintaining stable bilateral relations in a region often marked by geopolitical friction.",
+    "why_it_matters_ar": "استلام أوراق اعتماد سفيري عُمان والعراق في وقت واحد يُشير إلى مرحلة إعادة ضبط الدبلوماسية أو تطبيع العلاقات مع كلا الجارين، الخليجي وغير الخليجي. ويُبرز دور الكويت كوسيط محايد والتزامها بالحفاظ على علاقات ثنائية مستقرة في منطقة غالباً ما تتسم بالاحتكاك الجيوسياسي.",
+    "between_the_lines_en": "The story is brief and lacks detail on the specific topics discussed during the meetings. The fact that both events are bundled into a single short wire report suggests they are routine diplomatic courtesies rather than the culmination of high-stakes negotiations. However, the timing (Thursday) and the specific naming of the Omani ambassador (Al-Shanfari) may indicate a renewed focus on the Kuwait-Oman axis, which has historically been a stable pillar of Kuwaiti foreign policy. The absence of any mention of the Iraqi ambassador's name in the provided text (though implied by the headline) is a minor omission in the source material.",
+    "between_the_lines_ar": "الخبر مختصر ويخلو من التفاصيل حول المواضيع المحددة التي ناقشها الاجتماعان. حقيقة دمج الحدثين في تقرير سلكي قصير واحد يوحي بأنهما مجاملات دبلوماسية روتينية وليست نتيجة مفاوضات حساسة. ومع ذلك، قد يشير التوقيت (الخميس) والتسمية المحددة للسفير العماني (الشنفري) إلى تركيز متجدد على محور الكويت-عُمان، الذي كان تاريخياً ركيزة مستقرة للسياسة الخارجية الكويتية. وعدم ذكر اسم السفير العراقي في النص المقدم (على الرغم من تلميح العنوان) هو إغفال بسيط في المادة المصدرية.",
+    "watch_next_en": "Look for follow-up statements from the Omani or Iraqi foreign ministries regarding specific bilateral agreements or trade discussions that may have been initiated during these credential presentations.",
+    "watch_next_ar": "انتظر بيانات متابعة من وزارات الخارجية العمانية أو العراقية حول اتفاقيات ثنائية محددة أو مناقشات تجارية قد تكون بدأت خلال مراسم تقديم أوراق الاعتماد هذه.",
+    "confidence": "low",
+    "confidence_reason": "The source material is extremely sparse, making it difficult to discern any specific diplomatic subtext beyond routine protocol.",
+    "entities": [
+     "Sheikh Jeraah Al-Jaber",
+     "Ali bin Ahmed bin Salem Al-Shanfari",
+     "Oman",
+     "Iraq"
+    ],
+    "tags": [
+     "Diplomacy",
+     "Foreign Policy",
+     "Gulf Relations",
+     "Iraq Relations"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "fd6cd12c8d936d5a",
    "score": 21.458,
    "sources": [
@@ -1007,7 +935,7 @@
      "lang": "en",
      "title": "EU-GCC Summit in Riyadh Postponed",
      "url": "https://www.arabtimesonline.com/news/eu-gcc-summit-in-riyadh-postponed/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 15: The second European Union-Gulf Cooperation Council (EU-GCC) Summit, scheduled to take place in Riyadh, Saudi Arabia, on Oct 24, has been postponed, with a new date...",
      "body": "",
      "published": "2026-10-15T15:53:00+03:00",
@@ -1090,6 +1018,80 @@
      "Houthi",
      "Diplomacy",
      "Saudi Arabia"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "3ae2e6dda06b57e4",
+   "score": 19.959,
+   "sources": [
+    "الأنباء",
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«التربية»: إلغاء نتائج اختبارات المرحلة الرابعة للوظائف الإشرافية وإعادتها للجميع",
+     "url": "https://www.alanba.com.kw/1380938",
+     "section": "kuwait",
+     "summary": "آلاء خليفةأصدر وزير التربيةم. سيد جلال الطبطبائي قرارا بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية وإعادة الامتحانات",
+     "body": "",
+     "published": "2026-10-15T19:51:44+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وزير التربية يقرر إلغاء نتائج اختبارات المرحلة الرابعة للوظائف الإشرافية وإعادتها للجميع",
+     "url": "https://www.alraimedia.com/article/1782794/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%8A%D9%82%D8%B1%D8%B1-%D8%A5%D9%84%D8%BA%D8%A7%D8%A1-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%A7%D9%84%D8%A5%D8%B4%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%D9%88%D8%A5%D8%B9%D8%A7%D8%AF%D8%AA%D9%87%D8%A7-%D9%84%D9%84%D8%AC%D9%85%D9%8A%D8%B9",
+     "section": "local",
+     "summary": "أصدر وزير التربية المهندس سيد جلال الطبطبائي قراراً بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية، وإعادة الامتحانات لجميع المتقدمين، وذلك ع...",
+     "body": "أصدر وزير التربية المهندس سيد جلال الطبطبائي قراراً بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية، وإعادة الامتحانات لجميع المتقدمين، وذلك عقب استكمال...",
+     "published": "2026-10-15T09:18:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«التربية» تلغي نتائج اختبارات «الإشرافية التعليمية»",
+     "url": "https://www.aljarida.com/article/147546",
+     "section": "latest",
+     "summary": "أصدر وزير التربية م. سيد جلال الطبطبائي، اليوم، قراراً بإلغاء نتائج المرحلة الرابعة من الاختبارات الإشرافية التعليمية وإعادتها لجميع المتقدمين. وأعلنت «التربية&raq...",
+     "body": "",
+     "published": "2026-10-15T09:11:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "Education Minister Annuls Results of Fourth Phase Supervisory Job Exams, Orders Retake for All",
+    "headline_ar": "«التربية»: إلغاء نتائج اختبارات المرحلة الرابعة للوظائف الإشرافية وإعادتها للجميع",
+    "summary_en": "Education Minister Engineer Sayed Jalal Al-Taptoubai issued a decision to annul all results of the fourth phase exams for educational supervisory positions. The minister ordered that the exams be retaken by all applicants following the completion of a review process.",
+    "summary_ar": "أصدر وزير التربية المهندس سيد جلال الطبطبائي قراراً بإلغاء جميع نتائج امتحانات المرحلة الرابعة للمتقدمين لشغل الوظائف الإشرافية التعليمية، وإعادة الامتحانات لجميع المتقدمين، وذلك عقب استكمال مراجعة النتائج.",
+    "why_it_matters_en": "This decision resets the hiring timeline for supervisory roles, creating uncertainty for candidates who had passed and potentially delaying the filling of key administrative posts in schools. It signals a strict stance on procedural integrity in public sector recruitment.",
+    "why_it_matters_ar": "يُعيد هذا القرار ضبط إيقاع التوظيف للمناصب الإشرافية، مما يخلق حالة من عدم اليقين للمرشحين الذين اجتازوا الاختبارات، وقد يؤخر شغل المناصب الإدارية الرئيسية في المدارس. كما يشير إلى موقف صارم بشأن النزاهة الإجرائية في توظيف القطاع العام.",
+    "between_the_lines_en": "The phrase 'following the completion of...' (عقب استكمال...) is truncated in the source, but the immediate annulment of an entire phase's results suggests a systemic flaw or a significant controversy was identified, rather than isolated errors. The use of 'all applicants' (لجميع المتقدمين) implies the integrity of the previous results was compromised across the board, not just for specific individuals. The timing, late in the evening, suggests a decision made to preempt further public or parliamentary scrutiny.",
+    "between_the_lines_ar": "عبارة «عقب استكمال...» مقطوعة في المصدر، لكن إلغاء نتائج مرحلة كاملة فوراً يوحي بوجود خلل منهجي أو جدل كبير تم رصده، وليس أخطاء معزولة. استخدام عبارة «لجميع المتقدمين» يشير إلى أن نزاهة النتائج السابقة كانت معطلة بشكل شامل، وليس لأفراد محددين. والتوقيت، في وقت متأخر من الليل، يوحي بقرار اتُخذ للحد من مزيد من التدقيق العام أو البرلماني.",
+    "watch_next_en": "Watch for the specific reason cited in the full official statement or parliamentary questions regarding the 'completion' of the review, and the new timeline for the retake exams.",
+    "watch_next_ar": "راقب السبب المحدد المذكور في البيان الرسمي الكامل أو الأسئلة البرلمانية بشأن «استكمال» المراجعة، والجدول الزمني الجديد لإعادة الاختبارات.",
+    "confidence": "medium",
+    "confidence_reason": "The source text is truncated, leaving the specific trigger for the annulment unstated, but the scale of the decision (all applicants) is explicit.",
+    "entities": [
+     "Sayed Jalal Al-Taptoubai",
+     "Ministry of Education"
+    ],
+    "tags": [
+     "Education",
+     "Public Sector",
+     "Recruitment",
+     "Ministerial Decision"
     ],
     "_source": "llm"
    }
@@ -1318,7 +1320,7 @@
   },
   {
    "key": "542fbad5fe4ce2a1",
-   "score": 16.859,
+   "score": 16.259,
    "sources": [
     "الرأي",
     "الجريدة",
@@ -1498,7 +1500,7 @@
      "url": "https://www.alraimedia.com/article/1782813/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B7%D8%A8%D8%B7%D8%A8%D8%A7%D8%A6%D9%8A-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%B1%D9%83%D9%8A%D8%B2%D8%A9-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9-%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D8%B2-%D9%88%D8%A7%D9%84%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%D8%A1-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9",
      "section": "local",
      "summary": "أكد وزير التربية سيد جلال الطبطبائي، صباح اليوم، أن دعم القيادة السياسية لمسيرة التعليم والاهتمام بالطلبة يمثلان ركيزة أساسية لتعزيز التميز والارتقاء بالمنظومة التعليمية، وذلك خلال...",
-     "body": "استقبل الطلبة الفائزين ببرونزيتي مسابقة الشعر والقصة والرواية الخليجية\n\nأكد وزير التربية سيد جلال الطبطبائي، صباح اليوم، أن دعم القيادة السياسية لمسيرة التعليم والاهتمام بالطلبة يمثلان ركيزة أساسية لتعزيز التميز والارتقاء بالمنظومة التعليمية، وذلك خلال استقباله اليوم الطلبة الفائزين بالميداليتين البرونزيتين في مسابقة الشعر والقصة والرواية لدول الخليج للعام الدراسي 2026/2025 والمشرفين عليهم بحضور الوكيل المساعد للشؤون التعليمية المهندس حمد الحمد، والوكيل المساعد للشؤون الإدارية والفنية المهندس محمد الخالدي، ومدير إدارة التوجيه الفني للغة العربية بالتكليف وحش الدوسري.\n\n«الجهاز المركزي» يبحث مع «الخارجية» آليات تحديث بيانات «البدون» في معاملات الشؤون القنصلية منذ ساعة «المدنية»: استكمال بيانات الجهات على «كويت فايندر» عبر «سهل الأعمال» منذ ساعة\n\nوأشار الوزير إلى أن اكتشاف المواهب الطلابية ورعايتها مسؤولية وطنية تستوجب مواصلة الجهود وتوفير الفرص لتنمية قدرات الطلبة وإبراز إبداعاتهم في مختلف المجالات، لا سيما في ظل وجود مكتب بوزارة التربية يُعنى برعاية الموهوبين ودعمهم، بما يسهم في إعداد جيل مبدع يعتز بهويته الوطنية ويسهم في خدمة وطنه، ويحقق إنجازات ترفع اسم دولة الكويت وتعزّز مكانتها في المحافل الخليجية والعربية والدولية.\n\nوثمّن الوزير جهود الإدارات المدرسية والتواجيه الفنية وجميع العاملين في وزارة التربية في دعم الطلبة ورعاية مواهبهم، مشيداً بدور الموجه الفني الأستاذ محمد فرج في متابعة الطلبة والإشراف على مشاركتهم، ومؤكداً الدور المهم لأولياء الأمور بوصفهم شركاء في دعم أبنائهم وتشجيعهم وتنمية قدراتهم. وأوضح أن هذه الإنجازات ثمرة لتكامل الجهود بين المدرسة والأسرة، والحرص المشترك على توفير الفرص التي تتيح للطلبة الموهوبين إبراز قدراتهم وتحقيق التميز.\n\nوحقّق الطالب خليف جزا خليف، من الصف الثاني عشر بالقسم العلمي في ثانوية الواحة، الميدالية البرونزية في مجال الشعر، فيما حصدت الطالبة شيخة وليد السيف، من الصف الحادي عشر بالقسم العلمي في ثانوية الفروانية، الميدالية البرونزية في مجال القصة القصيرة، ضمن الدورة الثانية من مسابقة الشعر والقصة والرواية لدول الخليج 2026/2025، التي أقيمت تحت شعار «بالعربية تبدع».",
+     "body": "استقبل الطلبة الفائزين ببرونزيتي مسابقة الشعر والقصة والرواية الخليجية\n\nأكد وزير التربية سيد جلال الطبطبائي، صباح اليوم، أن دعم القيادة السياسية لمسيرة التعليم والاهتمام بالطلبة يمثلان ركيزة أساسية لتعزيز التميز والارتقاء بالمنظومة التعليمية، وذلك خلال استقباله اليوم الطلبة الفائزين بالميداليتين البرونزيتين في مسابقة الشعر والقصة والرواية لدول الخليج للعام الدراسي 2026/2025 والمشرفين عليهم بحضور الوكيل المساعد للشؤون التعليمية المهندس حمد الحمد، والوكيل المساعد للشؤون الإدارية والفنية المهندس محمد الخالدي، ومدير إدارة التوجيه الفني للغة العربية بالتكليف وحش الدوسري.\n\nوأشار الوزير إلى أن اكتشاف المواهب الطلابية ورعايتها مسؤولية وطنية تستوجب مواصلة الجهود وتوفير الفرص لتنمية قدرات الطلبة وإبراز إبداعاتهم في مختلف المجالات، لا سيما في ظل وجود مكتب بوزارة التربية يُعنى برعاية الموهوبين ودعمهم، بما يسهم في إعداد جيل مبدع يعتز بهويته الوطنية ويسهم في خدمة وطنه، ويحقق إنجازات ترفع اسم دولة الكويت وتعزّز مكانتها في المحافل الخليجية والعربية والدولية.\n\nوثمّن الوزير جهود الإدارات المدرسية والتواجيه الفنية وجميع العاملين في وزارة التربية في دعم الطلبة ورعاية مواهبهم، مشيداً بدور الموجه الفني الأستاذ محمد فرج في متابعة الطلبة والإشراف على مشاركتهم، ومؤكداً الدور المهم لأولياء الأمور بوصفهم شركاء في دعم أبنائهم وتشجيعهم وتنمية قدراتهم. وأوضح أن هذه الإنجازات ثمرة لتكامل الجهود بين المدرسة والأسرة، والحرص المشترك على توفير الفرص التي تتيح للطلبة الموهوبين إبراز قدراتهم وتحقيق التميز.\n\nوحقّق الطالب خليف جزا خليف، من الصف الثاني عشر بالقسم العلمي في ثانوية الواحة، الميدالية البرونزية في مجال الشعر، فيما حصدت الطالبة شيخة وليد السيف، من الصف الحادي عشر بالقسم العلمي في ثانوية الفروانية، الميدالية البرونزية في مجال القصة القصيرة، ضمن الدورة الثانية من مسابقة الشعر والقصة والرواية لدول الخليج 2026/2025، التي أقيمت تحت شعار «بالعربية تبدع».",
      "published": "2026-10-15T13:59:00+03:00",
      "tier": 1
     }
@@ -1775,7 +1777,7 @@
      "lang": "en",
      "title": "17 Students Killed as Private School Roof Collapses in Pakistan’s Peshawar",
      "url": "https://www.arabtimesonline.com/news/17-students-killed-as-private-school-roof-collapses-in-pakistans-peshawar/",
-     "section": "general",
+     "section": "latest",
      "summary": "PESHAWAR, Oct 15: At least 17 students were killed when the roof of a private school collapsed in Peshawar, northwestern Pakistan, on Thursday, according to local media reports.All...",
      "body": "",
      "published": "2026-10-15T10:04:00+03:00",
@@ -2281,43 +2283,6 @@
    }
   },
   {
-   "key": "db8a532c8ce3eacb",
-   "score": 12.859,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "باكستان: 33 طفلاً ومعلمة ضحايا انهيار سقف مدرسة",
-     "url": "https://www.alraimedia.com/article/1782865/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86-33-%D8%B7%D9%81%D9%84%D8%A7-%D9%88%D9%85%D8%B9%D9%84%D9%85%D8%A9-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D8%A7%D9%86%D9%87%D9%8A%D8%A7%D8%B1-%D8%B3%D9%82%D9%81-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9",
-     "section": "latest",
-     "summary": "بيشاور (باكستان)- أ ف ب - قضى اثنان وثلاثون طفلاً، ومعلمة واحدة على الأقل، نحبهم اليوم، إثر انهيار سقف مدرستهم في مدينة بيشاور بشمال باكستان، حيث هرع عناصر الإنقاذ والأهالي لمحاولة...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "‏الكويت تعرب عن تعاطفها مع باكستان إثر حادث انهيار سقف إحدى المدارس في مدينة بيشاور",
-     "url": "https://www.aljarida.com/article/147654",
-     "section": "local",
-     "summary": "تُعرب وزارة الخارجية عن تعاطف دولة الكويت مع جمهورية باكستان الإسلامية الصديقة، إثر حادث انهيار سقف إحدى المدارس في مدينة بيشاور، وما أسفر عنه من وفيات وإصابات.‏وتتقدم الوزارة...",
-     "body": "",
-     "published": "2026-10-15T21:30:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
    "key": "f19255310ef9a6ac",
    "score": 12.858,
    "sources": [
@@ -2429,7 +2394,7 @@
    "analysis": {}
   },
   {
-   "key": "8906d1348e755713",
+   "key": "db8a532c8ce3eacb",
    "score": 12.259,
    "sources": [
     "الرأي",
@@ -2441,10 +2406,10 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«التجاري» يُحدّث نظمه التكنولوجية",
-     "url": "https://www.alraimedia.com/article/1782877/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%86%D8%B8%D9%85%D9%87-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9",
+     "title": "باكستان: 33 طفلاً ومعلمة ضحايا انهيار سقف مدرسة",
+     "url": "https://www.alraimedia.com/article/1782865/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A8%D8%A7%D9%83%D8%B3%D8%AA%D8%A7%D9%86-33-%D8%B7%D9%81%D9%84%D8%A7-%D9%88%D9%85%D8%B9%D9%84%D9%85%D8%A9-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D8%A7%D9%86%D9%87%D9%8A%D8%A7%D8%B1-%D8%B3%D9%82%D9%81-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9",
      "section": "latest",
-     "summary": "في إطار إستراتيجية البنك التجاري الكويتي الرامية إلى تطبيق نظم تكنولوجيا المعلومات المتطورة بما يمكنه من تقديم أعلى مستويات الخدمة لعملائه، فقد قرّر البنك القيام ببعض اختبارات الجا...",
+     "summary": "بيشاور (باكستان)- أ ف ب - قضى اثنان وثلاثون طفلاً، ومعلمة واحدة على الأقل، نحبهم اليوم، إثر انهيار سقف مدرستهم في مدينة بيشاور بشمال باكستان، حيث هرع عناصر الإنقاذ والأهالي لمحاولة...",
      "body": "",
      "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
@@ -2453,53 +2418,16 @@
      "source_id": "aljarida",
      "source_name": "الجريدة",
      "lang": "ar",
-     "title": "«التجاري» يُجري اختبارات جاهزية معتادة على نُظمه التكنولوجية",
-     "url": "https://www.aljarida.com/article/147609",
-     "section": "economy",
-     "summary": "في إطار استراتيجيته الرامية إلى تطبيق نُظم تكنولوجيا المعلومات المتطورة، بما يمكنه من تقديم أعلى مستويات الخدمة لعملائه، قرَّر البنك التجاري الكويتي القيام ببعض اختبارات الجاهزية ع...",
+     "title": "‏الكويت تعرب عن تعاطفها مع باكستان إثر حادث انهيار سقف إحدى المدارس في مدينة بيشاور",
+     "url": "https://www.aljarida.com/article/147654",
+     "section": "local",
+     "summary": "تُعرب وزارة الخارجية عن تعاطف دولة الكويت مع جمهورية باكستان الإسلامية الصديقة، إثر حادث انهيار سقف إحدى المدارس في مدينة بيشاور، وما أسفر عنه من وفيات وإصابات.‏وتتقدم الوزارة...",
      "body": "",
-     "published": "2026-10-15T18:10:00+03:00",
+     "published": "2026-10-15T21:30:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "0e8d981280233e96",
-   "score": 12.259,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "تعيين كابيل خوسلا نائباً للرئيس التنفيذي للقطاع التجاري في «ميزان»",
-     "url": "https://www.alraimedia.com/article/1782872/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%83%D8%A7%D8%A8%D9%8A%D9%84-%D8%AE%D9%88%D8%B3%D9%84%D8%A7-%D9%86%D8%A7%D8%A6%D8%A8%D8%A7-%D9%84%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%84%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%81%D9%8A-%D9%85%D9%8A%D8%B2%D8%A7%D9%86",
-     "section": "latest",
-     "summary": "أعلنت شركة ميزان القابضة تعيين كابيل خوسلا في منصب نائب الرئيس التنفيذي - القطاع التجاري.وسيركز خوسلا في منصبه الجديد على تعزيز الأداء التجاري، وتطوير القدرات المؤسسية، وتوسيع الحض...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«ميزان القابضة» تعيّن كابيل خوسلا نائباً للرئيس التنفيذي بالقطاع التجاري",
-     "url": "https://www.aljarida.com/article/147603",
-     "section": "economy",
-     "summary": "أعلنت شركة ميزان القابضة، تعيين كابيل خوسلا في منصب نائب الرئيس التنفيذي - القطاع التجاري.وسيركز خوسلا في منصبه الجديد على تعزيز الأداء التجاري، وتطوير القدرات المؤسسية، وتوسيع الح...",
-     "body": "",
-     "published": "2026-10-15T18:04:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -2577,6 +2505,80 @@
    "analysis": {}
   },
   {
+   "key": "8906d1348e755713",
+   "score": 11.659,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التجاري» يُحدّث نظمه التكنولوجية",
+     "url": "https://www.alraimedia.com/article/1782877/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%86%D8%B8%D9%85%D9%87-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "في إطار إستراتيجية البنك التجاري الكويتي الرامية إلى تطبيق نظم تكنولوجيا المعلومات المتطورة بما يمكنه من تقديم أعلى مستويات الخدمة لعملائه، فقد قرّر البنك القيام ببعض اختبارات الجا...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«التجاري» يُجري اختبارات جاهزية معتادة على نُظمه التكنولوجية",
+     "url": "https://www.aljarida.com/article/147609",
+     "section": "economy",
+     "summary": "في إطار استراتيجيته الرامية إلى تطبيق نُظم تكنولوجيا المعلومات المتطورة، بما يمكنه من تقديم أعلى مستويات الخدمة لعملائه، قرَّر البنك التجاري الكويتي القيام ببعض اختبارات الجاهزية ع...",
+     "body": "",
+     "published": "2026-10-15T18:10:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "0e8d981280233e96",
+   "score": 11.659,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تعيين كابيل خوسلا نائباً للرئيس التنفيذي للقطاع التجاري في «ميزان»",
+     "url": "https://www.alraimedia.com/article/1782872/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%83%D8%A7%D8%A8%D9%8A%D9%84-%D8%AE%D9%88%D8%B3%D9%84%D8%A7-%D9%86%D8%A7%D8%A6%D8%A8%D8%A7-%D9%84%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%84%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%81%D9%8A-%D9%85%D9%8A%D8%B2%D8%A7%D9%86",
+     "section": "latest",
+     "summary": "أعلنت شركة ميزان القابضة تعيين كابيل خوسلا في منصب نائب الرئيس التنفيذي - القطاع التجاري.وسيركز خوسلا في منصبه الجديد على تعزيز الأداء التجاري، وتطوير القدرات المؤسسية، وتوسيع الحض...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«ميزان القابضة» تعيّن كابيل خوسلا نائباً للرئيس التنفيذي بالقطاع التجاري",
+     "url": "https://www.aljarida.com/article/147603",
+     "section": "economy",
+     "summary": "أعلنت شركة ميزان القابضة، تعيين كابيل خوسلا في منصب نائب الرئيس التنفيذي - القطاع التجاري.وسيركز خوسلا في منصبه الجديد على تعزيز الأداء التجاري، وتطوير القدرات المؤسسية، وتوسيع الح...",
+     "body": "",
+     "published": "2026-10-15T18:04:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
    "key": "c7c0366e774bbc6d",
    "score": 11.259,
    "sources": [
@@ -2614,8 +2616,45 @@
    "analysis": {}
   },
   {
-   "key": "41d648c25219d232",
+   "key": "285c429781d0c7b3",
    "score": 10.759,
+   "sources": [
+    "Arab Times",
+    "Kuwait Times"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "KUWAIT SLAMS HORMUZ CLOSURE, WARNS OF FOOD CRISIS",
+     "url": "https://www.arabtimesonline.com/news/kuwait-slams-hormuz-closure-warns-of-food-crisis/",
+     "section": "kuwait",
+     "summary": "NEW YORK, Oct 15, (Agencies): The State of Kuwait has reaffirmed its strong condemnation of Iran’s closure of the Strait of Hormuz and its threats to freedom of navigation therein....",
+     "body": "",
+     "published": "2026-10-15T20:56:00+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Kuwait condemns Iran’s closure of Hormuz, warns of threat to global food security",
+     "url": "https://kuwaittimes.com/article/51660/kuwait/kuwait-condemns-irans-closure-of-hormuz-warns-of-threat-to-global-food-security/",
+     "section": "latest",
+     "summary": "NEW YORK: Kuwait renewed on Wednesday its condemnation of Iran’s closure of the Strait of Hormuz and its threats to freedom of navigation there, as well as the continued disruption...",
+     "body": "",
+     "published": "2026-10-15T06:33:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "41d648c25219d232",
+   "score": 10.159,
    "sources": [
     "الرأي",
     "الجريدة"
@@ -2685,80 +2724,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "285c429781d0c7b3",
-   "score": 9.759,
-   "sources": [
-    "Arab Times",
-    "Kuwait Times"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "KUWAIT SLAMS HORMUZ CLOSURE, WARNS OF FOOD CRISIS",
-     "url": "https://www.arabtimesonline.com/news/kuwait-slams-hormuz-closure-warns-of-food-crisis/",
-     "section": "latest",
-     "summary": "NEW YORK, Oct 15, (Agencies): The State of Kuwait has reaffirmed its strong condemnation of Iran’s closure of the Strait of Hormuz and its threats to freedom of navigation therein....",
-     "body": "",
-     "published": "2026-10-15T20:56:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait condemns Iran’s closure of Hormuz, warns of threat to global food security",
-     "url": "https://kuwaittimes.com/article/51660/kuwait/kuwait-condemns-irans-closure-of-hormuz-warns-of-threat-to-global-food-security/",
-     "section": "latest",
-     "summary": "NEW YORK: Kuwait renewed on Wednesday its condemnation of Iran’s closure of the Strait of Hormuz and its threats to freedom of navigation there, as well as the continued disruption...",
-     "body": "",
-     "published": "2026-10-15T06:33:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "7e16d3d74c216843",
-   "score": 9.559,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«ديدان الذكاء الاصطناعي» قد تتكاثر ذاتياً في المنازل!",
-     "url": "https://www.alraimedia.com/article/1782863/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AF%D9%8A%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%82%D8%AF-%D8%AA%D8%AA%D9%83%D8%A7%D8%AB%D8%B1-%D8%B0%D8%A7%D8%AA%D9%8A%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B2%D9%84",
-     "section": "last-page",
-     "summary": "تتجه الأنظار عادة إلى وكلاء الذكاء الاصطناعي المارقين الذين يستهدفون المواقع الإلكترونية وأنظمة الشركات، لكن أهدافاً أصغر قد تقع في مرمى هؤلاء الوكلاء قريباً، وهي شبكة المنزل الذكي...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "شوشرة: معتقدات الذكاء الاصطناعي",
-     "url": "https://www.aljarida.com/article/147587",
-     "section": "opinion",
-     "summary": "هل ما يحدث عبر التعامل مع الذكاء الاصطناعي chat Gpt من باب الذكاء بعد اعتماد البعض الكلي عليه فتجدهم يلجؤون إليه لعله يكون الوسيلة في إنقاذ ما يمكن إنقاذه؟ وماذا نصف ما يحدث عند ال...",
-     "body": "",
-     "published": "2026-10-15T21:39:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Opinion & Analysis",
    "analysis": {}
   },
   {
@@ -2936,7 +2901,7 @@
      "lang": "en",
      "title": "US Weighs ‘Mother of All Bombs’ in Potential New Strikes on Iran: CNN",
      "url": "https://www.arabtimesonline.com/news/us-weighs-mother-of-all-bombs-in-potential-new-strikes-on-iran-cnn/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 15: The US military has developed new strike plans for Iran that include the possible use of its largest non-nuclear bomb against energy infrastructure and nuclear...",
      "body": "",
      "published": "2026-10-15T07:24:00+03:00",
@@ -2944,6 +2909,43 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "7e16d3d74c216843",
+   "score": 8.959,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«ديدان الذكاء الاصطناعي» قد تتكاثر ذاتياً في المنازل!",
+     "url": "https://www.alraimedia.com/article/1782863/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AF%D9%8A%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%82%D8%AF-%D8%AA%D8%AA%D9%83%D8%A7%D8%AB%D8%B1-%D8%B0%D8%A7%D8%AA%D9%8A%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B2%D9%84",
+     "section": "last-page",
+     "summary": "تتجه الأنظار عادة إلى وكلاء الذكاء الاصطناعي المارقين الذين يستهدفون المواقع الإلكترونية وأنظمة الشركات، لكن أهدافاً أصغر قد تقع في مرمى هؤلاء الوكلاء قريباً، وهي شبكة المنزل الذكي...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "شوشرة: معتقدات الذكاء الاصطناعي",
+     "url": "https://www.aljarida.com/article/147587",
+     "section": "opinion",
+     "summary": "هل ما يحدث عبر التعامل مع الذكاء الاصطناعي chat Gpt من باب الذكاء بعد اعتماد البعض الكلي عليه فتجدهم يلجؤون إليه لعله يكون الوسيلة في إنقاذ ما يمكن إنقاذه؟ وماذا نصف ما يحدث عند ال...",
+     "body": "",
+     "published": "2026-10-15T21:39:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Opinion & Analysis",
    "analysis": {}
   },
   {
@@ -3018,30 +3020,6 @@
     }
    ],
    "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "18136b7c11af00ca",
-   "score": 7.251,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "قنصليتنا في إسطنبول تدعو المواطنين إلى توخي الحذر في ظل موجة من الأمطار الغزيرة",
-     "url": "https://www.alanba.com.kw/1380879",
-     "section": "official",
-     "summary": "إسطنبول - كونا دعت القنصلية العامة لدولة الكويت في إسطنبول المواطنين الكويتيين الموجودين في المدينة إلى توخي أقصى درجات الحيطة والحذر في ظل موجة من الأمطار الغ",
-     "body": "",
-     "published": "2026-10-15T19:37:40+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3276,6 +3254,30 @@
      "url": "https://www.alanba.com.kw/1380873",
      "section": "kuwait",
      "summary": "كونا عقدت اللجنة الوطنية لمكافحة غسل الأموال وتمويل الإرهاب برئاسة د.حمد المكراد اجتماعا لمتابعة الجهود الوطنية الرامية إلى تعزيز المنظومة ذات الصلة وترسيخ الت",
+     "body": "",
+     "published": "2026-10-15T19:37:40+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "18136b7c11af00ca",
+   "score": 7.251,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "قنصليتنا في إسطنبول تدعو المواطنين إلى توخي الحذر في ظل موجة من الأمطار الغزيرة",
+     "url": "https://www.alanba.com.kw/1380879",
+     "section": "official",
+     "summary": "إسطنبول - كونا دعت القنصلية العامة لدولة الكويت في إسطنبول المواطنين الكويتيين الموجودين في المدينة إلى توخي أقصى درجات الحيطة والحذر في ظل موجة من الأمطار الغ",
      "body": "",
      "published": "2026-10-15T19:37:40+00:00",
      "tier": 1
@@ -4233,30 +4235,6 @@
    "analysis": {}
   },
   {
-   "key": "a64feeb7eb3128b7",
-   "score": 6.059,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "بورصة الكويت تغلق تعاملاتها على انخفاض مؤشرها العام 57.67 نقطة",
-     "url": "https://www.alraimedia.com/article/1782811/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%88%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%BA%D9%84%D9%82-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D9%85%D8%A4%D8%B4%D8%B1%D9%87%D8%A7-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-5767-%D9%86%D9%82%D8%B7%D8%A9",
-     "section": "economy",
-     "summary": "أغلقت بورصة الكويت تعاملاتها، اليوم الخميس، على انخفاض مؤشرها العام 57.67 نقطة بنسبة بلغت 68ر0 في المئة ليبلغ مستوى 8475.93 نقطة وتم تداول 315.18 مليون سهم عبر 27666 صفقة نقدية بقي...",
-     "body": "",
-     "published": "2026-10-15T13:55:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "28e11a4e5bce0bdf",
    "score": 6.059,
    "sources": [
@@ -4473,30 +4451,6 @@
    "analysis": {}
   },
   {
-   "key": "69280b3cd1cd8729",
-   "score": 6.054,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«يو بي إس» يتوقع رفع الفائدة الأميركية في ديسمبر ومارس",
-     "url": "https://www.aljarida.com/article/147568",
-     "section": "economy",
-     "summary": "توقعت وحدة إدارة الثروات لدى بنك «يو بي إس» أن يرفع الاحتياطي الفيدرالي أسعار الفائدة في ديسمبر ومارس، ليمتد مسار التشديد النقدي إلى العام المقبل، في ظل استمرار الضغوط...",
-     "body": "",
-     "published": "2026-10-15T14:14:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "d3129d09004153dc",
    "score": 5.759,
    "sources": [
@@ -4545,654 +4499,6 @@
    "analysis": {}
   },
   {
-   "key": "7041ebaf19046a04",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التزوير... يسحب «التأسيس» و«التجنيس»",
-     "url": "https://www.alraimedia.com/article/1782907/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B2%D9%88%D9%8A%D8%B1-%D9%8A%D8%B3%D8%AD%D8%A8-%D8%A7%D9%84%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D9%86%D9%8A%D8%B3",
-     "section": "latest",
-     "summary": "دخلت ملفات تزوير الجنسية مرحلة أكثر تشدداً في التعامل القانوني، حيث قررت اللجنة العليا لتحقيق الجنسية الكويتية برئاسة النائب الأول لرئيس مجلس الوزراء وزير الداخلية الشيخ فهد اليوسف...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "fa76e69e60b2beda",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "12 مليار دينار أقرضها «الائتمان» لـ 755.6 ألف مواطن منذ تأسيسه",
-     "url": "https://www.alraimedia.com/article/1782904/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/12-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1-%D8%A3%D9%82%D8%B1%D8%B6%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86-%D9%84-7556-%D8%A3%D9%84%D9%81-%D9%85%D9%88%D8%A7%D8%B7%D9%86-%D9%85%D9%86%D8%B0-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3%D9%87",
-     "section": "latest",
-     "summary": "تجاوز إجمالي المبالغ التي صرفها بنك الائتمان الكويتي منذ تأسيسه قبل 66 عاماً 12 مليار دينار، استفاد منها أكثر من 75566 مواطن، في مسيرة امتدت لدعم الأسرة الكويتية وتعزيز الاستقرار ا...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "545ed98ab59534b2",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "صندوق الكويت السيادي نموذج لأصحاب الثروات المدخرين طويلي الأجل",
-     "url": "https://www.alraimedia.com/article/1782903/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D9%8A-%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%84%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%AE%D8%B1%D9%8A%D9%86-%D8%B7%D9%88%D9%8A%D9%84%D9%8A-%D8%A7%D9%84%D8%A3%D8%AC%D9%84",
-     "section": "latest",
-     "summary": "تناولت مجلة «بيزنس تايمز» السنغافورية توجه صناديق الثروة السيادية في آسيا نحو الاستثمار المباشر والمشاركة في صفقات الملكية الخاصة، مشيرة إلى أن الصندوق السيادي الكويتي المتمثل باله...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "0a01a42ea5adc365",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الطفل مات... وابن العم عاش مكانه",
-     "url": "https://www.alraimedia.com/article/1782902/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D9%85%D8%A7%D8%AA-%D9%88%D8%A7%D8%A8%D9%86-%D8%A7%D9%84%D8%B9%D9%85-%D8%B9%D8%A7%D8%B4-%D9%85%D9%83%D8%A7%D9%86%D9%87",
-     "section": "latest",
-     "summary": "كشفت تحريات مباحث الجنسية عن ملف تزوير يعود إلى عام 1970، بدأت خيوطه بمعلومة سرية تفيد بأن شخصاً أُدخل إلى ملف جنسية أسرة كويتية مكان طفل متوفى، بعلم والد الطفل، قبل أن تقود مراجعة...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "db8aadb5251a03b5",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الأخ في الجنسية... خال",
-     "url": "https://www.alraimedia.com/article/1782901/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%A3%D8%AE-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9-%D8%AE%D8%A7%D9%84",
-     "section": "latest",
-     "summary": "توصلت تحريات مباحث الجنسية إلى ملف جديد يشتبه في احتوائه على إضافة شخص إلى أسرة كويتية على خلاف الحقيقة، بعدما وردت معلومات تفيد بأن شخصاً يدعى «م» منتسب إلى أب ليس والده الحقيقي.و...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "abf8a4f47ef42660",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "360 سورياً... بأسماء عائلتين كويتيتين!",
-     "url": "https://www.alraimedia.com/article/1782900/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/360-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%A8%D8%A3%D8%B3%D9%85%D8%A7%D8%A1-%D8%B9%D8%A7%D8%A6%D9%84%D8%AA%D9%8A%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%AA%D9%8A%D9%86",
-     "section": "latest",
-     "summary": "اسمٌ سوري احتفظ به صاحبه حتى بعد تجنيسه في إحدى دول الخليج، قاد مباحث الجنسية إلى 5 أشقاء له في الكويت، انتسب 4 منهم إلى عائلة كويتية واحدة، فيما حمل الخامس اسماً مختلفاً تماماً، م...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "d01eba540b90d2ea",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "18 محضراً ومخالفة في حملة تفتيش بـ «أبوالحصانية»",
-     "url": "https://www.alraimedia.com/article/1782899/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/18-%D9%85%D8%AD%D8%B6%D8%B1%D8%A7-%D9%88%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%A9-%D9%81%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A8-%D8%A3%D8%A8%D9%88%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D9%86%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "نفذ فريق طوارئ محافظتي الأحمدي ومبارك الكبير حملة تفتيشية مشتركة في منطقة أبو الحصانية بالتعاون مع وزارة التجارة والصناعة ووزارة الداخلية والهيئة العامة للغذاء والتغذية.وذكرت وزارة...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "1a5103be34c123f4",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "متفجّرات «حزب الله» تفتح «الخط الساخن» بين روبيو وعون",
-     "url": "https://www.alraimedia.com/article/1782898/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%AA%D9%81%D8%AC%D8%B1%D8%A7%D8%AA-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D8%AA%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%AE%D8%B7-%D8%A7%D9%84%D8%B3%D8%A7%D8%AE%D9%86-%D8%A8%D9%8A%D9%86-%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D9%88%D8%B9%D9%88%D9%86",
-     "section": "latest",
-     "summary": "مع العدّ العكسي لانتخابات الكنيست في إسرائيل وبعدها الانتخابات النصفية في الولايات المتحدة، بدا لبنان في عيْن السِباق الذي تشهده المنطقة بين صناديق الاقتراع وبين عملياتِ محاكاةٍ لأ...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "69918ebc4a41adf8",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رئيسة تنزانيا تثمن المساعدات الكويتية في مجالي البنية التحتية والعمل الإنساني",
-     "url": "https://www.alraimedia.com/article/1782893/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B1%D8%A6%D9%8A%D8%B3%D8%A9-%D8%AA%D9%86%D8%B2%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AB%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AA%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A",
-     "section": "latest",
-     "summary": "ثمنت رئيسة جمهورية تنزانيا المتحدة الدكتورة سامية حسن، المساعدات التي تقدمها دولة الكويت لبلادها؛ من خلال الصندوق الكويتي للتنمية الاقتصادية العربية في مجال البنية التحتية، إضافة إ...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "07c096504ae1acf4",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الحميدة: نتطلع إلى تقدم ملموس في ملف الأسرى والمفقودين الكويتيين",
-     "url": "https://www.alraimedia.com/article/1782892/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF%D8%A9-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D8%A5%D9%84%D9%89-%D8%AA%D9%82%D8%AF%D9%85-%D9%85%D9%84%D9%85%D9%88%D8%B3-%D9%81%D9%8A-%D9%85%D9%84%D9%81-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%89-%D9%88%D8%A7%D9%84%D9%85%D9%81%D9%82%D9%88%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D9%8A%D9%86",
-     "section": "latest",
-     "summary": "نيويورك - كونا - أكدت دولة الكويت أهمية الدور الذي تضطلع به البعثات السياسية الخاصة، التابعة للأمم المتحدة، باعتبارها إحدى الأدوات الأساسية للدبلوماسية الوقائية، ومنع نشوب النزاعات...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "720b1f74a6882e75",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "حمد المكراد: تعزيز التعاون المؤسسي لمواجهة غسل الأموال وتمويل الإرهاب",
-     "url": "https://www.alraimedia.com/article/1782891/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D9%85%D9%83%D8%B1%D8%A7%D8%AF-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D9%8A-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%BA%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8",
-     "section": "latest",
-     "summary": "عقدت اللجنة الوطنية لمكافحة غسل الأموال وتمويل الإرهاب؛ برئاسة الدكتور حمد المكراد، اجتماعاً لمتابعة الجهود الوطنية الرامية إلى تعزيز المنظومة ذات الصلة، وترسيخ التعاون والتنسيق بي...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "ab2e6171462ae572",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«ياس»... جزيرة العائلة والمغامرة والترفيه والمذاق",
-     "url": "https://www.alraimedia.com/article/1782889/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%8A%D8%A7%D8%B3-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%81%D9%8A%D9%87-%D9%88%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%82",
-     "section": "latest",
-     "summary": "هنا جزيرة ياس... حيث تتحول العطلة إلى حكاية تتجدد تفاصيلها مع كل يوم، فما بين السرعة والماء والمغامرة، تتنقل العائلة من عالم إلى آخر في دقائق، لتجد في كل زاوية تجربة، وفي كل محطة م...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "aedb19f898745335",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "وثيقة تأمين للمصريين بالخارج تغطي الفصل التعسفي والعجز والوفاة",
-     "url": "https://www.alraimedia.com/article/1782887/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%AB%D9%8A%D9%82%D8%A9-%D8%AA%D8%A3%D9%85%D9%8A%D9%86-%D9%84%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AA%D8%BA%D8%B7%D9%8A-%D8%A7%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%AA%D8%B9%D8%B3%D9%81%D9%8A-%D9%88%D8%A7%D9%84%D8%B9%D8%AC%D8%B2-%D9%88%D8%A7%D9%84%D9%88%D9%81%D8%A7%D8%A9",
-     "section": "latest",
-     "summary": "أعلنت البعثة القنصلية المصرية لدى البلاد، عن تفاصيل وثيقة تأمين الحوادث الشخصية للمصريين العاملين بالخارج، التي توافر تغطية تأمينية في حالات الفصل التعسفي والعجز الكلي المستديم الن...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "067f9fcba6394c39",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "تعزيز التعاون مع «إيكاو» للارتقاء بخدمات مطار الكويت",
-     "url": "https://www.alraimedia.com/article/1782886/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%B9-%D8%A5%D9%8A%D9%83%D8%A7%D9%88-%D9%84%D9%84%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%D8%A1-%D8%A8%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
-     "section": "latest",
-     "summary": "أكد رئيس الهيئة العامة للطيران المدني الشيخ حمود مبارك الحمود الصباح، أهمية تعزيز التعاون مع منظمة الطيران المدني الدولي (ايكاو)، في دعم جهود تطوير قطاع الطيران المدني والارتقاء با...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "20afdeb7562e9f8c",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "محافظ الفروانية: المتابعة الميدانية لصيانة الطرق والشوارع الداخلية",
-     "url": "https://www.alraimedia.com/article/1782884/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%B7%D8%B1%D9%82-%D9%88%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "أكد محافظ الفروانية الشيخ عذبي ناصر العذبي الصباح، أن صيانة الطرق والشوارع الداخلية تمثل أحد المحاور المهمة للارتقاء بمستوى الخدمات في المحافظة، لما لها من أثر مباشر على سلامة مستخ...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "077fb3c130c9e253",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "9 جامعات لبنانية تستعرض برامجها الأكاديمية في الكويت",
-     "url": "https://www.alraimedia.com/article/1782882/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/9-%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%D9%87%D8%A7-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
-     "section": "latest",
-     "summary": "نظّمت السفارة اللبنانية لدى البلاد، معرض الجامعات اللبنانية، الأربعاء، برعاية سفير لبنان غادي الخوري، ومشاركة 9 جامعات لبنانية، بهدف تعريف الطلبة بالبرامج الأكاديمية والفرص التعليم...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "1028933c492f3794",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "مؤسسة «عبدالحميد الصانع التعليمية»... 40 عاماً من العطاء والتميز وصناعة الأجيال",
-     "url": "https://www.alraimedia.com/article/1782881/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF-%D8%A7%D9%84%D8%B5%D8%A7%D9%86%D8%B9-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9-40-%D8%B9%D8%A7%D9%85%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D8%B2-%D9%88%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D8%AC%D9%8A%D8%A7%D9%84",
-     "section": "latest",
-     "summary": "منذ تأسيسها عام 1986، تواصل مدارس مؤسسة عبدالحميد الصانع التعليمية مسيرتها في التعليم الأهلي بالكويت، مستندة إلى إرث تربوي راسخ، وإنجازات أكاديمية متجددة، ورؤية تتطلع إلى المستقبل....",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "035395dcf5a8e256",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«تويتر»... من توتر التعثر إلى «إكس» الجميع",
-     "url": "https://www.alraimedia.com/article/1782876/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%88%D9%8A%D8%AA%D8%B1-%D9%85%D9%86-%D8%AA%D9%88%D8%AA%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D8%AB%D8%B1-%D8%A5%D9%84%D9%89-%D8%A5%D9%83%D8%B3-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B9",
-     "section": "latest",
-     "summary": "فرصة العمر لا تأتي دائماً في صورة صفقة كبيرة أو استثمار ضخم، أحياناً تبدأ بفكرة بسيطة تظهر في اللحظة التي يبدو فيها المشروع الأصلي على وشك الانهيار. وهذا تحديداً ما حدث مع شركة أود...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "d31b929a98c5c373",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "442.69 مليار دولار أصولاً أجنبية لـ «ساما» بنمو 3.7 في المئة",
-     "url": "https://www.alraimedia.com/article/1782874/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/44269-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A3%D8%B5%D9%88%D9%84%D8%A7-%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D8%A9-%D9%84-%D8%B3%D8%A7%D9%85%D8%A7-%D8%A8%D9%86%D9%85%D9%88-37-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A6%D8%A9",
-     "section": "latest",
-     "summary": "العربية - ارتفع صافي الأصول الأجنبية للبنك المركزي السعودي «ساما» بنهاية شهر سبتمبر الماضي 3.73 في المئة على أساس سنوي، مسجلاً نحو 442.69 مليار دولار (1.66 تريليون ريال)، مقارنة مع...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "c9c4e4b8a45b3fb7",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«وربة» يعزّز شراكة الجهات الحكومية والقطاع الخاص",
-     "url": "https://www.alraimedia.com/article/1782871/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D9%88%D8%B1%D8%A8%D8%A9-%D9%8A%D8%B9%D8%B2%D8%B2-%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5",
-     "section": "latest",
-     "summary": "في إطار تعزيز التعاون بين مؤسسات القطاعين الحكومي والخاص، ودعم المبادرات المجتمعية الهادفة إلى الارتقاء بجودة الخدمات المقدمة للمواطنين، شهد مركز خدمة المواطن في منطقة القصر بمحافظ...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "030379b74f9d2e57",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«جيتور» تتطور من رائدة سيارات «SUV» إلى علامة عالمية في أسلوب حياة السفر",
-     "url": "https://www.alraimedia.com/article/1782870/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/%D8%AC%D9%8A%D8%AA%D9%88%D8%B1-%D8%AA%D8%AA%D8%B7%D9%88%D8%B1-%D9%85%D9%86-%D8%B1%D8%A7%D8%A6%D8%AF%D8%A9-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-suv-%D8%A5%D9%84%D9%89-%D8%B9%D9%84%D8%A7%D9%85%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D8%B3%D9%84%D9%88%D8%A8-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
-     "section": "latest",
-     "summary": "قبل وقت طويل من تحوّل مفهوم «السيارات + السفر»، إلى مصطلح شائع في قطاع السيارات، كانت «جيتور» دمجت بالفعل سيناريوهات السفر ضمن تعريف منتجاتها، وأبحاثها وتطويرها التقني، وإستراتيجيا...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "6a40f010fcb5d9f3",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "نتنياهو: اتصلت بالشرع خلال أزمة السويداء",
-     "url": "https://www.alraimedia.com/article/1782867/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D8%AA%D8%B5%D9%84%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D8%B1%D8%B9-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%AF%D8%A7%D8%A1",
-     "section": "latest",
-     "summary": "في أول اعتراف بتواصل مباشر بين الرجلين، كشف رئيس الوزراء بنيامين نتنياهو، أنه تحدث مع الرئيس السوري أحمد الشرع، بعد وقت قصير من قصف إسرائيلي استهدف وزارة الدفاع السورية واستهداف آخ...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "cdd15b8cb024cd2c",
-   "score": 5.759,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "السيسى: نرفض المساس بأمن السعودية وحدودها",
-     "url": "https://www.alraimedia.com/article/1782866/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%89-%D9%86%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D8%AD%D8%AF%D9%88%D8%AF%D9%87%D8%A7",
-     "section": "latest",
-     "summary": "أكد الرئيس عبدالفتاح السيسي أن «مصر والسعودية هما قلب الأمتين العربية والإسلامية، وأن أي ضرر يصيب أياً من الدولتين سوف يؤثر على الأخرى».وقال خلال احتفال أكاديمية الشرطة بـ«يوم الخر...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "8b1cba5d03019223",
-   "score": 5.758,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "أبو منجل... في «الجهراء»",
-     "url": "https://www.alraimedia.com/article/1782906/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%A8%D9%88-%D9%85%D9%86%D8%AC%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%87%D8%B1%D8%A7%D8%A1",
-     "section": "latest",
-     "summary": "في رصد نادر وحديث، تمكن المصور صالح الشمالي، من تصوير طائر الأنوق اللامع، قبل أيام عدة، أثناء تحليقه في محمية الجهراء.ولفت الشمالي لـ«الراي»، إلى أن «هذا الطائر الذي يتميز بألوانه...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "cd872450df0667d0",
-   "score": 5.758,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "تجديد عقود الـ «BOT» المُنتهية مقابل 30 في المئة من «إيراداتها»... سنوياً",
-     "url": "https://www.alraimedia.com/article/1782905/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B9%D9%82%D9%88%D8%AF-%D8%A7%D9%84-bot-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D9%87%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-30-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A6%D8%A9-%D9%85%D9%86-%D8%A5%D9%8A%D8%B1%D8%A7%D8%AF%D8%A7%D8%AA%D9%87%D8%A7-%D8%B3%D9%86%D9%88%D9%8A%D8%A7",
-     "section": "latest",
-     "summary": "تفعيلاً لخططها نحو تحسين استغلال المشاريع المقامة على أرض الدولة، والمنتهية عقودها الـ «BOT»، من خلال زيادة العوائد المتدفقة من الانتفاع بها إلى معدلات القيمة العادلة حتى طرحها في...",
-     "body": "",
-     "published": "2026-10-15T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "406bfd0877cc4762",
-   "score": 5.758,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«لايباس» تدعو عملاءها لمشاركة أفكارهم حول القيادة الأنيقة",
-     "url": "https://www.alraimedia.com/article/1782873/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/%D9%84%D8%A7%D9%8A%D8%A8%D8%A7%D8%B3-%D8%AA%D8%AF%D8%B9%D9%88-%D8%B9%D9%85%D9%84%D8%A7%D8%A1%D9%87%D8%A7-%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D8%A3%D9%81%D9%83%D8%A7%D8%B1%D9%87%D9%85-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D9%8A%D9%82%D8%A9",
-     "section": "latest",
-     "summary": "تماشياً مع استمرار شركة لايباس بتوسيع محفظة منتجاتها من السيارات العاملة بالطاقة الجديدة «NEV» عبر الأسواق العالمية، تنطلق هذه العلامة التجارية المميّزة إلى مرحلة جديدة من الإبداع...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "f4b611f840f2e5ca",
-   "score": 5.758,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "السعودية: التصعيد الحوثي بتشجيع إيراني",
-     "url": "https://www.alraimedia.com/article/1782869/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A8%D8%AA%D8%B4%D8%AC%D9%8A%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A",
-     "section": "latest",
-     "summary": "أكد «تحالف دعم الشرعية في اليمن»، اليوم الخميس، ضرورة «الوقف الفوري» لهجمات الحوثيين على المنشآت المدنية في السعودية، في حين اتهمت المملكة، إيران بتشجيع الحوثيين على التصعيد الأخي...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "34a0c76df69e121b",
    "score": 5.753,
    "sources": [
@@ -5214,6 +4520,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "a64feeb7eb3128b7",
+   "score": 5.459,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بورصة الكويت تغلق تعاملاتها على انخفاض مؤشرها العام 57.67 نقطة",
+     "url": "https://www.alraimedia.com/article/1782811/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%88%D8%B1%D8%B5%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%BA%D9%84%D9%82-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D9%85%D8%A4%D8%B4%D8%B1%D9%87%D8%A7-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-5767-%D9%86%D9%82%D8%B7%D8%A9",
+     "section": "economy",
+     "summary": "أغلقت بورصة الكويت تعاملاتها، اليوم الخميس، على انخفاض مؤشرها العام 57.67 نقطة بنسبة بلغت 68ر0 في المئة ليبلغ مستوى 8475.93 نقطة وتم تداول 315.18 مليون سهم عبر 27666 صفقة نقدية بقي...",
+     "body": "",
+     "published": "2026-10-15T13:55:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -5258,6 +4588,30 @@
      "summary": "توقع صندوق النقد الدولي اليوم أن تواجه اقتصادات الدول المصدرة للنفط المتأثرة مباشرة باضطرابات الطاقة والتجارة الناجمة عن الحرب في الشرق الأوسط انكماشا ملحوظا خلال عام 2026 قبل أن ت...",
      "body": "",
      "published": "2026-10-15T10:55:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "cd34adc97cce7656",
+   "score": 5.459,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Hot US inflation triggers Asian tech stock rout",
+     "url": "https://kuwaittimes.com/article/51668/business/hot-us-inflation-triggers-asian-tech-stock-rout/",
+     "section": "business",
+     "summary": "HONG KONG: Asian stocks plunged Thursday as technology firms suffered another heavy sell-off, after higher-than-expected US inflation data fueled expectations that the Federal Rese...",
+     "body": "",
+     "published": "2026-10-15T10:51:00+03:00",
      "tier": 1
     }
    ],
@@ -5378,6 +4732,30 @@
      "summary": "كشف بنك جي إف إتش عن التزامه بـ60 مليون دولار لإطلاق شراكة جديدة، تستهدف الاستحواذ على محركات الجيل الجديد من الطائرات التجارية، بالتعاون مع «بريدجبوينت»، إحدى أبرز شرك...",
      "body": "",
      "published": "2026-10-15T09:37:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "69280b3cd1cd8729",
+   "score": 5.454,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«يو بي إس» يتوقع رفع الفائدة الأميركية في ديسمبر ومارس",
+     "url": "https://www.aljarida.com/article/147568",
+     "section": "economy",
+     "summary": "توقعت وحدة إدارة الثروات لدى بنك «يو بي إس» أن يرفع الاحتياطي الفيدرالي أسعار الفائدة في ديسمبر ومارس، ليمتد مسار التشديد النقدي إلى العام المقبل، في ظل استمرار الضغوط...",
+     "body": "",
+     "published": "2026-10-15T14:14:00+03:00",
      "tier": 1
     }
    ],
@@ -5529,7 +4907,7 @@
    "analysis": {}
   },
   {
-   "key": "d2b20723a0bd3cec",
+   "key": "7041ebaf19046a04",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -5540,12 +4918,132 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«جفاف شديد» في بريطانيا",
-     "url": "https://www.alraimedia.com/article/1782860/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AC%D9%81%D8%A7%D9%81-%D8%B4%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7",
-     "section": "last-page",
-     "summary": "لندن- أ ف ب- أعلنت الحكومة البريطانية حالة «جفاف شديد» في أجزاء من جنوب إنكلترا، عازية ذلك إلى «فترة غير مسبوقة من الأحوال الجوية المتطرفة».وشهدت المملكة المتحدة عام 2026 الصيف الأ...",
+     "title": "التزوير... يسحب «التأسيس» و«التجنيس»",
+     "url": "https://www.alraimedia.com/article/1782907/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B2%D9%88%D9%8A%D8%B1-%D9%8A%D8%B3%D8%AD%D8%A8-%D8%A7%D9%84%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D9%86%D9%8A%D8%B3",
+     "section": "latest",
+     "summary": "دخلت ملفات تزوير الجنسية مرحلة أكثر تشدداً في التعامل القانوني، حيث قررت اللجنة العليا لتحقيق الجنسية الكويتية برئاسة النائب الأول لرئيس مجلس الوزراء وزير الداخلية الشيخ فهد اليوسف...",
      "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "fa76e69e60b2beda",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "12 مليار دينار أقرضها «الائتمان» لـ 755.6 ألف مواطن منذ تأسيسه",
+     "url": "https://www.alraimedia.com/article/1782904/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/12-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1-%D8%A3%D9%82%D8%B1%D8%B6%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86-%D9%84-7556-%D8%A3%D9%84%D9%81-%D9%85%D9%88%D8%A7%D8%B7%D9%86-%D9%85%D9%86%D8%B0-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3%D9%87",
+     "section": "latest",
+     "summary": "تجاوز إجمالي المبالغ التي صرفها بنك الائتمان الكويتي منذ تأسيسه قبل 66 عاماً 12 مليار دينار، استفاد منها أكثر من 75566 مواطن، في مسيرة امتدت لدعم الأسرة الكويتية وتعزيز الاستقرار ا...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "545ed98ab59534b2",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "صندوق الكويت السيادي نموذج لأصحاب الثروات المدخرين طويلي الأجل",
+     "url": "https://www.alraimedia.com/article/1782903/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D9%8A-%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%84%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%AE%D8%B1%D9%8A%D9%86-%D8%B7%D9%88%D9%8A%D9%84%D9%8A-%D8%A7%D9%84%D8%A3%D8%AC%D9%84",
+     "section": "latest",
+     "summary": "تناولت مجلة «بيزنس تايمز» السنغافورية توجه صناديق الثروة السيادية في آسيا نحو الاستثمار المباشر والمشاركة في صفقات الملكية الخاصة، مشيرة إلى أن الصندوق السيادي الكويتي المتمثل باله...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "0a01a42ea5adc365",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الطفل مات... وابن العم عاش مكانه",
+     "url": "https://www.alraimedia.com/article/1782902/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D9%85%D8%A7%D8%AA-%D9%88%D8%A7%D8%A8%D9%86-%D8%A7%D9%84%D8%B9%D9%85-%D8%B9%D8%A7%D8%B4-%D9%85%D9%83%D8%A7%D9%86%D9%87",
+     "section": "latest",
+     "summary": "كشفت تحريات مباحث الجنسية عن ملف تزوير يعود إلى عام 1970، بدأت خيوطه بمعلومة سرية تفيد بأن شخصاً أُدخل إلى ملف جنسية أسرة كويتية مكان طفل متوفى، بعلم والد الطفل، قبل أن تقود مراجعة...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "db8aadb5251a03b5",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الأخ في الجنسية... خال",
+     "url": "https://www.alraimedia.com/article/1782901/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%A3%D8%AE-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9-%D8%AE%D8%A7%D9%84",
+     "section": "latest",
+     "summary": "توصلت تحريات مباحث الجنسية إلى ملف جديد يشتبه في احتوائه على إضافة شخص إلى أسرة كويتية على خلاف الحقيقة، بعدما وردت معلومات تفيد بأن شخصاً يدعى «م» منتسب إلى أب ليس والده الحقيقي.و...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "abf8a4f47ef42660",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "360 سورياً... بأسماء عائلتين كويتيتين!",
+     "url": "https://www.alraimedia.com/article/1782900/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/360-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%A8%D8%A3%D8%B3%D9%85%D8%A7%D8%A1-%D8%B9%D8%A7%D8%A6%D9%84%D8%AA%D9%8A%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%AA%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "اسمٌ سوري احتفظ به صاحبه حتى بعد تجنيسه في إحدى دول الخليج، قاد مباحث الجنسية إلى 5 أشقاء له في الكويت، انتسب 4 منهم إلى عائلة كويتية واحدة، فيما حمل الخامس اسماً مختلفاً تماماً، م...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
      "tier": 1
     }
    ],
@@ -5553,7 +5051,7 @@
    "analysis": {}
   },
   {
-   "key": "5217e5d0cd483314",
+   "key": "d01eba540b90d2ea",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -5564,34 +5062,10 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "آخر حيواني باندا في فرنسا يغادران إلى الصين 17 ديسمبر",
-     "url": "https://www.alraimedia.com/article/1782861/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A2%D8%AE%D8%B1-%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A-%D8%A8%D8%A7%D9%86%D8%AF%D8%A7-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%8A%D8%BA%D8%A7%D8%AF%D8%B1%D8%A7%D9%86-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-17-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1",
-     "section": "last-page",
-     "summary": "باريس- أ ف ب -يُغادر آخر حيواني باندا يعيشان في فرنسا ووُلدا في حديقة حيوانات بوفال عام 2021، إلى الصين في 17 ديسمبر، في خطوة كان مقرراً تنفيذها منذ أشهر، وفق ما قال مدير الحديقة ر...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "a76a9d2bc97edffb",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "النساء «اللحوميات» أوفر حظاً في بلوغ سن المئة",
-     "url": "https://www.alraimedia.com/article/1782862/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%A1-%D8%A7%D9%84%D9%84%D8%AD%D9%88%D9%85%D9%8A%D8%A7%D8%AA-%D8%A3%D9%88%D9%81%D8%B1-%D8%AD%D8%B8%D8%A7-%D9%81%D9%8A-%D8%A8%D9%84%D9%88%D8%BA-%D8%B3%D9%86-%D8%A7%D9%84%D9%85%D8%A6%D8%A9",
-     "section": "last-page",
-     "summary": "نشر موقع sciencealert.com العلمي تقريراً عن دراسة صينية جديدة بحثت في العلاقة بين النظام الغذائي وبلوغ سن المئة. وأفاد التقرير بأن البشر يعيشون أطول من أي وقت مضى، وبأن العلماء يتو...",
+     "title": "18 محضراً ومخالفة في حملة تفتيش بـ «أبوالحصانية»",
+     "url": "https://www.alraimedia.com/article/1782899/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/18-%D9%85%D8%AD%D8%B6%D8%B1%D8%A7-%D9%88%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%A9-%D9%81%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A8-%D8%A3%D8%A8%D9%88%D8%A7%D9%84%D8%AD%D8%B5%D8%A7%D9%86%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "نفذ فريق طوارئ محافظتي الأحمدي ومبارك الكبير حملة تفتيشية مشتركة في منطقة أبو الحصانية بالتعاون مع وزارة التجارة والصناعة ووزارة الداخلية والهيئة العامة للغذاء والتغذية.وذكرت وزارة...",
      "body": "",
      "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
@@ -5601,7 +5075,7 @@
    "analysis": {}
   },
   {
-   "key": "543bbeae38ca24a0",
+   "key": "1a5103be34c123f4",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -5612,10 +5086,34 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "أكثر من 3.5 مليون وفاة سنوياً جرّاء التسمّم بالرصاص",
-     "url": "https://www.alraimedia.com/article/1782864/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-35-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%88%D9%81%D8%A7%D8%A9-%D8%B3%D9%86%D9%88%D9%8A%D8%A7-%D8%AC%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D8%B3%D9%85%D9%85-%D8%A8%D8%A7%D9%84%D8%B1%D8%B5%D8%A7%D8%B5",
-     "section": "last-page",
-     "summary": "جنيف - أ ف ب - دعت منظمة الصحة العالمية البلدان لبذل مزيد من الجهود لمنع التعرض للرصاص، في وقت تؤثر هذه المشكلة على مئات ملايين الأطفال حول العالم.وقال رئيس قسم البيئة في منظمة الص...",
+     "title": "متفجّرات «حزب الله» تفتح «الخط الساخن» بين روبيو وعون",
+     "url": "https://www.alraimedia.com/article/1782898/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%AA%D9%81%D8%AC%D8%B1%D8%A7%D8%AA-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87-%D8%AA%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%AE%D8%B7-%D8%A7%D9%84%D8%B3%D8%A7%D8%AE%D9%86-%D8%A8%D9%8A%D9%86-%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D9%88%D8%B9%D9%88%D9%86",
+     "section": "latest",
+     "summary": "مع العدّ العكسي لانتخابات الكنيست في إسرائيل وبعدها الانتخابات النصفية في الولايات المتحدة، بدا لبنان في عيْن السِباق الذي تشهده المنطقة بين صناديق الاقتراع وبين عملياتِ محاكاةٍ لأ...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "69918ebc4a41adf8",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "رئيسة تنزانيا تثمن المساعدات الكويتية في مجالي البنية التحتية والعمل الإنساني",
+     "url": "https://www.alraimedia.com/article/1782893/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B1%D8%A6%D9%8A%D8%B3%D8%A9-%D8%AA%D9%86%D8%B2%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AB%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AA%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A",
+     "section": "latest",
+     "summary": "ثمنت رئيسة جمهورية تنزانيا المتحدة الدكتورة سامية حسن، المساعدات التي تقدمها دولة الكويت لبلادها؛ من خلال الصندوق الكويتي للتنمية الاقتصادية العربية في مجال البنية التحتية، إضافة إ...",
      "body": "",
      "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
@@ -5625,7 +5123,7 @@
    "analysis": {}
   },
   {
-   "key": "132c7f1b3376d590",
+   "key": "07c096504ae1acf4",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -5636,12 +5134,324 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«المرور»: ضبط متهم بالاستهتار والرعونة في الوفرة الزراعية وكبس سيارته",
-     "url": "https://www.alraimedia.com/article/1782908/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%B1-%D8%B6%D8%A8%D8%B7-%D9%85%D8%AA%D9%87%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D8%AA%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%B9%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D9%81%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9-%D9%88%D9%83%D8%A8%D8%B3-%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA%D9%87",
-     "section": "last-page",
-     "summary": "تمكنت الإدارة العامة للمرور ممثلةً بإدارة الرقابة الأمنية من ضبط متهم في منطقة الوفرة الزراعية على خلفية ارتكابه أعمال الاستهتار والرعونة بمركبته.وجاء الضبط عقب متابعة المركبات الم...",
+     "title": "الحميدة: نتطلع إلى تقدم ملموس في ملف الأسرى والمفقودين الكويتيين",
+     "url": "https://www.alraimedia.com/article/1782892/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF%D8%A9-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D8%A5%D9%84%D9%89-%D8%AA%D9%82%D8%AF%D9%85-%D9%85%D9%84%D9%85%D9%88%D8%B3-%D9%81%D9%8A-%D9%85%D9%84%D9%81-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%89-%D9%88%D8%A7%D9%84%D9%85%D9%81%D9%82%D9%88%D8%AF%D9%8A%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "نيويورك - كونا - أكدت دولة الكويت أهمية الدور الذي تضطلع به البعثات السياسية الخاصة، التابعة للأمم المتحدة، باعتبارها إحدى الأدوات الأساسية للدبلوماسية الوقائية، ومنع نشوب النزاعات...",
      "body": "",
-     "published": "2026-10-15T21:55:00+03:00",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "720b1f74a6882e75",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "حمد المكراد: تعزيز التعاون المؤسسي لمواجهة غسل الأموال وتمويل الإرهاب",
+     "url": "https://www.alraimedia.com/article/1782891/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D9%85%D9%83%D8%B1%D8%A7%D8%AF-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D9%8A-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%BA%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8",
+     "section": "latest",
+     "summary": "عقدت اللجنة الوطنية لمكافحة غسل الأموال وتمويل الإرهاب؛ برئاسة الدكتور حمد المكراد، اجتماعاً لمتابعة الجهود الوطنية الرامية إلى تعزيز المنظومة ذات الصلة، وترسيخ التعاون والتنسيق بي...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "ab2e6171462ae572",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«ياس»... جزيرة العائلة والمغامرة والترفيه والمذاق",
+     "url": "https://www.alraimedia.com/article/1782889/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%8A%D8%A7%D8%B3-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%81%D9%8A%D9%87-%D9%88%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%82",
+     "section": "latest",
+     "summary": "هنا جزيرة ياس... حيث تتحول العطلة إلى حكاية تتجدد تفاصيلها مع كل يوم، فما بين السرعة والماء والمغامرة، تتنقل العائلة من عالم إلى آخر في دقائق، لتجد في كل زاوية تجربة، وفي كل محطة م...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "aedb19f898745335",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وثيقة تأمين للمصريين بالخارج تغطي الفصل التعسفي والعجز والوفاة",
+     "url": "https://www.alraimedia.com/article/1782887/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%AB%D9%8A%D9%82%D8%A9-%D8%AA%D8%A3%D9%85%D9%8A%D9%86-%D9%84%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AA%D8%BA%D8%B7%D9%8A-%D8%A7%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%AA%D8%B9%D8%B3%D9%81%D9%8A-%D9%88%D8%A7%D9%84%D8%B9%D8%AC%D8%B2-%D9%88%D8%A7%D9%84%D9%88%D9%81%D8%A7%D8%A9",
+     "section": "latest",
+     "summary": "أعلنت البعثة القنصلية المصرية لدى البلاد، عن تفاصيل وثيقة تأمين الحوادث الشخصية للمصريين العاملين بالخارج، التي توافر تغطية تأمينية في حالات الفصل التعسفي والعجز الكلي المستديم الن...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "067f9fcba6394c39",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تعزيز التعاون مع «إيكاو» للارتقاء بخدمات مطار الكويت",
+     "url": "https://www.alraimedia.com/article/1782886/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%B9-%D8%A5%D9%8A%D9%83%D8%A7%D9%88-%D9%84%D9%84%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%D8%A1-%D8%A8%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
+     "section": "latest",
+     "summary": "أكد رئيس الهيئة العامة للطيران المدني الشيخ حمود مبارك الحمود الصباح، أهمية تعزيز التعاون مع منظمة الطيران المدني الدولي (ايكاو)، في دعم جهود تطوير قطاع الطيران المدني والارتقاء با...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "20afdeb7562e9f8c",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "محافظ الفروانية: المتابعة الميدانية لصيانة الطرق والشوارع الداخلية",
+     "url": "https://www.alraimedia.com/article/1782884/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%B7%D8%B1%D9%82-%D9%88%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أكد محافظ الفروانية الشيخ عذبي ناصر العذبي الصباح، أن صيانة الطرق والشوارع الداخلية تمثل أحد المحاور المهمة للارتقاء بمستوى الخدمات في المحافظة، لما لها من أثر مباشر على سلامة مستخ...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "077fb3c130c9e253",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "9 جامعات لبنانية تستعرض برامجها الأكاديمية في الكويت",
+     "url": "https://www.alraimedia.com/article/1782882/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/9-%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%D9%87%D8%A7-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
+     "section": "latest",
+     "summary": "نظّمت السفارة اللبنانية لدى البلاد، معرض الجامعات اللبنانية، الأربعاء، برعاية سفير لبنان غادي الخوري، ومشاركة 9 جامعات لبنانية، بهدف تعريف الطلبة بالبرامج الأكاديمية والفرص التعليم...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "1028933c492f3794",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "مؤسسة «عبدالحميد الصانع التعليمية»... 40 عاماً من العطاء والتميز وصناعة الأجيال",
+     "url": "https://www.alraimedia.com/article/1782881/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF-%D8%A7%D9%84%D8%B5%D8%A7%D9%86%D8%B9-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9-40-%D8%B9%D8%A7%D9%85%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D8%B2-%D9%88%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D8%AC%D9%8A%D8%A7%D9%84",
+     "section": "latest",
+     "summary": "منذ تأسيسها عام 1986، تواصل مدارس مؤسسة عبدالحميد الصانع التعليمية مسيرتها في التعليم الأهلي بالكويت، مستندة إلى إرث تربوي راسخ، وإنجازات أكاديمية متجددة، ورؤية تتطلع إلى المستقبل....",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "035395dcf5a8e256",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«تويتر»... من توتر التعثر إلى «إكس» الجميع",
+     "url": "https://www.alraimedia.com/article/1782876/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%88%D9%8A%D8%AA%D8%B1-%D9%85%D9%86-%D8%AA%D9%88%D8%AA%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D8%AB%D8%B1-%D8%A5%D9%84%D9%89-%D8%A5%D9%83%D8%B3-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B9",
+     "section": "latest",
+     "summary": "فرصة العمر لا تأتي دائماً في صورة صفقة كبيرة أو استثمار ضخم، أحياناً تبدأ بفكرة بسيطة تظهر في اللحظة التي يبدو فيها المشروع الأصلي على وشك الانهيار. وهذا تحديداً ما حدث مع شركة أود...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "d31b929a98c5c373",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "442.69 مليار دولار أصولاً أجنبية لـ «ساما» بنمو 3.7 في المئة",
+     "url": "https://www.alraimedia.com/article/1782874/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/44269-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A3%D8%B5%D9%88%D9%84%D8%A7-%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D8%A9-%D9%84-%D8%B3%D8%A7%D9%85%D8%A7-%D8%A8%D9%86%D9%85%D9%88-37-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A6%D8%A9",
+     "section": "latest",
+     "summary": "العربية - ارتفع صافي الأصول الأجنبية للبنك المركزي السعودي «ساما» بنهاية شهر سبتمبر الماضي 3.73 في المئة على أساس سنوي، مسجلاً نحو 442.69 مليار دولار (1.66 تريليون ريال)، مقارنة مع...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "c9c4e4b8a45b3fb7",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«وربة» يعزّز شراكة الجهات الحكومية والقطاع الخاص",
+     "url": "https://www.alraimedia.com/article/1782871/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D9%88%D8%B1%D8%A8%D8%A9-%D9%8A%D8%B9%D8%B2%D8%B2-%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5",
+     "section": "latest",
+     "summary": "في إطار تعزيز التعاون بين مؤسسات القطاعين الحكومي والخاص، ودعم المبادرات المجتمعية الهادفة إلى الارتقاء بجودة الخدمات المقدمة للمواطنين، شهد مركز خدمة المواطن في منطقة القصر بمحافظ...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "030379b74f9d2e57",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«جيتور» تتطور من رائدة سيارات «SUV» إلى علامة عالمية في أسلوب حياة السفر",
+     "url": "https://www.alraimedia.com/article/1782870/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/%D8%AC%D9%8A%D8%AA%D9%88%D8%B1-%D8%AA%D8%AA%D8%B7%D9%88%D8%B1-%D9%85%D9%86-%D8%B1%D8%A7%D8%A6%D8%AF%D8%A9-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-suv-%D8%A5%D9%84%D9%89-%D8%B9%D9%84%D8%A7%D9%85%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D8%B3%D9%84%D9%88%D8%A8-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A7%D9%84%D8%B3%D9%81%D8%B1",
+     "section": "latest",
+     "summary": "قبل وقت طويل من تحوّل مفهوم «السيارات + السفر»، إلى مصطلح شائع في قطاع السيارات، كانت «جيتور» دمجت بالفعل سيناريوهات السفر ضمن تعريف منتجاتها، وأبحاثها وتطويرها التقني، وإستراتيجيا...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "6a40f010fcb5d9f3",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "نتنياهو: اتصلت بالشرع خلال أزمة السويداء",
+     "url": "https://www.alraimedia.com/article/1782867/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D8%AA%D8%B5%D9%84%D8%AA-%D8%A8%D8%A7%D9%84%D8%B4%D8%B1%D8%B9-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%AF%D8%A7%D8%A1",
+     "section": "latest",
+     "summary": "في أول اعتراف بتواصل مباشر بين الرجلين، كشف رئيس الوزراء بنيامين نتنياهو، أنه تحدث مع الرئيس السوري أحمد الشرع، بعد وقت قصير من قصف إسرائيلي استهدف وزارة الدفاع السورية واستهداف آخ...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "cdd15b8cb024cd2c",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "السيسى: نرفض المساس بأمن السعودية وحدودها",
+     "url": "https://www.alraimedia.com/article/1782866/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%89-%D9%86%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%88%D8%AD%D8%AF%D9%88%D8%AF%D9%87%D8%A7",
+     "section": "latest",
+     "summary": "أكد الرئيس عبدالفتاح السيسي أن «مصر والسعودية هما قلب الأمتين العربية والإسلامية، وأن أي ضرر يصيب أياً من الدولتين سوف يؤثر على الأخرى».وقال خلال احتفال أكاديمية الشرطة بـ«يوم الخر...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
     }
    ],
@@ -5649,7 +5459,7 @@
    "analysis": {}
   },
   {
-   "key": "e88da7bd3f2ce7fb",
+   "key": "8b1cba5d03019223",
    "score": 5.158,
    "sources": [
     "الرأي"
@@ -5660,10 +5470,82 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "أول ظهور علني لهاري وميغان منذ عودتهما إلى بريطانيا",
-     "url": "https://www.alraimedia.com/article/1782859/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A3%D9%88%D9%84-%D8%B8%D9%87%D9%88%D8%B1-%D8%B9%D9%84%D9%86%D9%8A-%D9%84%D9%87%D8%A7%D8%B1%D9%8A-%D9%88%D9%85%D9%8A%D8%BA%D8%A7%D9%86-%D9%85%D9%86%D8%B0-%D8%B9%D9%88%D8%AF%D8%AA%D9%87%D9%85%D8%A7-%D8%A5%D9%84%D9%89-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7",
-     "section": "last-page",
-     "summary": "نوتنغهام (المملكة المتحدة)- أ ف ب - زار الأمير هاري وزوجته ميغان، اليوم، جمعية خيرية في مدينة نوتنغهام بوسط إنكلترا، في أول نشاط علني مشترك لهما منذ عودتهما إلى المملكة المتحدة في...",
+     "title": "أبو منجل... في «الجهراء»",
+     "url": "https://www.alraimedia.com/article/1782906/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%A8%D9%88-%D9%85%D9%86%D8%AC%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%87%D8%B1%D8%A7%D8%A1",
+     "section": "latest",
+     "summary": "في رصد نادر وحديث، تمكن المصور صالح الشمالي، من تصوير طائر الأنوق اللامع، قبل أيام عدة، أثناء تحليقه في محمية الجهراء.ولفت الشمالي لـ«الراي»، إلى أن «هذا الطائر الذي يتميز بألوانه...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "cd872450df0667d0",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تجديد عقود الـ «BOT» المُنتهية مقابل 30 في المئة من «إيراداتها»... سنوياً",
+     "url": "https://www.alraimedia.com/article/1782905/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%B9%D9%82%D9%88%D8%AF-%D8%A7%D9%84-bot-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D9%87%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-30-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A6%D8%A9-%D9%85%D9%86-%D8%A5%D9%8A%D8%B1%D8%A7%D8%AF%D8%A7%D8%AA%D9%87%D8%A7-%D8%B3%D9%86%D9%88%D9%8A%D8%A7",
+     "section": "latest",
+     "summary": "تفعيلاً لخططها نحو تحسين استغلال المشاريع المقامة على أرض الدولة، والمنتهية عقودها الـ «BOT»، من خلال زيادة العوائد المتدفقة من الانتفاع بها إلى معدلات القيمة العادلة حتى طرحها في...",
+     "body": "",
+     "published": "2026-10-15T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "406bfd0877cc4762",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«لايباس» تدعو عملاءها لمشاركة أفكارهم حول القيادة الأنيقة",
+     "url": "https://www.alraimedia.com/article/1782873/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/%D9%84%D8%A7%D9%8A%D8%A8%D8%A7%D8%B3-%D8%AA%D8%AF%D8%B9%D9%88-%D8%B9%D9%85%D9%84%D8%A7%D8%A1%D9%87%D8%A7-%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D8%A3%D9%81%D9%83%D8%A7%D8%B1%D9%87%D9%85-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D9%8A%D9%82%D8%A9",
+     "section": "latest",
+     "summary": "تماشياً مع استمرار شركة لايباس بتوسيع محفظة منتجاتها من السيارات العاملة بالطاقة الجديدة «NEV» عبر الأسواق العالمية، تنطلق هذه العلامة التجارية المميّزة إلى مرحلة جديدة من الإبداع...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "f4b611f840f2e5ca",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "السعودية: التصعيد الحوثي بتشجيع إيراني",
+     "url": "https://www.alraimedia.com/article/1782869/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A8%D8%AA%D8%B4%D8%AC%D9%8A%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A",
+     "section": "latest",
+     "summary": "أكد «تحالف دعم الشرعية في اليمن»، اليوم الخميس، ضرورة «الوقف الفوري» لهجمات الحوثيين على المنشآت المدنية في السعودية، في حين اتهمت المملكة، إيران بتشجيع الحوثيين على التصعيد الأخي...",
      "body": "",
      "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
@@ -5913,7 +5795,7 @@
    "analysis": {}
   },
   {
-   "key": "9f9fcd6145cf5ad4",
+   "key": "d2b20723a0bd3cec",
    "score": 4.559,
    "sources": [
     "الرأي"
@@ -5924,40 +5806,112 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "حين لا يراك المكان",
-     "url": "https://www.alraimedia.com/article/1782835/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AD%D9%8A%D9%86-%D9%84%D8%A7-%D9%8A%D8%B1%D8%A7%D9%83-%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%86",
-     "section": "opinion",
-     "summary": "قلوبنا مع المملكة الشقيقة وأهلها وزوارها لما تعرّضت له من اعتداءات وحشية آثمة لا تمت لدين ولا عقيدة بأي صلة، فراح ضحية تلك الاعتداءات أناس أبرياء لا صلة لهم بسياسة ولا حرب، وهذا ما...",
+     "title": "«جفاف شديد» في بريطانيا",
+     "url": "https://www.alraimedia.com/article/1782860/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AC%D9%81%D8%A7%D9%81-%D8%B4%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7",
+     "section": "last-page",
+     "summary": "لندن- أ ف ب- أعلنت الحكومة البريطانية حالة «جفاف شديد» في أجزاء من جنوب إنكلترا، عازية ذلك إلى «فترة غير مسبوقة من الأحوال الجوية المتطرفة».وشهدت المملكة المتحدة عام 2026 الصيف الأ...",
      "body": "",
      "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Opinion & Analysis",
+   "category": "World & Region",
    "analysis": {}
   },
   {
-   "key": "a231ab0c9a109fd7",
+   "key": "5217e5d0cd483314",
    "score": 4.559,
    "sources": [
-    "الجريدة"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
+     "source_id": "alrai",
+     "source_name": "الرأي",
      "lang": "ar",
-     "title": "الكلاب الضالة",
-     "url": "https://www.aljarida.com/article/147658",
-     "section": "opinion",
-     "summary": "نشكر الحكومة على انتباهها إلى موضوع الكلاب الضالة، ومن الأفضل أن يأتي الانتباه متأخراً على أن لا يأتي أبداً. وأود في هذا السياق تسليط الضوء على أساليب العلاج المتاحة، لأن ما يحدث ا...",
+     "title": "آخر حيواني باندا في فرنسا يغادران إلى الصين 17 ديسمبر",
+     "url": "https://www.alraimedia.com/article/1782861/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A2%D8%AE%D8%B1-%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A-%D8%A8%D8%A7%D9%86%D8%AF%D8%A7-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%8A%D8%BA%D8%A7%D8%AF%D8%B1%D8%A7%D9%86-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-17-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1",
+     "section": "last-page",
+     "summary": "باريس- أ ف ب -يُغادر آخر حيواني باندا يعيشان في فرنسا ووُلدا في حديقة حيوانات بوفال عام 2021، إلى الصين في 17 ديسمبر، في خطوة كان مقرراً تنفيذها منذ أشهر، وفق ما قال مدير الحديقة ر...",
      "body": "",
-     "published": "2026-10-15T21:51:00+03:00",
+     "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Opinion & Analysis",
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "a76a9d2bc97edffb",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "النساء «اللحوميات» أوفر حظاً في بلوغ سن المئة",
+     "url": "https://www.alraimedia.com/article/1782862/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%A1-%D8%A7%D9%84%D9%84%D8%AD%D9%88%D9%85%D9%8A%D8%A7%D8%AA-%D8%A3%D9%88%D9%81%D8%B1-%D8%AD%D8%B8%D8%A7-%D9%81%D9%8A-%D8%A8%D9%84%D9%88%D8%BA-%D8%B3%D9%86-%D8%A7%D9%84%D9%85%D8%A6%D8%A9",
+     "section": "last-page",
+     "summary": "نشر موقع sciencealert.com العلمي تقريراً عن دراسة صينية جديدة بحثت في العلاقة بين النظام الغذائي وبلوغ سن المئة. وأفاد التقرير بأن البشر يعيشون أطول من أي وقت مضى، وبأن العلماء يتو...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "543bbeae38ca24a0",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "أكثر من 3.5 مليون وفاة سنوياً جرّاء التسمّم بالرصاص",
+     "url": "https://www.alraimedia.com/article/1782864/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-35-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%88%D9%81%D8%A7%D8%A9-%D8%B3%D9%86%D9%88%D9%8A%D8%A7-%D8%AC%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D8%B3%D9%85%D9%85-%D8%A8%D8%A7%D9%84%D8%B1%D8%B5%D8%A7%D8%B5",
+     "section": "last-page",
+     "summary": "جنيف - أ ف ب - دعت منظمة الصحة العالمية البلدان لبذل مزيد من الجهود لمنع التعرض للرصاص، في وقت تؤثر هذه المشكلة على مئات ملايين الأطفال حول العالم.وقال رئيس قسم البيئة في منظمة الص...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "132c7f1b3376d590",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«المرور»: ضبط متهم بالاستهتار والرعونة في الوفرة الزراعية وكبس سيارته",
+     "url": "https://www.alraimedia.com/article/1782908/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%B1-%D8%B6%D8%A8%D8%B7-%D9%85%D8%AA%D9%87%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D8%AA%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%B9%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D9%81%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9-%D9%88%D9%83%D8%A8%D8%B3-%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA%D9%87",
+     "section": "last-page",
+     "summary": "تمكنت الإدارة العامة للمرور ممثلةً بإدارة الرقابة الأمنية من ضبط متهم في منطقة الوفرة الزراعية على خلفية ارتكابه أعمال الاستهتار والرعونة بمركبته.وجاء الضبط عقب متابعة المركبات الم...",
+     "body": "",
+     "published": "2026-10-15T21:55:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -6273,30 +6227,6 @@
    "analysis": {}
   },
   {
-   "key": "cd34adc97cce7656",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Hot US inflation triggers Asian tech stock rout",
-     "url": "https://kuwaittimes.com/article/51668/business/hot-us-inflation-triggers-asian-tech-stock-rout/",
-     "section": "latest",
-     "summary": "HONG KONG: Asian stocks plunged Thursday as technology firms suffered another heavy sell-off, after higher-than-expected US inflation data fueled expectations that the Federal Rese...",
-     "body": "",
-     "published": "2026-10-15T10:51:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "f2af7bd83f29855e",
    "score": 4.559,
    "sources": [
@@ -6393,99 +6323,27 @@
    "analysis": {}
   },
   {
-   "key": "143f82ec465d77e1",
-   "score": 4.559,
+   "key": "e88da7bd3f2ce7fb",
+   "score": 4.558,
    "sources": [
-    "Kuwait Times"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Anti-money laundering committee reviews national strategy",
-     "url": "https://kuwaittimes.com/article/51656/kuwait/anti-money-laundering-committee-reviews-national-strategy/",
-     "section": "latest",
-     "summary": "KUWAIT: The National Committee for Combating Money Laundering and Terrorist Financing met on Wednesday to follow up on national efforts to strengthen the system and improve coordin...",
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "أول ظهور علني لهاري وميغان منذ عودتهما إلى بريطانيا",
+     "url": "https://www.alraimedia.com/article/1782859/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A3%D9%88%D9%84-%D8%B8%D9%87%D9%88%D8%B1-%D8%B9%D9%84%D9%86%D9%8A-%D9%84%D9%87%D8%A7%D8%B1%D9%8A-%D9%88%D9%85%D9%8A%D8%BA%D8%A7%D9%86-%D9%85%D9%86%D8%B0-%D8%B9%D9%88%D8%AF%D8%AA%D9%87%D9%85%D8%A7-%D8%A5%D9%84%D9%89-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7",
+     "section": "last-page",
+     "summary": "نوتنغهام (المملكة المتحدة)- أ ف ب - زار الأمير هاري وزوجته ميغان، اليوم، جمعية خيرية في مدينة نوتنغهام بوسط إنكلترا، في أول نشاط علني مشترك لهما منذ عودتهما إلى المملكة المتحدة في...",
      "body": "",
-     "published": "2026-10-15T06:16:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "464f5a3498a4a1bc",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "US says it destroyed Iranian vessel spying on Navy ships in Gulf of Oman",
-     "url": "https://kuwaittimes.com/article/51655/world/us-says-it-destroyed-iranian-vessel-spying-on-navy-ships-in-gulf-of-oman/",
-     "section": "latest",
-     "summary": "WASHINGTON: The US Central Command (CENTCOM) said on Wednesday it had destroyed an Iranian sailing vessel that was conducting surveillance to target US Navy ships in the Gulf of Om...",
-     "body": "",
-     "published": "2026-10-15T06:12:00+03:00",
+     "published": "2026-10-15T22:00:00+03:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "57917a725d49669c",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Fire Force shuts 66 businesses in safety inspection campaign",
-     "url": "https://kuwaittimes.com/article/51654/kuwait/fire-force-shuts-66-businesses-in-safety-inspection-campaign/",
-     "section": "latest",
-     "summary": "KUWAIT: The Kuwait Fire Force (KFF) has closed 66 establishments and issued notices and warnings to 126 others during an inspection campaign in the Capital and Farwaniya governorat...",
-     "body": "",
-     "published": "2026-10-15T06:10:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "df0c2696cf4cef4c",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait Weather",
-     "url": "https://kuwaittimes.com/article/51653/kuwait/kuwait-weather/",
-     "section": "latest",
-     "summary": "KUWAIT: The Meteorological Department forecast hot, humid and partly cloudy weather on Thursday, especially in coastal areas, with winds light and variable becoming light to modera...",
-     "body": "",
-     "published": "2026-10-15T06:04:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -6534,78 +6392,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "aba5e6080bebefe2",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«أفشوا السلام بينكم...»",
-     "url": "https://www.alraimedia.com/article/1782832/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A3%D9%81%D8%B4%D9%88%D8%A7-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D9%8A%D9%86%D9%83%D9%85",
-     "section": "opinion",
-     "summary": "قد جعل الله عزوجل بحكمته في هذه الدنيا لكل شيء سبباً، وهذه الأسباب التي جعلها الله عزوجل محققه لمسبباتها تنقسم إلى قسمين:أسباب كونية مادية.أسباب دينية شرعية.أما القسم الأول فيشترك...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Opinion & Analysis",
-   "analysis": {}
-  },
-  {
-   "key": "6322395823dd084c",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«وَلَا تَنْسَوُا الْفَضْلَ بَيْنَكُمْ»",
-     "url": "https://www.alraimedia.com/article/1782833/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%88%D9%84%D8%A7-%D8%AA%D9%86%D8%B3%D9%88%D8%A7-%D8%A7%D9%84%D9%81%D8%B6%D9%84-%D8%A8%D9%8A%D9%86%D9%83%D9%85",
-     "section": "opinion",
-     "summary": "«أنا من صنعت نفسي بنفسي»، أخيراً بدأنا نستمع لهذه الجملة بشكل متكرر عند الكثير ممن وصل لتحقيق أهدافه ونجاحاته التي خطط لها، فتشعر أن هذا الشخص لم يحصل على أي مساعدة من أحد، فتباهي...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Opinion & Analysis",
-   "analysis": {}
-  },
-  {
-   "key": "973de7b3f1970d28",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكلمات لا تُحرّك القَدَر",
-     "url": "https://www.alraimedia.com/article/1782834/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D9%84%D8%A7-%D8%AA%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D9%82%D8%AF%D8%B1",
-     "section": "opinion",
-     "summary": "ليس دقيقاً ما يُقال عن القدر إنه موكَّل بالمنطق، فهذه العبارة، على ما فيها من جاذبية، تختزل عالماً أوسع في قالبٍ ضيّق. المنطق الذي نملكه ليس إلا أداة بشرية محدودة، تقيس بما تراه و...",
-     "body": "",
-     "published": "2026-10-15T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Opinion & Analysis",
    "analysis": {}
   },
   {
@@ -6870,6 +6656,150 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "1854e0d5031bafb9",
+   "score": 4.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Syrian Identity Exposes Alleged Kuwait Citizenship Fraud Involving 360 People",
+     "url": "https://www.arabtimesonline.com/news/syrian-identity-exposes-alleged-kuwait-citizenship-fraud-involving-360-people/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15: A Syrian name, a family split across borders and a series of citizenship claims stretching over 18 years have become the central elements of one of Kuwait’s mo...",
+     "body": "",
+     "published": "2026-10-15T23:34:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "26ded0c5e295fd85",
+   "score": 4.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Iraq-Kuwait air routes reopen amid tensions",
+     "url": "https://www.arabtimesonline.com/news/iraq-kuwait-air-routes-reopen-amid-tensions/",
+     "section": "kuwait",
+     "summary": "BAGHDAD, Oct 15: Iraq’s Transportation Ministry announced on Thursday the reopening of air routes between Iraq and Kuwait, which had been temporarily suspended due to recent region...",
+     "body": "",
+     "published": "2026-10-15T23:16:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "b70e39e6115f1e48",
+   "score": 4.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "‘Leaked questions’ trigger supervisory exam retakes",
+     "url": "https://www.arabtimesonline.com/news/leaked-questions-trigger-supervisory-exam-retakes/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15: Minister of Education Eng. Sayed Jalal Al-Tabtabaei has issued a decision to cancel all results of the fourth-stage examinations for candidates seeking supervi...",
+     "body": "",
+     "published": "2026-10-15T23:11:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "7b336dfe7303b6e9",
+   "score": 4.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Weekend forecast gets a foggy twist",
+     "url": "https://www.arabtimesonline.com/news/weekend-forecast-gets-a-foggy-twist/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15: The Meteorological Department has forecast a gradual decline in temperatures throughout the country, accompanied by rising relative humidity, particularly in c...",
+     "body": "",
+     "published": "2026-10-15T22:48:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "a3ab8b062d213c02",
+   "score": 4.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Bishop Berardi hails Kuwait’s UN Rights Council re-election",
+     "url": "https://www.arabtimesonline.com/news/bishop-berardi-hails-kuwaits-un-rights-council-re-election/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15: Bishop Aldo Berardi, Apostolic Vicar of Northern Arabia for the Catholic Church, extended his heartfelt congratulations and best wishes to His Highness the Ami...",
+     "body": "",
+     "published": "2026-10-15T22:37:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "3b07f9defeee8004",
+   "score": 4.258,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Child’s Death Record Triggers Citizenship Probe Involving 21 Dependents",
+     "url": "https://www.arabtimesonline.com/news/childs-death-record-triggers-citizenship-probe-involving-21-dependents/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15: A death report dating back to 1970 has become the key to unraveling a suspected citizenship forgery case in Kuwait, after a confidential tip led investigators...",
+     "body": "",
+     "published": "2026-10-15T23:45:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -7158,6 +7088,54 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "9f9fcd6145cf5ad4",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "حين لا يراك المكان",
+     "url": "https://www.alraimedia.com/article/1782835/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%AD%D9%8A%D9%86-%D9%84%D8%A7-%D9%8A%D8%B1%D8%A7%D9%83-%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%86",
+     "section": "opinion",
+     "summary": "قلوبنا مع المملكة الشقيقة وأهلها وزوارها لما تعرّضت له من اعتداءات وحشية آثمة لا تمت لدين ولا عقيدة بأي صلة، فراح ضحية تلك الاعتداءات أناس أبرياء لا صلة لهم بسياسة ولا حرب، وهذا ما...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Opinion & Analysis",
+   "analysis": {}
+  },
+  {
+   "key": "a231ab0c9a109fd7",
+   "score": 3.959,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الكلاب الضالة",
+     "url": "https://www.aljarida.com/article/147658",
+     "section": "opinion",
+     "summary": "نشكر الحكومة على انتباهها إلى موضوع الكلاب الضالة، ومن الأفضل أن يأتي الانتباه متأخراً على أن لا يأتي أبداً. وأود في هذا السياق تسليط الضوء على أساليب العلاج المتاحة، لأن ما يحدث ا...",
+     "body": "",
+     "published": "2026-10-15T21:51:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Opinion & Analysis",
    "analysis": {}
   },
   {
@@ -7473,6 +7451,78 @@
    "analysis": {}
   },
   {
+   "key": "aba5e6080bebefe2",
+   "score": 3.958,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«أفشوا السلام بينكم...»",
+     "url": "https://www.alraimedia.com/article/1782832/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A3%D9%81%D8%B4%D9%88%D8%A7-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D9%8A%D9%86%D9%83%D9%85",
+     "section": "opinion",
+     "summary": "قد جعل الله عزوجل بحكمته في هذه الدنيا لكل شيء سبباً، وهذه الأسباب التي جعلها الله عزوجل محققه لمسبباتها تنقسم إلى قسمين:أسباب كونية مادية.أسباب دينية شرعية.أما القسم الأول فيشترك...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Opinion & Analysis",
+   "analysis": {}
+  },
+  {
+   "key": "6322395823dd084c",
+   "score": 3.958,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«وَلَا تَنْسَوُا الْفَضْلَ بَيْنَكُمْ»",
+     "url": "https://www.alraimedia.com/article/1782833/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%88%D9%84%D8%A7-%D8%AA%D9%86%D8%B3%D9%88%D8%A7-%D8%A7%D9%84%D9%81%D8%B6%D9%84-%D8%A8%D9%8A%D9%86%D9%83%D9%85",
+     "section": "opinion",
+     "summary": "«أنا من صنعت نفسي بنفسي»، أخيراً بدأنا نستمع لهذه الجملة بشكل متكرر عند الكثير ممن وصل لتحقيق أهدافه ونجاحاته التي خطط لها، فتشعر أن هذا الشخص لم يحصل على أي مساعدة من أحد، فتباهي...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Opinion & Analysis",
+   "analysis": {}
+  },
+  {
+   "key": "973de7b3f1970d28",
+   "score": 3.958,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكلمات لا تُحرّك القَدَر",
+     "url": "https://www.alraimedia.com/article/1782834/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D9%84%D8%A7-%D8%AA%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D9%82%D8%AF%D8%B1",
+     "section": "opinion",
+     "summary": "ليس دقيقاً ما يُقال عن القدر إنه موكَّل بالمنطق، فهذه العبارة، على ما فيها من جاذبية، تختزل عالماً أوسع في قالبٍ ضيّق. المنطق الذي نملكه ليس إلا أداة بشرية محدودة، تقيس بما تراه و...",
+     "body": "",
+     "published": "2026-10-15T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Opinion & Analysis",
+   "analysis": {}
+  },
+  {
    "key": "c6b68272d8ec1188",
    "score": 3.958,
    "sources": [
@@ -7689,6 +7739,30 @@
    "analysis": {}
   },
   {
+   "key": "b7d4b93a66725a1b",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Warns Delivery Riders: Stay Off Sidewalks or Lose Your Bike for 60 Days",
+     "url": "https://www.arabtimesonline.com/news/kuwait-warns-delivery-riders-stay-off-sidewalks-or-lose-your-bike-for-60-days/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15: Authorities have issued a reminder to bicycle and motorcycle riders to comply with traffic regulations, use permitted roads and protect pedestrians, warning th...",
+     "body": "",
+     "published": "2026-10-15T21:50:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "c7bf84fbe37c7cde",
    "score": 3.659,
    "sources": [
@@ -7846,7 +7920,7 @@
      "lang": "en",
      "title": "US Tightens Financial Pressure on Iran, Targets Networks Accused of Moving Millions",
      "url": "https://www.arabtimesonline.com/news/us-tightens-financial-pressure-on-iran-targets-networks-accused-of-moving-millions/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 16: US Treasury Secretary Scott Bessent said Thursday that Washington would continue tightening financial pressure on Iran until the government is deprived of the f...",
      "body": "",
      "published": "2026-10-16T01:05:00+03:00",
@@ -7870,7 +7944,7 @@
      "lang": "en",
      "title": "CENTCOM Nails Yet Another Iranian Lie on Hormuz Control, Ship Sinking and US Military Deaths",
      "url": "https://www.arabtimesonline.com/news/centcom-nails-yet-another-iranian-lie-on-hormuz-control-ship-sinking-and-us-military-deaths/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 16: US Central Command (CENTCOM) on Thursday rejected three claims by Iran’s Islamic Revolutionary Guard Corps (IRGC) concerning control of the Strait of Hormuz, th...",
      "body": "",
      "published": "2026-10-16T01:02:00+03:00",
@@ -7942,7 +8016,7 @@
      "lang": "en",
      "title": "2,239 Missiles and Drones Target Saudi Arabia; 19 Killed, 364 Injured in Iran-Backed Houthi Attacks",
      "url": "https://www.arabtimesonline.com/news/2239-missiles-and-drones-target-saudi-arabia-19-killed-364-injured-in-iran-backed-houthi-attacks/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 16: A total of 19 people have been killed and 364 injured in Houthi attacks targeting Saudi airports, including King Khalid International Airport in Riyadh and Abha Int...",
      "body": "",
      "published": "2026-10-16T00:28:00+03:00",
@@ -8001,78 +8075,6 @@
    "analysis": {}
   },
   {
-   "key": "1854e0d5031bafb9",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Syrian Identity Exposes Alleged Kuwait Citizenship Fraud Involving 360 People",
-     "url": "https://www.arabtimesonline.com/news/syrian-identity-exposes-alleged-kuwait-citizenship-fraud-involving-360-people/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15: A Syrian name, a family split across borders and a series of citizenship claims stretching over 18 years have become the central elements of one of Kuwait’s mo...",
-     "body": "",
-     "published": "2026-10-15T23:34:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "26ded0c5e295fd85",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Iraq-Kuwait air routes reopen amid tensions",
-     "url": "https://www.arabtimesonline.com/news/iraq-kuwait-air-routes-reopen-amid-tensions/",
-     "section": "latest",
-     "summary": "BAGHDAD, Oct 15: Iraq’s Transportation Ministry announced on Thursday the reopening of air routes between Iraq and Kuwait, which had been temporarily suspended due to recent region...",
-     "body": "",
-     "published": "2026-10-15T23:16:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "b70e39e6115f1e48",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "‘Leaked questions’ trigger supervisory exam retakes",
-     "url": "https://www.arabtimesonline.com/news/leaked-questions-trigger-supervisory-exam-retakes/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15: Minister of Education Eng. Sayed Jalal Al-Tabtabaei has issued a decision to cancel all results of the fourth-stage examinations for candidates seeking supervi...",
-     "body": "",
-     "published": "2026-10-15T23:11:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "874e23c3736148e6",
    "score": 3.259,
    "sources": [
@@ -8094,54 +8096,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "7b336dfe7303b6e9",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Weekend forecast gets a foggy twist",
-     "url": "https://www.arabtimesonline.com/news/weekend-forecast-gets-a-foggy-twist/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15: The Meteorological Department has forecast a gradual decline in temperatures throughout the country, accompanied by rising relative humidity, particularly in c...",
-     "body": "",
-     "published": "2026-10-15T22:48:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "a3ab8b062d213c02",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Bishop Berardi hails Kuwait’s UN Rights Council re-election",
-     "url": "https://www.arabtimesonline.com/news/bishop-berardi-hails-kuwaits-un-rights-council-re-election/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15: Bishop Aldo Berardi, Apostolic Vicar of Northern Arabia for the Catholic Church, extended his heartfelt congratulations and best wishes to His Highness the Ami...",
-     "body": "",
-     "published": "2026-10-15T22:37:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -8169,8 +8123,8 @@
    "analysis": {}
   },
   {
-   "key": "3b07f9defeee8004",
-   "score": 3.258,
+   "key": "9f1ae626d5025a3b",
+   "score": 3.059,
    "sources": [
     "Arab Times"
    ],
@@ -8180,12 +8134,36 @@
      "source_id": "arabtimes",
      "source_name": "Arab Times",
      "lang": "en",
-     "title": "Child’s Death Record Triggers Citizenship Probe Involving 21 Dependents",
-     "url": "https://www.arabtimesonline.com/news/childs-death-record-triggers-citizenship-probe-involving-21-dependents/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15: A death report dating back to 1970 has become the key to unraveling a suspected citizenship forgery case in Kuwait, after a confidential tip led investigators...",
+     "title": "PACI Enables Businesses to Complete Kuwait Finder Data Through Sahel Business App",
+     "url": "https://www.arabtimesonline.com/news/paci-enables-businesses-to-complete-kuwait-finder-data-through-sahel-business-app/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15 : The General Department of Civil Information has launched a new service enabling entities to complete their contact details and electronic platform information...",
      "body": "",
-     "published": "2026-10-15T23:45:00+03:00",
+     "published": "2026-10-15T14:00:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "9e8d825b95559280",
+   "score": 3.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Ministry of Communications Sets Dress Code Rules for Employees",
+     "url": "https://www.arabtimesonline.com/news/kuwait-ministry-of-communications-sets-dress-code-rules-for-employees/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 15 : The Ministry of Communications has issued Administrative Circular No. 15 of 2026, establishing rules and standards governing the official dress code and gener...",
+     "body": "",
+     "published": "2026-10-15T10:56:00+03:00",
      "tier": 2
     }
    ],
@@ -8306,54 +8284,6 @@
      "summary": "اختتم الجيش الكويتي اليوم الخميس فعاليات تمرين مراكز القيادات (البيرق 8) الذي نفذته هيئة العمليات والخطط بمشاركة وزارة الداخلية والحرس الوطني وقوة الإطفاء العام وذلك بحضور رئيس الأركان العامة للجيش الفريق الركن خالد الشريعان. وقالت رئاسة الأركان العامة للجيش في […]\n\nThe post الجيش الكويتي يختتم تمرين مراكز القيادات “البيرق 8” appeared first on كويت نيوز.",
      "body": "",
      "published": "2026-10-15T15:44:36+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e57ca3cb866c0ced",
-   "score": 2.663,
-   "sources": [
-    "كويت نيوز"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "“فوكسل أنالوغ” يجمع الحرف اليدوية بالتكنولوجيا الرقمية",
-     "url": "https://kuwaitnews.com/137113/",
-     "section": "latest",
-     "summary": "مشروع فني لكوثر الصفار وبراء الطبّجي يمزج تقنيات الصبّ التقليدية بالتصميم الرقمي لإنتاج قطع فنية مبتكرة.\n\nThe post “فوكسل أنالوغ” يجمع الحرف اليدوية بالتكنولوجيا الرقمية appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-10-15T11:11:09+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "b7d4b93a66725a1b",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Warns Delivery Riders: Stay Off Sidewalks or Lose Your Bike for 60 Days",
-     "url": "https://www.arabtimesonline.com/news/kuwait-warns-delivery-riders-stay-off-sidewalks-or-lose-your-bike-for-60-days/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15: Authorities have issued a reminder to bicycle and motorcycle riders to comply with traffic regulations, use permitted roads and protect pedestrians, warning th...",
-     "body": "",
-     "published": "2026-10-15T21:50:00+03:00",
      "tier": 2
     }
    ],
@@ -8505,30 +8435,6 @@
    "analysis": {}
   },
   {
-   "key": "9f1ae626d5025a3b",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "PACI Enables Businesses to Complete Kuwait Finder Data Through Sahel Business App",
-     "url": "https://www.arabtimesonline.com/news/paci-enables-businesses-to-complete-kuwait-finder-data-through-sahel-business-app/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15 : The General Department of Civil Information has launched a new service enabling entities to complete their contact details and electronic platform information...",
-     "body": "",
-     "published": "2026-10-15T14:00:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "d2bfb06fcee40d26",
    "score": 2.6,
    "sources": [
@@ -8649,6 +8555,30 @@
    "analysis": {}
   },
   {
+   "key": "e57ca3cb866c0ced",
+   "score": 2.063,
+   "sources": [
+    "كويت نيوز"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "“فوكسل أنالوغ” يجمع الحرف اليدوية بالتكنولوجيا الرقمية",
+     "url": "https://kuwaitnews.com/137113/",
+     "section": "latest",
+     "summary": "مشروع فني لكوثر الصفار وبراء الطبّجي يمزج تقنيات الصبّ التقليدية بالتصميم الرقمي لإنتاج قطع فنية مبتكرة.\n\nThe post “فوكسل أنالوغ” يجمع الحرف اليدوية بالتكنولوجيا الرقمية appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-10-15T11:11:09+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "d9b273769b1a8443",
    "score": 2.059,
    "sources": [
@@ -8662,7 +8592,7 @@
      "lang": "en",
      "title": "“We Didn’t Do It”: Houthis Deny Missile Attack After Saudi Interception Claim",
      "url": "https://www.arabtimesonline.com/news/we-didnt-do-it-houthis-deny-missile-attack-after-saudi-interception-claim/",
-     "section": "general",
+     "section": "latest",
      "summary": "SANAA, Oct 15: Yemen’s Houthi forces on Thursday denied carrying out any attack toward Saudi Arabia, rejecting a Saudi-led coalition statement that it had intercepted and destroyed...",
      "body": "",
      "published": "2026-10-15T12:53:00+03:00",
@@ -8710,7 +8640,7 @@
      "lang": "en",
      "title": "Saudi Coalition Foils Iran-Backed Houthi Missile Threat to Holy City of Medina",
      "url": "https://www.arabtimesonline.com/news/saudi-coalition-foils-iran-backed-houthi-missile-threat-to-holy-city-of-medina/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 15 : The Saudi-led coalition has intercepted and destroyed a cruise missile in the Medina region, according to a coalition announcement.The interception comes amid heig...",
      "body": "",
      "published": "2026-10-15T11:54:00+03:00",
@@ -8742,30 +8672,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "9e8d825b95559280",
-   "score": 2.059,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Ministry of Communications Sets Dress Code Rules for Employees",
-     "url": "https://www.arabtimesonline.com/news/kuwait-ministry-of-communications-sets-dress-code-rules-for-employees/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 15 : The Ministry of Communications has issued Administrative Circular No. 15 of 2026, establishing rules and standards governing the official dress code and gener...",
-     "body": "",
-     "published": "2026-10-15T10:56:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -8830,7 +8736,7 @@
      "lang": "en",
      "title": "Saudi-Led Coalition Intercepts Houthi Drone Over Eastern Province",
      "url": "https://www.arabtimesonline.com/news/saudi-led-coalition-intercepts-drone-over-eastern-province/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 15: The Saudi-led coalition announced early Thursday that it had intercepted and destroyed a drone over Saudi Arabia’s Eastern Province amid continued military escalati...",
      "body": "",
      "published": "2026-10-15T07:11:00+03:00",
@@ -8854,7 +8760,7 @@
      "lang": "en",
      "title": "Germany Bans Alcohol Consumption at Train Stations",
      "url": "https://www.arabtimesonline.com/news/germany-bans-alcohol-consumption-at-train-stations/",
-     "section": "general",
+     "section": "latest",
      "summary": "BERLIN: Germany’s national rail operator, Deutsche Bahn, has banned alcohol consumption at its train stations in a move aimed at improving passenger safety and cleanliness.The new...",
      "body": "",
      "published": "2026-10-15T12:28:00+03:00",
@@ -8902,7 +8808,7 @@
      "lang": "en",
      "title": "Riots erupt in Albania's capital as students join anti-government movement",
      "url": "https://www.arabtimesonline.com/news/riots-erupt-in-albanias-capital-as-students-join-anti-government-movement/",
-     "section": "general",
+     "section": "latest",
      "summary": "TIRANA, Albania, Oct 15, (AP): Protesters in Albania attacked government buildings, banks, businesses and other sites during riots that lasted more than eight hours across the ca...",
      "body": "",
      "published": "2026-10-15T11:42:00+03:00",
@@ -8926,7 +8832,7 @@
      "lang": "en",
      "title": "Heavy rain shuts down Istanbul, causing flooding and 2 deaths",
      "url": "https://www.arabtimesonline.com/news/heavy-rain-shuts-down-istanbul-causing-flooding-and-2-deaths/",
-     "section": "general",
+     "section": "latest",
      "summary": "ISTANBUL, Oct 15, (AP): A heavy downpour has shut down Istanbul, flooded homes and roads and killed at least two people. Rescuers worked overnight to save hundreds of people stra...",
      "body": "",
      "published": "2026-10-15T11:28:00+03:00",
