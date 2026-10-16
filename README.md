@@ -1,6 +1,6 @@
 # NewsScanner 🇰🇼
 
-Every morning at **08:00 Kuwait time**, NewsScanner reads every Kuwaiti news
+Every morning at **03:00 Kuwait time**, NewsScanner reads every Kuwaiti news
 outlet it can reach, merges the coverage into single stories, and emails you a
 briefed digest — with a reference to every original article, and an analysis
 that tries to read what is *between* the lines.
@@ -83,7 +83,7 @@ The four free tiers (`GEMINI_API_KEY`, `CEREBRAS_API_KEY`, `NVIDIA_API_KEY`,
 so one key is usually enough — a second is cheap insurance, and
 `check-llm` prints the whole rotation chain when you want to see it.
 
-### 2b. Check it before 08:00 does
+### 2b. Check it before 03:00 does
 
 ```bash
 python -m news_scanner check-llm -v
@@ -91,7 +91,7 @@ python -m news_scanner check-llm -v
 
 This sends one real story through the configured provider and prints the
 analysis it gets back, so a bad model name or an expired key surfaces
-immediately rather than at 08:00. The workflow runs it too.
+immediately rather than at 03:00. The workflow runs it too.
 
 ### 3. Add the mailbox it sends from
 
@@ -123,7 +123,7 @@ The workflow verifies SMTP before sending: while the credential is missing or
 invalid, it still publishes the digest and skips email; once the App Password
 authenticates, email delivery turns on automatically.
 
-Check it before 08:00 does:
+Check it before 03:00 does:
 
 ```bash
 python -m news_scanner check-email          # connects and authenticates
@@ -140,9 +140,9 @@ Once it is on `main`:
 
 | Kuwait time | UTC cron | What happens |
 |---|---|---|
-| **08:00** | `0 5 * * *` | Collects, analyses, emails the brief |
-| 08:30 | `30 5 * * *` | Retry — exits instantly if 08:00 already delivered |
-| 09:00 | `0 6 * * *` | Last chance for the day |
+| **03:00** | `0 0 * * *` | Collects, analyses, emails the brief |
+| 03:30 | `30 0 * * *` | Retry — exits instantly if 03:00 already delivered |
+| 04:00 | `0 1 * * *` | Last chance for the day |
 
 The two later crons are a safety net for a dropped or failed run, not a second
 edition: they read `state/last_run.json` and do nothing if today's brief
@@ -153,7 +153,7 @@ Trigger it once by hand first:
 
 ### Where it is sent
 
-`mrmakrider@gmail.com`, daily at 08:00 Kuwait time. Override the address with a
+`mrmakrider@gmail.com`, daily at 03:00 Kuwait time. Override the address with a
 `MAIL_TO` secret; nothing else needs changing.
 
 > GitHub's scheduler can fire a few minutes late under load, and it disables
@@ -292,7 +292,7 @@ feeds = [ { url = "https://example.com/feed/", section = "local" } ]
 Other settings live under `[settings]`:
 
 ```toml
-window_hours = 26            # how far back the 08:00 run looks
+window_hours = 26            # how far back the 03:00 run looks
 max_analyze  = 28            # stories that get full analysis
 major_outlet_threshold = 3   # outlets needed to call a story "major"
 ```
@@ -321,7 +321,7 @@ major_outlet_threshold = 3   # outlets needed to call a story "major"
 
 ### When the model pushes back
 
-A scheduled job gets one shot, at 08:00, with nobody watching. Free gateways
+A scheduled job gets one shot, at 03:00, with nobody watching. Free gateways
 rate-limit, time out on long prompts and occasionally fall over, so the
 analysis step is built to bend rather than break:
 
@@ -351,7 +351,7 @@ analysis step is built to bend rather than break:
   retried, split or silently skipped.
 - **A resumable cache.** Each successful batch is written to
   `state/analysis_cache.json` as it happens. A run that dies at the 30-minute
-  step timeout — or a retry at 08:30 — only pays for what is still missing.
+  step timeout — or a retry at 03:30 — only pays for what is still missing.
 
 ---
 

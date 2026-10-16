@@ -10,6 +10,7 @@ per-article citation guarantee, and the "no API key" fallback.
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -933,18 +934,21 @@ class TestRunMarker(unittest.TestCase):
         from scripts.demo import fake_collect
 
         self.cli.collect = fake_collect
-        try:
-            self.cli._write_run_marker("2026-09-29", emailed=True, stories=5)
-            rc = self.cli.main(
-                ["run", "--skip-if-done", "--date", "2026-09-30", "--no-llm",
-                 "--dry-run", "--no-fetch-bodies", "--no-cache", "--no-marker",
-                 "--output", "/tmp/newsscanner-marker-test"]
-            )
-            self.assertEqual(rc, 0)
-            # It ran (and rewrote nothing) because the marker was for another day.
-            self.assertEqual(self.cli._read_run_marker()["date"], "2026-09-29")
-        finally:
-            self.cli.collect = collect
+        # /tmp is unreadable in this environment (and on many CI runners);
+        # use a per-test temp dir instead.
+        with tempfile.TemporaryDirectory() as out_dir:
+            try:
+                self.cli._write_run_marker("2026-09-29", emailed=True, stories=5)
+                rc = self.cli.main(
+                    ["run", "--skip-if-done", "--date", "2026-09-30", "--no-llm",
+                     "--dry-run", "--no-fetch-bodies", "--no-cache", "--no-marker",
+                     "--output", out_dir]
+                )
+                self.assertEqual(rc, 0)
+                # It ran (and rewrote nothing) because the marker was for another day.
+                self.assertEqual(self.cli._read_run_marker()["date"], "2026-09-29")
+            finally:
+                self.cli.collect = collect
 
 
 class TestFreeProviderRotation(unittest.TestCase):
