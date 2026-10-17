@@ -1,20 +1,20 @@
 {
  "date": "2026-10-17",
- "generated_at": "2026-10-17T07:48:35.026726+03:00",
+ "generated_at": "2026-10-17T08:12:10.742557+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 139,
+  "total_articles": 136,
   "outlets_reporting": 6,
-  "total_stories": 111,
+  "total_stories": 110,
   "major_stories": 5,
   "analysed_stories": 28,
-  "window_start": "2026-10-16T05:48:35.026726+03:00",
-  "window_end": "2026-10-17T07:48:35.026726+03:00",
+  "window_start": "2026-10-16T06:12:10.742557+03:00",
+  "window_end": "2026-10-17T08:12:10.742557+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 29,
-   "World & Region": 33,
+   "Government & Politics": 23,
+   "World & Region": 38,
    "Economy & Business": 17,
    "Security & Courts": 10,
    "Sport": 11,
@@ -29,82 +29,85 @@
   ]
  },
  "synthesis": {
-  "editor_note_en": "The day is defined by the collision between Kuwait's routine domestic administrative churn and the sudden disruption of high-level regional diplomacy. The most significant development is the GCC's postponement of the Gulf-EU Summit (S10), explicitly attributed to Houthi attacks and the suspension of operations at King Khalid International Airport, marking a tangible escalation in regional security volatility. This external threat contrasts sharply with the internal focus on bureaucratic continuity, such as the annulment of education exam results (S11) and the launch of digital services (S2, S19). While Kuwait continues to project soft power through international appointments (S1, S5, S9), the inability to host a major summit signals that regional instability is now directly impacting Kuwait's diplomatic calendar.",
-  "editor_note_ar": "تعرف اليوم بتصادم الروتين الإداري المحلي في الكويت مع الاضطرابات المفاجئة في الدبلوماسية الإقليمية العليا. التطور الأهم هو تأجيل قمة الخليج-الاتحاد الأوروبي (S10)، والذي يُعزى صراحةً إلى هجمات الحوثيين وإيقاف العمليات في مطار الملك خالد الدولي، مما يشير إلى تصعيد ملموس في التقلبات الأمنية الإقليمية. يتناقض هذا التهديد الخارجي بوضوح مع التركيز الداخلي على الاستمرارية البيروقراطية، مثل إلغاء نتائج امتحانات التعليم (S11) وإطلاق الخدمات الرقمية (S2، S19). وعلى الرغم من استمرار الكويت في إسقاط القوة الناعمة من خلال التعيينات الدولية (S1، S5، S9)، فإن عدم القدرة على استضافة قمة كبرى يشير إلى أن عدم الاستقرار الإقليمي أصبح يؤثر مباشرة على التقويم الدبلوماسي للكويت.",
-  "story_of_the_day": "S3",
-  "tactical_en": "The 'Wadafati' job fair concludes on October 17 (S16). The new Penal Code drafting is nearing completion, with 'Electronic Agencies' for judicial services launching next month (S26).",
-  "tactical_ar": "ينتهي معرض «وظيفتي» في 17 أكتوبر (S16). يقترب مشروع قانون العقوبات الجديد من الاكتمال، مع إطلاق «الوكالات الإلكترونية» للخدمات القضائية الشهر المقبل (S26).",
-  "strategic_en": "Today's material supports a pattern where regional security volatility is beginning to directly constrain Kuwait's diplomatic ambitions. While Kuwait continues to secure high-profile international roles (S1, S5, S9), the postponement of the Gulf-EU Summit (S10) indicates that the Houthi threat is no longer just a backdrop but an active disruptor of GCC-led initiatives. This contrasts with the historical context of routine diplomatic engagement, suggesting a shift where security concerns are overriding scheduled multilateral events.",
-  "strategic_ar": "تدعم مواد اليوم نمطاً حيث تبدأ التقلبات الأمنية الإقليمية في تقييد طموحات الكويت الدبلوماسية مباشرة. بينما تستمر الكويت في تأمين أدوار دولية بارزة (S1، S5، S9)، فإن تأجيل قمة الخليج-الاتحاد الأوروبي (S10) يشير إلى أن تهديد الحوثيين لم يعد مجرد خلفية بل أصبح معطلاً نشطاً للمبادرات التي تقودها دول مجلس التعاون. يتناقض هذا مع السياق التاريخي للتفاعل الدبلوماسي الروتيني، مما يشير إلى تحول حيث تتغلب المخاوف الأمنية على الأحداث متعددة الأطراف المجدولة.",
+  "editor_note_en": "The day is defined by the synchronization of Kuwait’s diplomatic, religious, and military rhetoric in support of Saudi Arabia against Houthi attacks. While domestic coverage remains routine—focused on banking stability, health conferences, and sports—the external security narrative dominates the front pages. The convergence of a UN Security Council condemnation, a state-mandated Friday sermon, and coalition strike reports creates a unified front that frames the Houthi threat as an existential challenge to Gulf stability. This is not merely a reaction to a single incident but a coordinated effort to project regional solidarity and deter further escalation.",
+  "editor_note_ar": "تتسم تغطية اليوم بتزامن الخطاب الدبلوماسي والديني والعسكري الكويتي لدعم السعودية في مواجهة الهجمات الحوثية. في حين تبقى التغطية المحلية روتينية وتركز على استقرار القطاع المصرفي والمؤتمرات الصحية والرياضية، يهيمن السرد الأمني الخارجي على الصفحات الأولى. تقاطع إدانة مجلس الأمن، والخطبة الموحدة للجمعة، وتقارير ضربات التحالف، يخلق جبهة موحدة تصوغ التهديد الحوثي كتحدٍ وجودي لاستقرار الخليج. هذا ليس مجرد رد فعل على حادثة واحدة، بل جهد منسق لإظهار التضامن الإقليمي وردع المزيد من التصعيد.",
+  "story_of_the_day": "S2",
+  "tactical_en": "The UN Security Council issued a presidential statement condemning Houthi attacks on Saudi Arabia (S2, S20); the Support Legitimacy Coalition announced the destruction of two ballistic missile launch sites in Saada (S12); the IMF Article IV consultation mission for Kuwait is scheduled for November 3-9 (S9).",
+  "tactical_ar": "أصدر مجلس الأمن بياناً رئاسياً يدين الهجمات الحوثية على السعودية (S2, S20)؛ وأعلن تحالف دعم الشرعية تدمير منصتين لإطلاق صواريخ باليستية في صعدة (S12)؛ والمهمة المرتقبة لمراجعة المادة الرابعة من صندوق النقد الدولي للكويت مجدولة في 3-9 نوفمبر (S9).",
+  "strategic_en": "Today’s material confirms a pattern where Kuwait’s domestic soft power initiatives (diplomatic appointments, health conferences) proceed in parallel with a hardening of its security posture regarding the Houthi threat. The inclusion of Syria in the joint condemnation of Colombia’s embassy move (S11, S28) suggests a temporary, issue-specific diplomatic alignment that overrides broader regional tensions, indicating a pragmatic approach to multilateral consensus-building.",
+  "strategic_ar": "تؤكد مواد اليوم نمطاً تتقدم فيه مبادرات الكويت الناعمة (التعيينات الدبلوماسية، المؤتمرات الصحية) بالتوازي مع تشديد موقفها الأمني تجاه التهديد الحوثي. تضمين سوريا في الإدانة المشتركة لقرار كولومبيا بشأن السفارة (S11, S28) يوحي بمواءمة دبلوماسية مؤقتة ومحددة بقضية معينة تتجاوز التوترات الإقليمية الأوسع، مما يشير إلى نهج براغماتي في بناء الإجماع متعدد الأطراف.",
   "links": [
    {
-    "type": "same_actor",
+    "type": "same_source_angle",
     "from": "S2",
-    "to": "S25",
-    "evidence": "Both stories report on Kuwait's official reaction to the UN Security Council statement regarding Houthi attacks on Saudi Arabia."
+    "to": "S20",
+    "evidence": "Both report the Kuwaiti welcome of the UN Security Council presidential statement condemning Houthi attacks, with S20 providing the specific MFA statement text."
    },
    {
-    "type": "same_actor",
-    "from": "S7",
-    "to": "S14",
-    "evidence": "Both stories detail the joint condemnation by Kuwait and 18 other Arab/Muslim states of Colombia's embassy opening in Jerusalem."
+    "type": "same_source_angle",
+    "from": "S6",
+    "to": "S26",
+    "evidence": "Both cover the Ministry of Islamic Affairs' unified Friday sermon condemning attacks on Saudi Arabia, with S26 providing the English translation of the same directive."
    },
    {
-    "type": "same_actor",
-    "from": "S8",
-    "to": "S16",
-    "evidence": "Both stories report on the arrest of two individuals for poaching in the Sabah Al-Ahmad Nature Reserve."
+    "type": "same_source_angle",
+    "from": "S11",
+    "to": "S28",
+    "evidence": "Both report the joint statement by Kuwait and 18 other countries condemning Colombia's embassy opening in Jerusalem, citing the same list of signatories and UN resolutions."
    },
    {
-    "type": "same_actor",
-    "from": "S26",
-    "to": "S27",
-    "evidence": "Both stories cover the opening of the 9th Scientific Conference at Amiri Hospital by Health Minister Dr. Ahmad Al-Oudaie."
+    "type": "same_source_angle",
+    "from": "S21",
+    "to": "S22",
+    "evidence": "Both cover the opening of the 9th Scientific Conference at Amiri Hospital by Health Minister Dr. Ahmad Al-Oudaie, highlighting the same HIMSS Level 6 achievement."
    }
   ],
   "top_themes": [
    {
-    "theme_en": "Regional Security Disruption",
-    "theme_ar": "اضطراب الأمن الإقليمي",
+    "theme_en": "Gulf Security Solidarity",
+    "theme_ar": "التضامن الأمني الخليجي",
     "story_ids": [
      "S2",
-     "S11",
-     "S17",
-     "S18",
-     "S25"
+     "S6",
+     "S12",
+     "S16",
+     "S20",
+     "S26"
     ],
-    "note_en": "Kuwaiti outlets amplify Saudi statements on Houthi attacks and coalition responses, signaling a unified Gulf security front.",
-    "note_ar": "تضخيم الصحف الكويتية للبيانات السعودية بشأن هجمات الحوثيين ورد التحالف، مما يشير إلى جبهة أمنية خليجية موحدة."
+    "note_en": "Kuwait aligns its diplomatic, religious, and military narratives to support Saudi Arabia against Houthi attacks.",
+    "note_ar": "توحّد الكويت سرديتها الدبلوماسية والدينية والعسكرية لدعم السعودية ضد الهجمات الحوثية."
    },
    {
-    "theme_en": "Bureaucratic Correction & Digitalization",
-    "theme_ar": "التصحيح البيروقراطي والرقمنة",
-    "story_ids": [
-     "S2",
-     "S19",
-     "S26",
-     "S27"
-    ],
-    "note_en": "Focus on administrative updates, digital maturity in healthcare, and routine government operations amidst external chaos.",
-    "note_ar": "التركيز على التحديثات الإدارية والنضج الرقمي في الرعاية الصحية والعمليات الحكومية الروتينية وسط الفوضى الخارجية."
-   },
-   {
-    "theme_en": "International Soft Power",
-    "theme_ar": "القوة الناعمة الدولية",
+    "theme_en": "Diplomatic Consensus on Palestine",
+    "theme_ar": "الإجماع الدبلوماسي بشأن فلسطين",
     "story_ids": [
      "S1",
-     "S4",
-     "S5",
-     "S9"
+     "S11",
+     "S28"
     ],
-    "note_en": "Kuwait continues to assert its diplomatic presence through UN statements, ambassadorial appointments, and regional cooperation.",
-    "note_ar": "تستمر الكويت في تأكيد حضورها الدبلوماسي من خلال البيانات الأممية والتعيينات السفارية والتعاون الإقليمي."
+    "note_en": "Kuwait reinforces its stance on Palestinian sovereignty and condemns moves undermining the two-state solution.",
+    "note_ar": "تؤكد الكويت موقفها بشأن السيادة الفلسطينية وتدين الخطوات التي تقوض حل الدولتين."
+   },
+   {
+    "theme_en": "Domestic Institutional Routine",
+    "theme_ar": "الروتين المؤسسي المحلي",
+    "story_ids": [
+     "S3",
+     "S4",
+     "S9",
+     "S10",
+     "S18",
+     "S21",
+     "S22"
+    ],
+    "note_en": "Routine coverage of diplomatic appointments, financial stability, and health sector advancements continues unaffected by regional tensions.",
+    "note_ar": "تستمر التغطية الروتينية للتعيينات الدبلوماسية والاستقرار المالي والتقدم في القطاع الصحي دون تأثر بالتوترات الإقليمية."
    }
   ],
-  "not_being_said_en": "The supplied reports do not state the specific reason for the postponement of the Gulf-EU Summit beyond 'Houthi attacks' and 'airport suspensions,' nor do they provide a new date for the event. The internal political reaction in Kuwait to the annulment of education exam results is not stated in the supplied reports.",
-  "not_being_said_ar": "لا تذكر التقارير المقدمة السبب المحدد لتأجيل قمة الخليج-الاتحاد الأوروبي سوى «هجمات الحوثيين» و«إيقاف المطارات»، كما لا توفر تاريخاً جديداً للحدث. كما لا تذكر التقارير المقدمة رد الفعل السياسي الداخلي في الكويت على إلغاء نتائج امتحانات التعليم.",
-  "watchlist_en": "1. The new date for the Gulf-EU Summit and any further GCC statements on Houthi threats (S10). 2. The outcome of the review process for the annulled education exams and any public reaction to the decision (S11). 3. The launch of the 'Electronic Agencies' for judicial services and the final publication of the new Penal Code (S26). 4. Any official Kuwaiti security response or travel advisories related to the Houthi attacks on Saudi Arabia (S10).",
-  "watchlist_ar": "1. التاريخ الجديد لقمة الخليج-الاتحاد الأوروبي وأي بيانات إضافية من مجلس التعاون بشأن تهديدات الحوثيين (S10). 2. نتيجة عملية مراجعة الامتحانات الملغاة وأي رد فعل عام على القرار (S11). 3. إطلاق «الوكالات الإلكترونية» للخدمات القضائية والنشر النهائي لقانون العقوبات الجديد (S26). 4. أي استجابة أمنية رسمية من الكويت أو تنبيهات سفر تتعلق بهجمات الحوثيين على السعودية (S10).",
+  "not_being_said_en": "The supplied reports do not state any specific Kuwaiti military or security response to the Houthi attacks, nor do they mention any impact on Kuwaiti airspace or travel advisories. The focus is entirely on diplomatic and rhetorical support for Saudi Arabia, with no indication of direct operational involvement or domestic security measures in Kuwait.",
+  "not_being_said_ar": "لا تذكر التقارير المقدمة أي استجابة عسكرية أو أمنية كويتية محددة للهجمات الحوثية، ولا تشير إلى أي تأثير على المجال الجوي الكويتي أو إرشادات السفر. يتركز الاهتمام بالكامل على الدعم الدبلوماسي والخطابي للسعودية، دون أي إشارة إلى مشاركة تشغيلية مباشرة أو تدابير أمنية داخلية في الكويت.",
+  "watchlist_en": "1. The outcome of the IMF Article IV consultation mission scheduled for November 3-9 (S9). 2. Any further UN Security Council actions or resolutions regarding the Houthi threat (S2, S20). 3. The next scheduled date for the Gulf-EU Summit, previously postponed due to security concerns (historical context, not confirmed in today's reports). 4. Any official Kuwaiti statement on the impact of the Houthi attacks on regional shipping or energy markets.",
+  "watchlist_ar": "1. نتائج مهمة مراجعة المادة الرابعة من صندوق النقد الدولي المجدولة في 3-9 نوفمبر (S9). 2. أي إجراءات أو قرارات إضافية من مجلس الأمن بشأن التهديد الحوثي (S2, S20). 3. الموعد القادم المحدد لقمة الخليج-الاتحاد الأوروبي، التي تم تأجيلها سابقاً بسبب مخاوف أمنية (سياق تاريخي، غير مؤكد في تقارير اليوم). 4. أي بيان كويتي رسمي بشأن تأثير الهجمات الحوثية على الشحن الإقليمي أو أسواق الطاقة.",
   "_source": "llm"
  },
  "source_health": [
@@ -690,149 +693,6 @@
    }
   },
   {
-   "key": "cec2bdd55ae4c780",
-   "score": 12.659,
-   "sources": [
-    "Kuwait Times",
-    "Arab Times"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait, Arab and Muslim states condemn Colombia’s embassy opening in Jerusalem",
-     "url": "https://kuwaittimes.com/article/51750/kuwait/kuwait-arab-and-muslim-states-condemn-colombias-embassy-opening-in-jerusalem/",
-     "section": "kuwait",
-     "summary": "KUWAIT: The foreign ministers of Kuwait and 18 other Arab and Muslim countries strongly condemned on Friday Colombia’s opening of an embassy in occupied Jerusalem, saying it contra...",
-     "body": "KUWAIT: The foreign ministers of Kuwait and 18 other Arab and Muslim countries strongly condemned on Friday Colombia’s opening of an embassy in occupied Jerusalem, saying it contravened relevant UN Security Council resolutions and undermined international efforts toward a just and lasting peace based on the two-state solution.\n\nIn a joint statement, the ministers expressed their “categorical” rejection of Colombia’s decision, Kuwait’s Ministry of Foreign Affairs said. The statement was issued by the foreign ministers of Kuwait, Jordan, Pakistan, Indonesia, Algeria, Turkey, Djibouti, Saudi Arabia, Sudan, Syria, Somalia, Oman, Palestine, Qatar, Lebanon, Libya, Malaysia, Egypt and Yemen.\n\nThe ministers reaffirmed that any measure or decision aimed at changing the legal and historical status of occupied Jerusalem, or recognizing it as Israel’s capital, is null and void and has no legal effect. They said their position is in line with UN Security Council and General Assembly resolutions, particularly Security Council Resolutions 476 and 478 of 1980. These resolutions reject attempts to change the character or status of Jerusalem and call on states to withdraw their diplomatic missions from the city, which is part of the Palestinian territory occupied in 1967.\n\nThe ministers urged the Colombian government to reconsider and reverse its decision, honor its obligations under international law and refrain from steps that undermine the legitimate rights of the Palestinian people, including their right to an independent, sovereign Palestinian state with East Jerusalem as its capital. — KUNA\n\nAl-Refaie joins World Bank Human Capital Conclave in Bangkok\n\nKuwait reaffirms Palestinian sovereignty over natural resources at UN\n\nTwo arrested for sneaking into Sabah Al-Ahmad reserve to hunt",
-     "published": "2026-10-17T07:29:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "19 Countries, Including Kuwait, Condemn Colombia’s Embassy Opening in Jerusalem",
-     "url": "https://www.arabtimesonline.com/news/19-countries-including-kuwait-condemn-colombias-embassy-opening-in-jerusalem/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 16: The foreign ministers of 19 countries, including Kuwait, Türkiye, Saudi Arabia, Egypt and Pakistan, have strongly condemned Colombia’s inauguration of its emba...",
-     "body": "",
-     "published": "2026-10-16T12:58:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Kuwait, Arab and Muslim states condemn Colombia’s embassy opening in Jerusalem",
-    "headline_ar": "دول عربية وإسلامية تدين فتح كولومبيا سفارة في القدس",
-    "summary_en": "The foreign ministers of Kuwait and 18 other Arab and Muslim countries issued a joint statement strongly condemning Colombia’s decision to open an embassy in occupied Jerusalem. The statement, released via the Kuwaiti Ministry of Foreign Affairs, declared the move null and void under UN Security Council resolutions and urged Colombia to reverse its decision.",
-    "summary_ar": "أصدر وزراء خارجية الكويت و18 دولة عربية وإسلامية أخرى بياناً مشتركاً يدين بشدة قرار كولومبيا فتح سفارة في القدس المحتلة. جاء البيان عبر وزارة الخارجية الكويتية، وأعلن أن القرار باطل بموجب قرارات مجلس الأمن الدولي، ودعا كولومبيا إلى التراجع عن قرارها.",
-    "why_it_matters_en": "This signals a unified diplomatic front among major Arab and Muslim powers, including Gulf states, against any shift in the legal status of Jerusalem. It reinforces Kuwait’s alignment with the 'two-state solution' consensus and serves as a diplomatic tool to pressure Colombia, a non-traditional actor in the Middle East, to maintain the international status quo.",
-    "why_it_matters_ar": "يؤكد هذا البيان جبهة دبلوماسية موحدة بين القوى العربية والإسلامية الكبرى، بما في ذلك دول الخليج، ضد أي تغيير في الوضع القانوني للقدس. ويعزز موقف الكويت المتوافق مع إجماع 'حل الدولتين'، ويستخدم كأداة ضغط دبلوماسية على كولومبيا، وهي فاعل غير تقليدي في المنطقة، للحفاظ على الوضع الدولي الراهن.",
-    "between_the_lines_en": "The inclusion of Syria in the list of 19 signatories is a notable diplomatic signal, suggesting a temporary alignment on this specific issue despite broader regional tensions. The statement is a standard KUNA reprint, indicating it is a pre-coordinated regional position rather than a spontaneous Kuwaiti reaction. The emphasis on 'null and void' legal language serves to frame the issue as a matter of international law rather than just political sentiment, potentially to deter other nations from following Colombia’s lead.",
-    "between_the_lines_ar": "تضمين سوريا في قائمة الدول الموقعة على البيان (19 دولة) يُعد إشارة دبلوماسية لافتة، مما يوحي بتوافق مؤقت على هذا الموضوع المحدد على الرغم من التوترات الإقليمية الأوسع. البيان هو إعادة نشر قياسية من كونا، مما يشير إلى أنه موقف إقليمي منسق مسبقاً وليس رد فعل كويتي تلقائي. التركيز على لغة قانونية مثل 'باطل' يهدف إلى تصوير القضية كمسألة قانونية دولية وليس مجرد شعور سياسي، ربما للحد من دول أخرى قد تحذو حذو كولومبيا.",
-    "watch_next_en": "Monitor for any diplomatic response from Colombia or the US to this joint condemnation, and watch for similar statements from other non-Arab countries regarding their diplomatic presence in Jerusalem.",
-    "watch_next_ar": "راقب أي رد دبلوماسي من كولومبيا أو الولايات المتحدة على هذا الإدانة المشتركة، وراقب أي بيانات مشابهة من دول غير عربية بشأن وجودها الدبلوماسي في القدس.",
-    "confidence": "high",
-    "confidence_reason": "The list of signatories is explicitly stated, and the KUNA attribution confirms the coordinated nature of the statement.",
-    "entities": [
-     "Kuwait",
-     "Colombia",
-     "Jordan",
-     "Pakistan",
-     "Indonesia",
-     "Algeria",
-     "Turkey",
-     "Djibouti",
-     "Saudi Arabia",
-     "Sudan",
-     "Syria",
-     "Somalia",
-     "Oman",
-     "Palestine",
-     "Qatar",
-     "Lebanon",
-     "Libya",
-     "Malaysia",
-     "Egypt",
-     "Yemen",
-     "UN Security Council"
-    ],
-    "tags": [
-     "Diplomacy",
-     "Palestine",
-     "Jerusalem",
-     "Foreign Policy",
-     "Arab League"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "244eafa528369d6b",
-   "score": 12.259,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الداخلية»: ضبط متهمين لتسللهما إلى محمية بقصد الصيد",
-     "url": "https://www.alraimedia.com/article/1782945/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B6%D8%A8%D8%B7-%D9%85%D8%AA%D9%87%D9%85%D9%8A%D9%86-%D9%84%D8%AA%D8%B3%D9%84%D9%84%D9%87%D9%85%D8%A7-%D8%A5%D9%84%D9%89-%D9%85%D8%AD%D9%85%D9%8A%D8%A9-%D8%A8%D9%82%D8%B5%D8%AF-%D8%A7%D9%84%D8%B5%D9%8A%D8%AF",
-     "section": "latest",
-     "summary": "تمكنت الجهات المختصة بوزارة الداخلية من ضبط متهمين لتسللهما إلى محمية صباح الأحمد بمركبة دون لوحات بقصد الصيد.وذكرت وزارة الداخلية أن عملية الضبط جاءت بالتعاون بين الإدارة العامة ل...",
-     "body": "تمكنت الجهات المختصة بوزارة الداخلية من ضبط متهمين لتسللهما إلى محمية صباح الأحمد بمركبة دون لوحات بقصد الصيد.\n\nووذكرت وزارة الداخلية أن عملية الضبط جاءت بالتعاون بين الإدارة العامة لشرطة النجدة والإدارة العامة للمباحث الجنائية بعد أن رصد أمن المحمية تسلل المتهمين وأبلغ غرفة العمليات حيث أسفرت أعمال البحث والتحري عن ضبطهما عقب فرارهما وتبين أنهما أزالا لوحات المركبة قبل التسلل إلى المحمية.\n\nوتنص المادة (150) من قانون حماية البيئة على أنه: «يعاقب بالحبس مدة لا تزيد على سنة وغرامة لا تقل عن خمسمائة دينار ولا تزيد على خمسة آلاف دينار أو بإحدى هاتين العقوبتين كل من خالف حكم المادة (105) من هذا القانون.» كما يتم مصادرة أدوات الصيد والمركبة المستخدمة وكبسها.\n\nوحذرت الداخلية من التسلل إلى المحميات الطبيعية أو دخول المناطق المحظورة دون تصريح فهذه التجاوزات لن تمر دون محاسبة ولن تتهاون الأجهزة الأمنية في ملاحقة مرتكبيها وضبطهم واتخاذ الإجراءات القانونية بحقهم بكل حزم ودون استثناء.",
-     "published": "2026-10-16T21:23:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "ضبط متهمين لتسللهما إلى محمية صباح الأحمد بقصد الصيد",
-     "url": "https://www.aljarida.com/article/147686",
-     "section": "local",
-     "summary": "تمكنت الجهات المختصة بوزارة الداخلية من ضبط متهمين لتسللهما إلى محمية صباح الأحمد بمركبة دون لوحات بقصد الصيد.وجاءت عملية الضبط بالتعاون بين الإدارة العامة لشرطة النجدة والإدارة ال...",
-     "body": "",
-     "published": "2026-10-16T20:56:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {
-    "headline_en": "Interior Ministry: Suspects Arrested for Infiltrating Sabah Al-Ahmad Reserve for Poaching",
-    "headline_ar": "«الداخلية»: ضبط متهمين لتسللهما إلى محمية بقصد الصيد",
-    "summary_en": "Kuwait's Interior Ministry announced the arrest of two individuals who infiltrated the Sabah Al-Ahmad Nature Reserve in an unlicensed vehicle with removed plates to poach. The ministry cited Article 150 of the Environmental Protection Law, which carries penalties of up to one year in prison and fines, and warned of strict enforcement against such violations.",
-    "summary_ar": "أعلنت وزارة الداخلية الكويتية ضبط متهمين تسللا إلى محمية صباح الأحمد الطبيعية بمركبة غير مرخصة وأزالا لوحاتها للصيد. واستندت الوزارة إلى المادة (150) من قانون حماية البيئة، التي تنص على عقوبات تصل إلى سنة حبس وغرامات مالية، وحذرت من تطبيق القانون بحزم على مثل هذه المخالفات.",
-    "why_it_matters_en": "This highlights the ongoing tension between traditional hunting practices and strict environmental conservation laws in Kuwait. The removal of license plates indicates a deliberate attempt to evade detection, suggesting that poaching remains a persistent issue despite legal deterrents. It also serves as a public reminder of the state's commitment to enforcing environmental regulations.",
-    "why_it_matters_ar": "يُبرز هذا الحادث التوتر المستمر بين ممارسات الصيد التقليدية وقوانين الحفاظ على البيئة الصارمة في الكويت. إزالة لوحات المركبة تشير إلى محاولة متعمدة لتجنب الرصد، مما يوحي بأن الصيد الجائر لا يزال مشكلة قائمة رغم الردع القانوني. كما يعمل كتنبيه عام لالتزام الدولة بتطبيق اللوائح البيئية.",
-    "between_the_lines_en": "The specific mention of the 'Sabah Al-Ahmad' reserve is significant as it is a high-profile, protected area often associated with royal or elite interests. The detailed description of the method (removing plates, unlicensed vehicle) and the explicit citation of the law suggest the ministry is using this case as a public relations tool to demonstrate zero tolerance for environmental crimes, possibly in response to public criticism or recent high-profile poaching incidents. The warning 'these violations will not pass without accountability' is a direct message to potential offenders, indicating a crackdown is underway.",
-    "between_the_lines_ar": "الإشارة المحددة إلى 'محمية صباح الأحمد' مهمة لأنها منطقة محمية بارزة غالباً ما ترتبط بمصالح ملكية أو نخبوية. الوصف التفصيلي للطريقة (إزالة اللوحات، مركبة غير مرخصة) والإشارة الصريحة إلى القانون يوحيان بأن الوزارة تستخدم هذه القضية كأداة علاقات عامة لإظهار عدم التسامح مع الجرائم البيئية، ربما استجابةً لانتقادات عامة أو حوادث صيد بارزة حديثة. التحذير 'لن تمر هذه التجاوزات دون محاسبة' هو رسالة مباشرة للمخالفين المحتملين، مما يشير إلى بدء حملة تشديد.",
-    "watch_next_en": "Check for further arrests or fines related to environmental violations in the coming weeks, and monitor social media for public reaction to the strictness of the enforcement.",
-    "watch_next_ar": "تحقق من وجود اعتقالات أو غرامات إضافية مرتبطة بالمخالفات البيئية في الأسابيع القادمة، وراقب وسائل التواصل الاجتماعي لمعرفة رد فعل العامة على صرامة التنفيذ.",
-    "confidence": "medium",
-    "confidence_reason": "While the facts are clear, the interpretation of the PR motive is an inference based on the detailed nature of the announcement and the specific reserve named.",
-    "entities": [
-     "Interior Ministry (Kuwait)",
-     "Sabah Al-Ahmad Nature Reserve",
-     "Environmental Protection Law"
-    ],
-    "tags": [
-     "Environment",
-     "Law Enforcement",
-     "Kuwait",
-     "Poaching"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "3c89b1f1ae92bd6c",
    "score": 12.259,
    "sources": [
@@ -849,7 +709,7 @@
      "url": "https://www.alraimedia.com/article/1782936/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B3%D9%81%D9%8A%D8%B1-%D8%A7%D9%84%D9%86%D8%A7%D8%AC%D9%85-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86",
      "section": "latest",
      "summary": "بحث سفير دولة الكويت لدى البحرين جاسم الناجم مع وزير التنمية الاجتماعية البحريني أسامة العلوي سبل تعزيز التعاون بين البلدين في مجالات التنمية الاجتماعية وتبادل الخبرات والتجارب بما...",
-     "body": "بحث سفير دولة الكويت لدى البحرين جاسم الناجم مع وزير التنمية الاجتماعية البحريني أسامة العلوي سبل تعزيز التعاون بين البلدين في مجالات التنمية الاجتماعية وتبادل الخبرات والتجارب بما يسهم في تطوير العمل الاجتماعي والارتقاء بمستوى الخدمات المقدمة.\n\nالكويت ترحب بإدانة مجلس الأمن لهجمات ميليشيا الحوثي على السعودية منذ 17 دقيقة رئيس «هيئة الخدمة الوطنية» يبحث في قطر سبل تعزيز التعاون العسكري وتبادل الخبرات منذ 57 دقيقة\n\nوبحسب البيان أشاد الجانبان بمتانة العلاقات التاريخية والروابط الأخوية التي تجمع دولة الكويت ومملكة البحرين وما تشهده من تنسيق وتعاون مستمر على مختلف الأصعدة، مشددين على أهمية استمرار التواصل والتنسيق وتبادل الزيارات بما يسهم في توسيع آفاق التعاون الثنائي وتعزيز مسيرة العلاقات بين البلدين.\n\nوحضر اللقاء من جانب سفارة الكويت لدى مملكة البحرين المستشار يوسف البنوان والسكرتير الثاني لجين أبوعليان.",
+     "body": "بحث سفير دولة الكويت لدى البحرين جاسم الناجم مع وزير التنمية الاجتماعية البحريني أسامة العلوي سبل تعزيز التعاون بين البلدين في مجالات التنمية الاجتماعية وتبادل الخبرات والتجارب بما يسهم في تطوير العمل الاجتماعي والارتقاء بمستوى الخدمات المقدمة.\n\nالكويت ترحب بإدانة مجلس الأمن لاعتداءات ميليشيا الحوثي على السعودية منذ 29 دقيقة رئيس «هيئة الخدمة الوطنية» يبحث في قطر سبل تعزيز التعاون العسكري وتبادل الخبرات منذ ساعة\n\nوبحسب البيان أشاد الجانبان بمتانة العلاقات التاريخية والروابط الأخوية التي تجمع دولة الكويت ومملكة البحرين وما تشهده من تنسيق وتعاون مستمر على مختلف الأصعدة، مشددين على أهمية استمرار التواصل والتنسيق وتبادل الزيارات بما يسهم في توسيع آفاق التعاون الثنائي وتعزيز مسيرة العلاقات بين البلدين.\n\nوحضر اللقاء من جانب سفارة الكويت لدى مملكة البحرين المستشار يوسف البنوان والسكرتير الثاني لجين أبوعليان.",
      "published": "2026-10-16T17:27:00+03:00",
      "tier": 1
     },
@@ -896,11 +756,11 @@
    }
   },
   {
-   "key": "e77a529427b74bb5",
-   "score": 12.218,
+   "key": "244eafa528369d6b",
+   "score": 11.659,
    "sources": [
     "الرأي",
-    "الأنباء"
+    "الجريدة"
    ],
    "outlet_count": 2,
    "articles": [
@@ -908,119 +768,51 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "بنك الخليج يوفر فرص توظيف فورية للشباب في معرض «وظيفتي»",
-     "url": "https://www.alraimedia.com/article/1782946/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D9%8A%D9%88%D9%81%D8%B1-%D9%81%D8%B1%D8%B5-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D9%81%D9%88%D8%B1%D9%8A%D8%A9-%D9%84%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D9%81%D9%8A-%D9%85%D8%B9%D8%B1%D8%B6-%D9%88%D8%B8%D9%8A%D9%81%D8%AA%D9%8A",
-     "section": "latest",
-     "summary": "بنك الخليج يوفر فرص توظيف فورية للشباب في معرض «وظيفتي»",
-     "body": "بنك الخليج يوفر فرص توظيف فورية للشباب في معرض «وظيفتي»",
-     "published": "2026-10-16T21:41:00+03:00",
+     "title": "«الداخلية»: ضبط متهمين لتسللهما إلى محمية بقصد الصيد",
+     "url": "https://www.alraimedia.com/article/1782945/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B6%D8%A8%D8%B7-%D9%85%D8%AA%D9%87%D9%85%D9%8A%D9%86-%D9%84%D8%AA%D8%B3%D9%84%D9%84%D9%87%D9%85%D8%A7-%D8%A5%D9%84%D9%89-%D9%85%D8%AD%D9%85%D9%8A%D8%A9-%D8%A8%D9%82%D8%B5%D8%AF-%D8%A7%D9%84%D8%B5%D9%8A%D8%AF",
+     "section": "last-page",
+     "summary": "تمكنت الجهات المختصة بوزارة الداخلية من ضبط متهمين لتسللهما إلى محمية صباح الأحمد بمركبة دون لوحات بقصد الصيد.وذكرت وزارة الداخلية أن عملية الضبط جاءت بالتعاون بين الإدارة العامة ل...",
+     "body": "تمكنت الجهات المختصة بوزارة الداخلية من ضبط متهمين لتسللهما إلى محمية صباح الأحمد بمركبة دون لوحات بقصد الصيد.\n\nوذكرت وزارة الداخلية أن عملية الضبط جاءت بالتعاون بين الإدارة العامة لشرطة النجدة والإدارة العامة للمباحث الجنائية بعد أن رصد أمن المحمية تسلل المتهمين وأبلغ غرفة العمليات حيث أسفرت أعمال البحث والتحري عن ضبطهما عقب فرارهما وتبين أنهما أزالا لوحات المركبة قبل التسلل إلى المحمية.\n\nوتنص المادة (150) من قانون حماية البيئة على أنه: «يعاقب بالحبس مدة لا تزيد على سنة وغرامة لا تقل عن خمسمائة دينار ولا تزيد على خمسة آلاف دينار أو بإحدى هاتين العقوبتين كل من خالف حكم المادة (105) من هذا القانون.» كما يتم مصادرة أدوات الصيد والمركبة المستخدمة وكبسها.\n\nوحذرت الداخلية من التسلل إلى المحميات الطبيعية أو دخول المناطق المحظورة دون تصريح فهذه التجاوزات لن تمر دون محاسبة ولن تتهاون الأجهزة الأمنية في ملاحقة مرتكبيها وضبطهم واتخاذ الإجراءات القانونية بحقهم بكل حزم ودون استثناء.",
+     "published": "2026-10-16T21:23:00+03:00",
      "tier": 1
     },
     {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
      "lang": "ar",
-     "title": "جامعة AUM في معرض وظيفتي 2026",
-     "url": "https://www.alanba.com.kw/1380971",
-     "section": "kuwait",
-     "summary": "",
+     "title": "ضبط متهمين لتسللهما إلى محمية صباح الأحمد بقصد الصيد",
+     "url": "https://www.aljarida.com/article/147686",
+     "section": "local",
+     "summary": "تمكنت الجهات المختصة بوزارة الداخلية من ضبط متهمين لتسللهما إلى محمية صباح الأحمد بمركبة دون لوحات بقصد الصيد.وجاءت عملية الضبط بالتعاون بين الإدارة العامة لشرطة النجدة والإدارة ال...",
      "body": "",
-     "published": "2026-10-16T10:44:32+00:00",
+     "published": "2026-10-16T20:56:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Economy & Business",
+   "category": "Security & Courts",
    "analysis": {
-    "headline_en": "Gulf Bank offers immediate job opportunities for youth at 'Wadifati' Fair",
-    "headline_ar": "بنك الخليج يوفر فرص توظيف فورية للشباب في معرض «وظيفتي»",
-    "summary_en": "Gulf Bank is offering immediate employment opportunities for young people at the 'Wadifati' (My Job) fair. The news is reported by Al-Rai, while Al-Anbaa reports on the presence of AUM University at the same 2026 fair.",
-    "summary_ar": "يوفر بنك الخليج فرص توظيف فورية للشباب في معرض «وظيفتي». أوردت صحيفة الرأي الخبر، بينما أوردت صحيفة الأنباء عن مشاركة جامعة AUM في معرض وظيفتي 2026.",
-    "why_it_matters_en": "This highlights the ongoing government and private sector push to address youth unemployment and encourage local hiring in the financial sector. The 'immediate' nature of the hiring suggests a demand for entry-level talent and a desire to reduce reliance on expatriate labor for junior roles.",
-    "why_it_matters_ar": "يبرز هذا الخبر الجهود المستمرة للحكومة والقطاع الخاص لمعالجة بطالة الشباب وتشجيع التوظيف المحلي في القطاع المالي. طبيعة التوظيف 'الفوري' تشير إلى طلب على المواهب المبتدئة والرغبة في تقليل الاعتماد على العمالة الوافدة للمناصب المبتدئة.",
-    "between_the_lines_en": "The divergence in headlines between Al-Rai (focusing on the bank's hiring) and Al-Anbaa (focusing on the university's presence) suggests the fair is a multi-stakeholder event. The emphasis on 'immediate' hiring by the bank may be a response to regulatory or social pressure to increase Kuwaitization rates in the banking sector. The material is too brief to assess deeper strategic shifts in hiring practices.",
-    "between_the_lines_ar": "الاختلاف في العناوين بين الرأي (التركيز على توظيف البنك) والأنباء (التركيز على حضور الجامعة) يوحي بأن المعرض حدث متعدد الأطراف. التركيز على التوظيف 'الفوري' من قبل البنك قد يكون استجابة لضغوط تنظيمية أو اجتماعية لزيادة نسب التكويت في القطاع المصرفي. المواد المقدمة موجزة جداً لتقييم التحولات الاستراتيجية الأعمق في ممارسات التوظيف.",
-    "watch_next_en": "Check if other major banks or financial institutions announce similar 'immediate' hiring drives at the fair, and monitor official Kuwaitization statistics for the banking sector in the coming months.",
-    "watch_next_ar": "تحقق مما إذا كانت بنوك أو مؤسسات مالية كبرى أخرى تعلن عن حملات توظيف 'فورية' مماثلة في المعرض، وراقب إحصائيات التكويت الرسمية للقطاع المصرفي في الأشهر القادمة.",
-    "confidence": "low",
-    "confidence_reason": "The source material is extremely brief (headline only for primary source), limiting the ability to infer subtext beyond the explicit headline.",
-    "entities": [
-     "Gulf Bank",
-     "Wadifati Fair",
-     "AUM University",
-     "Al-Rai",
-     "Al-Anbaa"
-    ],
-    "tags": [
-     "Employment",
-     "Kuwaitization",
-     "Banking",
-     "Youth",
-     "Economy"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "3143ed49cd8740f6",
-   "score": 11.849,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "\"تحالف دعم الشرعية\": تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة اليمنية",
-     "url": "https://www.alanba.com.kw/1381010",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-17T03:03:19+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التحالف: تدمير منصتين لإطلاق الصواريخ الباليستية في محافظة صعدة",
-     "url": "https://www.alraimedia.com/article/1782951/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D9%86%D8%B5%D8%AA%D9%8A%D9%86-%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%B5%D8%B9%D8%AF%D8%A9",
-     "section": "latest",
-     "summary": "أعلن المتحدث الرسمي باسم تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم السبت تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة في اليمن.",
-     "body": "أعلن المتحدث الرسمي باسم تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم السبت تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة في اليمن.",
-     "published": "2026-10-17T02:51:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Coalition destroys two ballistic missile launch sites in Yemen's Saada province",
-    "headline_ar": "«تحالف دعم الشرعية»: تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة اليمنية",
-    "summary_en": "The spokesperson for the 'Support Legitimacy Coalition' in Yemen, Lt. Gen. Turki Al-Maliki, announced the destruction of two ballistic missile launch sites in Saada province. The announcement was made on Saturday.",
-    "summary_ar": "أعلن المتحدث الرسمي باسم تحالف دعم الشرعية في اليمن، اللواء الركن تركي المالكي، عن تدمير منصتين لإطلاق الصواريخ الباليستية في محافظة صعدة. جاء الإعلان يوم السبت.",
-    "why_it_matters_en": "This indicates continued military activity by the Saudi-led coalition in Yemen, specifically targeting Houthi missile capabilities. It underscores the ongoing security threat posed by ballistic missiles to the Gulf region, including Kuwait, and the coalition's efforts to degrade that threat.",
-    "why_it_matters_ar": "يشير هذا إلى استمرار النشاط العسكري للتحالف بقيادة السعودية في اليمن، باستهداف قدرات الحوثيين الصاروخية تحديداً. ويؤكد التهديد الأمني المستمر الذي تشكله الصواريخ الباليستية على منطقة الخليج، بما في ذلك الكويت، وجهود التحالف لتقليل هذا التهديد.",
-    "between_the_lines_en": "The specificity of 'ballistic missile' launch sites (as opposed to drones or conventional artillery) signals a focus on high-threat, long-range capabilities. The timing, concurrent with reports of drone interceptions in Saudi Arabia (see S5), suggests a coordinated or simultaneous escalation in Houthi attacks and coalition counter-strikes. The attribution to the coalition spokesperson is standard, but the focus on Saada (a key Houthi stronghold) indicates a targeted campaign rather than random strikes.",
-    "between_the_lines_ar": "التحديد الدقيق لمنصات 'الصواريخ الباليستية' (على عكس الطائرات المسيّرة أو المدفعية التقليدية) يشير إلى تركيز على القدرات عالية الخطورة طويلة المدى. التوقيت، بالتزامن مع تقارير اعتراض طائرات مسيّرة في السعودية (انظر S5)، يوحي بتصعيد منسق أو متزامن في هجمات الحوثيين وضربات التحالف المضادة. نسبة الخبر إلى المتحدث باسم التحالف قياسية، لكن التركيز على صعدة (معقل رئيسي للحوثيين) يشير إلى حملة مستهدفة وليس ضربات عشوائية.",
-    "watch_next_en": "Monitor for any Houthi retaliation against Gulf shipping or infrastructure, and watch for further coalition announcements regarding missile or drone attacks on Saudi or UAE territory.",
-    "watch_next_ar": "راقب أي رد انتقامي من الحوثيين على الشحن أو البنية التحتية في الخليج، وراقب أي إعلانات إضافية من التحالف بشأن هجمات الصواريخ أو الطائرات المسيّرة على الأراضي السعودية أو الإماراتية.",
+    "headline_en": "Interior Ministry: Suspects Arrested for Infiltrating Sabah Al-Ahmad Reserve for Poaching",
+    "headline_ar": "«الداخلية»: ضبط متهمين لتسللهما إلى محمية بقصد الصيد",
+    "summary_en": "Kuwait's Interior Ministry announced the arrest of two individuals who infiltrated the Sabah Al-Ahmad Nature Reserve in an unlicensed vehicle with removed plates to poach. The ministry cited Article 150 of the Environmental Protection Law, which carries penalties of up to one year in prison and fines, and warned of strict enforcement against such violations.",
+    "summary_ar": "أعلنت وزارة الداخلية الكويتية ضبط متهمين تسللا إلى محمية صباح الأحمد الطبيعية بمركبة غير مرخصة وأزالا لوحاتها للصيد. واستندت الوزارة إلى المادة (150) من قانون حماية البيئة، التي تنص على عقوبات تصل إلى سنة حبس وغرامات مالية، وحذرت من تطبيق القانون بحزم على مثل هذه المخالفات.",
+    "why_it_matters_en": "This highlights the ongoing tension between traditional hunting practices and strict environmental conservation laws in Kuwait. The removal of license plates indicates a deliberate attempt to evade detection, suggesting that poaching remains a persistent issue despite legal deterrents. It also serves as a public reminder of the state's commitment to enforcing environmental regulations.",
+    "why_it_matters_ar": "يُبرز هذا الحادث التوتر المستمر بين ممارسات الصيد التقليدية وقوانين الحفاظ على البيئة الصارمة في الكويت. إزالة لوحات المركبة تشير إلى محاولة متعمدة لتجنب الرصد، مما يوحي بأن الصيد الجائر لا يزال مشكلة قائمة رغم الردع القانوني. كما يعمل كتنبيه عام لالتزام الدولة بتطبيق اللوائح البيئية.",
+    "between_the_lines_en": "The specific mention of the 'Sabah Al-Ahmad' reserve is significant as it is a high-profile, protected area often associated with royal or elite interests. The detailed description of the method (removing plates, unlicensed vehicle) and the explicit citation of the law suggest the ministry is using this case as a public relations tool to demonstrate zero tolerance for environmental crimes, possibly in response to public criticism or recent high-profile poaching incidents. The warning 'these violations will not pass without accountability' is a direct message to potential offenders, indicating a crackdown is underway.",
+    "between_the_lines_ar": "الإشارة المحددة إلى 'محمية صباح الأحمد' مهمة لأنها منطقة محمية بارزة غالباً ما ترتبط بمصالح ملكية أو نخبوية. الوصف التفصيلي للطريقة (إزالة اللوحات، مركبة غير مرخصة) والإشارة الصريحة إلى القانون يوحيان بأن الوزارة تستخدم هذه القضية كأداة علاقات عامة لإظهار عدم التسامح مع الجرائم البيئية، ربما استجابةً لانتقادات عامة أو حوادث صيد بارزة حديثة. التحذير 'لن تمر هذه التجاوزات دون محاسبة' هو رسالة مباشرة للمخالفين المحتملين، مما يشير إلى بدء حملة تشديد.",
+    "watch_next_en": "Check for further arrests or fines related to environmental violations in the coming weeks, and monitor social media for public reaction to the strictness of the enforcement.",
+    "watch_next_ar": "تحقق من وجود اعتقالات أو غرامات إضافية مرتبطة بالمخالفات البيئية في الأسابيع القادمة، وراقب وسائل التواصل الاجتماعي لمعرفة رد فعل العامة على صرامة التنفيذ.",
     "confidence": "medium",
-    "confidence_reason": "The source is a direct quote from the coalition spokesperson, but the lack of independent verification or detailed context limits the depth of inference.",
+    "confidence_reason": "While the facts are clear, the interpretation of the PR motive is an inference based on the detailed nature of the announcement and the specific reserve named.",
     "entities": [
-     "Support Legitimacy Coalition",
-     "Turki Al-Maliki",
-     "Yemen",
-     "Saada",
-     "Houthis"
+     "Interior Ministry (Kuwait)",
+     "Sabah Al-Ahmad Nature Reserve",
+     "Environmental Protection Law"
     ],
     "tags": [
-     "Yemen Conflict",
-     "Military",
-     "Ballistic Missiles",
-     "Saudi Arabia",
-     "Security"
+     "Environment",
+     "Law Enforcement",
+     "Kuwait",
+     "Poaching"
     ],
     "_source": "llm"
    }
@@ -1042,7 +834,7 @@
      "url": "https://www.alraimedia.com/article/1782930/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%B1%D9%81%D8%A7%D8%B9%D9%8A-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86-%D9%85%D9%86-%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D9%86%D9%82%D8%AF-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%81%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9",
      "section": "latest",
      "summary": "بحث وزير المالية الدكتور يعقوب الرفاعي اليوم الجمعة، مع عدد من كبار مسؤولي صندوق النقد الدولي أوجه التعاون المشترك بين دولة الكويت والصندوق وسبل تعزيز الدعم الفني والاستشاري في الم...",
-     "body": "بحث وزير المالية الدكتور يعقوب الرفاعي اليوم الجمعة، مع عدد من كبار مسؤولي صندوق النقد الدولي أوجه التعاون المشترك بين دولة الكويت والصندوق وسبل تعزيز الدعم الفني والاستشاري في المجالات المالية والاقتصادية بما يتماشى مع أولويات دولة الكويت وتوجهاتها نحو تعزيز الاستدامة المالية ورفع كفاءة إدارة المالية العامة.\n\n«اتحاد المصارف»: القطاع المصرفي الكويتي يتمتع بمتانة مالية وسيولة قوية وقدرة على دعم الاقتصاد منذ 42 دقيقة وزير المالية يشارك في الملتقى الوزاري لرأس المال البشري في بانكوك منذ ساعتين\n\nوأضافت أن الدكتور جهاد أزعور لفت إلى ما تم بحثه مع رئيس مجلس الوزراء سمو الشيخ أحمد عبدالله الأحمد الصباح خلال زيارته لدولة الكويت في ديسمبر الماضي بما في ذلك سبل تعزيز العلاقات بين دولة الكويت والصندوق في مجالات السياسات المالية والاقتصادية.\n\nوأشارت الوزارة إلى أن الوزير الرفاعي أكد لأزعور عمق العلاقات التي تجمع دولة الكويت بالصندوق، مثمنا الخبرات الفنية والدعم الاستشاري الذي يقدمه الصندوق ودوره في مساندة الجهود الوطنية الرامية إلى تطوير السياسات المالية والاقتصادية.\n\nوأوضحت أن اللقاء تناول عددا من الملفات ذات الاهتمام المشترك وفي مقدمتها الإصلاحات المالية الهادفة إلى تعزيز الاستدامة المالية وتنويع الإيرادات ورفع كفاءة الإنفاق العام، بالإضافة إلى الأولويات التي ستبحثها بعثة صندوق النقد الدولي لدولة الكويت خلال الفترة من الثالث وحتى التاسع من نوفمبر المقبل وذلك في إطار مشاورات المادة الرابعة.\n\nوبالنسبة للقاء الوزير الرفاعي مع الدكتور معيط ذكرت الوزارة أن الجانبين أكدا أهمية استمرار وتعزيز التعاون بين دولة الكويت والصندوق والاستفادة من خبرات الأخير في مجالات المشورة الفنية وبناء القدرات بما يتوافق مع الأولويات الاقتصادية والمالية لدولة الكويت.",
+     "body": "بحث وزير المالية الدكتور يعقوب الرفاعي اليوم الجمعة، مع عدد من كبار مسؤولي صندوق النقد الدولي أوجه التعاون المشترك بين دولة الكويت والصندوق وسبل تعزيز الدعم الفني والاستشاري في المجالات المالية والاقتصادية بما يتماشى مع أولويات دولة الكويت وتوجهاتها نحو تعزيز الاستدامة المالية ورفع كفاءة إدارة المالية العامة.\n\nوزير المالية: التنويع الاقتصادي وتعزيز دور القطاع الخاص وتحسين بيئة الأعمال والتحول الرقمي أولويات رئيسية للكويت منذ ساعة الرفاعي يترأس وفد الكويت في الجلسة العامة لاجتماعات «محافظي البنك الدولي وصندوق النقد» منذ ساعة\n\nوأضافت أن الدكتور جهاد أزعور لفت إلى ما تم بحثه مع رئيس مجلس الوزراء سمو الشيخ أحمد عبدالله الأحمد الصباح خلال زيارته لدولة الكويت في ديسمبر الماضي بما في ذلك سبل تعزيز العلاقات بين دولة الكويت والصندوق في مجالات السياسات المالية والاقتصادية.\n\nوأشارت الوزارة إلى أن الوزير الرفاعي أكد لأزعور عمق العلاقات التي تجمع دولة الكويت بالصندوق، مثمنا الخبرات الفنية والدعم الاستشاري الذي يقدمه الصندوق ودوره في مساندة الجهود الوطنية الرامية إلى تطوير السياسات المالية والاقتصادية.\n\nوأوضحت أن اللقاء تناول عددا من الملفات ذات الاهتمام المشترك وفي مقدمتها الإصلاحات المالية الهادفة إلى تعزيز الاستدامة المالية وتنويع الإيرادات ورفع كفاءة الإنفاق العام، بالإضافة إلى الأولويات التي ستبحثها بعثة صندوق النقد الدولي لدولة الكويت خلال الفترة من الثالث وحتى التاسع من نوفمبر المقبل وذلك في إطار مشاورات المادة الرابعة.\n\nوبالنسبة للقاء الوزير الرفاعي مع الدكتور معيط ذكرت الوزارة أن الجانبين أكدا أهمية استمرار وتعزيز التعاون بين دولة الكويت والصندوق والاستفادة من خبرات الأخير في مجالات المشورة الفنية وبناء القدرات بما يتوافق مع الأولويات الاقتصادية والمالية لدولة الكويت.",
      "published": "2026-10-16T16:04:00+03:00",
      "tier": 1
     },
@@ -1119,7 +911,7 @@
      "url": "https://www.alraimedia.com/article/1782939/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D8%B1%D9%81-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%AA%D9%85%D8%AA%D8%B9-%D8%A8%D9%85%D8%AA%D8%A7%D9%86%D8%A9-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%88%D8%B3%D9%8A%D9%88%D9%84%D8%A9-%D9%82%D9%88%D9%8A%D8%A9-%D9%88%D9%82%D8%AF%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF",
      "section": "latest",
      "summary": "أكد رئيس مجلس إدارة اتحاد مصارف الكويت حمد المرزوق اليوم الجمعة أن القطاع المصرفي الكويتي يتمتع بمراكز مالية قوية ومستويات مرتفعة من السيولة وكفاية رأس المال بما يعكس متانة أوضاعه...",
-     "body": "أكد رئيس مجلس إدارة اتحاد مصارف الكويت حمد المرزوق اليوم الجمعة أن القطاع المصرفي الكويتي يتمتع بمراكز مالية قوية ومستويات مرتفعة من السيولة وكفاية رأس المال بما يعكس متانة أوضاعه المالية وقدرته على مواجهة مختلف التحديات الاقتصادية والمالية ومواصلة دوره المحوري في تمويل الأنشطة الاقتصادية ودعم التنمية والاستقرار المالي في دولة الكويت.\n\nوقال المرزوق في بيان صحافي إن إدارة السيولة في البنوك تقوم على توظيف الموارد المالية بكفاءة وتحقيق التوازن بين الاحتفاظ بالأصول السائلة وتلبية الاحتياجات التمويلية وفقا لمتطلبات الرقابة الاحترازية وأطر إدارة المخاطر المعتمدة مؤكدا أن تقييم مستويات السيولة يستلزم النظر إلى مجمل الأصول السائلة ومصادر التمويل واستقرارها وليس الاقتصار على بند منفرد من بنود الميزانية.\n\nوزير المالية يشارك في الملتقى الوزاري لرأس المال البشري في بانكوك منذ ساعتين الرفاعي يبحث مع مسؤولين من صندوق النقد تعزيز الدعم الفني والاستشاري في المجالات المالية والاقتصادية منذ 3 ساعات\n\nوأوضح أن قوة المراكز المالية للبنوك الكويتية تتجلى في مستويات السيولة وكفاية رأس المال التي تفوق المتطلبات الرقابية بهوامش مريحة وهو ما سبق أن أكده بنك الكويت المركزي عند الإعلان عن الإجراءات التحفيزية والاحترازية التي اتخذها خلال مارس 2026.\n\nوأشار إلى أن تلك الإجراءات جاءت في إطار سياسة رقابية استباقية تستهدف تعزيز مرونة القطاع المصرفي وقدرته على التعامل مع التطورات الاقتصادية والإقليمية والمحافظة على استمرارية تدفق التمويل إلى الاقتصاد الوطني مؤكدا أن التعديلات المؤقتة على بعض المتطلبات الرقابية لا تعني في حد ذاتها وجود ضعف في المراكز المالية للبنوك وإنما تعكس مرونة الأدوات الاحترازية وقدرتها على الاستجابة للظروف الاقتصادية المختلفة.\n\nوشدد المرزوق على أن متانة القطاع المصرفي لا تقاس بالتغير في حجم أرصدة مالية محددة وإنما بسلامة المراكز المالية للبنوك وجودة أصولها وكفاية رؤوس أموالها واستقرار مصادر تمويلها وكفاءة إدارة السيولة والمخاطر وقدرتها المستدامة على الوفاء بالتزاماتها ومواصلة تقديم الخدمات والتمويل اللازم للاقتصاد الوطني.\n\nوفيما يتعلق بقدرة البنوك على مواصلة نشاطها الائتماني خلال المرحلة المقبلة أكد المرزوق أن البنوك الكويتية تتمتع بالمرونة المالية والتشغيلية اللازمة لإدارة مواردها ومتطلباتها الرقابية بكفاءة وأن أي تعديلات مستقبلية على المتطلبات الاحترازية تتم في إطار السياسات الرقابية المعتمدة وبما يراعي المحافظة على الاستقرار المالي واستدامة النشاط المصرفي.\n\nوأضاف أن استمرار نمو الائتمان والودائع وفقا لأحدث البيانات الرسمية يعكس قدرة القطاع المصرفي على مواصلة أداء دوره في الوساطة المالية وتعبئة المدخرات وتوجيه الموارد نحو تمويل الأنشطة الاقتصادية بما يسهم في دعم النمو الاقتصادي وتلبية الاحتياجات التمويلية للأفراد والشركات ومختلف القطاعات الإنتاجية.\n\nكما أكد رئيس اتحاد مصارف الكويت على أن القطاع المصرفي الكويتي يتمتع بأسس مالية ورقابية قوية وأن ما حققه من مستويات متقدمة في كفاية رأس المال والسيولة وإدارة المخاطر يعكس نجاح النهج الرقابي الحصيف الذي يتبعه بنك الكويت المركزي ويعزز قدرة البنوك على التعامل مع المتغيرات الاقتصادية والمحافظة على استقرارها المالي.\n\nوأشار إلى أن البنوك الكويتية ستواصل أداء دورها المحوري في دعم الاقتصاد الوطني وتمويل المشاريع التنموية والأنشطة الاقتصادية مستندة إلى مراكز مالية متينة وإدارة حصيفة للمخاطر ومنظومة رقابية راسخة بما يعزز مكانة دولة الكويت كمركز مالي ومصرفي يتمتع بدرجة عالية من الموثوقية والاستقرار.",
+     "body": "أكد رئيس مجلس إدارة اتحاد مصارف الكويت حمد المرزوق اليوم الجمعة أن القطاع المصرفي الكويتي يتمتع بمراكز مالية قوية ومستويات مرتفعة من السيولة وكفاية رأس المال بما يعكس متانة أوضاعه المالية وقدرته على مواجهة مختلف التحديات الاقتصادية والمالية ومواصلة دوره المحوري في تمويل الأنشطة الاقتصادية ودعم التنمية والاستقرار المالي في دولة الكويت.\n\nوقال المرزوق في بيان صحافي إن إدارة السيولة في البنوك تقوم على توظيف الموارد المالية بكفاءة وتحقيق التوازن بين الاحتفاظ بالأصول السائلة وتلبية الاحتياجات التمويلية وفقا لمتطلبات الرقابة الاحترازية وأطر إدارة المخاطر المعتمدة مؤكدا أن تقييم مستويات السيولة يستلزم النظر إلى مجمل الأصول السائلة ومصادر التمويل واستقرارها وليس الاقتصار على بند منفرد من بنود الميزانية.\n\nوزير المالية يشارك في الملتقى الوزاري لرأس المال البشري في بانكوك منذ ساعة الرفاعي يبحث مع مسؤولين من صندوق النقد تعزيز الدعم الفني والاستشاري في المجالات المالية والاقتصادية منذ ساعتين\n\nوأوضح أن قوة المراكز المالية للبنوك الكويتية تتجلى في مستويات السيولة وكفاية رأس المال التي تفوق المتطلبات الرقابية بهوامش مريحة وهو ما سبق أن أكده بنك الكويت المركزي عند الإعلان عن الإجراءات التحفيزية والاحترازية التي اتخذها خلال مارس 2026.\n\nوأشار إلى أن تلك الإجراءات جاءت في إطار سياسة رقابية استباقية تستهدف تعزيز مرونة القطاع المصرفي وقدرته على التعامل مع التطورات الاقتصادية والإقليمية والمحافظة على استمرارية تدفق التمويل إلى الاقتصاد الوطني مؤكدا أن التعديلات المؤقتة على بعض المتطلبات الرقابية لا تعني في حد ذاتها وجود ضعف في المراكز المالية للبنوك وإنما تعكس مرونة الأدوات الاحترازية وقدرتها على الاستجابة للظروف الاقتصادية المختلفة.\n\nوشدد المرزوق على أن متانة القطاع المصرفي لا تقاس بالتغير في حجم أرصدة مالية محددة وإنما بسلامة المراكز المالية للبنوك وجودة أصولها وكفاية رؤوس أموالها واستقرار مصادر تمويلها وكفاءة إدارة السيولة والمخاطر وقدرتها المستدامة على الوفاء بالتزاماتها ومواصلة تقديم الخدمات والتمويل اللازم للاقتصاد الوطني.\n\nوفيما يتعلق بقدرة البنوك على مواصلة نشاطها الائتماني خلال المرحلة المقبلة أكد المرزوق أن البنوك الكويتية تتمتع بالمرونة المالية والتشغيلية اللازمة لإدارة مواردها ومتطلباتها الرقابية بكفاءة وأن أي تعديلات مستقبلية على المتطلبات الاحترازية تتم في إطار السياسات الرقابية المعتمدة وبما يراعي المحافظة على الاستقرار المالي واستدامة النشاط المصرفي.\n\nوأضاف أن استمرار نمو الائتمان والودائع وفقا لأحدث البيانات الرسمية يعكس قدرة القطاع المصرفي على مواصلة أداء دوره في الوساطة المالية وتعبئة المدخرات وتوجيه الموارد نحو تمويل الأنشطة الاقتصادية بما يسهم في دعم النمو الاقتصادي وتلبية الاحتياجات التمويلية للأفراد والشركات ومختلف القطاعات الإنتاجية.\n\nكما أكد رئيس اتحاد مصارف الكويت على أن القطاع المصرفي الكويتي يتمتع بأسس مالية ورقابية قوية وأن ما حققه من مستويات متقدمة في كفاية رأس المال والسيولة وإدارة المخاطر يعكس نجاح النهج الرقابي الحصيف الذي يتبعه بنك الكويت المركزي ويعزز قدرة البنوك على التعامل مع المتغيرات الاقتصادية والمحافظة على استقرارها المالي.\n\nوأشار إلى أن البنوك الكويتية ستواصل أداء دورها المحوري في دعم الاقتصاد الوطني وتمويل المشاريع التنموية والأنشطة الاقتصادية مستندة إلى مراكز مالية متينة وإدارة حصيفة للمخاطر ومنظومة رقابية راسخة بما يعزز مكانة دولة الكويت كمركز مالي ومصرفي يتمتع بدرجة عالية من الموثوقية والاستقرار.",
      "published": "2026-10-16T18:26:00+03:00",
      "tier": 1
     }
@@ -1221,8 +1013,135 @@
    }
   },
   {
+   "key": "3143ed49cd8740f6",
+   "score": 11.249,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "\"تحالف دعم الشرعية\": تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة اليمنية",
+     "url": "https://www.alanba.com.kw/1381010",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-17T03:03:19+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: تدمير منصتين لإطلاق الصواريخ الباليستية في محافظة صعدة",
+     "url": "https://www.alraimedia.com/article/1782951/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D9%86%D8%B5%D8%AA%D9%8A%D9%86-%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%B5%D8%B9%D8%AF%D8%A9",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم السبت تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة في اليمن.",
+     "body": "أعلن المتحدث الرسمي باسم تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم السبت تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة في اليمن.",
+     "published": "2026-10-17T02:51:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Coalition destroys two ballistic missile launch sites in Yemen's Saada province",
+    "headline_ar": "«تحالف دعم الشرعية»: تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة اليمنية",
+    "summary_en": "The spokesperson for the 'Support Legitimacy Coalition' in Yemen, Lt. Gen. Turki Al-Maliki, announced the destruction of two ballistic missile launch sites in Saada province. The announcement was made on Saturday.",
+    "summary_ar": "أعلن المتحدث الرسمي باسم تحالف دعم الشرعية في اليمن، اللواء الركن تركي المالكي، عن تدمير منصتين لإطلاق الصواريخ الباليستية في محافظة صعدة. جاء الإعلان يوم السبت.",
+    "why_it_matters_en": "This indicates continued military activity by the Saudi-led coalition in Yemen, specifically targeting Houthi missile capabilities. It underscores the ongoing security threat posed by ballistic missiles to the Gulf region, including Kuwait, and the coalition's efforts to degrade that threat.",
+    "why_it_matters_ar": "يشير هذا إلى استمرار النشاط العسكري للتحالف بقيادة السعودية في اليمن، باستهداف قدرات الحوثيين الصاروخية تحديداً. ويؤكد التهديد الأمني المستمر الذي تشكله الصواريخ الباليستية على منطقة الخليج، بما في ذلك الكويت، وجهود التحالف لتقليل هذا التهديد.",
+    "between_the_lines_en": "The specificity of 'ballistic missile' launch sites (as opposed to drones or conventional artillery) signals a focus on high-threat, long-range capabilities. The timing, concurrent with reports of drone interceptions in Saudi Arabia (see S5), suggests a coordinated or simultaneous escalation in Houthi attacks and coalition counter-strikes. The attribution to the coalition spokesperson is standard, but the focus on Saada (a key Houthi stronghold) indicates a targeted campaign rather than random strikes.",
+    "between_the_lines_ar": "التحديد الدقيق لمنصات 'الصواريخ الباليستية' (على عكس الطائرات المسيّرة أو المدفعية التقليدية) يشير إلى تركيز على القدرات عالية الخطورة طويلة المدى. التوقيت، بالتزامن مع تقارير اعتراض طائرات مسيّرة في السعودية (انظر S5)، يوحي بتصعيد منسق أو متزامن في هجمات الحوثيين وضربات التحالف المضادة. نسبة الخبر إلى المتحدث باسم التحالف قياسية، لكن التركيز على صعدة (معقل رئيسي للحوثيين) يشير إلى حملة مستهدفة وليس ضربات عشوائية.",
+    "watch_next_en": "Monitor for any Houthi retaliation against Gulf shipping or infrastructure, and watch for further coalition announcements regarding missile or drone attacks on Saudi or UAE territory.",
+    "watch_next_ar": "راقب أي رد انتقامي من الحوثيين على الشحن أو البنية التحتية في الخليج، وراقب أي إعلانات إضافية من التحالف بشأن هجمات الصواريخ أو الطائرات المسيّرة على الأراضي السعودية أو الإماراتية.",
+    "confidence": "medium",
+    "confidence_reason": "The source is a direct quote from the coalition spokesperson, but the lack of independent verification or detailed context limits the depth of inference.",
+    "entities": [
+     "Support Legitimacy Coalition",
+     "Turki Al-Maliki",
+     "Yemen",
+     "Saada",
+     "Houthis"
+    ],
+    "tags": [
+     "Yemen Conflict",
+     "Military",
+     "Ballistic Missiles",
+     "Saudi Arabia",
+     "Security"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "f5c88cc88200a3b6",
+   "score": 11.059,
+   "sources": [
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "عجز الميزانية الأميركية يقفز إلى 1.99 تريليون دولار في 2026",
+     "url": "https://www.aljarida.com/article/147690",
+     "section": "economy",
+     "summary": "أظهرت بيانات وزارة الخزانة الأميركية اليوم الجمعة ارتفاع عجز الميزانية في السنة المالية 2026 بمقدار 217 مليار دولار إلى 1.99 تريليون دولار، مدفوعا جزئيا برد مبالغ الرسوم الجمركية و...",
+     "body": "",
+     "published": "2026-10-16T22:11:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الحكومة الأميركية: ازدياد عجز موازنة 2026 الى نحو تريليوني دولار",
+     "url": "https://www.alraimedia.com/article/1782944/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%A7%D8%B2%D8%AF%D9%8A%D8%A7%D8%AF-%D8%B9%D8%AC%D8%B2-%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9-2026-%D8%A7%D9%84%D9%89-%D9%86%D8%AD%D9%88-%D8%AA%D8%B1%D9%8A%D9%84%D9%8A%D9%88%D9%86%D9%8A-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+     "section": "world",
+     "summary": "أظهرت بيانات حكومية أميركية الجمعة أن عجز الموازنة ارتفع إلى نحو تريليوني دولار خلال العام الماضي ليصل بذلك إلى أعلى مستوى له منذ عام 2021، رغم وعود الرئيس دونالد ترامب بخفض الإنفا...",
+     "body": "أظهرت بيانات حكومية أميركية الجمعة أن عجز الموازنة ارتفع إلى نحو تريليوني دولار خلال العام الماضي ليصل بذلك إلى أعلى مستوى له منذ عام 2021، رغم وعود الرئيس دونالد ترامب بخفض الإنفاق العام وتقليص العجز المالي.\n\nوذكرت وزارة الخزانة أن العجز، وهو مقدار تجاوز الإنفاق الحكومي للإيرادات، بلغ 1.99 تريليون دولار في السنة المالية 2026، بزيادة قدرها 12 في المئة عن العام السابق.\n\nترامب: لست مسؤولاً عن عدم إتاحة خدمة ستارلينك بأوكرانيا منذ 42 دقيقة مصر تستدعي القائم بالأعمال الكولومبي احتجاجاً على افتتاح بلاده سفارة بالقدس منذ ساعتين",
+     "published": "2026-10-16T21:16:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "US Budget Deficit Jumps to $1.99 Trillion in 2026",
+    "headline_ar": "عجز الميزانية الأميركية يقفز إلى 1.99 تريليون دولار في 2026",
+    "summary_en": "US Treasury data released on Friday showed that the federal budget deficit rose to $1.99 trillion in fiscal year 2026, a 12% increase from the previous year and the highest level since 2021. This occurred despite President Trump's promises to reduce government spending and cut the deficit.",
+    "summary_ar": "أظهرت بيانات وزارة الخزانة الأميركية، الصادرة يوم الجمعة، أن عجز الموازنة الفيدرالية ارتفع إلى 1.99 تريليون دولار في السنة المالية 2026، بزيادة قدرها 12% عن العام السابق، وهو أعلى مستوى منذ عام 2021. جاء ذلك على الرغم من وعود الرئيس ترامب بخفض الإنفاق الحكومي وتقليص العجز المالي.",
+    "why_it_matters_en": "For Kuwait, this is a critical economic indicator affecting the stability of the US dollar, global interest rates, and the value of Kuwait's substantial US Treasury holdings. A rising US deficit can lead to inflationary pressures and market volatility, directly impacting Kuwait's investment portfolio and the cost of borrowing globally.",
+    "why_it_matters_ar": "بالنسبة للكويت، هذا مؤشر اقتصادي حاسم يؤثر على استقرار الدولار الأمريكي، وأسعار الفائدة العالمية، وقيمة حيازات الكويت الكبيرة من سندات الخزانة الأمريكية. يمكن أن يؤدي ارتفاع العجز الأمريكي إلى ضغوط تضخمية وتقلبات في الأسواق، مما يؤثر مباشرة على محفظة الاستثمارات الكويتية وتكلفة الاقتراض عالمياً.",
+    "between_the_lines_en": "The juxtaposition of the deficit increase with Trump's 'promises to cut spending' is a deliberate editorial choice by the Kuwaiti outlets (Al-Ra'y and Al-Jarida) to highlight the gap between US political rhetoric and economic reality. This framing may reflect a broader Kuwaiti concern about the reliability of US fiscal policy and its potential impact on the global economic order that Kuwait depends on. The timing (Friday release) and the specific mention of 'highest since 2021' suggests a focus on the trend rather than just the number, implying a worsening trajectory.",
+    "between_the_lines_ar": "إuxtaposition (الجمع بين) ارتفاع العجز مع 'وعود ترامب بقطع الإنفاق' هو خيار تحريري مقصود من قبل المنصات الكويتية (الرأي والجريدة) لإبراز الفجوة بين الخطاب السياسي الأمريكي والواقع الاقتصادي. قد يعكس هذا الإطار قلقاً كويتياً أوسع بشأن موثوقية السياسة المالية الأمريكية وأثرها المحتمل على النظام الاقتصادي العالمي الذي تعتمد عليه الكويت. التوقيت (الإصدار يوم الجمعة) والإشارة المحددة إلى 'الأعلى منذ 2021' يوحيان بالتركيز على الاتجاه بدلاً من الرقم فقط، مما يشير إلى مسار تدهور.",
+    "watch_next_en": "Monitor Kuwaiti central bank statements or investment fund reports for any adjustments to US Treasury holdings or hedging strategies in response to the deficit news.",
+    "watch_next_ar": "راقب بيانات البنك المركزي الكويتي أو تقارير صناديق الاستثمار لأي تعديلات في حيازات سندات الخزانة الأمريكية أو استراتيجيات التحوط استجابةً لأخبار العجز.",
+    "confidence": "medium",
+    "confidence_reason": "The economic facts are clear, but the interpretation of the editorial framing as reflecting Kuwaiti concern is an inference based on the specific wording used in the headlines and body.",
+    "entities": [
+     "US Treasury",
+     "Donald Trump",
+     "Kuwait (implied investor)"
+    ],
+    "tags": [
+     "Economy",
+     "US Politics",
+     "Global Finance",
+     "Kuwaiti Investments"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "6dc45a1b2f1693d3",
-   "score": 11.657,
+   "score": 11.057,
    "sources": [
     "الرأي",
     "الجريدة"
@@ -1235,9 +1154,9 @@
      "lang": "ar",
      "title": "أميركا تطلب سحب 17 مليون برميل من احتياطي النفط الاستراتيجي",
      "url": "https://www.alraimedia.com/article/1782938/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D8%B7%D9%84%D8%A8-%D8%B3%D8%AD%D8%A8-17-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D9%85%D9%86-%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A",
-     "section": "latest",
+     "section": "world",
      "summary": "قالت وزارة الطاقة ⁠الأميركية، اليوم الجمعة، إن الولايات ​المتحدة طلبت تقديم عروض لمبادلة ما ‌يصل إلى 17 مليون برميل نفط خام من الاحتياطي الاستراتيجي للبلاد.وسيكون الإجراء جزءا...",
-     "body": "قالت وزارة الطاقة ⁠الأميركية، اليوم الجمعة، إن الولايات ​المتحدة طلبت تقديم عروض لمبادلة ما ‌يصل إلى 17 مليون برميل نفط خام من الاحتياطي الاستراتيجي للبلاد.\n\nوسيكون الإجراء جزءا من اتفاق عالمي ⁠أبرمته الولايات المتحدة في مارس في محاولة ⁠للسيطرة على أسعار الوقود ⁠التي تأثرت بالحرب ‌الأمريكية على إيران.\n\n«يونيسف»: مقتل أكثر من 340 طفلاً في غزة منذ إعلان إيقاف إطلاق النار منذ 6 دقائق التحالف: دمرنا 3 طائرات مسيّرة بالمنطقة الجنوبية ومنطقة الرياض منذ ساعة\n\nوسبق ⁠أن عرضت الولايات المتحدة طرح الدفعة الأخيرة من اتفاق مارس في ​يونيو يونيو، لكنها كشفت في ⁠وقت ‌لاحق من ​ذلك الشهر أن الشركات، التي طلب منها دفع علاوات ‌تصل إلى 24 في المئة في صورة براميل ⁠إضافية من النفط ⁠الخام ⁠تعاد ​إلى الاحتياطي الاستراتيجي، لم توافق إلا على سحب نحو 500 ألف برميل.",
+     "body": "قالت وزارة الطاقة ⁠الأميركية، اليوم الجمعة، إن الولايات ​المتحدة طلبت تقديم عروض لمبادلة ما ‌يصل إلى 17 مليون برميل نفط خام من الاحتياطي الاستراتيجي للبلاد.\n\nوسيكون الإجراء جزءا من اتفاق عالمي ⁠أبرمته الولايات المتحدة في مارس في محاولة ⁠للسيطرة على أسعار الوقود ⁠التي تأثرت بالحرب ‌الأمريكية على إيران.\n\n«يونيسف»: مقتل أكثر من 340 طفلاً في غزة منذ إعلان إيقاف إطلاق النار منذ 19 دقيقة التحالف: دمرنا 3 طائرات مسيّرة بالمنطقة الجنوبية ومنطقة الرياض منذ ساعة\n\nوسبق ⁠أن عرضت الولايات المتحدة طرح الدفعة الأخيرة من اتفاق مارس في ​يونيو يونيو، لكنها كشفت في ⁠وقت ‌لاحق من ​ذلك الشهر أن الشركات، التي طلب منها دفع علاوات ‌تصل إلى 24 في المئة في صورة براميل ⁠إضافية من النفط ⁠الخام ⁠تعاد ​إلى الاحتياطي الاستراتيجي، لم توافق إلا على سحب نحو 500 ألف برميل.",
      "published": "2026-10-16T18:21:00+03:00",
      "tier": 1
     },
@@ -1280,207 +1199,6 @@
      "US-Iran Conflict",
      "OPEC+",
      "Energy Market"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "814ecaa987e9d5f0",
-   "score": 11.259,
-   "sources": [
-    "Arab Times",
-    "Kuwait Times"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Two Jailed and Fined After Sneaking Into Sabah Al-Ahmad Reserve; Vehicle Sent to Crusher",
-     "url": "https://www.arabtimesonline.com/news/two-jailed-and-fined-after-sneaking-into-sabah-al-ahmad-reserve-vehicle-sent-to-crusher/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 16: Kuwait’s Ministry of Interior has arrested two individuals for trespassing into the Sabah Al-Ahmad Nature Reserve in a vehicle without license plates, allegedl...",
-     "body": "",
-     "published": "2026-10-16T21:01:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Two arrested for sneaking into Sabah Al-Ahmad reserve to hunt",
-     "url": "https://kuwaittimes.com/article/51742/kuwait/two-arrested-for-sneaking-into-sabah-al-ahmad-reserve-to-hunt/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Police have arrested two suspects who sneaked into the Sabah Al-Ahmad Nature Reserve to hunt, using a vehicle with its number plates removed, the Ministry of Interior said....",
-     "body": "KUWAIT: Police have arrested two suspects who sneaked into the Sabah Al-Ahmad Nature Reserve to hunt, using a vehicle with its number plates removed, the Ministry of Interior said. The arrest was carried out jointly by the General Department of Rescue Police and the General Department of Criminal Investigation. Reserve security spotted the intruders and alerted the operations room, and the two were caught after they fled. Investigations found they had removed the vehicle’s plates before entering the reserve.\n\nEnvironmental police issued violations against the suspects, who were referred to the relevant authorities for legal action. Their vehicle and hunting equipment were confiscated, and the vehicle was impounded.\n\nUnder Article 150 of the Environment Protection Law, anyone who violates Article 105 of the law faces up to one year in prison and a fine of KD 500 to KD 5,000, or either penalty. Hunting equipment and vehicles used in the violation are also confiscated and impounded.\n\nThe ministry warned against sneaking into nature reserves or entering restricted areas without a permit, saying such violations would not go unpunished and that security agencies would pursue offenders firmly and without exception. — MoI\n\nFriday sermon stresses Saudi security, rejects attacks on kingdom\n\nFour nationalities make up 86% of Kuwait’s domestic workers\n\nCapital security campaign nets 232 wanted persons, violators",
-     "published": "2026-10-16T20:57:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Two arrested for sneaking into Sabah Al-Ahmad reserve to hunt",
-    "headline_ar": "إلقاء القبض على شخصين تسللا إلى محمية صباح الأحمد للصيد",
-    "summary_en": "Kuwaiti police arrested two suspects who entered the Sabah Al-Ahmad Nature Reserve without a permit to hunt, using a vehicle with removed license plates. The suspects were caught by reserve security and police, and their vehicle and equipment were confiscated. They face charges under the Environment Protection Law.",
-    "summary_ar": "ألقت الشرطة الكويتية القبض على شخصين تسللا إلى محمية صباح الأحمد الطبيعية للصيد دون تصريح، باستخدام مركبة أزيلت لوحاتها. تم ضبط المشتبه بهما من قبل أمن المحمية والشرطة، ومصادرة مركبتهما ومعداتها. يواجهان اتهامات بموجب قانون حماية البيئة.",
-    "why_it_matters_en": "This demonstrates the Ministry of Interior's enforcement of environmental laws and protection of nature reserves. The removal of license plates indicates premeditation, and the public warning suggests a broader campaign to deter illegal hunting and trespassing in protected areas.",
-    "why_it_matters_ar": "يُظهر هذا التزام وزارة الداخلية بإنفاذ قوانين البيئة وحماية المحميات الطبيعية. إزالة لوحات المركبة تشير إلى التعمد، والتحذير العام يوحي بحملة أوسع للحد من الصيد غير القانوني والتسلل إلى المناطق المحمية.",
-    "between_the_lines_en": "The joint operation by Rescue Police and Criminal Investigation, rather than just environmental police, suggests the incident was treated as a significant security or criminal matter, not just a minor environmental violation. The explicit mention of 'removed plates' highlights the intent to evade detection, which may be used to justify stricter penalties. The public warning 'without exception' signals a zero-tolerance policy, possibly in response to a rise in such incidents or political pressure to protect natural heritage.",
-    "between_the_lines_ar": "العملية المشتركة بين شرطة الإنقاذ والبحث الجنائي، وليس فقط شرطة البيئة، تشير إلى أن الحادث عولج كمسألة أمنية أو جنائية كبيرة، وليس مجرد انتهاك بيئي بسيط. الإشارة الصريحة إلى 'إزالة اللوحات' تبرز النية لتجنب الرصد، مما قد يُستخدم لتبرير عقوبات أشد. التحذير العام 'بدون استثناء' يشير إلى سياسة عدم التسامح، ربما استجابة لزيادة مثل هذه الحوادث أو ضغوط سياسية لحماية التراث الطبيعي.",
-    "watch_next_en": "Watch for further arrests or prosecutions related to illegal hunting in nature reserves, and monitor any public statements from environmental groups or officials regarding the protection of Sabah Al-Ahmad reserve.",
-    "watch_next_ar": "راقب المزيد من الاعتقالات أو الملاحقات القضائية المتعلقة بالصيد غير القانوني في المحميات الطبيعية، وراقب أي تصريحات عامة من المجموعات البيئية أو المسؤولين بشأن حماية محمية صباح الأحمد.",
-    "confidence": "high",
-    "confidence_reason": "The details of the arrest, the specific law cited, and the joint police operation are clearly stated in the source.",
-    "entities": [
-     "Kuwait",
-     "Sabah Al-Ahmad Nature Reserve",
-     "Ministry of Interior",
-     "General Department of Rescue Police",
-     "General Department of Criminal Investigation",
-     "Environment Protection Law"
-    ],
-    "tags": [
-     "Environment",
-     "Law Enforcement",
-     "Nature Reserve",
-     "Crime",
-     "Kuwait"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "69c718041fc54cfd",
-   "score": 10.748,
-   "sources": [
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الدفاع المدني السعودي: زوال الخطر في منطقة جازان",
-     "url": "https://www.aljarida.com/article/147691",
-     "section": "world",
-     "summary": "الدفاع المدني السعودي: زوال الخطر في منطقة جازان",
-     "body": "",
-     "published": "2026-10-16T22:48:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الدفاع المدني السعودي: زوال الخطر عن محافظة ينبع بعد تفعيل الإنذار المبكر",
-     "url": "https://www.alraimedia.com/article/1782923/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%B2%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D8%AE%D8%B7%D8%B1-%D8%B9%D9%86-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D9%8A%D9%86%D8%A8%D8%B9-%D8%A8%D8%B9%D8%AF-%D8%AA%D9%81%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1",
-     "section": "latest",
-     "summary": "أعلن الدفاع المدني السعودي زوال الخطر عن محافظة ينبع، وذلك بعد تفعيل الإنذار المبكر. داعيا للاستمرار في اتباع التعليمات وتجنب التجمهر والتصوير نهائيا.",
-     "body": "أعلن الدفاع المدني السعودي زوال الخطر عن محافظة ينبع، وذلك بعد تفعيل الإنذار المبكر.\n\nالتحالف: اعتراض وتدمير طائرة مسيرة أطلقت باتجاه المنطقة الشرقية منذ 7 ساعات «التحالف»: 1104 صواريخ و 1135 مسيّرة أطلقت على المملكة منذ بدء العمليات منذ 21 ساعة",
-     "published": "2026-10-16T12:56:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Saudi Civil Defense: Danger averted in Jazan and Yanbu after early warning activation",
-    "headline_ar": "الدفاع المدني السعودي: زوال الخطر في منطقة جازان ومحافظة ينبع بعد تفعيل الإنذار المبكر",
-    "summary_en": "Saudi Civil Defense announced that the danger had been averted in Jazan region and Yanbu province after activating the early warning system. The announcement was made in the context of ongoing Houthi attacks, with the coalition reporting the interception of a drone targeting the Eastern Province and providing cumulative statistics on missiles and drones launched at Saudi Arabia.",
-    "summary_ar": "أعلن الدفاع المدني السعودي زوال الخطر عن منطقة جازان ومحافظة ينبع بعد تفعيل نظام الإنذار المبكر. جاء الإعلان في سياق الهجمات الحوثية المستمرة، حيث أبلغ التحالف عن اعتراض طائرة مسيّرة استهدفت المنطقة الشرقية، وقدم إحصاءات تراكمية للصواريخ والطائرات المسيّرة التي أُطلقت على المملكة.",
-    "why_it_matters_en": "This confirms that Houthi attacks are reaching multiple Saudi regions, including the western (Jazan, Yanbu) and eastern (Eastern Province) fronts. The activation of early warning systems indicates a significant threat level, and the cumulative statistics (1104 missiles, 1135 drones) highlight the scale and persistence of the attack campaign against Saudi infrastructure and security.",
-    "why_it_matters_ar": "يؤكد هذا أن هجمات الحوثيين تصل إلى مناطق سعودية متعددة، بما في ذلك الجبهات الغربية (جازان، ينبع) والشرقية (المنطقة الشرقية). تفعيل أنظمة الإنذار المبكر يشير إلى مستوى تهديد كبير، والإحصاءات التراكمية (1104 صواريخ، 1135 طائرة مسيّرة) تبرز حجم واستمرارية حملة الهجوم على البنية التحتية والأمن السعودي.",
-    "between_the_lines_en": "The simultaneous reporting of danger averted in two different regions (Jazan and Yanbu) and a drone interception in the East suggests a multi-front attack or a coordinated series of strikes. The inclusion of cumulative statistics by the coalition is a standard PR tactic to demonstrate the scale of the threat and the effectiveness of Saudi defenses. The focus on 'danger averted' rather than 'damage reported' suggests the early warning system was effective in preventing casualties or significant infrastructure damage, which is a key narrative for Saudi authorities.",
-    "between_the_lines_ar": "التقارير المتزامنة عن زوال الخطر في منطقتين مختلفتين (جازان وينبع) واعتراض طائرة مسيّرة في الشرق يوحي بهجوم متعدد الجبهات أو سلسلة ضربات منسقة. تضمين الإحصاءات التراكمية من قبل التحالف تكتيك علاقات عامة قياسي لإظهار حجم التهديد وفعالية الدفاعات السعودية. التركيز على 'زوال الخطر' بدلاً من 'تقرير أضرار' يشير إلى أن نظام الإنذار المبكر كان فعالاً في منع الخسائر البشرية أو الأضرار الكبيرة في البنية التحتية، وهو سردية رئيسية للسلطات السعودية.",
-    "watch_next_en": "Monitor for any confirmed damage or casualties in Jazan, Yanbu, or the Eastern Province, and watch for further coalition announcements on the number of intercepted projectiles. Also, check for any impact on oil exports or shipping in the Red Sea or Gulf.",
-    "watch_next_ar": "راقب أي أضرار أو خسائر بشرية مؤكدة في جازان أو ينبع أو المنطقة الشرقية، وراقب أي إعلانات إضافية من التحالف بشأن عدد المقذوفات المعترضة. كما تحقق من أي تأثير على صادرات النفط أو الشحن في البحر الأحمر أو الخليج.",
-    "confidence": "medium",
-    "confidence_reason": "The source is a direct statement from Saudi Civil Defense and the coalition, but the lack of independent verification of the 'danger averted' claim and the specific locations of impact limits the depth of inference.",
-    "entities": [
-     "Saudi Arabia",
-     "Jazan",
-     "Yanbu",
-     "Eastern Province",
-     "Saudi Civil Defense",
-     "Support Legitimacy Coalition",
-     "Houthis"
-    ],
-    "tags": [
-     "Saudi Arabia",
-     "Security",
-     "Houthi Attacks",
-     "Civil Defense",
-     "Military"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "64c513fd79cc1b46",
-   "score": 10.445,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«التحالف»: اعتراض وتدمير صاروخ باليستي باتجاه ينبع و3 مُسيَّرات في المنطقة الجنوبية والرياض",
-     "url": "https://www.alanba.com.kw/1380980",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-16T14:16:26+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التحالف: اعتراض وتدمير طائرة مسيرة أطلقت باتجاه المنطقة الشرقية",
-     "url": "https://www.alraimedia.com/article/1782915/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "أعلن المتحدث باسم تحالف دعم الشرعية في اليمن، اللواء الركن تركي المالكي، اليوم الجمعة، اعتراض وتدمير طائرة مسيرة أطلقت باتجاه المنطقة الشرقية.",
-     "body": "أعلن المتحدث باسم تحالف دعم الشرعية في اليمن، اللواء الركن تركي المالكي، اليوم الجمعة، اعتراض وتدمير طائرة مسيرة أطلقت باتجاه المنطقة الشرقية.",
-     "published": "2026-10-16T05:53:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Coalition: Interception and destruction of ballistic missile heading to Yanbu and 3 drones in Southern Region and Riyadh",
-    "headline_ar": "«التحالف»: اعتراض وتدمير صاروخ باليستي باتجاه ينبع و3 مُسيَّرات في المنطقة الجنوبية والرياض",
-    "summary_en": "The spokesperson for the Yemen Support Coalition, Lt. Gen. Turki Al-Maliki, announced the interception and destruction of a ballistic missile targeting Yanbu and three drones in the Southern Region and Riyadh. The report was published by Al-Anba and Al-Rai, with Al-Rai's version focusing specifically on a drone targeting the Eastern Region.",
-    "summary_ar": "أعلن المتحدث باسم تحالف دعم الشرعية في اليمن، اللواء الركن تركي المالكي، اعتراض وتدمير صاروخ باليستي باتجاه ينبع وثلاث طائرات مسيّرة في المنطقة الجنوبية والرياض. نُشر التقرير في كل من جريدتي الأنباء والرأي، مع تركيز نسخة الرأي على طائرة مسيّرة واحدة استهدفت المنطقة الشرقية.",
-    "why_it_matters_en": "Direct attacks on Saudi infrastructure, particularly in the Eastern Region where Kuwaiti nationals and businesses are concentrated, heighten regional security risks and potential volatility in energy markets and cross-border logistics.",
-    "why_it_matters_ar": "الهجمات المباشرة على البنية التحتية السعودية، لا سيما في المنطقة الشرقية حيث تتركز أعداد كبيرة من الكويتيين والشركات، ترفع من مخاطر الأمن الإقليمي واحتمالات التقلبات في أسواق الطاقة وسلاسل الإمداد عبر الحدود.",
-    "between_the_lines_en": "There is a notable divergence in emphasis between the two outlets. Al-Anba's headline highlights a ballistic missile and multiple drones across different regions (Yanbu, South, Riyadh), suggesting a broader, multi-vector attack. Al-Rai's headline and body text narrow the focus to a single drone targeting the Eastern Region. This selective framing by Al-Rai may reflect a desire to highlight threats closer to Kuwait's immediate geographic and economic sphere of influence, while Al-Anba provides the fuller, more alarming picture of the coalition's overall engagement. The use of 'informed sources' or direct attribution to the coalition spokesperson is standard, but the choice of which specific incident to headline is a significant editorial signal.",
-    "between_the_lines_ar": "يوجد تفاوت ملحوظ في التأكيد بين الجريدين. عنوان الأنباء يبرز صاروخاً باليستياً وطائرات مسيّرة متعددة في مناطق مختلفة (ينبع، الجنوب، الرياض)، مما يوحي بهجوم أوسع ومتعدد الاتجاهات. في حين يضيّق عنوان الرأي ونصه التركيز على طائرة مسيّرة واحدة استهدفت المنطقة الشرقية. قد يعكس هذا الاختيار التحريري من جانب الرأي رغبة في إبراز التهديدات الأقرب إلى الدائرة الجغرافية والاقتصادية المباشرة للكويت، بينما تقدم الأنباء الصورة الأوسع والأكثر إثارة للقلق حول المواجهة الشاملة للتحالف. استخدام 'مصادر مطلعة' أو الإسناد المباشر للمتحدث باسم التحالف هو إجراء قياسي، لكن اختيار الحادث المحدد للعنوان هو إشارة تحريرية مهمة.",
-    "watch_next_en": "Monitor for any official Kuwaiti government statement or diplomatic reaction regarding the security situation in the Eastern Region of Saudi Arabia, and watch for further divergence in reporting between Kuwaiti outlets on subsequent coalition announcements.",
-    "watch_next_ar": "مراقبة أي بيان رسمي من الحكومة الكويتية أو رد دبلوماسي بشأن الوضع الأمني في المنطقة الشرقية من السعودية، ومراقبة أي تفاوت إضافي في التغطية بين الصحف الكويتية للإعلانات اللاحقة للتحالف.",
-    "confidence": "medium",
-    "confidence_reason": "The divergence in headlines is clear, but the specific editorial intent behind Al-Rai's narrower focus is an inference based on geographic proximity rather than explicit statement.",
-    "entities": [
-     "Lt. Gen. Turki Al-Maliki",
-     "Yemen Support Coalition",
-     "Yanbu",
-     "Southern Region",
-     "Riyadh",
-     "Eastern Region",
-     "Al-Anba",
-     "Al-Rai"
-    ],
-    "tags": [
-     "Security",
-     "Saudi Arabia",
-     "Yemen Conflict",
-     "Regional Threats",
-     "Media Divergence"
     ],
     "_source": "llm"
    }
@@ -1551,6 +1269,73 @@
    }
   },
   {
+   "key": "69c718041fc54cfd",
+   "score": 10.148,
+   "sources": [
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الدفاع المدني السعودي: زوال الخطر في منطقة جازان",
+     "url": "https://www.aljarida.com/article/147691",
+     "section": "world",
+     "summary": "الدفاع المدني السعودي: زوال الخطر في منطقة جازان",
+     "body": "",
+     "published": "2026-10-16T22:48:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الدفاع المدني السعودي: زوال الخطر عن محافظة ينبع بعد تفعيل الإنذار المبكر",
+     "url": "https://www.alraimedia.com/article/1782923/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%B2%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D8%AE%D8%B7%D8%B1-%D8%B9%D9%86-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D9%8A%D9%86%D8%A8%D8%B9-%D8%A8%D8%B9%D8%AF-%D8%AA%D9%81%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1",
+     "section": "world",
+     "summary": "أعلن الدفاع المدني السعودي زوال الخطر عن محافظة ينبع، وذلك بعد تفعيل الإنذار المبكر. داعيا للاستمرار في اتباع التعليمات وتجنب التجمهر والتصوير نهائيا.",
+     "body": "أعلن الدفاع المدني السعودي زوال الخطر عن محافظة ينبع، وذلك بعد تفعيل الإنذار المبكر.\n\nالتحالف: اعتراض وتدمير طائرة مسيرة أطلقت باتجاه المنطقة الشرقية منذ 7 ساعات «التحالف»: 1104 صواريخ و 1135 مسيّرة أطلقت على المملكة منذ بدء العمليات منذ 21 ساعة",
+     "published": "2026-10-16T12:56:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Saudi Civil Defense: Danger averted in Jazan and Yanbu after early warning activation",
+    "headline_ar": "الدفاع المدني السعودي: زوال الخطر في منطقة جازان ومحافظة ينبع بعد تفعيل الإنذار المبكر",
+    "summary_en": "Saudi Civil Defense announced that the danger had been averted in Jazan region and Yanbu province after activating the early warning system. The announcement was made in the context of ongoing Houthi attacks, with the coalition reporting the interception of a drone targeting the Eastern Province and providing cumulative statistics on missiles and drones launched at Saudi Arabia.",
+    "summary_ar": "أعلن الدفاع المدني السعودي زوال الخطر عن منطقة جازان ومحافظة ينبع بعد تفعيل نظام الإنذار المبكر. جاء الإعلان في سياق الهجمات الحوثية المستمرة، حيث أبلغ التحالف عن اعتراض طائرة مسيّرة استهدفت المنطقة الشرقية، وقدم إحصاءات تراكمية للصواريخ والطائرات المسيّرة التي أُطلقت على المملكة.",
+    "why_it_matters_en": "This confirms that Houthi attacks are reaching multiple Saudi regions, including the western (Jazan, Yanbu) and eastern (Eastern Province) fronts. The activation of early warning systems indicates a significant threat level, and the cumulative statistics (1104 missiles, 1135 drones) highlight the scale and persistence of the attack campaign against Saudi infrastructure and security.",
+    "why_it_matters_ar": "يؤكد هذا أن هجمات الحوثيين تصل إلى مناطق سعودية متعددة، بما في ذلك الجبهات الغربية (جازان، ينبع) والشرقية (المنطقة الشرقية). تفعيل أنظمة الإنذار المبكر يشير إلى مستوى تهديد كبير، والإحصاءات التراكمية (1104 صواريخ، 1135 طائرة مسيّرة) تبرز حجم واستمرارية حملة الهجوم على البنية التحتية والأمن السعودي.",
+    "between_the_lines_en": "The simultaneous reporting of danger averted in two different regions (Jazan and Yanbu) and a drone interception in the East suggests a multi-front attack or a coordinated series of strikes. The inclusion of cumulative statistics by the coalition is a standard PR tactic to demonstrate the scale of the threat and the effectiveness of Saudi defenses. The focus on 'danger averted' rather than 'damage reported' suggests the early warning system was effective in preventing casualties or significant infrastructure damage, which is a key narrative for Saudi authorities.",
+    "between_the_lines_ar": "التقارير المتزامنة عن زوال الخطر في منطقتين مختلفتين (جازان وينبع) واعتراض طائرة مسيّرة في الشرق يوحي بهجوم متعدد الجبهات أو سلسلة ضربات منسقة. تضمين الإحصاءات التراكمية من قبل التحالف تكتيك علاقات عامة قياسي لإظهار حجم التهديد وفعالية الدفاعات السعودية. التركيز على 'زوال الخطر' بدلاً من 'تقرير أضرار' يشير إلى أن نظام الإنذار المبكر كان فعالاً في منع الخسائر البشرية أو الأضرار الكبيرة في البنية التحتية، وهو سردية رئيسية للسلطات السعودية.",
+    "watch_next_en": "Monitor for any confirmed damage or casualties in Jazan, Yanbu, or the Eastern Province, and watch for further coalition announcements on the number of intercepted projectiles. Also, check for any impact on oil exports or shipping in the Red Sea or Gulf.",
+    "watch_next_ar": "راقب أي أضرار أو خسائر بشرية مؤكدة في جازان أو ينبع أو المنطقة الشرقية، وراقب أي إعلانات إضافية من التحالف بشأن عدد المقذوفات المعترضة. كما تحقق من أي تأثير على صادرات النفط أو الشحن في البحر الأحمر أو الخليج.",
+    "confidence": "medium",
+    "confidence_reason": "The source is a direct statement from Saudi Civil Defense and the coalition, but the lack of independent verification of the 'danger averted' claim and the specific locations of impact limits the depth of inference.",
+    "entities": [
+     "Saudi Arabia",
+     "Jazan",
+     "Yanbu",
+     "Eastern Province",
+     "Saudi Civil Defense",
+     "Support Legitimacy Coalition",
+     "Houthis"
+    ],
+    "tags": [
+     "Saudi Arabia",
+     "Security",
+     "Houthi Attacks",
+     "Civil Defense",
+     "Military"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "65fa4e57033ab79c",
    "score": 9.858,
    "sources": [
@@ -1616,113 +1401,6 @@
    }
   },
   {
-   "key": "0fcc7694e80479de",
-   "score": 8.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Al-Refaie joins World Bank Human Capital Conclave in Bangkok",
-     "url": "https://kuwaittimes.com/article/51749/kuwait/al-refaie-joins-world-bank-human-capital-conclave-in-bangkok/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Minister of Finance Dr Yaqoub Al-Refaie took part in the ministerial Human Capital Conclave, held on the sidelines of the World Bank Group Board of Governors’ annual meetin...",
-     "body": "KUWAIT: Minister of Finance Dr Yaqoub Al-Refaie took part in the ministerial Human Capital Conclave, held on the sidelines of the World Bank Group Board of Governors’ annual meetings with the International Monetary Fund (IMF) in Bangkok from Oct 12 to 18. The ministry said in a press statement on Friday that the conclave brought together ministers from member countries of the Human Capital Project network, World Bank Group leaders and international experts. Among the topics discussed was how to support private capital in developing skills in the age of artificial intelligence (AI).\n\nParticipants also discussed how private sector investment and digital tools could widen access to high-quality programs that build the skills of students and workers in line with the changing needs of employers and the labor market, the ministry said. Other topics included the future of skills and how to finance their development amid rapid changes linked to AI and technology and shifting labor market needs. Participants also reviewed other countries’ experience in involving the private sector in skills development, and the tools and solutions the World Bank Group and its partners can offer.\n\nThe conclave focused on three main themes: the impact of AI in reshaping skills, training models and practical policies that can mobilize private sector investment in skills development, and the role of the World Bank Group and its partners in supporting scalable solutions.\n\nThe ministry said this year’s theme was chosen in light of the growing challenge of preparing young people for the labor market. World Bank Group estimates indicate that about 1.2 billion young people will enter the labor market over the next decade, while opportunities to gain the right skills and access good training remain limited in many countries. The World Bank Group believes government funding alone may not be enough to close a skills gap of this size, which calls for greater private sector participation in training and finance, the right regulatory environment and innovative financing and investment tools to develop human capital.\n\nAlso taking part were the ministry’s Director General for Economic Affairs Saad Al-Rasheedi and Director General for Budget and Public Accounting Affairs Ahmad Al-Omran. — KUNA\n\nKuwait, Arab and Muslim states condemn Colombia’s embassy opening in Jerusalem\n\nKuwait reaffirms Palestinian sovereignty over natural resources at UN\n\nTwo arrested for sneaking into Sabah Al-Ahmad reserve to hunt",
-     "published": "2026-10-17T07:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "Al-Refaie joins World Bank Human Capital Conclave in Bangkok",
-    "headline_ar": "الرفاعي يشارك في ملتقى رأس المال البشري للبنك الدولي في بانكوك",
-    "summary_en": "Finance Minister Dr. Yaqoub Al-Refaie participated in the World Bank's Human Capital Conclave in Bangkok, focusing on mobilizing private capital for skills development in the age of AI. The ministry highlighted discussions on private sector investment, digital tools, and financing models to address the skills gap for the 1.2 billion young people entering the labor market over the next decade.",
-    "summary_ar": "شارك وزير المالية الدكتور يوسف الرفاعي في ملتقى رأس المال البشري للبنك الدولي في بانكوك، والذي ركز على حشد رأس المال الخاص لتطوير المهارات في عصر الذكاء الاصطناعي. أبرزت الوزارة مناقشات حول استثمار القطاع الخاص والأدوات الرقمية ونماذج التمويل لمعالجة فجوة المهارات التي تواجه 1.2 مليار شاب سيدخلون سوق العمل خلال العقد المقبل.",
-    "why_it_matters_en": "Kuwait is actively seeking to diversify its economy away from oil, and human capital development is a core pillar of its National Vision. This participation signals a strategic shift towards leveraging private sector investment and international frameworks to address the specific challenge of preparing its youth for an AI-driven labor market, rather than relying solely on state-funded public sector jobs.",
-    "why_it_matters_ar": "تسعى الكويت بنشاط لتنويع اقتصادها بعيداً عن النفط، وتعد تنمية رأس المال البشري ركيزة أساسية لرؤيتها الوطنية. يشير هذا المشاركة إلى تحول استراتيجي نحو الاستفادة من استثمار القطاع الخاص والإطارات الدولية لمعالجة التحدي المحدد المتمثل في إعداد شبابها لسوق عمل يقوده الذكاء الاصطناعي، بدلاً من الاعتماد حصرياً على الوظائف الحكومية المدعومة من الدولة.",
-    "between_the_lines_en": "The press release is a standard KUNA statement, but the specific focus on 'private capital' and 'AI' is noteworthy. Kuwait's labor market has traditionally been dominated by the public sector. By highlighting the World Bank's view that 'government funding alone may not be enough,' the ministry is implicitly acknowledging the limitations of the current state-centric model for youth employment. The emphasis on AI is a direct response to global trends, signaling that Kuwait's skills development strategy is being recalibrated to focus on future-proofing its workforce, not just filling current vacancies. The presence of senior directors for Economic Affairs and Budget suggests this is a high-priority policy area.",
-    "between_the_lines_ar": "بيان الوزارة هو تصريح قياسي من كونا، لكن التركيز المحدد على 'رأس المال الخاص' و'الذكاء الاصطناعي' يستحق الانتباه. كان سوق العمل الكويتي تقليدياً تحت سيطرة القطاع العام. من خلال إبراز رأي البنك الدولي بأن 'تمويل الحكومة وحده قد لا يكون كافياً'، تعترف الوزارة ضمنيًا بحدود النموذج الحالي المتمركز حول الدولة في توظيف الشباب. التأكيد على الذكاء الاصطناعي هو استجابة مباشرة للاتجاهات العالمية، مما يشير إلى أن استراتيجية تطوير المهارات في الكويت تُعاد معايرتها للتركيز على حماية قوة العمل للمستقبل، وليس فقط ملء الشواغر الحالية. حضور مديري عامين كبار لشؤون الاقتصاد والميزانية يوحي بأن هذا مجال أولوية سياسية عالية.",
-    "watch_next_en": "Watch for any new government initiatives or partnerships with private sector entities focused on AI and digital skills training, and monitor the National Assembly for any discussions on reforming labor market regulations to encourage private sector investment in human capital.",
-    "watch_next_ar": "مراقبة أي مبادرات حكومية جديدة أو شراكات مع كيانات القطاع الخاص تركز على تدريب المهارات الرقمية والذكاء الاصطناعي، ومراقبة مجلس الأمة لأي نقاشات بشأن إصلاح لوائح سوق العمل لتشجيع استثمار القطاع الخاص في رأس المال البشري.",
-    "confidence": "high",
-    "confidence_reason": "The inference is strongly supported by the explicit focus on private capital, AI, and the acknowledgment of the limitations of government funding alone, which aligns with Kuwait's known economic diversification goals.",
-    "entities": [
-     "Dr. Yaqoub Al-Refaie",
-     "World Bank Group",
-     "IMF",
-     "Saad Al-Rasheedi",
-     "Ahmad Al-Omran",
-     "KUNA"
-    ],
-    "tags": [
-     "Economy",
-     "Human Capital",
-     "AI",
-     "Private Sector",
-     "Labor Market",
-     "National Vision"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "e80ba413538a07ea",
-   "score": 8.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait reaffirms Palestinian sovereignty over natural resources at UN",
-     "url": "https://kuwaittimes.com/article/51748/kuwait/kuwait-reaffirms-palestinian-sovereignty-over-natural-resources-at-un/",
-     "section": "kuwait",
-     "summary": "NEW YORK: Kuwait on Friday reaffirmed the Palestinian people’s permanent sovereignty over their natural resources, and stressed the need for the Israeli occupation to comply with i...",
-     "body": "NEW YORK: Kuwait on Friday reaffirmed the Palestinian people’s permanent sovereignty over their natural resources, and stressed the need for the Israeli occupation to comply with its obligations under international law. It called for an end to the occupation and the establishment of an independent Palestinian state on the June 4, 1967 borders, with East Jerusalem as its capital.\n\nDiplomatic Attaché Dalal Sharar made the remarks in Kuwait’s statement to the Second Committee (Economic and Financial) of the UN General Assembly. The committee was discussing agenda item 58, on the permanent sovereignty of the Palestinian people in the occupied Palestinian territory, including East Jerusalem, and of the Arab population in the occupied Syrian Golan over their natural resources.\n\nSharar said rebuilding the Gaza Strip, however important, could not replace ending the occupation and establishing an independent Palestinian state. She called for the ceasefire in Gaza to be consolidated and for humanitarian aid to reach the territory without obstacles. She also called for the UN Relief and Works Agency for Palestine Refugees (UNRWA) to be able to carry out its mandate, and for recovery and reconstruction to be led and owned by Palestinians, in line with UN Security Council Resolution 2803 of 2025.\n\nShe condemned continued settlement expansion, land and resource confiscation and settler violence in the West Bank, including East Jerusalem, saying these illegal practices undermine a viable Palestinian state, in violation of Security Council Resolution 2334 of 2016. She called for the release of withheld Palestinian revenues to ensure basic services continue. Citing a report by the UN Economic and Social Commission for Western Asia (ESCWA), she said withholding the revenues amounts to undermining development and denying Palestinians their right to self-determination and sovereignty over their resources.\n\nSharar cited UN estimates that human development in Gaza had been set back by the equivalent of 77 years, that unemployment had risen to 78 percent and that GDP per capita had fallen to 58 cents a day. Recovery and reconstruction needs are estimated at $71.5 billion, she said. As part of its support for the Palestinian people, Kuwait made its annual $2 million contribution to UNRWA and joined Jordan and Slovenia in launching an initiative on joint commitments for the agency, to help it maintain its vital services.\n\nOn the occupied Syrian Golan, Sharar reaffirmed the Arab population’s sovereignty over their natural resources and Kuwait’s rejection of their exploitation by the occupation. She called for compliance with Security Council Resolution 497 of 1981 and the 1974 Disengagement Agreement, and for respect for Syria’s sovereignty, unity, territorial integrity and regional security. She also stressed the need for Israel to comply with its obligations as confirmed by the International Court of Justice in its advisory opinions of 2024 and 2025. She praised ESCWA’s work documenting the economic and social impact of the occupation on Palestinians and on the Arab population of the occupied Golan. — KUNA\n\nTwo arrested for sneaking into Sabah Al-Ahmad reserve to hunt\n\nFriday sermon stresses Saudi security, rejects attacks on kingdom\n\nFour nationalities make up 86% of Kuwait’s domestic workers",
-     "published": "2026-10-17T07:05:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Kuwait reaffirms Palestinian sovereignty over natural resources at UN",
-    "headline_ar": "الكويت تؤكد على السيادة الفلسطينية على الموارد الطبيعية في الأمم المتحدة",
-    "summary_en": "Kuwait's UN statement, delivered by Diplomatic Attaché Dalal Sharar, reaffirmed Palestinian sovereignty over natural resources and called for an end to the occupation and the establishment of an independent state on 1967 borders. The statement condemned settlement expansion, called for the release of withheld Palestinian revenues, and cited UN data on Gaza's economic devastation, including a $71.5 billion reconstruction need.",
-    "summary_ar": "أكدت الكويت في بيانها أمام الأمم المتحدة، الذي ألقت به الملحق الدبلوماسي دلال شرار، على سيادة الفلسطينيين على مواردهم الطبيعية ودعت إلى إنهاء الاحتلال وإقامة دولة مستقلة على حدود 1967. أدان البيان توسع المستوطنات ودعا إلى الإفراج عن الإيرادات الفلسطينية الموقوفة، واستشهد ببيانات الأمم المتحدة حول الدمار الاقتصادي في غزة، بما في ذلك حاجة إعادة إعمار تبلغ 71.5 مليار دولار.",
-    "why_it_matters_en": "This is a standard diplomatic reaffirmation of Kuwait's long-standing position on the Palestinian issue. The specific citation of the $71.5 billion reconstruction figure and the call for the release of withheld revenues highlights Kuwait's focus on the economic dimensions of the conflict, aligning with its role as a major donor and its interest in regional stability. The mention of UNRWA and Kuwait's $2 million contribution underscores its continued financial commitment to Palestinian refugees.",
-    "why_it_matters_ar": "هذا تأكيد دبلوماسي قياسي على الموقف الكويتي الراسخ من القضية الفلسطينية. الإشارة المحددة إلى رقم إعادة الإعمار البالغ 71.5 مليار دولار والدعوة إلى الإفراج عن الإيرادات الموقوفة تبرز تركيز الكويت على الأبعاد الاقتصادية للنزاع، بما يتماشى مع دورها كممول رئيسي واهتمامها بالاستقرار الإقليمي. ذكر الأونروا والمساهمة الكويتية البالغة مليوني دولار يؤكد على التزامها المالي المستمر باللاجئين الفلسطينيين.",
-    "between_the_lines_en": "The statement is a KUNA reprint, so it reflects the official government line. The emphasis on 'natural resources' and 'withheld revenues' is a strategic choice. By framing the issue in economic and legal terms (sovereignty over resources, violation of international law), Kuwait is positioning itself as a defender of Palestinian economic rights, not just political rights. This framing is more palatable to international audiences and aligns with Kuwait's own economic interests in a stable, rules-based international order. The specific citation of ESCWA data and the ICJ advisory opinions lends legal and technical weight to the political stance, moving it beyond a purely rhetorical condemnation.",
-    "between_the_lines_ar": "البيان هو إعادة نشر من كونا، لذا يعكس الخط الحكومي الرسمي. التأكيد على 'الموارد الطبيعية' و'الإيرادات الموقوفة' هو اختيار استراتيجي. من خلال تقديم القضية في مصطلحات اقتصادية وقانونية (السيادة على الموارد، انتهاك القانون الدولي)، تضع الكويت نفسها كمدافع عن الحقوق الاقتصادية الفلسطينية، وليس فقط الحقوق السياسية. هذا التقديم أكثر قبولاً للجمهور الدولي ويتماشى مع المصالح الاقتصادية للكويت في نظام دولي مستقر قائم على القواعد. الاستشهاد المحدد ببيانات الإسكوا وآراء محكمة العدل الدولية الاستشارية يمنح الوزن القانوني والفني للموقف السياسي، مما ينقله إلى ما هو أبعد من الإدانة الخطابية البحتة.",
-    "watch_next_en": "Watch for any concrete financial commitments or diplomatic initiatives by Kuwait related to the $71.5 billion reconstruction plan for Gaza, and monitor for any changes in the status of the withheld Palestinian revenues.",
-    "watch_next_ar": "مراقبة أي التزامات مالية ملموسة أو مبادرات دبلوماسية من جانب الكويت تتعلق بخطة إعادة إعمار غزة البالغة 71.5 مليار دولار، ومراقبة أي تغييرات في حالة الإيرادات الفلسطينية الموقوفة.",
-    "confidence": "high",
-    "confidence_reason": "The inference is strongly supported by the specific focus on economic and legal aspects of the Palestinian issue, which is a consistent feature of Kuwait's diplomatic posture.",
-    "entities": [
-     "Dalal Sharar",
-     "UN General Assembly",
-     "UNRWA",
-     "ESCWA",
-     "ICJ",
-     "KUNA"
-    ],
-    "tags": [
-     "Diplomacy",
-     "Palestine",
-     "UN",
-     "Economic Rights",
-     "International Law"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "8003fd23b2043354",
    "score": 8.0,
    "sources": [
@@ -1775,7 +1453,7 @@
   },
   {
    "key": "bed05f462562fb25",
-   "score": 7.2,
+   "score": 7.875,
    "sources": [
     "الأنباء"
    ],
@@ -1792,32 +1470,45 @@
      "body": "بنك برقان يشارك في معرض وظيفتي 2026 للتواصل مع الشباب الكويتي وتعريفهم بالفرص المهنية المتاحة وثقافة العمل والتطور المستمر داخل البنك إلى جانب تسليط الضوء على مواهب الموظفين والتوعية المالية \"لنكن على دراية\"\n\n#بنك_برقان #وظيفتي2026 #BurganBank #التوظيف #الكفاءات_الوطنية #الكويت",
      "published": "2026-10-16T20:51:18+00:00",
      "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "جامعة AUM في معرض وظيفتي 2026",
+     "url": "https://www.alanba.com.kw/1380971",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-16T10:44:32+00:00",
+     "tier": 1
     }
    ],
    "category": "Economy & Business",
    "analysis": {
-    "headline_en": "Burgan Bank participates in Wathifati 2026 fair to engage with Kuwaiti youth and introduce them to career opportunities and work culture",
-    "headline_ar": "بنك برقان يشارك في معرض وظيفتي 2026 للتواصل مع الشباب الكويتي وتعريفهم بالفرص المهنية المتاحة وثقافة العمل والتطور المستمر داخل البنك إلى جانب تسليط الضوء على مواهب الموظفين والتوعية المالية \"لنكن على دراية\"",
-    "summary_en": "Burgan Bank is participating in the Wathifati 2026 career fair to engage with Kuwaiti youth, introduce them to career opportunities, and promote its work culture and financial literacy initiatives. The bank aims to highlight employee talents and raise financial awareness under the slogan 'Let's Be Aware.'",
-    "summary_ar": "يشارك بنك برقان في معرض وظيفتي 2026 للتواصل مع الشباب الكويتي وتعريفهم بالفرص المهنية المتاحة وتعزيز ثقافة العمل والمبادرات التوعوية المالية. يهدف البنك إلى إبراز مواهب الموظفين ورفع الوعي المالي تحت شعار 'لنكن على دراية'.",
-    "why_it_matters_en": "This is a standard corporate social responsibility and recruitment activity. It signals Burgan Bank's continued investment in local talent and its efforts to position itself as an employer of choice for Kuwaiti youth. The emphasis on financial literacy ('Let's Be Aware') aligns with broader national goals to improve financial inclusion and awareness among the population.",
-    "why_it_matters_ar": "هذه نشاط قياسي للمسؤولية الاجتماعية للشركات والتوظيف. يشير إلى استمرار استثمار بنك برقان في المواهب المحلية وجهوده لتأكيد مكانته كجهة عمل مفضلة للشباب الكويتي. التأكيد على التوعية المالية ('لنكن على دراية') يتماشى مع الأهداف الوطنية الأوسع لتحسين الشمول المالي والوعي بين السكان.",
-    "between_the_lines_en": "No significant subtext — this reads as a routine corporate announcement. The material is a single, brief headline with no body text, attribution, or context beyond the event name and slogan. There is no divergence, omission, or timing signal to interpret. It is a standard PR piece for a bank participating in a public career fair.",
-    "between_the_lines_ar": "لا يوجد سياق خفي مهم — هذا يبدو كإعلان شركة روتيني. المادة هي عنوان واحد قصير بدون نص رئيسي أو إسناد أو سياق beyond اسم الحدث والشعار. لا يوجد تفاوت أو حذف أو إشارة زمنية للتفسير. إنها قطعة علاقات عامة قياسية لبنك يشارك في معرض توظيف عام.",
-    "watch_next_en": "No specific watch item. Monitor for any major announcements from Burgan Bank regarding new financial products or digital initiatives aimed at youth, which might be a follow-up to this engagement.",
-    "watch_next_ar": "لا يوجد عنصر مراقبة محدد. راقب أي إعلانات كبيرة من بنك برقان بشأن منتجات مالية جديدة أو مبادرات رقمية موجهة للشباب، والتي قد تكون متابعة لهذا التفاعل.",
-    "confidence": "high",
-    "confidence_reason": "The material is minimal and contains no signals for subtext interpretation, making the 'no significant subtext' conclusion highly confident.",
+    "headline_en": "Burgan Bank participates in Wajifati 2026 exhibition",
+    "headline_ar": "بنك برقان يشارك في معرض وظيفتي 2026",
+    "summary_en": "Burgan Bank is participating in the 'Wajifati 2026' career fair to engage with Kuwaiti youth, highlight job opportunities, and promote financial literacy under the slogan 'Let's Be Aware.' The bank also aims to showcase employee talents and its corporate culture.",
+    "summary_ar": "يشارك بنك برقان في معرض 'وظيفتي 2026' للتواصل مع الشباب الكويتي، وتسليط الضوء على الفرص المهنية، وتعزيز الوعي المالي تحت شعار 'لنكن على دراية'. كما يهدف البنك إلى إبراز مواهب الموظفين وثقافته المؤسسية.",
+    "why_it_matters_en": "This highlights the ongoing pressure on private sector entities to actively participate in national employment initiatives aimed at reducing youth unemployment and increasing Kuwaiti participation in the private workforce. It signals a continued corporate commitment to 'Kuwaitization' efforts beyond mandatory quotas.",
+    "why_it_matters_ar": "يبرز هذا الضغط المستمر على كيانات القطاع الخاص للمشاركة الفعالة في المبادرات الوطنية للتوظيف التي تهدف إلى خفض بطالة الشباب وزيادة مشاركة الكويتيين في القوى العاملة الخاصة. يشير إلى التزام مؤسسي مستمر بمساعي 'التكويت' يتجاوز الحصص الإلزامية.",
+    "between_the_lines_en": "The report is a brief, promotional-style item from Al-Anbaa, a state-aligned outlet. The headline is unusually long and reads like a press release headline, suggesting it may be a syndicated corporate communication rather than independent reporting. The emphasis on 'financial literacy' and 'employee talents' alongside job opportunities suggests the bank is using the platform for brand building and corporate social responsibility (CSR) visibility, not just recruitment. The lack of specific data (number of jobs offered, specific roles) indicates this is a soft news piece intended to maintain positive public relations with the state and the public, rather than a hard news report on labor market statistics.",
+    "between_the_lines_ar": "التقرير عبارة عن خبر قصير بأسلوب ترويجي من صحيفة الأنباء، وهي صحيفة ذات توجه حكومي. العنوان طويل بشكل غير معتاد ويبدو كعنوان لبيان صحفي، مما يشير إلى أنه قد يكون اتصالات مؤسسية مشتركة بدلاً من تغطية مستقلة. التأكيد على 'الوعي المالي' و'مواهب الموظفين' إلى جانب فرص العمل يوحي بأن البنك يستخدم المنصة لبناء العلامة التجارية والرؤية الاجتماعية للمؤسسة (CSR)، وليس فقط للتوظيف. غياب البيانات المحددة (عدد الوظائف المعروضة، الأدوار المحددة) يشير إلى أن هذا خبر ناعم يهدف إلى الحفاظ على علاقات عامة إيجابية مع الدولة والجمهور، بدلاً من تقرير إخباري صلب حول إحصاءات سوق العمل.",
+    "watch_next_en": "Check if the Ministry of Commerce and Industry or the National Labor Authority publishes updated statistics on private sector Kuwaiti employment ratios following such events.",
+    "watch_next_ar": "تحقق مما إذا كانت وزارة التجارة والصناعة أو الهيئة الوطنية للقوى العاملة تنشر إحصاءات محدثة لنسب التوظيف الكويتي في القطاع الخاص بعد مثل هذه الفعاليات.",
+    "confidence": "medium",
+    "confidence_reason": "The text is clearly promotional, but the specific strategic intent (branding vs. recruitment) is inferred from the tone and lack of hard data.",
     "entities": [
      "Burgan Bank",
-     "Wathifati 2026"
+     "Wajifati 2026",
+     "Al-Anbaa"
     ],
     "tags": [
-     "Business",
-     "Banking",
-     "Youth Employment",
-     "Financial Literacy",
-     "Corporate PR"
+     "Employment",
+     "Private Sector",
+     "Corporate Social Responsibility",
+     "Kuwaitization",
+     "Finance"
     ],
     "_source": "llm"
    }
@@ -2038,30 +1729,6 @@
    }
   },
   {
-   "key": "4d88b912aa787985",
-   "score": 6.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "هل تساعد المشروبات الدايت على خسارة الوزن؟.. دراسة تجيب",
-     "url": "https://www.alraimedia.com/article/1782953/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%87%D9%84-%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A7%D9%8A%D8%AA-%D8%B9%D9%84%D9%89-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AA%D8%AC%D9%8A%D8%A8",
-     "section": "latest",
-     "summary": "لطالما أثارت المشروبات الغازية الخالية من السكر، المعروفة باسم «الدايت»، جدلاً بين خبراء التغذية في شأن دورها في إنقاص الوزن وتأثيراتها الصحية على المدى الطويل. فبينما يرى بعض الخب...",
-     "body": "",
-     "published": "2026-10-17T04:49:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "6ec340a6deddfb40",
    "score": 6.557,
    "sources": [
@@ -2077,37 +1744,145 @@
      "url": "https://www.alraimedia.com/article/1782954/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%AF%D9%8A%D9%88%D9%83%D9%88%D9%81%D9%8A%D8%AA%D8%B4-%D9%8A%D8%B9%D9%88%D8%AF-%D8%A5%D9%84%D9%89-%D8%A8%D8%A7%D8%B2%D9%84-%D8%A8%D8%B9%D8%AF-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%B7%D9%88%D9%8A%D9%84-%D8%A3%D9%85%D9%84%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%A3%D9%87%D9%84-%D9%84%D9%84%D8%A8%D8%B7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AE%D8%AA%D8%A7%D9%85%D9%8A%D8%A9",
      "section": "latest",
      "summary": "حصل ​نوفاك ديوكوفيتش أمس الجمعة على بطاقة دعوة ⁠للمشاركة في بطولة بازل للتنس، التي سيشارك فيها ​للمرة الأولى منذ عام 2011، ضمن مساعي اللاعب الحائز على 24 لقبا في البطولات ‌الأ...",
-     "body": "",
+     "body": "حصل ​نوفاك ديوكوفيتش أمس الجمعة على بطاقة دعوة ⁠للمشاركة في بطولة بازل للتنس، التي سيشارك فيها ​للمرة الأولى منذ عام 2011، ضمن مساعي اللاعب الحائز على 24 لقبا في البطولات ‌الأربع الكبرى للتأهل للبطولة الختامية للموسم وإحراز اللقب رقم 103 في مسيرته.\n\nويخوض الصربي البالغ من العمر 39 عاما البطولة السويسرية بعد جولة آسيوية متباينة الأداء، حيث حصد لقب بطولة الصين ⁠المفتوحة للمرة السابعة، وهو رقم قياسي، قبل أن يتعرض لهزيمة مفاجئة أمام البولندي خوبرت هوركاتش في ⁠الدور الثاني لبطولة شنغهاي التي سبق له الفوز بها أربع ⁠مرات، وهو رقم ‌قياسي.\n\nويأتي قرار إضافة بطولة بازل إلى جدول مشاركاته بمثابة مفاجأة، بعد أن صرح ديوكوفيتش عقب خروجه المبكر من شنغهاي بأنه يعتزم المشاركة فقط ​في بطولة باريس للأساتذة المقررة من الثاني إلى الثامن من نوفمبر، قبل البطولة الختامية للموسم.\n\nوتتيح بطولة بازل لديوكوفيتش فرصة تعزيز حظوظه في المشاركة للمرة 17 في البطولة الختامية، حيث يحتل الصربي الآن المركز ​11 في قائمة المتنافسين على التأهل للبطولة المقررة في تورينو، ويحتاج إلى ⁠إنهاء ‌الموسم ضمن المراكز التسعة ​الأولى، إذ يغيب المصنف الأول عالميا يانيك سينر عن الملاعب حتى نهاية عام 2026 بسبب إصابة ‌في الركبة.\n\nوسيشارك ديوكوفيتش للمرة الرابعة في بطولة بازل، بعد أن توج بها عام ⁠2009 بفوزه على السويسري روجر ⁠فيدرر ⁠في النهائي.\n\nو​ينضم ديوكوفيتش في البطولة إلى مجموعة بارزة من اللاعبين منهم الكندي فيلكس أوجيه ألياسيم والأمريكيان بن شيلتون وتيلور فريتز، وتقام البطولة المنتمية لفئة 500 نقطة على الملاعب الصلبة من 26 أكتوبر إلى أول نوفمبر.",
      "published": "2026-10-17T06:19:00+03:00",
      "tier": 1
     }
    ],
    "category": "Sport",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "Djokovic returns to Basel after long absence, hoping to qualify for the Finals",
+    "headline_ar": "ديوكوفيتش يعود إلى بازل بعد غياب طويل أملاً في التأهل للبطولة الختامية",
+    "summary_en": "Novak Djokovic has received a wildcard to play in the Basel Open, his first appearance there since 2011, following a mixed Asian tour where he won the China Open but lost early in Shanghai. The 39-year-old Serbian is aiming to secure a spot in the season-ending tournament in Turin, where he currently ranks 11th in the race.",
+    "summary_ar": "حصل نوفاك ديوكوفيتش على بطاقة دعوة للمشاركة في بطولة بازل للتنس، وهي أول مشاركة له هناك منذ عام 2011، وذلك بعد جولة آسيوية متباينة حصد فيها لقب بطولة الصين المفتوحة قبل أن يخسر مبكراً في شنغهاي. ويسعى اللاعب الصربي البالغ من العمر 39 عاماً إلى ضمان مقعده في بطولة نهاية الموسم المقررة في تورينو، حيث يحتل حالياً المركز الحادي عشر في سباق التأهل.",
+    "why_it_matters_en": "This is a routine international sports update with no direct political, economic, or social impact on Kuwait. It serves as standard lifestyle content for the sports section.",
+    "why_it_matters_ar": "يُعد هذا الخبر تحديثاً روتينياً للرياضة الدولية لا يحمل أي تأثير سياسي أو اقتصادي أو اجتماعي مباشر على الكويت، ويأتي ضمن المحتوى الرياضي القياسي الذي تقدمه الصحف.",
+    "between_the_lines_en": "No significant subtext. The article is a straightforward reprint of international sports news. The only notable detail is the explicit mention of Jannik Sinner’s injury keeping him out until the end of 2026, which provides the context for Djokovic’s realistic chance at the Finals, but this is standard factual reporting rather than a hidden political or local agenda.",
+    "between_the_lines_ar": "لا يوجد سياق خفي جوهري. الخبر عبارة عن إعادة نشر مباشرة لأخبار رياضية دولية. التفصيل الوحيد اللافت هو الإشارة الصريحة إلى إصابة يانيك سينر التي ستبقيه بعيداً عن الملاعب حتى نهاية عام 2026، مما يوفر السياق لفرصة ديوكوفيتش الواقعية في بطولة الختام، لكن هذا يُعد تغطية واقعية قياسية وليس أجندة سياسية أو محلية خفية.",
+    "watch_next_en": "Djokovic’s performance in Basel (Oct 26 - Nov 1) and whether he finishes the season in the top 9 to qualify for Turin.",
+    "watch_next_ar": "أداء ديوكوفيتش في بطولة بازل (26 أكتوبر - 1 نوفمبر) وما إذا كان سينهي الموسم ضمن المراكز التسعة الأولى للتأهل إلى تورينو.",
+    "confidence": "high",
+    "confidence_reason": "The material is a single, clear sports report with no ambiguity or hidden local angles.",
+    "entities": [
+     "Novak Djokovic",
+     "Basel Open",
+     "China Open",
+     "Shanghai Masters",
+     "Jannik Sinner",
+     "Al-Rai Newspaper"
+    ],
+    "tags": [
+     "Tennis",
+     "Sports",
+     "International",
+     "Djokovic"
+    ],
+    "_source": "llm"
+   }
   },
   {
-   "key": "d02d1bfca6a62d60",
-   "score": 6.553,
+   "key": "ac56247027eb7009",
+   "score": 6.059,
    "sources": [
-    "الرأي"
+    "Kuwait Times"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب يرفع بعض العقوبات والقيود والرسوم المفروضة على روسيا",
-     "url": "https://www.alraimedia.com/article/1782952/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B1%D9%81%D8%B9-%D8%A8%D8%B9%D8%B6-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%82%D9%8A%D9%88%D8%AF-%D9%88%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%85-%D8%A7%D9%84%D9%85%D9%81%D8%B1%D9%88%D8%B6%D8%A9-%D8%B9%D9%84%D9%89-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
-     "section": "latest",
-     "summary": "قال ‌الرئيس الأميركي دونالد ترامب في ⁠أمر ⁠تنفيذي صدر ⁠اليوم ‌السبت إنه يعفي روسيا ‌من بعض العقوبات والقيود والرسوم ​المنصوص ⁠عليها في قانون ​لينزي أو. ⁠جراهام الذي...",
-     "body": "",
-     "published": "2026-10-17T03:52:00+03:00",
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Four nationalities make up 86% of Kuwait’s domestic workers",
+     "url": "https://kuwaittimes.com/article/51734/kuwait/four-nationalities-make-up-86-of-kuwaits-domestic-workers/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Four nationalities account for about 86.1 percent of all domestic workers in Kuwait, with 760,744 out of a total of 883,308, according to statistics from the Public Authori...",
+     "body": "KUWAIT: Four nationalities account for about 86.1 percent of all domestic workers in Kuwait, with 760,744 out of a total of 883,308, according to statistics from the Public Authority for Civil Information (PACI).\n\nIndians top the list with 344,532 domestic workers, or about 39 percent of the total, well ahead of all other nationalities. Sri Lankans rank second with 157,901 workers, or 17.9 percent, followed closely by Filipinos with 151,369, or 17.1 percent. Bangladeshis are fourth with 106,942 workers, or 12.1 percent.\n\nTogether, the four nationalities make up more than 8 in every 10 domestic workers in the country. The remaining 13.9 percent, about 122,564 workers, are spread across all other nationalities.\n\nThe figures show how concentrated Kuwait’s domestic workforce is among a small number of nationalities, with Indians alone making up nearly 4 in every 10 workers in the sector.— PACI\n\nCapital security campaign nets 232 wanted persons, violators\n\nSix arrested with drugs in four separate cases",
+     "published": "2026-10-16T12:52:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Four nationalities make up 86% of Kuwait’s domestic workers",
+    "headline_ar": "أربع جنسيات تشكل 86% من العمالة المنزلية في الكويت",
+    "summary_en": "Statistics from the Public Authority for Civil Information (PACI) show that four nationalities account for 86.1% of Kuwait's domestic workers, totaling 760,744 out of 883,308. Indians are the largest group (39%), followed by Sri Lankans (17.9%), Filipinos (17.1%), and Bangladeshis (12.1%).",
+    "summary_ar": "تظهر إحصاءات الهيئة العامة للمعلومات المدنية أن أربع جنسيات تشكل 86.1% من العمالة المنزلية في الكويت، بإجمالي 760,744 من أصل 883,308. الهند هي المجموعة الأكبر (39%)، تليها سريلانكا (17.9%)، والفلبين (17.1%)، وبنغلاديش (12.1%).",
+    "why_it_matters_en": "The high concentration of domestic workers from just four nationalities highlights the structural dependency of Kuwait's household labor market on specific source countries. This concentration poses risks related to labor supply shocks, diplomatic relations with these countries, and the effectiveness of labor regulations, as changes in policy in one source country can significantly impact the availability of domestic workers in Kuwait.",
+    "why_it_matters_ar": "التركيز العالي للعمالة المنزلية من أربع جنسيات فقط يبرز الاعتماد الهيكلي لسوق العمل المنزلي الكويتي على دول مصدر محددة. يشكل هذا التركيز مخاطر تتعلق بصدمة العرض في القوى العاملة، والعلاقات الدبلوماسية مع هذه الدول، وفعالية لوائح العمل، حيث يمكن للتغييرات في سياسة دولة مصدر واحدة أن تؤثر بشكل كبير على توفر العمالة المنزلية في الكويت.",
+    "between_the_lines_en": "The report from Kuwait Times presents raw PACI statistics without editorial commentary on the implications of this concentration. The headline emphasizes the percentage (86%), which is a striking figure that underscores the lack of diversity in the domestic workforce. The absence of context regarding why these four nationalities dominate (e.g., bilateral agreements, cost, cultural factors) or any mention of government efforts to diversify the labor source suggests the story is a straightforward data release. However, the timing of such a release could be linked to ongoing discussions about labor market reforms or bilateral labor agreements. The fact that it is carried by an English-language outlet suggests it is aimed at an international or expatriate audience, possibly to inform them about the composition of the workforce they interact with.",
+    "between_the_lines_ar": "يقدم تقرير تايمز أوف الكويت إحصاءات الهيئة العامة للمعلومات المدنية الخام دون تعليق تحريري على آثار هذا التركيز. يؤكد العنوان على النسبة (86%)، وهي رقم لافت يبرز نقص التنوع في القوى العاملة المنزلية. غياب السياق حول سبب هيمنة هذه الجنسيات الأربع (مثل الاتفاقيات الثنائية، التكلفة، العوامل الثقافية) أو أي ذكر لجهود الحكومة لتنويع مصادر القوى العاملة يوحي بأن القصة هي إطلاق بيانات مباشر. ومع ذلك، قد يكون توقيت مثل هذا الإطلاق مرتبطاً بمناقشات جارية حول إصلاحات سوق العمل أو الاتفاقيات الثنائية للقوى العاملة. حقيقة أنها تنشر في صحيفة باللغة الإنجليزية تشير إلى أنها موجهة لجمهور دولي أو مقيم، ربما لإعلامهم بتكوين القوى العاملة التي يتفاعلون معها.",
+    "watch_next_en": "Watch for any new bilateral labor agreements between Kuwait and the four dominant source countries, or announcements from the Ministry of Social Affairs regarding labor market diversification.",
+    "watch_next_ar": "راقب أي اتفاقيات ثنائية جديدة للقوى العاملة بين الكويت والدول الأربع المهيمنة كمصدر، أو إعلانات من وزارة الشؤون الاجتماعية بشأن تنويع سوق العمل.",
+    "confidence": "medium",
+    "confidence_reason": "The data is factual, but the inference about the strategic implications and the target audience is based on the nature of the outlet and the lack of editorial context.",
+    "entities": [
+     "Public Authority for Civil Information (PACI)",
+     "Kuwait Times",
+     "India",
+     "Sri Lanka",
+     "Philippines",
+     "Bangladesh"
+    ],
+    "tags": [
+     "Labor Market",
+     "Statistics",
+     "Domestic Workers",
+     "Demographics",
+     "Economy"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "a45443b697186e58",
+   "score": 6.058,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Friday sermon stresses Saudi security, rejects attacks on kingdom",
+     "url": "https://kuwaittimes.com/article/51735/kuwait/friday-sermon-stresses-saudi-security-rejects-attacks-on-kingdom/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Kuwait’s Ministry of Awqaf and Islamic Affairs stressed the importance of preserving Saudi Arabia’s security and stability on Friday, and rejected any attack targeting the...",
+     "body": "KUWAIT: Kuwait’s Ministry of Awqaf and Islamic Affairs stressed the importance of preserving Saudi Arabia’s security and stability on Friday, and rejected any attack targeting the kingdom’s territory or terrorizing its people. The message came in the Friday sermon the ministry prepared for mosques across the country, which highlighted the deep fraternal and historical bonds between Kuwait and Saudi Arabia and the shared destiny of the two countries. The ministry said Saudi Arabia holds a great place in the hearts of Muslims as the land of the Two Holy Mosques and the birthplace of Islam.\n\nThe sermon said Islam is founded on mercy, justice, security, peace, love and brotherhood, and seeks to protect human life, dignity, rights and property. It said Islamic law forbids injustice, aggression against innocent lives and the terrorizing of people, describing these as grave wrongs rejected by Islamic law and human nature.\n\nThe sermon praised Saudi Arabia’s service of the Two Holy Mosques, its care for pilgrims and its work to facilitate Hajj and Umrah, describing these as great deeds felt by Muslims around the world. It said the ties binding Kuwait and Saudi Arabia rest on religion, neighborliness, history and a shared destiny. These fraternal ties call for loyalty and sincere affection, the sermon said, and for standing by the kingdom in everything that serves its welfare, security and stability, and rejecting any attack on its people or resources.\n\nIt also stressed the importance of instilling in future generations love of country, loyalty to brothers and respect for rights, and of promoting cooperation and solidarity as a means of protecting nations. The sermon concluded with prayers for God to protect Saudi Arabia, Kuwait and the other Gulf Cooperation Council (GCC) states and Arab and Muslim countries, and to bless their peoples with security and stability. — KUNA\n\nFour nationalities make up 86% of Kuwait’s domestic workers\n\nCapital security campaign nets 232 wanted persons, violators",
+     "published": "2026-10-16T13:13:00+03:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "Friday sermon stresses Saudi security, rejects attacks on kingdom",
+    "headline_ar": "خطبة الجمعة تؤكد على الأمن السعودي وترفض أي هجمات على المملكة",
+    "summary_en": "The Ministry of Awqaf and Islamic Affairs issued a Friday sermon emphasizing the importance of preserving Saudi Arabia's security and stability. The sermon rejected any attacks on the kingdom's territory or people, citing Islamic principles of mercy and justice.",
+    "summary_ar": "أصدرت وزارة الأوقاف والشؤون الإسلامية خطبة الجمعة تؤكد على أهمية الحفاظ على الأمن والاستقرار في المملكة العربية السعودية. رفضت الخطبة أي هجمات على أراضي المملكة أو شعبها، مستشهدة بمبادئ الرحمة والعدل في الإسلام.",
+    "why_it_matters_en": "State-directed religious messaging that explicitly rejects attacks on a specific neighbor is a strong political signal. It indicates that Kuwait is positioning itself firmly against regional instability or specific threats targeting Saudi Arabia, likely in response to recent regional tensions or security incidents.",
+    "why_it_matters_ar": "الرسائل الدينية الموجهة من الدولة والتي ترفض صراحةً الهجمات على جارٍ محدد هي إشارة سياسية قوية. تشير إلى أن الكويت تموضع نفسها بحزم ضد عدم الاستقرار الإقليمي أو التهديدات المحددة التي تستهدف المملكة العربية السعودية، على الأرجح استجابةً للتوترات الإقليمية الأخيرة أو الحوادث الأمنية.",
+    "between_the_lines_en": "The use of the term 'rejects any attack' rather than just 'condemns' suggests a preemptive stance against potential future incidents, not just a reaction to a past one. The sermon's focus on 'shared destiny' and 'loyalty' serves to unify domestic public opinion behind the state's foreign policy stance, particularly if there is internal debate or uncertainty about regional conflicts. The timing (Friday) ensures maximum reach and religious legitimacy for the political message.",
+    "between_the_lines_ar": "استخدام مصطلح 'ترفض أي هجوم' بدلاً من مجرد 'تدين' يوحي بموقف استباقي ضد حوادث محتملة في المستقبل، وليس مجرد رد فعل على حدث سابق. يخدم تركيز الخطبة على 'القدر المشترك' و'الولاء' توحيد الرأي العام الداخلي خلف الموقف السياسي للدولة، خاصة إذا كان هناك جدل أو عدم يقين داخلي بشأن الصراعات الإقليمية. يضمن التوقيت (الجمعة) أقصى وصول ومشروعية دينية للرسالة السياسية.",
+    "watch_next_en": "Monitor for any subsequent diplomatic statements from Kuwaiti officials regarding specific regional conflicts or security incidents involving Saudi Arabia.",
+    "watch_next_ar": "راقب أي تصريحات دبلوماسية لاحقة من المسؤولين الكويتيين بشأن صراعات إقليمية محددة أو حوادث أمنية تشمل المملكة العربية السعودية.",
+    "confidence": "high",
+    "confidence_reason": "The explicit political nature of the sermon's content and its state-directed origin make the intent clear.",
+    "entities": [
+     "Ministry of Awqaf and Islamic Affairs",
+     "Saudi Arabia",
+     "Kuwait",
+     "GCC"
+    ],
+    "tags": [
+     "Politics",
+     "Religion",
+     "Regional Security",
+     "Saudi-Kuwait Relations",
+     "State Messaging"
+    ],
+    "_source": "llm"
+   }
   },
   {
    "key": "7afa5439d59bd332",
@@ -2125,13 +1900,38 @@
      "url": "https://www.alanba.com.kw/1380970",
      "section": "kuwait",
      "summary": "",
-     "body": "",
+     "body": "مع برنامج Premium من بيت التمويل الكويتي تقدر تنجز معاملاتك عن طريق مدير حسابك الشخصي وتستفيد من خدمات ومزايا مالية متنوعة\n\nتعرف على تفاصيل البرنامج وشروط الانضمام خلال التقرير التالي#بيت_التمويل_الكويتي #KFH #Premium",
      "published": "2026-10-16T10:16:47+00:00",
      "tier": 1
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "Premium program from Kuwait Finance House and banking services with special benefits",
+    "headline_ar": "برنامج Premium من بيت التمويل الكويتي وخدمات مصرفية بمزايا خاصة",
+    "summary_en": "Kuwait Finance House (KFH) is promoting its 'Premium' program, which offers customers the ability to manage transactions through a personal account manager and access various financial services and benefits. The report invites readers to learn more about the program's details and eligibility conditions.",
+    "summary_ar": "يروج بيت التمويل الكويتي (KFH) لبرنامجه 'Premium'، الذي يتيح للعملاء إدارة المعاملات من خلال مدير حساب شخصي والوصول إلى خدمات ومزايا مالية متنوعة. يدعو التقرير القراء إلى معرفة المزيد من تفاصيل البرنامج وشروط الانضمام.",
+    "why_it_matters_en": "This is a promotional piece for a high-net-worth banking product. It indicates KFH's continued focus on attracting and retaining wealthy clients through personalized service, which is a key revenue stream for major Kuwaiti banks. The emphasis on a 'personal account manager' highlights the competitive nature of the premium banking segment in Kuwait.",
+    "why_it_matters_ar": "هذا مقال ترويجي لمنتج مصرفي موجه للأثرياء. يشير إلى استمرار تركيز بيت التمويل الكويتي على جذب والاحتفاظ بالعملاء الأثرياء من خلال الخدمة الشخصية، وهو مصدر دخل رئيسي للبنوك الكويتية الكبرى. يؤكد التركيز على 'مدير حساب شخصي' على الطابع التنافسي لقطاع الخدمات المصرفية المميزة في الكويت.",
+    "between_the_lines_en": "The brevity of the report and its purely promotional tone suggest it is an advertorial or sponsored content rather than independent journalism. The lack of specific details (interest rates, minimum balance, specific benefits) indicates that the goal is to drive traffic to KFH's website or branches for further engagement, rather than to inform the reader fully. This type of content is common in Kuwaiti media as a revenue source for newspapers.",
+    "between_the_lines_ar": "إيجاز التقرير ونبرته الترويجية الخالصة يوحيان بأنه محتوى إعلاني أو مدعوم وليس صحافة مستقلة. غياب التفاصيل المحددة (معدلات الفائدة، الرصيد الأدنى، المزايا المحددة) يشير إلى أن الهدف هو توجيه الزيارات إلى موقع KFH أو فروعها للتفاعل الإضافي، بدلاً من إعلام القارئ بشكل كامل. هذا النوع من المحتوى شائع في وسائل الإعلام الكويتية كمصدر دخل للصحف.",
+    "watch_next_en": "None. This is a static promotional message.",
+    "watch_next_ar": "لا يوجد. هذا رسالة ترويجية ثابتة.",
+    "confidence": "high",
+    "confidence_reason": "The format and content clearly identify this as promotional material rather than news reporting.",
+    "entities": [
+     "Kuwait Finance House",
+     "KFH",
+     "Premium Program"
+    ],
+    "tags": [
+     "Banking",
+     "Finance",
+     "Advertising",
+     "Wealth Management"
+    ],
+    "_source": "llm"
+   }
   },
   {
    "key": "7f2f7c76ad3ad19e",
@@ -2149,17 +1949,47 @@
      "url": "https://www.alanba.com.kw/1380962",
      "section": "kuwait",
      "summary": "",
-     "body": "",
+     "body": "أكدوا في بيان مشترك أن أي إجراء أو قرار يهدف إلى تغيير الوضع القانوني أو التاريخي للقدس باطل وملغى\n\nأدان وزراء خارجية دولة الكويت، والمملكة الأردنية الهاشمية، والجمهورية الجزائرية الديمقراطية الشعبية، وجمهورية إندونيسيا، وجمهورية باكستان الإسلامية، والجمهورية التركية، وجمهورية جيبوتي، والمملكة العربية السعودية، وجمهورية السودان، والجمهورية العربية السورية، وجمهورية الصومال الفيدرالية، وسلطنة عُمان، ودولة فلسطين، ودولة قطر، والجمهورية اللبنانية، ودولة ليبيا، وماليزيا، وجمهورية مصر العربية، والجمهورية اليمنية، بشدة، وأعربوا عن رفضهم القاطع لقيام جمهورية كولومبيا بافتتاح سفارتها في القدس، وهي خطوة تتعارض مع قرارات مجلس الأمن الدولي ذات الصلة، وتقوض الجهود الدولية الرامية إلى تحقيق سلام عادل ودائم قائم على حل الدولتين.‏وأعاد الوزراء التأكيد على أن أي إجراء أو قرار يهدف إلى تغيير الوضع القانوني أو التاريخي للقدس المحتلة، أو الاعتراف بها عاصمة لإسرائيل، هو إجراء باطل وملغى ولا يترتب عليه أي أثر قانوني. ويتماشى هذا الموقف مع قرارات مجلس الأمن والجمعية العامة للأمم المتحدة ذات الصلة، ولا سيما قراري مجلس الأمن رقم 476 (لعام 1980) ورقم 478 (لعام 1980)، اللذين يرفضان محاولات تغيير طابع القدس أو وضعها، ويدعوان الدول إلى سحب بعثاتها الدبلوماسية من المدينة التي تُعد جزءاً من الأراضي الفلسطينية المحتلة عام 1967.‏كما دعا الوزراء الحكومة الكولومبية إلى إعادة النظر في هذا القرار والتراجع عنه، والوفاء بالتزاماتها بموجب القانون الدولي، والامتناع عن اتخاذ تدابير تمس بالحقوق المشروعة للشعب الفلسطيني، بما في ذلك حقه في إقامة دولة فلسطينية مستقلة وذات سيادة تكون القدس الشرقية عاصمة لها.",
      "published": "2026-10-16T09:37:27+00:00",
      "tier": 1
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "Kuwait and 18 other countries condemn Colombia's opening of embassy in Jerusalem",
+    "headline_ar": "الكويت و18 دولة أدانوا قيام كولومبيا بافتتاح سفارتها في القدس: خطوة تقوض الجهود الرامية لتحقيق سلام عادل ودائم",
+    "summary_en": "Foreign ministers from Kuwait and 18 other nations, including Jordan, Saudi Arabia, and Egypt, issued a joint statement strongly condemning Colombia's decision to open its embassy in Jerusalem. The statement declared the move null and void, citing UN Security Council resolutions 476 and 478, and called on Colombia to reverse the decision to uphold international law and the two-state solution.",
+    "summary_ar": "أدان وزراء خارجية الكويت و18 دولة أخرى، من بينها الأردن والسعودية ومصر، بشدة قرار كولومبيا بافتتاح سفارتها في القدس. واعتبر البيان المشترك هذه الخطوة باطلة وملغاة استناداً إلى قرارات مجلس الأمن 476 و478، ودعا الحكومة الكولومبية إلى التراجع عن القرار حفاظاً على القانون الدولي وحل الدولتين.",
+    "why_it_matters_en": "This signals a unified diplomatic front among Arab and Muslim-majority states against any shift in the status quo regarding Jerusalem, reinforcing Kuwait's role in coordinating regional foreign policy on the Palestinian issue. It also highlights the diplomatic isolation Colombia faces by defying this consensus.",
+    "why_it_matters_ar": "يؤكد البيان الجبهة الدبلوماسية الموحدة بين الدول العربية والمسلمة ضد أي تغيير في الوضع الراهن للقدس، ويعزز دور الكويت في تنسيق السياسة الخارجية الإقليمية بشأن القضية الفلسطينية. كما يسلط الضوء على العزلة الدبلوماسية التي تواجهها كولومبيا بتجاهلها هذا الإجماع.",
+    "between_the_lines_en": "The inclusion of Syria in this specific list of 19 nations is a notable diplomatic signal, suggesting a temporary alignment or at least a shared stance on this specific issue despite broader regional tensions. The attribution is to 'Foreign Ministers' collectively, avoiding individual national statements, which suggests a pre-coordinated, high-level consensus rather than a reactive ad-hoc response. The strong legal language ('null and void') is standard but the specific call for Colombia to 'reconsider' indicates a desire to keep the door open for diplomatic correction rather than immediate punitive measures.",
+    "between_the_lines_ar": "تضمين سوريا في قائمة الدول الـ19 الموقعة على هذا البيان المحدد هو إشارة دبلوماسية لافتة، مما يوحي بمواءمة مؤقتة أو على الأقل موقف مشترك بشأن هذه القضية تحديداً رغم التوترات الإقليمية الأوسع. ينسب البيان إلى 'وزراء الخارجية' جماعياً، مما يتجنب التصريحات الوطنية الفردية، مما يشير إلى إجماع منسق مسبق على مستوى عالٍ بدلاً من رد فعل طارئ. اللغة القانونية القوية ('باطلة وملغاة') قياسية، لكن الدعوة المحددة لكولومبيا إلى 'إعادة النظر' تشير إلى رغبة في إبقاء الباب مفتوحاً للتصحيح الدبلوماسي بدلاً من إجراءات عقابية فورية.",
+    "watch_next_en": "Watch for any official response from Colombia or the US regarding this joint condemnation, and monitor if other non-Arab/non-Muslim countries join this specific diplomatic stance.",
+    "watch_next_ar": "راقب أي رد رسمي من كولومبيا أو الولايات المتحدة بشأن هذا الإدانة المشتركة، وراقب ما إذا كانت دول غير عربية أو غير مسلمة ستلتحق بهذا الموقف الدبلوماسي المحدد.",
+    "confidence": "high",
+    "confidence_reason": "The list of countries is explicit, and the diplomatic language is standard for such joint statements, allowing for clear analysis of the coalition's composition.",
+    "entities": [
+     "Kuwait",
+     "Colombia",
+     "Jordan",
+     "Saudi Arabia",
+     "Egypt",
+     "Syria",
+     "UN Security Council"
+    ],
+    "tags": [
+     "Diplomacy",
+     "Middle East",
+     "Palestine",
+     "Foreign Policy",
+     "Jerusalem"
+    ],
+    "_source": "llm"
+   }
   },
   {
-   "key": "370cd9c84d05ccd0",
-   "score": 5.755,
+   "key": "14f40dccfe4c574d",
+   "score": 5.959,
    "sources": [
     "الرأي"
    ],
@@ -2169,12 +1999,12 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "كوريا الشمالية تجري تجربة على طوربيد جديد مزود بتقنيات ذكاء اصطناعي",
-     "url": "https://www.alraimedia.com/article/1782950/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%AC%D8%B1%D9%8A-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D8%B7%D9%88%D8%B1%D8%A8%D9%8A%D8%AF-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%85%D8%B2%D9%88%D8%AF-%D8%A8%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
-     "section": "latest",
-     "summary": "ذكرت وكالة الأنباء المركزية ​الكورية التابعة للدولة ‌اليوم السبت أن كوريا الشمالية أجرت يوم الخميس تجربة ⁠تحت الماء لنظام ⁠سلاح طوربيد جديد ⁠للتحقق ‌من تحسينات تقنية، واص...",
+     "title": "دراسة: النشاط البدني يبطئ تدهور الحركة والذاكرة لدى مرضى باركنسون",
+     "url": "https://www.alraimedia.com/article/1782955/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D9%86%D8%B4%D8%A7%D8%B7-%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A-%D9%8A%D8%A8%D8%B7%D8%A6-%D8%AA%D8%AF%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A9-%D9%88%D8%A7%D9%84%D8%B0%D8%A7%D9%83%D8%B1%D8%A9-%D9%84%D8%AF%D9%89-%D9%85%D8%B1%D8%B6%D9%89-%D8%A8%D8%A7%D8%B1%D9%83%D9%86%D8%B3%D9%88%D9%86",
+     "section": "last-page",
+     "summary": "يُعد باركنسون، أو الشلل الرعاش، اضطراباً عصبياً تقدمياً قد يسبب الرعشة وبطء الحركة ومشكلات التوازن، وقد يؤثر أيضاً في الذاكرة والتفكير. ورغم أهمية النشاط البدني في تحسين الحركة، لا...",
      "body": "",
-     "published": "2026-10-17T01:44:00+03:00",
+     "published": "2026-10-17T07:23:00+03:00",
      "tier": 1
     }
    ],
@@ -2182,8 +2012,8 @@
    "analysis": {}
   },
   {
-   "key": "8774f728fc7e8657",
-   "score": 5.752,
+   "key": "4d88b912aa787985",
+   "score": 5.959,
    "sources": [
     "الرأي"
    ],
@@ -2193,16 +2023,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«موديز» ترفع تصنيف مصر الائتماني بفضل ضبط المالية العامة وإصلاحات هيكلية",
-     "url": "https://www.alraimedia.com/article/1782949/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D9%88%D8%AF%D9%8A%D8%B2-%D8%AA%D8%B1%D9%81%D8%B9-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86%D9%8A-%D8%A8%D9%81%D8%B6%D9%84-%D8%B6%D8%A8%D8%B7-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%88%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D9%87%D9%8A%D9%83%D9%84%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "​رفعت ‌وكالة موديز العالمية للتصنيف الائتماني ⁠⁠الجمعة ⁠التصنيف ‌السيادي طويل الأجل لمصر ‌من (Caa1) إلى (B3)، وذلك ​في ظل ⁠ما تشهده ​من ضبط ⁠قوي لأوضاع ‌المالية...",
+     "title": "هل تساعد المشروبات الدايت على خسارة الوزن؟.. دراسة تجيب",
+     "url": "https://www.alraimedia.com/article/1782953/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%87%D9%84-%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A7%D9%8A%D8%AA-%D8%B9%D9%84%D9%89-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AA%D8%AC%D9%8A%D8%A8",
+     "section": "last-page",
+     "summary": "لطالما أثارت المشروبات الغازية الخالية من السكر، المعروفة باسم «الدايت»، جدلاً بين خبراء التغذية في شأن دورها في إنقاص الوزن وتأثيراتها الصحية على المدى الطويل. فبينما يرى بعض الخب...",
      "body": "",
-     "published": "2026-10-17T00:40:00+03:00",
+     "published": "2026-10-17T04:49:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Security & Courts",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2278,30 +2108,6 @@
    "analysis": {}
   },
   {
-   "key": "f5c88cc88200a3b6",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الحكومة الأميركية: ازدياد عجز موازنة 2026 الى نحو تريليوني دولار",
-     "url": "https://www.alraimedia.com/article/1782944/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%A7%D8%B2%D8%AF%D9%8A%D8%A7%D8%AF-%D8%B9%D8%AC%D8%B2-%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9-2026-%D8%A7%D9%84%D9%89-%D9%86%D8%AD%D9%88-%D8%AA%D8%B1%D9%8A%D9%84%D9%8A%D9%88%D9%86%D9%8A-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "latest",
-     "summary": "أظهرت بيانات حكومية أميركية الجمعة أن عجز الموازنة ارتفع إلى نحو تريليوني دولار خلال العام الماضي ليصل بذلك إلى أعلى مستوى له منذ عام 2021، رغم وعود الرئيس دونالد ترامب بخفض الإنفا...",
-     "body": "",
-     "published": "2026-10-16T21:16:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "8c93a6c3eac17f49",
    "score": 5.159,
    "sources": [
@@ -2319,102 +2125,6 @@
      "summary": "شارك الصندوق الكويتي للتنمية الاقتصادية العربية اليوم الجمعة في الجلسة العامة للاجتماعات السنوية لمجلس محافظي مجموعة البنك الدولي وصندوق النقد الدولي المنعقدة في العاصمة التايلاندي...",
      "body": "",
      "published": "2026-10-16T19:19:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "cfd8acb23fd3a2da",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "مصر تستدعي القائم بالأعمال الكولومبي احتجاجاً على افتتاح بلاده سفارة بالقدس",
-     "url": "https://www.alraimedia.com/article/1782941/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D8%B5%D8%B1-%D8%AA%D8%B3%D8%AA%D8%AF%D8%B9%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85-%D8%A8%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%84%D9%88%D9%85%D8%A8%D9%8A-%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A8%D9%84%D8%A7%D8%AF%D9%87-%D8%B3%D9%81%D8%A7%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%82%D8%AF%D8%B3",
-     "section": "latest",
-     "summary": "استدعت وزارة الخارجية المصرية القائم بالأعمال الكولومبي في القاهرة اليوم الجمعة للاعراب عن احتجاج مصر الشديد ورفضها القاطع لقيام كولومبيا بافتتاح سفارة في القدس المحتلة.ونقلت وكالة...",
-     "body": "",
-     "published": "2026-10-16T19:12:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "0314aa06941dd455",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "وزير المالية اللبناني يؤكد المضي بالإصلاحات ومحورية الربط الإقليمي بالمنطقة",
-     "url": "https://www.alraimedia.com/article/1782940/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D9%8A%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D9%85%D8%B6%D9%8A-%D8%A8%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D9%88%D9%85%D8%AD%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B1%D8%A8%D8%B7-%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9",
-     "section": "latest",
-     "summary": "أكد وزير المالية اللبناني ياسين جابر اليوم الجمعة أن حكومة بلاده ماضية في مسار الإصلاح رغم تداعيات النزاع الإقليمي «والهشاشة الاقتصادية» داعيا إلى جعل الربط في مجالات الطاقة والنقل...",
-     "body": "",
-     "published": "2026-10-16T19:10:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "bf306e506c1e1893",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«يونيسف»: مقتل أكثر من 340 طفلاً في غزة منذ إعلان إيقاف إطلاق النار",
-     "url": "https://www.alraimedia.com/article/1782937/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%8A%D9%88%D9%86%D9%8A%D8%B3%D9%81-%D9%85%D9%82%D8%AA%D9%84-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-340-%D8%B7%D9%81%D9%84%D8%A7-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%85%D9%86%D8%B0-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A5%D9%8A%D9%82%D8%A7%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1",
-     "section": "latest",
-     "summary": "أعلنت منظمة الأمم المتحدة للطفولة (يونيسف) اليوم الجمعة مقتل أكثر من 340 طفلا وإصابة مئات آخرين في قطاع غزة منذ إعلان إيقاف إطلاق النار قبل أكثر من عام محذرة من استمرار سقوط الضحاي...",
-     "body": "",
-     "published": "2026-10-16T18:19:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "1475b1d0990cd555",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التحالف: دمرنا 3 طائرات مسيّرة بالمنطقة الجنوبية ومنطقة الرياض",
-     "url": "https://www.alraimedia.com/article/1782934/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AF%D9%85%D8%B1%D9%86%D8%A7-3-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9-%D9%88%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
-     "section": "latest",
-     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي، اليوم الجمعة، أنّه خلال الساعات الماضية تم اعتراض وتدمير صاروخ باليستي أطلق باتجاه ينب...",
-     "body": "",
-     "published": "2026-10-16T17:18:00+03:00",
      "tier": 1
     }
    ],
@@ -2467,30 +2177,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "d9e21c6c0df519f3",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الرئيس اللبناني: نؤكد تضامننا مع الأشقاء في دول مجلس التعاون",
-     "url": "https://www.alraimedia.com/article/1782927/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D9%86%D8%A4%D9%83%D8%AF-%D8%AA%D8%B6%D8%A7%D9%85%D9%86%D9%86%D8%A7-%D9%85%D8%B9-%D8%A7%D9%84%D8%A3%D8%B4%D9%82%D8%A7%D8%A1-%D9%81%D9%8A-%D8%AF%D9%88%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86",
-     "section": "latest",
-     "summary": "جدد الرئيس اللبناني جوزاف عون اليوم، التأكيد على تضامن بلاده قيادة وشعبا مع الأشقاء في دول مجلس التعاون الخليجي وإدانته للاعتداءات التي تعرضت لها دول المجلس وآخرها تلك التي طالت ال...",
-     "body": "",
-     "published": "2026-10-16T14:52:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -2566,7 +2252,7 @@
    "analysis": {}
   },
   {
-   "key": "3ac4809b8a7cc9bf",
+   "key": "370cd9c84d05ccd0",
    "score": 5.155,
    "sources": [
     "الرأي"
@@ -2577,16 +2263,88 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "ترامب: لست مسؤولاً عن عدم إتاحة خدمة ستارلينك بأوكرانيا",
-     "url": "https://www.alraimedia.com/article/1782943/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D8%B3%D8%AA-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D8%A7-%D8%B9%D9%86-%D8%B9%D8%AF%D9%85-%D8%A5%D8%AA%D8%A7%D8%AD%D8%A9-%D8%AE%D8%AF%D9%85%D8%A9-%D8%B3%D8%AA%D8%A7%D8%B1%D9%84%D9%8A%D9%86%D9%83-%D8%A8%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
-     "section": "latest",
-     "summary": "قال الرئيس الأميركي ​دونالد ترامب اليوم ‌الجمعة إنه ليس مسؤولا عن عدم إتاحة خدمة ⁠ستارلينك للإنترنت عبر ⁠الأقمار الصناعية ⁠في ‌أوكرانيا، وإنه لا يعتقد أيضا أن إيلون ماسك،...",
+     "title": "كوريا الشمالية تجري تجربة على طوربيد جديد مزود بتقنيات ذكاء اصطناعي",
+     "url": "https://www.alraimedia.com/article/1782950/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%AC%D8%B1%D9%8A-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D8%B7%D9%88%D8%B1%D8%A8%D9%8A%D8%AF-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%85%D8%B2%D9%88%D8%AF-%D8%A8%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+     "section": "world",
+     "summary": "ذكرت وكالة الأنباء المركزية ​الكورية التابعة للدولة ‌اليوم السبت أن كوريا الشمالية أجرت يوم الخميس تجربة ⁠تحت الماء لنظام ⁠سلاح طوربيد جديد ⁠للتحقق ‌من تحسينات تقنية، واص...",
      "body": "",
-     "published": "2026-10-16T20:55:00+03:00",
+     "published": "2026-10-17T01:44:00+03:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "d02d1bfca6a62d60",
+   "score": 5.153,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب يرفع بعض العقوبات والقيود والرسوم المفروضة على روسيا",
+     "url": "https://www.alraimedia.com/article/1782952/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B1%D9%81%D8%B9-%D8%A8%D8%B9%D8%B6-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%82%D9%8A%D9%88%D8%AF-%D9%88%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%85-%D8%A7%D9%84%D9%85%D9%81%D8%B1%D9%88%D8%B6%D8%A9-%D8%B9%D9%84%D9%89-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
+     "section": "world",
+     "summary": "قال ‌الرئيس الأميركي دونالد ترامب في ⁠أمر ⁠تنفيذي صدر ⁠اليوم ‌السبت إنه يعفي روسيا ‌من بعض العقوبات والقيود والرسوم ​المنصوص ⁠عليها في قانون ​لينزي أو. ⁠جراهام الذي...",
+     "body": "",
+     "published": "2026-10-17T03:52:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "8774f728fc7e8657",
+   "score": 5.152,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«موديز» ترفع تصنيف مصر الائتماني بفضل ضبط المالية العامة وإصلاحات هيكلية",
+     "url": "https://www.alraimedia.com/article/1782949/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D9%88%D8%AF%D9%8A%D8%B2-%D8%AA%D8%B1%D9%81%D8%B9-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86%D9%8A-%D8%A8%D9%81%D8%B6%D9%84-%D8%B6%D8%A8%D8%B7-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%88%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D9%87%D9%8A%D9%83%D9%84%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "​رفعت ‌وكالة موديز العالمية للتصنيف الائتماني ⁠⁠الجمعة ⁠التصنيف ‌السيادي طويل الأجل لمصر ‌من (Caa1) إلى (B3)، وذلك ​في ظل ⁠ما تشهده ​من ضبط ⁠قوي لأوضاع ‌المالية...",
+     "body": "",
+     "published": "2026-10-17T00:40:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "e77a529427b74bb5",
+   "score": 5.118,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بنك الخليج يوفر فرص توظيف فورية للشباب في معرض «وظيفتي»",
+     "url": "https://www.alraimedia.com/article/1782946/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D9%8A%D9%88%D9%81%D8%B1-%D9%81%D8%B1%D8%B5-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D9%81%D9%88%D8%B1%D9%8A%D8%A9-%D9%84%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D9%81%D9%8A-%D9%85%D8%B9%D8%B1%D8%B6-%D9%88%D8%B8%D9%8A%D9%81%D8%AA%D9%8A",
+     "section": "latest",
+     "summary": "بنك الخليج يوفر فرص توظيف فورية للشباب في معرض «وظيفتي»",
+     "body": "",
+     "published": "2026-10-16T21:41:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -2662,6 +2420,30 @@
    "analysis": {}
   },
   {
+   "key": "59e5789018fe1684",
+   "score": 4.8,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«التحالف»: اعتراض وتدمير صاروخ باليستي باتجاه ينبع و3 مُسيَّرات في المنطقة الجنوبية والرياض",
+     "url": "https://www.alanba.com.kw/1380980",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-16T14:16:26+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "d721007493d1c04b",
    "score": 4.559,
    "sources": [
@@ -2710,6 +2492,126 @@
    "analysis": {}
   },
   {
+   "key": "cfd8acb23fd3a2da",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "مصر تستدعي القائم بالأعمال الكولومبي احتجاجاً على افتتاح بلاده سفارة بالقدس",
+     "url": "https://www.alraimedia.com/article/1782941/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D8%B5%D8%B1-%D8%AA%D8%B3%D8%AA%D8%AF%D8%B9%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85-%D8%A8%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%84%D9%88%D9%85%D8%A8%D9%8A-%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A8%D9%84%D8%A7%D8%AF%D9%87-%D8%B3%D9%81%D8%A7%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%82%D8%AF%D8%B3",
+     "section": "world",
+     "summary": "استدعت وزارة الخارجية المصرية القائم بالأعمال الكولومبي في القاهرة اليوم الجمعة للاعراب عن احتجاج مصر الشديد ورفضها القاطع لقيام كولومبيا بافتتاح سفارة في القدس المحتلة.ونقلت وكالة...",
+     "body": "",
+     "published": "2026-10-16T19:12:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "0314aa06941dd455",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وزير المالية اللبناني يؤكد المضي بالإصلاحات ومحورية الربط الإقليمي بالمنطقة",
+     "url": "https://www.alraimedia.com/article/1782940/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D9%8A%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D9%85%D8%B6%D9%8A-%D8%A8%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D9%88%D9%85%D8%AD%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B1%D8%A8%D8%B7-%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9",
+     "section": "world",
+     "summary": "أكد وزير المالية اللبناني ياسين جابر اليوم الجمعة أن حكومة بلاده ماضية في مسار الإصلاح رغم تداعيات النزاع الإقليمي «والهشاشة الاقتصادية» داعيا إلى جعل الربط في مجالات الطاقة والنقل...",
+     "body": "",
+     "published": "2026-10-16T19:10:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "bf306e506c1e1893",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«يونيسف»: مقتل أكثر من 340 طفلاً في غزة منذ إعلان إيقاف إطلاق النار",
+     "url": "https://www.alraimedia.com/article/1782937/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%8A%D9%88%D9%86%D9%8A%D8%B3%D9%81-%D9%85%D9%82%D8%AA%D9%84-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-340-%D8%B7%D9%81%D9%84%D8%A7-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%85%D9%86%D8%B0-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A5%D9%8A%D9%82%D8%A7%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1",
+     "section": "world",
+     "summary": "أعلنت منظمة الأمم المتحدة للطفولة (يونيسف) اليوم الجمعة مقتل أكثر من 340 طفلا وإصابة مئات آخرين في قطاع غزة منذ إعلان إيقاف إطلاق النار قبل أكثر من عام محذرة من استمرار سقوط الضحاي...",
+     "body": "",
+     "published": "2026-10-16T18:19:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "1475b1d0990cd555",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: دمرنا 3 طائرات مسيّرة بالمنطقة الجنوبية ومنطقة الرياض",
+     "url": "https://www.alraimedia.com/article/1782934/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AF%D9%85%D8%B1%D9%86%D8%A7-3-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9-%D9%88%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي، اليوم الجمعة، أنّه خلال الساعات الماضية تم اعتراض وتدمير صاروخ باليستي أطلق باتجاه ينب...",
+     "body": "",
+     "published": "2026-10-16T17:18:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "d9e21c6c0df519f3",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الرئيس اللبناني: نؤكد تضامننا مع الأشقاء في دول مجلس التعاون",
+     "url": "https://www.alraimedia.com/article/1782927/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D9%86%D8%A4%D9%83%D8%AF-%D8%AA%D8%B6%D8%A7%D9%85%D9%86%D9%86%D8%A7-%D9%85%D8%B9-%D8%A7%D9%84%D8%A3%D8%B4%D9%82%D8%A7%D8%A1-%D9%81%D9%8A-%D8%AF%D9%88%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86",
+     "section": "world",
+     "summary": "جدد الرئيس اللبناني جوزاف عون اليوم، التأكيد على تضامن بلاده قيادة وشعبا مع الأشقاء في دول مجلس التعاون الخليجي وإدانته للاعتداءات التي تعرضت لها دول المجلس وآخرها تلك التي طالت ال...",
+     "body": "",
+     "published": "2026-10-16T14:52:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "74e5953b0550936e",
    "score": 4.559,
    "sources": [
@@ -2734,54 +2636,6 @@
    "analysis": {}
   },
   {
-   "key": "69ba0a2824843e18",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "السعودية ترحب ببيان مجلس الأمن وما تضمنه من إدانة للهجمات الحوثية ضد المملكة",
-     "url": "https://www.alraimedia.com/article/1782925/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D9%88%D9%85%D8%A7-%D8%AA%D8%B6%D9%85%D9%86%D9%87-%D9%85%D9%86-%D8%A5%D8%AF%D8%A7%D9%86%D8%A9-%D9%84%D9%84%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9",
-     "section": "latest",
-     "summary": "رحبت السعودية بالبيان الرئاسي الصادر عن أعضاء مجلس الأمن بشأن الهجمات ضد المملكة، وما تضمنه من إدانة للهجمات المتواصلة والتصعيدية التي تشنها ميليشيا الحوثي الإرهابية ضد المملكة، بم...",
-     "body": "",
-     "published": "2026-10-16T13:48:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "ac56247027eb7009",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Four nationalities make up 86% of Kuwait’s domestic workers",
-     "url": "https://kuwaittimes.com/article/51734/kuwait/four-nationalities-make-up-86-of-kuwaits-domestic-workers/",
-     "section": "latest",
-     "summary": "KUWAIT: Four nationalities account for about 86.1 percent of all domestic workers in Kuwait, with 760,744 out of a total of 883,308, according to statistics from the Public Authori...",
-     "body": "",
-     "published": "2026-10-16T12:52:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "9518bfff189642b3",
    "score": 4.559,
    "sources": [
@@ -2803,30 +2657,6 @@
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "71f2b48dc83dc8af",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الاتحاد الأوروبي: «الوقت ليس مناسبا» للكف عن مساعدة أوكرانيا ورفع العقوبات عن روسيا",
-     "url": "https://www.alraimedia.com/article/1782921/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%A7%D9%84%D9%88%D9%82%D8%AA-%D9%84%D9%8A%D8%B3-%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A7-%D9%84%D9%84%D9%83%D9%81-%D8%B9%D9%86-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B9%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
-     "section": "latest",
-     "summary": "شدد مسؤولا في الاتحاد الأوروبي الجمعة في بروكسل على أن «الوقت ليس مناسبا» للكف عن مساعدة كييف ورفع العقوبات عن موسكو، في موقف يشكّل دعما للرئيس الأوكراني فولوديمير زيلينسكي بينما ي...",
-     "body": "",
-     "published": "2026-10-16T11:28:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3334,30 +3164,6 @@
    "analysis": {}
   },
   {
-   "key": "a45443b697186e58",
-   "score": 4.558,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Friday sermon stresses Saudi security, rejects attacks on kingdom",
-     "url": "https://kuwaittimes.com/article/51735/kuwait/friday-sermon-stresses-saudi-security-rejects-attacks-on-kingdom/",
-     "section": "latest",
-     "summary": "KUWAIT: Kuwait’s Ministry of Awqaf and Islamic Affairs stressed the importance of preserving Saudi Arabia’s security and stability on Friday, and rejected any attack targeting the...",
-     "body": "",
-     "published": "2026-10-16T13:13:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "33fc2bca9507b82e",
    "score": 4.558,
    "sources": [
@@ -3430,6 +3236,30 @@
    "analysis": {}
   },
   {
+   "key": "3ac4809b8a7cc9bf",
+   "score": 4.555,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب: لست مسؤولاً عن عدم إتاحة خدمة ستارلينك بأوكرانيا",
+     "url": "https://www.alraimedia.com/article/1782943/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D8%B3%D8%AA-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D8%A7-%D8%B9%D9%86-%D8%B9%D8%AF%D9%85-%D8%A5%D8%AA%D8%A7%D8%AD%D8%A9-%D8%AE%D8%AF%D9%85%D8%A9-%D8%B3%D8%AA%D8%A7%D8%B1%D9%84%D9%8A%D9%86%D9%83-%D8%A8%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
+     "section": "world",
+     "summary": "قال الرئيس الأميركي ​دونالد ترامب اليوم ‌الجمعة إنه ليس مسؤولا عن عدم إتاحة خدمة ⁠ستارلينك للإنترنت عبر ⁠الأقمار الصناعية ⁠في ‌أوكرانيا، وإنه لا يعتقد أيضا أن إيلون ماسك،...",
+     "body": "",
+     "published": "2026-10-16T20:55:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "365a4896f02f2f1f",
    "score": 4.554,
    "sources": [
@@ -3447,30 +3277,6 @@
      "summary": "كشفت القوات المسلحة اليمنية اليوم عن تنفيذها نحو 1300 استهداف ضد الحوثيين وتحقيق تقدم في مأرب ضمن العمليات المستمرة لعملية «فجر اليمن»وقالت اليوم الجمعة إنها نفذت 1292...",
      "body": "",
      "published": "2026-10-16T20:39:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "d9eb2dea8a7bcd1b",
-   "score": 4.554,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "زلزال بقوة 7 درجات يهز شبه جزيرة كامتشاتكا الروسية",
-     "url": "https://www.alraimedia.com/article/1782916/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D8%A8%D9%82%D9%88%D8%A9-7-%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D9%8A%D9%87%D8%B2-%D8%B4%D8%A8%D9%87-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D9%83%D8%A7%D9%85%D8%AA%D8%B4%D8%A7%D8%AA%D9%83%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "​أفاد ‌المركز الأوروبي-المتوسطي لرصد الزلازل بأن ⁠زلزالا ⁠بلغت ⁠قوته ‌سبع درجات ضرب منطقة ‌شبه جزيرة كامتشاتكا ​في روسيا ⁠اليوم الجمعة.وأضاف ​المركز أن ⁠الزلزال &zwn...",
-     "body": "",
-     "published": "2026-10-16T07:22:00+03:00",
      "tier": 1
     }
    ],
@@ -3646,6 +3452,78 @@
    "analysis": {}
   },
   {
+   "key": "69ba0a2824843e18",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "السعودية ترحب ببيان مجلس الأمن وما تضمنه من إدانة للهجمات الحوثية ضد المملكة",
+     "url": "https://www.alraimedia.com/article/1782925/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D8%A8%D9%8A%D8%A7%D9%86-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D9%88%D9%85%D8%A7-%D8%AA%D8%B6%D9%85%D9%86%D9%87-%D9%85%D9%86-%D8%A5%D8%AF%D8%A7%D9%86%D8%A9-%D9%84%D9%84%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9",
+     "section": "world",
+     "summary": "رحبت السعودية بالبيان الرئاسي الصادر عن أعضاء مجلس الأمن بشأن الهجمات ضد المملكة، وما تضمنه من إدانة للهجمات المتواصلة والتصعيدية التي تشنها ميليشيا الحوثي الإرهابية ضد المملكة، بم...",
+     "body": "",
+     "published": "2026-10-16T13:48:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "71f2b48dc83dc8af",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الاتحاد الأوروبي: «الوقت ليس مناسبا» للكف عن مساعدة أوكرانيا ورفع العقوبات عن روسيا",
+     "url": "https://www.alraimedia.com/article/1782921/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%A7%D9%84%D9%88%D9%82%D8%AA-%D9%84%D9%8A%D8%B3-%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A7-%D9%84%D9%84%D9%83%D9%81-%D8%B9%D9%86-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B9%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
+     "section": "world",
+     "summary": "شدد مسؤولا في الاتحاد الأوروبي الجمعة في بروكسل على أن «الوقت ليس مناسبا» للكف عن مساعدة كييف ورفع العقوبات عن موسكو، في موقف يشكّل دعما للرئيس الأوكراني فولوديمير زيلينسكي بينما ي...",
+     "body": "",
+     "published": "2026-10-16T11:28:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "d9eb2dea8a7bcd1b",
+   "score": 3.954,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "زلزال بقوة 7 درجات يهز شبه جزيرة كامتشاتكا الروسية",
+     "url": "https://www.alraimedia.com/article/1782916/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D8%A8%D9%82%D9%88%D8%A9-7-%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D9%8A%D9%87%D8%B2-%D8%B4%D8%A8%D9%87-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D9%83%D8%A7%D9%85%D8%AA%D8%B4%D8%A7%D8%AA%D9%83%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "​أفاد ‌المركز الأوروبي-المتوسطي لرصد الزلازل بأن ⁠زلزالا ⁠بلغت ⁠قوته ‌سبع درجات ضرب منطقة ‌شبه جزيرة كامتشاتكا ​في روسيا ⁠اليوم الجمعة.وأضاف ​المركز أن ⁠الزلزال &zwn...",
+     "body": "",
+     "published": "2026-10-16T07:22:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "3263a54d43d42b16",
    "score": 3.355,
    "sources": [
@@ -3683,7 +3561,7 @@
      "lang": "en",
      "title": "Katie Zacharia: She Came, She Saw … She Was Gone in Just 5 Days",
      "url": "https://www.arabtimesonline.com/news/katie-zacharia-she-came-she-saw-she-was-gone-in-just-5-days/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 16: Katie Zacharia is no longer serving as White House press secretary after just five days in the role, bringing an abrupt end to a turbulent tenure marked by crit...",
      "body": "",
      "published": "2026-10-16T22:36:00+03:00",
@@ -3691,6 +3569,78 @@
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "56de6aa44d04f75a",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Two Jailed and Fined After Sneaking Into Sabah Al-Ahmad Reserve; Vehicle Sent to Crusher",
+     "url": "https://www.arabtimesonline.com/news/two-jailed-and-fined-after-sneaking-into-sabah-al-ahmad-reserve-vehicle-sent-to-crusher/",
+     "section": "crime",
+     "summary": "KUWAIT CITY, Oct 16: Kuwait’s Ministry of Interior has arrested two individuals for trespassing into the Sabah Al-Ahmad Nature Reserve in a vehicle without license plates, allegedl...",
+     "body": "",
+     "published": "2026-10-16T21:01:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "220b06a2f6026d5b",
+   "score": 3.258,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Four Asians Arrested for Gambling in Open Area in Kuwait's Salhiya",
+     "url": "https://www.arabtimesonline.com/news/four-asians-arrested-for-gambling-in-open-area-in-kuwaits-salhiya/",
+     "section": "crime",
+     "summary": "KUWAIT CITY, Oct 16: Capital Security patrols arrested four Asian nationals for allegedly gambling in an open, unpaved area in Salhiya after receiving a report about the activity,...",
+     "body": "",
+     "published": "2026-10-16T20:04:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "29c4eb4211613aa7",
+   "score": 3.258,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "17 Held in 5 Star Hotel Raid in Kuwait, Five Men Found Nearly Naked in Women’s Dancewear",
+     "url": "https://www.arabtimesonline.com/news/17-held-in-5-star-hotel-raid-in-kuwait-five-men-found-nearly-naked-in-womens-dancewear/",
+     "section": "crime",
+     "summary": "KUWAIT CITY, Oct 16: Seventeen people were arrested during a raid on a five-star hotel in Kuwait’s Capital Governorate early Friday following a complaint about loud noise, blaring...",
+     "body": "",
+     "published": "2026-10-16T19:51:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -3707,7 +3657,7 @@
      "lang": "en",
      "title": "India’s Tiranga Protest Swells as Thousands Defy Arrests and Restrictions Over Voter Roll Deletions",
      "url": "https://www.arabtimesonline.com/news/indias-tiranga-protest-swells-as-thousands-defy-arrests-and-restrictions-over-voter-roll-deletions/",
-     "section": "latest",
+     "section": "general",
      "summary": "NEW DELHI, Oct 16: A protest calling for the unfurling of the Indian national flag at Central Park in Connaught Place descended into chaos on Friday, with police detaining hundreds...",
      "body": "",
      "published": "2026-10-16T20:31:00+03:00",
@@ -3731,7 +3681,7 @@
      "lang": "en",
      "title": "Yemen Forces Launch 1,292 Strikes on Houthi Targets in 24 Hours, Coalition Says",
      "url": "https://www.arabtimesonline.com/news/yemen-forces-launch-1292-strikes-on-houthi-targets-in-24-hours-coalition-says/",
-     "section": "latest",
+     "section": "general",
      "summary": "ADEN, Oct 16: Yemeni government forces carried out 1,292 targeted military operations against Houthi positions over the past 24 hours as part of the military offensive dubbed “Yeme...",
      "body": "",
      "published": "2026-10-16T19:42:00+03:00",
@@ -3755,7 +3705,7 @@
      "lang": "en",
      "title": "Yemen’s Taiz Faces Shutdown of Power, Water Services as Fuel Supplies Blocked",
      "url": "https://www.arabtimesonline.com/news/yemens-taiz-faces-shutdown-of-power-water-services-as-fuel-supplies-blocked/",
-     "section": "latest",
+     "section": "general",
      "summary": "ADEN, Oct 16: Electricity and water stations, along with waste collection services, have shut down in Yemen’s Taiz province after fuel supplies were blocked, the province’s governo...",
      "body": "",
      "published": "2026-10-16T19:27:00+03:00",
@@ -3763,54 +3713,6 @@
     }
    ],
    "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "220b06a2f6026d5b",
-   "score": 2.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Four Asians Arrested for Gambling in Open Area in Kuwait's Salhiya",
-     "url": "https://www.arabtimesonline.com/news/four-asians-arrested-for-gambling-in-open-area-in-kuwaits-salhiya/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 16: Capital Security patrols arrested four Asian nationals for allegedly gambling in an open, unpaved area in Salhiya after receiving a report about the activity,...",
-     "body": "",
-     "published": "2026-10-16T20:04:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "29c4eb4211613aa7",
-   "score": 2.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "17 Held in 5 Star Hotel Raid in Kuwait, Five Men Found Nearly Naked in Women’s Dancewear",
-     "url": "https://www.arabtimesonline.com/news/17-held-in-5-star-hotel-raid-in-kuwait-five-men-found-nearly-naked-in-womens-dancewear/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 16: Seventeen people were arrested during a raid on a five-star hotel in Kuwait’s Capital Governorate early Friday following a complaint about loud noise, blaring...",
-     "body": "",
-     "published": "2026-10-16T19:51:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3827,7 +3729,7 @@
      "lang": "en",
      "title": "12 Attacks on Ships in One Week as Hormuz Shipping Plunges 70%",
      "url": "https://www.arabtimesonline.com/news/12-attacks-on-ships-in-one-week-as-hormuz-shipping-plunges-70/",
-     "section": "latest",
+     "section": "general",
      "summary": "LONDON, Oct 16: Twelve attacks on vessels were reported over the past week in the Strait of Hormuz, the Persian Gulf and the Gulf of Oman, with one vessel lost, the United Kingdom...",
      "body": "",
      "published": "2026-10-16T19:34:00+03:00",
@@ -3835,30 +3737,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "e47f8f25afc36b54",
-   "score": 2.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "‘At 14, They Will Be Pregnant’: Afghan Parents Promise Toddlers as Brides to Survive",
-     "url": "https://www.arabtimesonline.com/news/at-14-they-will-be-pregnant-afghan-parents-promise-toddlers-as-brides-to-survive/",
-     "section": "latest",
-     "summary": "KABUL, Oct 16: “I expect them to be beaten, but there is nothing I can do about it. And at 14, they will be pregnant.”The heartbreaking words of an Afghan mother capture the despe...",
-     "body": "",
-     "published": "2026-10-16T14:11:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3923,7 +3801,7 @@
      "lang": "en",
      "title": "Saudi Arabia Executes Two Bangladeshis Over Sex Act Inside Makkah Mosque",
      "url": "https://www.arabtimesonline.com/news/saudi-arabia-executes-two-bangladeshis-over-sex-act-inside-makkah-mosque/",
-     "section": "latest",
+     "section": "general",
      "summary": "RIYADH, Oct 16: Saudi Arabia has executed two Bangladeshi nationals convicted of committing what authorities described as an immoral act (sexual intercourse) inside a mosque in Mak...",
      "body": "",
      "published": "2026-10-16T13:18:00+03:00",
@@ -3931,6 +3809,30 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "2bbaf94d1a638f4b",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "19 Countries, Including Kuwait, Condemn Colombia’s Embassy Opening in Jerusalem",
+     "url": "https://www.arabtimesonline.com/news/19-countries-including-kuwait-condemn-colombias-embassy-opening-in-jerusalem/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 16: The foreign ministers of 19 countries, including Kuwait, Türkiye, Saudi Arabia, Egypt and Pakistan, have strongly condemned Colombia’s inauguration of its emba...",
+     "body": "",
+     "published": "2026-10-16T12:58:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3947,7 +3849,7 @@
      "lang": "en",
      "title": "A Wake-Up Call for Indians: First Name Deleted From Voter List, Then Home Gone",
      "url": "https://www.arabtimesonline.com/news/a-wake-up-call-for-indians-first-name-deleted-from-voter-list-then-home-gone/",
-     "section": "latest",
+     "section": "general",
      "summary": "NEW DELHI, Oct 16: “Pehle vote gaya, phir jhuggi gayi” (First my vote disappeared, then my shanty was demolished), lamented Maya Devi, 58, a domestic worker from Mayur Vihar Phase-...",
      "body": "",
      "published": "2026-10-16T09:41:00+03:00",
@@ -3971,7 +3873,7 @@
      "lang": "en",
      "title": "Trump Slams Zelenskyy Over Russian Oil Refinery Strikes, Demands Ukraine Elections",
      "url": "https://www.arabtimesonline.com/news/trump-slams-zelenskyy-over-russian-oil-refinery-strikes-demands-ukraine-elections/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 16: US President Donald Trump has criticized Ukrainian President Volodymyr Zelenskyy over Ukrainian strikes on Russian oil refineries, arguing that attacks on facil...",
      "body": "",
      "published": "2026-10-16T09:30:00+03:00",
@@ -3995,7 +3897,7 @@
      "lang": "en",
      "title": "Trump Rules Out Nuclear Weapons Against Iran, But Pickaxe Mountain Strike Remains Possible",
      "url": "https://www.arabtimesonline.com/news/trump-rules-out-nuclear-weapons-against-iran-but-pickaxe-mountain-strike-remains-possible/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 16 : US President Donald Trump has ruled out using nuclear weapons against Iran, saying Washington does not need them, while warning that further strikes could targ...",
      "body": "",
      "published": "2026-10-16T09:22:00+03:00",
@@ -4023,6 +3925,30 @@
      "summary": "HOUSTON, Oct 16: Tesla has unveiled its long-delayed next-generation Roadster electric sports car, equipped with SpaceX-developed thrusters that enabled it to perform aerial manoeu...",
      "body": "",
      "published": "2026-10-16T09:14:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "e47f8f25afc36b54",
+   "score": 2.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "‘At 14, They Will Be Pregnant’: Afghan Parents Promise Toddlers as Brides to Survive",
+     "url": "https://www.arabtimesonline.com/news/at-14-they-will-be-pregnant-afghan-parents-promise-toddlers-as-brides-to-survive/",
+     "section": "general",
+     "summary": "KABUL, Oct 16: “I expect them to be beaten, but there is nothing I can do about it. And at 14, they will be pregnant.”The heartbreaking words of an Afghan mother capture the despe...",
+     "body": "",
+     "published": "2026-10-16T14:11:00+03:00",
      "tier": 2
     }
    ],
