@@ -1,24 +1,24 @@
 {
  "date": "2026-10-21",
- "generated_at": "2026-10-21T08:07:57.589137+03:00",
+ "generated_at": "2026-10-21T08:33:09.460983+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
   "total_articles": 368,
   "outlets_reporting": 6,
-  "total_stories": 292,
+  "total_stories": 291,
   "major_stories": 7,
   "analysed_stories": 28,
-  "window_start": "2026-10-20T06:07:57.589137+03:00",
-  "window_end": "2026-10-21T08:07:57.589137+03:00",
+  "window_start": "2026-10-20T06:33:09.460983+03:00",
+  "window_end": "2026-10-21T08:33:09.460983+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 87,
+   "Government & Politics": 93,
    "Economy & Business": 44,
-   "Security & Courts": 26,
-   "Society & Services": 18,
+   "Security & Courts": 16,
+   "Society & Services": 20,
    "Sport": 24,
-   "World & Region": 76,
+   "World & Region": 77,
    "Culture & Entertainment": 2,
    "Opinion & Analysis": 15
   },
@@ -30,71 +30,83 @@
   ]
  },
  "synthesis": {
-  "editor_note_en": "Today’s coverage is defined by a dual-track domestic consolidation: the formalization of a new judicial leadership under the Amir’s direct authority and a significant $3.25 billion sovereign bond issuance. The simultaneous oath-taking of the Supreme Judicial Council head and the Ministry of Justice’s public affirmation of 'administrative support' signal a tightening of state control over the judiciary, legally anchored in new 2026 legislation. This domestic restructuring runs parallel to a firm external posture, where Kuwait reaffirms its security alliance with the US while explicitly condemning Iranian attacks at the UN. The day is not quiet; it is a day of institutional re-anchoring and financial signaling.",
-  "editor_note_ar": "تعكس تغطية اليوم مساراً مزدوجاً للتماسك الداخلي: ترسيخ قيادة قضائية جديدة تحت السلطة الأميرية المباشرة، وإصدار سندات سيادية بقيمة 3.25 مليار دولار. إن أداء اليمين المتزامن لرئيس المجلس الأعلى للقضاء، مع تأكيد وزارة العدل علناً على 'الدعم الإداري'، يشير إلى تشديد قبضة الدولة على القضاء، مستندة قانونياً إلى تشريعات 2026 الجديدة. يتزامن هذا إعادة الهيكلة الداخلية مع موقف خارجي راسخ، حيث تؤكد الكويت تحالفها الأمني مع الولايات المتحدة، وتدين هجمات إيران صراحةً أمام الأمم المتحدة. اليوم ليس هادئاً؛ بل هو يوم إعادة تثبيت مؤسسي وإشارة مالية واضحة.",
-  "story_of_the_day": "S3",
-  "tactical_en": "The new judicial leadership (Hani Al-Hamdan et al.) has officially assumed office following oaths taken before the Amir on Tuesday, based on Law No. 80 of 2026 and Amiri Decree No. 169 of 2026. The Ministry of Justice has publicly committed to providing administrative and financial support to the new council.",
-  "tactical_ar": "تولى القادة القضائيون الجدد (بقيادة هاني الحمدان) مناصبهم رسمياً بعد أداء اليمين أمام الأمير يوم الثلاثاء، استناداً إلى القانون رقم 80 لسنة 2026 والمرسوم الأميري رقم 169. وقد التزمت وزارة العدل علنياً بتقديم الدعم الإداري والمالي للمجلس الجديد.",
-  "strategic_en": "The coverage reveals a pattern of 'institutional re-anchoring' where the executive branch (via the Amir and Ministry of Justice) is actively defining the boundaries of judicial independence through specific legal citations and public statements. This aligns with a broader regional trend of centralizing state control over key institutions while simultaneously projecting stability to international investors through large-scale sovereign debt issuances (S5).",
-  "strategic_ar": "تكشف التغطية عن نمط من 'إعادة التثبيت المؤسسي' حيث يحدد الفرع التنفيذي (عبر الأمير ووزارة العدل) حدود الاستقلال القضائي بشكل نشط من خلال استحضار نصوص قانونية محددة وتصريحات علنية. يتماشى هذا مع اتجاه إقليمي أوسع نحو مركزية سيطرة الدولة على المؤسسات الرئيسية، مع الحفاظ على صورة الاستقرار للمستثمرين الدوليين من خلال إصدارات الديون السيادية الضخمة.",
+  "editor_note_en": "The day is defined by a dual-track security and economic positioning: Kuwait is actively managing regional instability while projecting fiscal stability to international markets. Domestically, the state is consolidating control over the judiciary through new appointments anchored in recent legislation, signaling a push for institutional 'independence' that is tightly managed by the Amir's office. Externally, the US and Kuwait are carefully downplaying recent security disruptions (like the embassy evacuation) while reaffirming the 'historic' nature of their alliance, even as the IEA flags Gulf supply risks. The economic narrative is one of confidence, with a successful $3.25 billion bond issuance and a push to execute the Gulf-UK trade deal, suggesting a strategy to decouple economic performance from regional geopolitical noise.",
+  "editor_note_ar": "تعكس تغطية اليوم استراتيجية مزدوجة: إدارة التوترات الإقليمية مع الحفاظ على صورة الاستقرار المالي أمام الأسواق العالمية. محلياً، تعمل الدولة على توطيد سيطرتها على الجهاز القضائي عبر تعيينات جديدة مرتبطة تشريعياً، مما يشير إلى سعي لتعزيز 'الاستقلال' تحت مظلة إشراف أميري مباشر. خارجياً، تحاول واشنطن والكويت التقليل من شأن الاضطرابات الأمنية الأخيرة (مثل الإخلاء المؤقت للسفارة) مع التأكيد على 'شراكة تاريخية'، في وقت يلمح فيه تقرير وكالة الطاقة الدولية إلى مخاطر إمدادات الخليج. أما السرد الاقتصادي فيركز على الثقة، حيث نجحت الكويت في إصدار سندات بقيمة 3.25 مليار دولار، مع الدفع لتنفيذ اتفاقية التجارة الحرة مع الخليج والمملكة المتحدة، في محاولة لفصل الأداء الاقتصادي عن الضجيج الجيوسياسي.",
+  "story_of_the_day": "S5",
+  "tactical_en": "The High Energy Committee is reviewing the advisory study for the 2035 Energy Transition Plan (S8); the Municipal Technical Committee approved Shuwaikh oil complex boundaries subject to Ministry of Finance coordination (S17); the Ministry of Education is implementing a mandatory one-hour online class on Saturday (S4).",
+  "tactical_ar": "تراجع اللجنة العليا للطاقة الدراسة الاستشارية لخطة التحول الطاقي 2035 (S8)؛ اعتمدت اللجنة الفنية بالبلدية حدود المجمع النفطي بالشويخ خاضعة لتنسيق وزارة المالية (S17)؛ وتفعّل وزارة التربية حصة إلكترونية إلزامية لمدة ساعة يوم السبت (S4).",
+  "strategic_en": "The coverage reveals a pattern of 'managed transparency': security incidents (S18, S27) are acknowledged but framed as routine or resolved, while economic successes (S5, S9) are amplified. This suggests a long-term strategy to maintain investor confidence by decoupling Kuwait's fiscal narrative from the volatile security environment in the Gulf, positioning the country as a stable hub despite regional disruptions.",
+  "strategic_ar": "تكشف التغطية عن نمط 'الشفافية المُدارة': حيث تُقرّ الحوادث الأمنية (S18, S27) لكنها تُصاغ كأمور روتينية أو محلولة، بينما تُضخّم الإنجازات الاقتصادية (S5, S9). يشير هذا إلى استراتيجية طويلة الأمد للحفاظ على ثقة المستثمرين من خلال فصل السرد المالي للكويت عن البيئة الأمنية المتقلبة في الخليج، مما يضع البلاد كمنصة مستقرة رغم الاضطرابات الإقليمية.",
   "links": [
    {
     "type": "same_actor",
     "from": "S1",
     "to": "S3",
-    "evidence": "S1 reports the Amir receiving the oaths of the new judicial heads, while S3 features the statement by Hani Al-Hamdan, the new head of the Supreme Judicial Council, citing the same legal basis for the appointment."
+    "evidence": "Both stories concern the appointment and statement of Hani Al-Hamdan as head of the Supreme Judicial Council."
    },
    {
-    "type": "reaction",
+    "type": "same_actor",
     "from": "S1",
-    "to": "S21",
-    "evidence": "S21 is a direct official reaction from the Justice Minister congratulating the appointees mentioned in S1 and affirming the ministry's support for the new judicial leadership."
+    "to": "S16",
+    "evidence": "Both stories involve the Ministry of Justice and the Court of Cassation leadership appointments."
    },
    {
-    "type": "same_source_angle",
-    "from": "S12",
-    "to": "S18",
-    "evidence": "Both stories cover the same meeting between the Central Authority for the Resolution of the Status of Illegal Residents (CARS) and Kuwait University, with S12 and S18 providing nearly identical details on the participants and agenda."
+    "type": "same_actor",
+    "from": "S10",
+    "to": "S13",
+    "evidence": "Both stories report on the meeting between the Central Authority for the Resolution of the Status of Illegal Residents and Kuwait University."
+   },
+   {
+    "type": "same_actor",
+    "from": "S17",
+    "to": "S19",
+    "evidence": "Both stories reference the Shuwaikh area, though in different contexts (oil complex boundaries vs. rescue operation)."
+   },
+   {
+    "type": "same_actor",
+    "from": "S18",
+    "to": "S27",
+    "evidence": "Both stories involve the US and Kuwait discussing security and diplomatic relations, with S27 explicitly mentioning the evacuation referenced in the context of S18's regional tensions."
    }
   ],
   "top_themes": [
    {
-    "theme_en": "Judicial Restructuring",
-    "theme_ar": "إعادة هيكلة القضاء",
+    "theme_en": "Judicial Consolidation",
+    "theme_ar": "توطيد الجهاز القضائي",
     "story_ids": [
      "S1",
      "S3",
-     "S21"
+     "S16"
     ],
-    "note_en": "The formalization of new judicial appointments and the explicit legal basis for their mandate.",
-    "note_ar": "التثبيت الرسمي لتعيينات قضائية جديدة والأساس القانوني الصريح لصلاحياتها."
+    "note_en": "New judicial leadership is being installed with explicit legal backing and ministerial support.",
+    "note_ar": "يتم تعيين قيادة قضائية جديدة بدعم قانوني صريح ومساندة وزارية."
    },
    {
-    "theme_en": "Sovereign Financial Confidence",
-    "theme_ar": "الثقة المالية السيادية",
+    "theme_en": "Economic Confidence",
+    "theme_ar": "الثقة الاقتصادية",
     "story_ids": [
      "S5",
-     "S26"
+     "S9",
+     "S22"
     ],
-    "note_en": "Kuwait's successful bond issuance amidst global supply disruptions and high diesel prices.",
-    "note_ar": "نجاح الكويت في إصدار السندات وسط اضطرابات الإمدادات العالمية وارتفاع أسعار الديزل."
+    "note_en": "Kuwait is projecting fiscal stability through successful bond issuances and trade deal progress.",
+    "note_ar": "تعرض الكويت استقرارها المالي من خلال إصدارات سندات ناجحة وتقدم في اتفاقيات التجارة."
    },
    {
-    "theme_en": "Regional Security Posture",
-    "theme_ar": "الموقف الأمني الإقليمي",
+    "theme_en": "Security Downplaying",
+    "theme_ar": "التقليل من شأن الأمن",
     "story_ids": [
-     "S7",
-     "S19",
+     "S18",
      "S27"
     ],
-    "note_en": "Kuwait's reaffirmation of alliances with the US and Saudi Arabia while condemning Iranian actions at the UN.",
-    "note_ar": "إعادة تأكيد الكويت لتحالفاتها مع الولايات المتحدة والسعودية مع إدانة الإجراءات الإيرانية أمام الأمم المتحدة."
+    "note_en": "Recent security incidents are acknowledged but framed as resolved or routine to maintain stability narratives.",
+    "note_ar": "تُقرّ الحوادث الأمنية الأخيرة لكنها تُصاغ كمحلولة أو روتينية للحفاظ على سردية الاستقرار."
    }
   ],
-  "not_being_said_en": "The specific details of the 'advisory study' on the 2035 Energy Transition Plan mentioned in S9 are not disclosed, nor are the specific KPIs that will be used to measure progress. Additionally, the 'last developments' referenced in the Saudi-Kuwaiti phone call (S19) are not specified in the supplied reports, leaving the exact nature of the security threat or diplomatic issue unconfirmed.",
-  "not_being_said_ar": "لم يتم الكشف عن التفاصيل المحددة لـ 'الدراسة الاستشارية' حول خطة تحول الطاقة 2035 المذكورة في S9، ولا عن مؤشرات الأداء الرئيسية (KPIs) التي ستُستخدم لقياس التقدم. بالإضافة إلى ذلك، لم يتم تحديد 'آخر التطورات' المشار إليها في المكالمة الهاتفية السعودية-الكويتية (S19) في التقارير المقدمة، مما يترك طبيعة التهديد الأمني أو القضية الدبلوماسية غير مؤكدة.",
-  "watchlist_en": "1. Official publication of the KPIs and timeline for the 2035 Energy Transition Plan. 2. Any follow-up diplomatic statements from Iran regarding the UN condemnation in S7. 3. Market reaction to the new judicial leadership's first major rulings or administrative decisions. 4. Implementation details of the Gulf-UK Free Trade Agreement as urged in S11.",
-  "watchlist_ar": "1. النشر الرسمي لمؤشرات الأداء الرئيسية والجدول الزمني لخطة تحول الطاقة 2035. 2. أي تصريحات دبلوماسية متابعة من إيران بشأن الإدانة أمام الأمم المتحدة في S7. 3. رد فعل السوق على أول أحكام أو قرارات إدارية كبرى للقيادة القضائية الجديدة. 4. تفاصيل تنفيذ اتفاقية التجارة الحرة بين الخليج والمملكة المتحدة كما دعت إليها S11.",
+  "not_being_said_en": "The specific details of the 'supply disruptions from the Gulf' mentioned by the IEA (S23) are not elaborated in the supplied reports, leaving the exact nature of the disruption (physical, political, or logistical) unconfirmed. Additionally, the specific outcomes of the CARS-University meeting (S10, S13) are omitted, with no mention of new policies or MOUs.",
+  "not_being_said_ar": "لا تفصّل التقارير المقدمة تفاصيل 'اضطرابات الإمدادات من الخليج' التي ذكرتها وكالة الطاقة الدولية (S23)، مما يترك طبيعة الاضطراب (فيزيائية، سياسية، أو لوجستية) غير مؤكدة. كما تُستبعد النتائج المحددة لاجتماع الجهاز المركزي مع الجامعة (S10, S13)، دون ذكر أي سياسات جديدة أو مذكرات تفاهم.",
+  "watchlist_en": "1. Official announcement of any new policies or MOUs from the CARS-University meeting. 2. Further details on the IEA's 'Gulf supply disruptions' and any impact on Kuwaiti exports. 3. Implementation timeline for the Gulf-UK Free Trade Agreement execution. 4. Follow-up on the Shuwaikh oil complex boundary adjustments with the Ministry of Finance.",
+  "watchlist_ar": "1. إعلان رسمي عن أي سياسات جديدة أو مذكرات تفاهم من اجتماع الجهاز المركزي مع الجامعة. 2. تفاصيل إضافية حول 'اضطرابات إمدادات الخليج' من وكالة الطاقة الدولية وأثرها على الصادرات الكويتية. 3. الجدول الزمني لتنفيذ اتفاقية التجارة الحرة بين الخليج والمملكة المتحدة. 4. متابعة تعديلات حدود المجمع النفطي بالشويخ مع وزارة المالية.",
   "_source": "llm"
  },
  "source_health": [
@@ -784,73 +796,6 @@
    }
   },
   {
-   "key": "45cf52f43647e1cd",
-   "score": 15.159,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها",
-     "url": "https://www.alanba.com.kw/1381593",
-     "section": "kuwait",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-21T03:01:51+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها",
-     "url": "https://www.alraimedia.com/article/1783421/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A8%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B9%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D9%86%D8%B5%D9%84%D9%8A%D8%A9-%D9%88%D8%B5%D9%88%D9%86-%D8%A3%D9%85%D9%86%D9%87%D8%A7-%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%87%D8%A7",
-     "section": "local",
-     "summary": "أكدت الكويت أمس الثلاثاء التزامها الراسخ باحترام حرمة البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها وفقا لميثاق الأمم المتحدة والقانون الدولي، ولا سيما اتفاقيتي فيينا للع...",
-     "body": "أكدت الكويت أمس الثلاثاء التزامها الراسخ باحترام حرمة البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها وفقا لميثاق الأمم المتحدة والقانون الدولي، ولا سيما اتفاقيتي فيينا للعلاقات الدبلوماسية لعام 1961 والعلاقات القنصلية لعام 1963.\n\nجاء ذلك في كلمة الكويت التي ألقاها السكرتير الثاني بوفدها الدائم لدى الأمم المتحدة جاسم العامري أمام اللجنة السادسة القانونية التابعة للجمعية العامة للأمم المتحدة خلال مناقشة البند (82) المعنون «النظر في اتخاذ تدابير فعالة لتعزيز حماية وأمن وسلامة البعثات الدبلوماسية والقنصلية».\n\nنائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت منذ 5 ساعات «التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام منذ 5 ساعات\n\nوأوضح أن الدولة المضيفة تتحمل التزاما خاصا بموجب المادة (22) من اتفاقية فيينا للعلاقات الدبلوماسية باتخاذ جميع التدابير المناسبة لحماية مقار البعثات من أي اقتحام أو ضرر ومنع الإخلال بأمنها أو المساس بها بأي شكل من الأشكال.\n\nوأضاف أن المادة (29) من الاتفاقية تنص على احترام حرمة شخص المبعوث الدبلوماسي وحمايته فيما تكفل المادة (31) من اتفاقية فيينا للعلاقات القنصلية صون حرمة المقار القنصلية وحمايتها.\n\nوشدد العامري على أن الالتزامات المتعلقة باحترام مقار البعثات وحمايتها تظل قائمة حتى في حالات قطع العلاقات الدبلوماسية أو القنصلية أو النزاعات المسلحة، منبها إلى أهمية معالجة أي خلاف في شأن أنشطة البعثات بالوسائل القانونية والدبلوماسية مع الاحترام الكامل لحرمة مقارها وسلامة أفرادها.\n\nوشدد على ضرورة تحمل الدول المسؤولية الدولية عن الأفعال غير المشروعة دوليا المنسوبة إليها بما يشمل إيقاف الانتهاكات وجبر الضرر الناشئ عنها جبرا كاملا وتقديم ضمانات عدم تكرارها.\n\nوفي سياق متصل، جدد العامري إدانة الكويت بأشد العبارات للاعتداء الإيراني السافر الذي استهدف مقر سفارة الولايات المتحدة الأميركية لدى الكويت بالطائرات المسيرة في مارس 2026، معتبرا الاعتداء انتهاكا لسيادة الكويت وحرمة مقر البعثة وتهديدا لأمن العاملين فيها والمدنيين والمنشآت المدنية المحيطة بها وتقويضا للقواعد التي تكفل استمرار العلاقات الدبلوماسية بين الدول.\n\nكما أعرب عن إدانة البلاد للهجمات الإيرانية التي استهدفت مقار دبلوماسية وقنصلية أو عرضتها للخطر في دول مجلس التعاون لدول الخليج العربية، ولا سيما الإمارات والسعودية، مؤكدا تضامن الكويت الكامل مع الدول الشقيقة ورفضها لأي أعمال تستهدف البعثات أو تحولها إلى ساحة للمواجهة أو لتصفية الحسابات العسكرية.\n\nوطالب العامري إيران بالامتثال الكامل والفوري لقرار مجلس الأمن (2817) لعام 2026 وإيقاف اعتداءاتها وتهديداتها ضد دول المنطقة بما في ذلك من خلال وكلائها وإيقاف دعم الجماعات المسلحة التي تهدد أمن هذه الدول واستقرارها احتراما لسيادتها ومبادئ عدم التدخل في شؤونها الداخلية وحسن الجوار.\n\nوأكد أن حماية البعثات الدبلوماسية لا تنفصل عن الالتزام بحظر التهديد باستعمال القوة أو استعمالها المنصوص عليه في الفقرة (4) من المادة (2) من ميثاق الأمم المتحدة.\n\nوشدد على احتفاظ الكويت بحقها الأصيل في الدفاع عن النفس وفقا للمادة (51) من الميثاق وبما يتفق مع القانون الدولي بما في ذلك مقتضيات الضرورة والتناسب.\n\nواختتم العامري كلمة الكويت بالتأكيد على أن صون حرمة البعثات الدبلوماسية وممثليها يشكل التزاما قانونيا وضرورة لاستمرار الحوار بين الدول لا سيما في أوقات الأزمات، مجددا الدعوة لتنفيذ الالتزامات الدولية بحسن نية واحترام سيادة الدول وسلامة أراضيها وتسوية النزاعات بالوسائل السلمية بما يصون السلم والأمن الدوليين ويعزز سيادة القانون في العلاقات الدولية.",
-     "published": "2026-10-21T03:10:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {
-    "headline_en": "Kuwait reaffirms steadfast commitment to protecting diplomatic missions and consulates",
-    "headline_ar": "الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها",
-    "summary_en": "Kuwait’s Second Secretary at the UN, Jassim Al-Amri, delivered a statement to the UN General Assembly’s Sixth Committee reaffirming Kuwait’s adherence to the Vienna Conventions on diplomatic and consular relations. The statement explicitly condemned the March 2026 Iranian drone attack on the US Embassy in Kuwait and other Iranian attacks on Gulf diplomatic facilities, calling for Iran to comply with UN Security Council Resolution 2817.",
-    "summary_ar": "ألقى جاسم العامري، السكرتير الثاني بوفد الكويت الدائم لدى الأمم المتحدة، كلمة أمام اللجنة السادسة التابعة للجمعية العامة للأمم المتحدة، أكد فيها التزام الكويت باتفاقيتي فيينا للعلاقات الدبلوماسية والقنصلية. وشملت الكلمة إدانة صريحة للاعتداء الإيراني بطائرات مسيّرة على مقر السفارة الأمريكية في الكويت في مارس 2026، وكذلك الهجمات على مقار دبلوماسية في دول الخليج، مع المطالبة بامتثال إيران لقرار مجلس الأمن رقم 2817.",
-    "why_it_matters_en": "This formalizes Kuwait’s legal and diplomatic stance against Iran at the highest international forum, explicitly linking the March 2026 attack on the US Embassy in Kuwait to a violation of Kuwaiti sovereignty. It signals Kuwait’s alignment with the US and Gulf neighbors in demanding accountability from Iran, potentially influencing future diplomatic negotiations and security postures in the region.",
-    "why_it_matters_ar": "ترسخ هذه الخطوة الموقف القانوني والدبلوماسي الكويتي من إيران في أعلى هيئة دولية، حيث ربطت صراحةً بين الهجوم على السفارة الأمريكية في مارس 2026 وانتهاك السيادة الكويتية. وتُظهر التماشي الكويتي مع الولايات المتحدة ودول الخليج في المطالبة بمحاسبة إيران، مما قد يؤثر على مسار المفاوضات الدبلوماسية والمواقف الأمنية المستقبلية في المنطقة.",
-    "between_the_lines_en": "The statement is delivered by a Second Secretary rather than a senior diplomat, suggesting a routine procedural obligation rather than a high-level political escalation. However, the explicit mention of the 'saffron' (Iranian) attack on the US Embassy in Kuwait in March 2026, alongside a call for Iran to comply with UNSC Resolution 2817, indicates a deliberate effort to keep the incident on the international legal agenda. The emphasis on 'state responsibility' and 'reparation' implies Kuwait is building a legal case for potential future claims or sanctions, rather than just expressing moral outrage. The omission of any mention of direct military retaliation or specific new security measures suggests the current strategy is diplomatic and legal containment.",
-    "between_the_lines_ar": "تُلقى الكلمة من قبل سكرتير ثانٍ وليس دبلوماسياً كبيراً، مما يشير إلى أن الأمر إجراء روتيني أكثر منه تصعيداً سياسياً رفيع المستوى. ومع ذلك، فإن الإشارة الصريحة إلى الهجوم الإيراني على السفارة الأمريكية في الكويت في مارس 2026، إلى جانب المطالبة بامتثال إيران لقرار مجلس الأمن 2817، تدل على جهد مقصود لإبقاء الحادثة على الأجندة القانونية الدولية. التأكيد على 'المسؤولية الدولية' و'جبر الضرر' يوحي بأن الكويت تبني ملفاً قانونياً لمطالبات أو عقوبات محتملة في المستقبل، وليس مجرد التعبير عن الغضب الأخلاقي. غياب أي ذكر للرد العسكري المباشر أو إجراءات أمنية جديدة محددة يشير إلى أن الاستراتيجية الحالية هي الاحتواء الدبلوماسي والقانوني.",
-    "watch_next_en": "Monitor for any follow-up diplomatic notes from Kuwait to Iran or the US regarding the implementation of UNSC Resolution 2817, and watch for any changes in Kuwait’s security posture around diplomatic compounds in the coming weeks.",
-    "watch_next_ar": "مراقبة أي مذكرات دبلوماسية متابعة من الكويت إلى إيران أو الولايات المتحدة بشأن تنفيذ قرار مجلس الأمن 2817، ومراقبة أي تغييرات في الموقف الأمني الكويتي حول المقار الدبلوماسية في الأسابيع القادمة.",
-    "confidence": "medium",
-    "confidence_reason": "The text is a standard diplomatic statement, but the specific mention of the March 2026 attack and UNSC 2817 provides clear signals of intent, though the low rank of the speaker limits the scope of inference.",
-    "entities": [
-     "Kuwait",
-     "Jassim Al-Amri",
-     "United Nations",
-     "Iran",
-     "United States",
-     "UN Security Council Resolution 2817",
-     "Vienna Conventions"
-    ],
-    "tags": [
-     "Diplomacy",
-     "Security",
-     "Iran",
-     "UN",
-     "Legal"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
    "key": "9961e2432e9d53f5",
    "score": 14.634,
    "sources": [
@@ -1023,72 +968,6 @@
      "Policy",
      "2035 Vision",
      "KFAS"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "61a627c4a0655a89",
-   "score": 14.359,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف",
-     "url": "https://www.alanba.com.kw/1381590",
-     "section": "kuwait",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-20T21:26:20+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف",
-     "url": "https://www.alraimedia.com/article/1783417/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B8%D9%84%D8%AA-%D8%AD%D8%A7%D8%B6%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%81%D9%8A-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D9%88%D8%A7%D9%84%D8%B8%D8%B1%D9%88%D9%81",
-     "section": "local",
-     "summary": "أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالمواقف الأخوية الراسخة لدولة الكويت تجاه اليمن وما تقدمه من دعم إنساني وإغاثي وتنموي في مختلف المجالات.وذكرت وكالة الأنباء اليمنية الحكوم...",
-     "body": "أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالمواقف الأخوية الراسخة لدولة الكويت تجاه اليمن وما تقدمه من دعم إنساني وإغاثي وتنموي في مختلف المجالات.\n\nوذكرت وكالة الأنباء اليمنية الحكومية أن ذلك جاء خلال لقاء بن دغر بسفير دولة الكويت لدى اليمن فلاح المطيري لبحث العلاقات والتعاون المشترك بين البلدين الشقيقين ومستجدات الأوضاع في اليمن والمنطقة.\n\nالأمير يشهد أداء قيادات القضاء اليمين منذ ساعتين نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت منذ ساعتين\n\nوأشاد بدور تحالف دعم الشرعية في اليمن بقيادة المملكة العربية السعودية في مساندة الحكومة اليمنية لإنهاء الانقلاب الحوثي واستعادة مؤسسات الدولة، مديناً الاعتداءات الحوثية على المنشآت المدنية والمطارات السعودية.\n\nوأشار بن دغر إلى مستجدات الأوضاع في اليمن، مندداً بالانتهاكات التي ترتكبها ميليشيات الحوثي وآخرها استهداف مركز تدريب في محافظة شبوة.\n\nودعا دول مجلس التعاون لدول الخليج العربية إلى تعزيز التضامن والتنسيق لمواجهة ميليشيات الحوثي التي وصفها بأنها أداة للمشروع التوسعي الإيراني في المنطقة.\n\nمن جانبه، أكد السفير المطيري عمق العلاقات الأخوية والتاريخية بين البلدين الشقيقين وحرص دولة الكويت على مواصلة دعم اليمن إنسانياً وتنموياً بما يسهم في تعزيز الأمن والاستقرار وتحقيق تطلعات الشعب اليمني إلى السلام والازدهار.\n\nوكان رئيس مجلس النواب اليمني سلطان البركاني قد بحث مع السفير الكويتي فلاح المطيري العلاقات الثنائية وسبل تعزيز التعاون المشترك بين البلدين.\n\nوأشاد البركاني بعمق العلاقات التاريخية والأخوية التي تجمع اليمن والكويت وما تستند إليه من روابط التضامن والتكافل والمصير المشترك مثمنا مواقف الكويت إلى جانب الشعب اليمني على مدى عقود وما قدمته من دعم تنموي وإنساني في قطاعات التعليم والصحة وغيرها من المجالات الحيوية.\n\nواستعرض رئيس مجلس النواب خلال اللقاء التصعيد الحوثي والانتهاكات التي ترتكبها الميليشيات بحق المدنيين، مشيراً إلى القصف المتكرر الذي تتعرض له مدينة تعز ويستهدف الأحياء السكنية بقذائف إيرانية.\n\nوأكد أن مدينة (تعز) بما تمثله من رصيد وطني وجمهوري وما أبداه أبناؤها من صمود في مواجهة ميليشيات الحوثي ظلت عصية على محاولات إخضاعها.\n\nودان بأشد العبارات اعتداءات ميليشيا الحوثي التي تستهدف الأعيان المدنية والمطارات في المملكة العربية السعودية، مؤكداً أن أمن المملكة واستقرارها يمثلان ركيزة أساسية لأمن اليمن والمنطقة العربية.\n\nوقال إن أي تهديد لأراضي المملكة وأمنها يمس أمن المنطقة ويستدعي التضامن في مواجهة الاعتداءات التي تهدد استقرارها.\n\nمن جانبه، أكد السفير المطيري دعم دولة الكويت الثابت للشرعية اليمنية ووقوفها إلى جانب الشعب اليمني واستمرار تقديم المساعدات الإنسانية والإغاثية عبر الجهات المعتمدة.\n\nولفت إلى حرص الكويت على مواصلة دورها الإنساني والتنموي وتعزيز علاقاتها الأخوية مع اليمن بما يخدم مصالح الشعبين الشقيقين ويسهم في التخفيف من معاناة اليمنيين وتحقيق الأمن والاستقرار.",
-     "published": "2026-10-21T00:07:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "Yemeni Shura Council Chairman: Kuwait has been present alongside Yemen in all stages",
-    "headline_ar": "رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف",
-    "summary_en": "Yemeni Shura Council Chairman Ahmed Bin Dagar praised Kuwait's humanitarian and developmental support for Yemen during a meeting with Kuwaiti Ambassador Falah Al-Mutairi. He also commended the Saudi-led coalition's role and condemned Houthi attacks on Saudi infrastructure, calling on GCC states to strengthen solidarity against the Houthis.",
-    "summary_ar": "أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالدعم الإنساني والتنموي الذي تقدمه الكويت لليمن خلال لقاءه بالسفير الكويتي فلاح المطيري. كما أشاد بدور التحالف بقيادة السعودية وندد بهجمات الحوثيين على البنية التحتية السعودية، داعياً دول مجلس التعاون إلى تعزيز التضامن ضد الحوثيين.",
-    "why_it_matters_en": "The statement reinforces Kuwait's diplomatic alignment with the Saudi-led coalition and the internationally recognized Yemeni government. It also highlights Kuwait's continued role as a key humanitarian donor in Yemen, which is a significant aspect of its foreign policy and regional influence.",
-    "why_it_matters_ar": "يعزز البيان التوافق الدبلوماسي للكويت مع التحالف بقيادة السعودية والحكومة اليمنية المعترف بها دولياً. كما يبرز الدور المستمر للكويت كممول إنساني رئيسي في اليمن، وهو جانب مهم من سياستها الخارجية وتأثيرها الإقليمي.",
-    "between_the_lines_en": "The statement is heavily aligned with the Saudi narrative, explicitly praising the 'Saudi-led coalition' and condemning Houthi attacks on Saudi airports. This suggests the meeting was likely facilitated or timed to coincide with broader Saudi-Yemeni diplomatic efforts. The emphasis on Kuwait's 'humanitarian' support rather than military or political support reflects Kuwait's standard diplomatic posture of maintaining a humanitarian role while avoiding direct military involvement. The mention of 'Iranian expansionist project' is a direct echo of Saudi and UAE rhetoric, indicating a shared regional security framework.",
-    "between_the_lines_ar": "البيان متوافق بشكل كبير مع الرواية السعودية، حيث يمدح صراحةً «التحالف بقيادة السعودية» ويندد بهجمات الحوثيين على المطارات السعودية. هذا يشير إلى أن اللقاء ربما تم تسهيله أو توقيته ليتزامن مع جهود دبلوماسية أوسع بين السعودية واليمن. كما أن التأكيد على الدعم «الإنساني» للكويت بدلاً من الدعم العسكري أو السياسي يعكس الموقف الدبلوماسي القياسي للكويت في الحفاظ على دور إنساني مع تجنب المشاركة العسكرية المباشرة. وذكر «المشروع التوسعي الإيراني» هو صدى مباشر لخطاب السعودية والإمارات، مما يدل على إطار أمني إقليمي مشترك.",
-    "watch_next_en": "Watch for any new Kuwaiti humanitarian aid announcements to Yemen in the coming weeks, which may be a direct response to this diplomatic engagement.",
-    "watch_next_ar": "راقب أي إعلانات جديدة عن المساعدات الإنسانية الكويتية لليمن في الأسابيع القادمة، والتي قد تكون استجابة مباشرة لهذا التفاعل الدبلوماسي.",
-    "confidence": "high",
-    "confidence_reason": "The text explicitly aligns with Saudi narratives and uses specific terminology that mirrors regional political discourse, providing a clear basis for the inference.",
-    "entities": [
-     "Ahmed Bin Dagar",
-     "Falah Al-Mutairi",
-     "Yemeni Shura Council",
-     "Saudi-led Coalition",
-     "Houthi Militia",
-     "GCC"
-    ],
-    "tags": [
-     "Foreign Policy",
-     "Yemen",
-     "Diplomacy",
-     "Humanitarian Aid",
-     "GCC"
     ],
     "_source": "llm"
    }
@@ -1292,192 +1171,6 @@
      "Weather",
      "Environment",
      "Daily"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "06488dc76d91ff1f",
-   "score": 13.759,
-   "sources": [
-    "الرأي",
-    "الأنباء"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات",
-     "url": "https://www.alraimedia.com/article/1783393/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A3%D9%85%D8%A7%D9%86-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA",
-     "section": "local",
-     "summary": "اطلع فريق العمل المعني بإنشاء المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان»، على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "فريق «أمان» يطلع على التجربة العُمانية في إدارة الحالات الطارئة والأزمات والكوارث",
-     "url": "https://www.alanba.com.kw/1381502",
-     "section": "kuwait",
-     "summary": "مسقطكونا اطلع فريق العمل الكويتي المعني بإنشاء المركز الوطني لإدارة الطوارئ والأزمات والكوارث (أمان) على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والك",
-     "body": "",
-     "published": "2026-10-20T18:45:42+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {
-    "headline_en": "Aman team studies Oman's experience in emergency and crisis management",
-    "headline_ar": "«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات",
-    "summary_en": "A team from the National Center for Emergency, Crisis, and Disaster Management ('Aman') visited Oman to study its experience in managing emergencies and national coordination mechanisms. The visit is part of the setup phase for the new center.",
-    "summary_ar": "اطلع فريق عمل من المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان» على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات. الزيارة جزء من مرحلة إنشاء المركز الجديد.",
-    "why_it_matters_en": "This indicates that Kuwait is actively building its national crisis management infrastructure by benchmarking against regional peers. The choice of Oman suggests a focus on structured, centralized coordination models, which is relevant for Kuwait's preparedness for large-scale disasters or security incidents.",
-    "why_it_matters_ar": "يشير هذا إلى أن الكويت تبني بنيتها التحتية الوطنية لإدارة الأزمات بنشاط من خلال المقارنة مع نظرائها الإقليميين. اختيار عمان يوحي بالتركيز على نماذج التنسيق المركزية المنظمة، وهو أمر ذو صلة بجاهزية الكويت للتعامل مع الكوارث الكبرى أو الحوادث الأمنية.",
-    "between_the_lines_en": "The fact that the team is 'learning' from Oman implies that Kuwait's own framework is still in a developmental or conceptual stage. Oman is often cited in the GCC for its relatively centralized and efficient crisis management structures. The use of the term 'sister sultanate' (سلطنة عمان الشقيقة) is standard diplomatic language, but the focus on 'mechanisms of national coordination' suggests that the primary challenge for Kuwait is not just technical (equipment) but institutional (inter-agency coordination). The lack of details on which specific Omani agency was visited or what specific protocols were adopted leaves the practical outcome vague.",
-    "between_the_lines_ar": "حقيقة أن الفريق «يتعلم» من عمان توحي بأن الإطار الكويتي لا يزال في مرحلة تطوير أو مفاهيمية. غالباً ما تُذكر عمان في مجلس التعاون لنظمها المركزية والفعالة نسبياً لإدارة الأزمات. استخدام مصطلح «سلطنة عمان الشقيقة» لغة دبلوماسية قياسية، لكن التركيز على «آليات التنسيق الوطني» يوحي بأن التحدي الرئيسي للكويت ليس تقنياً (معدات) بل مؤسسياً (التنسيق بين الوكالات). غياب التفاصيل حول الوكالة العمانية المحددة التي تمت زيارتها أو البروتوكولات المحددة التي تم اعتمادها يجعل النتيجة العملية غامضة.",
-    "watch_next_en": "Monitor for the official launch of the 'Aman' center and any subsequent announcements about new inter-ministerial protocols or the appointment of a permanent director with a background in crisis management.",
-    "watch_next_ar": "مراقبة الإطلاق الرسمي لمركز «أمان» وأي إعلانات لاحقة عن بروتوكولات وزارية جديدة أو تعيين مدير دائم بخلفية في إدارة الأزمات.",
-    "confidence": "medium",
-    "confidence_reason": "The inference about the developmental stage of Kuwait's framework is logical but not explicitly stated; the text only confirms the visit.",
-    "entities": [
-     "National Center for Emergency, Crisis, and Disaster Management (Aman)",
-     "Oman"
-    ],
-    "tags": [
-     "Emergency Management",
-     "Crisis Response",
-     "GCC Cooperation",
-     "Institutional Development"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "04313a31334e6e20",
-   "score": 13.759,
-   "sources": [
-    "الرأي",
-    "الأنباء"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني",
-     "url": "https://www.alraimedia.com/article/1783394/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A",
-     "section": "local",
-     "summary": "أكّد رئيس مجلس إدارة جمعية الهلال الأحمر الكويتي خالد المغامس حرص الجمعية على تعزيز شراكاتها الإستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل الإنساني وتطوير ا...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«الهلال الأحمر»: تعزيز الشراكات الوطنية ركيزة أساسية لتطوير العمل الإنساني وتوسيع أثره المجتمعي",
-     "url": "https://www.alanba.com.kw/1381552",
-     "section": "kuwait",
-     "summary": "كونا أكد رئيس مجلس إدارة جمعية الهلال الأحمر خالد المغامس حرص الجمعية على تعزيز شراكاتها الاستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل",
-     "body": "",
-     "published": "2026-10-20T18:45:42+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Red Crescent: Strengthening national partnerships to develop humanitarian work",
-    "headline_ar": "«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني",
-    "summary_en": "Khalid Al-Mughamis, Chairman of the Kuwait Red Crescent Society, stated that the society is focused on strengthening strategic partnerships with national institutions and the oil sector to support humanitarian work. The statement emphasizes the role of the private sector, specifically the oil industry, in funding and developing humanitarian initiatives.",
-    "summary_ar": "أكد خالد المغامس، رئيس مجلس إدارة جمعية الهلال الأحمر الكويتي، حرص الجمعية على تعزيز شراكاتها الإستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل الإنساني وتطويره. البيان يركز على دور القطاع الخاص، وتحديداً قطاع النفط، في تمويل وتطوير المبادرات الإنسانية.",
-    "why_it_matters_en": "This highlights a shift in the Red Crescent's funding model towards corporate social responsibility (CSR) from major state-linked entities like the oil sector. It suggests a diversification of revenue sources away from purely state or individual donations, which is crucial for the sustainability of large-scale humanitarian projects.",
-    "why_it_matters_ar": "يبرز هذا الخبر تحوّلاً في نموذج تمويل الهلال الأحمر نحو المسؤولية الاجتماعية للشركات من كيانات مرتبطة بالدولة مثل قطاع النفط. يشير ذلك إلى تنويع مصادر الإيرادات بعيداً عن التبرعات الحكومية أو الفردية البحتة، وهو أمر حاسم لاستدامة المشاريع الإنسانية الكبرى.",
-    "between_the_lines_en": "The specific mention of the 'oil sector' (القطاع النفطي) is notable. In Kuwait, this usually refers to major state-owned enterprises (like KPC) or large private contractors. By naming this sector explicitly, the Red Crescent is signaling a move to institutionalize funding from the state's primary revenue source, potentially reducing reliance on ad-hoc government allocations. The use of 'strategic partnerships' rather than 'donations' implies long-term contracts or joint ventures rather than one-off gifts. The identical coverage by Al-Ra'i and Al-Anba suggests this is a pre-coordinated corporate communication release rather than a breaking news event.",
-    "between_the_lines_ar": "الإشارة المحددة إلى «القطاع النفطي» تستحق الانتباه. في الكويت، يشير هذا عادة إلى الشركات المملوكة للدولة الكبرى (مثل شركة البترول الوطنية) أو المقاولين الخاصين الكبار. من خلال تسمية هذا القطاع صراحة، يشير الهلال الأحمر إلى تحرك لتأسيس التمويل من المصدر الرئيسي لإيرادات الدولة، مما قد يقلل الاعتماد على التخصيصات الحكومية الطارئة. استخدام مصطلح «شراكات إستراتيجية» بدلاً من «تبرعات» يوحي بعقود طويلة الأمد أو مشاريع مشتركة بدلاً من الهدايا لمرة واحدة. التغطية المتطابقة من الرأي والأنباء تشير إلى أن هذا بيان مؤسسي منسق مسبقاً وليس خبراً عاجلاً.",
-    "watch_next_en": "Look for official announcements of specific CSR agreements between the Kuwait Red Crescent and major oil companies (e.g., KPC, KNPC) or the establishment of a dedicated humanitarian fund within the oil sector.",
-    "watch_next_ar": "مراقبة الإعلانات الرسمية عن اتفاقيات مسؤولية اجتماعية محددة بين الهلال الأحمر الكويتي وشركات النفط الكبرى (مثل شركة البترول الوطنية أو شركة البترول الكويتية) أو إنشاء صندوق إنساني مخصص داخل القطاع النفطي.",
-    "confidence": "medium",
-    "confidence_reason": "The inference about funding diversification is strong based on the explicit mention of the oil sector, but the specific nature of the 'partnerships' is not detailed in the text.",
-    "entities": [
-     "Kuwait Red Crescent Society",
-     "Khalid Al-Mughamis",
-     "Oil Sector"
-    ],
-    "tags": [
-     "Humanitarian",
-     "CSR",
-     "Oil Sector",
-     "NGOs"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "8972501002053015",
-   "score": 13.759,
-   "sources": [
-    "الرأي",
-    "الأنباء"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة",
-     "url": "https://www.alraimedia.com/article/1783400/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A3%D9%85%D9%85%D9%8A-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9",
-     "section": "local",
-     "summary": "شاركت وزارة العدل بوفد برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجري...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«العدل» تشارك في مؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة",
-     "url": "https://www.alanba.com.kw/1381485",
-     "section": "kuwait",
-     "summary": "كونا- شاركت وزارة العدل بوفد، برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية",
-     "body": "",
-     "published": "2026-10-20T18:45:42+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {
-    "headline_en": "Justice Ministry participates in UN conference on combating organized crime",
-    "headline_ar": "«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة",
-    "summary_en": "The Ministry of Justice, led by First Counselor Badr Al-Mas'ad, Director of the Kuwait Institute for Judicial and Legal Studies, participated in the 13th session of the Conference of the States Parties to the UN Convention against Transnational Organized Crime. The report is a brief confirmation of attendance without detailing specific outcomes or agreements.",
-    "summary_ar": "شاركت وزارة العدل بوفد برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة. الخبر عبارة عن تأكيد موجز للمشاركة دون ذكر تفاصيل محددة حول النتائج أو الاتفاقيات المبرمة.",
-    "why_it_matters_en": "Participation signals Kuwait's continued alignment with international legal frameworks on transnational crime, which is relevant for cross-border judicial cooperation and extradition protocols, though no immediate domestic policy change is indicated.",
-    "why_it_matters_ar": "المشاركة تعكس استمرار الكويت في التوافق مع الأطر القانونية الدولية المتعلقة بالجريمة العابرة للحدود، وهو أمر ذو صلة بالتعاون القضائي الدولي وبروتوكولات التسليم، رغم عدم وجود إشارة إلى تغيير فوري في السياسات المحلية.",
-    "between_the_lines_en": "The story is a standard diplomatic boilerplate. The attribution to the Director of the Judicial Institute rather than a senior minister suggests a technical or administrative level of engagement rather than high-level political negotiation. The lack of any mention of specific bilateral discussions with other GCC or regional states implies the participation was likely observational or for networking purposes rather than for concluding new treaties. The identical framing by Al-Ra'i and Al-Anba confirms this is a routine KUNA reprint with no editorial divergence.",
-    "between_the_lines_ar": "الخبر عبارة عن صياغة دبلوماسية روتينية. الإشارة إلى مدير المعهد القضائي بدلاً من وزير أو مسؤول رفيع المستوى تشير إلى أن المشاركة كانت على مستوى تقني أو إداري وليس تفاوضاً سياسياً رفيع المستوى. غياب أي ذكر لمناقشات ثنائية محددة مع دول مجلس التعاون أو دول المنطقة يوحي بأن المشاركة كانت بغرض المراقبة أو بناء العلاقات وليس لبرم اتفاقيات جديدة. التطابق التام في الصياغة بين الرأي والأنباء يؤكد أن هذا خبر روتيني من كونا دون أي اختلاف تحريري.",
-    "watch_next_en": "Check for any subsequent announcements from the Ministry of Justice regarding new bilateral judicial cooperation agreements or updates to the Anti-Money Laundering Law following this conference.",
-    "watch_next_ar": "مراقبة أي إعلانات لاحقة من وزارة العدل بشأن اتفاقيات تعاون قضائي ثنائي جديدة أو تحديثات لقانون مكافحة غسل الأموال عقب هذا المؤتمر.",
-    "confidence": "high",
-    "confidence_reason": "The material is a standard, unattributed diplomatic update with no unique data points, making the 'routine' assessment highly probable.",
-    "entities": [
-     "Ministry of Justice",
-     "Badr Al-Mas'ad",
-     "Kuwait Institute for Judicial and Legal Studies",
-     "UN Convention against Transnational Organized Crime"
-    ],
-    "tags": [
-     "Justice",
-     "International Law",
-     "UN",
-     "Diplomacy"
     ],
     "_source": "llm"
    }
@@ -1871,6 +1564,73 @@
    }
   },
   {
+   "key": "45cf52f43647e1cd",
+   "score": 13.659,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها",
+     "url": "https://www.alanba.com.kw/1381593",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-21T03:01:51+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها",
+     "url": "https://www.alraimedia.com/article/1783421/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A8%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B9%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D9%86%D8%B5%D9%84%D9%8A%D8%A9-%D9%88%D8%B5%D9%88%D9%86-%D8%A3%D9%85%D9%86%D9%87%D8%A7-%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%87%D8%A7",
+     "section": "latest",
+     "summary": "أكدت الكويت أمس الثلاثاء التزامها الراسخ باحترام حرمة البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها وفقا لميثاق الأمم المتحدة والقانون الدولي، ولا سيما اتفاقيتي فيينا للع...",
+     "body": "أكدت الكويت أمس الثلاثاء التزامها الراسخ باحترام حرمة البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها وفقا لميثاق الأمم المتحدة والقانون الدولي، ولا سيما اتفاقيتي فيينا للعلاقات الدبلوماسية لعام 1961 والعلاقات القنصلية لعام 1963.\n\nجاء ذلك في كلمة الكويت التي ألقاها السكرتير الثاني بوفدها الدائم لدى الأمم المتحدة جاسم العامري أمام اللجنة السادسة القانونية التابعة للجمعية العامة للأمم المتحدة خلال مناقشة البند (82) المعنون «النظر في اتخاذ تدابير فعالة لتعزيز حماية وأمن وسلامة البعثات الدبلوماسية والقنصلية».\n\nنائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت منذ 5 ساعات «التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام منذ 5 ساعات\n\nوأوضح أن الدولة المضيفة تتحمل التزاما خاصا بموجب المادة (22) من اتفاقية فيينا للعلاقات الدبلوماسية باتخاذ جميع التدابير المناسبة لحماية مقار البعثات من أي اقتحام أو ضرر ومنع الإخلال بأمنها أو المساس بها بأي شكل من الأشكال.\n\nوأضاف أن المادة (29) من الاتفاقية تنص على احترام حرمة شخص المبعوث الدبلوماسي وحمايته فيما تكفل المادة (31) من اتفاقية فيينا للعلاقات القنصلية صون حرمة المقار القنصلية وحمايتها.\n\nوشدد العامري على أن الالتزامات المتعلقة باحترام مقار البعثات وحمايتها تظل قائمة حتى في حالات قطع العلاقات الدبلوماسية أو القنصلية أو النزاعات المسلحة، منبها إلى أهمية معالجة أي خلاف في شأن أنشطة البعثات بالوسائل القانونية والدبلوماسية مع الاحترام الكامل لحرمة مقارها وسلامة أفرادها.\n\nوشدد على ضرورة تحمل الدول المسؤولية الدولية عن الأفعال غير المشروعة دوليا المنسوبة إليها بما يشمل إيقاف الانتهاكات وجبر الضرر الناشئ عنها جبرا كاملا وتقديم ضمانات عدم تكرارها.\n\nوفي سياق متصل، جدد العامري إدانة الكويت بأشد العبارات للاعتداء الإيراني السافر الذي استهدف مقر سفارة الولايات المتحدة الأميركية لدى الكويت بالطائرات المسيرة في مارس 2026، معتبرا الاعتداء انتهاكا لسيادة الكويت وحرمة مقر البعثة وتهديدا لأمن العاملين فيها والمدنيين والمنشآت المدنية المحيطة بها وتقويضا للقواعد التي تكفل استمرار العلاقات الدبلوماسية بين الدول.\n\nكما أعرب عن إدانة البلاد للهجمات الإيرانية التي استهدفت مقار دبلوماسية وقنصلية أو عرضتها للخطر في دول مجلس التعاون لدول الخليج العربية، ولا سيما الإمارات والسعودية، مؤكدا تضامن الكويت الكامل مع الدول الشقيقة ورفضها لأي أعمال تستهدف البعثات أو تحولها إلى ساحة للمواجهة أو لتصفية الحسابات العسكرية.\n\nوطالب العامري إيران بالامتثال الكامل والفوري لقرار مجلس الأمن (2817) لعام 2026 وإيقاف اعتداءاتها وتهديداتها ضد دول المنطقة بما في ذلك من خلال وكلائها وإيقاف دعم الجماعات المسلحة التي تهدد أمن هذه الدول واستقرارها احتراما لسيادتها ومبادئ عدم التدخل في شؤونها الداخلية وحسن الجوار.\n\nوأكد أن حماية البعثات الدبلوماسية لا تنفصل عن الالتزام بحظر التهديد باستعمال القوة أو استعمالها المنصوص عليه في الفقرة (4) من المادة (2) من ميثاق الأمم المتحدة.\n\nوشدد على احتفاظ الكويت بحقها الأصيل في الدفاع عن النفس وفقا للمادة (51) من الميثاق وبما يتفق مع القانون الدولي بما في ذلك مقتضيات الضرورة والتناسب.\n\nواختتم العامري كلمة الكويت بالتأكيد على أن صون حرمة البعثات الدبلوماسية وممثليها يشكل التزاما قانونيا وضرورة لاستمرار الحوار بين الدول لا سيما في أوقات الأزمات، مجددا الدعوة لتنفيذ الالتزامات الدولية بحسن نية واحترام سيادة الدول وسلامة أراضيها وتسوية النزاعات بالوسائل السلمية بما يصون السلم والأمن الدوليين ويعزز سيادة القانون في العلاقات الدولية.",
+     "published": "2026-10-21T03:10:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {
+    "headline_en": "Kuwait reaffirms steadfast commitment to protecting diplomatic missions and consulates",
+    "headline_ar": "الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها",
+    "summary_en": "Kuwait’s Second Secretary at the UN, Jassim Al-Amri, delivered a statement to the UN General Assembly’s Sixth Committee reaffirming Kuwait’s adherence to the Vienna Conventions on diplomatic and consular relations. The statement explicitly condemned the March 2026 Iranian drone attack on the US Embassy in Kuwait and other Iranian attacks on Gulf diplomatic facilities, calling for Iran to comply with UN Security Council Resolution 2817.",
+    "summary_ar": "ألقى جاسم العامري، السكرتير الثاني بوفد الكويت الدائم لدى الأمم المتحدة، كلمة أمام اللجنة السادسة التابعة للجمعية العامة للأمم المتحدة، أكد فيها التزام الكويت باتفاقيتي فيينا للعلاقات الدبلوماسية والقنصلية. وشملت الكلمة إدانة صريحة للاعتداء الإيراني بطائرات مسيّرة على مقر السفارة الأمريكية في الكويت في مارس 2026، وكذلك الهجمات على مقار دبلوماسية في دول الخليج، مع المطالبة بامتثال إيران لقرار مجلس الأمن رقم 2817.",
+    "why_it_matters_en": "This formalizes Kuwait’s legal and diplomatic stance against Iran at the highest international forum, explicitly linking the March 2026 attack on the US Embassy in Kuwait to a violation of Kuwaiti sovereignty. It signals Kuwait’s alignment with the US and Gulf neighbors in demanding accountability from Iran, potentially influencing future diplomatic negotiations and security postures in the region.",
+    "why_it_matters_ar": "ترسخ هذه الخطوة الموقف القانوني والدبلوماسي الكويتي من إيران في أعلى هيئة دولية، حيث ربطت صراحةً بين الهجوم على السفارة الأمريكية في مارس 2026 وانتهاك السيادة الكويتية. وتُظهر التماشي الكويتي مع الولايات المتحدة ودول الخليج في المطالبة بمحاسبة إيران، مما قد يؤثر على مسار المفاوضات الدبلوماسية والمواقف الأمنية المستقبلية في المنطقة.",
+    "between_the_lines_en": "The statement is delivered by a Second Secretary rather than a senior diplomat, suggesting a routine procedural obligation rather than a high-level political escalation. However, the explicit mention of the 'saffron' (Iranian) attack on the US Embassy in Kuwait in March 2026, alongside a call for Iran to comply with UNSC Resolution 2817, indicates a deliberate effort to keep the incident on the international legal agenda. The emphasis on 'state responsibility' and 'reparation' implies Kuwait is building a legal case for potential future claims or sanctions, rather than just expressing moral outrage. The omission of any mention of direct military retaliation or specific new security measures suggests the current strategy is diplomatic and legal containment.",
+    "between_the_lines_ar": "تُلقى الكلمة من قبل سكرتير ثانٍ وليس دبلوماسياً كبيراً، مما يشير إلى أن الأمر إجراء روتيني أكثر منه تصعيداً سياسياً رفيع المستوى. ومع ذلك، فإن الإشارة الصريحة إلى الهجوم الإيراني على السفارة الأمريكية في الكويت في مارس 2026، إلى جانب المطالبة بامتثال إيران لقرار مجلس الأمن 2817، تدل على جهد مقصود لإبقاء الحادثة على الأجندة القانونية الدولية. التأكيد على 'المسؤولية الدولية' و'جبر الضرر' يوحي بأن الكويت تبني ملفاً قانونياً لمطالبات أو عقوبات محتملة في المستقبل، وليس مجرد التعبير عن الغضب الأخلاقي. غياب أي ذكر للرد العسكري المباشر أو إجراءات أمنية جديدة محددة يشير إلى أن الاستراتيجية الحالية هي الاحتواء الدبلوماسي والقانوني.",
+    "watch_next_en": "Monitor for any follow-up diplomatic notes from Kuwait to Iran or the US regarding the implementation of UNSC Resolution 2817, and watch for any changes in Kuwait’s security posture around diplomatic compounds in the coming weeks.",
+    "watch_next_ar": "مراقبة أي مذكرات دبلوماسية متابعة من الكويت إلى إيران أو الولايات المتحدة بشأن تنفيذ قرار مجلس الأمن 2817، ومراقبة أي تغييرات في الموقف الأمني الكويتي حول المقار الدبلوماسية في الأسابيع القادمة.",
+    "confidence": "medium",
+    "confidence_reason": "The text is a standard diplomatic statement, but the specific mention of the March 2026 attack and UNSC 2817 provides clear signals of intent, though the low rank of the speaker limits the scope of inference.",
+    "entities": [
+     "Kuwait",
+     "Jassim Al-Amri",
+     "United Nations",
+     "Iran",
+     "United States",
+     "UN Security Council Resolution 2817",
+     "Vienna Conventions"
+    ],
+    "tags": [
+     "Diplomacy",
+     "Security",
+     "Iran",
+     "UN",
+     "Legal"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "d221015335cb6c70",
    "score": 13.659,
    "sources": [
@@ -1992,6 +1752,72 @@
      "Sponsorship",
      "Cybersecurity",
      "Employment"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "61a627c4a0655a89",
+   "score": 12.859,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف",
+     "url": "https://www.alanba.com.kw/1381590",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-20T21:26:20+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف",
+     "url": "https://www.alraimedia.com/article/1783417/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B8%D9%84%D8%AA-%D8%AD%D8%A7%D8%B6%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%81%D9%8A-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D9%88%D8%A7%D9%84%D8%B8%D8%B1%D9%88%D9%81",
+     "section": "latest",
+     "summary": "أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالمواقف الأخوية الراسخة لدولة الكويت تجاه اليمن وما تقدمه من دعم إنساني وإغاثي وتنموي في مختلف المجالات.وذكرت وكالة الأنباء اليمنية الحكوم...",
+     "body": "أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالمواقف الأخوية الراسخة لدولة الكويت تجاه اليمن وما تقدمه من دعم إنساني وإغاثي وتنموي في مختلف المجالات.\n\nوذكرت وكالة الأنباء اليمنية الحكومية أن ذلك جاء خلال لقاء بن دغر بسفير دولة الكويت لدى اليمن فلاح المطيري لبحث العلاقات والتعاون المشترك بين البلدين الشقيقين ومستجدات الأوضاع في اليمن والمنطقة.\n\nالأمير يشهد أداء قيادات القضاء اليمين منذ ساعتين نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت منذ ساعتين\n\nوأشاد بدور تحالف دعم الشرعية في اليمن بقيادة المملكة العربية السعودية في مساندة الحكومة اليمنية لإنهاء الانقلاب الحوثي واستعادة مؤسسات الدولة، مديناً الاعتداءات الحوثية على المنشآت المدنية والمطارات السعودية.\n\nوأشار بن دغر إلى مستجدات الأوضاع في اليمن، مندداً بالانتهاكات التي ترتكبها ميليشيات الحوثي وآخرها استهداف مركز تدريب في محافظة شبوة.\n\nودعا دول مجلس التعاون لدول الخليج العربية إلى تعزيز التضامن والتنسيق لمواجهة ميليشيات الحوثي التي وصفها بأنها أداة للمشروع التوسعي الإيراني في المنطقة.\n\nمن جانبه، أكد السفير المطيري عمق العلاقات الأخوية والتاريخية بين البلدين الشقيقين وحرص دولة الكويت على مواصلة دعم اليمن إنسانياً وتنموياً بما يسهم في تعزيز الأمن والاستقرار وتحقيق تطلعات الشعب اليمني إلى السلام والازدهار.\n\nوكان رئيس مجلس النواب اليمني سلطان البركاني قد بحث مع السفير الكويتي فلاح المطيري العلاقات الثنائية وسبل تعزيز التعاون المشترك بين البلدين.\n\nوأشاد البركاني بعمق العلاقات التاريخية والأخوية التي تجمع اليمن والكويت وما تستند إليه من روابط التضامن والتكافل والمصير المشترك مثمنا مواقف الكويت إلى جانب الشعب اليمني على مدى عقود وما قدمته من دعم تنموي وإنساني في قطاعات التعليم والصحة وغيرها من المجالات الحيوية.\n\nواستعرض رئيس مجلس النواب خلال اللقاء التصعيد الحوثي والانتهاكات التي ترتكبها الميليشيات بحق المدنيين، مشيراً إلى القصف المتكرر الذي تتعرض له مدينة تعز ويستهدف الأحياء السكنية بقذائف إيرانية.\n\nوأكد أن مدينة (تعز) بما تمثله من رصيد وطني وجمهوري وما أبداه أبناؤها من صمود في مواجهة ميليشيات الحوثي ظلت عصية على محاولات إخضاعها.\n\nودان بأشد العبارات اعتداءات ميليشيا الحوثي التي تستهدف الأعيان المدنية والمطارات في المملكة العربية السعودية، مؤكداً أن أمن المملكة واستقرارها يمثلان ركيزة أساسية لأمن اليمن والمنطقة العربية.\n\nوقال إن أي تهديد لأراضي المملكة وأمنها يمس أمن المنطقة ويستدعي التضامن في مواجهة الاعتداءات التي تهدد استقرارها.\n\nمن جانبه، أكد السفير المطيري دعم دولة الكويت الثابت للشرعية اليمنية ووقوفها إلى جانب الشعب اليمني واستمرار تقديم المساعدات الإنسانية والإغاثية عبر الجهات المعتمدة.\n\nولفت إلى حرص الكويت على مواصلة دورها الإنساني والتنموي وتعزيز علاقاتها الأخوية مع اليمن بما يخدم مصالح الشعبين الشقيقين ويسهم في التخفيف من معاناة اليمنيين وتحقيق الأمن والاستقرار.",
+     "published": "2026-10-21T00:07:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "Yemeni Shura Council Chairman: Kuwait has been present alongside Yemen in all stages",
+    "headline_ar": "رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف",
+    "summary_en": "Yemeni Shura Council Chairman Ahmed Bin Dagar praised Kuwait's humanitarian and developmental support for Yemen during a meeting with Kuwaiti Ambassador Falah Al-Mutairi. He also commended the Saudi-led coalition's role and condemned Houthi attacks on Saudi infrastructure, calling on GCC states to strengthen solidarity against the Houthis.",
+    "summary_ar": "أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالدعم الإنساني والتنموي الذي تقدمه الكويت لليمن خلال لقاءه بالسفير الكويتي فلاح المطيري. كما أشاد بدور التحالف بقيادة السعودية وندد بهجمات الحوثيين على البنية التحتية السعودية، داعياً دول مجلس التعاون إلى تعزيز التضامن ضد الحوثيين.",
+    "why_it_matters_en": "The statement reinforces Kuwait's diplomatic alignment with the Saudi-led coalition and the internationally recognized Yemeni government. It also highlights Kuwait's continued role as a key humanitarian donor in Yemen, which is a significant aspect of its foreign policy and regional influence.",
+    "why_it_matters_ar": "يعزز البيان التوافق الدبلوماسي للكويت مع التحالف بقيادة السعودية والحكومة اليمنية المعترف بها دولياً. كما يبرز الدور المستمر للكويت كممول إنساني رئيسي في اليمن، وهو جانب مهم من سياستها الخارجية وتأثيرها الإقليمي.",
+    "between_the_lines_en": "The statement is heavily aligned with the Saudi narrative, explicitly praising the 'Saudi-led coalition' and condemning Houthi attacks on Saudi airports. This suggests the meeting was likely facilitated or timed to coincide with broader Saudi-Yemeni diplomatic efforts. The emphasis on Kuwait's 'humanitarian' support rather than military or political support reflects Kuwait's standard diplomatic posture of maintaining a humanitarian role while avoiding direct military involvement. The mention of 'Iranian expansionist project' is a direct echo of Saudi and UAE rhetoric, indicating a shared regional security framework.",
+    "between_the_lines_ar": "البيان متوافق بشكل كبير مع الرواية السعودية، حيث يمدح صراحةً «التحالف بقيادة السعودية» ويندد بهجمات الحوثيين على المطارات السعودية. هذا يشير إلى أن اللقاء ربما تم تسهيله أو توقيته ليتزامن مع جهود دبلوماسية أوسع بين السعودية واليمن. كما أن التأكيد على الدعم «الإنساني» للكويت بدلاً من الدعم العسكري أو السياسي يعكس الموقف الدبلوماسي القياسي للكويت في الحفاظ على دور إنساني مع تجنب المشاركة العسكرية المباشرة. وذكر «المشروع التوسعي الإيراني» هو صدى مباشر لخطاب السعودية والإمارات، مما يدل على إطار أمني إقليمي مشترك.",
+    "watch_next_en": "Watch for any new Kuwaiti humanitarian aid announcements to Yemen in the coming weeks, which may be a direct response to this diplomatic engagement.",
+    "watch_next_ar": "راقب أي إعلانات جديدة عن المساعدات الإنسانية الكويتية لليمن في الأسابيع القادمة، والتي قد تكون استجابة مباشرة لهذا التفاعل الدبلوماسي.",
+    "confidence": "high",
+    "confidence_reason": "The text explicitly aligns with Saudi narratives and uses specific terminology that mirrors regional political discourse, providing a clear basis for the inference.",
+    "entities": [
+     "Ahmed Bin Dagar",
+     "Falah Al-Mutairi",
+     "Yemeni Shura Council",
+     "Saudi-led Coalition",
+     "Houthi Militia",
+     "GCC"
+    ],
+    "tags": [
+     "Foreign Policy",
+     "Yemen",
+     "Diplomacy",
+     "Humanitarian Aid",
+     "GCC"
     ],
     "_source": "llm"
    }
@@ -2121,6 +1947,192 @@
      "Geopolitics",
      "Inflation",
      "Diesel Prices"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "8972501002053015",
+   "score": 12.259,
+   "sources": [
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة",
+     "url": "https://www.alraimedia.com/article/1783400/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A3%D9%85%D9%85%D9%8A-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9",
+     "section": "latest",
+     "summary": "شاركت وزارة العدل بوفد برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجري...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«العدل» تشارك في مؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة",
+     "url": "https://www.alanba.com.kw/1381485",
+     "section": "kuwait",
+     "summary": "كونا- شاركت وزارة العدل بوفد، برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية",
+     "body": "",
+     "published": "2026-10-20T18:45:42+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {
+    "headline_en": "Justice Ministry participates in UN conference on combating organized crime",
+    "headline_ar": "«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة",
+    "summary_en": "The Ministry of Justice, led by First Counselor Badr Al-Mas'ad, Director of the Kuwait Institute for Judicial and Legal Studies, participated in the 13th session of the Conference of the States Parties to the UN Convention against Transnational Organized Crime. The report is a brief confirmation of attendance without detailing specific outcomes or agreements.",
+    "summary_ar": "شاركت وزارة العدل بوفد برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة. الخبر عبارة عن تأكيد موجز للمشاركة دون ذكر تفاصيل محددة حول النتائج أو الاتفاقيات المبرمة.",
+    "why_it_matters_en": "Participation signals Kuwait's continued alignment with international legal frameworks on transnational crime, which is relevant for cross-border judicial cooperation and extradition protocols, though no immediate domestic policy change is indicated.",
+    "why_it_matters_ar": "المشاركة تعكس استمرار الكويت في التوافق مع الأطر القانونية الدولية المتعلقة بالجريمة العابرة للحدود، وهو أمر ذو صلة بالتعاون القضائي الدولي وبروتوكولات التسليم، رغم عدم وجود إشارة إلى تغيير فوري في السياسات المحلية.",
+    "between_the_lines_en": "The story is a standard diplomatic boilerplate. The attribution to the Director of the Judicial Institute rather than a senior minister suggests a technical or administrative level of engagement rather than high-level political negotiation. The lack of any mention of specific bilateral discussions with other GCC or regional states implies the participation was likely observational or for networking purposes rather than for concluding new treaties. The identical framing by Al-Ra'i and Al-Anba confirms this is a routine KUNA reprint with no editorial divergence.",
+    "between_the_lines_ar": "الخبر عبارة عن صياغة دبلوماسية روتينية. الإشارة إلى مدير المعهد القضائي بدلاً من وزير أو مسؤول رفيع المستوى تشير إلى أن المشاركة كانت على مستوى تقني أو إداري وليس تفاوضاً سياسياً رفيع المستوى. غياب أي ذكر لمناقشات ثنائية محددة مع دول مجلس التعاون أو دول المنطقة يوحي بأن المشاركة كانت بغرض المراقبة أو بناء العلاقات وليس لبرم اتفاقيات جديدة. التطابق التام في الصياغة بين الرأي والأنباء يؤكد أن هذا خبر روتيني من كونا دون أي اختلاف تحريري.",
+    "watch_next_en": "Check for any subsequent announcements from the Ministry of Justice regarding new bilateral judicial cooperation agreements or updates to the Anti-Money Laundering Law following this conference.",
+    "watch_next_ar": "مراقبة أي إعلانات لاحقة من وزارة العدل بشأن اتفاقيات تعاون قضائي ثنائي جديدة أو تحديثات لقانون مكافحة غسل الأموال عقب هذا المؤتمر.",
+    "confidence": "high",
+    "confidence_reason": "The material is a standard, unattributed diplomatic update with no unique data points, making the 'routine' assessment highly probable.",
+    "entities": [
+     "Ministry of Justice",
+     "Badr Al-Mas'ad",
+     "Kuwait Institute for Judicial and Legal Studies",
+     "UN Convention against Transnational Organized Crime"
+    ],
+    "tags": [
+     "Justice",
+     "International Law",
+     "UN",
+     "Diplomacy"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "04313a31334e6e20",
+   "score": 12.259,
+   "sources": [
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني",
+     "url": "https://www.alraimedia.com/article/1783394/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A",
+     "section": "latest",
+     "summary": "أكّد رئيس مجلس إدارة جمعية الهلال الأحمر الكويتي خالد المغامس حرص الجمعية على تعزيز شراكاتها الإستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل الإنساني وتطوير ا...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«الهلال الأحمر»: تعزيز الشراكات الوطنية ركيزة أساسية لتطوير العمل الإنساني وتوسيع أثره المجتمعي",
+     "url": "https://www.alanba.com.kw/1381552",
+     "section": "kuwait",
+     "summary": "كونا أكد رئيس مجلس إدارة جمعية الهلال الأحمر خالد المغامس حرص الجمعية على تعزيز شراكاتها الاستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل",
+     "body": "",
+     "published": "2026-10-20T18:45:42+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Red Crescent: Strengthening national partnerships to develop humanitarian work",
+    "headline_ar": "«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني",
+    "summary_en": "Khalid Al-Mughamis, Chairman of the Kuwait Red Crescent Society, stated that the society is focused on strengthening strategic partnerships with national institutions and the oil sector to support humanitarian work. The statement emphasizes the role of the private sector, specifically the oil industry, in funding and developing humanitarian initiatives.",
+    "summary_ar": "أكد خالد المغامس، رئيس مجلس إدارة جمعية الهلال الأحمر الكويتي، حرص الجمعية على تعزيز شراكاتها الإستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل الإنساني وتطويره. البيان يركز على دور القطاع الخاص، وتحديداً قطاع النفط، في تمويل وتطوير المبادرات الإنسانية.",
+    "why_it_matters_en": "This highlights a shift in the Red Crescent's funding model towards corporate social responsibility (CSR) from major state-linked entities like the oil sector. It suggests a diversification of revenue sources away from purely state or individual donations, which is crucial for the sustainability of large-scale humanitarian projects.",
+    "why_it_matters_ar": "يبرز هذا الخبر تحوّلاً في نموذج تمويل الهلال الأحمر نحو المسؤولية الاجتماعية للشركات من كيانات مرتبطة بالدولة مثل قطاع النفط. يشير ذلك إلى تنويع مصادر الإيرادات بعيداً عن التبرعات الحكومية أو الفردية البحتة، وهو أمر حاسم لاستدامة المشاريع الإنسانية الكبرى.",
+    "between_the_lines_en": "The specific mention of the 'oil sector' (القطاع النفطي) is notable. In Kuwait, this usually refers to major state-owned enterprises (like KPC) or large private contractors. By naming this sector explicitly, the Red Crescent is signaling a move to institutionalize funding from the state's primary revenue source, potentially reducing reliance on ad-hoc government allocations. The use of 'strategic partnerships' rather than 'donations' implies long-term contracts or joint ventures rather than one-off gifts. The identical coverage by Al-Ra'i and Al-Anba suggests this is a pre-coordinated corporate communication release rather than a breaking news event.",
+    "between_the_lines_ar": "الإشارة المحددة إلى «القطاع النفطي» تستحق الانتباه. في الكويت، يشير هذا عادة إلى الشركات المملوكة للدولة الكبرى (مثل شركة البترول الوطنية) أو المقاولين الخاصين الكبار. من خلال تسمية هذا القطاع صراحة، يشير الهلال الأحمر إلى تحرك لتأسيس التمويل من المصدر الرئيسي لإيرادات الدولة، مما قد يقلل الاعتماد على التخصيصات الحكومية الطارئة. استخدام مصطلح «شراكات إستراتيجية» بدلاً من «تبرعات» يوحي بعقود طويلة الأمد أو مشاريع مشتركة بدلاً من الهدايا لمرة واحدة. التغطية المتطابقة من الرأي والأنباء تشير إلى أن هذا بيان مؤسسي منسق مسبقاً وليس خبراً عاجلاً.",
+    "watch_next_en": "Look for official announcements of specific CSR agreements between the Kuwait Red Crescent and major oil companies (e.g., KPC, KNPC) or the establishment of a dedicated humanitarian fund within the oil sector.",
+    "watch_next_ar": "مراقبة الإعلانات الرسمية عن اتفاقيات مسؤولية اجتماعية محددة بين الهلال الأحمر الكويتي وشركات النفط الكبرى (مثل شركة البترول الوطنية أو شركة البترول الكويتية) أو إنشاء صندوق إنساني مخصص داخل القطاع النفطي.",
+    "confidence": "medium",
+    "confidence_reason": "The inference about funding diversification is strong based on the explicit mention of the oil sector, but the specific nature of the 'partnerships' is not detailed in the text.",
+    "entities": [
+     "Kuwait Red Crescent Society",
+     "Khalid Al-Mughamis",
+     "Oil Sector"
+    ],
+    "tags": [
+     "Humanitarian",
+     "CSR",
+     "Oil Sector",
+     "NGOs"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "06488dc76d91ff1f",
+   "score": 12.259,
+   "sources": [
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات",
+     "url": "https://www.alraimedia.com/article/1783393/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A3%D9%85%D8%A7%D9%86-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA",
+     "section": "latest",
+     "summary": "اطلع فريق العمل المعني بإنشاء المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان»، على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات...",
+     "body": "ضمن برنامج الاستفادة من التجارب الإقليمية والدولية الرائدة\n\nاطلع فريق العمل المعني بإنشاء المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان»، على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات المعنية، في إطار الجهود الرامية إلى تطوير منظومة وطنية متكاملة لإدارة الطوارئ والأزمات والكوارث في البلاد.\n\nوذكر الفريق، في بيان لـ«كونا»، أن الزيارة إلى سلطنة عمان تأتي ضمن برنامج عمل الفريق للاطلاع على التجارب الإقليمية والدولية الرائدة، والاستفادة من أفضل الممارسات في مجالات الاستعداد والجاهزية والاستجابة وإدارة المخاطر بما يدعم الجهود الوطنية لإنشاء مركز «أمان».\n\nالكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها منذ 5 ساعات نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت منذ 10 ساعات\n\nوذكر أنه زار المركز الوطني لإدارة الحالات الطارئة العماني، حيث اطلع على آليات العمل المؤسسي ومنظومة التنسيق بين مختلف القطاعات وتكامل الأدوار والمسؤوليات، إضافة إلى الإجراءات المتبعة في الاستعداد المسبق والتعامل مع الحالات الجوية الاستثنائية والكوارث. كما اطلع الوفد على تجربة المركز الوطني للإنذار المبكر من المخاطر المتعددة العماني، والآليات المستخدمة في الرصد والتنبؤ وإصدار التحذيرات المبكرة ودورها في دعم اتخاذ القرار ورفع مستوى الجاهزية الوطنية.\n\nوتضمن برنامج الزيارة أيضا الاطلاع على أدوار القطاعات المعنية بالدفاع المدني والإسعاف والإغاثة والإيواء والاستجابة الطبية والصحة العامة، وآليات التنسيق بينها لضمان سرعة الاستجابة واستمرارية الخدمات الأساسية أثناء الحالات الطارئة. وحول أهمية الزيارة إلى سلطنة عمان، أكد الفريق أهمية الاستفادة من التجربة العمانية، لاسيما في مجالات القيادة والسيطرة وتوحيد الجهود الوطنية وتبادل المعلومات، إلى جانب دور الاتصال الحكومي والإعلام في إدارة الأزمات وإيصال الرسائل التوعوية والتحذيرية للجمهور بصورة دقيقة وموحدة.\n\nوأوضح أن هذه الزيارة تمثل امتداداً للتعاون والتنسيق السابق بين الجانبين، وتعكس حرص البلدين الشقيقين على تعزيز الشراكة المؤسسية وتبادل المعرفة والخبرات، بما يسهم في تطوير القدرات الوطنية ورفع مستويات الاستعداد والاستجابة لمختلف أنواع الطوارئ والكوارث.",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "فريق «أمان» يطلع على التجربة العُمانية في إدارة الحالات الطارئة والأزمات والكوارث",
+     "url": "https://www.alanba.com.kw/1381502",
+     "section": "kuwait",
+     "summary": "مسقطكونا اطلع فريق العمل الكويتي المعني بإنشاء المركز الوطني لإدارة الطوارئ والأزمات والكوارث (أمان) على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والك",
+     "body": "",
+     "published": "2026-10-20T18:45:42+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {
+    "headline_en": "Aman team studies Oman's experience in emergency and crisis management",
+    "headline_ar": "«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات",
+    "summary_en": "A team from the National Center for Emergency, Crisis, and Disaster Management ('Aman') visited Oman to study its experience in managing emergencies and national coordination mechanisms. The visit is part of the setup phase for the new center.",
+    "summary_ar": "اطلع فريق عمل من المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان» على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات. الزيارة جزء من مرحلة إنشاء المركز الجديد.",
+    "why_it_matters_en": "This indicates that Kuwait is actively building its national crisis management infrastructure by benchmarking against regional peers. The choice of Oman suggests a focus on structured, centralized coordination models, which is relevant for Kuwait's preparedness for large-scale disasters or security incidents.",
+    "why_it_matters_ar": "يشير هذا إلى أن الكويت تبني بنيتها التحتية الوطنية لإدارة الأزمات بنشاط من خلال المقارنة مع نظرائها الإقليميين. اختيار عمان يوحي بالتركيز على نماذج التنسيق المركزية المنظمة، وهو أمر ذو صلة بجاهزية الكويت للتعامل مع الكوارث الكبرى أو الحوادث الأمنية.",
+    "between_the_lines_en": "The fact that the team is 'learning' from Oman implies that Kuwait's own framework is still in a developmental or conceptual stage. Oman is often cited in the GCC for its relatively centralized and efficient crisis management structures. The use of the term 'sister sultanate' (سلطنة عمان الشقيقة) is standard diplomatic language, but the focus on 'mechanisms of national coordination' suggests that the primary challenge for Kuwait is not just technical (equipment) but institutional (inter-agency coordination). The lack of details on which specific Omani agency was visited or what specific protocols were adopted leaves the practical outcome vague.",
+    "between_the_lines_ar": "حقيقة أن الفريق «يتعلم» من عمان توحي بأن الإطار الكويتي لا يزال في مرحلة تطوير أو مفاهيمية. غالباً ما تُذكر عمان في مجلس التعاون لنظمها المركزية والفعالة نسبياً لإدارة الأزمات. استخدام مصطلح «سلطنة عمان الشقيقة» لغة دبلوماسية قياسية، لكن التركيز على «آليات التنسيق الوطني» يوحي بأن التحدي الرئيسي للكويت ليس تقنياً (معدات) بل مؤسسياً (التنسيق بين الوكالات). غياب التفاصيل حول الوكالة العمانية المحددة التي تمت زيارتها أو البروتوكولات المحددة التي تم اعتمادها يجعل النتيجة العملية غامضة.",
+    "watch_next_en": "Monitor for the official launch of the 'Aman' center and any subsequent announcements about new inter-ministerial protocols or the appointment of a permanent director with a background in crisis management.",
+    "watch_next_ar": "مراقبة الإطلاق الرسمي لمركز «أمان» وأي إعلانات لاحقة عن بروتوكولات وزارية جديدة أو تعيين مدير دائم بخلفية في إدارة الأزمات.",
+    "confidence": "medium",
+    "confidence_reason": "The inference about the developmental stage of Kuwait's framework is logical but not explicitly stated; the text only confirms the visit.",
+    "entities": [
+     "National Center for Emergency, Crisis, and Disaster Management (Aman)",
+     "Oman"
+    ],
+    "tags": [
+     "Emergency Management",
+     "Crisis Response",
+     "GCC Cooperation",
+     "Institutional Development"
     ],
     "_source": "llm"
    }
@@ -2324,6 +2336,55 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "10a6a097dfb00e09",
+   "score": 11.319,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: اعتراض وتدمير 4 مسيّرات في منطقتي المدينة المنورة والشرقية",
+     "url": "https://www.alraimedia.com/article/1783426/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-4-%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%AA%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي اليوم الأربعاء اعتراض وتدمير 4 مسيّرات أطلقت باتجاه المملكة العربية السعودية.وقال المال...",
+     "body": "",
+     "published": "2026-10-21T06:56:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التحالف»: اعتراض وتدمير «مسيّرة» في منطقة الرياض",
+     "url": "https://www.alraimedia.com/article/1783329/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي اليوم الثلاثاء اعتراض وتدمير طائرة مسيرة بمنطقة الرياض.جاء ذلك في بيان للمتحدث باسم الت...",
+     "body": "",
+     "published": "2026-10-20T18:06:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "التحالف بقيادة السعودية: اعتراض وتدمير طائرة مسيرة فوق الرياض",
+     "url": "https://www.aljarida.com/article/148066",
+     "section": "world",
+     "summary": "التحالف بقيادة السعودية: اعتراض وتدمير طائرة مسيرة فوق الرياض",
+     "body": "",
+     "published": "2026-10-20T17:29:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -2579,43 +2640,6 @@
      "summary": "أعلن تحالف دعم الشرعية في اليمن اعتراض صاروخ بالستي أطلقه الحوثيون باتجاه الرياض اليوم. وأفاد المتحدث باسم التحالف تركي المالكي عبر منصة «إكس» عن «اعتراض وتدمير صاروخ بالستي أطلقته...",
      "body": "",
      "published": "2026-10-20T12:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "10a6a097dfb00e09",
-   "score": 9.559,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«التحالف»: اعتراض وتدمير «مسيّرة» في منطقة الرياض",
-     "url": "https://www.alraimedia.com/article/1783329/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
-     "section": "world",
-     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي اليوم الثلاثاء اعتراض وتدمير طائرة مسيرة بمنطقة الرياض.جاء ذلك في بيان للمتحدث باسم الت...",
-     "body": "",
-     "published": "2026-10-20T18:06:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "التحالف بقيادة السعودية: اعتراض وتدمير طائرة مسيرة فوق الرياض",
-     "url": "https://www.aljarida.com/article/148066",
-     "section": "world",
-     "summary": "التحالف بقيادة السعودية: اعتراض وتدمير طائرة مسيرة فوق الرياض",
-     "body": "",
-     "published": "2026-10-20T17:29:00+03:00",
      "tier": 1
     }
    ],
@@ -2900,246 +2924,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "4104385c7c6028da",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام",
-     "url": "https://www.alraimedia.com/article/1783405/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%83%D9%85%D9%84-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%81%D8%A7%D8%A6%D8%B6-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%887-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A2%D8%AE%D8%B1-%D9%8A%D9%88%D9%85-%D8%AF%D9%88%D8%A7%D9%85",
-     "section": "local",
-     "summary": "تستكمل وزارة التربية إجراءات تنظيم القوى العاملة التعليمية ومعالجة الفائض في بعض التخصصات، ضمن خطوات تستهدف إعادة مواءمة أعداد المعلمين والمعلمات مع الاحتياجات الفعلية للمدارس، حيث...",
-     "body": "",
-     "published": "2026-10-20T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "f3712d7c9a196242",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت",
-     "url": "https://www.alraimedia.com/article/1783406/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D9%84%D8%A7%D9%84%D8%B1%D8%A7%D9%8A-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A3%D9%88%D8%B3%D8%B9-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
-     "section": "local",
-     "summary": "أكدت نائبة السكرتير الدائم للشؤون الخارجية في تايلند، سيريلك نيوم، حرص بلادها على تعزيز علاقاتها مع الكويت والارتقاء بها إلى شراكة إستراتيجية أوسع، تشمل التجارة والاستثمار والأمن ا...",
-     "body": "",
-     "published": "2026-10-20T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "8c638da5c5e9b0c7",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الأمير يشهد أداء قيادات القضاء اليمين",
-     "url": "https://www.alraimedia.com/article/1783412/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D8%B4%D9%87%D8%AF-%D8%A3%D8%AF%D8%A7%D8%A1-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86",
-     "section": "local",
-     "summary": "استقبل صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح، رئيس المجلس الأعلى للقضاء رئيس محكمة التمييز المستشار أول هاني محمد الحمدان، ونائب رئيس محكمة التمييز المستشار أول ضر...",
-     "body": "",
-     "published": "2026-10-20T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "9c940ea9592b0d08",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "قلبي سليم... فلماذا لا تختفي النغزات؟",
-     "url": "https://www.alraimedia.com/article/1783392/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D9%84%D8%A8%D9%8A-%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D8%A7-%D8%AA%D8%AE%D8%AA%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%BA%D8%B2%D8%A7%D8%AA",
-     "section": "local",
-     "summary": "«دكتور، سويت كل فحوصات القلب وقالوا لي سليمة، بس النغزات والخفقان للحين موجودة... شالسالفة؟».أسمع هذه الجملة كثيراً في العيادة. يجلس أمامي المريض وقد أنهى رحلة كاملة من فحوصات القل...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e42b12e47f1e6b7a",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "جامعة الكويت تستضيف وفداً دبلوماسياً من أفريقيا",
-     "url": "https://www.alraimedia.com/article/1783395/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D9%88%D9%81%D8%AF%D8%A7-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A7-%D9%85%D9%86-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7",
-     "section": "local",
-     "summary": "أكدت مدير جامعة الكويت الدكتورة دينا الميلم، أن الزيارات الدبلوماسية تفتح آفاق التواصل العلمي والثقافي مع الجامعة وتسهم في التعريف برسالتها التعليمية والبحثية وما تتمتع به من إمكان...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "0245bf0e0cf511bd",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "مبادرات كويتية لتطوير الوقف وتعزيز دوره في التنمية المجتمعية",
-     "url": "https://www.alraimedia.com/article/1783396/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "أكد وزير الأوقاف والشؤون الإسلامية الدكتور محمد الوسمي، حرص دولة الكويت على تعزيز التعاون الخليجي المشترك في مجالات الشؤون الإسلامية والأوقاف، وتطوير المبادرات الوقفية وتبادل الخبر...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "f9e65d412d56b58e",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت أمام الأمم المتحدة: احترام القانون الدولي الإنساني واجب",
-     "url": "https://www.alraimedia.com/article/1783397/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D8%AC%D8%A8",
-     "section": "local",
-     "summary": "أكدت دولة الكويت ضرورة تعزيز احترام القانون الدولي الإنساني؛ وضمان التنفيذ الكامل والفعال لقواعده ومبادئه، وحماية المدنيين والأعيان المدنية خلال النزاعات المسلحة، ومساءلة المسؤولين...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "08456f05246cc760",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "المعهد الدبلوماسي يوسّع تعاونه مع المفوضية السامية لشؤون اللاجئين",
-     "url": "https://www.alraimedia.com/article/1783398/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D9%8A%D9%88%D8%B3%D8%B9-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D9%84%D8%A7%D8%AC%D8%A6%D9%8A%D9%86",
-     "section": "local",
-     "summary": "وقّعت المفوضية السامية للأمم المتحدة لشؤون اللاجئين لدى البلاد، بالتعاون مع معهد سعود الناصر الصباح الدبلوماسي، مذكرة تفاهم تهدف إلى تعزيز التعاون في المجالات الدبلوماسية الإنسانية...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "6b67bad64171343c",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«سقيا الماء» تطلق «قطرة وطن»: توسيع نطاق التعاون وتعزيز ثقافة الترشيد",
-     "url": "https://www.alraimedia.com/article/1783399/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D8%AA%D8%B7%D9%84%D9%82-%D9%82%D8%B7%D8%B1%D8%A9-%D9%88%D8%B7%D9%86-%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D9%86%D8%B7%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF",
-     "section": "local",
-     "summary": "أطلقت الجمعية الكويتية لسقيا الماء الحملة الوطنية لترشيد استهلاك المياه تحت شعار «قطرة وطن» برعاية وزير الكهرباء والماء والطاقة المتجددة صبيح المخيزيم، وحضور ممثلين عن وزارة الشؤون...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "2f8ca8dcb51767b5",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "تعاون كويتي - جزائري لتبادل الخبرات في الشؤون الدينية",
-     "url": "https://www.alraimedia.com/article/1783401/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A---%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "بحث سفير دولة الكويت لدى الجزائر نواف بوشيبه، مع وزير الدولة عميد جامع الجزائر الشيخ محمد القاسمي، سبل تعزيز التعاون بين البلدين في المجال الديني، وضرورة التنسيق بينهما من أجل تباد...",
-     "body": "",
-     "published": "2026-10-20T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3503,6 +3287,78 @@
    "analysis": {}
   },
   {
+   "key": "61ba3c9f87ed6561",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "صدور مرسوم بقانون لتعديل بعض أحكام قانون التوثيق",
+     "url": "https://www.alanba.com.kw/1381499",
+     "section": "official",
+     "summary": "توثيق مسائل الأحوال الشخصية إلكترونيا وعن بعد تيسيرا على ذوي الشأنمنع توثيق عقد الزواج إلا بعد إتمام كل من طرفيه برنامج تأهيلالمقبلين عليهيصدر قرار من وزير الع",
+     "body": "",
+     "published": "2026-10-20T18:45:42+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "b24592c2ea6cf4e9",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الكويت: الإزالة الكاملة للأسلحة النووية ضمانة لمنع استخدامها",
+     "url": "https://www.alanba.com.kw/1381497",
+     "section": "official",
+     "summary": "نيويورك - كونا أكدت دولة الكويت أن القضاء التام على الأسلحة النووية يمثل الضمانة الوحيدة لمنع استخدامها، محذرة من أن تكديس هذه الأسلحة وتطويرها والتلويح باستخد",
+     "body": "",
+     "published": "2026-10-20T18:45:42+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "e7032190fd5b30ae",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "رسمياً.. تعديل نص المادة 830 من القانون المدني",
+     "url": "https://www.alanba.com.kw/1381498",
+     "section": "official",
+     "summary": "يهدف التعديل إلى تحقيق التوازن بين حقوق الشركاء في قسمة عقارهم السكني والاعتبارات الإنسانية والاجتماعيةإذا كان المال الشائع عقارا سكنيا فللمحكمة أن تأمر بالبقا",
+     "body": "",
+     "published": "2026-10-20T18:45:42+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "b4f6d0ed22f275ac",
    "score": 6.651,
    "sources": [
@@ -3767,78 +3623,6 @@
    "analysis": {}
   },
   {
-   "key": "61ba3c9f87ed6561",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "صدور مرسوم بقانون لتعديل بعض أحكام قانون التوثيق",
-     "url": "https://www.alanba.com.kw/1381499",
-     "section": "official",
-     "summary": "توثيق مسائل الأحوال الشخصية إلكترونيا وعن بعد تيسيرا على ذوي الشأنمنع توثيق عقد الزواج إلا بعد إتمام كل من طرفيه برنامج تأهيلالمقبلين عليهيصدر قرار من وزير الع",
-     "body": "",
-     "published": "2026-10-20T18:45:42+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "b24592c2ea6cf4e9",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الكويت: الإزالة الكاملة للأسلحة النووية ضمانة لمنع استخدامها",
-     "url": "https://www.alanba.com.kw/1381497",
-     "section": "official",
-     "summary": "نيويورك - كونا أكدت دولة الكويت أن القضاء التام على الأسلحة النووية يمثل الضمانة الوحيدة لمنع استخدامها، محذرة من أن تكديس هذه الأسلحة وتطويرها والتلويح باستخد",
-     "body": "",
-     "published": "2026-10-20T18:45:42+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e7032190fd5b30ae",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "رسمياً.. تعديل نص المادة 830 من القانون المدني",
-     "url": "https://www.alanba.com.kw/1381498",
-     "section": "official",
-     "summary": "يهدف التعديل إلى تحقيق التوازن بين حقوق الشركاء في قسمة عقارهم السكني والاعتبارات الإنسانية والاجتماعيةإذا كان المال الشائع عقارا سكنيا فللمحكمة أن تأمر بالبقا",
-     "body": "",
-     "published": "2026-10-20T18:45:42+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "7a8be9e742334fc9",
    "score": 6.644,
    "sources": [
@@ -3916,30 +3700,6 @@
      "summary": "",
      "body": "",
      "published": "2026-10-20T13:47:00+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e142b4c48a9c2f31",
-   "score": 6.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "لغز الولادة المبكرة.. اكتشاف علمي يكشف عاملا خفيا وراءها",
-     "url": "https://www.alraimedia.com/article/1783422/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%84%D8%BA%D8%B2-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1%D8%A9-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%B9%D9%84%D9%85%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%B9%D8%A7%D9%85%D9%84%D8%A7-%D8%AE%D9%81%D9%8A%D8%A7-%D9%88%D8%B1%D8%A7%D8%A1%D9%87%D8%A7",
-     "section": "latest",
-     "summary": "كشفت دراسة علمية حديثة عن عامل مناعي قد يكون مسؤولا عن بعض حالات الولادة المبكرة، ما يفتح آفاقا جديدة لفهم أسبابها وتطوير علاجات محتملة للوقاية منها.وأظهرت الدراسة، التي شملت أكثر...",
-     "body": "",
-     "published": "2026-10-21T04:21:00+03:00",
      "tier": 1
     }
    ],
@@ -4319,6 +4079,54 @@
    "analysis": {}
   },
   {
+   "key": "1900028d8896cb31",
+   "score": 5.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "روبيو: محادثات أوسلو مع زيلينسكي «إيجابية»",
+     "url": "https://www.alraimedia.com/article/1783428/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D8%A3%D9%88%D8%B3%D9%84%D9%88-%D9%85%D8%B9-%D8%B2%D9%8A%D9%84%D9%8A%D9%86%D8%B3%D9%83%D9%8A-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "أعلن وزير الخارجية الأميركي ماركو روبيو اليوم الأربعاء أن المحادثات التي أجراها الموفد الأميركي ستيف ويتكوف مع الرئيس الأوكراني فولوديمير زيلينسكي أمس الثلاثاء في أوسلو كانت «إيجاب...",
+     "body": "",
+     "published": "2026-10-21T08:09:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "d8599dba93189498",
+   "score": 5.958,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ماسك: اندماج «سبيس إكس» و«تسلا» فكرة جيدة",
+     "url": "https://www.alraimedia.com/article/1783427/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%85%D8%A7%D8%B3%D9%83-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%B3%D8%A8%D9%8A%D8%B3-%D8%A5%D9%83%D8%B3-%D9%88%D8%AA%D8%B3%D9%84%D8%A7-%D9%81%D9%83%D8%B1%D8%A9-%D8%AC%D9%8A%D8%AF%D8%A9",
+     "section": "last-page",
+     "summary": "قال رجل ⁠الأعمال الأميركي إيلون ماسك إن اندماج شركتيه «سبيس إكس» ​و«تسلا» سيكون «فكرة جيدة» وإنهما شكلتا لجانا خاصة لمناقشة الأمر، مما أدى إلى ارتفاع أسهم شركة الفضاء والتكنولوجيا...",
+     "body": "",
+     "published": "2026-10-21T07:27:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "f27a349da4f6636f",
    "score": 5.958,
    "sources": [
@@ -4391,8 +4199,8 @@
    "analysis": {}
   },
   {
-   "key": "eba3ae330d388300",
-   "score": 5.759,
+   "key": "e142b4c48a9c2f31",
+   "score": 5.758,
    "sources": [
     "الرأي"
    ],
@@ -4402,12 +4210,12 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«أبطال أوروبا».. غيراسي يعيد دوتموند إلى سكة الانتصارات",
-     "url": "https://www.alraimedia.com/article/1783414/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%BA%D9%8A%D8%B1%D8%A7%D8%B3%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%AF%D9%88%D8%AA%D9%85%D9%88%D9%86%D8%AF-%D8%A5%D9%84%D9%89-%D8%B3%D9%83%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA",
+     "title": "لغز الولادة المبكرة.. اكتشاف علمي يكشف عاملا خفيا وراءها",
+     "url": "https://www.alraimedia.com/article/1783422/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%84%D8%BA%D8%B2-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1%D8%A9-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%B9%D9%84%D9%85%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%B9%D8%A7%D9%85%D9%84%D8%A7-%D8%AE%D9%81%D9%8A%D8%A7-%D9%88%D8%B1%D8%A7%D8%A1%D9%87%D8%A7",
      "section": "latest",
-     "summary": "أعاد المهاجم الدولي الغيني سيرهو غيراسي فريقه بوروسيا دورتموند الألماني إلى سكة الانتصارات بتسجيله ثنائية الفوز على مضيفه صباح الأذربيجاني 2-1، الثلاثاء على الملعب الأولمبي في باكو...",
+     "summary": "كشفت دراسة علمية حديثة عن عامل مناعي قد يكون مسؤولا عن بعض حالات الولادة المبكرة، ما يفتح آفاقا جديدة لفهم أسبابها وتطوير علاجات محتملة للوقاية منها.وأظهرت الدراسة، التي شملت أكثر...",
      "body": "",
-     "published": "2026-10-20T22:13:00+03:00",
+     "published": "2026-10-21T04:21:00+03:00",
      "tier": 1
     }
    ],
@@ -4751,6 +4559,54 @@
    "analysis": {}
   },
   {
+   "key": "eba3ae330d388300",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«أبطال أوروبا».. غيراسي يعيد دوتموند إلى سكة الانتصارات",
+     "url": "https://www.alraimedia.com/article/1783414/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%BA%D9%8A%D8%B1%D8%A7%D8%B3%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%AF%D9%88%D8%AA%D9%85%D9%88%D9%86%D8%AF-%D8%A5%D9%84%D9%89-%D8%B3%D9%83%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA",
+     "section": "latest",
+     "summary": "أعاد المهاجم الدولي الغيني سيرهو غيراسي فريقه بوروسيا دورتموند الألماني إلى سكة الانتصارات بتسجيله ثنائية الفوز على مضيفه صباح الأذربيجاني 2-1، الثلاثاء على الملعب الأولمبي في باكو...",
+     "body": "",
+     "published": "2026-10-20T22:13:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "8c638da5c5e9b0c7",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الأمير يشهد أداء قيادات القضاء اليمين",
+     "url": "https://www.alraimedia.com/article/1783412/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D8%B4%D9%87%D8%AF-%D8%A3%D8%AF%D8%A7%D8%A1-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "استقبل صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح، رئيس المجلس الأعلى للقضاء رئيس محكمة التمييز المستشار أول هاني محمد الحمدان، ونائب رئيس محكمة التمييز المستشار أول ضر...",
+     "body": "",
+     "published": "2026-10-20T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "7d195563033d035f",
    "score": 5.159,
    "sources": [
@@ -4823,6 +4679,54 @@
    "analysis": {}
   },
   {
+   "key": "f3712d7c9a196242",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت",
+     "url": "https://www.alraimedia.com/article/1783406/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D9%84%D8%A7%D9%84%D8%B1%D8%A7%D9%8A-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A3%D9%88%D8%B3%D8%B9-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
+     "section": "latest",
+     "summary": "أكدت نائبة السكرتير الدائم للشؤون الخارجية في تايلند، سيريلك نيوم، حرص بلادها على تعزيز علاقاتها مع الكويت والارتقاء بها إلى شراكة إستراتيجية أوسع، تشمل التجارة والاستثمار والأمن ا...",
+     "body": "",
+     "published": "2026-10-20T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "4104385c7c6028da",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام",
+     "url": "https://www.alraimedia.com/article/1783405/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%83%D9%85%D9%84-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%81%D8%A7%D8%A6%D8%B6-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%887-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A2%D8%AE%D8%B1-%D9%8A%D9%88%D9%85-%D8%AF%D9%88%D8%A7%D9%85",
+     "section": "latest",
+     "summary": "تستكمل وزارة التربية إجراءات تنظيم القوى العاملة التعليمية ومعالجة الفائض في بعض التخصصات، ضمن خطوات تستهدف إعادة مواءمة أعداد المعلمين والمعلمات مع الاحتياجات الفعلية للمدارس، حيث...",
+     "body": "",
+     "published": "2026-10-20T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
    "key": "a6fc40d78e24ad0a",
    "score": 5.159,
    "sources": [
@@ -4892,6 +4796,174 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "2f8ca8dcb51767b5",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تعاون كويتي - جزائري لتبادل الخبرات في الشؤون الدينية",
+     "url": "https://www.alraimedia.com/article/1783401/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A---%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "بحث سفير دولة الكويت لدى الجزائر نواف بوشيبه، مع وزير الدولة عميد جامع الجزائر الشيخ محمد القاسمي، سبل تعزيز التعاون بين البلدين في المجال الديني، وضرورة التنسيق بينهما من أجل تباد...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "6b67bad64171343c",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«سقيا الماء» تطلق «قطرة وطن»: توسيع نطاق التعاون وتعزيز ثقافة الترشيد",
+     "url": "https://www.alraimedia.com/article/1783399/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D8%AA%D8%B7%D9%84%D9%82-%D9%82%D8%B7%D8%B1%D8%A9-%D9%88%D8%B7%D9%86-%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D9%86%D8%B7%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF",
+     "section": "latest",
+     "summary": "أطلقت الجمعية الكويتية لسقيا الماء الحملة الوطنية لترشيد استهلاك المياه تحت شعار «قطرة وطن» برعاية وزير الكهرباء والماء والطاقة المتجددة صبيح المخيزيم، وحضور ممثلين عن وزارة الشؤون...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "08456f05246cc760",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "المعهد الدبلوماسي يوسّع تعاونه مع المفوضية السامية لشؤون اللاجئين",
+     "url": "https://www.alraimedia.com/article/1783398/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D9%8A%D9%88%D8%B3%D8%B9-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D9%84%D8%A7%D8%AC%D8%A6%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "وقّعت المفوضية السامية للأمم المتحدة لشؤون اللاجئين لدى البلاد، بالتعاون مع معهد سعود الناصر الصباح الدبلوماسي، مذكرة تفاهم تهدف إلى تعزيز التعاون في المجالات الدبلوماسية الإنسانية...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "f9e65d412d56b58e",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت أمام الأمم المتحدة: احترام القانون الدولي الإنساني واجب",
+     "url": "https://www.alraimedia.com/article/1783397/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D8%AC%D8%A8",
+     "section": "latest",
+     "summary": "أكدت دولة الكويت ضرورة تعزيز احترام القانون الدولي الإنساني؛ وضمان التنفيذ الكامل والفعال لقواعده ومبادئه، وحماية المدنيين والأعيان المدنية خلال النزاعات المسلحة، ومساءلة المسؤولين...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "0245bf0e0cf511bd",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "مبادرات كويتية لتطوير الوقف وتعزيز دوره في التنمية المجتمعية",
+     "url": "https://www.alraimedia.com/article/1783396/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أكد وزير الأوقاف والشؤون الإسلامية الدكتور محمد الوسمي، حرص دولة الكويت على تعزيز التعاون الخليجي المشترك في مجالات الشؤون الإسلامية والأوقاف، وتطوير المبادرات الوقفية وتبادل الخبر...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "e42b12e47f1e6b7a",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "جامعة الكويت تستضيف وفداً دبلوماسياً من أفريقيا",
+     "url": "https://www.alraimedia.com/article/1783395/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D9%88%D9%81%D8%AF%D8%A7-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A7-%D9%85%D9%86-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7",
+     "section": "latest",
+     "summary": "أكدت مدير جامعة الكويت الدكتورة دينا الميلم، أن الزيارات الدبلوماسية تفتح آفاق التواصل العلمي والثقافي مع الجامعة وتسهم في التعريف برسالتها التعليمية والبحثية وما تتمتع به من إمكان...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "9c940ea9592b0d08",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "قلبي سليم... فلماذا لا تختفي النغزات؟",
+     "url": "https://www.alraimedia.com/article/1783392/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D9%84%D8%A8%D9%8A-%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D8%A7-%D8%AA%D8%AE%D8%AA%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%BA%D8%B2%D8%A7%D8%AA",
+     "section": "latest",
+     "summary": "«دكتور، سويت كل فحوصات القلب وقالوا لي سليمة، بس النغزات والخفقان للحين موجودة... شالسالفة؟».أسمع هذه الجملة كثيراً في العيادة. يجلس أمامي المريض وقد أنهى رحلة كاملة من فحوصات القل...",
+     "body": "",
+     "published": "2026-10-20T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -5348,30 +5420,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "5afca68c98f17802",
-   "score": 5.157,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "روبيو: إيران تعلن صراحة استهداف السفن التجارية وعلى العالم إدانتها",
-     "url": "https://www.aljarida.com/article/148150",
-     "section": "world",
-     "summary": "قال وزير الخارجية الأميركي ماركو روبيو اليوم إن إيران تعلن صراحة استهداف السفن التجارية وعلى العالم إدانتهاوأضاف أن ما تفعله إيران ضد السفن التجارية لم نشهد مثله منذ الحرب الع...",
-     "body": "",
-     "published": "2026-10-20T22:10:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -5879,30 +5927,6 @@
    "analysis": {}
   },
   {
-   "key": "39e959728424e44c",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«االمكافحة» تضبط سائق شاحنة نقل بحوزته 300 ألف قرص «كبتاغون».. قيمتها السوقية أكثر من نصف مليون دينار",
-     "url": "https://www.alraimedia.com/article/1783317/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AA%D8%B6%D8%A8%D8%B7-%D8%B3%D8%A7%D8%A6%D9%82-%D8%B4%D8%A7%D8%AD%D9%86%D8%A9-%D9%86%D9%82%D9%84-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-300-%D8%A3%D9%84%D9%81-%D9%82%D8%B1%D8%B5-%D9%83%D8%A8%D8%AA%D8%A7%D8%BA%D9%88%D9%86-%D9%82%D9%8A%D9%85%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D9%82%D9%8A%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-%D9%86%D8%B5%D9%81-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1",
-     "section": "last-page",
-     "summary": "بإشراف مباشر من النائب الأول لرئيس مجلس الوزراء ووزير الداخلية الشيخ فهد يوسف سعود الصباح، تمكنت الإدارة العامة لمكافحة المخدرات من ضبط سائق شاحنة نقل من الجنسية التركية، بحوزته (3...",
-     "body": "",
-     "published": "2026-10-20T14:19:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "eb5d6b9a5ce27456",
    "score": 4.559,
    "sources": [
@@ -6359,78 +6383,6 @@
    "analysis": {}
   },
   {
-   "key": "1872be3f46052891",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait takes part in UN anti-organized crime conference in Vienna",
-     "url": "https://kuwaittimes.com/article/51953/kuwait/kuwait-takes-part-in-un-anti-organized-crime-conference-in-vienna/",
-     "section": "latest",
-     "summary": "KUWAIT: A Ministry of Justice delegation headed by Counselor Bader Al-Masaad, Director of the Kuwait Institute for Judicial and Legal Studies, is taking part in the 13th session of...",
-     "body": "",
-     "published": "2026-10-20T06:31:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "924db685d21bd62b",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait urges total elimination of nuclear weapons at UN",
-     "url": "https://kuwaittimes.com/article/51952/kuwait/kuwait-urges-total-elimination-of-nuclear-weapons-at-un/",
-     "section": "latest",
-     "summary": "NEW YORK: The complete elimination of nuclear weapons is the only guarantee against their use, Kuwait’s diplomatic attache at its Permanent Mission to the United Nations, Jarrah Al...",
-     "body": "",
-     "published": "2026-10-20T06:24:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "4e8f85649cd01876",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Chance of drizzle on hot Tuesday, light fog possible at night",
-     "url": "https://kuwaittimes.com/article/51951/kuwait/chance-of-drizzle-on-hot-tuesday-light-fog-possible-at-night/",
-     "section": "latest",
-     "summary": "KUWAIT: The weather will be hot and relatively humid over coastal areas on Tuesday, with partly cloudy skies and a chance of drizzle at times, the Meteorological Department said. W...",
-     "body": "",
-     "published": "2026-10-20T06:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "0593b17da06288a0",
    "score": 4.558,
    "sources": [
@@ -6476,6 +6428,30 @@
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "5afca68c98f17802",
+   "score": 4.557,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "روبيو: إيران تعلن صراحة استهداف السفن التجارية وعلى العالم إدانتها",
+     "url": "https://www.aljarida.com/article/148150",
+     "section": "world",
+     "summary": "قال وزير الخارجية الأميركي ماركو روبيو اليوم إن إيران تعلن صراحة استهداف السفن التجارية وعلى العالم إدانتهاوأضاف أن ما تفعله إيران ضد السفن التجارية لم نشهد مثله منذ الحرب الع...",
+     "body": "",
+     "published": "2026-10-20T22:10:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -6780,7 +6756,7 @@
      "lang": "en",
      "title": "Saudi-led Coalition Intercepts Four Drones Targeting Kingdom",
      "url": "https://www.arabtimesonline.com/news/saudi-led-coalition-intercepts-four-drones-targeting-kingdom/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 21: The Saudi-led coalition said early Wednesday that it had intercepted and destroyed four drones launched toward Saudi Arabia.Coalition spokesman Brig. Gen. Turki Al-...",
      "body": "",
      "published": "2026-10-21T07:16:00+03:00",
@@ -6792,7 +6768,7 @@
      "lang": "en",
      "title": "Saudi-Led Coalition Says It Intercepts Iran-Backed Houthi Ballistic Missile Targeting Riyadh",
      "url": "https://www.arabtimesonline.com/news/saudi-led-coalition-says-it-intercepts-iran-backed-houthi-ballistic-missile-targeting-riyadh/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Oct 20: The Saudi-led coalition said on Tuesday it had intercepted and destroyed a ballistic missile fired by Yemen’s Houthi group toward the Saudi capital, Riyadh, amid es...",
      "body": "",
      "published": "2026-10-20T11:53:00+03:00",
@@ -6923,102 +6899,6 @@
    "analysis": {}
   },
   {
-   "key": "077bd14676225971",
-   "score": 4.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Illegal clothes collection boxes lifted in Ahmadi",
-     "url": "https://www.arabtimesonline.com/news/illegal-clothes-collection-boxes-lifted-in-ahmadi/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Oct 20: Kuwait Municipality announced that the Department of Public Hygiene and Road Occupancy had conducted an intensive inspection campaign in Ahmadi Governorate, re...",
-     "body": "",
-     "published": "2026-10-20T23:03:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "85eb282b8fde036e",
-   "score": 4.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Deals bind Kuwait, France",
-     "url": "https://www.arabtimesonline.com/news/deals-bind-kuwait-france-cabinet-endorses-gulf-russia-ties-expansion/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Oct 20: The Cabinet reviewed Tuesday the results of French President Emmanuel Macron’s official visit to Kuwait on Monday and the talks held between His Highness the A...",
-     "body": "",
-     "published": "2026-10-20T22:53:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "4039218a448c3229",
-   "score": 4.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "‘US committed to Kuwait’s security, stability’",
-     "url": "https://www.arabtimesonline.com/news/us-committed-to-kuwaits-security-stability/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Oct 20: Charge d’Affaires at the US Embassy in Kuwait Steven Butler on Tuesday reaffirmed his country’s unwavering commitment to Kuwait’s security, sovereignty and sta...",
-     "body": "",
-     "published": "2026-10-20T22:52:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "6f0c4fe8fc9169e7",
-   "score": 4.258,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Blocking ‘cash-out’ schemes crucial to curb money-laundering",
-     "url": "https://www.arabtimesonline.com/news/blocking-cash-out-schemes-crucial-to-curb-money-laundering/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Oct 20: The practice known as ‘cash out’ or ‘takyeesh’ – when goods purchased on credit are immediately resold for cash -- has been classified as an illicit financial...",
-     "body": "",
-     "published": "2026-10-20T22:32:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "f4f8c84ffb37c9d2",
    "score": 4.218,
    "sources": [
@@ -7080,7 +6960,7 @@
      "lang": "en",
      "title": "US Revokes More Than 300,000 Visas Under Trump Administration",
      "url": "https://www.arabtimesonline.com/news/us-revokes-more-than-300000-visas-under-trump-administration/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 21: The United States has revoked more than 300,000 visas since President Donald Trump returned to office, a senior State Department official said Tuesday, highligh...",
      "body": "",
      "published": "2026-10-21T07:22:00+03:00",
@@ -7088,6 +6968,54 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "eb048d947d78c591",
+   "score": 4.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Global summit on children's well-being opens in Samarkand",
+     "url": "https://www.arabtimesonline.com/news/global-summit-on-childrens-well-being-opens-in-samarkand/",
+     "section": "latest",
+     "summary": "SAMARKAND, Uzbekistan, Oct 21: The Global Summit on Investing in Children’s Well-being opened in Samarkand on Wednesday, bringing together more than 600 participants from over 100...",
+     "body": "",
+     "published": "2026-10-21T08:09:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "39e959728424e44c",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«االمكافحة» تضبط سائق شاحنة نقل بحوزته 300 ألف قرص «كبتاغون».. قيمتها السوقية أكثر من نصف مليون دينار",
+     "url": "https://www.alraimedia.com/article/1783317/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AA%D8%B6%D8%A8%D8%B7-%D8%B3%D8%A7%D8%A6%D9%82-%D8%B4%D8%A7%D8%AD%D9%86%D8%A9-%D9%86%D9%82%D9%84-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-300-%D8%A3%D9%84%D9%81-%D9%82%D8%B1%D8%B5-%D9%83%D8%A8%D8%AA%D8%A7%D8%BA%D9%88%D9%86-%D9%82%D9%8A%D9%85%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D9%82%D9%8A%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-%D9%86%D8%B5%D9%81-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1",
+     "section": "last-page",
+     "summary": "بإشراف مباشر من النائب الأول لرئيس مجلس الوزراء ووزير الداخلية الشيخ فهد يوسف سعود الصباح، تمكنت الإدارة العامة لمكافحة المخدرات من ضبط سائق شاحنة نقل من الجنسية التركية، بحوزته (3...",
+     "body": "",
+     "published": "2026-10-20T14:19:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -7475,30 +7403,6 @@
    "analysis": {}
   },
   {
-   "key": "9c01207ae1245fa9",
-   "score": 3.957,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "اليابان تطلق مهمة لجلب عينات من أحد قمري المريخ",
-     "url": "https://www.alraimedia.com/article/1783296/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86-%D8%AA%D8%B7%D9%84%D9%82-%D9%85%D9%87%D9%85%D8%A9-%D9%84%D8%AC%D9%84%D8%A8-%D8%B9%D9%8A%D9%86%D8%A7%D8%AA-%D9%85%D9%86-%D8%A3%D8%AD%D8%AF-%D9%82%D9%85%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%AE",
-     "section": "last-page",
-     "summary": "أ​طلقت اليابان مركبة فضائية غير ⁠مأهولة باتجاه القمر فوبوس الذي يدور ​حول المريخ، في مهمة تهدف إلى أن تكون الأولى ‌التي تجمع عينات من هذا الجرم الصخري الصغير وتعيدها إلى الأرض...",
-     "body": "",
-     "published": "2026-10-20T06:29:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "e7d15ead607db455",
    "score": 3.955,
    "sources": [
@@ -7775,174 +7679,6 @@
    "analysis": {}
   },
   {
-   "key": "25c597a40d599733",
-   "score": 3.859,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Heavy Concrete Mass Falls on Two Egyptian Workers; One Killed in Jahra",
-     "url": "https://www.arabtimesonline.com/news/heavy-concrete-mass-falls-on-two-egyptian-workers-one-killed-in-jahra/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: An Egyptian expatriate born in 1984 was killed and another Egyptian worker was injured after a heavy mass of concrete fell on them at a work site in Jahra Gove...",
-     "body": "",
-     "published": "2026-10-20T23:40:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "3a645efe795b5840",
-   "score": 3.859,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Egyptian Expat Killed in Three-Vehicle Collision on Al-Ghazali Road",
-     "url": "https://www.arabtimesonline.com/news/egyptian-expat-killed-in-three-vehicle-collision-on-al-ghazali-road/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20 : An Egyptian expatriate born in 1991 was killed in a three-vehicle collision on Al-Ghazali Road.A security source said the Operations Room received a report of...",
-     "body": "",
-     "published": "2026-10-20T23:36:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "2ec48fa2d23627fb",
-   "score": 3.859,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Body Recovered After Suspected Suicide Attempt at Sheikh Jaber Bridge",
-     "url": "https://www.arabtimesonline.com/news/body-recovered-after-suspected-suicide-attempt-at-sheikh-jaber-bridge/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: Firefighting and rescue teams recovered the body of a missing person from the waters below Sheikh Jaber Bridge on Tuesday evening following a report of a suspe...",
-     "body": "",
-     "published": "2026-10-20T23:25:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "d8bf7bfa30887932",
-   "score": 3.859,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "8-Year-Old Kuwaiti Child Killed in Salwa Hit-and-Run; Young Man Dies in Mutlaa Motorcycle Crash",
-     "url": "https://www.arabtimesonline.com/news/8-year-old-kuwaiti-child-killed-in-salwa-hit-and-run-young-man-dies-in-mutlaa-motorcycle-crash/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: An eight-year-old Kuwaiti child was killed in a hit-and-run accident in the Salwa area, while a young man died in a separate motorcycle rollover in Mutlaa.Secu...",
-     "body": "",
-     "published": "2026-10-20T23:21:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "971f007b2b554f5c",
-   "score": 3.859,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Pistol, 5 Live Bullets Found in Suitcase at Kuwait Airport; Court Acquits Officer",
-     "url": "https://www.arabtimesonline.com/news/pistol-5-live-bullets-found-in-suitcase-at-kuwait-airport-court-acquits-officer/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: The Misdemeanor Appeals Court has upheld a first-instance ruling acquitting a security officer working in the Criminal Security Sector of the charge of carryin...",
-     "body": "",
-     "published": "2026-10-20T23:14:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "fe2531b94fd6a1d5",
-   "score": 3.858,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Fake Commerce Official Scam Costs Kuwaiti Woman KD 13,500; Expat Jailed",
-     "url": "https://www.arabtimesonline.com/news/fake-commerce-official-scam-costs-kuwaiti-woman-kd-13500-expat-jailed/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: The Criminal Court has sentenced an expatriate to three years in prison with hard labor, followed by deportation, after convicting him of participating in the...",
-     "body": "",
-     "published": "2026-10-20T23:08:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "9676d233d61cd932",
-   "score": 3.858,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Three-Storey House Turned Into Liquor Factory in Rehab; 7,500 Liters Seized",
-     "url": "https://www.arabtimesonline.com/news/three-storey-house-turned-into-liquor-factory-in-rehab-7500-liters-seized/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: Kuwait’s General Department of Criminal Investigation has dismantled a criminal network accused of manufacturing and distributing locally produced liquor from...",
-     "body": "",
-     "published": "2026-10-20T22:17:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
    "key": "723b9d0ab4b53f11",
    "score": 3.659,
    "sources": [
@@ -8159,6 +7895,198 @@
    "analysis": {}
   },
   {
+   "key": "25c597a40d599733",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Heavy Concrete Mass Falls on Two Egyptian Workers; One Killed in Jahra",
+     "url": "https://www.arabtimesonline.com/news/heavy-concrete-mass-falls-on-two-egyptian-workers-one-killed-in-jahra/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: An Egyptian expatriate born in 1984 was killed and another Egyptian worker was injured after a heavy mass of concrete fell on them at a work site in Jahra Gove...",
+     "body": "",
+     "published": "2026-10-20T23:40:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "3a645efe795b5840",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Egyptian Expat Killed in Three-Vehicle Collision on Al-Ghazali Road",
+     "url": "https://www.arabtimesonline.com/news/egyptian-expat-killed-in-three-vehicle-collision-on-al-ghazali-road/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20 : An Egyptian expatriate born in 1991 was killed in a three-vehicle collision on Al-Ghazali Road.A security source said the Operations Room received a report of...",
+     "body": "",
+     "published": "2026-10-20T23:36:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "2ec48fa2d23627fb",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Body Recovered After Suspected Suicide Attempt at Sheikh Jaber Bridge",
+     "url": "https://www.arabtimesonline.com/news/body-recovered-after-suspected-suicide-attempt-at-sheikh-jaber-bridge/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: Firefighting and rescue teams recovered the body of a missing person from the waters below Sheikh Jaber Bridge on Tuesday evening following a report of a suspe...",
+     "body": "",
+     "published": "2026-10-20T23:25:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "d8bf7bfa30887932",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "8-Year-Old Kuwaiti Child Killed in Salwa Hit-and-Run; Young Man Dies in Mutlaa Motorcycle Crash",
+     "url": "https://www.arabtimesonline.com/news/8-year-old-kuwaiti-child-killed-in-salwa-hit-and-run-young-man-dies-in-mutlaa-motorcycle-crash/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: An eight-year-old Kuwaiti child was killed in a hit-and-run accident in the Salwa area, while a young man died in a separate motorcycle rollover in Mutlaa.Secu...",
+     "body": "",
+     "published": "2026-10-20T23:21:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "971f007b2b554f5c",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Pistol, 5 Live Bullets Found in Suitcase at Kuwait Airport; Court Acquits Officer",
+     "url": "https://www.arabtimesonline.com/news/pistol-5-live-bullets-found-in-suitcase-at-kuwait-airport-court-acquits-officer/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Misdemeanor Appeals Court has upheld a first-instance ruling acquitting a security officer working in the Criminal Security Sector of the charge of carryin...",
+     "body": "",
+     "published": "2026-10-20T23:14:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "077bd14676225971",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Illegal clothes collection boxes lifted in Ahmadi",
+     "url": "https://www.arabtimesonline.com/news/illegal-clothes-collection-boxes-lifted-in-ahmadi/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: Kuwait Municipality announced that the Department of Public Hygiene and Road Occupancy had conducted an intensive inspection campaign in Ahmadi Governorate, re...",
+     "body": "",
+     "published": "2026-10-20T23:03:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "85eb282b8fde036e",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Deals bind Kuwait, France",
+     "url": "https://www.arabtimesonline.com/news/deals-bind-kuwait-france-cabinet-endorses-gulf-russia-ties-expansion/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Cabinet reviewed Tuesday the results of French President Emmanuel Macron’s official visit to Kuwait on Monday and the talks held between His Highness the A...",
+     "body": "",
+     "published": "2026-10-20T22:53:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "4039218a448c3229",
+   "score": 3.259,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "‘US committed to Kuwait’s security, stability’",
+     "url": "https://www.arabtimesonline.com/news/us-committed-to-kuwaits-security-stability/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: Charge d’Affaires at the US Embassy in Kuwait Steven Butler on Tuesday reaffirmed his country’s unwavering commitment to Kuwait’s security, sovereignty and sta...",
+     "body": "",
+     "published": "2026-10-20T22:52:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "60c4050a8e427a93",
    "score": 3.259,
    "sources": [
@@ -8183,8 +8111,8 @@
    "analysis": {}
   },
   {
-   "key": "66d1341fdd20ce40",
-   "score": 3.259,
+   "key": "fe2531b94fd6a1d5",
+   "score": 3.258,
    "sources": [
     "Arab Times"
    ],
@@ -8194,136 +8122,16 @@
      "source_id": "arabtimes",
      "source_name": "Arab Times",
      "lang": "en",
-     "title": "Hid Car in Stable to Evade Police — Reckless Driver Caught, Vehicle Sent for Crushing",
-     "url": "https://www.arabtimesonline.com/news/hid-car-in-stable-to-evade-police-reckless-driver-caught-vehicle-sent-for-crushing/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: Kuwait’s General Traffic Department has apprehended a driver accused of reckless driving after he allegedly hid his vehicle inside a stable in the Jahra stable...",
+     "title": "Fake Commerce Official Scam Costs Kuwaiti Woman KD 13,500; Expat Jailed",
+     "url": "https://www.arabtimesonline.com/news/fake-commerce-official-scam-costs-kuwaiti-woman-kd-13500-expat-jailed/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Criminal Court has sentenced an expatriate to three years in prison with hard labor, followed by deportation, after convicting him of participating in the...",
      "body": "",
-     "published": "2026-10-20T21:51:00+03:00",
+     "published": "2026-10-20T23:08:00+03:00",
      "tier": 2
     }
    ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "0767c46c8170c5f8",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Security Campaign in Sabah Al-Ahmad City Nets 40 Wanted Persons and Violators",
-     "url": "https://www.arabtimesonline.com/news/kuwait-security-campaign-in-sabah-al-ahmad-city-nets-40-wanted-persons-and-violators/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: The Ahmadi Governorate Security Directorate, represented by the Operations and Patrols Department, has conducted a large-scale security campaign in Sabah Al-Ah...",
-     "body": "",
-     "published": "2026-10-20T21:31:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "9150f157c56f7eea",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwaiti Municipal Employee, Indian Get 7 Years in Diesel Smuggling Case; 4 Indians Jailed for a Month",
-     "url": "https://www.arabtimesonline.com/news/kuwaiti-municipal-employee-indian-get-7-years-in-diesel-smuggling-case-4-indians-jailed-for-a-month/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: The Criminal Court has sentenced a Kuwaiti municipal employee, identified as the main defendant in a network accused of smuggling and selling subsidized diesel...",
-     "body": "",
-     "published": "2026-10-20T16:43:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "7620479e966fbba3",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "KD 20,000 Blood Money Awarded to Expat’s Family After Perpetrator Remains Unknown",
-     "url": "https://www.arabtimesonline.com/news/kd-20000-blood-money-awarded-to-expats-family-after-perpetrator-remains-unknown/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: The Court of Appeal has ordered the Ministry of Finance to pay KD 20,000 in full blood money (diya) to the heirs of an expatriate who died in an incident in wh...",
-     "body": "",
-     "published": "2026-10-20T16:29:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "5eeddb620b496251",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Appeals Court Upholds Ruling to Promote Student Who Missed Online Classes Due to Technical Issues",
-     "url": "https://www.arabtimesonline.com/news/kuwait-appeals-court-upholds-ruling-to-promote-student-who-missed-online-classes-due-to-technical-issues/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: The Administrative Court of Appeal has upheld a lower court ruling overturning a schoolgirl’s failure due to absenteeism, ordering the Ministry of Education to...",
-     "body": "",
-     "published": "2026-10-20T16:04:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "cd40e096e6972c1a",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Arrests Turkish Truck Driver With 300,000 Captagon Pills Worth Over KD 500,000",
-     "url": "https://www.arabtimesonline.com/news/kuwait-arrests-turkish-truck-driver-with-300000-captagon-pills-worth-over-kd-500000/",
-     "section": "crime",
-     "summary": "KUWAIT CITY, Oct 20: Kuwait’s General Department for Drug Control has arrested a Turkish truck driver after seizing 300,000 Captagon tablets worth more than KD 500,000, the Ministr...",
-     "body": "",
-     "published": "2026-10-20T15:48:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -8411,6 +8219,54 @@
    "analysis": {}
   },
   {
+   "key": "66d1341fdd20ce40",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Hid Car in Stable to Evade Police — Reckless Driver Caught, Vehicle Sent for Crushing",
+     "url": "https://www.arabtimesonline.com/news/hid-car-in-stable-to-evade-police-reckless-driver-caught-vehicle-sent-for-crushing/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: Kuwait’s General Traffic Department has apprehended a driver accused of reckless driving after he allegedly hid his vehicle inside a stable in the Jahra stable...",
+     "body": "",
+     "published": "2026-10-20T21:51:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "0767c46c8170c5f8",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Security Campaign in Sabah Al-Ahmad City Nets 40 Wanted Persons and Violators",
+     "url": "https://www.arabtimesonline.com/news/kuwait-security-campaign-in-sabah-al-ahmad-city-nets-40-wanted-persons-and-violators/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Ahmadi Governorate Security Directorate, represented by the Operations and Patrols Department, has conducted a large-scale security campaign in Sabah Al-Ah...",
+     "body": "",
+     "published": "2026-10-20T21:31:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "436ab789b68c6e11",
    "score": 2.659,
    "sources": [
@@ -8424,7 +8280,7 @@
      "lang": "en",
      "title": "Something Is Brewing: US Sends Third Aircraft Carrier, 10,000 Troops to Middle East as Iran’s Threats Continue",
      "url": "https://www.arabtimesonline.com/news/something-is-brewing-us-sends-third-aircraft-carrier-10000-troops-to-middle-east-as-irans-threats-continue/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 20: The United States is deploying a third aircraft carrier strike group and up to 10,000 additional sailors and Marines to the Middle East amid escalating tensions...",
      "body": "",
      "published": "2026-10-20T21:20:00+03:00",
@@ -8592,7 +8448,7 @@
      "lang": "en",
      "title": "Iranian Regime Ready to Impose Hardship on its People Rather Than Surrender",
      "url": "https://www.arabtimesonline.com/news/iranian-regime-ready-to-impose-hardship-on-its-people-rather-than-surrender/",
-     "section": "general",
+     "section": "latest",
      "summary": "TEHRAN, Oct 20: Iranian President Masoud Pezeshkian has invoked a historic declaration associated with Iranian constitutional revolutionary Sattar Khan, saying the country would en...",
      "body": "",
      "published": "2026-10-20T19:35:00+03:00",
@@ -8627,6 +8483,54 @@
    "analysis": {}
   },
   {
+   "key": "9150f157c56f7eea",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwaiti Municipal Employee, Indian Get 7 Years in Diesel Smuggling Case; 4 Indians Jailed for a Month",
+     "url": "https://www.arabtimesonline.com/news/kuwaiti-municipal-employee-indian-get-7-years-in-diesel-smuggling-case-4-indians-jailed-for-a-month/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Criminal Court has sentenced a Kuwaiti municipal employee, identified as the main defendant in a network accused of smuggling and selling subsidized diesel...",
+     "body": "",
+     "published": "2026-10-20T16:43:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "7620479e966fbba3",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "KD 20,000 Blood Money Awarded to Expat’s Family After Perpetrator Remains Unknown",
+     "url": "https://www.arabtimesonline.com/news/kd-20000-blood-money-awarded-to-expats-family-after-perpetrator-remains-unknown/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Court of Appeal has ordered the Ministry of Finance to pay KD 20,000 in full blood money (diya) to the heirs of an expatriate who died in an incident in wh...",
+     "body": "",
+     "published": "2026-10-20T16:29:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "dd72ab1d97ae0399",
    "score": 2.659,
    "sources": [
@@ -8640,7 +8544,7 @@
      "lang": "en",
      "title": "UK to Deploy Typhoon Fighter Jets to Defend Saudi Arabia Against Iran-Backed Houthi Attacks",
      "url": "https://www.arabtimesonline.com/news/uk-to-deploy-typhoon-fighter-jets-to-defend-saudi-arabia-against-iran-backed-houthi-attacks/",
-     "section": "general",
+     "section": "latest",
      "summary": "LONDON, Oct 20: The United Kingdom will deploy Royal Air Force (RAF) Typhoon fighter jets to Saudi Arabia to help protect its cities, civilian population and critical infrastructur...",
      "body": "",
      "published": "2026-10-20T16:09:00+03:00",
@@ -8648,6 +8552,102 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "5eeddb620b496251",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Appeals Court Upholds Ruling to Promote Student Who Missed Online Classes Due to Technical Issues",
+     "url": "https://www.arabtimesonline.com/news/kuwait-appeals-court-upholds-ruling-to-promote-student-who-missed-online-classes-due-to-technical-issues/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The Administrative Court of Appeal has upheld a lower court ruling overturning a schoolgirl’s failure due to absenteeism, ordering the Ministry of Education to...",
+     "body": "",
+     "published": "2026-10-20T16:04:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "cd40e096e6972c1a",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Arrests Turkish Truck Driver With 300,000 Captagon Pills Worth Over KD 500,000",
+     "url": "https://www.arabtimesonline.com/news/kuwait-arrests-turkish-truck-driver-with-300000-captagon-pills-worth-over-kd-500000/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: Kuwait’s General Department for Drug Control has arrested a Turkish truck driver after seizing 300,000 Captagon tablets worth more than KD 500,000, the Ministr...",
+     "body": "",
+     "published": "2026-10-20T15:48:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "6f0c4fe8fc9169e7",
+   "score": 2.658,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Blocking ‘cash-out’ schemes crucial to curb money-laundering",
+     "url": "https://www.arabtimesonline.com/news/blocking-cash-out-schemes-crucial-to-curb-money-laundering/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: The practice known as ‘cash out’ or ‘takyeesh’ – when goods purchased on credit are immediately resold for cash -- has been classified as an illicit financial...",
+     "body": "",
+     "published": "2026-10-20T22:32:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "9676d233d61cd932",
+   "score": 2.658,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Three-Storey House Turned Into Liquor Factory in Rehab; 7,500 Liters Seized",
+     "url": "https://www.arabtimesonline.com/news/three-storey-house-turned-into-liquor-factory-in-rehab-7500-liters-seized/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Oct 20: Kuwait’s General Department of Criminal Investigation has dismantled a criminal network accused of manufacturing and distributing locally produced liquor from...",
+     "body": "",
+     "published": "2026-10-20T22:17:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -8688,7 +8688,7 @@
      "lang": "en",
      "title": "Iran Offered Interest on $6 Billion Frozen Funds for Nuclear Access as Ghalibaf Rejects Changes to Demands",
      "url": "https://www.arabtimesonline.com/news/iran-offered-interest-on-6-billion-frozen-funds-for-nuclear-access-as-ghalibaf-rejects-changes-to-demands/",
-     "section": "general",
+     "section": "latest",
      "summary": "TEHRAN, Oct 20: Iran has reiterated that it will not change its negotiating demands with the United States, even as Qatar and Pakistan reportedly put forward a compromise proposal...",
      "body": "",
      "published": "2026-10-20T19:43:00+03:00",
@@ -8712,7 +8712,7 @@
      "lang": "en",
      "title": "Tanker Reports Interaction With Military Forces Off Oman’s Coast",
      "url": "https://www.arabtimesonline.com/news/tanker-reports-interaction-with-military-forces-off-omans-coast/",
-     "section": "general",
+     "section": "latest",
      "summary": "MUSCAT, Oct 20: A tanker was involved in an incident with military forces approximately 121 nautical miles east of Duqm, Oman, the United Kingdom Maritime Trade Operations (UKMTO)...",
      "body": "",
      "published": "2026-10-20T16:15:00+03:00",
@@ -8760,7 +8760,7 @@
      "lang": "en",
      "title": "12 Killed, 30 Injured as Bus Collides With Truck on Egypt Highway",
      "url": "https://www.arabtimesonline.com/news/12-killed-30-injured-as-bus-collides-with-truck-on-egypt-highway/",
-     "section": "general",
+     "section": "latest",
      "summary": "CAIRO, Oct 20: At least 12 people were killed and 30 others injured on Tuesday when a bus collided with a heavy transport truck on a major highway linking the Egyptian capital to t...",
      "body": "",
      "published": "2026-10-20T13:41:00+03:00",
@@ -8784,7 +8784,7 @@
      "lang": "en",
      "title": "Yemen Army Claims 129 Iran-Backed Houthis Killed, 176 Wounded in Taiz Fighting",
      "url": "https://www.arabtimesonline.com/news/yemen-army-claims-129-iran-backed-houthis-killed-176-wounded-in-taiz-fighting/",
-     "section": "general",
+     "section": "latest",
      "summary": "TAIZ, Oct 20: Yemen’s army said 129 Houthi fighters were killed and another 176 wounded in clashes and airstrikes over the past 48 hours in the southwestern province of Taiz, as go...",
      "body": "",
      "published": "2026-10-20T10:42:00+03:00",
@@ -8832,7 +8832,7 @@
      "lang": "en",
      "title": "Iranian Regime Claims It Downed 54th US MQ-9 Drone Over Strait of Hormuz — Claim Unverified",
      "url": "https://www.arabtimesonline.com/news/iranian-regime-claims-it-downed-54th-us-mq-9-drone-over-strait-of-hormuz-claim-unverified/",
-     "section": "general",
+     "section": "latest",
      "summary": "KUWAIT CITY, Oct 20: Iran’s Islamic Revolutionary Guard Corps (IRGC) said Tuesday that it had intercepted and destroyed a US MQ-9 drone over the Strait of Hormuz, according to the...",
      "body": "",
      "published": "2026-10-20T09:51:00+03:00",
@@ -8856,7 +8856,7 @@
      "lang": "en",
      "title": "Trump threatens to leave Europe over Iran war, says US could end military campaign",
      "url": "https://www.arabtimesonline.com/news/trump-threatens-to-leave-europe-over-iran-war-says-us-could-end-military-campaign/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Oct 20: US President Donald Trump has threatened to reconsider America's support for Europe, accusing European countries of failing to assist Washington during the war...",
      "body": "",
      "published": "2026-10-20T07:20:00+03:00",
@@ -8880,7 +8880,7 @@
      "lang": "en",
      "title": "Gold mine collapse kills at least 14 in southwest Colombia",
      "url": "https://www.arabtimesonline.com/news/gold-mine-collapse-kills-at-least-14-in-southwest-colombia/",
-     "section": "general",
+     "section": "latest",
      "summary": "BOGOTA, Colombia, Oct 20, (AP): At least 14 miners were killed Monday when an open pit gold mine operating with no permits collapsed in a remote corner of Colombia’s Nariño provi...",
      "body": "",
      "published": "2026-10-20T12:23:00+03:00",

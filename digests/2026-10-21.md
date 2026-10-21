@@ -1,75 +1,71 @@
 # 🇰🇼 Kuwait Morning Brief
 ### Wednesday, 21 October 2026 · الأربعاء 21 أكتوبر 2026
 
-> Generated **08:07 Kuwait time** · window: last 26h · **368 articles** from **6 outlets** → **292 stories** (7 major)
+> Generated **08:33 Kuwait time** · window: last 26h · **368 articles** from **6 outlets** → **291 stories** (7 major)
 
 ## ✍️ Editor's note
 
-Today’s coverage is defined by a dual-track domestic consolidation: the formalization of a new judicial leadership under the Amir’s direct authority and a significant $3.25 billion sovereign bond issuance. The simultaneous oath-taking of the Supreme Judicial Council head and the Ministry of Justice’s public affirmation of 'administrative support' signal a tightening of state control over the judiciary, legally anchored in new 2026 legislation. This domestic restructuring runs parallel to a firm external posture, where Kuwait reaffirms its security alliance with the US while explicitly condemning Iranian attacks at the UN. The day is not quiet; it is a day of institutional re-anchoring and financial signaling.
+The day is defined by a dual-track security and economic positioning: Kuwait is actively managing regional instability while projecting fiscal stability to international markets. Domestically, the state is consolidating control over the judiciary through new appointments anchored in recent legislation, signaling a push for institutional 'independence' that is tightly managed by the Amir's office. Externally, the US and Kuwait are carefully downplaying recent security disruptions (like the embassy evacuation) while reaffirming the 'historic' nature of their alliance, even as the IEA flags Gulf supply risks. The economic narrative is one of confidence, with a successful $3.25 billion bond issuance and a push to execute the Gulf-UK trade deal, suggesting a strategy to decouple economic performance from regional geopolitical noise.
 
-تعكس تغطية اليوم مساراً مزدوجاً للتماسك الداخلي: ترسيخ قيادة قضائية جديدة تحت السلطة الأميرية المباشرة، وإصدار سندات سيادية بقيمة 3.25 مليار دولار. إن أداء اليمين المتزامن لرئيس المجلس الأعلى للقضاء، مع تأكيد وزارة العدل علناً على 'الدعم الإداري'، يشير إلى تشديد قبضة الدولة على القضاء، مستندة قانونياً إلى تشريعات 2026 الجديدة. يتزامن هذا إعادة الهيكلة الداخلية مع موقف خارجي راسخ، حيث تؤكد الكويت تحالفها الأمني مع الولايات المتحدة، وتدين هجمات إيران صراحةً أمام الأمم المتحدة. اليوم ليس هادئاً؛ بل هو يوم إعادة تثبيت مؤسسي وإشارة مالية واضحة.
+تعكس تغطية اليوم استراتيجية مزدوجة: إدارة التوترات الإقليمية مع الحفاظ على صورة الاستقرار المالي أمام الأسواق العالمية. محلياً، تعمل الدولة على توطيد سيطرتها على الجهاز القضائي عبر تعيينات جديدة مرتبطة تشريعياً، مما يشير إلى سعي لتعزيز 'الاستقلال' تحت مظلة إشراف أميري مباشر. خارجياً، تحاول واشنطن والكويت التقليل من شأن الاضطرابات الأمنية الأخيرة (مثل الإخلاء المؤقت للسفارة) مع التأكيد على 'شراكة تاريخية'، في وقت يلمح فيه تقرير وكالة الطاقة الدولية إلى مخاطر إمدادات الخليج. أما السرد الاقتصادي فيركز على الثقة، حيث نجحت الكويت في إصدار سندات بقيمة 3.25 مليار دولار، مع الدفع لتنفيذ اتفاقية التجارة الحرة مع الخليج والمملكة المتحدة، في محاولة لفصل الأداء الاقتصادي عن الضجيج الجيوسياسي.
 
 ## 🔍 What today's coverage is *not* saying
 
-The specific details of the 'advisory study' on the 2035 Energy Transition Plan mentioned in S9 are not disclosed, nor are the specific KPIs that will be used to measure progress. Additionally, the 'last developments' referenced in the Saudi-Kuwaiti phone call (S19) are not specified in the supplied reports, leaving the exact nature of the security threat or diplomatic issue unconfirmed.
+The specific details of the 'supply disruptions from the Gulf' mentioned by the IEA (S23) are not elaborated in the supplied reports, leaving the exact nature of the disruption (physical, political, or logistical) unconfirmed. Additionally, the specific outcomes of the CARS-University meeting (S10, S13) are omitted, with no mention of new policies or MOUs.
 
-لم يتم الكشف عن التفاصيل المحددة لـ 'الدراسة الاستشارية' حول خطة تحول الطاقة 2035 المذكورة في S9، ولا عن مؤشرات الأداء الرئيسية (KPIs) التي ستُستخدم لقياس التقدم. بالإضافة إلى ذلك، لم يتم تحديد 'آخر التطورات' المشار إليها في المكالمة الهاتفية السعودية-الكويتية (S19) في التقارير المقدمة، مما يترك طبيعة التهديد الأمني أو القضية الدبلوماسية غير مؤكدة.
+لا تفصّل التقارير المقدمة تفاصيل 'اضطرابات الإمدادات من الخليج' التي ذكرتها وكالة الطاقة الدولية (S23)، مما يترك طبيعة الاضطراب (فيزيائية، سياسية، أو لوجستية) غير مؤكدة. كما تُستبعد النتائج المحددة لاجتماع الجهاز المركزي مع الجامعة (S10, S13)، دون ذكر أي سياسات جديدة أو مذكرات تفاهم.
 
 ## 🧭 Themes of the day
 
-- **Judicial Restructuring — إعادة هيكلة القضاء** (S1, S3, S21)
-  The formalization of new judicial appointments and the explicit legal basis for their mandate.
-- **Sovereign Financial Confidence — الثقة المالية السيادية** (S5, S26)
-  Kuwait's successful bond issuance amidst global supply disruptions and high diesel prices.
-- **Regional Security Posture — الموقف الأمني الإقليمي** (S7, S19, S27)
-  Kuwait's reaffirmation of alliances with the US and Saudi Arabia while condemning Iranian actions at the UN.
+- **Judicial Consolidation — توطيد الجهاز القضائي** (S1, S3, S16)
+  New judicial leadership is being installed with explicit legal backing and ministerial support.
+- **Economic Confidence — الثقة الاقتصادية** (S5, S9, S22)
+  Kuwait is projecting fiscal stability through successful bond issuances and trade deal progress.
+- **Security Downplaying — التقليل من شأن الأمن** (S18, S27)
+  Recent security incidents are acknowledged but framed as resolved or routine to maintain stability narratives.
 
 ## 👀 Watch next
 
-1. Official publication of the KPIs and timeline for the 2035 Energy Transition Plan. 2. Any follow-up diplomatic statements from Iran regarding the UN condemnation in S7. 3. Market reaction to the new judicial leadership's first major rulings or administrative decisions. 4. Implementation details of the Gulf-UK Free Trade Agreement as urged in S11.
+1. Official announcement of any new policies or MOUs from the CARS-University meeting. 2. Further details on the IEA's 'Gulf supply disruptions' and any impact on Kuwaiti exports. 3. Implementation timeline for the Gulf-UK Free Trade Agreement execution. 4. Follow-up on the Shuwaikh oil complex boundary adjustments with the Ministry of Finance.
 
-1. النشر الرسمي لمؤشرات الأداء الرئيسية والجدول الزمني لخطة تحول الطاقة 2035. 2. أي تصريحات دبلوماسية متابعة من إيران بشأن الإدانة أمام الأمم المتحدة في S7. 3. رد فعل السوق على أول أحكام أو قرارات إدارية كبرى للقيادة القضائية الجديدة. 4. تفاصيل تنفيذ اتفاقية التجارة الحرة بين الخليج والمملكة المتحدة كما دعت إليها S11.
+1. إعلان رسمي عن أي سياسات جديدة أو مذكرات تفاهم من اجتماع الجهاز المركزي مع الجامعة. 2. تفاصيل إضافية حول 'اضطرابات إمدادات الخليج' من وكالة الطاقة الدولية وأثرها على الصادرات الكويتية. 3. الجدول الزمني لتنفيذ اتفاقية التجارة الحرة بين الخليج والمملكة المتحدة. 4. متابعة تعديلات حدود المجمع النفطي بالشويخ مع وزارة المالية.
 
 ## 🕸️ How today's stories connect
 
-*3 connections across 3 relationship types.*
+*5 connections across 1 relationship types.*
 
-**in response to** (1)
+**same actor** (5)
 
-- **S1 → S21** — S21 is a direct official reaction from the Justice Minister congratulating the appointees mentioned in S1 and affirming the ministry's support for the new judicial leadership.
-
-**same actor** (1)
-
-- **S1 → S3** — S1 reports the Amir receiving the oaths of the new judicial heads, while S3 features the statement by Hani Al-Hamdan, the new head of the Supreme Judicial Council, citing the same legal basis for the appointment.
-
-**same source** (1)
-
-- **S12 → S18** — Both stories cover the same meeting between the Central Authority for the Resolution of the Status of Illegal Residents (CARS) and Kuwait University, with S12 and S18 providing nearly identical details on the participants and agenda.
+- **S1 → S3** — Both stories concern the appointment and statement of Hani Al-Hamdan as head of the Supreme Judicial Council.
+- **S1 → S16** — Both stories involve the Ministry of Justice and the Court of Cassation leadership appointments.
+- **S10 → S13** — Both stories report on the meeting between the Central Authority for the Resolution of the Status of Illegal Residents and Kuwait University.
+- **S17 → S19** — Both stories reference the Shuwaikh area, though in different contexts (oil complex boundaries vs. rescue operation).
+- **S18 → S27** — Both stories involve the US and Kuwait discussing security and diplomatic relations, with S27 explicitly mentioning the evacuation referenced in the context of S18's regional tensions.
 
 ## 🎯 Tactical and strategic
 
 **This week**
 
-The new judicial leadership (Hani Al-Hamdan et al.) has officially assumed office following oaths taken before the Amir on Tuesday, based on Law No. 80 of 2026 and Amiri Decree No. 169 of 2026. The Ministry of Justice has publicly committed to providing administrative and financial support to the new council.
+The High Energy Committee is reviewing the advisory study for the 2035 Energy Transition Plan (S8); the Municipal Technical Committee approved Shuwaikh oil complex boundaries subject to Ministry of Finance coordination (S17); the Ministry of Education is implementing a mandatory one-hour online class on Saturday (S4).
 
-تولى القادة القضائيون الجدد (بقيادة هاني الحمدان) مناصبهم رسمياً بعد أداء اليمين أمام الأمير يوم الثلاثاء، استناداً إلى القانون رقم 80 لسنة 2026 والمرسوم الأميري رقم 169. وقد التزمت وزارة العدل علنياً بتقديم الدعم الإداري والمالي للمجلس الجديد.
+تراجع اللجنة العليا للطاقة الدراسة الاستشارية لخطة التحول الطاقي 2035 (S8)؛ اعتمدت اللجنة الفنية بالبلدية حدود المجمع النفطي بالشويخ خاضعة لتنسيق وزارة المالية (S17)؛ وتفعّل وزارة التربية حصة إلكترونية إلزامية لمدة ساعة يوم السبت (S4).
 
 **The longer arc**
 
-The coverage reveals a pattern of 'institutional re-anchoring' where the executive branch (via the Amir and Ministry of Justice) is actively defining the boundaries of judicial independence through specific legal citations and public statements. This aligns with a broader regional trend of centralizing state control over key institutions while simultaneously projecting stability to international investors through large-scale sovereign debt issuances (S5).
+The coverage reveals a pattern of 'managed transparency': security incidents (S18, S27) are acknowledged but framed as routine or resolved, while economic successes (S5, S9) are amplified. This suggests a long-term strategy to maintain investor confidence by decoupling Kuwait's fiscal narrative from the volatile security environment in the Gulf, positioning the country as a stable hub despite regional disruptions.
 
-تكشف التغطية عن نمط من 'إعادة التثبيت المؤسسي' حيث يحدد الفرع التنفيذي (عبر الأمير ووزارة العدل) حدود الاستقلال القضائي بشكل نشط من خلال استحضار نصوص قانونية محددة وتصريحات علنية. يتماشى هذا مع اتجاه إقليمي أوسع نحو مركزية سيطرة الدولة على المؤسسات الرئيسية، مع الحفاظ على صورة الاستقرار للمستثمرين الدوليين من خلال إصدارات الديون السيادية الضخمة.
+تكشف التغطية عن نمط 'الشفافية المُدارة': حيث تُقرّ الحوادث الأمنية (S18, S27) لكنها تُصاغ كأمور روتينية أو محلولة، بينما تُضخّم الإنجازات الاقتصادية (S5, S9). يشير هذا إلى استراتيجية طويلة الأمد للحفاظ على ثقة المستثمرين من خلال فصل السرد المالي للكويت عن البيئة الأمنية المتقلبة في الخليج، مما يضع البلاد كمنصة مستقرة رغم الاضطرابات الإقليمية.
 
 ## 📊 Today at a glance
 
-- **292** distinct stories, **7** carried by 3+ outlets
-- **Busiest outlets:** الرأي (107), الجريدة (99), الأنباء (73), Arab Times (46), Kuwait Times (33), كويت نيوز (10)
-- **Government & Politics:** 87
+- **291** distinct stories, **7** carried by 3+ outlets
+- **Busiest outlets:** الرأي (109), الجريدة (99), الأنباء (73), Arab Times (47), Kuwait Times (30), كويت نيوز (10)
+- **Government & Politics:** 93
 - **Economy & Business:** 44
-- **Security & Courts:** 26
-- **Society & Services:** 18
+- **Security & Courts:** 16
+- **Society & Services:** 20
 - **Sport:** 24
-- **World & Region:** 76
+- **World & Region:** 77
 - **Culture & Entertainment:** 2
 - **Opinion & Analysis:** 15
 
@@ -163,7 +159,7 @@ The supplied material is truncated and only provides the headline and the first 
 
 ### 3. 🔥 المستشار الحمدان: مواصلة تطوير الجهاز القضائي وتعزيز استقلاليته
 
-`Security & Courts` · **3 outlets** · الجريدة, الأنباء, الرأي · 14h ago
+`Security & Courts` · **3 outlets** · الجريدة, الأنباء, الرأي · 15h ago
 
 *EN: New Judicial Chief Vows to Strengthen Independence*
 
@@ -306,42 +302,7 @@ The detailed breakdown of investor allocation (39% asset managers, 31% banks) an
 
 </details>
 
-### 7. الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها
-
-`Security & Courts` · **2 outlets** · الأنباء, الرأي · 2h ago
-
-*EN: Kuwait reaffirms steadfast commitment to protecting diplomatic missions and consulates*
-
-**Summary.** Kuwait’s Second Secretary at the UN, Jassim Al-Amri, delivered a statement to the UN General Assembly’s Sixth Committee reaffirming Kuwait’s adherence to the Vienna Conventions on diplomatic and consular relations. The statement explicitly condemned the March 2026 Iranian drone attack on the US Embassy in Kuwait and other Iranian attacks on Gulf diplomatic facilities, calling for Iran to comply with UN Security Council Resolution 2817.
-
-ألقى جاسم العامري، السكرتير الثاني بوفد الكويت الدائم لدى الأمم المتحدة، كلمة أمام اللجنة السادسة التابعة للجمعية العامة للأمم المتحدة، أكد فيها التزام الكويت باتفاقيتي فيينا للعلاقات الدبلوماسية والقنصلية. وشملت الكلمة إدانة صريحة للاعتداء الإيراني بطائرات مسيّرة على مقر السفارة الأمريكية في الكويت في مارس 2026، وكذلك الهجمات على مقار دبلوماسية في دول الخليج، مع المطالبة بامتثال إيران لقرار مجلس الأمن رقم 2817.
-
-**Why it matters.** This formalizes Kuwait’s legal and diplomatic stance against Iran at the highest international forum, explicitly linking the March 2026 attack on the US Embassy in Kuwait to a violation of Kuwaiti sovereignty. It signals Kuwait’s alignment with the US and Gulf neighbors in demanding accountability from Iran, potentially influencing future diplomatic negotiations and security postures in the region.
-
-ترسخ هذه الخطوة الموقف القانوني والدبلوماسي الكويتي من إيران في أعلى هيئة دولية، حيث ربطت صراحةً بين الهجوم على السفارة الأمريكية في مارس 2026 وانتهاك السيادة الكويتية. وتُظهر التماشي الكويتي مع الولايات المتحدة ودول الخليج في المطالبة بمحاسبة إيران، مما قد يؤثر على مسار المفاوضات الدبلوماسية والمواقف الأمنية المستقبلية في المنطقة.
-
-**🔎 Between the lines** *(inference)*
-
-The statement is delivered by a Second Secretary rather than a senior diplomat, suggesting a routine procedural obligation rather than a high-level political escalation. However, the explicit mention of the 'saffron' (Iranian) attack on the US Embassy in Kuwait in March 2026, alongside a call for Iran to comply with UNSC Resolution 2817, indicates a deliberate effort to keep the incident on the international legal agenda. The emphasis on 'state responsibility' and 'reparation' implies Kuwait is building a legal case for potential future claims or sanctions, rather than just expressing moral outrage. The omission of any mention of direct military retaliation or specific new security measures suggests the current strategy is diplomatic and legal containment.
-
-> تُلقى الكلمة من قبل سكرتير ثانٍ وليس دبلوماسياً كبيراً، مما يشير إلى أن الأمر إجراء روتيني أكثر منه تصعيداً سياسياً رفيع المستوى. ومع ذلك، فإن الإشارة الصريحة إلى الهجوم الإيراني على السفارة الأمريكية في الكويت في مارس 2026، إلى جانب المطالبة بامتثال إيران لقرار مجلس الأمن 2817، تدل على جهد مقصود لإبقاء الحادثة على الأجندة القانونية الدولية. التأكيد على 'المسؤولية الدولية' و'جبر الضرر' يوحي بأن الكويت تبني ملفاً قانونياً لمطالبات أو عقوبات محتملة في المستقبل، وليس مجرد التعبير عن الغضب الأخلاقي. غياب أي ذكر للرد العسكري المباشر أو إجراءات أمنية جديدة محددة يشير إلى أن الاستراتيجية الحالية هي الاحتواء الدبلوماسي والقانوني.
-
-🟡 *Confidence: medium* — The text is a standard diplomatic statement, but the specific mention of the March 2026 attack and UNSC 2817 provides clear signals of intent, though the low rank of the speaker limits the scope of inference.
-
-**Watch next.** Monitor for any follow-up diplomatic notes from Kuwait to Iran or the US regarding the implementation of UNSC Resolution 2817, and watch for any changes in Kuwait’s security posture around diplomatic compounds in the coming weeks.
-
-مراقبة أي مذكرات دبلوماسية متابعة من الكويت إلى إيران أو الولايات المتحدة بشأن تنفيذ قرار مجلس الأمن 2817، ومراقبة أي تغييرات في الموقف الأمني الكويتي حول المقار الدبلوماسية في الأسابيع القادمة.
-
-*Entities: Kuwait, Jassim Al-Amri, United Nations, Iran, United States, UN Security Council Resolution 2817, Vienna Conventions*
-
-<details><summary><b>References (2)</b></summary>
-
-- **الأنباء** (ar) — [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها](https://www.alanba.com.kw/1381593) · 03:01
-- **الرأي** (ar) — [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها](https://www.alraimedia.com/article/1783421/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A8%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B9%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D9%86%D8%B5%D9%84%D9%8A%D8%A9-%D9%88%D8%B5%D9%88%D9%86-%D8%A3%D9%85%D9%86%D9%87%D8%A7-%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%87%D8%A7) · 03:10
-
-</details>
-
-### 8. 🔥 العربي خارج «التحدي الآسيوي»
+### 7. 🔥 العربي خارج «التحدي الآسيوي»
 
 `Sport` · **3 outlets** · الرأي, الجريدة, الأنباء · 9h ago
 
@@ -379,7 +340,7 @@ The detailed tactical breakdown in the Al-Arabi report (mentioning specific subs
 
 </details>
 
-### 9. وزير الكهرباء: تطوير قطاع الطاقة مسؤولية وطنية تتطلب رؤية واضحة وعملاً مؤسسياً متكاملاً
+### 8. وزير الكهرباء: تطوير قطاع الطاقة مسؤولية وطنية تتطلب رؤية واضحة وعملاً مؤسسياً متكاملاً
 
 `Society & Services` · **2 outlets** · الأنباء, الجريدة · 10h ago
 
@@ -415,42 +376,7 @@ The headline uses broad, abstract language ('National Responsibility'), but the 
 
 </details>
 
-### 10. رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف
-
-`World & Region` · **2 outlets** · الأنباء, الرأي · 7h ago
-
-*EN: Yemeni Shura Council Chairman: Kuwait has been present alongside Yemen in all stages*
-
-**Summary.** Yemeni Shura Council Chairman Ahmed Bin Dagar praised Kuwait's humanitarian and developmental support for Yemen during a meeting with Kuwaiti Ambassador Falah Al-Mutairi. He also commended the Saudi-led coalition's role and condemned Houthi attacks on Saudi infrastructure, calling on GCC states to strengthen solidarity against the Houthis.
-
-أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالدعم الإنساني والتنموي الذي تقدمه الكويت لليمن خلال لقاءه بالسفير الكويتي فلاح المطيري. كما أشاد بدور التحالف بقيادة السعودية وندد بهجمات الحوثيين على البنية التحتية السعودية، داعياً دول مجلس التعاون إلى تعزيز التضامن ضد الحوثيين.
-
-**Why it matters.** The statement reinforces Kuwait's diplomatic alignment with the Saudi-led coalition and the internationally recognized Yemeni government. It also highlights Kuwait's continued role as a key humanitarian donor in Yemen, which is a significant aspect of its foreign policy and regional influence.
-
-يعزز البيان التوافق الدبلوماسي للكويت مع التحالف بقيادة السعودية والحكومة اليمنية المعترف بها دولياً. كما يبرز الدور المستمر للكويت كممول إنساني رئيسي في اليمن، وهو جانب مهم من سياستها الخارجية وتأثيرها الإقليمي.
-
-**🔎 Between the lines** *(inference)*
-
-The statement is heavily aligned with the Saudi narrative, explicitly praising the 'Saudi-led coalition' and condemning Houthi attacks on Saudi airports. This suggests the meeting was likely facilitated or timed to coincide with broader Saudi-Yemeni diplomatic efforts. The emphasis on Kuwait's 'humanitarian' support rather than military or political support reflects Kuwait's standard diplomatic posture of maintaining a humanitarian role while avoiding direct military involvement. The mention of 'Iranian expansionist project' is a direct echo of Saudi and UAE rhetoric, indicating a shared regional security framework.
-
-> البيان متوافق بشكل كبير مع الرواية السعودية، حيث يمدح صراحةً «التحالف بقيادة السعودية» ويندد بهجمات الحوثيين على المطارات السعودية. هذا يشير إلى أن اللقاء ربما تم تسهيله أو توقيته ليتزامن مع جهود دبلوماسية أوسع بين السعودية واليمن. كما أن التأكيد على الدعم «الإنساني» للكويت بدلاً من الدعم العسكري أو السياسي يعكس الموقف الدبلوماسي القياسي للكويت في الحفاظ على دور إنساني مع تجنب المشاركة العسكرية المباشرة. وذكر «المشروع التوسعي الإيراني» هو صدى مباشر لخطاب السعودية والإمارات، مما يدل على إطار أمني إقليمي مشترك.
-
-🟢 *Confidence: high* — The text explicitly aligns with Saudi narratives and uses specific terminology that mirrors regional political discourse, providing a clear basis for the inference.
-
-**Watch next.** Watch for any new Kuwaiti humanitarian aid announcements to Yemen in the coming weeks, which may be a direct response to this diplomatic engagement.
-
-راقب أي إعلانات جديدة عن المساعدات الإنسانية الكويتية لليمن في الأسابيع القادمة، والتي قد تكون استجابة مباشرة لهذا التفاعل الدبلوماسي.
-
-*Entities: Ahmed Bin Dagar, Falah Al-Mutairi, Yemeni Shura Council, Saudi-led Coalition, Houthi Militia, GCC*
-
-<details><summary><b>References (2)</b></summary>
-
-- **الأنباء** (ar) — [رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alanba.com.kw/1381590) · 21:26
-- **الرأي** (ar) — [رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alraimedia.com/article/1783417/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B8%D9%84%D8%AA-%D8%AD%D8%A7%D8%B6%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%81%D9%8A-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D9%88%D8%A7%D9%84%D8%B8%D8%B1%D9%88%D9%81) · 00:07
-
-</details>
-
-### 11. الوزير المرزوق: ضرورة انتقال التجارة الحرة الخليجية مع المملكة المتحدة إلى مرحلة التنفيذ
+### 9. الوزير المرزوق: ضرورة انتقال التجارة الحرة الخليجية مع المملكة المتحدة إلى مرحلة التنفيذ
 
 `Economy & Business` · **2 outlets** · الأنباء, الجريدة · 10h ago
 
@@ -486,9 +412,9 @@ The UK minister's specific call to execute the agreement 'without waiting for of
 
 </details>
 
-### 12. رئيس «الجهاز المركزي» يبحث مع وفد من جامعة الكويت موضوعات ذات صلة بالمقيمين بصورة غير قانونية
+### 10. رئيس «الجهاز المركزي» يبحث مع وفد من جامعة الكويت موضوعات ذات صلة بالمقيمين بصورة غير قانونية
 
-`Society & Services` · **2 outlets** · الجريدة, الأنباء · 15h ago
+`Society & Services` · **2 outlets** · الجريدة, الأنباء · 16h ago
 
 *EN: Al-Fadala Discusses Issues Related to Illegal Residents with Kuwait University Delegation*
 
@@ -521,7 +447,7 @@ The UK minister's specific call to execute the agreement 'without waiting for of
 
 </details>
 
-### 13. «الأرصاد»: طقس حار ورطب..و«العظمى»: 39
+### 11. «الأرصاد»: طقس حار ورطب..و«العظمى»: 39
 
 `Society & Services` · **2 outlets** · الأنباء, الجريدة · 17h ago
 
@@ -556,112 +482,7 @@ No significant subtext. This is a standard daily weather report. The slight dive
 
 </details>
 
-### 14. «أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات
-
-`Sport` · **2 outlets** · الرأي, الأنباء · 10h ago
-
-*EN: Aman team studies Oman's experience in emergency and crisis management*
-
-**Summary.** A team from the National Center for Emergency, Crisis, and Disaster Management ('Aman') visited Oman to study its experience in managing emergencies and national coordination mechanisms. The visit is part of the setup phase for the new center.
-
-اطلع فريق عمل من المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان» على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات. الزيارة جزء من مرحلة إنشاء المركز الجديد.
-
-**Why it matters.** This indicates that Kuwait is actively building its national crisis management infrastructure by benchmarking against regional peers. The choice of Oman suggests a focus on structured, centralized coordination models, which is relevant for Kuwait's preparedness for large-scale disasters or security incidents.
-
-يشير هذا إلى أن الكويت تبني بنيتها التحتية الوطنية لإدارة الأزمات بنشاط من خلال المقارنة مع نظرائها الإقليميين. اختيار عمان يوحي بالتركيز على نماذج التنسيق المركزية المنظمة، وهو أمر ذو صلة بجاهزية الكويت للتعامل مع الكوارث الكبرى أو الحوادث الأمنية.
-
-**🔎 Between the lines** *(inference)*
-
-> The fact that the team is 'learning' from Oman implies that Kuwait's own framework is still in a developmental or conceptual stage. Oman is often cited in the GCC for its relatively centralized and efficient crisis management structures. The use of the term 'sister sultanate' (سلطنة عمان الشقيقة) is standard diplomatic language, but the focus on 'mechanisms of national coordination' suggests that the primary challenge for Kuwait is not just technical (equipment) but institutional (inter-agency coordination). The lack of details on which specific Omani agency was visited or what specific protocols were adopted leaves the practical outcome vague.
-
-> حقيقة أن الفريق «يتعلم» من عمان توحي بأن الإطار الكويتي لا يزال في مرحلة تطوير أو مفاهيمية. غالباً ما تُذكر عمان في مجلس التعاون لنظمها المركزية والفعالة نسبياً لإدارة الأزمات. استخدام مصطلح «سلطنة عمان الشقيقة» لغة دبلوماسية قياسية، لكن التركيز على «آليات التنسيق الوطني» يوحي بأن التحدي الرئيسي للكويت ليس تقنياً (معدات) بل مؤسسياً (التنسيق بين الوكالات). غياب التفاصيل حول الوكالة العمانية المحددة التي تمت زيارتها أو البروتوكولات المحددة التي تم اعتمادها يجعل النتيجة العملية غامضة.
-
-🟡 *Confidence: medium* — The inference about the developmental stage of Kuwait's framework is logical but not explicitly stated; the text only confirms the visit.
-
-**Watch next.** Monitor for the official launch of the 'Aman' center and any subsequent announcements about new inter-ministerial protocols or the appointment of a permanent director with a background in crisis management.
-
-مراقبة الإطلاق الرسمي لمركز «أمان» وأي إعلانات لاحقة عن بروتوكولات وزارية جديدة أو تعيين مدير دائم بخلفية في إدارة الأزمات.
-
-*Entities: National Center for Emergency, Crisis, and Disaster Management (Aman), Oman*
-
-<details><summary><b>References (2)</b></summary>
-
-- **الأنباء** (ar) — [فريق «أمان» يطلع على التجربة العُمانية في إدارة الحالات الطارئة والأزمات والكوارث](https://www.alanba.com.kw/1381502) · 18:45
-- **الرأي** (ar) — [«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات](https://www.alraimedia.com/article/1783393/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A3%D9%85%D8%A7%D9%86-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA) · 22:00
-
-</details>
-
-### 15. «الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني
-
-`Government & Politics` · **2 outlets** · الرأي, الأنباء · 10h ago
-
-*EN: Red Crescent: Strengthening national partnerships to develop humanitarian work*
-
-**Summary.** Khalid Al-Mughamis, Chairman of the Kuwait Red Crescent Society, stated that the society is focused on strengthening strategic partnerships with national institutions and the oil sector to support humanitarian work. The statement emphasizes the role of the private sector, specifically the oil industry, in funding and developing humanitarian initiatives.
-
-أكد خالد المغامس، رئيس مجلس إدارة جمعية الهلال الأحمر الكويتي، حرص الجمعية على تعزيز شراكاتها الإستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل الإنساني وتطويره. البيان يركز على دور القطاع الخاص، وتحديداً قطاع النفط، في تمويل وتطوير المبادرات الإنسانية.
-
-**Why it matters.** This highlights a shift in the Red Crescent's funding model towards corporate social responsibility (CSR) from major state-linked entities like the oil sector. It suggests a diversification of revenue sources away from purely state or individual donations, which is crucial for the sustainability of large-scale humanitarian projects.
-
-يبرز هذا الخبر تحوّلاً في نموذج تمويل الهلال الأحمر نحو المسؤولية الاجتماعية للشركات من كيانات مرتبطة بالدولة مثل قطاع النفط. يشير ذلك إلى تنويع مصادر الإيرادات بعيداً عن التبرعات الحكومية أو الفردية البحتة، وهو أمر حاسم لاستدامة المشاريع الإنسانية الكبرى.
-
-**🔎 Between the lines** *(inference)*
-
-> The specific mention of the 'oil sector' (القطاع النفطي) is notable. In Kuwait, this usually refers to major state-owned enterprises (like KPC) or large private contractors. By naming this sector explicitly, the Red Crescent is signaling a move to institutionalize funding from the state's primary revenue source, potentially reducing reliance on ad-hoc government allocations. The use of 'strategic partnerships' rather than 'donations' implies long-term contracts or joint ventures rather than one-off gifts. The identical coverage by Al-Ra'i and Al-Anba suggests this is a pre-coordinated corporate communication release rather than a breaking news event.
-
-> الإشارة المحددة إلى «القطاع النفطي» تستحق الانتباه. في الكويت، يشير هذا عادة إلى الشركات المملوكة للدولة الكبرى (مثل شركة البترول الوطنية) أو المقاولين الخاصين الكبار. من خلال تسمية هذا القطاع صراحة، يشير الهلال الأحمر إلى تحرك لتأسيس التمويل من المصدر الرئيسي لإيرادات الدولة، مما قد يقلل الاعتماد على التخصيصات الحكومية الطارئة. استخدام مصطلح «شراكات إستراتيجية» بدلاً من «تبرعات» يوحي بعقود طويلة الأمد أو مشاريع مشتركة بدلاً من الهدايا لمرة واحدة. التغطية المتطابقة من الرأي والأنباء تشير إلى أن هذا بيان مؤسسي منسق مسبقاً وليس خبراً عاجلاً.
-
-🟡 *Confidence: medium* — The inference about funding diversification is strong based on the explicit mention of the oil sector, but the specific nature of the 'partnerships' is not detailed in the text.
-
-**Watch next.** Look for official announcements of specific CSR agreements between the Kuwait Red Crescent and major oil companies (e.g., KPC, KNPC) or the establishment of a dedicated humanitarian fund within the oil sector.
-
-مراقبة الإعلانات الرسمية عن اتفاقيات مسؤولية اجتماعية محددة بين الهلال الأحمر الكويتي وشركات النفط الكبرى (مثل شركة البترول الوطنية أو شركة البترول الكويتية) أو إنشاء صندوق إنساني مخصص داخل القطاع النفطي.
-
-*Entities: Kuwait Red Crescent Society, Khalid Al-Mughamis, Oil Sector*
-
-<details><summary><b>References (2)</b></summary>
-
-- **الأنباء** (ar) — [«الهلال الأحمر»: تعزيز الشراكات الوطنية ركيزة أساسية لتطوير العمل الإنساني وتوسيع أثره المجتمعي](https://www.alanba.com.kw/1381552) · 18:45
-- **الرأي** (ar) — [«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني](https://www.alraimedia.com/article/1783394/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A) · 22:00
-
-</details>
-
-### 16. «العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة
-
-`Security & Courts` · **2 outlets** · الرأي, الأنباء · 10h ago
-
-*EN: Justice Ministry participates in UN conference on combating organized crime*
-
-**Summary.** The Ministry of Justice, led by First Counselor Badr Al-Mas'ad, Director of the Kuwait Institute for Judicial and Legal Studies, participated in the 13th session of the Conference of the States Parties to the UN Convention against Transnational Organized Crime. The report is a brief confirmation of attendance without detailing specific outcomes or agreements.
-
-شاركت وزارة العدل بوفد برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة. الخبر عبارة عن تأكيد موجز للمشاركة دون ذكر تفاصيل محددة حول النتائج أو الاتفاقيات المبرمة.
-
-**Why it matters.** Participation signals Kuwait's continued alignment with international legal frameworks on transnational crime, which is relevant for cross-border judicial cooperation and extradition protocols, though no immediate domestic policy change is indicated.
-
-المشاركة تعكس استمرار الكويت في التوافق مع الأطر القانونية الدولية المتعلقة بالجريمة العابرة للحدود، وهو أمر ذو صلة بالتعاون القضائي الدولي وبروتوكولات التسليم، رغم عدم وجود إشارة إلى تغيير فوري في السياسات المحلية.
-
-**🔎 Between the lines** *(inference)*
-
-The story is a standard diplomatic boilerplate. The attribution to the Director of the Judicial Institute rather than a senior minister suggests a technical or administrative level of engagement rather than high-level political negotiation. The lack of any mention of specific bilateral discussions with other GCC or regional states implies the participation was likely observational or for networking purposes rather than for concluding new treaties. The identical framing by Al-Ra'i and Al-Anba confirms this is a routine KUNA reprint with no editorial divergence.
-
-> الخبر عبارة عن صياغة دبلوماسية روتينية. الإشارة إلى مدير المعهد القضائي بدلاً من وزير أو مسؤول رفيع المستوى تشير إلى أن المشاركة كانت على مستوى تقني أو إداري وليس تفاوضاً سياسياً رفيع المستوى. غياب أي ذكر لمناقشات ثنائية محددة مع دول مجلس التعاون أو دول المنطقة يوحي بأن المشاركة كانت بغرض المراقبة أو بناء العلاقات وليس لبرم اتفاقيات جديدة. التطابق التام في الصياغة بين الرأي والأنباء يؤكد أن هذا خبر روتيني من كونا دون أي اختلاف تحريري.
-
-🟢 *Confidence: high* — The material is a standard, unattributed diplomatic update with no unique data points, making the 'routine' assessment highly probable.
-
-**Watch next.** Check for any subsequent announcements from the Ministry of Justice regarding new bilateral judicial cooperation agreements or updates to the Anti-Money Laundering Law following this conference.
-
-مراقبة أي إعلانات لاحقة من وزارة العدل بشأن اتفاقيات تعاون قضائي ثنائي جديدة أو تحديثات لقانون مكافحة غسل الأموال عقب هذا المؤتمر.
-
-*Entities: Ministry of Justice, Badr Al-Mas'ad, Kuwait Institute for Judicial and Legal Studies, UN Convention against Transnational Organized Crime*
-
-<details><summary><b>References (2)</b></summary>
-
-- **الأنباء** (ar) — [«العدل» تشارك في مؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة](https://www.alanba.com.kw/1381485) · 18:45
-- **الرأي** (ar) — [«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة](https://www.alraimedia.com/article/1783400/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A3%D9%85%D9%85%D9%8A-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9) · 22:00
-
-</details>
-
-### 17. محافظ الفروانية تفقد مدرسة الموهوبين للبنات: رعاية الإبداع والتميز الطلابي
+### 12. محافظ الفروانية تفقد مدرسة الموهوبين للبنات: رعاية الإبداع والتميز الطلابي
 
 `Society & Services` · **2 outlets** · الأنباء, الجريدة · 10h ago
 
@@ -696,7 +517,7 @@ The reporting is entirely formulaic, relying on standard KUNA-style phrasing ('i
 
 </details>
 
-### 18. «الجهاز المركزي» و«جامعة الكويت» يبحثان تعزيز التعاون في الجوانب الأكاديمية والتنظيمية لـ «البدون»
+### 13. «الجهاز المركزي» و«جامعة الكويت» يبحثان تعزيز التعاون في الجوانب الأكاديمية والتنظيمية لـ «البدون»
 
 `Society & Services` · **2 outlets** · الأنباء, الرأي · 10h ago
 
@@ -731,9 +552,9 @@ The use of the term 'Badoon' in the Al-Rai headline versus 'Residents Without Le
 
 </details>
 
-### 19. جراح الجابر: وقوف الكويت الكامل إلى جانب السعودية
+### 14. جراح الجابر: وقوف الكويت الكامل إلى جانب السعودية
 
-`World & Region` · **2 outlets** · الجريدة, الرأي · 10h ago
+`World & Region` · **2 outlets** · الجريدة, الرأي · 11h ago
 
 *EN: Jarah Al-Jaber: Kuwait's Full Support for Saudi Arabia*
 
@@ -766,9 +587,9 @@ The use of the term 'Badoon' in the Al-Rai headline versus 'Residents Without Le
 
 </details>
 
-### 20. «السكنية» تعتمد ضوابط المظهر العام واللباس الرسمي لموظفيها
+### 15. «السكنية» تعتمد ضوابط المظهر العام واللباس الرسمي لموظفيها
 
-`Government & Politics` · **2 outlets** · الرأي, الجريدة · 11h ago
+`Government & Politics` · **2 outlets** · الرأي, الجريدة · 12h ago
 
 *EN: Housing Authority Issues Guidelines for Official Appearance and Dress Code*
 
@@ -801,7 +622,7 @@ The specific mention of 'tattoos' and 'strong perfumes' (specifically smoke and 
 
 </details>
 
-### 21. السميط: نبارك لقيادات السلطة القضائية الثقة الأميرية.. و«العدل» كانت وستظل تضع كافة إمكاناتها في خدمة القضاء
+### 16. السميط: نبارك لقيادات السلطة القضائية الثقة الأميرية.. و«العدل» كانت وستظل تضع كافة إمكاناتها في خدمة القضاء
 
 `Government & Politics` · **2 outlets** · الرأي, الجريدة · 16h ago
 
@@ -836,7 +657,7 @@ The specific mention of 'tattoos' and 'strong perfumes' (specifically smoke and 
 
 </details>
 
-### 22. منيرة الأمير: «فنية البلدي» تعتمد حدود المجمع النفطي بالشويخ
+### 17. منيرة الأمير: «فنية البلدي» تعتمد حدود المجمع النفطي بالشويخ
 
 `Economy & Business` · **2 outlets** · الجريدة, الرأي · 16h ago
 
@@ -871,7 +692,42 @@ The approval is conditional on 'coordination with the Ministry of Finance (State
 
 </details>
 
-### 23. «الإطفاء»: التعامل مع بلاغ اشتباه بمحاولة انتحار من على جسر الشيخ جابر
+### 18. الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها
+
+`Security & Courts` · **2 outlets** · الأنباء, الرأي · 2h ago
+
+*EN: Kuwait reaffirms steadfast commitment to protecting diplomatic missions and consulates*
+
+**Summary.** Kuwait’s Second Secretary at the UN, Jassim Al-Amri, delivered a statement to the UN General Assembly’s Sixth Committee reaffirming Kuwait’s adherence to the Vienna Conventions on diplomatic and consular relations. The statement explicitly condemned the March 2026 Iranian drone attack on the US Embassy in Kuwait and other Iranian attacks on Gulf diplomatic facilities, calling for Iran to comply with UN Security Council Resolution 2817.
+
+ألقى جاسم العامري، السكرتير الثاني بوفد الكويت الدائم لدى الأمم المتحدة، كلمة أمام اللجنة السادسة التابعة للجمعية العامة للأمم المتحدة، أكد فيها التزام الكويت باتفاقيتي فيينا للعلاقات الدبلوماسية والقنصلية. وشملت الكلمة إدانة صريحة للاعتداء الإيراني بطائرات مسيّرة على مقر السفارة الأمريكية في الكويت في مارس 2026، وكذلك الهجمات على مقار دبلوماسية في دول الخليج، مع المطالبة بامتثال إيران لقرار مجلس الأمن رقم 2817.
+
+**Why it matters.** This formalizes Kuwait’s legal and diplomatic stance against Iran at the highest international forum, explicitly linking the March 2026 attack on the US Embassy in Kuwait to a violation of Kuwaiti sovereignty. It signals Kuwait’s alignment with the US and Gulf neighbors in demanding accountability from Iran, potentially influencing future diplomatic negotiations and security postures in the region.
+
+ترسخ هذه الخطوة الموقف القانوني والدبلوماسي الكويتي من إيران في أعلى هيئة دولية، حيث ربطت صراحةً بين الهجوم على السفارة الأمريكية في مارس 2026 وانتهاك السيادة الكويتية. وتُظهر التماشي الكويتي مع الولايات المتحدة ودول الخليج في المطالبة بمحاسبة إيران، مما قد يؤثر على مسار المفاوضات الدبلوماسية والمواقف الأمنية المستقبلية في المنطقة.
+
+**🔎 Between the lines** *(inference)*
+
+The statement is delivered by a Second Secretary rather than a senior diplomat, suggesting a routine procedural obligation rather than a high-level political escalation. However, the explicit mention of the 'saffron' (Iranian) attack on the US Embassy in Kuwait in March 2026, alongside a call for Iran to comply with UNSC Resolution 2817, indicates a deliberate effort to keep the incident on the international legal agenda. The emphasis on 'state responsibility' and 'reparation' implies Kuwait is building a legal case for potential future claims or sanctions, rather than just expressing moral outrage. The omission of any mention of direct military retaliation or specific new security measures suggests the current strategy is diplomatic and legal containment.
+
+> تُلقى الكلمة من قبل سكرتير ثانٍ وليس دبلوماسياً كبيراً، مما يشير إلى أن الأمر إجراء روتيني أكثر منه تصعيداً سياسياً رفيع المستوى. ومع ذلك، فإن الإشارة الصريحة إلى الهجوم الإيراني على السفارة الأمريكية في الكويت في مارس 2026، إلى جانب المطالبة بامتثال إيران لقرار مجلس الأمن 2817، تدل على جهد مقصود لإبقاء الحادثة على الأجندة القانونية الدولية. التأكيد على 'المسؤولية الدولية' و'جبر الضرر' يوحي بأن الكويت تبني ملفاً قانونياً لمطالبات أو عقوبات محتملة في المستقبل، وليس مجرد التعبير عن الغضب الأخلاقي. غياب أي ذكر للرد العسكري المباشر أو إجراءات أمنية جديدة محددة يشير إلى أن الاستراتيجية الحالية هي الاحتواء الدبلوماسي والقانوني.
+
+🟡 *Confidence: medium* — The text is a standard diplomatic statement, but the specific mention of the March 2026 attack and UNSC 2817 provides clear signals of intent, though the low rank of the speaker limits the scope of inference.
+
+**Watch next.** Monitor for any follow-up diplomatic notes from Kuwait to Iran or the US regarding the implementation of UNSC Resolution 2817, and watch for any changes in Kuwait’s security posture around diplomatic compounds in the coming weeks.
+
+مراقبة أي مذكرات دبلوماسية متابعة من الكويت إلى إيران أو الولايات المتحدة بشأن تنفيذ قرار مجلس الأمن 2817، ومراقبة أي تغييرات في الموقف الأمني الكويتي حول المقار الدبلوماسية في الأسابيع القادمة.
+
+*Entities: Kuwait, Jassim Al-Amri, United Nations, Iran, United States, UN Security Council Resolution 2817, Vienna Conventions*
+
+<details><summary><b>References (2)</b></summary>
+
+- **الأنباء** (ar) — [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها](https://www.alanba.com.kw/1381593) · 03:01
+- **الرأي** (ar) — [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها](https://www.alraimedia.com/article/1783421/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A8%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B9%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D9%86%D8%B5%D9%84%D9%8A%D8%A9-%D9%88%D8%B5%D9%88%D9%86-%D8%A3%D9%85%D9%86%D9%87%D8%A7-%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%87%D8%A7) · 03:10
+
+</details>
+
+### 19. «الإطفاء»: التعامل مع بلاغ اشتباه بمحاولة انتحار من على جسر الشيخ جابر
 
 `Government & Politics` · **2 outlets** · الرأي, الجريدة · 3h ago
 
@@ -906,7 +762,7 @@ The approval is conditional on 'coordination with the Ministry of Finance (State
 
 </details>
 
-### 24. «stc» الراعي البلاتيني لمعرض «وظيفتي» و«هاكاثون دوري الكويت للأمن السيبراني»
+### 20. «stc» الراعي البلاتيني لمعرض «وظيفتي» و«هاكاثون دوري الكويت للأمن السيبراني»
 
 `Economy & Business` · **2 outlets** · الأنباء, الجريدة · 10h ago
 
@@ -941,9 +797,44 @@ The article is extremely brief and reads like a standard corporate press release
 
 </details>
 
-### 25. الرئيس التنفيذي لمجموعة «بيت التمويل» الأول كويتياً ضمن قائمة «فوربس» لقادة الاستدامة في الشرق الأوسط
+### 21. رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف
 
-`Economy & Business` · **2 outlets** · الجريدة, الرأي · 13h ago
+`World & Region` · **2 outlets** · الأنباء, الرأي · 8h ago
+
+*EN: Yemeni Shura Council Chairman: Kuwait has been present alongside Yemen in all stages*
+
+**Summary.** Yemeni Shura Council Chairman Ahmed Bin Dagar praised Kuwait's humanitarian and developmental support for Yemen during a meeting with Kuwaiti Ambassador Falah Al-Mutairi. He also commended the Saudi-led coalition's role and condemned Houthi attacks on Saudi infrastructure, calling on GCC states to strengthen solidarity against the Houthis.
+
+أشاد رئيس مجلس الشورى اليمني أحمد بن دغر بالدعم الإنساني والتنموي الذي تقدمه الكويت لليمن خلال لقاءه بالسفير الكويتي فلاح المطيري. كما أشاد بدور التحالف بقيادة السعودية وندد بهجمات الحوثيين على البنية التحتية السعودية، داعياً دول مجلس التعاون إلى تعزيز التضامن ضد الحوثيين.
+
+**Why it matters.** The statement reinforces Kuwait's diplomatic alignment with the Saudi-led coalition and the internationally recognized Yemeni government. It also highlights Kuwait's continued role as a key humanitarian donor in Yemen, which is a significant aspect of its foreign policy and regional influence.
+
+يعزز البيان التوافق الدبلوماسي للكويت مع التحالف بقيادة السعودية والحكومة اليمنية المعترف بها دولياً. كما يبرز الدور المستمر للكويت كممول إنساني رئيسي في اليمن، وهو جانب مهم من سياستها الخارجية وتأثيرها الإقليمي.
+
+**🔎 Between the lines** *(inference)*
+
+The statement is heavily aligned with the Saudi narrative, explicitly praising the 'Saudi-led coalition' and condemning Houthi attacks on Saudi airports. This suggests the meeting was likely facilitated or timed to coincide with broader Saudi-Yemeni diplomatic efforts. The emphasis on Kuwait's 'humanitarian' support rather than military or political support reflects Kuwait's standard diplomatic posture of maintaining a humanitarian role while avoiding direct military involvement. The mention of 'Iranian expansionist project' is a direct echo of Saudi and UAE rhetoric, indicating a shared regional security framework.
+
+> البيان متوافق بشكل كبير مع الرواية السعودية، حيث يمدح صراحةً «التحالف بقيادة السعودية» ويندد بهجمات الحوثيين على المطارات السعودية. هذا يشير إلى أن اللقاء ربما تم تسهيله أو توقيته ليتزامن مع جهود دبلوماسية أوسع بين السعودية واليمن. كما أن التأكيد على الدعم «الإنساني» للكويت بدلاً من الدعم العسكري أو السياسي يعكس الموقف الدبلوماسي القياسي للكويت في الحفاظ على دور إنساني مع تجنب المشاركة العسكرية المباشرة. وذكر «المشروع التوسعي الإيراني» هو صدى مباشر لخطاب السعودية والإمارات، مما يدل على إطار أمني إقليمي مشترك.
+
+🟢 *Confidence: high* — The text explicitly aligns with Saudi narratives and uses specific terminology that mirrors regional political discourse, providing a clear basis for the inference.
+
+**Watch next.** Watch for any new Kuwaiti humanitarian aid announcements to Yemen in the coming weeks, which may be a direct response to this diplomatic engagement.
+
+راقب أي إعلانات جديدة عن المساعدات الإنسانية الكويتية لليمن في الأسابيع القادمة، والتي قد تكون استجابة مباشرة لهذا التفاعل الدبلوماسي.
+
+*Entities: Ahmed Bin Dagar, Falah Al-Mutairi, Yemeni Shura Council, Saudi-led Coalition, Houthi Militia, GCC*
+
+<details><summary><b>References (2)</b></summary>
+
+- **الأنباء** (ar) — [رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alanba.com.kw/1381590) · 21:26
+- **الرأي** (ar) — [رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alraimedia.com/article/1783417/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B8%D9%84%D8%AA-%D8%AD%D8%A7%D8%B6%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%81%D9%8A-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D9%88%D8%A7%D9%84%D8%B8%D8%B1%D9%88%D9%81) · 00:07
+
+</details>
+
+### 22. الرئيس التنفيذي لمجموعة «بيت التمويل» الأول كويتياً ضمن قائمة «فوربس» لقادة الاستدامة في الشرق الأوسط
+
+`Economy & Business` · **2 outlets** · الجريدة, الرأي · 14h ago
 
 *EN: Khalid Al-Shamlan named among 'Middle East Sustainability Leaders' 2026*
 
@@ -976,9 +867,9 @@ The article is heavily promotional, likely a press release from KFH distributed 
 
 </details>
 
-### 26. مدير وكالة الطاقة: مستعدون لسحب مزيد من مخزونات النفط عند الحاجة
+### 23. مدير وكالة الطاقة: مستعدون لسحب مزيد من مخزونات النفط عند الحاجة
 
-`Economy & Business` · **2 outlets** · الجريدة, الرأي · 13h ago
+`Economy & Business` · **2 outlets** · الجريدة, الرأي · 14h ago
 
 *EN: IEA Director: Ready to release more oil reserves if needed*
 
@@ -1011,9 +902,114 @@ The phrase 'supply disruptions from the Gulf and Russia' is the critical signal.
 
 </details>
 
+### 24. «العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة
+
+`Security & Courts` · **2 outlets** · الرأي, الأنباء · 10h ago
+
+*EN: Justice Ministry participates in UN conference on combating organized crime*
+
+**Summary.** The Ministry of Justice, led by First Counselor Badr Al-Mas'ad, Director of the Kuwait Institute for Judicial and Legal Studies, participated in the 13th session of the Conference of the States Parties to the UN Convention against Transnational Organized Crime. The report is a brief confirmation of attendance without detailing specific outcomes or agreements.
+
+شاركت وزارة العدل بوفد برئاسة مدير معهد الكويت للدراسات القضائية والقانونية المستشار أول بدر المسعد، في أعمال الدورة الـ13 لمؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة. الخبر عبارة عن تأكيد موجز للمشاركة دون ذكر تفاصيل محددة حول النتائج أو الاتفاقيات المبرمة.
+
+**Why it matters.** Participation signals Kuwait's continued alignment with international legal frameworks on transnational crime, which is relevant for cross-border judicial cooperation and extradition protocols, though no immediate domestic policy change is indicated.
+
+المشاركة تعكس استمرار الكويت في التوافق مع الأطر القانونية الدولية المتعلقة بالجريمة العابرة للحدود، وهو أمر ذو صلة بالتعاون القضائي الدولي وبروتوكولات التسليم، رغم عدم وجود إشارة إلى تغيير فوري في السياسات المحلية.
+
+**🔎 Between the lines** *(inference)*
+
+The story is a standard diplomatic boilerplate. The attribution to the Director of the Judicial Institute rather than a senior minister suggests a technical or administrative level of engagement rather than high-level political negotiation. The lack of any mention of specific bilateral discussions with other GCC or regional states implies the participation was likely observational or for networking purposes rather than for concluding new treaties. The identical framing by Al-Ra'i and Al-Anba confirms this is a routine KUNA reprint with no editorial divergence.
+
+> الخبر عبارة عن صياغة دبلوماسية روتينية. الإشارة إلى مدير المعهد القضائي بدلاً من وزير أو مسؤول رفيع المستوى تشير إلى أن المشاركة كانت على مستوى تقني أو إداري وليس تفاوضاً سياسياً رفيع المستوى. غياب أي ذكر لمناقشات ثنائية محددة مع دول مجلس التعاون أو دول المنطقة يوحي بأن المشاركة كانت بغرض المراقبة أو بناء العلاقات وليس لبرم اتفاقيات جديدة. التطابق التام في الصياغة بين الرأي والأنباء يؤكد أن هذا خبر روتيني من كونا دون أي اختلاف تحريري.
+
+🟢 *Confidence: high* — The material is a standard, unattributed diplomatic update with no unique data points, making the 'routine' assessment highly probable.
+
+**Watch next.** Check for any subsequent announcements from the Ministry of Justice regarding new bilateral judicial cooperation agreements or updates to the Anti-Money Laundering Law following this conference.
+
+مراقبة أي إعلانات لاحقة من وزارة العدل بشأن اتفاقيات تعاون قضائي ثنائي جديدة أو تحديثات لقانون مكافحة غسل الأموال عقب هذا المؤتمر.
+
+*Entities: Ministry of Justice, Badr Al-Mas'ad, Kuwait Institute for Judicial and Legal Studies, UN Convention against Transnational Organized Crime*
+
+<details><summary><b>References (2)</b></summary>
+
+- **الأنباء** (ar) — [«العدل» تشارك في مؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة](https://www.alanba.com.kw/1381485) · 18:45
+- **الرأي** (ar) — [«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة](https://www.alraimedia.com/article/1783400/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A3%D9%85%D9%85%D9%8A-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9) · 22:00
+
+</details>
+
+### 25. «الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني
+
+`Government & Politics` · **2 outlets** · الرأي, الأنباء · 10h ago
+
+*EN: Red Crescent: Strengthening national partnerships to develop humanitarian work*
+
+**Summary.** Khalid Al-Mughamis, Chairman of the Kuwait Red Crescent Society, stated that the society is focused on strengthening strategic partnerships with national institutions and the oil sector to support humanitarian work. The statement emphasizes the role of the private sector, specifically the oil industry, in funding and developing humanitarian initiatives.
+
+أكد خالد المغامس، رئيس مجلس إدارة جمعية الهلال الأحمر الكويتي، حرص الجمعية على تعزيز شراكاتها الإستراتيجية مع المؤسسات الوطنية والقطاع النفطي بما يسهم في دعم العمل الإنساني وتطويره. البيان يركز على دور القطاع الخاص، وتحديداً قطاع النفط، في تمويل وتطوير المبادرات الإنسانية.
+
+**Why it matters.** This highlights a shift in the Red Crescent's funding model towards corporate social responsibility (CSR) from major state-linked entities like the oil sector. It suggests a diversification of revenue sources away from purely state or individual donations, which is crucial for the sustainability of large-scale humanitarian projects.
+
+يبرز هذا الخبر تحوّلاً في نموذج تمويل الهلال الأحمر نحو المسؤولية الاجتماعية للشركات من كيانات مرتبطة بالدولة مثل قطاع النفط. يشير ذلك إلى تنويع مصادر الإيرادات بعيداً عن التبرعات الحكومية أو الفردية البحتة، وهو أمر حاسم لاستدامة المشاريع الإنسانية الكبرى.
+
+**🔎 Between the lines** *(inference)*
+
+> The specific mention of the 'oil sector' (القطاع النفطي) is notable. In Kuwait, this usually refers to major state-owned enterprises (like KPC) or large private contractors. By naming this sector explicitly, the Red Crescent is signaling a move to institutionalize funding from the state's primary revenue source, potentially reducing reliance on ad-hoc government allocations. The use of 'strategic partnerships' rather than 'donations' implies long-term contracts or joint ventures rather than one-off gifts. The identical coverage by Al-Ra'i and Al-Anba suggests this is a pre-coordinated corporate communication release rather than a breaking news event.
+
+> الإشارة المحددة إلى «القطاع النفطي» تستحق الانتباه. في الكويت، يشير هذا عادة إلى الشركات المملوكة للدولة الكبرى (مثل شركة البترول الوطنية) أو المقاولين الخاصين الكبار. من خلال تسمية هذا القطاع صراحة، يشير الهلال الأحمر إلى تحرك لتأسيس التمويل من المصدر الرئيسي لإيرادات الدولة، مما قد يقلل الاعتماد على التخصيصات الحكومية الطارئة. استخدام مصطلح «شراكات إستراتيجية» بدلاً من «تبرعات» يوحي بعقود طويلة الأمد أو مشاريع مشتركة بدلاً من الهدايا لمرة واحدة. التغطية المتطابقة من الرأي والأنباء تشير إلى أن هذا بيان مؤسسي منسق مسبقاً وليس خبراً عاجلاً.
+
+🟡 *Confidence: medium* — The inference about funding diversification is strong based on the explicit mention of the oil sector, but the specific nature of the 'partnerships' is not detailed in the text.
+
+**Watch next.** Look for official announcements of specific CSR agreements between the Kuwait Red Crescent and major oil companies (e.g., KPC, KNPC) or the establishment of a dedicated humanitarian fund within the oil sector.
+
+مراقبة الإعلانات الرسمية عن اتفاقيات مسؤولية اجتماعية محددة بين الهلال الأحمر الكويتي وشركات النفط الكبرى (مثل شركة البترول الوطنية أو شركة البترول الكويتية) أو إنشاء صندوق إنساني مخصص داخل القطاع النفطي.
+
+*Entities: Kuwait Red Crescent Society, Khalid Al-Mughamis, Oil Sector*
+
+<details><summary><b>References (2)</b></summary>
+
+- **الأنباء** (ar) — [«الهلال الأحمر»: تعزيز الشراكات الوطنية ركيزة أساسية لتطوير العمل الإنساني وتوسيع أثره المجتمعي](https://www.alanba.com.kw/1381552) · 18:45
+- **الرأي** (ar) — [«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني](https://www.alraimedia.com/article/1783394/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A) · 22:00
+
+</details>
+
+### 26. «أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات
+
+`Sport` · **2 outlets** · الرأي, الأنباء · 10h ago
+
+*EN: Aman team studies Oman's experience in emergency and crisis management*
+
+**Summary.** A team from the National Center for Emergency, Crisis, and Disaster Management ('Aman') visited Oman to study its experience in managing emergencies and national coordination mechanisms. The visit is part of the setup phase for the new center.
+
+اطلع فريق عمل من المركز الوطني لإدارة الطوارئ والأزمات والكوارث «أمان» على تجربة سلطنة عمان الشقيقة في إدارة الحالات الطارئة والكوارث وآليات التنسيق الوطني بين الجهات. الزيارة جزء من مرحلة إنشاء المركز الجديد.
+
+**Why it matters.** This indicates that Kuwait is actively building its national crisis management infrastructure by benchmarking against regional peers. The choice of Oman suggests a focus on structured, centralized coordination models, which is relevant for Kuwait's preparedness for large-scale disasters or security incidents.
+
+يشير هذا إلى أن الكويت تبني بنيتها التحتية الوطنية لإدارة الأزمات بنشاط من خلال المقارنة مع نظرائها الإقليميين. اختيار عمان يوحي بالتركيز على نماذج التنسيق المركزية المنظمة، وهو أمر ذو صلة بجاهزية الكويت للتعامل مع الكوارث الكبرى أو الحوادث الأمنية.
+
+**🔎 Between the lines** *(inference)*
+
+> The fact that the team is 'learning' from Oman implies that Kuwait's own framework is still in a developmental or conceptual stage. Oman is often cited in the GCC for its relatively centralized and efficient crisis management structures. The use of the term 'sister sultanate' (سلطنة عمان الشقيقة) is standard diplomatic language, but the focus on 'mechanisms of national coordination' suggests that the primary challenge for Kuwait is not just technical (equipment) but institutional (inter-agency coordination). The lack of details on which specific Omani agency was visited or what specific protocols were adopted leaves the practical outcome vague.
+
+> حقيقة أن الفريق «يتعلم» من عمان توحي بأن الإطار الكويتي لا يزال في مرحلة تطوير أو مفاهيمية. غالباً ما تُذكر عمان في مجلس التعاون لنظمها المركزية والفعالة نسبياً لإدارة الأزمات. استخدام مصطلح «سلطنة عمان الشقيقة» لغة دبلوماسية قياسية، لكن التركيز على «آليات التنسيق الوطني» يوحي بأن التحدي الرئيسي للكويت ليس تقنياً (معدات) بل مؤسسياً (التنسيق بين الوكالات). غياب التفاصيل حول الوكالة العمانية المحددة التي تمت زيارتها أو البروتوكولات المحددة التي تم اعتمادها يجعل النتيجة العملية غامضة.
+
+🟡 *Confidence: medium* — The inference about the developmental stage of Kuwait's framework is logical but not explicitly stated; the text only confirms the visit.
+
+**Watch next.** Monitor for the official launch of the 'Aman' center and any subsequent announcements about new inter-ministerial protocols or the appointment of a permanent director with a background in crisis management.
+
+مراقبة الإطلاق الرسمي لمركز «أمان» وأي إعلانات لاحقة عن بروتوكولات وزارية جديدة أو تعيين مدير دائم بخلفية في إدارة الأزمات.
+
+*Entities: National Center for Emergency, Crisis, and Disaster Management (Aman), Oman*
+
+<details><summary><b>References (2)</b></summary>
+
+- **الأنباء** (ar) — [فريق «أمان» يطلع على التجربة العُمانية في إدارة الحالات الطارئة والأزمات والكوارث](https://www.alanba.com.kw/1381502) · 18:45
+- **الرأي** (ar) — [«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات](https://www.alraimedia.com/article/1783393/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A3%D9%85%D8%A7%D9%86-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA) · 22:00
+
+</details>
+
 ### 27. بتلر: راسخ... التزام أميركا بأمن الكويت وسيادتها واستقرارها
 
-`Security & Courts` · **2 outlets** · الرأي, الجريدة · 11h ago
+`Security & Courts` · **2 outlets** · الرأي, الجريدة · 12h ago
 
 *EN: US Chargé d'Affaires: America's Commitment to Kuwait's Security and Sovereignty is Firm*
 
@@ -1048,7 +1044,7 @@ The phrase 'temporary evacuation... before their return' is a carefully managed 
 
 ### 28. «المرور»: ضبط قائد مركبة للاستهتار والرعونة في إسطبلات الجهراء
 
-`Security & Courts` · **2 outlets** · الجريدة, الرأي · 10h ago
+`Security & Courts` · **2 outlets** · الجريدة, الرأي · 11h ago
 
 *EN: Traffic Police Seize Reckless Driver Who Hid Vehicle in Juhara Stables*
 
@@ -1089,14 +1085,14 @@ Carried by fewer outlets, ranked by reach. Links go to the primary source.
 
 29. ضبط شبكة إجرامية لتصنيع وترويج الخمور المحلية داخل منزل بالرحاب — [الرأي](https://www.alraimedia.com/article/1783387/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B6%D8%A8%D8%B7-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A5%D8%AC%D8%B1%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D8%B9-%D9%88%D8%AA%D8%B1%D9%88%D9%8A%D8%AC-%D8%A7%D9%84%D8%AE%D9%85%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D9%85%D9%86%D8%B2%D9%84-%D8%A8%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8) `Security & Courts` *(+1: الجريدة)*
 30. 7 سنوات حبساً لمواطن وهندي في قضية «الديزل المدعوم» — [الجريدة](https://www.aljarida.com/article/148101) `Security & Courts` *(+1: الرأي)*
-31. وزير العدل: تولّي المناصب القضائية الرفيعة «أمانة وطنية» تتصل بمكانة السلطة القضائية ورسالتها السامية — [الأنباء](https://www.alanba.com.kw/1381473) `Government & Politics` *(+1: كويت نيوز)*
-32. الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني — [الرأي](https://www.alraimedia.com/article/1783419/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A-%D9%84%D9%86%D8%AD%D9%88-750-%D8%A3%D9%84%D9%81-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D9%87%D8%AC%D9%88%D9%85-%D8%B3%D9%8A%D8%A8%D8%B1%D8%A7%D9%86%D9%8A) `World & Region` *(+1: الأنباء)*
-33. Power outage hits Google Cloud services, disrupting UK banks — [Kuwait Times](https://kuwaittimes.com/article/51993/business/power-outage-hits-google-cloud-services-disrupting-uk-banks/) `Economy & Business` *(+1: Arab Times)*
-34. «المطوع التجارية» تفتتح INTERSPORT RUN في حديقة الشهيد — [الجريدة](https://www.aljarida.com/article/148099) `Society & Services` *(+1: Arab Times)*
-35. «أبطال أوروبا».. خسارة برشلونة أمام باريس سان جرمان — [الرأي](https://www.alraimedia.com/article/1783416/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D8%B1%D9%85%D8%A7%D9%86) `Sport` *(+1: كويت نيوز)*
-36. «HONOR» و«ROX» تختبران تحمل «HONOR X9e Pro»... في فيلكا — [الرأي](https://www.alraimedia.com/article/1783379/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/honor-%D9%88rox-%D8%AA%D8%AE%D8%AA%D8%A8%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D9%85%D9%84-honor-x9e-pro-%D9%81%D9%8A-%D9%81%D9%8A%D9%84%D9%83%D8%A7) `World & Region` *(+1: الأنباء)*
-37. «التحالف»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه الرياض — [الرأي](https://www.alraimedia.com/article/1783308/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6) `World & Region` *(+1: الأنباء)*
-38. «التحالف»: اعتراض وتدمير «مسيّرة» في منطقة الرياض — [الرأي](https://www.alraimedia.com/article/1783329/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6) `World & Region` *(+1: الجريدة)*
+31. «التحالف»: اعتراض وتدمير «مسيّرة» في منطقة الرياض — [الرأي](https://www.alraimedia.com/article/1783329/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6) `World & Region` *(+1: الجريدة)*
+32. وزير العدل: تولّي المناصب القضائية الرفيعة «أمانة وطنية» تتصل بمكانة السلطة القضائية ورسالتها السامية — [الأنباء](https://www.alanba.com.kw/1381473) `Government & Politics` *(+1: كويت نيوز)*
+33. الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني — [الرأي](https://www.alraimedia.com/article/1783419/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A-%D9%84%D9%86%D8%AD%D9%88-750-%D8%A3%D9%84%D9%81-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D9%87%D8%AC%D9%88%D9%85-%D8%B3%D9%8A%D8%A8%D8%B1%D8%A7%D9%86%D9%8A) `World & Region` *(+1: الأنباء)*
+34. Power outage hits Google Cloud services, disrupting UK banks — [Kuwait Times](https://kuwaittimes.com/article/51993/business/power-outage-hits-google-cloud-services-disrupting-uk-banks/) `Economy & Business` *(+1: Arab Times)*
+35. «المطوع التجارية» تفتتح INTERSPORT RUN في حديقة الشهيد — [الجريدة](https://www.aljarida.com/article/148099) `Society & Services` *(+1: Arab Times)*
+36. «أبطال أوروبا».. خسارة برشلونة أمام باريس سان جرمان — [الرأي](https://www.alraimedia.com/article/1783416/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D8%B1%D9%85%D8%A7%D9%86) `Sport` *(+1: كويت نيوز)*
+37. «HONOR» و«ROX» تختبران تحمل «HONOR X9e Pro»... في فيلكا — [الرأي](https://www.alraimedia.com/article/1783379/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/honor-%D9%88rox-%D8%AA%D8%AE%D8%AA%D8%A8%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D9%85%D9%84-honor-x9e-pro-%D9%81%D9%8A-%D9%81%D9%8A%D9%84%D9%83%D8%A7) `World & Region` *(+1: الأنباء)*
+38. «التحالف»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه الرياض — [الرأي](https://www.alraimedia.com/article/1783308/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6) `World & Region` *(+1: الأنباء)*
 39. ناخبو مقاطعة ألبرتا يرفضون الانفصال عن كندا — [الجريدة](https://www.aljarida.com/article/148038) `World & Region` *(+1: الرأي)*
 40. «الصحة» المصرية: وفاة 12 شخصا وإصابة 30 في حادث تصادم على طريق أسيوط الغربي — [الرأي](https://www.alraimedia.com/article/1783311/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%88%D9%81%D8%A7%D8%A9-12-%D8%B4%D8%AE%D8%B5%D8%A7-%D9%88%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-30-%D9%81%D9%8A-%D8%AD%D8%A7%D8%AF%D8%AB-%D8%AA%D8%B5%D8%A7%D8%AF%D9%85-%D8%B9%D9%84%D9%89-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7-%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A) `World & Region` *(+1: الجريدة)*
 41. 5 ميداليات لـ «القوس والسهم» في انطلاق «غرب آسيا» — [الجريدة](https://www.aljarida.com/article/148138) `Sport` *(+1: الأنباء)*
@@ -1105,48 +1101,48 @@ Carried by fewer outlets, ranked by reach. Links go to the primary source.
 44. تعزيز التنافسية في المؤشرات الدولية — [الأنباء](https://www.alanba.com.kw/1381495) `Government & Politics`
 45. نيجيريا تسجل أول إصابة بـ«إيبولا» مع استمرار تفشي المرض في أفريقيا — [الرأي](https://www.alraimedia.com/article/1783424/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%86%D9%8A%D8%AC%D9%8A%D8%B1%D9%8A%D8%A7-%D8%AA%D8%B3%D8%AC%D9%84-%D8%A3%D9%88%D9%84-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%85%D8%B9-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D8%AA%D9%81%D8%B4%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%B6-%D9%81%D9%8A-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7) `World & Region`
 46. أمين مجلس التعاون: اتفاقية التجارة الحرة مع بريطانيا تمثل إنجازاً مهماً في تاريخ ومستقبل العلاقات المشتركة — [الأنباء](https://www.alanba.com.kw/1381462) `World & Region`
-47. «التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام — [الرأي](https://www.alraimedia.com/article/1783405/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%83%D9%85%D9%84-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%81%D8%A7%D8%A6%D8%B6-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%887-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A2%D8%AE%D8%B1-%D9%8A%D9%88%D9%85-%D8%AF%D9%88%D8%A7%D9%85) `Society & Services`
-48. نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت — [الرأي](https://www.alraimedia.com/article/1783406/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D9%84%D8%A7%D9%84%D8%B1%D8%A7%D9%8A-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A3%D9%88%D8%B3%D8%B9-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA) `Government & Politics`
-49. الأمير يشهد أداء قيادات القضاء اليمين — [الرأي](https://www.alraimedia.com/article/1783412/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D8%B4%D9%87%D8%AF-%D8%A3%D8%AF%D8%A7%D8%A1-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86) `Government & Politics`
-50. قلبي سليم... فلماذا لا تختفي النغزات؟ — [الرأي](https://www.alraimedia.com/article/1783392/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D9%84%D8%A8%D9%8A-%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D8%A7-%D8%AA%D8%AE%D8%AA%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%BA%D8%B2%D8%A7%D8%AA) `Government & Politics`
-51. جامعة الكويت تستضيف وفداً دبلوماسياً من أفريقيا — [الرأي](https://www.alraimedia.com/article/1783395/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D9%88%D9%81%D8%AF%D8%A7-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A7-%D9%85%D9%86-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7) `Society & Services`
-52. مبادرات كويتية لتطوير الوقف وتعزيز دوره في التنمية المجتمعية — [الرأي](https://www.alraimedia.com/article/1783396/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A%D8%A9) `Government & Politics`
-53. الكويت أمام الأمم المتحدة: احترام القانون الدولي الإنساني واجب — [الرأي](https://www.alraimedia.com/article/1783397/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D8%AC%D8%A8) `World & Region`
-54. المعهد الدبلوماسي يوسّع تعاونه مع المفوضية السامية لشؤون اللاجئين — [الرأي](https://www.alraimedia.com/article/1783398/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D9%8A%D9%88%D8%B3%D8%B9-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D9%84%D8%A7%D8%AC%D8%A6%D9%8A%D9%86) `Government & Politics`
-55. «سقيا الماء» تطلق «قطرة وطن»: توسيع نطاق التعاون وتعزيز ثقافة الترشيد — [الرأي](https://www.alraimedia.com/article/1783399/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D8%AA%D8%B7%D9%84%D9%82-%D9%82%D8%B7%D8%B1%D8%A9-%D9%88%D8%B7%D9%86-%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D9%86%D8%B7%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF) `World & Region`
-56. تعاون كويتي - جزائري لتبادل الخبرات في الشؤون الدينية — [الرأي](https://www.alraimedia.com/article/1783401/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A---%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9) `Government & Politics`
-57. سفير التشيك: «طيران الجزيرة» تفتح نافذة شتوية إلى براغ — [الرأي](https://www.alraimedia.com/article/1783342/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%81%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%83-%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%B4%D8%AA%D9%88%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A8%D8%B1%D8%A7%D8%BA) `Government & Politics`
-58. القطان لـ الجريدة.: 40% من المسنين في الكويت مصابون بالوهن — [الجريدة](https://www.aljarida.com/article/148117) `Government & Politics`
-59. «الشؤون» تشدد إجراءاتها الرقابية لحماية العمالة الوطنية في التعاونيات — [الجريدة](https://www.aljarida.com/article/148115) `Government & Politics`
-60. الكويت تدعو للضغط على إسرائيل للانضمام إلى «معاهدة الأسلحة النووية» — [الجريدة](https://www.aljarida.com/article/148111) `World & Region`
-61. البدر: تعزيز التعاون مع التشيك في الاقتصاد والدفاع — [الجريدة](https://www.aljarida.com/article/148110) `Economy & Business`
-62. محافظ الفروانية: دعم الإبداع الطلابي للإسهام في نهضة الوطن وتقدمه — [الرأي](https://www.alraimedia.com/article/1783336/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A5%D8%A8%D8%AF%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8%D9%8A-%D9%84%D9%84%D8%A5%D8%B3%D9%87%D8%A7%D9%85-%D9%81%D9%8A-%D9%86%D9%87%D8%B6%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86-%D9%88%D8%AA%D9%82%D8%AF%D9%85%D9%87) `Economy & Business`
-63. الزامل لـ الجريدة•: تطعيمات الشتاء تستهدف 400 موظف في «الأوقاف» — [الجريدة](https://www.aljarida.com/article/148093) `Sport`
-64. الفجام يتفقد التعليم بـ«التمريض» و«الصحية» — [الجريدة](https://www.aljarida.com/article/148091) `Society & Services`
-65. وكيل «الداخلية»: تبادل الخبرات الدولية في تطوير القدرات الأمنية — [الجريدة](https://www.aljarida.com/article/148068) `Security & Courts`
-66. مجلس الوزراء: تكامل الجهود لتنفيذ الأولويات الوطنية ودعم جهود الدولة — [الرأي](https://www.alraimedia.com/article/1783327/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AA%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9%D9%88%D8%AF%D8%B9%D9%85-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9) `Government & Politics`
-67. «البلدية»: الالتزام بنسب البناء المخصصة لكل منزل التي تحددها اللائحة — [الجريدة](https://www.aljarida.com/article/148064) `Government & Politics`
-68. الوزير الوسمي: تعزيز التعاون الخليجي بمجالات الشؤون الإسلامية والأوقاف — [الجريدة](https://www.aljarida.com/article/148063) `Sport`
-69. اللواء الوهيب يشارك في افتتاح «ميليبول قطر 2026» ويؤكد تعزيز التعاون الأمني بين البلدين — [الرأي](https://www.alraimedia.com/article/1783324/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D9%88%D9%87%D9%8A%D8%A8-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%85%D9%8A%D9%84%D9%8A%D8%A8%D9%88%D9%84-%D9%82%D8%B7%D8%B1-2026-%D9%88%D9%8A%D8%A4%D9%83%D8%AF-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D9%86) `Security & Courts`
-70. الحبشي: دعم الأعلاف وتعزيز المخزون ركيزتان للأمن الغذائي وتنمية الثروة الحيوانية — [الرأي](https://www.alraimedia.com/article/1783333/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D8%A8%D8%B4%D9%8A-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D8%A7%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86-%D8%B1%D9%83%D9%8A%D8%B2%D8%AA%D8%A7%D9%86-%D9%84%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%88%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A%D8%A9) `Economy & Business`
-71. «الأشغال» تبدأ تقييم مبادرات «بادر لترسيخ الحوكمة» — [الجريدة](https://www.aljarida.com/article/148118) `Government & Politics`
-72. نجيب البدر: الحوار والديبلوماسية الركيزة الأساسية لترسيخ الأمن والاستقرار في المنطقة — [الأنباء](https://www.alanba.com.kw/1381557) `Security & Courts`
-73. «البيئة» تعلن انتهاء «الخطة الوطنية للطوارئ والاستجابة لحالات التلوث البحري» اليوم — [الأنباء](https://www.alanba.com.kw/1381500) `Government & Politics`
-74. سفيرنا بالجزائر بحث مع وزير الدولة عميد جامع الجزائر تعزيز التعاون الثنائي بالمجال الديني — [الأنباء](https://www.alanba.com.kw/1381489) `Government & Politics`
-75. دينا الميلم: الزيارات الديبلوماسية تُعزز التواصل العلمي والثقافي مع جامعة الكويت — [الأنباء](https://www.alanba.com.kw/1381488) `Society & Services`
-76. «كونا» تصدر العدد 24 من مجلة «كونا الصغير» بمحتوى وطني هادف — [الأنباء](https://www.alanba.com.kw/1381487) `Government & Politics`
-77. بودابست أحلى ما شفت!.. بقلم: يوسف عبدالرحمن — [الأنباء](https://www.alanba.com.kw/1381480) `Government & Politics`
-78. «الغذاء والتغذية» تدعو إلى قراءة البطاقة الغذائية واختيار بدائل صحية لتعزيز جودة الحياة — [الأنباء](https://www.alanba.com.kw/1381551) `Government & Politics`
-79. معاذ اليحيا: انطلاق 4 مهرجانات أكتوبر في جمعية مشرف بخصومات تصل إلى 50% — [الأنباء](https://www.alanba.com.kw/1381514) `Culture & Entertainment`
-80. لمحة سريعة حول تطبيق القانون من حيث الزمان والمكان — [الأنباء](https://www.alanba.com.kw/1381513) `Government & Politics`
-81. آن كويستينن: الشراكة بين الكويت والاتحاد الأوروبي أساسها القيم المشتركة والحوار والتعاون — [الأنباء](https://www.alanba.com.kw/1381507) `Government & Politics`
-82. الذكاء الاصطناعي واختبار القواعد القانونية — [الأنباء](https://www.alanba.com.kw/1381512) `Society & Services`
-83. صدور مرسوم بقانون لتعديل بعض أحكام قانون التوثيق — [الأنباء](https://www.alanba.com.kw/1381499) `Government & Politics`
-84. الكويت: الإزالة الكاملة للأسلحة النووية ضمانة لمنع استخدامها — [الأنباء](https://www.alanba.com.kw/1381497) `Government & Politics`
-85. رسمياً.. تعديل نص المادة 830 من القانون المدني — [الأنباء](https://www.alanba.com.kw/1381498) `Government & Politics`
-86. «الوطني» يختتم مشاركته في اجتماعات صندوق النقد والبنك الدوليين — [الجريدة](https://www.aljarida.com/article/148108) `Economy & Business`
-87. وزير الخارجية يجدد لنظيره السعودي دعم الكويت ووقوفها إلى جانب المملكة بكل إجراءاتها لصون سيادتها وأمنها واستقرارها — [الأنباء](https://www.alanba.com.kw/1381575) `Economy & Business`
-88. «قوزينا» الأولى بين مطاعم المأكولات الكويتية والرابعة بين مطاعم الكويت عامة — [الأنباء](https://www.alanba.com.kw/1381475) `Government & Politics`
+47. سفير التشيك: «طيران الجزيرة» تفتح نافذة شتوية إلى براغ — [الرأي](https://www.alraimedia.com/article/1783342/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%81%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%83-%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%B4%D8%AA%D9%88%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A8%D8%B1%D8%A7%D8%BA) `Government & Politics`
+48. القطان لـ الجريدة.: 40% من المسنين في الكويت مصابون بالوهن — [الجريدة](https://www.aljarida.com/article/148117) `Government & Politics`
+49. «الشؤون» تشدد إجراءاتها الرقابية لحماية العمالة الوطنية في التعاونيات — [الجريدة](https://www.aljarida.com/article/148115) `Government & Politics`
+50. الكويت تدعو للضغط على إسرائيل للانضمام إلى «معاهدة الأسلحة النووية» — [الجريدة](https://www.aljarida.com/article/148111) `World & Region`
+51. البدر: تعزيز التعاون مع التشيك في الاقتصاد والدفاع — [الجريدة](https://www.aljarida.com/article/148110) `Economy & Business`
+52. محافظ الفروانية: دعم الإبداع الطلابي للإسهام في نهضة الوطن وتقدمه — [الرأي](https://www.alraimedia.com/article/1783336/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A5%D8%A8%D8%AF%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8%D9%8A-%D9%84%D9%84%D8%A5%D8%B3%D9%87%D8%A7%D9%85-%D9%81%D9%8A-%D9%86%D9%87%D8%B6%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86-%D9%88%D8%AA%D9%82%D8%AF%D9%85%D9%87) `Economy & Business`
+53. الزامل لـ الجريدة•: تطعيمات الشتاء تستهدف 400 موظف في «الأوقاف» — [الجريدة](https://www.aljarida.com/article/148093) `Sport`
+54. الفجام يتفقد التعليم بـ«التمريض» و«الصحية» — [الجريدة](https://www.aljarida.com/article/148091) `Society & Services`
+55. وكيل «الداخلية»: تبادل الخبرات الدولية في تطوير القدرات الأمنية — [الجريدة](https://www.aljarida.com/article/148068) `Security & Courts`
+56. مجلس الوزراء: تكامل الجهود لتنفيذ الأولويات الوطنية ودعم جهود الدولة — [الرأي](https://www.alraimedia.com/article/1783327/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AA%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9%D9%88%D8%AF%D8%B9%D9%85-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9) `Government & Politics`
+57. «البلدية»: الالتزام بنسب البناء المخصصة لكل منزل التي تحددها اللائحة — [الجريدة](https://www.aljarida.com/article/148064) `Government & Politics`
+58. الوزير الوسمي: تعزيز التعاون الخليجي بمجالات الشؤون الإسلامية والأوقاف — [الجريدة](https://www.aljarida.com/article/148063) `Sport`
+59. اللواء الوهيب يشارك في افتتاح «ميليبول قطر 2026» ويؤكد تعزيز التعاون الأمني بين البلدين — [الرأي](https://www.alraimedia.com/article/1783324/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D9%88%D9%87%D9%8A%D8%A8-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%85%D9%8A%D9%84%D9%8A%D8%A8%D9%88%D9%84-%D9%82%D8%B7%D8%B1-2026-%D9%88%D9%8A%D8%A4%D9%83%D8%AF-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D9%86) `Security & Courts`
+60. الحبشي: دعم الأعلاف وتعزيز المخزون ركيزتان للأمن الغذائي وتنمية الثروة الحيوانية — [الرأي](https://www.alraimedia.com/article/1783333/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D8%A8%D8%B4%D9%8A-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D8%A7%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86-%D8%B1%D9%83%D9%8A%D8%B2%D8%AA%D8%A7%D9%86-%D9%84%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%88%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A%D8%A9) `Economy & Business`
+61. «الأشغال» تبدأ تقييم مبادرات «بادر لترسيخ الحوكمة» — [الجريدة](https://www.aljarida.com/article/148118) `Government & Politics`
+62. صدور مرسوم بقانون لتعديل بعض أحكام قانون التوثيق — [الأنباء](https://www.alanba.com.kw/1381499) `Government & Politics`
+63. الكويت: الإزالة الكاملة للأسلحة النووية ضمانة لمنع استخدامها — [الأنباء](https://www.alanba.com.kw/1381497) `Government & Politics`
+64. رسمياً.. تعديل نص المادة 830 من القانون المدني — [الأنباء](https://www.alanba.com.kw/1381498) `Government & Politics`
+65. نجيب البدر: الحوار والديبلوماسية الركيزة الأساسية لترسيخ الأمن والاستقرار في المنطقة — [الأنباء](https://www.alanba.com.kw/1381557) `Security & Courts`
+66. «البيئة» تعلن انتهاء «الخطة الوطنية للطوارئ والاستجابة لحالات التلوث البحري» اليوم — [الأنباء](https://www.alanba.com.kw/1381500) `Government & Politics`
+67. سفيرنا بالجزائر بحث مع وزير الدولة عميد جامع الجزائر تعزيز التعاون الثنائي بالمجال الديني — [الأنباء](https://www.alanba.com.kw/1381489) `Government & Politics`
+68. دينا الميلم: الزيارات الديبلوماسية تُعزز التواصل العلمي والثقافي مع جامعة الكويت — [الأنباء](https://www.alanba.com.kw/1381488) `Society & Services`
+69. «كونا» تصدر العدد 24 من مجلة «كونا الصغير» بمحتوى وطني هادف — [الأنباء](https://www.alanba.com.kw/1381487) `Government & Politics`
+70. بودابست أحلى ما شفت!.. بقلم: يوسف عبدالرحمن — [الأنباء](https://www.alanba.com.kw/1381480) `Government & Politics`
+71. «الغذاء والتغذية» تدعو إلى قراءة البطاقة الغذائية واختيار بدائل صحية لتعزيز جودة الحياة — [الأنباء](https://www.alanba.com.kw/1381551) `Government & Politics`
+72. معاذ اليحيا: انطلاق 4 مهرجانات أكتوبر في جمعية مشرف بخصومات تصل إلى 50% — [الأنباء](https://www.alanba.com.kw/1381514) `Culture & Entertainment`
+73. لمحة سريعة حول تطبيق القانون من حيث الزمان والمكان — [الأنباء](https://www.alanba.com.kw/1381513) `Government & Politics`
+74. آن كويستينن: الشراكة بين الكويت والاتحاد الأوروبي أساسها القيم المشتركة والحوار والتعاون — [الأنباء](https://www.alanba.com.kw/1381507) `Government & Politics`
+75. الذكاء الاصطناعي واختبار القواعد القانونية — [الأنباء](https://www.alanba.com.kw/1381512) `Society & Services`
+76. «الوطني» يختتم مشاركته في اجتماعات صندوق النقد والبنك الدوليين — [الجريدة](https://www.aljarida.com/article/148108) `Economy & Business`
+77. وزير الخارجية يجدد لنظيره السعودي دعم الكويت ووقوفها إلى جانب المملكة بكل إجراءاتها لصون سيادتها وأمنها واستقرارها — [الأنباء](https://www.alanba.com.kw/1381575) `Economy & Business`
+78. «قوزينا» الأولى بين مطاعم المأكولات الكويتية والرابعة بين مطاعم الكويت عامة — [الأنباء](https://www.alanba.com.kw/1381475) `Government & Politics`
+79. Rubio heads to India for ‘trade diplomacy’ — [Kuwait Times](https://kuwaittimes.com/article/51969/world/rubio-heads-to-india-for-trade-diplomacy/) `Economy & Business`
+80. NBK concludes its participation in 2026 IMF and World Bank Annual Meetings — [Kuwait Times](https://kuwaittimes.com/article/51999/business/nbk-concludes-its-participation-in-2026-imf-and-world-bank-annual-meetings/) `Economy & Business`
+81. «برنت» قرب أعلى مستوى في 5 أشهر مع تصاعد التوتر الإقليمي — [الجريدة](https://www.aljarida.com/article/148105) `Economy & Business`
+82. البورصة ترتد جزئياً مع تباين المؤشرات — [الجريدة](https://www.aljarida.com/article/148104) `Economy & Business`
+83. «فولكس فاغن» تستدعي نحو 73 ألف سيارة كهربائية — [الجريدة](https://www.aljarida.com/article/148092) `Economy & Business`
+84. «التجاري» ينظم يوماً توعوياً صحياً لموظفيه — [الجريدة](https://www.aljarida.com/article/148088) `Economy & Business`
+85. «وربة» يحتفي بتخريج الدفعة الأولى من «PULSE» — [الجريدة](https://www.aljarida.com/article/148076) `Economy & Business`
+86. المرزوق: الكويت تركز على استقطاب الاستثمارات النوعية — [الرأي](https://www.alraimedia.com/article/1783328/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D9%85%D8%B1%D8%B2%D9%88%D9%82-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B1%D9%83%D8%B2-%D8%B9%D9%84%D9%89-%D8%A7%D8%B3%D8%AA%D9%82%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%88%D8%B9%D9%8A%D8%A9) `Economy & Business`
+87. Amazon to invest €16bn in Germany in 2027, including in AI — [Kuwait Times](https://kuwaittimes.com/article/51981/business/amazon-to-invest-16bn-in-germany-in-2027-including-in-ai/) `Economy & Business`
+88. مديرة جامعة الكويت: مد جسور التواصل مع الوفود الدبلوماسية والمؤسسات الدولية — [الجريدة](https://www.aljarida.com/article/148049) `Society & Services`
 
 ---
 
@@ -1154,7 +1150,7 @@ Carried by fewer outlets, ranked by reach. Links go to the primary source.
 
 Every article collected in this window, grouped by outlet. This is the raw record behind the briefing above.
 
-### الرأي — 107 articles
+### الرأي — 109 articles
 
 - 15:09 `local` [سمو ولي العهد يستقبل رئيس المجلس الأعلى للقضاء ونائب رئيس محكمة التمييز ورئيس محكمة الاستئناف](https://www.alraimedia.com/article/1783319/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%85%D9%88-%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%B9%D9%87%D8%AF-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D9%89-%D9%84%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D9%88%D9%86%D8%A7%D8%A6%D8%A8-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%8A%D8%B2-%D9%88%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81)
 - 14:13 `local` [سمو الأمير يستقبل رئيس «الأعلى للقضاء» ونائب رئيس محكمة التمييز ورئيس محكمة الاستئناف](https://www.alraimedia.com/article/1783316/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%85%D9%88-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D9%89-%D9%84%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D9%88%D9%86%D8%A7%D8%A6%D8%A8-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%8A%D8%B2-%D9%88%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81)
@@ -1163,65 +1159,68 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 15:12 `local` [«التربية» تفعّل «تيمز» السبت المقبل وتدعو الطلاب لحضور حصص عن بُعد لمدة ساعة](https://www.alraimedia.com/article/1783321/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D9%81%D8%B9%D9%84-%D8%AA%D9%8A%D9%85%D8%B2-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84-%D9%88%D8%AA%D8%AF%D8%B9%D9%88-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8-%D9%84%D8%AD%D8%B6%D9%88%D8%B1-%D8%AD%D8%B5%D8%B5-%D8%B9%D9%86-%D8%A8%D8%B9%D8%AF-%D9%84%D9%85%D8%AF%D8%A9-%D8%B3%D8%A7%D8%B9%D8%A9)
 - 13:19 `economy` [الكويت تصدر بنجاح سندات دولية بقيمة 3.25 مليار دولار على شريحتين](https://www.alraimedia.com/article/1783314/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B5%D8%AF%D8%B1-%D8%A8%D9%86%D8%AC%D8%A7%D8%AD-%D8%B3%D9%86%D8%AF%D8%A7%D8%AA-%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%A8%D9%82%D9%8A%D9%85%D8%A9-325-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D8%B4%D8%B1%D9%8A%D8%AD%D8%AA%D9%8A%D9%86)
 - 13:18 `local` [«هيئة البيئة»: تعزيز منظومة حماية البيئة البحرية ورفع مستوى الجاهزية للتعامل مع حوادث التلوث البحري](https://www.alraimedia.com/article/1783315/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D9%88%D8%B1%D9%81%D8%B9-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9-%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%AD%D9%88%D8%A7%D8%AF%D8%AB-%D8%A7%D9%84%D8%AA%D9%84%D9%88%D8%AB-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A)
-- 03:10 `local` [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها](https://www.alraimedia.com/article/1783421/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A8%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B9%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D9%86%D8%B5%D9%84%D9%8A%D8%A9-%D9%88%D8%B5%D9%88%D9%86-%D8%A3%D9%85%D9%86%D9%87%D8%A7-%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%87%D8%A7)
 - 23:05 `latest` [القادسية اجتاز ريغار تاداز الطاجيكي](https://www.alraimedia.com/article/1783415/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D8%A7%D8%AC%D8%AA%D8%A7%D8%B2-%D8%B1%D9%8A%D8%BA%D8%A7%D8%B1-%D8%AA%D8%A7%D8%AF%D8%A7%D8%B2-%D8%A7%D9%84%D8%B7%D8%A7%D8%AC%D9%8A%D9%83%D9%8A)
 - 22:02 `latest` [العربي خارج «التحدي الآسيوي»](https://www.alraimedia.com/article/1783409/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-%D8%A7%D9%84%D8%A2%D8%B3%D9%8A%D9%88%D9%8A)
-- 00:07 `local` [رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alraimedia.com/article/1783417/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B8%D9%84%D8%AA-%D8%AD%D8%A7%D8%B6%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%81%D9%8A-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D9%88%D8%A7%D9%84%D8%B8%D8%B1%D9%88%D9%81)
-- 22:00 `local` [«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات](https://www.alraimedia.com/article/1783393/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A3%D9%85%D8%A7%D9%86-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA)
-- 22:00 `local` [«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني](https://www.alraimedia.com/article/1783394/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A)
-- 22:00 `local` [«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة](https://www.alraimedia.com/article/1783400/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A3%D9%85%D9%85%D9%8A-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9)
 - 15:47 `local` [«الجهاز المركزي» و«جامعة الكويت» يبحثان تعزيز التعاون في الجوانب الأكاديمية والتنظيمية لـ «البدون»](https://www.alraimedia.com/article/1783323/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%88%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%8A%D8%A8%D8%AD%D8%AB%D8%A7%D9%86-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9-%D9%84-%D8%A7%D9%84%D8%A8%D8%AF%D9%88%D9%86)
 - 21:06 `local` [جراح الجابر: وقوف الكويت الكامل إلى جانب السعودية](https://www.alraimedia.com/article/1783343/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AC%D8%B1%D8%A7%D8%AD-%D8%A7%D9%84%D8%AC%D8%A7%D8%A8%D8%B1-%D9%88%D9%82%D9%88%D9%81-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9)
 - 20:13 `local` [ضوابط للمظهر العام واللباس الرسمي لموظفي «السكنية»](https://www.alraimedia.com/article/1783339/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B6%D9%88%D8%A7%D8%A8%D8%B7-%D9%84%D9%84%D9%85%D8%B8%D9%87%D8%B1-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D9%84%D8%A8%D8%A7%D8%B3-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A-%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A%D8%A9)
 - 16:07 `local` [السميط: نبارك لقيادات السلطة القضائية الثقة الأميرية.. و«العدل» كانت وستظل تضع كافة إمكاناتها في خدمة القضاء](https://www.alraimedia.com/article/1783325/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B3%D9%85%D9%8A%D8%B7-%D9%86%D8%A8%D8%A7%D8%B1%D9%83-%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A9-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D9%83%D8%A7%D9%86%D8%AA-%D9%88%D8%B3%D8%AA%D8%B8%D9%84-%D8%AA%D8%B6%D8%B9-%D9%83%D8%A7%D9%81%D8%A9-%D8%A5%D9%85%D9%83%D8%A7%D9%86%D8%A7%D8%AA%D9%87%D8%A7-%D9%81%D9%8A-%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1)
 - 14:42 `local` [منيرة الأمير: «فنية البلدي» تعتمد حدود المجمع النفطي بالشويخ](https://www.alraimedia.com/article/1783318/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D9%86%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%81%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A-%D8%AA%D8%B9%D8%AA%D9%85%D8%AF-%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D9%86%D9%81%D8%B7%D9%8A-%D8%A8%D8%A7%D9%84%D8%B4%D9%88%D9%8A%D8%AE)
+- 03:10 `latest` [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها وسلامة ممثليها](https://www.alraimedia.com/article/1783421/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85%D9%87%D8%A7-%D8%A7%D9%84%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A8%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%B9%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D9%86%D8%B5%D9%84%D9%8A%D8%A9-%D9%88%D8%B5%D9%88%D9%86-%D8%A3%D9%85%D9%86%D9%87%D8%A7-%D9%88%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D9%85%D9%85%D8%AB%D9%84%D9%8A%D9%87%D8%A7)
 - 04:47 `latest` [«الإطفاء»: التعامل مع بلاغ اشتباه بمحاولة انتحار من على جسر الشيخ جابر](https://www.alraimedia.com/article/1783423/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%A5%D8%B7%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%A8%D9%84%D8%A7%D8%BA-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87-%D8%A8%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%86%D8%AA%D8%AD%D8%A7%D8%B1-%D9%85%D9%86-%D8%B9%D9%84%D9%89-%D8%AC%D8%B3%D8%B1-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%AC%D8%A7%D8%A8%D8%B1)
+- 00:07 `latest` [رئيس «الشورى» اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alraimedia.com/article/1783417/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B8%D9%84%D8%AA-%D8%AD%D8%A7%D8%B6%D8%B1%D8%A9-%D8%A5%D9%84%D9%89-%D8%AC%D8%A7%D9%86%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%81%D9%8A-%D9%85%D8%AE%D8%AA%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D9%88%D8%A7%D9%84%D8%B8%D8%B1%D9%88%D9%81)
 - 11:24 `economy` [الرئيس التنفيذي لمجموعة «بيت التمويل» الأول كويتياً ضمن قائمة «فوربس» لقادة الاستدامة في الشرق الأوسط](https://www.alraimedia.com/article/1783306/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A7-%D8%B6%D9%85%D9%86-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D9%81%D9%88%D8%B1%D8%A8%D8%B3-%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AF%D8%A7%D9%85%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7)
 - 18:11 `economy` [مدير وكالة الطاقة: مستعدون لسحب مزيد من مخزونات النفط عند الحاجة](https://www.alraimedia.com/article/1783332/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D9%85%D8%AF%D9%8A%D8%B1-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D9%85%D8%B3%D8%AA%D8%B9%D8%AF%D9%88%D9%86-%D9%84%D8%B3%D8%AD%D8%A8-%D9%85%D8%B2%D9%8A%D8%AF-%D9%85%D9%86-%D9%85%D8%AE%D8%B2%D9%88%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%AD%D8%A7%D8%AC%D8%A9)
+- 22:00 `latest` [«العدل» تشارك في مؤتمر أممي لمكافحة الجريمة المنظمة](https://www.alraimedia.com/article/1783400/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B9%D8%AF%D9%84-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A3%D9%85%D9%85%D9%8A-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85%D8%A9)
+- 22:00 `latest` [«الهلال الأحمر»: تعزيز الشراكات الوطنية لتطوير العمل الإنساني](https://www.alraimedia.com/article/1783394/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%87%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A)
+- 22:00 `latest` [«أمان» يطلع على التجربة العمانية في إدارة الطوارئ والأزمات](https://www.alraimedia.com/article/1783393/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A3%D9%85%D8%A7%D9%86-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D9%88%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA)
 - 20:22 `local` [بتلر: راسخ... التزام أميركا بأمن الكويت وسيادتها واستقرارها](https://www.alraimedia.com/article/1783340/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A8%D8%AA%D9%84%D8%B1-%D8%B1%D8%A7%D8%B3%D8%AE-%D8%A7%D9%84%D8%AA%D8%B2%D8%A7%D9%85-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%A8%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%B3%D9%8A%D8%A7%D8%AF%D8%AA%D9%87%D8%A7-%D9%88%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%D9%87%D8%A7)
 - 21:30 `last-page` [«المرور»: ضبط قائد مركبة للاستهتار والرعونة في إسطبلات الجهراء](https://www.alraimedia.com/article/1783413/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%B1-%D8%B6%D8%A8%D8%B7-%D9%82%D8%A7%D8%A6%D8%AF-%D9%85%D8%B1%D9%83%D8%A8%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D8%AA%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%B9%D9%88%D9%86%D8%A9-%D9%81%D9%8A-%D8%A5%D8%B3%D8%B7%D8%A8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%87%D8%B1%D8%A7%D8%A1)
 - 21:17 `last-page` [ضبط شبكة إجرامية لتصنيع وترويج الخمور المحلية داخل منزل بالرحاب](https://www.alraimedia.com/article/1783387/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B6%D8%A8%D8%B7-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A5%D8%AC%D8%B1%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D8%B9-%D9%88%D8%AA%D8%B1%D9%88%D9%8A%D8%AC-%D8%A7%D9%84%D8%AE%D9%85%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D9%85%D9%86%D8%B2%D9%84-%D8%A8%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8)
 - 18:00 `last-page` [«الجنايات»: حبس مواطن وهندي 7 سنوات بتهمة تهريب «الديزل المدعوم» خارج الكويت](https://www.alraimedia.com/article/1783330/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%AC%D8%B1%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D9%8A%D8%A7%D8%AA-%D8%AD%D8%A8%D8%B3-%D9%85%D9%88%D8%A7%D8%B7%D9%86-%D9%88%D9%87%D9%86%D8%AF%D9%8A-7-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D8%A8%D8%AA%D9%87%D9%85%D8%A9-%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D8%A7%D9%84%D9%85%D8%AF%D8%B9%D9%88%D9%85-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA)
+- 06:56 `world` [التحالف: اعتراض وتدمير 4 مسيّرات في منطقتي المدينة المنورة والشرقية](https://www.alraimedia.com/article/1783426/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-4-%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%AA%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9)
+- 18:06 `world` [«التحالف»: اعتراض وتدمير «مسيّرة» في منطقة الرياض](https://www.alraimedia.com/article/1783329/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6)
 - 00:45 `latest` [الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني](https://www.alraimedia.com/article/1783419/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A-%D9%84%D9%86%D8%AD%D9%88-750-%D8%A3%D9%84%D9%81-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D9%87%D8%AC%D9%88%D9%85-%D8%B3%D9%8A%D8%A8%D8%B1%D8%A7%D9%86%D9%8A)
 - 23:57 `latest` [«أبطال أوروبا».. خسارة برشلونة أمام باريس سان جرمان](https://www.alraimedia.com/article/1783416/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D8%B3%D8%A7%D9%86-%D8%AC%D8%B1%D9%85%D8%A7%D9%86)
 - 22:00 `latest` [«HONOR» و«ROX» تختبران تحمل «HONOR X9e Pro»... في فيلكا](https://www.alraimedia.com/article/1783379/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/honor-%D9%88rox-%D8%AA%D8%AE%D8%AA%D8%A8%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D9%85%D9%84-honor-x9e-pro-%D9%81%D9%8A-%D9%81%D9%8A%D9%84%D9%83%D8%A7)
 - 12:00 `world` [«التحالف»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه الرياض](https://www.alraimedia.com/article/1783308/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6)
-- 18:06 `world` [«التحالف»: اعتراض وتدمير «مسيّرة» في منطقة الرياض](https://www.alraimedia.com/article/1783329/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6)
 - 08:55 `world` [ناخبو مقاطعة ألبرتا يرفضون بأغلبية كبيرة خطة لإجراء استفتاء حول الانفصال عن كندا](https://www.alraimedia.com/article/1783299/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%86%D8%A7%D8%AE%D8%A8%D9%88-%D9%85%D9%82%D8%A7%D8%B7%D8%B9%D8%A9-%D8%A3%D9%84%D8%A8%D8%B1%D8%AA%D8%A7-%D9%8A%D8%B1%D9%81%D8%B6%D9%88%D9%86-%D8%A8%D8%A3%D8%BA%D9%84%D8%A8%D9%8A%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D8%AE%D8%B7%D8%A9-%D9%84%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D8%A7%D8%B3%D8%AA%D9%81%D8%AA%D8%A7%D8%A1-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D9%81%D8%B5%D8%A7%D9%84-%D8%B9%D9%86-%D9%83%D9%86%D8%AF%D8%A7)
 - 12:54 `world` [«الصحة» المصرية: وفاة 12 شخصا وإصابة 30 في حادث تصادم على طريق أسيوط الغربي](https://www.alraimedia.com/article/1783311/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%88%D9%81%D8%A7%D8%A9-12-%D8%B4%D8%AE%D8%B5%D8%A7-%D9%88%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-30-%D9%81%D9%8A-%D8%AD%D8%A7%D8%AF%D8%AB-%D8%AA%D8%B5%D8%A7%D8%AF%D9%85-%D8%B9%D9%84%D9%89-%D8%B7%D8%B1%D9%8A%D9%82-%D8%A3%D8%B3%D9%8A%D9%88%D8%B7-%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A)
 - 05:24 `latest` [نيجيريا تسجل أول إصابة بـ«إيبولا» مع استمرار تفشي المرض في أفريقيا](https://www.alraimedia.com/article/1783424/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%86%D9%8A%D8%AC%D9%8A%D8%B1%D9%8A%D8%A7-%D8%AA%D8%B3%D8%AC%D9%84-%D8%A3%D9%88%D9%84-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7-%D9%85%D8%B9-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D8%AA%D9%81%D8%B4%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%B6-%D9%81%D9%8A-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7)
 - 20:48 `world` [نيجيريا.. أول إصابة بـ «إيبولا»](https://www.alraimedia.com/article/1783341/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%86%D9%8A%D8%AC%D9%8A%D8%B1%D9%8A%D8%A7-%D8%A3%D9%88%D9%84-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8-%D8%A5%D9%8A%D8%A8%D9%88%D9%84%D8%A7)
-- 22:02 `local` [«التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام](https://www.alraimedia.com/article/1783405/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%83%D9%85%D9%84-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%81%D8%A7%D8%A6%D8%B6-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%887-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A2%D8%AE%D8%B1-%D9%8A%D9%88%D9%85-%D8%AF%D9%88%D8%A7%D9%85)
-- 22:02 `local` [نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت](https://www.alraimedia.com/article/1783406/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D9%84%D8%A7%D9%84%D8%B1%D8%A7%D9%8A-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A3%D9%88%D8%B3%D8%B9-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA)
-- 22:02 `local` [الأمير يشهد أداء قيادات القضاء اليمين](https://www.alraimedia.com/article/1783412/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D8%B4%D9%87%D8%AF-%D8%A3%D8%AF%D8%A7%D8%A1-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86)
-- 22:00 `local` [قلبي سليم... فلماذا لا تختفي النغزات؟](https://www.alraimedia.com/article/1783392/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D9%84%D8%A8%D9%8A-%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D8%A7-%D8%AA%D8%AE%D8%AA%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%BA%D8%B2%D8%A7%D8%AA)
-- 22:00 `local` [جامعة الكويت تستضيف وفداً دبلوماسياً من أفريقيا](https://www.alraimedia.com/article/1783395/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D9%88%D9%81%D8%AF%D8%A7-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A7-%D9%85%D9%86-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7)
-- 22:00 `local` [مبادرات كويتية لتطوير الوقف وتعزيز دوره في التنمية المجتمعية](https://www.alraimedia.com/article/1783396/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A%D8%A9)
-- 22:00 `local` [الكويت أمام الأمم المتحدة: احترام القانون الدولي الإنساني واجب](https://www.alraimedia.com/article/1783397/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D8%AC%D8%A8)
-- 22:00 `local` [المعهد الدبلوماسي يوسّع تعاونه مع المفوضية السامية لشؤون اللاجئين](https://www.alraimedia.com/article/1783398/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D9%8A%D9%88%D8%B3%D8%B9-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D9%84%D8%A7%D8%AC%D8%A6%D9%8A%D9%86)
-- 22:00 `local` [«سقيا الماء» تطلق «قطرة وطن»: توسيع نطاق التعاون وتعزيز ثقافة الترشيد](https://www.alraimedia.com/article/1783399/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D8%AA%D8%B7%D9%84%D9%82-%D9%82%D8%B7%D8%B1%D8%A9-%D9%88%D8%B7%D9%86-%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D9%86%D8%B7%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF)
-- 22:00 `local` [تعاون كويتي - جزائري لتبادل الخبرات في الشؤون الدينية](https://www.alraimedia.com/article/1783401/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A---%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9)
 - 19:39 `local` [سفير التشيك: «طيران الجزيرة» تفتح نافذة شتوية إلى براغ](https://www.alraimedia.com/article/1783342/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%81%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B4%D9%8A%D9%83-%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%B4%D8%AA%D9%88%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A8%D8%B1%D8%A7%D8%BA)
 - 18:39 `local` [محافظ الفروانية: دعم الإبداع الطلابي للإسهام في نهضة الوطن وتقدمه](https://www.alraimedia.com/article/1783336/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A5%D8%A8%D8%AF%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8%D9%8A-%D9%84%D9%84%D8%A5%D8%B3%D9%87%D8%A7%D9%85-%D9%81%D9%8A-%D9%86%D9%87%D8%B6%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86-%D9%88%D8%AA%D9%82%D8%AF%D9%85%D9%87)
 - 17:13 `local` [مجلس الوزراء: تكامل الجهود لتنفيذ الأولويات الوطنية ودعم جهود الدولة](https://www.alraimedia.com/article/1783327/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AA%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9%D9%88%D8%AF%D8%B9%D9%85-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9)
 - 15:56 `local` [اللواء الوهيب يشارك في افتتاح «ميليبول قطر 2026» ويؤكد تعزيز التعاون الأمني بين البلدين](https://www.alraimedia.com/article/1783324/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D9%88%D9%87%D9%8A%D8%A8-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%85%D9%8A%D9%84%D9%8A%D8%A8%D9%88%D9%84-%D9%82%D8%B7%D8%B1-2026-%D9%88%D9%8A%D8%A4%D9%83%D8%AF-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D9%86)
 - 18:40 `local` [الحبشي: دعم الأعلاف وتعزيز المخزون ركيزتان للأمن الغذائي وتنمية الثروة الحيوانية](https://www.alraimedia.com/article/1783333/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D8%A8%D8%B4%D9%8A-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D8%A7%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%88%D9%86-%D8%B1%D9%83%D9%8A%D8%B2%D8%AA%D8%A7%D9%86-%D9%84%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%88%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A%D8%A9)
-- 04:21 `latest` [لغز الولادة المبكرة.. اكتشاف علمي يكشف عاملا خفيا وراءها](https://www.alraimedia.com/article/1783422/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%84%D8%BA%D8%B2-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1%D8%A9-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%B9%D9%84%D9%85%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%B9%D8%A7%D9%85%D9%84%D8%A7-%D8%AE%D9%81%D9%8A%D8%A7-%D9%88%D8%B1%D8%A7%D8%A1%D9%87%D8%A7)
 - 17:35 `economy` [المرزوق: الكويت تركز على استقطاب الاستثمارات النوعية](https://www.alraimedia.com/article/1783328/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D9%85%D8%B1%D8%B2%D9%88%D9%82-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B1%D9%83%D8%B2-%D8%B9%D9%84%D9%89-%D8%A7%D8%B3%D8%AA%D9%82%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%88%D8%B9%D9%8A%D8%A9)
 - 10:29 `local` [المخيزيم: نجاح التحول في قطاع الطاقة يُقاس بقدرتنا على ترجمة الخطط إلى مشاريع على أرض الواقع](https://www.alraimedia.com/article/1783302/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%AE%D9%8A%D8%B2%D9%8A%D9%85-%D9%86%D8%AC%D8%A7%D8%AD-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D9%8A%D9%82%D8%A7%D8%B3-%D8%A8%D9%82%D8%AF%D8%B1%D8%AA%D9%86%D8%A7-%D8%B9%D9%84%D9%89-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D8%A7%D9%84%D8%AE%D8%B7%D8%B7-%D8%A5%D9%84%D9%89-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%B6-%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9)
+- 08:09 `world` [روبيو: محادثات أوسلو مع زيلينسكي «إيجابية»](https://www.alraimedia.com/article/1783428/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D8%A3%D9%88%D8%B3%D9%84%D9%88-%D9%85%D8%B9-%D8%B2%D9%8A%D9%84%D9%8A%D9%86%D8%B3%D9%83%D9%8A-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9)
+- 07:27 `last-page` [ماسك: اندماج «سبيس إكس» و«تسلا» فكرة جيدة](https://www.alraimedia.com/article/1783427/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%85%D8%A7%D8%B3%D9%83-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%B3%D8%A8%D9%8A%D8%B3-%D8%A5%D9%83%D8%B3-%D9%88%D8%AA%D8%B3%D9%84%D8%A7-%D9%81%D9%83%D8%B1%D8%A9-%D8%AC%D9%8A%D8%AF%D8%A9)
 - 06:20 `last-page` [4 وجبات خفيفة تدعم صحة القلب وتساعد على ضبط ضغط الدم](https://www.alraimedia.com/article/1783425/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/4-%D9%88%D8%AC%D8%A8%D8%A7%D8%AA-%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D8%AA%D8%AF%D8%B9%D9%85-%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D9%88%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B9%D9%84%D9%89-%D8%B6%D8%A8%D8%B7-%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D9%85)
 - 02:27 `latest` [واشنطن تلغي أكثر من 300 ألف تأشيرة خلال ولاية ترامب الثانية](https://www.alraimedia.com/article/1783420/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D9%84%D8%BA%D9%8A-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-300-%D8%A3%D9%84%D9%81-%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9)
 - 00:27 `latest` [سيتي يستعرض أمام أثينا.. و​ليفربول يجتاز فياريال](https://www.alraimedia.com/article/1783418/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%B3%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%A3%D9%85%D8%A7%D9%85-%D8%A3%D8%AB%D9%8A%D9%86%D8%A7-%D9%88%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%8A%D8%AC%D8%AA%D8%A7%D8%B2-%D9%81%D9%8A%D8%A7%D8%B1%D9%8A%D8%A7%D9%84)
-- 22:13 `latest` [«أبطال أوروبا».. غيراسي يعيد دوتموند إلى سكة الانتصارات](https://www.alraimedia.com/article/1783414/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%BA%D9%8A%D8%B1%D8%A7%D8%B3%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%AF%D9%88%D8%AA%D9%85%D9%88%D9%86%D8%AF-%D8%A5%D9%84%D9%89-%D8%B3%D9%83%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA)
+- 04:21 `latest` [لغز الولادة المبكرة.. اكتشاف علمي يكشف عاملا خفيا وراءها](https://www.alraimedia.com/article/1783422/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%84%D8%BA%D8%B2-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1%D8%A9-%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%B9%D9%84%D9%85%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%B9%D8%A7%D9%85%D9%84%D8%A7-%D8%AE%D9%81%D9%8A%D8%A7-%D9%88%D8%B1%D8%A7%D8%A1%D9%87%D8%A7)
 - 10:33 `economy` [سعر برميل النفط الكويتي يرتفع إلى 104.22 دولار](https://www.alraimedia.com/article/1783303/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-10422-%D8%AF%D9%88%D9%84%D8%A7%D8%B1)
 - 10:16 `economy` [برئاسة عبدالله الناصر.. بنك برقان يشارك في حفل استقبال اتحاد مصارف الكويت في بانكوك](https://www.alraimedia.com/article/1783301/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D8%A8%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1-%D8%A8%D9%86%D9%83-%D8%A8%D8%B1%D9%82%D8%A7%D9%86-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%AD%D9%81%D9%84-%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D9%85%D8%B5%D8%A7%D8%B1%D9%81-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%81%D9%8A-%D8%A8%D8%A7%D9%86%D9%83%D9%88%D9%83)
 - 13:03 `economy` [الرئيس التنفيذي لـ«إتش.إس.بي.سي»: الطرق البديلة ربما تجعل مضيق هرمز قابلا للاستغناء عنه خلال 5 سنوات](https://www.alraimedia.com/article/1783312/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%84%D8%A5%D8%AA%D8%B4%D8%A5%D8%B3%D8%A8%D9%8A%D8%B3%D9%8A-%D8%A7%D9%84%D8%B7%D8%B1%D9%82-%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%84%D8%A9-%D8%B1%D8%A8%D9%85%D8%A7-%D8%AA%D8%AC%D8%B9%D9%84-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%82%D8%A7%D8%A8%D9%84%D8%A7-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%BA%D9%86%D8%A7%D8%A1-%D8%B9%D9%86%D9%87-%D8%AE%D9%84%D8%A7%D9%84-5-%D8%B3%D9%86%D9%88%D8%A7%D8%AA)
+- 22:13 `latest` [«أبطال أوروبا».. غيراسي يعيد دوتموند إلى سكة الانتصارات](https://www.alraimedia.com/article/1783414/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%BA%D9%8A%D8%B1%D8%A7%D8%B3%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%AF%D9%88%D8%AA%D9%85%D9%88%D9%86%D8%AF-%D8%A5%D9%84%D9%89-%D8%B3%D9%83%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA)
+- 22:02 `latest` [الأمير يشهد أداء قيادات القضاء اليمين](https://www.alraimedia.com/article/1783412/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D8%B4%D9%87%D8%AF-%D8%A3%D8%AF%D8%A7%D8%A1-%D9%82%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86)
 - 22:02 `latest` [202 مليون دينار إيرادات 455 مشروعاً بدأ أصحابها بقرض «الصندوق»](https://www.alraimedia.com/article/1783411/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/202-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D8%AF%D8%A7%D8%AA-455-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7-%D8%A8%D8%AF%D8%A3-%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8%D9%87%D8%A7%D8%A8%D9%82%D8%B1%D8%B6-%D8%A7%D9%84%D8%B5%D9%86%D8%AF%D9%88%D9%82)
 - 22:02 `latest` [التقاعد في الكويت أفضل من فرنسا وألمانيا وبريطانيا](https://www.alraimedia.com/article/1783410/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B9%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A3%D9%81%D8%B6%D9%84-%D9%85%D9%86-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7)
 - 22:02 `latest` [«اتحاد النكهات الأوروبية»... وصفات تحكي ثقافات 27 دولة](https://www.alraimedia.com/article/1783407/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%86%D9%83%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9-%D9%88%D8%B5%D9%81%D8%A7%D8%AA-%D8%AA%D8%AD%D9%83%D9%8A-%D8%AB%D9%82%D8%A7%D9%81%D8%A7%D8%AA-27-%D8%AF%D9%88%D9%84%D8%A9)
+- 22:02 `latest` [نائبة وزير خارجية تايلند لـ«الراي»: نتطلع لشراكة إستراتيجية أوسع مع الكويت](https://www.alraimedia.com/article/1783406/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%AA%D8%A7%D9%8A%D9%84%D9%86%D8%AF-%D9%84%D8%A7%D9%84%D8%B1%D8%A7%D9%8A-%D9%86%D8%AA%D8%B7%D9%84%D8%B9-%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A3%D9%88%D8%B3%D8%B9-%D9%85%D8%B9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA)
+- 22:02 `latest` [«التربية» تستكمل إجراءات مُعالجة «فائض المُعلمين»... و7 ديسمبر آخر يوم دوام](https://www.alraimedia.com/article/1783405/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%83%D9%85%D9%84-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%81%D8%A7%D8%A6%D8%B6-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%85%D9%8A%D9%86-%D9%887-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A2%D8%AE%D8%B1-%D9%8A%D9%88%D9%85-%D8%AF%D9%88%D8%A7%D9%85)
 - 22:01 `latest` [فك وتركيب البرجوازية الكويتية](https://www.alraimedia.com/article/1783404/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%A8%D8%B1%D8%AC%D9%88%D8%A7%D8%B2%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9)
 - 22:00 `latest` [السعودية تدعو إلى تعاون دولي عملي لحرمان ميليشيا الحوثي من السلاح والدعم](https://www.alraimedia.com/article/1783403/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A5%D9%84%D9%89-%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%AF%D9%88%D9%84%D9%8A-%D8%B9%D9%85%D9%84%D9%8A-%D9%84%D8%AD%D8%B1%D9%85%D8%A7%D9%86-%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%AD-%D9%88%D8%A7%D9%84%D8%AF%D8%B9%D9%85)
 - 22:00 `latest` [إسرائيل تفخّخ المفاوضات العسكرية في فلوريدا بهجوم استباقي على الجيش اللبناني](https://www.alraimedia.com/article/1783402/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%81%D8%AE%D8%AE-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D9%81%D9%84%D9%88%D8%B1%D9%8A%D8%AF%D8%A7-%D8%A8%D9%87%D8%AC%D9%88%D9%85-%D8%A7%D8%B3%D8%AA%D8%A8%D8%A7%D9%82%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A)
+- 22:00 `latest` [تعاون كويتي - جزائري لتبادل الخبرات في الشؤون الدينية](https://www.alraimedia.com/article/1783401/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%83%D9%88%D9%8A%D8%AA%D9%8A---%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9)
+- 22:00 `latest` [«سقيا الماء» تطلق «قطرة وطن»: توسيع نطاق التعاون وتعزيز ثقافة الترشيد](https://www.alraimedia.com/article/1783399/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D8%AA%D8%B7%D9%84%D9%82-%D9%82%D8%B7%D8%B1%D8%A9-%D9%88%D8%B7%D9%86-%D8%AA%D9%88%D8%B3%D9%8A%D8%B9-%D9%86%D8%B7%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF)
+- 22:00 `latest` [المعهد الدبلوماسي يوسّع تعاونه مع المفوضية السامية لشؤون اللاجئين](https://www.alraimedia.com/article/1783398/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D9%8A%D9%88%D8%B3%D8%B9-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%87-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%81%D9%88%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%A7%D9%84%D9%84%D8%A7%D8%AC%D8%A6%D9%8A%D9%86)
+- 22:00 `latest` [الكويت أمام الأمم المتحدة: احترام القانون الدولي الإنساني واجب](https://www.alraimedia.com/article/1783397/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A-%D9%88%D8%A7%D8%AC%D8%A8)
+- 22:00 `latest` [مبادرات كويتية لتطوير الوقف وتعزيز دوره في التنمية المجتمعية](https://www.alraimedia.com/article/1783396/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D9%83%D9%88%D9%8A%D8%AA%D9%8A%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A%D8%A9)
+- 22:00 `latest` [جامعة الكويت تستضيف وفداً دبلوماسياً من أفريقيا](https://www.alraimedia.com/article/1783395/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D9%88%D9%81%D8%AF%D8%A7-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A7-%D9%85%D9%86-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7)
+- 22:00 `latest` [قلبي سليم... فلماذا لا تختفي النغزات؟](https://www.alraimedia.com/article/1783392/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D9%84%D8%A8%D9%8A-%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D8%A7-%D8%AA%D8%AE%D8%AA%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%BA%D8%B2%D8%A7%D8%AA)
 - 22:00 `latest` [بيسنت يشبّه إيران بـ«شركة تتجه نحو الإفلاس»... وترامب يؤكد قدرته على إنهاء الحرب الآن](https://www.alraimedia.com/article/1783391/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A8%D9%8A%D8%B3%D9%86%D8%AA-%D9%8A%D8%B4%D8%A8%D9%87-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A8%D8%B4%D8%B1%D9%83%D8%A9-%D8%AA%D8%AA%D8%AC%D9%87-%D9%86%D8%AD%D9%88-%D8%A7%D9%84%D8%A5%D9%81%D9%84%D8%A7%D8%B3-%D9%88%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%A4%D9%83%D8%AF-%D9%82%D8%AF%D8%B1%D8%AA%D9%87-%D8%B9%D9%84%D9%89-%D8%A5%D9%86%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A2%D9%86)
 - 22:00 `latest` [الإمارات وفرنسا... إطار جديد للشراكة الدفاعية الإستراتيجية](https://www.alraimedia.com/article/1783390/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9)
 - 22:00 `latest` [محادثات قطرية - فرنسية محورها تعزيز العلاقات وأمن المنطقة](https://www.alraimedia.com/article/1783389/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%82%D8%B7%D8%B1%D9%8A%D8%A9---%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9-%D9%85%D8%AD%D9%88%D8%B1%D9%87%D8%A7-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A7%D8%AA-%D9%88%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9)
@@ -1248,10 +1247,10 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 18:52 `world` [السفير السعودي: الحوثي يوظّف معاناة اليمنيين للضغط السياسي ويعرقل جهود السلام](https://www.alraimedia.com/article/1783334/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%B3%D9%81%D9%8A%D8%B1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D9%8A%D9%88%D8%B8%D9%81-%D9%85%D8%B9%D8%A7%D9%86%D8%A7%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D9%8A%D9%86-%D9%84%D9%84%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D9%88%D9%8A%D8%B9%D8%B1%D9%82%D9%84-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85)
 - 15:10 `world` [السعودية: أمن الطاقة وحركة الملاحة مسؤولية مشتركة تتطلب تعاوناً دولياً](https://www.alraimedia.com/article/1783322/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D9%88%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%AD%D8%A9-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D8%AA%D8%AA%D8%B7%D9%84%D8%A8-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D8%A7-%D8%AF%D9%88%D9%84%D9%8A%D8%A7)
 - 15:02 `world` [«الخارجية» القطرية: أمن «هرمز» لا يتجزأ.. والكل سيتضرر من قطع الإنترنت](https://www.alraimedia.com/article/1783320/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9-%D8%A3%D9%85%D9%86-%D9%87%D8%B1%D9%85%D8%B2-%D9%84%D8%A7-%D9%8A%D8%AA%D8%AC%D8%B2%D8%A3-%D9%88%D8%A7%D9%84%D9%83%D9%84-%D8%B3%D9%8A%D8%AA%D8%B6%D8%B1%D8%B1-%D9%85%D9%86-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA)
-- 14:19 `last-page` [«االمكافحة» تضبط سائق شاحنة نقل بحوزته 300 ألف قرص «كبتاغون».. قيمتها السوقية أكثر من نصف مليون دينار](https://www.alraimedia.com/article/1783317/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AA%D8%B6%D8%A8%D8%B7-%D8%B3%D8%A7%D8%A6%D9%82-%D8%B4%D8%A7%D8%AD%D9%86%D8%A9-%D9%86%D9%82%D9%84-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-300-%D8%A3%D9%84%D9%81-%D9%82%D8%B1%D8%B5-%D9%83%D8%A8%D8%AA%D8%A7%D8%BA%D9%88%D9%86-%D9%82%D9%8A%D9%85%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D9%82%D9%8A%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-%D9%86%D8%B5%D9%81-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1)
 - 19:41 `last-page` [الأمير هاري: أرغب في التصالح مع عائلتي.. هناك ما يكفي من المآسي في العالم](https://www.alraimedia.com/article/1783337/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%87%D8%A7%D8%B1%D9%8A-%D8%A3%D8%B1%D8%BA%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B5%D8%A7%D9%84%D8%AD-%D9%85%D8%B9-%D8%B9%D8%A7%D8%A6%D9%84%D8%AA%D9%8A-%D9%87%D9%86%D8%A7%D9%83-%D9%85%D8%A7-%D9%8A%D9%83%D9%81%D9%8A-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%A2%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85)
 - 12:42 `world` [بكين تندد بقرار واشنطن منع الوكالات الحكومية من استخدام «ديب سيك»](https://www.alraimedia.com/article/1783309/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A8%D9%83%D9%8A%D9%86-%D8%AA%D9%86%D8%AF%D8%AF-%D8%A8%D9%82%D8%B1%D8%A7%D8%B1-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%85%D9%86%D8%B9-%D8%A7%D9%84%D9%88%D9%83%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%AF%D9%8A%D8%A8-%D8%B3%D9%8A%D9%83)
 - 08:15 `world` [واشنطن تحظر على الوكالات الحكومية استخدام «ديب سيك» الصيني](https://www.alraimedia.com/article/1783298/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D8%AD%D8%B8%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%88%D9%83%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%AF%D9%8A%D8%A8-%D8%B3%D9%8A%D9%83-%D8%A7%D9%84%D8%B5%D9%8A%D9%86%D9%8A)
+- 14:19 `last-page` [«االمكافحة» تضبط سائق شاحنة نقل بحوزته 300 ألف قرص «كبتاغون».. قيمتها السوقية أكثر من نصف مليون دينار](https://www.alraimedia.com/article/1783317/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%A7%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AA%D8%B6%D8%A8%D8%B7-%D8%B3%D8%A7%D8%A6%D9%82-%D8%B4%D8%A7%D8%AD%D9%86%D8%A9-%D9%86%D9%82%D9%84-%D8%A8%D8%AD%D9%88%D8%B2%D8%AA%D9%87-300-%D8%A3%D9%84%D9%81-%D9%82%D8%B1%D8%B5-%D9%83%D8%A8%D8%AA%D8%A7%D8%BA%D9%88%D9%86-%D9%82%D9%8A%D9%85%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D9%82%D9%8A%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-%D9%86%D8%B5%D9%81-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%8A%D9%86%D8%A7%D8%B1)
 - 11:09 `world` [مجلس الأمن يصدر قرارا لمواجهة العنف الرقمي ضد الأطفال في النزاعات المسلحة](https://www.alraimedia.com/article/1783304/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D9%8A%D8%B5%D8%AF%D8%B1-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%B9%D9%86%D9%81-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D8%B6%D8%AF-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%B2%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9)
 - 07:26 `last-page` [الملح لا يرفع ضغط الدم فقط.. دراسة تكشف تأثيره في الذاكرة](https://www.alraimedia.com/article/1783297/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%AD-%D9%84%D8%A7-%D9%8A%D8%B1%D9%81%D8%B9-%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D9%85-%D9%81%D9%82%D8%B7-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B0%D8%A7%D9%83%D8%B1%D8%A9)
 - 22:00 `opinion` [نكتة الموسم... وساطة إيرانية في اليمن](https://www.alraimedia.com/article/1783344/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D9%86%D9%83%D8%AA%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D9%88%D8%B3%D8%A7%D8%B7%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%85%D9%86)
@@ -1259,7 +1258,6 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 22:00 `opinion` [التيارات الدينية وحروب المنطقة](https://www.alraimedia.com/article/1783345/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D8%A9-%D9%88%D8%AD%D8%B1%D9%88%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9)
 - 22:00 `opinion` [عقول متفتحة... وأخرى مغلقة](https://www.alraimedia.com/article/1783347/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B9%D9%82%D9%88%D9%84-%D9%85%D8%AA%D9%81%D8%AA%D8%AD%D8%A9-%D9%88%D8%A3%D8%AE%D8%B1%D9%89-%D9%85%D8%BA%D9%84%D9%82%D8%A9)
 - 22:00 `opinion` [احتجاجات طلبة الثانوية تعصف بفرنسا](https://www.alraimedia.com/article/1783348/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%B7%D9%84%D8%A8%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9-%D8%AA%D8%B9%D8%B5%D9%81-%D8%A8%D9%81%D8%B1%D9%86%D8%B3%D8%A7)
-- 06:29 `last-page` [اليابان تطلق مهمة لجلب عينات من أحد قمري المريخ](https://www.alraimedia.com/article/1783296/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86-%D8%AA%D8%B7%D9%84%D9%82-%D9%85%D9%87%D9%85%D8%A9-%D9%84%D8%AC%D9%84%D8%A8-%D8%B9%D9%8A%D9%86%D8%A7%D8%AA-%D9%85%D9%86-%D8%A3%D8%AD%D8%AF-%D9%82%D9%85%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%AE)
 - 09:08 `world` [كوريا الجنوبية تسحب مزيدا من دبلوماسييها من أوكرانيا جراء خلاف حول أسيرين](https://www.alraimedia.com/article/1783300/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AD%D8%A8-%D9%85%D8%B2%D9%8A%D8%AF%D8%A7-%D9%85%D9%86-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D9%8A%D9%87%D8%A7-%D9%85%D9%86-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%AC%D8%B1%D8%A7%D8%A1-%D8%AE%D9%84%D8%A7%D9%81-%D8%AD%D9%88%D9%84-%D8%A3%D8%B3%D9%8A%D8%B1%D9%8A%D9%86)
 - 11:17 `world` [السعودية: زوال الخطر عن مدينة الرياض بعد تفعيل الإنذار المبكر](https://www.alraimedia.com/article/1783305/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%B2%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D8%AE%D8%B7%D8%B1-%D8%B9%D9%86-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A8%D8%B9%D8%AF-%D8%AA%D9%81%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1)
 - 13:09 `world` [«غوغل»: أعطال في عدد من خدمات الحوسبة السحابية في أوروبا](https://www.alraimedia.com/article/1783313/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%BA%D9%88%D8%BA%D9%84-%D8%A3%D8%B9%D8%B7%D8%A7%D9%84-%D9%81%D9%8A-%D8%B9%D8%AF%D8%AF-%D9%85%D9%86-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D8%AD%D8%A7%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7)
@@ -1292,8 +1290,8 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 21:33 `local` [ضبط مستهتر أخفى مركبته في إسطبلات الجهراء](https://www.aljarida.com/article/148149)
 - 21:20 `local` [ضبط شبكة لتصنيع الخمور المحلية داخل منزل في الرحاب](https://www.aljarida.com/article/148147)
 - 18:44 `local` [7 سنوات حبساً لمواطن وهندي في قضية «الديزل المدعوم»](https://www.aljarida.com/article/148101)
-- 18:43 `economy` [«المطوع التجارية» تفتتح INTERSPORT RUN في حديقة الشهيد](https://www.aljarida.com/article/148099)
 - 17:29 `world` [التحالف بقيادة السعودية: اعتراض وتدمير طائرة مسيرة فوق الرياض](https://www.aljarida.com/article/148066)
+- 18:43 `economy` [«المطوع التجارية» تفتتح INTERSPORT RUN في حديقة الشهيد](https://www.aljarida.com/article/148099)
 - 09:26 `world` [ناخبو مقاطعة ألبرتا يرفضون الانفصال عن كندا](https://www.aljarida.com/article/148038)
 - 12:48 `world` [مصر.. وفاة 12 شخصاً وإصابة 30 إثر حادث تصادم على طريق أسيوط الغربي](https://www.aljarida.com/article/148046)
 - 20:28 `sport` [5 ميداليات لـ «القوس والسهم» في انطلاق «غرب آسيا»](https://www.aljarida.com/article/148138)
@@ -1323,7 +1321,6 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 13:35 `economy` [«غوغل»: أعطال خطرة في خدمات «غوغل كلاود» بمركز بياناتنا الأوروبي](https://www.aljarida.com/article/148052)
 - 21:45 `latest` [الأمير يستقبل القيادات الجديدة للسلطة القضائية](https://www.aljarida.com/article/148054)
 - 16:12 `latest` [بريطانيا: نعتزم تنفيذ مهام دفاعية في أجواء السعودية](https://www.aljarida.com/article/148062)
-- 22:10 `world` [روبيو: إيران تعلن صراحة استهداف السفن التجارية وعلى العالم إدانتها](https://www.aljarida.com/article/148150)
 - 20:59 `world` [«فجر اليمن»: تحييد 200 حوثي وإعطاب 90 آلية عسكرية في 744 عملية](https://www.aljarida.com/article/148145)
 - 20:01 `world` [إيران لـ قائد الجيش الباكستاني: لا مفاوضات مع واشنطن واليورانيوم سيبقى داخل طهران](https://www.aljarida.com/article/148134)
 - 19:20 `world` [بريطانيا تنشر مقاتلات ومستشارين في السعودية](https://www.aljarida.com/article/148116)
@@ -1332,6 +1329,7 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 18:57 `world` [بزشكيان يبحث مع قائد الجيش الباكستاني مستجدات الأوضاع الإقليمية](https://www.aljarida.com/دوليات/2026/10/20/--------)
 - 18:12 `world` [انقطاع خدمة حوسبة غوغل السحابية تؤثر على البنوك في بريطانيا](https://www.aljarida.com/article/148082)
 - 18:02 `world` [نائب رئيس الوزراء البحريني يستقبل وزراء الشؤون الإسلامية والأوقاف الخليجيين](https://www.aljarida.com/article/148087)
+- 22:10 `world` [روبيو: إيران تعلن صراحة استهداف السفن التجارية وعلى العالم إدانتها](https://www.aljarida.com/article/148150)
 - 20:24 `world` [قاليباف: واشنطن لن تكسب ثقة إيران إلا بتنفيذ 7 شروط](https://www.aljarida.com/article/148136)
 - 19:19 `world` [لبنان: «حزب الله» يلوّح بتصعيد داخلي](https://www.aljarida.com/article/148114)
 - 18:53 `world` [«سنتكوم»: إيران تستهدف السفن بمضيق هرمز لأنها يائسة](https://www.aljarida.com/article/148106)
@@ -1378,21 +1376,21 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 18:45 `kuwait` [«التربية» تُفعِّل «تيمز».. والسبت حصة إلكترونية لمدة ساعة لجميع المراحل](https://www.alanba.com.kw/1381505)
 - 13:24 `kuwait` [«التربية» تفعّل «تيمز».. والسبت حصة إلكترونية لمدة ساعة لجميع المراحل](https://www.alanba.com.kw/1381472)
 - 11:55 `kuwait` [الكويت تصدر بنجاح سندات دولية بقيمة 3.25 مليارات دولار على شريحتين](https://www.alanba.com.kw/1381453)
-- 03:01 `kuwait` [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها](https://www.alanba.com.kw/1381593)
 - 18:45 `sport` [العربي يودع دوري التحدي الآسيوي](https://www.alanba.com.kw/1381565)
 - 18:45 `kuwait` [وزير الكهرباء: تطوير قطاع الطاقة مسؤولية وطنية تتطلب رؤية واضحة وعملاً مؤسسياً متكاملاً](https://www.alanba.com.kw/1381504)
 - 11:55 `kuwait` [وزير الكهرباء: تطوير قطاع الطاقة مسؤولية وطنية تتطلب رؤية واضحة وعملاً مؤسسياً متكاملاً](https://www.alanba.com.kw/1381446)
-- 21:26 `kuwait` [رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alanba.com.kw/1381590)
 - 18:45 `kuwait` [عبدالعزيز المرزوق: ضرورة انتقال التجارة الحرة الخليجية مع المملكة المتحدة إلى مرحلة التنفيذ](https://www.alanba.com.kw/1381508)
 - 16:03 `kuwait` [عبدالعزيز المرزوق: ضرورة انتقال التجارة الحرة الخليجية مع المملكة المتحدة إلى مرحلة التنفيذ](https://www.alanba.com.kw/1381481)
 - 12:50 `kuwait` [رئيس «الجهاز المركزي» يبحث مع وفد من جامعة الكويت موضوعات ذات صلة بالمقيمين بصورة غير قانونية](https://www.alanba.com.kw/1381470)
 - 11:59 `kuwait` [«الأرصاد»: طقس حار ورطب..و«العظمى»: 39](https://www.alanba.com.kw/1381444)
-- 18:45 `kuwait` [فريق «أمان» يطلع على التجربة العُمانية في إدارة الحالات الطارئة والأزمات والكوارث](https://www.alanba.com.kw/1381502)
-- 18:45 `kuwait` [«الهلال الأحمر»: تعزيز الشراكات الوطنية ركيزة أساسية لتطوير العمل الإنساني وتوسيع أثره المجتمعي](https://www.alanba.com.kw/1381552)
-- 18:45 `kuwait` [«العدل» تشارك في مؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة](https://www.alanba.com.kw/1381485)
 - 18:45 `kuwait` [محافظة الفراونية يتفقد مدرسة الموهوبين للبنات ويؤكد الاهتمام برعاية الإبداع والتميز الطلابي](https://www.alanba.com.kw/1381490)
 - 18:45 `kuwait` [«الجهاز المركزي» و«الجامعة» يبحثان التعاون في الجوانب الأكاديمية والتنظيمية لـ «المقيمين بصورة غير قانونية»](https://www.alanba.com.kw/1381506)
+- 03:01 `kuwait` [الكويت تؤكد التزامها الراسخ بحماية البعثات الدبلوماسية والقنصلية وصون أمنها](https://www.alanba.com.kw/1381593)
 - 18:45 `kuwait` [stc الراعي البلاتيني لمعرض «وظيفتي» و«هاكاثون دوري الكويت للأمن السيبراني»](https://www.alanba.com.kw/1381510)
+- 21:26 `kuwait` [رئيس مجلس الشورى اليمني: الكويت ظلت حاضرة إلى جانب اليمن في مختلف المراحل والظروف](https://www.alanba.com.kw/1381590)
+- 18:45 `kuwait` [«العدل» تشارك في مؤتمر الدول الأطراف باتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة](https://www.alanba.com.kw/1381485)
+- 18:45 `kuwait` [«الهلال الأحمر»: تعزيز الشراكات الوطنية ركيزة أساسية لتطوير العمل الإنساني وتوسيع أثره المجتمعي](https://www.alanba.com.kw/1381552)
+- 18:45 `kuwait` [فريق «أمان» يطلع على التجربة العُمانية في إدارة الحالات الطارئة والأزمات والكوارث](https://www.alanba.com.kw/1381502)
 - 13:23 `kuwait` [وزير العدل: تولّي المناصب القضائية الرفيعة «أمانة وطنية» تتصل بمكانة السلطة القضائية ورسالتها السامية](https://www.alanba.com.kw/1381473)
 - 21:54 `gulf` [الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني](https://www.alanba.com.kw/1381591)
 - 11:45 `world` [من الطريق للبحر ولين جزيرة فيلكا.. رحلة HONOR كانت تجربة مختلفة لاختبار HONOR X9e Pro في أجواء خارجية حقيقية بتجربة تجمع التكنولوجيا والتنقل والاستكشاف](https://www.alanba.com.kw/1381463)
@@ -1404,6 +1402,9 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 18:45 `official` [تعزيز التنافسية في المؤشرات الدولية](https://www.alanba.com.kw/1381495)
 - 14:41 `gulf` [مجلس الوزراء: تعزيز تنافسية الكويت في المؤشرات والتقارير الدولية](https://www.alanba.com.kw/1381478)
 - 12:02 `kuwait` [أمين مجلس التعاون: اتفاقية التجارة الحرة مع بريطانيا تمثل إنجازاً مهماً في تاريخ ومستقبل العلاقات المشتركة](https://www.alanba.com.kw/1381462)
+- 18:45 `official` [صدور مرسوم بقانون لتعديل بعض أحكام قانون التوثيق](https://www.alanba.com.kw/1381499)
+- 18:45 `official` [الكويت: الإزالة الكاملة للأسلحة النووية ضمانة لمنع استخدامها](https://www.alanba.com.kw/1381497)
+- 18:45 `official` [رسمياً.. تعديل نص المادة 830 من القانون المدني](https://www.alanba.com.kw/1381498)
 - 18:45 `kuwait` [نجيب البدر: الحوار والديبلوماسية الركيزة الأساسية لترسيخ الأمن والاستقرار في المنطقة](https://www.alanba.com.kw/1381557)
 - 18:45 `kuwait` [«البيئة» تعلن انتهاء «الخطة الوطنية للطوارئ والاستجابة لحالات التلوث البحري» اليوم](https://www.alanba.com.kw/1381500)
 - 18:45 `kuwait` [سفيرنا بالجزائر بحث مع وزير الدولة عميد جامع الجزائر تعزيز التعاون الثنائي بالمجال الديني](https://www.alanba.com.kw/1381489)
@@ -1415,9 +1416,6 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 18:45 `kuwait` [لمحة سريعة حول تطبيق القانون من حيث الزمان والمكان](https://www.alanba.com.kw/1381513)
 - 18:45 `kuwait` [آن كويستينن: الشراكة بين الكويت والاتحاد الأوروبي أساسها القيم المشتركة والحوار والتعاون](https://www.alanba.com.kw/1381507)
 - 18:45 `kuwait` [الذكاء الاصطناعي واختبار القواعد القانونية](https://www.alanba.com.kw/1381512)
-- 18:45 `official` [صدور مرسوم بقانون لتعديل بعض أحكام قانون التوثيق](https://www.alanba.com.kw/1381499)
-- 18:45 `official` [الكويت: الإزالة الكاملة للأسلحة النووية ضمانة لمنع استخدامها](https://www.alanba.com.kw/1381497)
-- 18:45 `official` [رسمياً.. تعديل نص المادة 830 من القانون المدني](https://www.alanba.com.kw/1381498)
 - 18:30 `kuwait` [وزير الخارجية يجدد لنظيره السعودي دعم الكويت ووقوفها إلى جانب المملكة بكل إجراءاتها لصون سيادتها وأمنها واستقرارها](https://www.alanba.com.kw/1381575)
 - 13:47 `kuwait` [«قوزينا» الأولى بين مطاعم المأكولات الكويتية والرابعة بين مطاعم الكويت عامة](https://www.alanba.com.kw/1381475)
 - 18:45 `municipal` [تحرير 3 مخالفات وتوجيه 7 إنذارات في محافظة حولي](https://www.alanba.com.kw/1381501)
@@ -1442,56 +1440,57 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 18:45 `sport` [الجولة الخامسة: الكويت يحافظ على الصدارة.. وكاظمة يعود](https://www.alanba.com.kw/1381564)
 - 18:45 `sport` [اتحاد الشرطة يعبر سبورتي في «ملحق» كأس سمو ولي العهد](https://www.alanba.com.kw/1381562)
 
-### Arab Times — 46 articles
+### Arab Times — 47 articles
 
 - 13:44 `latest` [Google Cloud Outage Disrupts UK Banks, Retailers and Delivery Services](https://www.arabtimesonline.com/news/google-cloud-outage-disrupts-uk-banks-retailers-and-delivery-services/)
 - 19:30 `latest` [AAW opens Kuwait’s first INTERSPORT RUN store at Al Shaheed Park – Phase 3](https://www.arabtimesonline.com/news/aaw-opens-kuwaits-first-intersport-run-store-at-al-shaheed-park-phase-3/)
-- 07:16 `general` [Saudi-led Coalition Intercepts Four Drones Targeting Kingdom](https://www.arabtimesonline.com/news/saudi-led-coalition-intercepts-four-drones-targeting-kingdom/)
-- 11:53 `general` [Saudi-Led Coalition Says It Intercepts Iran-Backed Houthi Ballistic Missile Targeting Riyadh](https://www.arabtimesonline.com/news/saudi-led-coalition-says-it-intercepts-iran-backed-houthi-ballistic-missile-targeting-riyadh/)
-- 23:03 `kuwait` [Illegal clothes collection boxes lifted in Ahmadi](https://www.arabtimesonline.com/news/illegal-clothes-collection-boxes-lifted-in-ahmadi/)
-- 22:53 `kuwait` [Deals bind Kuwait, France](https://www.arabtimesonline.com/news/deals-bind-kuwait-france-cabinet-endorses-gulf-russia-ties-expansion/)
-- 22:52 `kuwait` [‘US committed to Kuwait’s security, stability’](https://www.arabtimesonline.com/news/us-committed-to-kuwaits-security-stability/)
-- 22:32 `kuwait` [Blocking ‘cash-out’ schemes crucial to curb money-laundering](https://www.arabtimesonline.com/news/blocking-cash-out-schemes-crucial-to-curb-money-laundering/)
-- 07:22 `general` [US Revokes More Than 300,000 Visas Under Trump Administration](https://www.arabtimesonline.com/news/us-revokes-more-than-300000-visas-under-trump-administration/)
-- 23:40 `crime` [Heavy Concrete Mass Falls on Two Egyptian Workers; One Killed in Jahra](https://www.arabtimesonline.com/news/heavy-concrete-mass-falls-on-two-egyptian-workers-one-killed-in-jahra/)
-- 23:36 `crime` [Egyptian Expat Killed in Three-Vehicle Collision on Al-Ghazali Road](https://www.arabtimesonline.com/news/egyptian-expat-killed-in-three-vehicle-collision-on-al-ghazali-road/)
-- 23:25 `crime` [Body Recovered After Suspected Suicide Attempt at Sheikh Jaber Bridge](https://www.arabtimesonline.com/news/body-recovered-after-suspected-suicide-attempt-at-sheikh-jaber-bridge/)
-- 23:21 `crime` [8-Year-Old Kuwaiti Child Killed in Salwa Hit-and-Run; Young Man Dies in Mutlaa Motorcycle Crash](https://www.arabtimesonline.com/news/8-year-old-kuwaiti-child-killed-in-salwa-hit-and-run-young-man-dies-in-mutlaa-motorcycle-crash/)
-- 23:14 `crime` [Pistol, 5 Live Bullets Found in Suitcase at Kuwait Airport; Court Acquits Officer](https://www.arabtimesonline.com/news/pistol-5-live-bullets-found-in-suitcase-at-kuwait-airport-court-acquits-officer/)
-- 23:08 `crime` [Fake Commerce Official Scam Costs Kuwaiti Woman KD 13,500; Expat Jailed](https://www.arabtimesonline.com/news/fake-commerce-official-scam-costs-kuwaiti-woman-kd-13500-expat-jailed/)
-- 22:17 `crime` [Three-Storey House Turned Into Liquor Factory in Rehab; 7,500 Liters Seized](https://www.arabtimesonline.com/news/three-storey-house-turned-into-liquor-factory-in-rehab-7500-liters-seized/)
+- 07:16 `latest` [Saudi-led Coalition Intercepts Four Drones Targeting Kingdom](https://www.arabtimesonline.com/news/saudi-led-coalition-intercepts-four-drones-targeting-kingdom/)
+- 11:53 `latest` [Saudi-Led Coalition Says It Intercepts Iran-Backed Houthi Ballistic Missile Targeting Riyadh](https://www.arabtimesonline.com/news/saudi-led-coalition-says-it-intercepts-iran-backed-houthi-ballistic-missile-targeting-riyadh/)
+- 07:22 `latest` [US Revokes More Than 300,000 Visas Under Trump Administration](https://www.arabtimesonline.com/news/us-revokes-more-than-300000-visas-under-trump-administration/)
+- 08:09 `latest` [Global summit on children's well-being opens in Samarkand](https://www.arabtimesonline.com/news/global-summit-on-childrens-well-being-opens-in-samarkand/)
+- 23:40 `latest` [Heavy Concrete Mass Falls on Two Egyptian Workers; One Killed in Jahra](https://www.arabtimesonline.com/news/heavy-concrete-mass-falls-on-two-egyptian-workers-one-killed-in-jahra/)
+- 23:36 `latest` [Egyptian Expat Killed in Three-Vehicle Collision on Al-Ghazali Road](https://www.arabtimesonline.com/news/egyptian-expat-killed-in-three-vehicle-collision-on-al-ghazali-road/)
+- 23:25 `latest` [Body Recovered After Suspected Suicide Attempt at Sheikh Jaber Bridge](https://www.arabtimesonline.com/news/body-recovered-after-suspected-suicide-attempt-at-sheikh-jaber-bridge/)
+- 23:21 `latest` [8-Year-Old Kuwaiti Child Killed in Salwa Hit-and-Run; Young Man Dies in Mutlaa Motorcycle Crash](https://www.arabtimesonline.com/news/8-year-old-kuwaiti-child-killed-in-salwa-hit-and-run-young-man-dies-in-mutlaa-motorcycle-crash/)
+- 23:14 `latest` [Pistol, 5 Live Bullets Found in Suitcase at Kuwait Airport; Court Acquits Officer](https://www.arabtimesonline.com/news/pistol-5-live-bullets-found-in-suitcase-at-kuwait-airport-court-acquits-officer/)
+- 23:03 `latest` [Illegal clothes collection boxes lifted in Ahmadi](https://www.arabtimesonline.com/news/illegal-clothes-collection-boxes-lifted-in-ahmadi/)
+- 22:53 `latest` [Deals bind Kuwait, France](https://www.arabtimesonline.com/news/deals-bind-kuwait-france-cabinet-endorses-gulf-russia-ties-expansion/)
+- 22:52 `latest` [‘US committed to Kuwait’s security, stability’](https://www.arabtimesonline.com/news/us-committed-to-kuwaits-security-stability/)
 - 22:46 `latest` [Dubai, a star created by Mohammed bin Rashid](https://www.arabtimesonline.com/news/dubai-a-star-created-by-mohammed-bin-rashid/)
-- 21:51 `crime` [Hid Car in Stable to Evade Police — Reckless Driver Caught, Vehicle Sent for Crushing](https://www.arabtimesonline.com/news/hid-car-in-stable-to-evade-police-reckless-driver-caught-vehicle-sent-for-crushing/)
-- 21:31 `crime` [Kuwait Security Campaign in Sabah Al-Ahmad City Nets 40 Wanted Persons and Violators](https://www.arabtimesonline.com/news/kuwait-security-campaign-in-sabah-al-ahmad-city-nets-40-wanted-persons-and-violators/)
-- 16:43 `crime` [Kuwaiti Municipal Employee, Indian Get 7 Years in Diesel Smuggling Case; 4 Indians Jailed for a Month](https://www.arabtimesonline.com/news/kuwaiti-municipal-employee-indian-get-7-years-in-diesel-smuggling-case-4-indians-jailed-for-a-month/)
-- 16:29 `crime` [KD 20,000 Blood Money Awarded to Expat’s Family After Perpetrator Remains Unknown](https://www.arabtimesonline.com/news/kd-20000-blood-money-awarded-to-expats-family-after-perpetrator-remains-unknown/)
-- 16:04 `crime` [Kuwait Appeals Court Upholds Ruling to Promote Student Who Missed Online Classes Due to Technical Issues](https://www.arabtimesonline.com/news/kuwait-appeals-court-upholds-ruling-to-promote-student-who-missed-online-classes-due-to-technical-issues/)
-- 15:48 `crime` [Kuwait Arrests Turkish Truck Driver With 300,000 Captagon Pills Worth Over KD 500,000](https://www.arabtimesonline.com/news/kuwait-arrests-turkish-truck-driver-with-300000-captagon-pills-worth-over-kd-500000/)
+- 23:08 `latest` [Fake Commerce Official Scam Costs Kuwaiti Woman KD 13,500; Expat Jailed](https://www.arabtimesonline.com/news/fake-commerce-official-scam-costs-kuwaiti-woman-kd-13500-expat-jailed/)
 - 19:25 `latest` [Abdulrahman Al-Houti Wins Law Firm Leader of the Year at the Middle East Legal Awards 2026](https://www.arabtimesonline.com/news/abdulrahman-al-houti-wins-law-firm-leader-of-the-year-at-the-middle-east-legal-awards-2026/)
 - 11:21 `latest` [Taher Group Named Kuwait Law Firm of the Year 2026 at Law.com Middle East Legal Awards](https://www.arabtimesonline.com/news/taher-group-named-kuwait-law-firm-of-the-year-2026-at-lawcom-middle-east-legal-awards/)
-- 21:20 `general` [Something Is Brewing: US Sends Third Aircraft Carrier, 10,000 Troops to Middle East as Iran’s Threats Continue](https://www.arabtimesonline.com/news/something-is-brewing-us-sends-third-aircraft-carrier-10000-troops-to-middle-east-as-irans-threats-continue/)
+- 21:51 `latest` [Hid Car in Stable to Evade Police — Reckless Driver Caught, Vehicle Sent for Crushing](https://www.arabtimesonline.com/news/hid-car-in-stable-to-evade-police-reckless-driver-caught-vehicle-sent-for-crushing/)
+- 21:31 `latest` [Kuwait Security Campaign in Sabah Al-Ahmad City Nets 40 Wanted Persons and Violators](https://www.arabtimesonline.com/news/kuwait-security-campaign-in-sabah-al-ahmad-city-nets-40-wanted-persons-and-violators/)
+- 21:20 `latest` [Something Is Brewing: US Sends Third Aircraft Carrier, 10,000 Troops to Middle East as Iran’s Threats Continue](https://www.arabtimesonline.com/news/something-is-brewing-us-sends-third-aircraft-carrier-10000-troops-to-middle-east-as-irans-threats-continue/)
 - 20:57 `latest` [Impurity of Persian language](https://www.arabtimesonline.com/news/impurity-of-persian-language/)
 - 20:21 `latest` [Kuwait archers deliver a golden show in Fujairah](https://www.arabtimesonline.com/news/kuwait-archers-deliver-a-golden-show-in-fujairah/)
 - 20:02 `latest` [Water Tank Collapses in Jeddah, Sending Water Gushing Out](https://www.arabtimesonline.com/news/water-tank-collapses-in-jeddah-sending-water-gushing-out/)
 - 19:47 `latest` [Kazma makes a winning return as the volleyball league resumes](https://www.arabtimesonline.com/news/kazma-makes-a-winning-return-as-the-volleyball-league-resumes/)
 - 19:44 `latest` [Murad says the Kuwait handball team faces a crucial period](https://www.arabtimesonline.com/news/murad-says-the-kuwait-handball-team-faces-a-crucial-period/)
 - 19:36 `latest` [Gulf Bank announces 10 Challenge winners ahead of Kuwait’s only internationally accredited marathon](https://www.arabtimesonline.com/news/gulf-bank-announces-10-challenge-winners-ahead-of-kuwaits-only-internationally-accredited-marathon/)
-- 19:35 `general` [Iranian Regime Ready to Impose Hardship on its People Rather Than Surrender](https://www.arabtimesonline.com/news/iranian-regime-ready-to-impose-hardship-on-its-people-rather-than-surrender/)
+- 19:35 `latest` [Iranian Regime Ready to Impose Hardship on its People Rather Than Surrender](https://www.arabtimesonline.com/news/iranian-regime-ready-to-impose-hardship-on-its-people-rather-than-surrender/)
 - 19:11 `latest` [BBC to Close TV Channels, Cut Up to 2,000 Jobs in £500 Million Savings Drive](https://www.arabtimesonline.com/news/bbc-to-close-tv-channels-cut-up-to-2000-jobs-in-500-million-savings-drive/)
-- 16:09 `general` [UK to Deploy Typhoon Fighter Jets to Defend Saudi Arabia Against Iran-Backed Houthi Attacks](https://www.arabtimesonline.com/news/uk-to-deploy-typhoon-fighter-jets-to-defend-saudi-arabia-against-iran-backed-houthi-attacks/)
+- 16:43 `latest` [Kuwaiti Municipal Employee, Indian Get 7 Years in Diesel Smuggling Case; 4 Indians Jailed for a Month](https://www.arabtimesonline.com/news/kuwaiti-municipal-employee-indian-get-7-years-in-diesel-smuggling-case-4-indians-jailed-for-a-month/)
+- 16:29 `latest` [KD 20,000 Blood Money Awarded to Expat’s Family After Perpetrator Remains Unknown](https://www.arabtimesonline.com/news/kd-20000-blood-money-awarded-to-expats-family-after-perpetrator-remains-unknown/)
+- 16:09 `latest` [UK to Deploy Typhoon Fighter Jets to Defend Saudi Arabia Against Iran-Backed Houthi Attacks](https://www.arabtimesonline.com/news/uk-to-deploy-typhoon-fighter-jets-to-defend-saudi-arabia-against-iran-backed-houthi-attacks/)
+- 16:04 `latest` [Kuwait Appeals Court Upholds Ruling to Promote Student Who Missed Online Classes Due to Technical Issues](https://www.arabtimesonline.com/news/kuwait-appeals-court-upholds-ruling-to-promote-student-who-missed-online-classes-due-to-technical-issues/)
+- 15:48 `latest` [Kuwait Arrests Turkish Truck Driver With 300,000 Captagon Pills Worth Over KD 500,000](https://www.arabtimesonline.com/news/kuwait-arrests-turkish-truck-driver-with-300000-captagon-pills-worth-over-kd-500000/)
+- 22:32 `latest` [Blocking ‘cash-out’ schemes crucial to curb money-laundering](https://www.arabtimesonline.com/news/blocking-cash-out-schemes-crucial-to-curb-money-laundering/)
+- 22:17 `latest` [Three-Storey House Turned Into Liquor Factory in Rehab; 7,500 Liters Seized](https://www.arabtimesonline.com/news/three-storey-house-turned-into-liquor-factory-in-rehab-7500-liters-seized/)
 - 20:18 `latest` [Ronaldo suspended for 30 days and fined for walking out on the Portugal camp](https://www.arabtimesonline.com/news/ronaldo-suspended-for-30-days-and-fined-for-walking-out-on-the-portugal-camp/)
-- 19:43 `general` [Iran Offered Interest on $6 Billion Frozen Funds for Nuclear Access as Ghalibaf Rejects Changes to Demands](https://www.arabtimesonline.com/news/iran-offered-interest-on-6-billion-frozen-funds-for-nuclear-access-as-ghalibaf-rejects-changes-to-demands/)
-- 16:15 `general` [Tanker Reports Interaction With Military Forces Off Oman’s Coast](https://www.arabtimesonline.com/news/tanker-reports-interaction-with-military-forces-off-omans-coast/)
+- 19:43 `latest` [Iran Offered Interest on $6 Billion Frozen Funds for Nuclear Access as Ghalibaf Rejects Changes to Demands](https://www.arabtimesonline.com/news/iran-offered-interest-on-6-billion-frozen-funds-for-nuclear-access-as-ghalibaf-rejects-changes-to-demands/)
+- 16:15 `latest` [Tanker Reports Interaction With Military Forces Off Oman’s Coast](https://www.arabtimesonline.com/news/tanker-reports-interaction-with-military-forces-off-omans-coast/)
 - 22:08 `latest` [21st Oct](https://www.arabtimesonline.com/news/21st-oct-2026-arab-times-kuwait-epaper/)
-- 13:41 `general` [12 Killed, 30 Injured as Bus Collides With Truck on Egypt Highway](https://www.arabtimesonline.com/news/12-killed-30-injured-as-bus-collides-with-truck-on-egypt-highway/)
-- 10:42 `general` [Yemen Army Claims 129 Iran-Backed Houthis Killed, 176 Wounded in Taiz Fighting](https://www.arabtimesonline.com/news/yemen-army-claims-129-iran-backed-houthis-killed-176-wounded-in-taiz-fighting/)
+- 13:41 `latest` [12 Killed, 30 Injured as Bus Collides With Truck on Egypt Highway](https://www.arabtimesonline.com/news/12-killed-30-injured-as-bus-collides-with-truck-on-egypt-highway/)
+- 10:42 `latest` [Yemen Army Claims 129 Iran-Backed Houthis Killed, 176 Wounded in Taiz Fighting](https://www.arabtimesonline.com/news/yemen-army-claims-129-iran-backed-houthis-killed-176-wounded-in-taiz-fighting/)
 - 10:03 `latest` [Dubai Passenger Held in Delhi With Gold Worth US$421,000 Hidden in Door Fitting](https://www.arabtimesonline.com/news/dubai-passenger-held-in-delhi-with-gold-worth-us421000-hidden-in-door-fitting/)
-- 09:51 `general` [Iranian Regime Claims It Downed 54th US MQ-9 Drone Over Strait of Hormuz — Claim Unverified](https://www.arabtimesonline.com/news/iranian-regime-claims-it-downed-54th-us-mq-9-drone-over-strait-of-hormuz-claim-unverified/)
-- 07:20 `general` [Trump threatens to leave Europe over Iran war, says US could end military campaign](https://www.arabtimesonline.com/news/trump-threatens-to-leave-europe-over-iran-war-says-us-could-end-military-campaign/)
-- 12:23 `general` [Gold mine collapse kills at least 14 in southwest Colombia](https://www.arabtimesonline.com/news/gold-mine-collapse-kills-at-least-14-in-southwest-colombia/)
+- 09:51 `latest` [Iranian Regime Claims It Downed 54th US MQ-9 Drone Over Strait of Hormuz — Claim Unverified](https://www.arabtimesonline.com/news/iranian-regime-claims-it-downed-54th-us-mq-9-drone-over-strait-of-hormuz-claim-unverified/)
+- 07:20 `latest` [Trump threatens to leave Europe over Iran war, says US could end military campaign](https://www.arabtimesonline.com/news/trump-threatens-to-leave-europe-over-iran-war-says-us-could-end-military-campaign/)
+- 12:23 `latest` [Gold mine collapse kills at least 14 in southwest Colombia](https://www.arabtimesonline.com/news/gold-mine-collapse-kills-at-least-14-in-southwest-colombia/)
 - 12:00 `latest` [CNN anchor Christiane Amanpour leaving network after a storied career of 43 years](https://www.arabtimesonline.com/news/cnn-anchor-christiane-amanpour-leaving-network-after-a-storied-career-of-43-years/)
 
-### Kuwait Times — 33 articles
+### Kuwait Times — 30 articles
 
 - 19:55 `business` [Power outage hits Google Cloud services, disrupting UK banks](https://kuwaittimes.com/article/51993/business/power-outage-hits-google-cloud-services-disrupting-uk-banks/)
 - 19:55 `business` [Rubio: India is diversifying oil, trade deal ‘very close’](https://kuwaittimes.com/article/51994/business/rubio-india-is-diversifying-oil-trade-deal-very-close/)
@@ -1521,9 +1520,6 @@ Every article collected in this window, grouped by outlet. This is the raw recor
 - 07:03 `latest` [Middle East fuel crunch drives solar push in Fiji](https://kuwaittimes.com/article/51957/world/middle-east-fuel-crunch-drives-solar-push-in-fiji/)
 - 06:56 `latest` [49ers hold off Commanders to stay perfect in NFL](https://kuwaittimes.com/article/51955/sports/49ers-hold-off-commanders-to-stay-perfect-in-nfl/)
 - 06:51 `latest` [Kuwait envoy, Great Mosque of Algiers rector discuss religious cooperation](https://kuwaittimes.com/article/51954/kuwait/kuwait-envoy-great-mosque-of-algiers-rector-discuss-religious-cooperation/)
-- 06:31 `latest` [Kuwait takes part in UN anti-organized crime conference in Vienna](https://kuwaittimes.com/article/51953/kuwait/kuwait-takes-part-in-un-anti-organized-crime-conference-in-vienna/)
-- 06:24 `latest` [Kuwait urges total elimination of nuclear weapons at UN](https://kuwaittimes.com/article/51952/kuwait/kuwait-urges-total-elimination-of-nuclear-weapons-at-un/)
-- 06:21 `latest` [Chance of drizzle on hot Tuesday, light fog possible at night](https://kuwaittimes.com/article/51951/kuwait/chance-of-drizzle-on-hot-tuesday-light-fog-possible-at-night/)
 - 10:41 `latest` [UK unemployment unexpectedly falls ahead of budget](https://kuwaittimes.com/article/51974/world/uk-unemployment-unexpectedly-falls-ahead-of-budget/)
 - 08:48 `latest` [Today in Kuwait's history](https://kuwaittimes.com/article/51968/kuwait/today-in-kuwaits-history/)
 
