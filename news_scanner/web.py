@@ -159,7 +159,7 @@ def _card_html(
     summary = _bilingual(analysis.get("summary_en", ""), analysis.get("summary_ar", ""))
     why = _bilingual(analysis.get("why_it_matters_en", ""), analysis.get("why_it_matters_ar", ""))
     btl = _bilingual(
-        analysis.get("between_the_lines_en", ""), analysis.get("between_the_lines_ar", "")
+        "", ""
     )
     watch = _bilingual(analysis.get("watch_next_en", ""), analysis.get("watch_next_ar", ""))
 
@@ -780,22 +780,7 @@ def render_web(digest: Digest) -> str:
     }
     parts.append(_links_section(links, story_titles))
 
-    tactical = _bilingual(synth.get("tactical_en", ""), synth.get("tactical_ar", ""))
-    strategic = _bilingual(synth.get("strategic_en", ""), synth.get("strategic_ar", ""))
-    if tactical or strategic:
-        blocks = ""
-        if tactical:
-            blocks += (
-                '<div class="callout"><p class="label">This week</p>'
-                f"{_para_html(tactical)}</div>"
-            )
-        if strategic:
-            blocks += (
-                '<div class="callout plain" style="margin-top:10px;">'
-                '<p class="label">The longer arc</p>'
-                f"{_para_html(strategic)}</div>"
-            )
-        parts.append(_section("Tactical and strategic", blocks))
+    # Tactical and strategic sections removed — NewsThread focuses on connections, not inference
 
     # -- stories ----------------------------------------------------------
     parts.append('<hr style="border:none;border-top:2px solid var(--rule);margin:30px 0 16px;">')

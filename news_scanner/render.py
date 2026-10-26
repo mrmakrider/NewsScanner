@@ -220,8 +220,7 @@ def render_markdown(digest: Digest) -> str:
     tactical = _bilingual(synth.get("tactical_en", ""), synth.get("tactical_ar", ""))
     strategic = _bilingual(synth.get("strategic_en", ""), synth.get("strategic_ar", ""))
     if tactical or strategic:
-        out.append("## 🎯 Tactical and strategic")
-        out.append("")
+        # ## 🎯 Tactical and strategic  # removed for NewsThread
         if tactical:
             out.append("**This week**")
             out.append("")

@@ -1,9 +1,10 @@
-# NewsScanner 🇰🇼
+# NewsThread 🇰🇼
 
-Every morning at **03:00 Kuwait time**, NewsScanner reads every Kuwaiti news
-outlet it can reach, merges the coverage into single stories, and emails you a
-briefed digest — with a reference to every original article, and an analysis
-that tries to read what is *between* the lines.
+Every morning at **03:00 Kuwait time**, NewsThread reads every Kuwaiti news
+outlet it can reach, threads related stories across sources, and emails you a
+connected digest — with a reference to every original article. No AI verdicts,
+no "between the lines" reading, no predictions. Just related stories linked
+by shared entities and events, side by side.
 
 ```
 42 articles · 7 outlets  →  23 stories  →  5 major  →  1 email
