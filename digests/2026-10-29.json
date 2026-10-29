@@ -1,23 +1,23 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T09:11:18.253420+03:00",
+ "generated_at": "2026-10-29T09:38:39.476582+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 335,
+  "total_articles": 333,
   "outlets_reporting": 6,
-  "total_stories": 271,
+  "total_stories": 268,
   "major_stories": 13,
   "analysed_stories": 28,
-  "window_start": "2026-10-28T07:11:18.253420+03:00",
-  "window_end": "2026-10-29T09:11:18.253420+03:00",
+  "window_start": "2026-10-28T07:38:39.476582+03:00",
+  "window_end": "2026-10-29T09:38:39.476582+03:00",
   "major_threshold": 3,
   "categories": {
-   "Security & Courts": 13,
-   "Government & Politics": 83,
+   "Security & Courts": 15,
    "Society & Services": 23,
-   "World & Region": 57,
-   "Economy & Business": 54,
+   "Government & Politics": 81,
+   "World & Region": 55,
+   "Economy & Business": 53,
    "Sport": 31,
    "Culture & Entertainment": 3,
    "Opinion & Analysis": 7
@@ -30,72 +30,68 @@
   ]
  },
  "synthesis": {
-  "editor_note_en": "Today’s coverage is defined by a quiet but significant pivot toward sovereign financial resilience and digital modernization, rather than the high-stakes geopolitical posturing seen in recent editions. The most critical signal is the Central Bank’s issuance of 150 million dinars in 7-year bonds with a strong 2.57x coverage ratio (S28), paired with exploratory talks with State Street (S6) and a focus on repatriating regional wealth (S27), suggesting a concerted effort to secure long-term funding and deepen domestic financial infrastructure. Simultaneously, the government is aggressively centralizing digital control, launching a unified 'Government Cyber Shield' (S3) and integrating AI into education (S17), signaling a move from fragmented administrative updates to a cohesive national digital strategy. The absence of major security escalations or Houthi-related news allows the narrative to focus on these structural, long-term investments.",
-  "editor_note_ar": "تتسم تغطية اليوم بانعطاف هادئ لكن جوهري نحو تعزيز الصلابة المالية السيادية والحداثة الرقمية، بدلاً من المواقف الجيوسياسية عالية المخاطر التي سيطرت على النسخ السابقة. الإشارة الأكثر أهمية هي إصدار البنك المركزي لسندات وأذون خزانة بقيمة 150 مليون دينار لأجل 7 سنوات بنسبة تغطية قوية بلغت 2.57 مرة (S28)، بالتزامن مع محادثات استكشافية مع شركة ستيت ستريت (S6) وتركيز على إعادة توطين الثروات الإقليمية (S27)، مما يشير إلى جهد منسق لتأمين التمويل طويل الأجل وتعميق البنية التحتية المالية المحلية. وفي الوقت نفسه، يعمد الحكومة إلى المركزية في السيطرة الرقمية، من خلال إطلاق 'درع سيبراني حكومي' موحّد (S3) ودمج الذكاء الاصطناعي في التعليم (S17)، مما يعكس انتقالاً من التحديثات الإدارية المجزأة إلى استراتيجية وطنية رقمية متماسكة. غياب التصعيد الأمني الكبير أو أخبار الحوثيين يتيح للخطاب الإعلامي التركيز على هذه الاستثمارات الهيكلية طويلة الأمد.",
-  "story_of_the_day": "S28",
-  "tactical_en": "The Central Bank of Kuwait completed the issuance of 150 million dinars in 7-year Treasury and Sukuk bonds on Thursday, with a winning yield of 4.125% and a coverage ratio of 2.57x (S28). The Ministry of Agriculture launched the first phase of the 'Deera' digital platform for pet registration and stray animal reporting (S21). The National Cybersecurity Center announced the launch of a unified 'Government Cyber Shield' program for all government entities (S3).",
-  "tactical_ar": "أتمّ البنك المركزي الكويتي إصدار سندات وأذون خزانة بقيمة 150 مليون دينار لأجل 7 سنوات يوم الخميس، بربح فائز بلغ 4.125% ونسبة تغطية 2.57 مرة (S28). أطلقت وزارة الزراعة المرحلة الأولى من منصة 'ديرة' الرقمية لتسجيل الحيوانات الأليفة والإبلاغ عن الحيوانات الضالة (S21). أعلن مركز الأمن السيبراني الوطني عن إطلاق برنامج 'الدرع السيبراني الحكومي' الموحّد لجميع الجهات الحكومية (S3).",
-  "strategic_en": "Today’s material supports a pattern of Kuwait decoupling its economic strategy from immediate regional security volatility by focusing on long-term sovereign debt management and digital infrastructure hardening. The strong bond coverage (S28) and engagement with global asset managers like State Street (S6) indicate confidence in Kuwait’s fiscal stability, while the centralized cybersecurity initiative (S3) and AI integration in education (S17) suggest a strategic shift towards building a resilient, knowledge-based domestic economy. This contrasts with the previous edition’s focus on military partnerships and UN diplomatic positioning, indicating a maturation of the state’s approach to risk management.",
-  "strategic_ar": "تدعم مواد اليوم نمطاً يتمثل في فصل الكويت لاستراتيجيتها الاقتصادية عن التقلبات الأمنية الإقليمية الفورية، من خلال التركيز على إدارة الدين السيادي طويل الأجل وتعزيز البنية التحتية الرقمية. التغطية القوية للسندات (S28) والتفاعل مع مدراء الأصول العالميين مثل ستيت ستريت (S6) يدلان على الثقة في الاستقرار المالي للكويت، بينما يشير مبادرات الأمن السيبراني المركزية (S3) ودمج الذكاء الاصطناعي في التعليم (S17) إلى تحول استراتيجي نحو بناء اقتصاد وطني معرفي صلب. وهذا يتناقض مع تركيز النسخة السابقة على الشراكات العسكرية والمواقف الدبلوماسية في الأمم المتحدة، مما يعكس نضجاً في نهج الدولة لإدارة المخاطر.",
+  "editor_note_en": "Today’s coverage is dominated by a quiet but significant pivot toward institutional modernization and digital sovereignty, rather than high-stakes geopolitical maneuvering. The launch of the 'Government Cyber Shield' (S2) and the Education Ministry’s AI partnership with Google Cloud (S18) signal a state-level effort to centralize digital control and modernize public services, moving beyond fragmented departmental efforts. This is reinforced by the Ministry of Agriculture’s 'Deera' platform (S22) and the Competition Authority’s focus on digital regulation (S21), suggesting a cohesive, if unannounced, national digital transformation agenda. While the Foreign Minister reaffirmed diplomatic resilience (S17), the absence of specific security escalations or new defense deals marks a notable calm in the geopolitical front, allowing domestic administrative and technological priorities to take center stage.",
+  "editor_note_ar": "تتصدر تغطية اليوم تحول هادئ لكنه جوهري نحو التحديث المؤسسي والسيادة الرقمية، بدلاً من المناورات الجيوسياسية عالية المخاطر. إطلاق \"درع الحكومة السيبراني\" (S2) وشراكة وزارة التربية مع غوغل كلاود في مجال الذكاء الاصطناعي (S18) يشيران إلى جهد على مستوى الدولة لتوحيد السيطرة الرقمية وحديث الخدمات العامة، متجاوزين الجهود القطاعية المجزأة. ويعزز هذا الاتجاه إطلاق منصة \"ديرة\" من وزارة الزراعة (S22) وتركيز هيئة حماية المنافسة على تنظيم الأسواق الرقمية (S21)، مما يوحي بجدول أعمال وطني متكامل للتحول الرقمي. ورغم تأكيد وزير الخارجية على المرونة الدبلوماسية (S17)، فإن غياب التصعيد الأمني المحدد أو صفقات الدفاع الجديدة يُمثل هدوءاً ملحوظاً في الملف الجيوسياسي، مما سمح للأولويات الإدارية والتقنية الداخلية بأن تحتل الصدارة.",
+  "story_of_the_day": "S2",
+  "tactical_en": "The National Cybersecurity Center has launched the 'Government Cyber Shield' program, centralizing digital protection and incident response for all government entities (S2). The Education Ministry is finalizing a training program for 40,000 teachers on AI tools in partnership with Google Cloud (S18). The General Authority for Agricultural and Fishery Affairs has launched the first phase of the 'Deera' digital platform for citizen transactions (S22).",
+  "tactical_ar": "أطلق المركز الوطني للأمن السيبراني برنامج \"درع الحكومة السيبراني\" لتوحيد الحماية الرقمية والاستجابة للحوادث لجميع الجهات الحكومية (S2). تعمل وزارة التربية على إكمال برنامج تدريبي لأكثر من 40,000 معلم على أدوات الذكاء الاصطناعي بالشراكة مع غوغل كلاود (S18). أطلقت الهيئة العامة لشؤون الزراعة والثروة السمكية المرحلة الأولى من منصة \"ديرة\" الرقمية لتسهيل معاملات المواطنين (S22).",
+  "strategic_en": "Historical notes from late October 2026 highlighted a strategy of decoupling diplomatic posture from security threats while hardening defense capabilities. Today’s material does not confirm a continuation of that specific security-hardening narrative; instead, it shows a shift toward internal digital infrastructure and administrative efficiency. The recurring focus on 'unifying efforts' (S2) and 'simplifying procedures' (S18) suggests a long-term strategic aim to reduce bureaucratic fragmentation and enhance state capacity through technology, rather than solely through external alliances.",
+  "strategic_ar": "أشارت الملاحظات التحريرية التاريخية من أواخر أكتوبر 2026 إلى استراتيجية لفصل الموقف الدبلوماسي عن التهديدات الأمنية مع تعزيز القدرات الدفاعية. لا تؤكد مواد اليوم استمرار ذلك السرد الأمني تحديداً؛ بل تظهر تحولاً نحو البنية التحتية الرقمية الداخلية وكفاءة الإدارة. التركيز المتكرر على \"توحيد الجهود\" (S2) و\"تبسيط الإجراءات\" (S18) يوحي بهدف استراتيجي طويل الأمد لتقليل التجزئة البيروقراطية وتعزيز قدرة الدولة عبر التكنولوجيا، بدلاً من الاعتماد حصرياً على التحالفات الخارجية.",
   "links": [
    {
-    "type": "same_actor",
-    "from": "S4",
+    "type": "same_source_angle",
+    "from": "S2",
     "to": "S18",
-    "evidence": "Both stories involve the University of Kuwait and its leadership (Dr. Dina Al-Milim), covering administrative promotions and strategic ranking improvements respectively."
-   },
-   {
-    "type": "same_actor",
-    "from": "S15",
-    "to": "S5",
-    "evidence": "Both stories feature the Kuwait Institute for Scientific Research (KISR) presenting its research strategies at international conferences (Muscat and Incheon)."
+    "evidence": "Both stories highlight the state's push to centralize and modernize digital infrastructure, with S2 focusing on security and S18 on educational application, reflecting a unified government digital strategy."
    },
    {
     "type": "same_actor",
     "from": "S16",
-    "to": "S6",
-    "evidence": "Both stories feature Foreign Minister Sheikh Jeraf Jaber Al-Ahmad Al-Sabah, highlighting his dual focus on diplomatic reaffirmation at the UN and financial sector cooperation with State Street."
+    "to": "S26",
+    "evidence": "Both stories originate from the Arab Innovators and Creators Conference in Muscat, featuring Kuwaiti scientific and academic achievements presented at the same international forum."
    }
   ],
   "top_themes": [
    {
-    "theme_en": "Sovereign Financial Resilience",
-    "theme_ar": "الصلابة المالية السيادية",
-    "story_ids": [
-     "S28",
-     "S6",
-     "S27"
-    ],
-    "note_en": "Focus on long-term debt issuance, global asset management partnerships, and repatriating regional wealth.",
-    "note_ar": "التركيز على إصدار الديون طويلة الأجل، وشراكات إدارة الأصول العالمية، وإعادة توطين الثروات الإقليمية."
-   },
-   {
-    "theme_en": "Digital & Cyber Modernization",
-    "theme_ar": "الحداثة الرقمية والسيبرانية",
-    "story_ids": [
-     "S3",
-     "S17",
-     "S21"
-    ],
-    "note_en": "Centralized cybersecurity efforts, AI integration in education, and new digital service platforms.",
-    "note_ar": "جهود الأمن السيبراني المركزية، ودمج الذكاء الاصطناعي في التعليم، ومنصات الخدمات الرقمية الجديدة."
-   },
-   {
-    "theme_en": "Health Awareness & Public Health",
-    "theme_ar": "التوعية الصحية والصحة العامة",
+    "theme_en": "Digital Sovereignty & Modernization",
+    "theme_ar": "السيادة الرقمية والتحديث",
     "story_ids": [
      "S2",
-     "S7",
-     "S26"
+     "S18",
+     "S22",
+     "S21"
     ],
-    "note_en": "Multiple initiatives focused on breast cancer awareness and early detection during Pink October.",
-    "note_ar": "مبادرات متعددة تركز على التوعية بسرطان الثدي والكشف المبكر خلال شهر أكتوبر الوردي."
+    "note_en": "A coordinated push across security, education, agriculture, and competition sectors to digitize and centralize state services.",
+    "note_ar": "دفع منسق عبر قطاعات الأمن والتعليم والزراعة والمنافسة لرقمنة وتوحيد الخدمات الحكومية."
+   },
+   {
+    "theme_en": "Diplomatic Routine & Stability",
+    "theme_ar": "الروتين الدبلوماسي والاستقرار",
+    "story_ids": [
+     "S5",
+     "S9",
+     "S15",
+     "S17"
+    ],
+    "note_en": "Standard bilateral meetings and diplomatic reaffirmations without new high-stakes agreements or security escalations.",
+    "note_ar": "اجتماعات ثنائية قياسية وتأكيدات دبلوماسية دون اتفاقيات جديدة عالية المخاطر أو تصعيدات أمنية."
+   },
+   {
+    "theme_en": "Health Awareness & Corporate PR",
+    "theme_ar": "التوعية الصحية والعلاقات العامة",
+    "story_ids": [
+     "S6",
+     "S7",
+     "S28"
+    ],
+    "note_en": "Concentrated coverage of breast cancer awareness initiatives, largely driven by private sector and NGO partnerships.",
+    "note_ar": "تغطية مركزة لمبادرات التوعية بسرطان الثدي، يقودها في الغالب شراكات القطاع الخاص ومنظمات المجتمع المدني."
    }
   ],
-  "not_being_said_en": "The supplied reports do not mention any developments regarding the Houthi militia, the UN Security Council session on missing Kuwaitis, or the implementation timeline for the UK-Italy security partnerships noted in the previous edition. The absence of these topics suggests a deliberate editorial or operational shift away from immediate security threats toward domestic economic and administrative priorities, though this cannot be confirmed as a policy change without further evidence.",
-  "not_being_said_ar": "لا تذكر التقارير المقدمة أي تطورات تتعلق بالحوثيين، أو جلسة مجلس الأمن الدولي بشأن الكويتيين المفقودين، أو الجدول الزمني لتنفيذ شراكات الأمن مع بريطانيا وإيطاليا المذكورة في النسخة السابقة. يشير غياب هذه المواضيع إلى تحول تحريري أو تشغيلي مقصود بعيداً عن التهديدات الأمنية الفورية نحو الأولويات الاقتصادية والإدارية المحلية، لكن لا يمكن تأكيد هذا كتحول في السياسة دون أدلة إضافية.",
-  "watchlist_en": "1. The outcome of the State Street-Kuwait cooperation talks, specifically any announcements regarding sovereign wealth management or financial sector reforms (S6). 2. The implementation details and rollout timeline of the 'Government Cyber Shield' program across all ministries (S3). 3. Any follow-up on the 'Deera' platform's expansion beyond pet registration to other agricultural services (S21). 4. The impact of the 4.125% bond yield on future sovereign debt issuance costs and investor sentiment (S28).",
-  "watchlist_ar": "1. نتائج محادثات التعاون بين ستيت ستريت والكويت، وتحديداً أي إعلانات تتعلق بإدارة الثروة السيادية أو إصلاحات القطاع المالي (S6). 2. تفاصيل التنفيذ والجدول الزمني لنشر برنامج 'الدرع السيبراني الحكومي' عبر جميع الوزارات (S3). 3. أي متابعة لتوسيع منصة 'ديرة' لتشمل خدمات زراعية أخرى بخلاف تسجيل الحيوانات الأليفة (S21). 4. تأثير عائد السندات البالغ 4.125% على تكاليف إصدار الدين السيادي المستقبلي ومعنويات المستثمرين (S28).",
+  "not_being_said_en": "The supplied reports do not mention any new developments regarding the UN Security Council session on missing Kuwaitis or the national archive, which was a key watchlist item from the previous edition. Additionally, there is no coverage of the final signature of the GCC excise tax decree-law by the Amir, despite its prior approval by the Council of Ministers. The absence of these specific high-stakes political and legal updates in today's packet suggests a focus on administrative and technological news, but it cannot be confirmed whether these items are delayed, concluded, or simply not prioritized for today's front page.",
+  "not_being_said_ar": "لا تذكر التقارير المقدمة أي تطورات جديدة بشأن جلسة مجلس الأمن الدولي حول الكويتيين المفقودين أو الأرشيف الوطني، وهو عنصر رئيسي في قائمة المتابعة من الإصدار السابق. بالإضافة إلى ذلك، لا توجد تغطية لتوقيع الأمير النهائي على مرسوم قانون ضريبة القيمة المضافة الموحدة لدول مجلس التعاون، رغم موافقة مجلس الوزراء عليه سابقاً. غياب هذه التحديثات السياسية والقانونية عالية المخاطر في حزمة اليوم يوحي بتركيز على الأخبار الإدارية والتقنية، لكن لا يمكن تأكيد ما إذا كانت هذه البنود مؤجلة أو منتهية أو ببساطة غير مُسندة لأولوية الصفحة الأولى اليوم.",
+  "watchlist_en": "1. The implementation timeline and specific metrics for the 'Government Cyber Shield' program (S2). 2. The official launch date and curriculum details for the Google Cloud AI teacher training program (S18). 3. Any subsequent announcements regarding the UN Security Council session on missing Kuwaitis, as no update was provided today. 4. The final signature and publication of the GCC excise tax decree-law.",
+  "watchlist_ar": "1. الجدول الزمني للتنفيذ والمؤشرات المحددة لبرنامج \"درع الحكومة السيبراني\" (S2). 2. تاريخ الإطلاق الرسمي وتفاصيل المنهج لبرنامج تدريب المعلمين على الذكاء الاصطناعي مع غوغل كلاود (S18). 3. أي إعلانات لاحقة بشأن جلسة مجلس الأمن الدولي حول الكويتيين المفقودين، حيث لم يُقدم تحديث اليوم. 4. التوقيع النهائي ونشر مرسوم قانون ضريبة القيمة المضافة الموحدة لدول مجلس التعاون.",
   "_source": "llm"
  },
  "source_health": [
@@ -234,7 +230,7 @@
      "url": "https://www.alraimedia.com/article/1784238/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D9%82%D8%AF%D9%85-%D9%88%D8%B1%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D8%AF%D8%AB%D8%A9-%D9%84%D8%A2%D9%81%D8%A9-%D8%A7%D9%84%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA",
      "section": "local",
      "summary": "قدمت دولة الكويت اليوم الأربعاء خلال المؤتمر العربي الـ 40 لرؤساء أجهزة مكافحة المخدرات الذي تنظمه الأمانة العامة لمجلس وزراء الداخلية العرب في تونس ورقة عمل عربية حول مواجهة الأسا...",
-     "body": "بهدف تعزيز الحيطة والحذر في مكافحتها ودعم الحملات التوعوية\n\nقدمت دولة الكويت اليوم الأربعاء خلال المؤتمر العربي الـ 40 لرؤساء أجهزة مكافحة المخدرات الذي تنظمه الأمانة العامة لمجلس وزراء الداخلية العرب في تونس ورقة عمل عربية حول مواجهة الأساليب الجديدة والمستحدثة لآفة المخدرات.\n\nودعا إلى تعزيز التعاون العربي في مواجهة المخدرات لحماية المجتمعات وخصوصا الشباب العربي من مخاطر المخدرات والمؤثرات العقلية، مشدداً على أن مكافحة المخدرات تتطلب تكثيف الجهود الوقائية والعلاجية والأمنية.\n\nكما أكد التزام دولة الكويت بدعم الجهود العربية والدولية في هذا المجال، مشدداً على أن المخدرات تمثل تهديدا للأمن العربي من خلال تغذية شبكات غسل الأموال وتمويل الجريمة المنظمة ما يجعل مكافحتها مسؤولية مجتمعية تتطلب تعاون عربيا وتكاملا واعيا.\n\nوقال قبازرد إن «الواجب الوطني والأمني يحتمان علينا العمل بروح الفريق الواحد وتبادل الخبرات والتجارب الميدانية وتكثيف التوعية الوقائية من المخدرات»، مبرزاً أهمية تنسيق الجهود العربية وتفعيل التعاون المشترك لمواجهة آثارها.\n\nوتعقد أعمال المؤتمر العربي الـ 40 لرؤساء أجهزة مكافحة المخدرات بمشاركة مركز المعلومات الجنائية لمكافحة المخدرات بمجلس التعاون لدول الخليج العربية ومكتب الأمم المتحدة المعني بالمخدرات والجريمة ومشروع الاتحاد الأوروبي لمكافحة الجريمة المنظمة والإرهاب ووكالة الاتحاد الأوروبي المعنية بالمخدرات بهدف دعم التنسيق الأمني العربي المشترك في التعاطي مع ظاهرة المخدرات.",
+     "body": "بهدف تعزيز الحيطة والحذر في مكافحتها ودعم الحملات التوعوية\n\nقدمت دولة الكويت اليوم الأربعاء خلال المؤتمر العربي الـ 40 لرؤساء أجهزة مكافحة المخدرات الذي تنظمه الأمانة العامة لمجلس وزراء الداخلية العرب في تونس ورقة عمل عربية حول مواجهة الأساليب الجديدة والمستحدثة لآفة المخدرات.\n\nوزير «الاتصالات»: تبادل الخبرات والتجارب الخليجية في الحكومة الرقمية يعزز التكامل وتطوير الخدمات منذ 6 دقائق الكويت وباكستان.. تطوير التعاون البحري وتوطيد العلاقات العسكرية منذ 25 دقيقة\n\nودعا إلى تعزيز التعاون العربي في مواجهة المخدرات لحماية المجتمعات وخصوصا الشباب العربي من مخاطر المخدرات والمؤثرات العقلية، مشدداً على أن مكافحة المخدرات تتطلب تكثيف الجهود الوقائية والعلاجية والأمنية.\n\nكما أكد التزام دولة الكويت بدعم الجهود العربية والدولية في هذا المجال، مشدداً على أن المخدرات تمثل تهديدا للأمن العربي من خلال تغذية شبكات غسل الأموال وتمويل الجريمة المنظمة ما يجعل مكافحتها مسؤولية مجتمعية تتطلب تعاون عربيا وتكاملا واعيا.\n\nوقال قبازرد إن «الواجب الوطني والأمني يحتمان علينا العمل بروح الفريق الواحد وتبادل الخبرات والتجارب الميدانية وتكثيف التوعية الوقائية من المخدرات»، مبرزاً أهمية تنسيق الجهود العربية وتفعيل التعاون المشترك لمواجهة آثارها.\n\nوتعقد أعمال المؤتمر العربي الـ 40 لرؤساء أجهزة مكافحة المخدرات بمشاركة مركز المعلومات الجنائية لمكافحة المخدرات بمجلس التعاون لدول الخليج العربية ومكتب الأمم المتحدة المعني بالمخدرات والجريمة ومشروع الاتحاد الأوروبي لمكافحة الجريمة المنظمة والإرهاب ووكالة الاتحاد الأوروبي المعنية بالمخدرات بهدف دعم التنسيق الأمني العربي المشترك في التعاطي مع ظاهرة المخدرات.",
      "published": "2026-10-28T18:36:00+03:00",
      "tier": 1
     }
@@ -267,82 +263,6 @@
      "Money Laundering",
      "Arab Cooperation",
      "Tunisia"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "116220fab336a618",
-   "score": 20.859,
-   "sources": [
-    "الأنباء",
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "خالد الصالح: زيادة الكشف المبكر بنسبة 30% تنقذ 120 امرأة سنوياً في الكويت",
-     "url": "https://www.alanba.com.kw/1382738",
-     "section": "kuwait",
-     "summary": "عبدالكريم العبداللهأكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان كان د. خالد الصالح أن التوعية حققت نجاحات لم يستطع الطب تحقيقها، مضيفا أنه لا يوجد د",
-     "body": "",
-     "published": "2026-10-28T19:26:21+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«كان»: زيادة الكشف المبكر 30 % تنقذ 120 امرأة في الكويت... سنوياً",
-     "url": "https://www.alraimedia.com/article/1784295/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%83%D8%A7%D9%86-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1-30-%D8%AA%D9%86%D9%82%D8%B0-120-%D8%A7%D9%85%D8%B1%D8%A3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B3%D9%86%D9%88%D9%8A%D8%A7",
-     "section": "local",
-     "summary": "أكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان «كان» الدكتور خالد الصالح أن التوعية حققت نجاحات لم يستطع الطب تحقيقها، مضيفاً أنه لا يوجد دواء يحقق مثل هذا الأمر.جاء ذلك خ...",
-     "body": "«يومك وردي» تعزز التوعية بسرطان الثدي في «يوم البحار» التراثية\n\nأكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان «كان» الدكتور خالد الصالح أن التوعية حققت نجاحات لم يستطع الطب تحقيقها، مضيفاً أنه لا يوجد دواء يحقق مثل هذا الأمر.\n\nجاء ذلك خلال فعالية «يومك وردي» في قرية يوم البحار التراثية، ضمن حملة التوعية بسرطان الثدي.\n\nوزير «الاتصالات»: تبادل الخبرات والتجارب الخليجية في الحكومة الرقمية يعزز التكامل وتطوير الخدمات منذ 17 دقيقة الكويت وباكستان.. تطوير التعاون البحري وتوطيد العلاقات العسكرية منذ 36 دقيقة\n\nولفت إلى أن رسالة التوعية الأولى هي تجنب المرض والثانية اكتشافه مبكراً، مشدداً على أن معرفة المرأة بالفحص الذاتي وعوامل الخطورة أفضل بكثير من انتظار العلاج.\n\nودعا النساء إلى الالتزام بالفحوصات الدورية المناسبة لأعمارهن وعوامل الخطورة، وإلى مراجعة الطبيب دون تردد عند ملاحظة أي تغير غير طبيعي، موضحاً أن الكشف المبكر يساعد على اكتشاف المرض في مراحله الأولى ويرفع فرص نجاح العلاج.\n\nونوه إلى أن الرسالة تتجاوز سرطان الثدي إلى نمط حياة متوازن، موضحاً أن الإكثار من الخضراوات والفواكه والحبوب الكاملة، والحد من الأطعمة شديدة المعالجة والسكريات، والمشي بانتظام والامتناع عن التدخين والاهتمام بالنوم، كلها تقلل خطر الأمراض المزمنة وبعض أنواع السرطان، مؤكداً أنها لا توفر حماية مطلقة.\n\nومن جانبها، أكدت مسؤولة مبادرة التوعية بسرطان الثدي الدكتورة حصة الشاهين أن الكشف المبكر يزيد فرص نجاح العلاج، موضحةً أن شعار «وَعْيُكِ حِزامُ الأمانِ الوردي» يحمل رسالة تحفيزية للمرأة للمبادرة بالاطمئنان، وأن الاهتمام بالصحة ليس ترفاً بل هو حق ومسؤولية تجاه النفس والأسرة.",
-     "published": "2026-10-28T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الصالح: زيادة الكشف المبكر 30% تنقذ 120 امرأة سنوياً من السرطان",
-     "url": "https://www.aljarida.com/article/148936",
-     "section": "local",
-     "summary": "أكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان (كان)، د. خالد الصالح، أن زيادة معدلات الكشف المبكر عن سرطان الثدي بنسبة 30 في المئة، بعد 20 عاماً من عمل الحملة، تُسهم في إ...",
-     "body": "",
-     "published": "2026-10-28T18:09:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Khaled Al-Saleh: 30% Increase in Early Detection Saves 120 Women Annually in Kuwait",
-    "headline_ar": "خالد الصالح: زيادة الكشف المبكر بنسبة 30% تنقذ 120 امرأة سنوياً في الكويت",
-    "summary_en": "Dr. Khaled Al-Saleh, Chairman of the National Cancer Awareness Campaign (KaN), stated that a 30% increase in early detection would save 120 women annually in Kuwait. He made these remarks during a 'Your Day is Pink' event at the traditional Yawm Al-Bihar village, emphasizing that awareness is more effective than medical treatment alone.",
-    "summary_ar": "أكد الدكتور خالد الصالح، رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان (كان)، أن زيادة الكشف المبكر بنسبة 30% ستُنقذ 120 امرأة سنوياً في الكويت. جاء ذلك خلال فعالية 'يومك وردي' في قرية يوم البحار التراثية، مشدداً على أن التوعية أكثر فعالية من العلاج الطبي وحده.",
-    "why_it_matters_en": "The statistic highlights a specific, quantifiable gap in current health outcomes. It places the burden of prevention on individual behavior (self-examination, lifestyle) rather than solely on state healthcare infrastructure, potentially shifting public discourse towards personal responsibility for health.",
-    "why_it_matters_ar": "تُبرز الإحصائية فجوة محددة وقابلة للقياس في النتائج الصحية الحالية. تضع العبء على السلوك الفردي (الفحص الذاتي، نمط الحياة) بدلاً من البنية التحتية للرعاية الصحية الحكومية فقط، مما قد يُحوّل الخطاب العام نحو المسؤولية الشخصية عن الصحة.",
-    "between_the_lines_en": "The attribution is to a civil society NGO (KaN), not the Ministry of Health. The claim that 'awareness achieved successes medicine could not' is a strong rhetorical move that implicitly critiques the limits of the medical system. The specific number (120 women) is presented as a projection based on a 30% increase, but the baseline data for current detection rates is not provided in the text, making the figure difficult to verify independently from this source alone.",
-    "between_the_lines_ar": "المصدر هو منظمة مجتمع مدني (كان)، وليس وزارة الصحة. العبارة القائلة بأن 'التوعية حققت نجاحات لم يستطع الطب تحقيقها' هي حركة بلاغية قوية تنتقد ضمنيًا حدود النظام الطبي. الرقم المحدد (120 امرأة) يُقدم كإسقاط بناءً على زيادة بنسبة 30%، لكن البيانات الأساسية لمعدلات الكشف الحالية غير مذكورة في النص، مما يجعل من الصعب التحقق من الرقم بشكل مستقل من هذا المصدر وحده.",
-    "watch_next_en": "Check if the Ministry of Health releases official statistics on breast cancer detection rates to corroborate or contextualize the 120-women figure.",
-    "watch_next_ar": "التحقق مما إذا كانت وزارة الصحة ستصدر إحصائيات رسمية حول معدلات الكشف عن سرطان الثدي لدعم أو وضع الرقم (120 امرأة) في سياقه الصحيح.",
-    "confidence": "medium",
-    "confidence_reason": "The statistic is specific but lacks the underlying baseline data in the provided text, and the source is an NGO rather than a government body.",
-    "entities": [
-     "Khaled Al-Saleh",
-     "National Cancer Awareness Campaign (KaN)",
-     "Hessa Al-Shahin",
-     "Yawm Al-Bihar Village"
-    ],
-    "tags": [
-     "Public Health",
-     "Cancer Awareness",
-     "NGO",
-     "Women's Health"
     ],
     "_source": "llm"
    }
@@ -452,7 +372,7 @@
      "url": "https://www.alraimedia.com/article/1784216/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AC%D9%84%D8%B3-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%8A%D8%B9%D8%AA%D9%85%D8%AF-%D8%AA%D8%B1%D9%82%D9%8A%D8%A9-4-%D9%85%D9%86-%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%AF%D8%B1%D8%AC%D8%AA%D9%8A-%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0-%D9%88%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0-%D9%85%D8%B4%D8%A7%D8%B1%D9%83",
      "section": "local",
      "summary": "عقد مجلس جامعة الكويت اجتماعه رقم (04/2026) برئاسة مدير الجامعة الدكتورة دينا الميلم صباح اليوم، حيث جرى اعتماد ترقية 4 أعضاء من الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك. وأك...",
-     "body": "عقد مجلس جامعة الكويت اجتماعه رقم (04/2026) برئاسة مدير الجامعة الدكتورة دينا الميلم صباح اليوم، حيث جرى اعتماد ترقية 4 أعضاء من الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك.\n\nاليعقوب: «أمانة الأوقاف» تُعمّم ضوابط المظهر العام.. وتستهدف المستوى الفضي في «أداء» منذ ساعة الكويت تستعرض جهودها في تعزيز الاستخدامات السلمية للطاقة النووية منذ ساعتين\n\nوفي تصريح عقب الاجتماع، قالت القائم بأعمال أمين عام جامعة الكويت الدكتورة نورة السويح إن المجلس ناقش خلال اجتماعه عددا من الموضوعات المدرجة على جدول الأعمال. مضيفة أن المجلس اعتمد ترقية 4 من أعضاء الهيئة الأكاديمية في عدد من الكليات العملية والإنسانية والاجتماعية إلى درجتي أستاذ وأستاذ مشارك.\n\nوأكدت السويح على أن قرارات المجلس تسهم في تعزيز مسيرة جامعة الكويت والارتقاء بالعمل الأكاديمي والإداري بما يواكب تطلعاتها ويدعم تحقيق أهدافها المؤسسية.\n\nوتمت ترقية كل من خالد الحميدي القحص من كلية الآداب قسم الإعلام، وناصر أحمد الجبري من كلية الشريعة والدراسات الإسلامية قسم الفقه وأصوله، إلى درجة أستاذ مشارك.\n\nفيما تمت ترقية كل من كوثر محمد حبيب من كلية التربية قسم المناهج وطرق التدريس، وليلى سعود العازمي كلية التربية قسم أصول التربية إلى درجة أستاذ.",
+     "body": "عقد مجلس جامعة الكويت اجتماعه رقم (04/2026) برئاسة مدير الجامعة الدكتورة دينا الميلم صباح اليوم، حيث جرى اعتماد ترقية 4 أعضاء من الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك.\n\nالعوضي: توحيد الجهود لبناء منظومة وطنية متكاملة للأمن السيبراني منذ 41 دقيقة اليعقوب: «أمانة الأوقاف» تُعمّم ضوابط المظهر العام.. وتستهدف المستوى الفضي في «أداء» منذ ساعة\n\nوفي تصريح عقب الاجتماع، قالت القائم بأعمال أمين عام جامعة الكويت الدكتورة نورة السويح إن المجلس ناقش خلال اجتماعه عددا من الموضوعات المدرجة على جدول الأعمال. مضيفة أن المجلس اعتمد ترقية 4 من أعضاء الهيئة الأكاديمية في عدد من الكليات العملية والإنسانية والاجتماعية إلى درجتي أستاذ وأستاذ مشارك.\n\nوأكدت السويح على أن قرارات المجلس تسهم في تعزيز مسيرة جامعة الكويت والارتقاء بالعمل الأكاديمي والإداري بما يواكب تطلعاتها ويدعم تحقيق أهدافها المؤسسية.\n\nوتمت ترقية كل من خالد الحميدي القحص من كلية الآداب قسم الإعلام، وناصر أحمد الجبري من كلية الشريعة والدراسات الإسلامية قسم الفقه وأصوله، إلى درجة أستاذ مشارك.\n\nفيما تمت ترقية كل من كوثر محمد حبيب من كلية التربية قسم المناهج وطرق التدريس، وليلى سعود العازمي كلية التربية قسم أصول التربية إلى درجة أستاذ.",
      "published": "2026-10-28T12:22:00+03:00",
      "tier": 1
     },
@@ -611,7 +531,7 @@
      "url": "https://www.alraimedia.com/article/1784220/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%A2%D9%81%D8%A7%D9%82-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%B9-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%B3%D8%AA%D9%8A%D8%AA-%D8%B3%D8%AA%D8%B1%D9%8A%D8%AA",
      "section": "local",
      "summary": "‏استقبل وزير الخارجية الشيخ جراح جابر الأحمد الصباح اليوم رئيس مجلس الإدارة والرئيس التنفيذي لشركة ستيت ستريت رونالد أوهانلي بمناسبة زيارته إلى دولة الكويت. وذكرت «الخارجية» في...",
-     "body": "‏استقبل وزير الخارجية الشيخ جراح جابر الأحمد الصباح اليوم رئيس مجلس الإدارة والرئيس التنفيذي لشركة ستيت ستريت رونالد أوهانلي بمناسبة زيارته إلى دولة الكويت.\n\n«الزراعة» تطلق «ديرة».. منصة جديدة لتسهيل المعاملات منذ 33 دقيقة مجلس جامعة الكويت يعتمد ترقية 4 من أعضاء الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك منذ ساعة",
+     "body": "‏استقبل وزير الخارجية الشيخ جراح جابر الأحمد الصباح اليوم رئيس مجلس الإدارة والرئيس التنفيذي لشركة ستيت ستريت رونالد أوهانلي بمناسبة زيارته إلى دولة الكويت.\n\n«الزراعة» تطلق «ديرة».. منصة جديدة لتسهيل المعاملات منذ 53 دقيقة مجلس جامعة الكويت يعتمد ترقية 4 من أعضاء الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك منذ ساعتين",
      "published": "2026-10-28T13:16:00+03:00",
      "tier": 1
     },
@@ -728,6 +648,82 @@
      "Women's Health",
      "Private Sector",
      "Physiotherapy"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "116220fab336a618",
+   "score": 19.359,
+   "sources": [
+    "الأنباء",
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "خالد الصالح: زيادة الكشف المبكر بنسبة 30% تنقذ 120 امرأة سنوياً في الكويت",
+     "url": "https://www.alanba.com.kw/1382738",
+     "section": "kuwait",
+     "summary": "عبدالكريم العبداللهأكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان كان د. خالد الصالح أن التوعية حققت نجاحات لم يستطع الطب تحقيقها، مضيفا أنه لا يوجد د",
+     "body": "",
+     "published": "2026-10-28T19:26:21+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«كان»: زيادة الكشف المبكر 30 % تنقذ 120 امرأة في الكويت... سنوياً",
+     "url": "https://www.alraimedia.com/article/1784295/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%83%D8%A7%D9%86-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1-30-%D8%AA%D9%86%D9%82%D8%B0-120-%D8%A7%D9%85%D8%B1%D8%A3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%B3%D9%86%D9%88%D9%8A%D8%A7",
+     "section": "latest",
+     "summary": "أكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان «كان» الدكتور خالد الصالح أن التوعية حققت نجاحات لم يستطع الطب تحقيقها، مضيفاً أنه لا يوجد دواء يحقق مثل هذا الأمر.جاء ذلك خ...",
+     "body": "«يومك وردي» تعزز التوعية بسرطان الثدي في «يوم البحار» التراثية\n\nأكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان «كان» الدكتور خالد الصالح أن التوعية حققت نجاحات لم يستطع الطب تحقيقها، مضيفاً أنه لا يوجد دواء يحقق مثل هذا الأمر.\n\nجاء ذلك خلال فعالية «يومك وردي» في قرية يوم البحار التراثية، ضمن حملة التوعية بسرطان الثدي.\n\nولفت إلى أن رسالة التوعية الأولى هي تجنب المرض والثانية اكتشافه مبكراً، مشدداً على أن معرفة المرأة بالفحص الذاتي وعوامل الخطورة أفضل بكثير من انتظار العلاج.\n\nودعا النساء إلى الالتزام بالفحوصات الدورية المناسبة لأعمارهن وعوامل الخطورة، وإلى مراجعة الطبيب دون تردد عند ملاحظة أي تغير غير طبيعي، موضحاً أن الكشف المبكر يساعد على اكتشاف المرض في مراحله الأولى ويرفع فرص نجاح العلاج.\n\nونوه إلى أن الرسالة تتجاوز سرطان الثدي إلى نمط حياة متوازن، موضحاً أن الإكثار من الخضراوات والفواكه والحبوب الكاملة، والحد من الأطعمة شديدة المعالجة والسكريات، والمشي بانتظام والامتناع عن التدخين والاهتمام بالنوم، كلها تقلل خطر الأمراض المزمنة وبعض أنواع السرطان، مؤكداً أنها لا توفر حماية مطلقة.\n\nومن جانبها، أكدت مسؤولة مبادرة التوعية بسرطان الثدي الدكتورة حصة الشاهين أن الكشف المبكر يزيد فرص نجاح العلاج، موضحةً أن شعار «وَعْيُكِ حِزامُ الأمانِ الوردي» يحمل رسالة تحفيزية للمرأة للمبادرة بالاطمئنان، وأن الاهتمام بالصحة ليس ترفاً بل هو حق ومسؤولية تجاه النفس والأسرة.",
+     "published": "2026-10-28T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الصالح: زيادة الكشف المبكر 30% تنقذ 120 امرأة سنوياً من السرطان",
+     "url": "https://www.aljarida.com/article/148936",
+     "section": "local",
+     "summary": "أكد رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان (كان)، د. خالد الصالح، أن زيادة معدلات الكشف المبكر عن سرطان الثدي بنسبة 30 في المئة، بعد 20 عاماً من عمل الحملة، تُسهم في إ...",
+     "body": "",
+     "published": "2026-10-28T18:09:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Khaled Al-Saleh: 30% Increase in Early Detection Saves 120 Women Annually in Kuwait",
+    "headline_ar": "خالد الصالح: زيادة الكشف المبكر بنسبة 30% تنقذ 120 امرأة سنوياً في الكويت",
+    "summary_en": "Dr. Khaled Al-Saleh, Chairman of the National Cancer Awareness Campaign (KaN), stated that a 30% increase in early detection would save 120 women annually in Kuwait. He made these remarks during a 'Your Day is Pink' event at the traditional Yawm Al-Bihar village, emphasizing that awareness is more effective than medical treatment alone.",
+    "summary_ar": "أكد الدكتور خالد الصالح، رئيس مجلس إدارة الحملة الوطنية للتوعية بمرض السرطان (كان)، أن زيادة الكشف المبكر بنسبة 30% ستُنقذ 120 امرأة سنوياً في الكويت. جاء ذلك خلال فعالية 'يومك وردي' في قرية يوم البحار التراثية، مشدداً على أن التوعية أكثر فعالية من العلاج الطبي وحده.",
+    "why_it_matters_en": "The statistic highlights a specific, quantifiable gap in current health outcomes. It places the burden of prevention on individual behavior (self-examination, lifestyle) rather than solely on state healthcare infrastructure, potentially shifting public discourse towards personal responsibility for health.",
+    "why_it_matters_ar": "تُبرز الإحصائية فجوة محددة وقابلة للقياس في النتائج الصحية الحالية. تضع العبء على السلوك الفردي (الفحص الذاتي، نمط الحياة) بدلاً من البنية التحتية للرعاية الصحية الحكومية فقط، مما قد يُحوّل الخطاب العام نحو المسؤولية الشخصية عن الصحة.",
+    "between_the_lines_en": "The attribution is to a civil society NGO (KaN), not the Ministry of Health. The claim that 'awareness achieved successes medicine could not' is a strong rhetorical move that implicitly critiques the limits of the medical system. The specific number (120 women) is presented as a projection based on a 30% increase, but the baseline data for current detection rates is not provided in the text, making the figure difficult to verify independently from this source alone.",
+    "between_the_lines_ar": "المصدر هو منظمة مجتمع مدني (كان)، وليس وزارة الصحة. العبارة القائلة بأن 'التوعية حققت نجاحات لم يستطع الطب تحقيقها' هي حركة بلاغية قوية تنتقد ضمنيًا حدود النظام الطبي. الرقم المحدد (120 امرأة) يُقدم كإسقاط بناءً على زيادة بنسبة 30%، لكن البيانات الأساسية لمعدلات الكشف الحالية غير مذكورة في النص، مما يجعل من الصعب التحقق من الرقم بشكل مستقل من هذا المصدر وحده.",
+    "watch_next_en": "Check if the Ministry of Health releases official statistics on breast cancer detection rates to corroborate or contextualize the 120-women figure.",
+    "watch_next_ar": "التحقق مما إذا كانت وزارة الصحة ستصدر إحصائيات رسمية حول معدلات الكشف عن سرطان الثدي لدعم أو وضع الرقم (120 امرأة) في سياقه الصحيح.",
+    "confidence": "medium",
+    "confidence_reason": "The statistic is specific but lacks the underlying baseline data in the provided text, and the source is an NGO rather than a government body.",
+    "entities": [
+     "Khaled Al-Saleh",
+     "National Cancer Awareness Campaign (KaN)",
+     "Hessa Al-Shahin",
+     "Yawm Al-Bihar Village"
+    ],
+    "tags": [
+     "Public Health",
+     "Cancer Awareness",
+     "NGO",
+     "Women's Health"
     ],
     "_source": "llm"
    }
@@ -887,7 +883,7 @@
   },
   {
    "key": "b626f677fd9be9d0",
-   "score": 16.859,
+   "score": 18.359,
    "sources": [
     "الأنباء",
     "كويت نيوز",
@@ -925,7 +921,7 @@
      "lang": "ar",
      "title": "العبدالله يترأس اجتماعاً بشأن تطوير «جليب الشيوخ» وإعادة تنظيمها",
      "url": "https://www.aljarida.com/article/148908",
-     "section": "latest",
+     "section": "local",
      "summary": "ترأس سمو الشيخ أحمد عبدالله الأحمد الصباح رئيس مجلس الوزراء اجتماعا في قصر بيان اليوم بشأن تطوير منطقة جليب الشيوخ وإعادة تنظيمها.جرى خلال الاجتماع بحث سبل تعزيز الجهود الرامية إلى...",
      "body": "ترأس سمو الشيخ أحمد عبدالله الأحمد الصباح رئيس مجلس الوزراء اجتماعا في قصر بيان اليوم بشأن تطوير منطقة جليب الشيوخ وإعادة تنظيمها.\n\nجرى خلال الاجتماع بحث سبل تعزيز الجهود الرامية إلى حسن استغلال أراضي الدولة في المنطقة بما يحقق الاستفادة المثلى من مواقعها ويتماشى مع التوجهات التنموية للدولة.",
      "published": "2026-10-28T14:49:00+03:00",
@@ -956,6 +952,95 @@
      "Government",
      "Real Estate",
      "Public Policy"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
+   "key": "ced06f5a9cc75970",
+   "score": 16.532,
+   "sources": [
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سمو الأمير يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
+     "url": "https://www.alraimedia.com/article/1784347/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%85%D9%88-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D9%87%D9%86%D8%A6-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A-%D8%A8%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A9-%D8%B0%D9%83%D8%B1%D9%89-%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D9%84%D8%A8%D9%84%D8%A7%D8%AF%D9%87",
+     "section": "local",
+     "summary": "بعث سمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح ببرقية تهنئة إلى رئيس جمهورية تركيا رجب طيب أردوغان أعرب فيها سموه عن خالص تهانيه بمناسبة ذكرى يوم الجمهورية لبلاده، متمنيا سموه...",
+     "body": "",
+     "published": "2026-10-29T09:14:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "رئيس الوزراء يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
+     "url": "https://www.alanba.com.kw/1382795",
+     "section": "official",
+     "summary": "بعث سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا الصديقة بمناسبة ذكرى يوم الجمهورية لبلاده.",
+     "body": "",
+     "published": "2026-10-29T05:59:26+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "ولي العهد يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
+     "url": "https://www.alanba.com.kw/1382794",
+     "section": "official",
+     "summary": "بعث سمو ولي العهد الشيخ صباح الخالد ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الجمهورية لبلاده، متمنيا سموه له موفور الصحة والسعادة، ولجمهورية تركيا وشعبها الصديق المزيد من التقدم والازدهار.",
+     "body": "",
+     "published": "2026-10-29T05:57:35+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الأمير يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
+     "url": "https://www.alanba.com.kw/1382793",
+     "section": "official",
+     "summary": "بعث صاحب السمو أمير البلاد الشيخ مشعل الأحمد ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا، أعرب فيها سموه عن خالص تهانيه بمناسبة ذكرى يوم الجمهورية لبلاده، متمنيا سموه له موفور الصحة والعافية ولجمهورية تركيا وشعبها الصديق دوام التقدم والازده",
+     "body": "بعث صاحب السمو أمير البلاد الشيخ مشعل الأحمد ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا، أعرب فيها سموه عن خالص تهانيه بمناسبة ذكرى يوم الجمهورية لبلاده، متمنيا سموه له موفور الصحة والعافية ولجمهورية تركيا وشعبها الصديق دوام التقدم والازدهار.",
+     "published": "2026-10-29T05:55:57+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Kuwaiti leadership sends congratulations to Turkish President on Republic Day",
+    "headline_ar": "قيادة الكويت تهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية",
+    "summary_en": "Kuwaiti Emir Sheikh Meshal Al-Ahmad sent a congratulatory telegram to Turkish President Recep Tayyip Erdogan for the Republic Day anniversary. The news was reported by Al-Anbaa, which also listed similar congratulatory messages from the Prime Minister, the Crown Prince, and the Emir himself.",
+    "summary_ar": "بعث أمير البلاد الشيخ مشعل الأحمد ببرقية تهنئة إلى الرئيس التركي رجب طيب أردوغان بمناسبة ذكرى يوم الجمهورية. ونشرت جريدة الأنباء خبر إرسال التهنئة، مع الإشارة إلى تهنئات مماثلة من رئيس الوزراء وولي العهد.",
+    "why_it_matters_en": "This is a standard diplomatic protocol that maintains bilateral relations between Kuwait and Turkey. It does not indicate a change in policy, trade, or security cooperation.",
+    "why_it_matters_ar": "هذا إجراء دبلوماسي روتيني يهدف إلى الحفاظ على العلاقات الثنائية بين الكويت وتركيا، ولا يشير إلى أي تغيير في السياسات أو التعاون الأمني أو التجاري.",
+    "between_the_lines_en": "No significant subtext — this reads as a routine administrative announcement. The divergence between Al-Ray's headline (Emir only) and Al-Anbaa's headlines (listing multiple officials) reflects standard wire service distribution where Al-Anbaa aggregates the full set of state telegrams, while Al-Ray highlights the head of state. The attribution is direct and unambiguous, with no 'informed sources' or vague language.",
+    "between_the_lines_ar": "لا يوجد سياق خفي جوهري — الخبر يقرأ كإعلان إداري روتيني. الاختلاف بين عناوين الرأي (الأمير فقط) وعناوين الأنباء (ذكر عدة مسؤولين) يعكس نمط توزيع وكالات الأنباء حيث تجمع الأنباء مجموعة البرقيات الرسمية كاملة، بينما تبرز الرأي رئيس الدولة. المصدر مباشر وغير ملتبس، ولا توجد إشارات إلى 'مصادر مطلعة' أو لغة غامضة.",
+    "watch_next_en": "No specific follow-up is required unless a new diplomatic event or joint statement between Kuwait and Turkey is announced in the coming days.",
+    "watch_next_ar": "لا يوجد متابعة محددة مطلوبة ما لم يتم الإعلان عن حدث دبلوماسي جديد أو بيان مشترك بين الكويت وتركيا في الأيام القادمة.",
+    "confidence": "high",
+    "confidence_reason": "The text is a direct, unambiguous diplomatic telegram with no room for interpretation or hidden meaning.",
+    "entities": [
+     "Sheikh Meshal Al-Ahmad",
+     "Recep Tayyip Erdogan",
+     "Kuwait",
+     "Turkey",
+     "Al-Anbaa",
+     "Al-Ray"
+    ],
+    "tags": [
+     "Diplomacy",
+     "Kuwait-Turkey Relations",
+     "Republic Day",
+     "State Protocol"
     ],
     "_source": "llm"
    }
@@ -1054,7 +1139,7 @@
      "url": "https://www.alraimedia.com/article/1784305/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D8%AD%D8%AF%D9%8A-%D8%B2%D9%8A%D9%86-%D9%84%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D9%85%D9%86%D8%B5%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%8A%D9%82%D9%88%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8",
      "section": "latest",
      "summary": "أطلقت «زين الكويت»، المبادرة الوطنية «تحدّي زين للابتكار»، التي تُعزّز دور الشركة كشريك رئيسي في تمكين الابتكار وبناء قوة اقتصادية مبنية على المعرفة، عبر تحويل طاقات الشباب إلى حلو...",
-     "body": "«زين» تتحد مع 10 جامعات ومؤسّسات أكاديمية رائدة في الكويت\n\nأطلقت «زين الكويت»، المبادرة الوطنية «تحدّي زين للابتكار»، التي تُعزّز دور الشركة كشريك رئيسي في تمكين الابتكار وبناء قوة اقتصادية مبنية على المعرفة، عبر تحويل طاقات الشباب إلى حلول عملية تُعالج التحديات على مستوى الدولة، وتخلق أثراً اقتصادياً ملموساً في العصر الرقمي.\n\nوتأتي المبادرة بشراكة 10 جامعات وكُلّيات رائدة في الكويت، هي: جامعة الكويت، وجامعة عبدالله السالم، والجامعة الأمريكية في الكويت، وجامعة الخليج للعلوم والتكنولوجيا، والجامعة الأسترالية، والجامعة العربية المفتوحة، وكُلّية الكويت التقنية، والكُلّية الكندية في الكويت، وكُلّية الكويت للعلوم والتكنولوجيا، وكُليّة بوكسهل الكويت.\n\nالذهب يتراجع مع ارتفاع الدولار والتركيز على بيانات تضخم أميركية منذ ساعتين «أبل» تكشف النقاب عن كمبيوتر محمول بشاشة تعمل باللمس منذ 3 ساعات\n\nوقال الرئيس التنفيذي لـ «زين الكويت» نواف الغربللي: «طموح الكويت لبناء اقتصاد معرفي مزدهر يرتكز على قدرتنا لتحويل المواهب والأفكار والتقنيات الناشئة إلى قيمة اقتصادية حقيقية، وهو ما يتطلّب تعزيز التكامل بين القطاع الأكاديمي وقطاعات الأعمال، وتهيئة بيئة مُحفّزة تحتضن الابتكار وتدعم تحويل الأفكار إلى إنجازات ملموسة».\n\nوأضاف: «من خلال تحدّي (زين للابتكار)، نسعى إلى الإسهام في بناء هذه البيئة عبر تمكين الشباب من توظيف معارفهم ومهاراتهم لمواجهة التحديات الواقعية، وتطوير حلول مبتكرة قادرة على إحداث نقلة نوعية في مختلف القطاعات، وفتح آفاق جديدة للنمو والفرص الاقتصادية».\n\nويرتكز التحدّي على نهج تطبيقي يدمج تحديات السوق الحقيقية داخل المُقرّرات الدراسية التي تعتمدها الجامعات والكُليّات المُشاركة، بحيث ستُقدّم «زين» بيانات معتمدة حول مختلف القضايا التي تعكس احتياجات الأعمال في القطاعات المختلفة، لتدعو من خلالها المشاركين إلى إيجاد الحلول التي تستجيب للتحديات الوطنية الراهنة ومتطلبات السوق المستقبلية، بما يعزّز تحويل المعرفة إلى نماذج قابلة للتبنّي والتطوير.\n\nويتميّز البرنامج باشتراط مُخرجات عملية تتضمّن نماذج أولية وظيفية ومشاريع «MVP» قابلة للتجربة، مع عدم قبول المشاركات التي تقتصر على التقارير النظرية فقط، بما يُرسّخ عقلية مستدامة للابتكار ترتكز على التنفيذ والقياس والتواصل الإبداعي.\n\nكما يُركّز التحدّي على ابتكارات العلوم والتكنولوجيا والهندسة والفن والرياضيات «STEAM»، والبحث والتطوير التطبيقي، والنمذجة الأولية، ورفع مهارات الشباب وجاهزيتهم للمستقبل، إلى جانب بناء تعاون فعّال بين القطاع الخاص والجامعات والشركات الناشئة والطلبة لتشكيل منظومة ابتكار أكثر مرونة وقدرة على توليد القيمة.\n\nوتشمل رحلة التحدي إشرافاً مباشراً من سُفراء «زين للابتكار» عبر الإرشاد والمتابعة والتقييم، لضمان تعرّض الطلبة لتجارب وخبرات واقعية وتبادل معرفي ثنائي الاتجاه يرفع جودة الحلول واستعدادها للتطبيق، بحيث سيشارك مجموعة من الموظفين الذين يُمثّلون مُختلف قطاعات وإدارات الشركة لضمان محتوى متنوع وغني.\n\nوستُختتم المبادرة بإقامة فعالية «تحدي زين للابتكار» لاستعراض حلول جاهزة للعرض والتجربة تعالج تحديات مجتمعية وتجارية حقيقية، مع إمكانية حصول أفضل الفرق على فرص إضافية ضمن منظومة «زين» للابتكار.",
+     "body": "«زين» تتحد مع 10 جامعات ومؤسّسات أكاديمية رائدة في الكويت\n\nأطلقت «زين الكويت»، المبادرة الوطنية «تحدّي زين للابتكار»، التي تُعزّز دور الشركة كشريك رئيسي في تمكين الابتكار وبناء قوة اقتصادية مبنية على المعرفة، عبر تحويل طاقات الشباب إلى حلول عملية تُعالج التحديات على مستوى الدولة، وتخلق أثراً اقتصادياً ملموساً في العصر الرقمي.\n\nوتأتي المبادرة بشراكة 10 جامعات وكُلّيات رائدة في الكويت، هي: جامعة الكويت، وجامعة عبدالله السالم، والجامعة الأمريكية في الكويت، وجامعة الخليج للعلوم والتكنولوجيا، والجامعة الأسترالية، والجامعة العربية المفتوحة، وكُلّية الكويت التقنية، والكُلّية الكندية في الكويت، وكُلّية الكويت للعلوم والتكنولوجيا، وكُليّة بوكسهل الكويت.\n\nالرئيس التنفيذي لبورصة مسقط: 3 إدراجات متوقعة بالطاقة والتكنولوجيا 2027 منذ 8 دقائق تطبيق «الضريبة الانتقائية» ينتظر القانون المحلي منذ 8 دقائق\n\nوقال الرئيس التنفيذي لـ «زين الكويت» نواف الغربللي: «طموح الكويت لبناء اقتصاد معرفي مزدهر يرتكز على قدرتنا لتحويل المواهب والأفكار والتقنيات الناشئة إلى قيمة اقتصادية حقيقية، وهو ما يتطلّب تعزيز التكامل بين القطاع الأكاديمي وقطاعات الأعمال، وتهيئة بيئة مُحفّزة تحتضن الابتكار وتدعم تحويل الأفكار إلى إنجازات ملموسة».\n\nوأضاف: «من خلال تحدّي (زين للابتكار)، نسعى إلى الإسهام في بناء هذه البيئة عبر تمكين الشباب من توظيف معارفهم ومهاراتهم لمواجهة التحديات الواقعية، وتطوير حلول مبتكرة قادرة على إحداث نقلة نوعية في مختلف القطاعات، وفتح آفاق جديدة للنمو والفرص الاقتصادية».\n\nويرتكز التحدّي على نهج تطبيقي يدمج تحديات السوق الحقيقية داخل المُقرّرات الدراسية التي تعتمدها الجامعات والكُليّات المُشاركة، بحيث ستُقدّم «زين» بيانات معتمدة حول مختلف القضايا التي تعكس احتياجات الأعمال في القطاعات المختلفة، لتدعو من خلالها المشاركين إلى إيجاد الحلول التي تستجيب للتحديات الوطنية الراهنة ومتطلبات السوق المستقبلية، بما يعزّز تحويل المعرفة إلى نماذج قابلة للتبنّي والتطوير.\n\nويتميّز البرنامج باشتراط مُخرجات عملية تتضمّن نماذج أولية وظيفية ومشاريع «MVP» قابلة للتجربة، مع عدم قبول المشاركات التي تقتصر على التقارير النظرية فقط، بما يُرسّخ عقلية مستدامة للابتكار ترتكز على التنفيذ والقياس والتواصل الإبداعي.\n\nكما يُركّز التحدّي على ابتكارات العلوم والتكنولوجيا والهندسة والفن والرياضيات «STEAM»، والبحث والتطوير التطبيقي، والنمذجة الأولية، ورفع مهارات الشباب وجاهزيتهم للمستقبل، إلى جانب بناء تعاون فعّال بين القطاع الخاص والجامعات والشركات الناشئة والطلبة لتشكيل منظومة ابتكار أكثر مرونة وقدرة على توليد القيمة.\n\nوتشمل رحلة التحدي إشرافاً مباشراً من سُفراء «زين للابتكار» عبر الإرشاد والمتابعة والتقييم، لضمان تعرّض الطلبة لتجارب وخبرات واقعية وتبادل معرفي ثنائي الاتجاه يرفع جودة الحلول واستعدادها للتطبيق، بحيث سيشارك مجموعة من الموظفين الذين يُمثّلون مُختلف قطاعات وإدارات الشركة لضمان محتوى متنوع وغني.\n\nوستُختتم المبادرة بإقامة فعالية «تحدي زين للابتكار» لاستعراض حلول جاهزة للعرض والتجربة تعالج تحديات مجتمعية وتجارية حقيقية، مع إمكانية حصول أفضل الفرق على فرص إضافية ضمن منظومة «زين» للابتكار.",
      "published": "2026-10-28T22:00:00+03:00",
      "tier": 1
     },
@@ -1204,7 +1289,7 @@
      "url": "https://www.alraimedia.com/article/1784231/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%8A%D9%88%D8%B3%D9%81-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%82%D8%A7%D8%A6%D8%AF-%D8%AE%D9%81%D8%B1-%D8%A7%D9%84%D8%B3%D9%88%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A",
      "section": "local",
      "summary": "استقبل النائب الأول لرئيس مجلس الوزراء وزير الداخلية الشيخ فهد اليوسف، في مكتبه بمقر وزارة الداخلية، قائد خفر السواحل بمملكة البحرين الشقيقة العميد الركن البحري عبدالرحمن الرويعي و...",
-     "body": "بحثا تبادل الخبرات الفنية والتشغيلية والاستفادة من التقنيات الحديثة\n\nاستقبل النائب الأول لرئيس مجلس الوزراء وزير الداخلية الشيخ فهد اليوسف، في مكتبه بمقر وزارة الداخلية، قائد خفر السواحل بمملكة البحرين الشقيقة العميد الركن البحري عبدالرحمن الرويعي والوفد المرافق له، وذلك بمناسبة زيارتهم الرسمية للبلاد، بحضور مدير عام الإدارة العامة لخفر السواحل العميد الركن البحري الشيخ مبارك علي يوسف الصباح.\n\nورحّب اليوسف بالوفد في بلدهم الثاني الكويت، مؤكداً عمق العلاقات الأخوية والتاريخية الراسخة التي تجمع دولة الكويت ومملكة البحرين، وما يربط البلدين والشعبين الشقيقين من أواصر المحبة والتقدير، والحرص المشترك على توطيد التعاون والتنسيق الأمني.\n\nوزير التربية يبحث مع وفد «غوغل كلاود» تطوير حلول الذكاء الاصطناعي في التعليم منذ 16 دقيقة الكويت والسعودية: تكثيف الجهود المشتركة لمواجهة التحديات الراهنة منذ ساعة\n\nوأكد أهمية مواصلة التنسيق وتبادل الزيارات والخبرات بين الأجهزة الأمنية في البلدين، بما يدعم العمل الأمني البحري، ويعزز مسيرة التعاون الأمني الخليجي المشترك.",
+     "body": "بحثا تبادل الخبرات الفنية والتشغيلية والاستفادة من التقنيات الحديثة\n\nاستقبل النائب الأول لرئيس مجلس الوزراء وزير الداخلية الشيخ فهد اليوسف، في مكتبه بمقر وزارة الداخلية، قائد خفر السواحل بمملكة البحرين الشقيقة العميد الركن البحري عبدالرحمن الرويعي والوفد المرافق له، وذلك بمناسبة زيارتهم الرسمية للبلاد، بحضور مدير عام الإدارة العامة لخفر السواحل العميد الركن البحري الشيخ مبارك علي يوسف الصباح.\n\nورحّب اليوسف بالوفد في بلدهم الثاني الكويت، مؤكداً عمق العلاقات الأخوية والتاريخية الراسخة التي تجمع دولة الكويت ومملكة البحرين، وما يربط البلدين والشعبين الشقيقين من أواصر المحبة والتقدير، والحرص المشترك على توطيد التعاون والتنسيق الأمني.\n\nوزير التربية يبحث مع وفد «غوغل كلاود» تطوير حلول الذكاء الاصطناعي في التعليم منذ 5 دقائق الكويت والسعودية: تكثيف الجهود المشتركة لمواجهة التحديات الراهنة منذ ساعة\n\nوأكد أهمية مواصلة التنسيق وتبادل الزيارات والخبرات بين الأجهزة الأمنية في البلدين، بما يدعم العمل الأمني البحري، ويعزز مسيرة التعاون الأمني الخليجي المشترك.",
      "published": "2026-10-28T16:34:00+03:00",
      "tier": 1
     }
@@ -1267,7 +1352,7 @@
      "url": "https://www.alraimedia.com/article/1784249/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%84%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D8%A9-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D9%81%D9%8A-%D9%85%D8%B3%D9%82%D8%B7-%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%AA%D9%87-%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D9%83%D8%B1%D8%A9-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D9%84%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9",
      "section": "local",
      "summary": "استعرض وفد من معهد الكويت للأبحاث العلمية إطار إستراتيجيته المبتكرة لإدارة ملوحة الأراضي الزراعية بهدف دعم الأمن الغذائي وذلك خلال مشاركته في (مؤتمر المبتكرين والمبدعين العرب) في ا...",
-     "body": "استعرض وفد من معهد الكويت للأبحاث العلمية إطار إستراتيجيته المبتكرة لإدارة ملوحة الأراضي الزراعية بهدف دعم الأمن الغذائي وذلك خلال مشاركته في (مؤتمر المبتكرين والمبدعين العرب) في العاصمة العمانية مسقط.\n\nوقالت رئيس الوفد الباحث العلمي المشارك من مركز أبحاث البيئة والعلوم الحياتية في المعهد الدكتورة أمل الكندري لوكالة الأنباء الكويتية (كونا) اليوم الأربعاء إنها شاركت وأعضاء في برنامج الأمن الغذائي التابع للمركز في أعمال المؤتمر بهدف تسليط الضوء على هذا التحدي المتمثل بملوحة التربة والذي تعاني منه معظم دول الخليج.\n\nوأوضحت في هذا الصدد أن التربة الصحية والمياه جيدة النوعية تشكلان «حجر الأساس» للإنتاج الزراعي والأمن الغذائي لافتة إلى التهديد الذي يمثله «تملح التربة» وسط تزايد التقلبات المناخية وازدياد الضغط على موارد المياه العذبة وارتفاع معدلات التبخر.\n\nوذكرت الكندري أن التملح لم يعد مشكلة زراعية محلية فحسب «بل أصبح تحديا وطنيا إستراتيجيا يتطلب استجابة منسقة» مشيرة إلى أن كشف تقييم ملوحة التربة في منطقة الزراعة الشمالية (العبدلي) أظهر أن مستويات الأملاح في أكثر من 95 من المزارع التي شملتها الدراسة بلغت «حدودا» مقلقة يصبح معها الإنتاج الأمثل للمحاصيل والأمن الغذائي «على المحك» ما يستدعي وضع استراتيجية لإدارة الأراضي الزراعية.\n\nوأكدت أن إطار الإستراتيجية والقائم على الأدلة العلمية يمثل «تحولا محوريا» من المعالجات الآنية المحدودة إلى «نهج شامل واستباقي» لتقييم تملح الأراضي الزراعية وإدارته بما يحسن إنتاجية المزارع في الكويت.\n\nمن جانبه قال الباحث في المعهد ضاري الشمري لـ (كونا) إن الإستراتيجية المعدة تقدم «خريطة طريق» شاملة لأصحاب المصلحة المتعددين ومنهم الباحثون ومقدمو الخدمات الإرشادية والمزارعون وصانعو السياسات لبناء توافق جماعي يعزز إنتاجية المزارع المروية في ظل الملوحة عبر مختلف النظم الزراعية في الكويت من أجل الأمن الغذائي.\n\nوأضاف أن من شأن الإستراتيجية أن تزود المزارعين الكويتيين وخدمات الإرشاد الوطنية بالمعرفة والمهارات المناسبة بالطريقة الملائمة لمساعدتهم على استخدام موارد مزارعهم بصورة مستدامة من خلال اختيار المحاصيل الموجهة وفق الملوحة.\n\nبدورها قالت الباحثة في المعهد شيخة الزامل ل(كونا) إن من الأهداف الرئيسة للإستراتيجية الاستخدام الأمثل والإدارة الكفؤة لموارد التربة والمياه الجوفية باعتماد أساليب متكاملة (فيزيائية وكيميائية وهيدرولوجية وحيوية) لاستصلاح المزارع المتأثرة بالأملاح إلى جانب تهيئة الأرضية لصانعي القرار والخدمات الإرشادية.\n\nوعن عملية تقييم ملوحة التربة في منطقة الجذور أوضحت الزامل أنها جرت بعد أن تم جمع 100 عينة تربة من عمق بين صفر و30 سنتيمترا من 100 مزرعة قبل أن يتم تحليل العينات لقياس التوصيل الكهربائي لمستخلص عجينة التربة المشبعة.\n\nوأفادت بأن من بين 100 مزرعة تأثرت 98 بالتملح على العمق المذكور في منطقة العبدلي الزراعية وتراوحت مستوياته بين متوسطة الملوحة وشديدة الملوحة جدا.\n\nوحول أبرز الملاحظات المرصودة قبل الشروع في إعداد إطار الإستراتيجية قال الباحث في المعهد عبدالرحمن العنزي ل(كونا) إنه لوحظ في منطقة العبدلي الزراعية تملح التربة السطحية وتحت السطحية حيث استخدمت المياه شبه المالحة في ري المحاصيل.\n\nوأوضح أنه ومن أثر ذلك غابت النباتات إذ «تظهر القشرة الملحية السطحية بوضوح فضلا عن تقزم نمو النباتات وانعدام إنتاج الثمار أو صغر حجمها عن المعتاد في نخيل التمر فيما تم العثور على النباتات إما ميتة أو على وشك الموت في البقع المتملحة».\n\nووفق القائمين على الإستراتيجية فإن تنفيذها يضمن استمرارية الإنتاج الغذائي المحلي من خلال تبني سياسة تحديث الري بالمياه الجوفية شبه المالحة ورسم خرائط مخاطر التربة والمياه والتحول إلى المحاصيل المتحملة للملوحة واعتماد محسنات التربة المستمدة من الطبيعة ودمج نظم المعلومات الجغرافية (جي.آي.أس) لرصد ملوحة المزارع المستهدفة.\n\nوأكدوا في هذا الصدد ضرورة تشجيع المزارعين على تدوير المخلفات الزراعية إلى أسمدة عضوية عبر التسميد العضوي (كمبوست) والتغطية والمعالجة الحيوية للحفاظ على الكربون العضوي في التربة وكبح تراكم الأملاح وتعزيز النشاط الميكروبي المفيد في البيئات شديدة الجفاف.\n\nكما أكدوا أهمية تنظيم تدريب متخصص في تقييم الملوحة وإدارة التربة وصونها والاستخدام المستدام لموارد التربة والمياه واعتماد أصناف المحاصيل المتحملة للملوحة وممارسات توفير المياه الحديثة وتنويع الدورات الزراعية وكفاءة إدارة الصرف.\n\nوبدأت الأول من أمس الاثنين أعمال (مؤتمر المبتكرين والمبدعين العرب) لبحث آليات دعم الانتقال من الفكرة إلى المنتج وتعزيز بيئة الابتكار وبراءات الاختراع وبناء شبكات تعاون عربية مستدامة بمشاركة وفد من معهد الكويت للأبحاث العلمية وجامعة الكويت.\n\nونظمت هيئة البحث العلمي والابتكار العمانية المؤتمر على أمد ثلاثة أيام بالتعاون اللجنة الوطنية العمانية للتربية والثقافة والعلوم والجامعة العربية المفتوحة وبالتنسيق مع المنظمة العربية للتربية والثقافة والعلوم (ألكسو) بحضور نخبة من المبتكرين العرب والخبراء والمختصين والباحثين ورواد الأعمال.",
+     "body": "استعرض وفد من معهد الكويت للأبحاث العلمية إطار إستراتيجيته المبتكرة لإدارة ملوحة الأراضي الزراعية بهدف دعم الأمن الغذائي وذلك خلال مشاركته في (مؤتمر المبتكرين والمبدعين العرب) في العاصمة العمانية مسقط.\n\nوقالت رئيس الوفد الباحث العلمي المشارك من مركز أبحاث البيئة والعلوم الحياتية في المعهد الدكتورة أمل الكندري لوكالة الأنباء الكويتية (كونا) اليوم الأربعاء إنها شاركت وأعضاء في برنامج الأمن الغذائي التابع للمركز في أعمال المؤتمر بهدف تسليط الضوء على هذا التحدي المتمثل بملوحة التربة والذي تعاني منه معظم دول الخليج.\n\nالجيش: «برق 1» يختتم فعالياته باختبار الجاهزية والتنسيق الميداني منذ ساعتين نائب رئيس «الإطفاء»: التدريب المحترف.. أساس لرفع الكفاءة وضمان الجاهزية منذ ساعتين\n\nوأوضحت في هذا الصدد أن التربة الصحية والمياه جيدة النوعية تشكلان «حجر الأساس» للإنتاج الزراعي والأمن الغذائي لافتة إلى التهديد الذي يمثله «تملح التربة» وسط تزايد التقلبات المناخية وازدياد الضغط على موارد المياه العذبة وارتفاع معدلات التبخر.\n\nوذكرت الكندري أن التملح لم يعد مشكلة زراعية محلية فحسب «بل أصبح تحديا وطنيا إستراتيجيا يتطلب استجابة منسقة» مشيرة إلى أن كشف تقييم ملوحة التربة في منطقة الزراعة الشمالية (العبدلي) أظهر أن مستويات الأملاح في أكثر من 95 من المزارع التي شملتها الدراسة بلغت «حدودا» مقلقة يصبح معها الإنتاج الأمثل للمحاصيل والأمن الغذائي «على المحك» ما يستدعي وضع استراتيجية لإدارة الأراضي الزراعية.\n\nوأكدت أن إطار الإستراتيجية والقائم على الأدلة العلمية يمثل «تحولا محوريا» من المعالجات الآنية المحدودة إلى «نهج شامل واستباقي» لتقييم تملح الأراضي الزراعية وإدارته بما يحسن إنتاجية المزارع في الكويت.\n\nمن جانبه قال الباحث في المعهد ضاري الشمري لـ (كونا) إن الإستراتيجية المعدة تقدم «خريطة طريق» شاملة لأصحاب المصلحة المتعددين ومنهم الباحثون ومقدمو الخدمات الإرشادية والمزارعون وصانعو السياسات لبناء توافق جماعي يعزز إنتاجية المزارع المروية في ظل الملوحة عبر مختلف النظم الزراعية في الكويت من أجل الأمن الغذائي.\n\nوأضاف أن من شأن الإستراتيجية أن تزود المزارعين الكويتيين وخدمات الإرشاد الوطنية بالمعرفة والمهارات المناسبة بالطريقة الملائمة لمساعدتهم على استخدام موارد مزارعهم بصورة مستدامة من خلال اختيار المحاصيل الموجهة وفق الملوحة.\n\nبدورها قالت الباحثة في المعهد شيخة الزامل ل(كونا) إن من الأهداف الرئيسة للإستراتيجية الاستخدام الأمثل والإدارة الكفؤة لموارد التربة والمياه الجوفية باعتماد أساليب متكاملة (فيزيائية وكيميائية وهيدرولوجية وحيوية) لاستصلاح المزارع المتأثرة بالأملاح إلى جانب تهيئة الأرضية لصانعي القرار والخدمات الإرشادية.\n\nوعن عملية تقييم ملوحة التربة في منطقة الجذور أوضحت الزامل أنها جرت بعد أن تم جمع 100 عينة تربة من عمق بين صفر و30 سنتيمترا من 100 مزرعة قبل أن يتم تحليل العينات لقياس التوصيل الكهربائي لمستخلص عجينة التربة المشبعة.\n\nوأفادت بأن من بين 100 مزرعة تأثرت 98 بالتملح على العمق المذكور في منطقة العبدلي الزراعية وتراوحت مستوياته بين متوسطة الملوحة وشديدة الملوحة جدا.\n\nوحول أبرز الملاحظات المرصودة قبل الشروع في إعداد إطار الإستراتيجية قال الباحث في المعهد عبدالرحمن العنزي ل(كونا) إنه لوحظ في منطقة العبدلي الزراعية تملح التربة السطحية وتحت السطحية حيث استخدمت المياه شبه المالحة في ري المحاصيل.\n\nوأوضح أنه ومن أثر ذلك غابت النباتات إذ «تظهر القشرة الملحية السطحية بوضوح فضلا عن تقزم نمو النباتات وانعدام إنتاج الثمار أو صغر حجمها عن المعتاد في نخيل التمر فيما تم العثور على النباتات إما ميتة أو على وشك الموت في البقع المتملحة».\n\nووفق القائمين على الإستراتيجية فإن تنفيذها يضمن استمرارية الإنتاج الغذائي المحلي من خلال تبني سياسة تحديث الري بالمياه الجوفية شبه المالحة ورسم خرائط مخاطر التربة والمياه والتحول إلى المحاصيل المتحملة للملوحة واعتماد محسنات التربة المستمدة من الطبيعة ودمج نظم المعلومات الجغرافية (جي.آي.أس) لرصد ملوحة المزارع المستهدفة.\n\nوأكدوا في هذا الصدد ضرورة تشجيع المزارعين على تدوير المخلفات الزراعية إلى أسمدة عضوية عبر التسميد العضوي (كمبوست) والتغطية والمعالجة الحيوية للحفاظ على الكربون العضوي في التربة وكبح تراكم الأملاح وتعزيز النشاط الميكروبي المفيد في البيئات شديدة الجفاف.\n\nكما أكدوا أهمية تنظيم تدريب متخصص في تقييم الملوحة وإدارة التربة وصونها والاستخدام المستدام لموارد التربة والمياه واعتماد أصناف المحاصيل المتحملة للملوحة وممارسات توفير المياه الحديثة وتنويع الدورات الزراعية وكفاءة إدارة الصرف.\n\nوبدأت الأول من أمس الاثنين أعمال (مؤتمر المبتكرين والمبدعين العرب) لبحث آليات دعم الانتقال من الفكرة إلى المنتج وتعزيز بيئة الابتكار وبراءات الاختراع وبناء شبكات تعاون عربية مستدامة بمشاركة وفد من معهد الكويت للأبحاث العلمية وجامعة الكويت.\n\nونظمت هيئة البحث العلمي والابتكار العمانية المؤتمر على أمد ثلاثة أيام بالتعاون اللجنة الوطنية العمانية للتربية والثقافة والعلوم والجامعة العربية المفتوحة وبالتنسيق مع المنظمة العربية للتربية والثقافة والعلوم (ألكسو) بحضور نخبة من المبتكرين العرب والخبراء والمختصين والباحثين ورواد الأعمال.",
      "published": "2026-10-28T21:36:00+03:00",
      "tier": 1
     }
@@ -1318,7 +1403,7 @@
      "url": "https://www.alraimedia.com/article/1784294/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AC%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D8%B1%D9%83%D9%8A%D8%B2%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
      "section": "local",
      "summary": "أكد وزير الخارجية الشيخ جراح جابر الأحمد الصباح، دعم دولة الكويت الثابت للأمم المتحدة والتزامها الراسخ بمبادئ ميثاقها، مشدداً على أن تعزيز فاعلية المنظمة وتغليب لغة الدبلوماسية وال...",
-     "body": "أكد دعمها الثابت للأمم المتحدة والتزامها الراسخ بمبادئ ميثاقها\n\nأكد وزير الخارجية الشيخ جراح جابر الأحمد الصباح، دعم دولة الكويت الثابت للأمم المتحدة والتزامها الراسخ بمبادئ ميثاقها، مشدداً على أن تعزيز فاعلية المنظمة وتغليب لغة الدبلوماسية والتعاون الدولي يشكّلان ركائز أساسية لبناء مستقبل أكثر أمناً وسلاماً وازدهاراً.\n\nجاء ذلك في كلمة للشيخ جراح الجابر، مساء الثلاثاء، خلال احتفال «يوم الأمم المتحدة» الذي أحيته بعثة الأمم المتحدة لدى البلاد تحت رعاية وزير الخارجية، بشعار «قوة الدبلوماسية»، وحضور السفراء ورؤساء البعثات الدبلوماسية المعتمدة لدى البلاد، ورؤساء المكاتب التمثيلية الدولية وعدد من كبار المسؤولين في الدولة.\n\nوزير «الاتصالات»: تبادل الخبرات والتجارب الخليجية في الحكومة الرقمية يعزز التكامل وتطوير الخدمات منذ 57 دقيقة الكويت وباكستان.. تطوير التعاون البحري وتوطيد العلاقات العسكرية منذ ساعة\n\nوأشار إلى أهمية شعار الاحتفالية لهذا العام في ظل ما يشهده العالم من أزمات متلاحقة ونزاعات وتوترات جيوسياسية متصاعدة، موضحا أن الدبلوماسية تمثل أداة فاعلة لمنع النزاعات وتقريب وجهات النظر وبناء الثقة، لا سيما حين تستند إلى ميثاق الأمم المتحدة والقانون الدولي.\n\nوأكد أن الدبلوماسية تشكل ركيزة أساسية في هوية الكويت، مبيناً أنه منذ انضمامها إلى الأمم المتحدة عام 1963 انتهجت الكويت سياسة خارجية متوازنة ومعتدلة تقوم على احترام سيادة الدول وسلامة أراضيها، وعدم التدخل في شؤونها الداخلية وإعلاء قيم الحوار والوساطة لتسوية النزاعات.\n\nوأضاف أن الكويت واصلت على مدى العقود الماضية مساعيها لاحتواء الأزمات الإقليمية والدولية وخفض حدة التوترات، سواء عبر مبادرات معلنة أو جهود دبلوماسية هادئة، انطلاقاً من إيمانها بقدرة الدبلوماسية على إيجاد الحلول حتى في أصعب الظروف.\n\nواستذكر ببالغ التقدير والامتنان، الموقف التاريخي للأمم المتحدة، لا سيما مجلس الأمن إزاء الغزو العراقي لدولة الكويت عام 1990، مؤكدا أن تحرير الكويت عام 1991 يعد من أبرز قصص نجاح الأمم المتحدة ويجسد فاعلية القانون الدولي وميثاق الأمم المتحدة في صون سيادة الدول.\n\nوفي إطار الشراكة الممتدة بين الكويت والأمم المتحدة على مدى أكثر من ستة عقود، نوه الشيخ جراح الجابر، بما أثمرته هذه الشراكة من مبادرات إنسانية وتنموية أسهمت في دعم المجتمعات المتضررة من النزاعات والكوارث الطبيعية، وتعزيز الجهود الرامية إلى تحقيق أهداف التنمية المستدامة بالتعاون مع مختلف وكالات الأمم المتحدة وبرامجها وصناديقها.\n\nوأكد أن العمل الإنساني يمثل قيمة أصيلة ومتجذرة في المجتمع الكويتي، انعكست في السياسة الخارجية للدولة وتجسدت في العديد من المبادرات، من أبرزها تأسيس الصندوق الكويتي للتنمية الاقتصادية العربية عام 1961، مشدداً على الترابط الوثيق بين السلام والتنمية إذ لا سلام دون تنمية ولا تنمية دون سلام.\n\nكما أكد أن الكويت في ظل القيادة الحكيمة لصاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح، وسمو ولي العهد الشيخ صباح خالد الحمد الصباح، ستواصل أداء دورها شريكاً فاعلاً وموثوقاً للأمم المتحدة، ودعم العمل متعدد الأطراف والحلول الدبلوماسية السلمية والجهود الإنسانية، بما يسهم في تحقيق الأمن والاستقرار والازدهار.\n\nمن جانبها، أكدت ممثل الأمين العام للأمم المتحدة والمنسق المقيم في البلاد غادة الطاهر، أن دولة الكويت جعلت من الوساطة والدبلوماسية الإنسانية سمة مميزة لسياستها الخارجية، منذ انضمامها إلى الأمم المتحدة عام 1963، مشيدة بشراكتها الراسخة مع المنظمة الدولية وإسهاماتها الإنسانية والتنموية على مدى العقود الماضية.\n\nوأعربت الطاهر، عن الشكر لحكومة دولة الكويت وشعبها، في ظل القيادة الحكيمة لسمو الأمير الشيخ مشعل الأحمد الجابر الصباح، وسمو ولي العهد الشيخ صباح خالد الحمد الصباح، مؤكدة أهمية الشراكة القائمة في دعم الجهود الدولية لتحقيق السلام والتنمية المستدامة.\n\nمساعدات كويتية لـ 100 دولة\n\nقالت غادة الطاهر، إن الدبلوماسية تتطلب شجاعة أكبر من استخدام القوة، مشيرة إلى أن الدبلوماسية تكتسب في الكويت أهمية خاصة بالنظر إلى تاريخها في الوساطة واستضافة المؤتمرات الإنسانية وحشد الدعم لملايين المحتاجين.\n\nوأضافت أن المساعدات التنموية الكويتية وصلت إلى أكثر من 100 دولة على مدى ستة عقود، وهو إرث يجسده معرض «الدبلوماسية عبر التنمية»، لافتة إلى اعتزاز الأمم المتحدة بتكريم هذا الدور من خلال تسمية سمو الأمير الراحل الشيخ صباح الأحمد الجابر الصباح قائداً للعمل الإنساني.\n\nشددت غادة الطاهر، على أن الحاجة إلى الدبلوماسية باتت أكثر إلحاحاً من أي وقت مضى، في ظل تصاعد النزاعات والتوترات، إلى جانب تحديات عالمية تتجاوز قدرة الدول منفردة على مواجهتها، من بينها تغير المناخ وشح المياه والضغوط على النظم الغذائية، فضلاً عن التحولات المتسارعة التي يشهدها العالم بفعل الذكاء الاصطناعي وما يصاحبها من فرص ومخاطر تتطلب حوكمة مناسبة.\n\n«صندوق التنمية» يستعرض مشاريعه\n\nشارك الصندوق الكويتي للتنمية في الاحتفالية، بحضور المدير العام للصندوق بالوكالة رشيد علي البدر، واستعرض الصندوق، خلال مشاركته في معرض الصور المصاحب للاحتفالية، جانباً من مشاريعه التنموية في الدول المستفيدة، ودورها في تحسين الخدمات الأساسية ودعم التنمية الاقتصادية والاجتماعية.\n\nومن أبرز المشاريع التي دعمها الصندوق بالشراكة مع وكالات الأمم المتحدة، مشروع إعادة تأهيل المدارس الحكومية في لبنان، بالتعاون مع منظمة الأمم المتحدة للطفولة «اليونيسف»، وتأهيل مساكن النازحين العائدين في اليمن، بالتنسيق مع المفوضية السامية للأمم المتحدة لشؤون اللاجئين، إلى جانب مشاريع دعم الأمن الغذائي وتحسين خدمات المياه وسبل العيش في السودان بالشراكة مع برنامج الأمم المتحدة الإنمائي.\n\nويمتد التعاون بين «صندوق التنمية» ومنظومة الأمم المتحدة إلى داخل دولة الكويت، من خلال «البرنامج المشترك للإدماج في سوق العمل» بوصفه أول مشروع ينفذه الصندوق في البلاد، بما يعكس تنوع مجالات الشراكة بين الجانبين.",
+     "body": "أكد دعمها الثابت للأمم المتحدة والتزامها الراسخ بمبادئ ميثاقها\n\nأكد وزير الخارجية الشيخ جراح جابر الأحمد الصباح، دعم دولة الكويت الثابت للأمم المتحدة والتزامها الراسخ بمبادئ ميثاقها، مشدداً على أن تعزيز فاعلية المنظمة وتغليب لغة الدبلوماسية والتعاون الدولي يشكّلان ركائز أساسية لبناء مستقبل أكثر أمناً وسلاماً وازدهاراً.\n\nجاء ذلك في كلمة للشيخ جراح الجابر، مساء الثلاثاء، خلال احتفال «يوم الأمم المتحدة» الذي أحيته بعثة الأمم المتحدة لدى البلاد تحت رعاية وزير الخارجية، بشعار «قوة الدبلوماسية»، وحضور السفراء ورؤساء البعثات الدبلوماسية المعتمدة لدى البلاد، ورؤساء المكاتب التمثيلية الدولية وعدد من كبار المسؤولين في الدولة.\n\nوأشار إلى أهمية شعار الاحتفالية لهذا العام في ظل ما يشهده العالم من أزمات متلاحقة ونزاعات وتوترات جيوسياسية متصاعدة، موضحا أن الدبلوماسية تمثل أداة فاعلة لمنع النزاعات وتقريب وجهات النظر وبناء الثقة، لا سيما حين تستند إلى ميثاق الأمم المتحدة والقانون الدولي.\n\nوأكد أن الدبلوماسية تشكل ركيزة أساسية في هوية الكويت، مبيناً أنه منذ انضمامها إلى الأمم المتحدة عام 1963 انتهجت الكويت سياسة خارجية متوازنة ومعتدلة تقوم على احترام سيادة الدول وسلامة أراضيها، وعدم التدخل في شؤونها الداخلية وإعلاء قيم الحوار والوساطة لتسوية النزاعات.\n\nوأضاف أن الكويت واصلت على مدى العقود الماضية مساعيها لاحتواء الأزمات الإقليمية والدولية وخفض حدة التوترات، سواء عبر مبادرات معلنة أو جهود دبلوماسية هادئة، انطلاقاً من إيمانها بقدرة الدبلوماسية على إيجاد الحلول حتى في أصعب الظروف.\n\nواستذكر ببالغ التقدير والامتنان، الموقف التاريخي للأمم المتحدة، لا سيما مجلس الأمن إزاء الغزو العراقي لدولة الكويت عام 1990، مؤكدا أن تحرير الكويت عام 1991 يعد من أبرز قصص نجاح الأمم المتحدة ويجسد فاعلية القانون الدولي وميثاق الأمم المتحدة في صون سيادة الدول.\n\nوفي إطار الشراكة الممتدة بين الكويت والأمم المتحدة على مدى أكثر من ستة عقود، نوه الشيخ جراح الجابر، بما أثمرته هذه الشراكة من مبادرات إنسانية وتنموية أسهمت في دعم المجتمعات المتضررة من النزاعات والكوارث الطبيعية، وتعزيز الجهود الرامية إلى تحقيق أهداف التنمية المستدامة بالتعاون مع مختلف وكالات الأمم المتحدة وبرامجها وصناديقها.\n\nوأكد أن العمل الإنساني يمثل قيمة أصيلة ومتجذرة في المجتمع الكويتي، انعكست في السياسة الخارجية للدولة وتجسدت في العديد من المبادرات، من أبرزها تأسيس الصندوق الكويتي للتنمية الاقتصادية العربية عام 1961، مشدداً على الترابط الوثيق بين السلام والتنمية إذ لا سلام دون تنمية ولا تنمية دون سلام.\n\nكما أكد أن الكويت في ظل القيادة الحكيمة لصاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح، وسمو ولي العهد الشيخ صباح خالد الحمد الصباح، ستواصل أداء دورها شريكاً فاعلاً وموثوقاً للأمم المتحدة، ودعم العمل متعدد الأطراف والحلول الدبلوماسية السلمية والجهود الإنسانية، بما يسهم في تحقيق الأمن والاستقرار والازدهار.\n\nمن جانبها، أكدت ممثل الأمين العام للأمم المتحدة والمنسق المقيم في البلاد غادة الطاهر، أن دولة الكويت جعلت من الوساطة والدبلوماسية الإنسانية سمة مميزة لسياستها الخارجية، منذ انضمامها إلى الأمم المتحدة عام 1963، مشيدة بشراكتها الراسخة مع المنظمة الدولية وإسهاماتها الإنسانية والتنموية على مدى العقود الماضية.\n\nوأعربت الطاهر، عن الشكر لحكومة دولة الكويت وشعبها، في ظل القيادة الحكيمة لسمو الأمير الشيخ مشعل الأحمد الجابر الصباح، وسمو ولي العهد الشيخ صباح خالد الحمد الصباح، مؤكدة أهمية الشراكة القائمة في دعم الجهود الدولية لتحقيق السلام والتنمية المستدامة.\n\nمساعدات كويتية لـ 100 دولة\n\nقالت غادة الطاهر، إن الدبلوماسية تتطلب شجاعة أكبر من استخدام القوة، مشيرة إلى أن الدبلوماسية تكتسب في الكويت أهمية خاصة بالنظر إلى تاريخها في الوساطة واستضافة المؤتمرات الإنسانية وحشد الدعم لملايين المحتاجين.\n\nوأضافت أن المساعدات التنموية الكويتية وصلت إلى أكثر من 100 دولة على مدى ستة عقود، وهو إرث يجسده معرض «الدبلوماسية عبر التنمية»، لافتة إلى اعتزاز الأمم المتحدة بتكريم هذا الدور من خلال تسمية سمو الأمير الراحل الشيخ صباح الأحمد الجابر الصباح قائداً للعمل الإنساني.\n\nشددت غادة الطاهر، على أن الحاجة إلى الدبلوماسية باتت أكثر إلحاحاً من أي وقت مضى، في ظل تصاعد النزاعات والتوترات، إلى جانب تحديات عالمية تتجاوز قدرة الدول منفردة على مواجهتها، من بينها تغير المناخ وشح المياه والضغوط على النظم الغذائية، فضلاً عن التحولات المتسارعة التي يشهدها العالم بفعل الذكاء الاصطناعي وما يصاحبها من فرص ومخاطر تتطلب حوكمة مناسبة.\n\n«صندوق التنمية» يستعرض مشاريعه\n\nشارك الصندوق الكويتي للتنمية في الاحتفالية، بحضور المدير العام للصندوق بالوكالة رشيد علي البدر، واستعرض الصندوق، خلال مشاركته في معرض الصور المصاحب للاحتفالية، جانباً من مشاريعه التنموية في الدول المستفيدة، ودورها في تحسين الخدمات الأساسية ودعم التنمية الاقتصادية والاجتماعية.\n\nومن أبرز المشاريع التي دعمها الصندوق بالشراكة مع وكالات الأمم المتحدة، مشروع إعادة تأهيل المدارس الحكومية في لبنان، بالتعاون مع منظمة الأمم المتحدة للطفولة «اليونيسف»، وتأهيل مساكن النازحين العائدين في اليمن، بالتنسيق مع المفوضية السامية للأمم المتحدة لشؤون اللاجئين، إلى جانب مشاريع دعم الأمن الغذائي وتحسين خدمات المياه وسبل العيش في السودان بالشراكة مع برنامج الأمم المتحدة الإنمائي.\n\nويمتد التعاون بين «صندوق التنمية» ومنظومة الأمم المتحدة إلى داخل دولة الكويت، من خلال «البرنامج المشترك للإدماج في سوق العمل» بوصفه أول مشروع ينفذه الصندوق في البلاد، بما يعكس تنوع مجالات الشراكة بين الجانبين.",
      "published": "2026-10-28T22:00:00+03:00",
      "tier": 1
     },
@@ -1588,7 +1673,7 @@
      "url": "https://www.alraimedia.com/article/1784293/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D9%86%D8%AA%D8%AF%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9-%D8%A8%D8%AF%D8%A8%D9%8A",
      "section": "local",
      "summary": "يشارك وفد جهاز حماية المنافسة برئاسة رئيس مجلس الإدارة ورئيس جهاز حماية المنافسة الدكتور راشد العجمي، في منتدى المنافسة العربي السابع المنعقد في دولة الإمارات العربية المتحدة في دب...",
-     "body": "يشارك وفد جهاز حماية المنافسة برئاسة رئيس مجلس الإدارة ورئيس جهاز حماية المنافسة الدكتور راشد العجمي، في منتدى المنافسة العربي السابع المنعقد في دولة الإمارات العربية المتحدة في دبي، خلال يومي 28 و29 أكتوبر 2026، تحت شعار «سياسة المنافسة في العصر الرقمي: الحفاظ على العدالة والمساواة في السوق» بدعوة من لجنة الأمم المتحدة الاقتصادية والاجتماعية لغربي أسيا (الإسكوا)، التي تعقد بالشراكة مع إدارة المنافسة في وزارة الاقتصاد والسياحة في دولة الإمارات العربية المتحدة وبالتعاون مع مؤتمر الأمم المتحدة للتجارة والتنمية (الأونكتاد) ومنظمة التعاون الاقتصادي والتنمية، إلى جانب لجنة المنافسة وحماية المستهلك التابعة للسوق المشتركة لشرق وجنوب أفريقيا (الكوميسا).\n\nويشكل المنتدى منبراً لبحث تطورات المنافسة في المنطقة العربية والمضي قدماً في تعزيزها من خلال إشراك الأطراف ذات الصلة، كما يتيح حيزاً مشتركاً للحوار والتنسيق والتعاون في مجال المنافسة على المستويين الوطني والإقليمي، ويتم ذلك بمشاركة ممثلي سلطات المنافسة، والمسؤولين الحكوميين، والمنظمات الدولية، والإقليمية.\n\nوزير «الاتصالات»: تبادل الخبرات والتجارب الخليجية في الحكومة الرقمية يعزز التكامل وتطوير الخدمات منذ 57 دقيقة الكويت وباكستان.. تطوير التعاون البحري وتوطيد العلاقات العسكرية منذ ساعة\n\nوتشكّل مشاركة جهاز حماية المنافسة فرصة قيّمة لعرض تجربة دولة الكويت وتبادل خبراتها في هذا المجال.\n\nوتتناول الجلسات عدة مواضيع منها التنظيم الاستباقي والمنافسة في الأسواق الرقمية، وضع سياسة متماسكة للمنافسة الرقمية من خلال التعاون الإقليمي، مراقبة عمليات الاندماج في القطاع الرقمي، وأخيراً التنسيق المؤسسي بين المنافسة وحماية المستهلك في العصر الرقمي والخطوات المقبلة نحو أسواق رقمية عادلة وتنافسية في المنطقة العربية.",
+     "body": "يشارك وفد جهاز حماية المنافسة برئاسة رئيس مجلس الإدارة ورئيس جهاز حماية المنافسة الدكتور راشد العجمي، في منتدى المنافسة العربي السابع المنعقد في دولة الإمارات العربية المتحدة في دبي، خلال يومي 28 و29 أكتوبر 2026، تحت شعار «سياسة المنافسة في العصر الرقمي: الحفاظ على العدالة والمساواة في السوق» بدعوة من لجنة الأمم المتحدة الاقتصادية والاجتماعية لغربي أسيا (الإسكوا)، التي تعقد بالشراكة مع إدارة المنافسة في وزارة الاقتصاد والسياحة في دولة الإمارات العربية المتحدة وبالتعاون مع مؤتمر الأمم المتحدة للتجارة والتنمية (الأونكتاد) ومنظمة التعاون الاقتصادي والتنمية، إلى جانب لجنة المنافسة وحماية المستهلك التابعة للسوق المشتركة لشرق وجنوب أفريقيا (الكوميسا).\n\nويشكل المنتدى منبراً لبحث تطورات المنافسة في المنطقة العربية والمضي قدماً في تعزيزها من خلال إشراك الأطراف ذات الصلة، كما يتيح حيزاً مشتركاً للحوار والتنسيق والتعاون في مجال المنافسة على المستويين الوطني والإقليمي، ويتم ذلك بمشاركة ممثلي سلطات المنافسة، والمسؤولين الحكوميين، والمنظمات الدولية، والإقليمية.\n\nوتشكّل مشاركة جهاز حماية المنافسة فرصة قيّمة لعرض تجربة دولة الكويت وتبادل خبراتها في هذا المجال.\n\nوتتناول الجلسات عدة مواضيع منها التنظيم الاستباقي والمنافسة في الأسواق الرقمية، وضع سياسة متماسكة للمنافسة الرقمية من خلال التعاون الإقليمي، مراقبة عمليات الاندماج في القطاع الرقمي، وأخيراً التنسيق المؤسسي بين المنافسة وحماية المستهلك في العصر الرقمي والخطوات المقبلة نحو أسواق رقمية عادلة وتنافسية في المنطقة العربية.",
      "published": "2026-10-28T22:00:00+03:00",
      "tier": 1
     },
@@ -1652,7 +1737,7 @@
      "url": "https://www.alraimedia.com/article/1784221/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D8%AA%D8%B7%D9%84%D9%82-%D8%AF%D9%8A%D8%B1%D8%A9-%D9%85%D9%86%D8%B5%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%AA%D8%B3%D9%87%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA",
      "section": "local",
      "summary": "أطلقت الهيئة العامة لشؤون الزراعة والثروة السمكية المرحلة الأولى من منصتها الإلكترونية الجديدة «ديرة»، لتسهيل معاملات المواطنين والمقيمين، وتبسيط الإجراءات، وتعزيز سرعة الاستجابة ل...",
-     "body": "تسجيل الحيوانات الأليفة والإبلاغ عن الضالة في المرحلة الأولى\n\nأطلقت الهيئة العامة لشؤون الزراعة والثروة السمكية المرحلة الأولى من منصتها الإلكترونية الجديدة «ديرة»، لتسهيل معاملات المواطنين والمقيمين، وتبسيط الإجراءات، وتعزيز سرعة الاستجابة للبلاغات المتعلقة بالحيوانات الضالة.\n\nوأكدت المدير العام للهيئة بالتكليف في المسبحي أن إطلاق المنصة يأتي تنفيذاً لتوجيهات وزيرة الدولة لشؤون التنمية والاستدامة الدكتورة ريم الفليج، وفي إطار استراتيجية الهيئة لتطوير خدماتها وتوسيع الاعتماد على التكنولوجيا الحديثة.\n\nوزير الخارجية يستعرض آفاق التعاون مع رئيس مجلس الإدارة والرئيس التنفيذي لشركة «ستيت ستريت» منذ 38 دقيقة مجلس جامعة الكويت يعتمد ترقية 4 من أعضاء الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك منذ ساعة\n\nوأشادت بجهود الجهاز المركزي لتكنولوجيا المعلومات وجميع الفرق والمسؤولين الذين ساهموا في إعداد المنصة وتصميمها وإطلاقها، مثمنةً تعاون الجهات المعنية ودور مدير المشروع الدكتور خالد الفايز في إنجاز هذا المشروع.\n\nمن جانبه، قال رئيس قسم الأوبئة والأمراض المشتركة في الهيئة الدكتور خالد الفايز إن منصة «ديرة» تهدف إلى تسهيل الإجراءات على المواطنين والمقيمين، وتجاوز التحديات التي تواجه الموظفين والمراجعين، موضحاً أن الخدمات ستُطرح تدريجياً، على أن تشمل المرحلة الأولى تسجيل الحيوانات الأليفة والإبلاغ عن الحيوانات الضالة.\n\nوأوضح أن المنصة ستكون متاحة عبر متجري «غوغل بلاي» و«آب ستور»، ويمكن للمستخدم التسجيل باستخدام الرقم المدني والمصادقة عبر تطبيق «هويتي»، ثم إدخال بيانات الحيوان الأليف وإرفاق صوره وتحديد حالة تطعيمه، لتتولى العيادات البيطرية المختصة مراجعة البيانات واعتماد التسجيل.\n\nتحديد تلقائي لمواقع الحيوانات الضالة\n\nوأضاف الفايز أن المنصة توافر خدمة الإبلاغ عن الحيوانات الضالة في المناطق السكنية والبرية والمخيمات، من خلال إرفاق صورة الحيوان وتوضيح تفاصيل البلاغ، مع تحديد الموقع الجغرافي تلقائياً، بما يساعد فرق الهيئة على الوصول إلى الموقع والتعامل مع الحالة، خصوصاً البلاغات المتعلقة بالكلاب الضالة.\n\nوأكد أن إطلاق المرحلة الأولى يشكل انطلاقة لتوسيع نطاق الخدمات الإلكترونية في الهيئة، على أن تتضمن المراحل المقبلة خدمات إضافية تسهم في اختصار الوقت والجهد، وتحسين تجربة المراجعين، وتعزيز كفاءة الأداء وسرعة إنجاز المعاملات.",
+     "body": "تسجيل الحيوانات الأليفة والإبلاغ عن الضالة في المرحلة الأولى\n\nأطلقت الهيئة العامة لشؤون الزراعة والثروة السمكية المرحلة الأولى من منصتها الإلكترونية الجديدة «ديرة»، لتسهيل معاملات المواطنين والمقيمين، وتبسيط الإجراءات، وتعزيز سرعة الاستجابة للبلاغات المتعلقة بالحيوانات الضالة.\n\nوأكدت المدير العام للهيئة بالتكليف في المسبحي أن إطلاق المنصة يأتي تنفيذاً لتوجيهات وزيرة الدولة لشؤون التنمية والاستدامة الدكتورة ريم الفليج، وفي إطار استراتيجية الهيئة لتطوير خدماتها وتوسيع الاعتماد على التكنولوجيا الحديثة.\n\nوزير الخارجية يستعرض آفاق التعاون مع رئيس مجلس الإدارة والرئيس التنفيذي لشركة «ستيت ستريت» منذ 43 دقيقة مجلس جامعة الكويت يعتمد ترقية 4 من أعضاء الهيئة الأكاديمية إلى درجتي أستاذ وأستاذ مشارك منذ ساعة\n\nوأشادت بجهود الجهاز المركزي لتكنولوجيا المعلومات وجميع الفرق والمسؤولين الذين ساهموا في إعداد المنصة وتصميمها وإطلاقها، مثمنةً تعاون الجهات المعنية ودور مدير المشروع الدكتور خالد الفايز في إنجاز هذا المشروع.\n\nمن جانبه، قال رئيس قسم الأوبئة والأمراض المشتركة في الهيئة الدكتور خالد الفايز إن منصة «ديرة» تهدف إلى تسهيل الإجراءات على المواطنين والمقيمين، وتجاوز التحديات التي تواجه الموظفين والمراجعين، موضحاً أن الخدمات ستُطرح تدريجياً، على أن تشمل المرحلة الأولى تسجيل الحيوانات الأليفة والإبلاغ عن الحيوانات الضالة.\n\nوأوضح أن المنصة ستكون متاحة عبر متجري «غوغل بلاي» و«آب ستور»، ويمكن للمستخدم التسجيل باستخدام الرقم المدني والمصادقة عبر تطبيق «هويتي»، ثم إدخال بيانات الحيوان الأليف وإرفاق صوره وتحديد حالة تطعيمه، لتتولى العيادات البيطرية المختصة مراجعة البيانات واعتماد التسجيل.\n\nتحديد تلقائي لمواقع الحيوانات الضالة\n\nوأضاف الفايز أن المنصة توافر خدمة الإبلاغ عن الحيوانات الضالة في المناطق السكنية والبرية والمخيمات، من خلال إرفاق صورة الحيوان وتوضيح تفاصيل البلاغ، مع تحديد الموقع الجغرافي تلقائياً، بما يساعد فرق الهيئة على الوصول إلى الموقع والتعامل مع الحالة، خصوصاً البلاغات المتعلقة بالكلاب الضالة.\n\nوأكد أن إطلاق المرحلة الأولى يشكل انطلاقة لتوسيع نطاق الخدمات الإلكترونية في الهيئة، على أن تتضمن المراحل المقبلة خدمات إضافية تسهم في اختصار الوقت والجهد، وتحسين تجربة المراجعين، وتعزيز كفاءة الأداء وسرعة إنجاز المعاملات.",
      "published": "2026-10-28T13:38:00+03:00",
      "tier": 1
     },
@@ -1889,6 +1974,72 @@
    }
   },
   {
+   "key": "66955b9749174964",
+   "score": 12.259,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "مشروع طبي كويتي يحل ضمن قائمة أفضل الابتكارات في «مؤتمر المبدعين العرب» بمسقط",
+     "url": "https://www.alanba.com.kw/1382669",
+     "section": "kuwait",
+     "summary": "مسقط - كونا حل مشروع طبي كويتي يعتمد على استخدام الذكاء الاصطناعي في ترميم الأسنان ضمن قائمة أفضل سبعة ابتكارات عربية وذلك في ختام أعمال مؤتمر المبتكرين والمبد",
+     "body": "",
+     "published": "2026-10-28T19:21:08+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "مشروع كويتي من أفضل 7 ابتكارات في مؤتمر «المبدعين العرب»",
+     "url": "https://www.alraimedia.com/article/1784315/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%85%D9%86-%D8%A3%D9%81%D8%B6%D9%84-7-%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%85%D8%A8%D8%AF%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
+     "section": "latest",
+     "summary": "مسقط - كونا - حلّ مشروع طبي كويتي يعتمد على استخدام الذكاء الاصطناعي في ترميم الأسنان ضمن قائمة أفضل سبعة ابتكارات عربية وذلك في ختام أعمال (مؤتمر المبتكرين والمبدعين العرب) في الع...",
+     "body": "مسقط - كونا - حلّ مشروع طبي كويتي يعتمد على استخدام الذكاء الاصطناعي في ترميم الأسنان ضمن قائمة أفضل سبعة ابتكارات عربية وذلك في ختام أعمال (مؤتمر المبتكرين والمبدعين العرب) في العاصمة العُمانية مسقط.\n\nوقالت المشرفة على المشروع الأستاذ المساعد في كلية طب الأسنان بجامعة الكويت الدكتورة كوثر علي لوكالة الأنباء الكويتية (كونا) إنها شاركت بمشروعها الذي حل سادساً في مسابقة هياكل الاختراعات والابتكارات ضمن فعاليات المؤتمر وهو عبارة عن «تطبيق يستخدم الذكاء الاصطناعي لمعرفة قابلية السن للترميم».\n\n«حماية الأحداث» تحذر من التنمر والتجاوزات الإلكترونية وسوء استخدام الهواتف منذ دقيقة إنجاز طبي جديد في خدمات الصحة الإنجابية بمستشفى الفروانية منذ دقيقة\n\nوأشارت إلى أن «المشروع سبق أن حصد جوائز محلية مختصة في الحلول الرقمية في الكويت منها مسابقة (نيكسس) للشركات الناشئة ومسابقة أقامتها كلية العلوم الحياتية للمشاركين في مؤتمر الكويت الدولي الرابع للعلوم الحياتية».\n\nوأعربت الدكتورة علي عن الأمل في أن يحصد ابتكارها جوائز عالمية في المستقبل وأن يتم تطبيقه في جميع الدول ابتداء بدول الخليج العربية، وأن يساهم في تحسين دقة التشخيص وتسريع العلاجات وتطوير سير العمل في العيادات والمختبرات والجهات المرتبطة بالقطاع الطبي.\n\nوأضافت أنها شاركت ضمن الفعاليات الأخرى للمؤتمر الذي استضافته الجامعة العربية المفتوحة في العاصمة العمانية ومنها حلقات نقاشية للتعريف بالتطبيق وبحث الصعوبات أمام الابتكار.\n\nوأعربت عن الشكر والتقدير لهيئة البحث العلمي والابتكار في سلطنة عمان الشقيقة على استضافتها الحدث العلمي وتوفيرها منصة للمبتكرين والمبدعين العرب للقاء وتبادل الأفكار ومشاركة الخبرات.\n\nوكان وفد من معهد الكويت للأبحاث العلمية وجامعة الكويت شارك في أعمال «مؤتمر المبتكرين والمبدعين العرب» لبحث آليات دعم الانتقال من الفكرة إلى المنتج وتعزيز بيئة الابتكار وبراءات الاختراع وبناء شبكات تعاون عربية مستدامة.",
+     "published": "2026-10-28T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Kuwaiti Medical Project Ranks Among Top 7 Innovations at Arab Innovators Conference in Muscat",
+    "headline_ar": "مشروع طبي كويتي يحل ضمن قائمة أفضل الابتكارات في «مؤتمر المبدعين العرب» بمسقط",
+    "summary_en": "A Kuwaiti medical project utilizing artificial intelligence for dental restoration, led by Dr. Kouthar Ali of the University of Kuwait, ranked sixth in the invention structures competition at the Arab Innovators and Creators Conference in Muscat, Oman. The project, which previously won local awards, aims to improve diagnostic accuracy and streamline clinical workflows.",
+    "summary_ar": "حل مشروع طبي كويتي يعتمد على الذكاء الاصطناعي في ترميم الأسنان، بإشراف الدكتورة كوثر علي من جامعة الكويت، في المرتبة السادسة ضمن مسابقة هياكل الاختراعات والابتكارات في ختام أعمال «مؤتمر المبتكرين والمبدعين العرب» في مسقط. ويهدف المشروع، الذي سبق أن حصد جوائز محلية، إلى تحسين دقة التشخيص وتسريع العلاجات وتطوير سير العمل في العيادات والمختبرات.",
+    "why_it_matters_en": "The recognition validates Kuwait's emerging capacity in applied medical AI, potentially positioning local academic research for international commercialization and enhancing the country's reputation in the regional health-tech sector.",
+    "why_it_matters_ar": "يؤكد هذا التقدير قدرة الكويت الناشئة في مجال الذكاء الاصطناعي الطبي التطبيقي، مما قد يضع البحث الأكاديمي المحلي في موقع تنافسي للتجارية الدولية ويعزز سمعة البلاد في قطاع التكنولوجيا الصحية إقليمياً.",
+    "between_the_lines_en": "The story is a standard KUNA reprint focused on individual academic achievement. The attribution to a specific assistant professor rather than a state ministry or large institution highlights the grassroots nature of the innovation. The emphasis on 'local awards' before international recognition suggests a narrative of domestic validation preceding global exposure. No significant subtext regarding government policy or institutional failure is present; this reads as a routine academic success story.",
+    "between_the_lines_ar": "تقرأ الخبر كإعادة نشر روتينية لوكالة الأنباء الكويتية تركز على الإنجاز الأكاديمي الفردي. الإشارة إلى أستاذ مساعد بدلاً من وزارة أو مؤسسة كبرى تبرز الطابع الشعبي للابتكار. التأكيد على الجوائز المحلية قبل الدولية يوحي بسردية التحقق المحلي قبل التعرض العالمي. لا يوجد سياق خفي يتعلق بالسياسات الحكومية أو إخفاقات مؤسسية؛ هذا خبر نجاح أكاديمي روتيني.",
+    "watch_next_en": "Whether the University of Kuwait or the Ministry of Health announces a pilot program or licensing deal for the AI dental application in the coming months.",
+    "watch_next_ar": "ما إذا كانت جامعة الكويت أو وزارة الصحة ستعلن عن برنامج تجريبي أو اتفاقية ترخيص لتطبيق الذكاء الاصطناعي في طب الأسنان خلال الأشهر المقبلة.",
+    "confidence": "high",
+    "confidence_reason": "The material is a straightforward factual report with no conflicting narratives or hidden political angles.",
+    "entities": [
+     "Dr. Kouthar Ali",
+     "University of Kuwait",
+     "Arab Innovators and Creators Conference",
+     "Muscat",
+     "Oman",
+     "Nexus Competition"
+    ],
+    "tags": [
+     "Health Tech",
+     "AI",
+     "Education",
+     "Innovation",
+     "Kuwait"
+    ],
+    "_source": "llm"
+   }
+  },
+  {
    "key": "cbc813e2aa66e82c",
    "score": 12.259,
    "sources": [
@@ -1985,7 +2136,7 @@
      "url": "https://www.alraimedia.com/article/1784296/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D9%88%D8%B1%D8%AF%D9%8A",
      "section": "latest",
      "summary": "في إطار فعاليات شهر أكتوبر الوردي، شاركت مجموعة المرأة الدولية برئاسة منى حداد الخوري، في مبادرة توعوية حول سرطان الثدي أُقيمت في حديقة الشهيد، بالتعاون مع «كانسر أوير نيشن» تحت شع...",
-     "body": "في إطار فعاليات شهر أكتوبر الوردي، شاركت مجموعة المرأة الدولية برئاسة منى حداد الخوري، في مبادرة توعوية حول سرطان الثدي أُقيمت في حديقة الشهيد، بالتعاون مع «كانسر أوير نيشن» تحت شعار «نمشي لهدف، نمشي من أجل الحياة».\n\nوجمعت هذه المبادرة المشاركات حول هدف إنساني مشترك يتمثّل في تعزيز الوعي بسرطان الثدي، والتأكيد على أهمية الوقاية والفحوصات الدورية والكشف المبكر، لما لذلك من دور أساسي في إنقاذ الأرواح والحدّ من مخاطر المرض.\n\nالكويت والسعودية: تضامن تجاه التحديات والتهديدات منذ ساعة وزير «الاتصالات»: تبادل الخبرات والتجارب الخليجية في الحكومة الرقمية يعزز التكامل وتطوير الخدمات منذ ساعتين\n\nوأتاحت المناسبة للمشاركات فرصة الاستمتاع بجمال حديقة الشهيد ومساحاتها الخضراء وأجوائها الترحيبية، والالتقاء في رحابها دعماً لقضية إنسانية وصحية بالغة الأهمية.\n\nوأعربت رئيسة مجموعة المرأة الدولية في الكويت منى الخوري، عن خالص شكرها وتقديرها لإدارة حديقة الشهيد والديوان الأميري في دولة الكويت على حفاوة الاستقبال والدعم القيّم الذي أسهم في إنجاح هذه المبادرة.\n\nكما وجّهت شكرها إلى رئيسة لجنة الإشراف والإدارة والمتابعة لحديقة الشهيد - المرحلة الثالثة أنوار اليتامى، ومن فريق الإعلام والتسويق نجود الزمانان، ومن الفريق الإعلامي سالم الحبيل، ومن الديوان الأميري منيرة المضف، تقديراً لجهودهم القيّمة ومساهماتهم في دعم هذه المبادرة.",
+     "body": "في إطار فعاليات شهر أكتوبر الوردي، شاركت مجموعة المرأة الدولية برئاسة منى حداد الخوري، في مبادرة توعوية حول سرطان الثدي أُقيمت في حديقة الشهيد، بالتعاون مع «كانسر أوير نيشن» تحت شعار «نمشي لهدف، نمشي من أجل الحياة».\n\nوجمعت هذه المبادرة المشاركات حول هدف إنساني مشترك يتمثّل في تعزيز الوعي بسرطان الثدي، والتأكيد على أهمية الوقاية والفحوصات الدورية والكشف المبكر، لما لذلك من دور أساسي في إنقاذ الأرواح والحدّ من مخاطر المرض.\n\nوأتاحت المناسبة للمشاركات فرصة الاستمتاع بجمال حديقة الشهيد ومساحاتها الخضراء وأجوائها الترحيبية، والالتقاء في رحابها دعماً لقضية إنسانية وصحية بالغة الأهمية.\n\nوأعربت رئيسة مجموعة المرأة الدولية في الكويت منى الخوري، عن خالص شكرها وتقديرها لإدارة حديقة الشهيد والديوان الأميري في دولة الكويت على حفاوة الاستقبال والدعم القيّم الذي أسهم في إنجاح هذه المبادرة.\n\nكما وجّهت شكرها إلى رئيسة لجنة الإشراف والإدارة والمتابعة لحديقة الشهيد - المرحلة الثالثة أنوار اليتامى، ومن فريق الإعلام والتسويق نجود الزمانان، ومن الفريق الإعلامي سالم الحبيل، ومن الديوان الأميري منيرة المضف، تقديراً لجهودهم القيّمة ومساهماتهم في دعم هذه المبادرة.",
      "published": "2026-10-28T22:00:00+03:00",
      "tier": 1
     }
@@ -2038,7 +2189,7 @@
      "url": "https://www.alraimedia.com/article/1784225/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%B1%D8%A4%D9%8A%D8%AA%D9%87-%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9-%D8%A8%D9%82%D9%85%D8%A9-moneytech",
      "section": "economy",
      "summary": "أعلن بيت التمويل الكويتي مشاركته في قمة تقنية الأموال «MoneyTech 2026»، الحدث السنوي الرائد الذي يجمع نخبة من قادة الاستثمار والأعمال والتكنولوجيا في المنطقة، والمقرر انعقاده في ال...",
-     "body": "أعلن بيت التمويل الكويتي مشاركته في قمة تقنية الأموال «MoneyTech 2026»، الحدث السنوي الرائد الذي يجمع نخبة من قادة الاستثمار والأعمال والتكنولوجيا في المنطقة، والمقرر انعقاده في الأول من نوفمبر المقبل بفندق سانت ريجس الكويت.\n\nوتأتي المشاركة تأكيداً لاهتمام البنك المتواصل بالتكنولوجيا والابتكار الرقمي، ودوره في دعم التحول التكنولوجي وتطوير الخدمات المصرفية والارتقاء بتجربة العملاء، الى جانب حرصه على المشاركة في الملتقيات التي تناقش مستقبل الخدمات المالية.\n\n«بوبيان» يوقع شراكة إستراتيجية مع النادي الكويتي للرياضات الإلكترونية منذ 17 ساعة «بيت التمويل» يعزّز حضوره دولياً برؤى للتنمية اقتصادياً والتحولات إقليمياً وعالمياً منذ 17 ساعة\n\nوسيستعرض التركيت خلال مشاركته الركائز الأساسية لاستراتيجيات التحول الرقمي من مختلف الجوانب المتعلقة بالبنك والعملاء والبنية التحتية والخدمات والمنتجات، وأهمية استمرارية الأعمال والخدمات رغم التحديات والظروف.\n\nوتندرج مشاركة «بيت التمويل» في هذا المنتدى التكنولوجي ضمن جهوده المستمرة لدعم المبادرات والفعاليات التي تسهم في تطوير القطاع المصرفي، في ظل الدور المتنامي للتكنولوجيا والتحول الرقمي في تعزيز كفاءة العمليات وتقديم خدمات أكثر تطوراً. كما تعكس المشاركة التزام البنك بمواكبة تطلعات العملاء من الأفراد والشركات، من خلال تطوير منتجات وخدمات مصرفية مبتكرة تتماشى مع أحدث التطورات العالمية في الصناعة المصرفية.\n\nوتنعقد النسخة الخامسة من القمة بتنظيم من جريدة الجريدة، وتركز هذا العام على الشركات والمؤسسات التي نجحت في تجاوز التحديات الاستثنائية التي شهدتها الأسواق العالمية، والحفاظ على استمرارية أعمالها، إلى جانب تطوير نماذج تشغيل أكثر مرونة وقدرة على تحقيق النمو المستدام.\n\nكما تجمع القمة مجموعة من المستثمرين ورواد الأعمال وقادة التكنولوجيا من دول مختلفة، لمناقشة عدد من القضايا الحيوية، من أبرزها استراتيجيات الاستثمار في التكنولوجيا المالية، وإعادة توطين الثروات الإقليمية، والفرص التي توفرها الابتكارات التقنية لدعم النمو الاقتصادي وتعزيز تنافسية الأسواق.",
+     "body": "",
      "published": "2026-10-28T14:59:00+03:00",
      "tier": 1
     },
@@ -2056,35 +2207,7 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "Kuwait Finance House Showcases Digital Services Vision at MoneyTech Summit",
-    "headline_ar": "«بيت التمويل» يستعرض رؤيته لمستقبل الخدمات الرقمية بقمة «MoneyTech»",
-    "summary_en": "Kuwait Finance House (KFH) announced its participation in the MoneyTech 2026 summit in Kuwait, where it will present its digital transformation strategy. The event, organized by Al-Jarida, focuses on fintech investment, regional wealth repatriation, and sustainable business models in the face of global market challenges.",
-    "summary_ar": "أعلن بيت التمويل الكويتي مشاركته في قمة MoneyTech 2026 في الكويت، حيث سيستعرض استراتيجيته للتحول الرقمي. وتركز القمة، التي تنظمها جريدة الجريدة، على الاستثمار في التكنولوجيا المالية، وإعادة توطين الثروات الإقليمية، ونماذج الأعمال المستدامة في مواجهة تحديات الأسواق العالمية.",
-    "why_it_matters_en": "The participation signals KFH's commitment to leading the digital banking transition in Kuwait, which is essential for maintaining competitiveness against regional and global fintech competitors and for attracting regional wealth back to the local market.",
-    "why_it_matters_ar": "تدل المشاركة على التزام بيت التمويل الكويتي بقيادة التحول المصرفي الرقمي في الكويت، وهو أمر ضروري للحفاظ على التنافسية أمام منافسي التكنولوجيا المالية إقليمياً وعالمياً، ولجذب الثروات الإقليمية إلى السوق المحلية.",
-    "between_the_lines_en": "The story is a corporate announcement with a strong emphasis on 'resilience' and 'sustainable growth' amidst 'exceptional challenges,' reflecting the current economic climate. The specific mention of 're-locating regional wealth' (إعادة توطين الثروات الإقليمية) is a key signal, indicating a strategic focus on bringing capital back to Kuwait from offshore or other regional hubs. The involvement of Al-Jarida as the organizer highlights the media's role in shaping the fintech narrative in Kuwait. No significant subtext regarding regulatory changes or internal bank issues is present; this is a standard corporate PR piece.",
-    "between_the_lines_ar": "يقرأ الخبر كإعلان مؤسسي مع تركيز قوي على 'المرونة' و'النمو المستدام' في ظل 'تحديات استثنائية'، مما يعكس المناخ الاقتصادي الحالي. الإشارة المحددة إلى 'إعادة توطين الثروات الإقليمية' هي إشارة رئيسية، مما يشير إلى تركيز استراتيجي على إعادة رؤوس الأموال إلى الكويت من الخارج أو من مراكز إقليمية أخرى. مشاركة جريدة الجريدة كمنظم تبرز دور الإعلام في تشكيل سردية التكنولوجيا المالية في الكويت. لا يوجد سياق خفي يتعلق بالتغييرات التنظيمية أو مشاكل البنك الداخلية؛ هذا خبر علاقات عامة مؤسسية روتيني.",
-    "watch_next_en": "Specific announcements from the MoneyTech 2026 summit regarding new fintech partnerships, regulatory updates from the Central Bank of Kuwait, or concrete initiatives for wealth repatriation by KFH or other major banks.",
-    "watch_next_ar": "إعلانات محددة من قمة MoneyTech 2026 حول شراكات جديدة في التكنولوجيا المالية، أو تحديثات تنظيمية من بنك الكويت المركزي، أو مبادرات ملموسة لإعادة توطين الثروات من قبل بيت التمويل الكويتي أو البنوك الكبرى الأخرى.",
-    "confidence": "high",
-    "confidence_reason": "The material is a clear corporate announcement with specific strategic keywords that allow for a grounded interpretation of the bank's current priorities.",
-    "entities": [
-     "Kuwait Finance House",
-     "MoneyTech 2026",
-     "Al-Jarida",
-     "St. Regis Kuwait",
-     "Fintech"
-    ],
-    "tags": [
-     "Banking",
-     "Fintech",
-     "Digital Transformation",
-     "Economy",
-     "Kuwait"
-    ],
-    "_source": "llm"
-   }
+   "analysis": {}
   },
   {
    "key": "782f83d39219b1a2",
@@ -2115,76 +2238,12 @@
      "url": "https://www.aljarida.com/article/148903",
      "section": "economy",
      "summary": "أعلن بنك الكويت المركزي إصدار سندات الخزانة وتورّق الدين العام، بالنيابة عن وزارة المالية، بقيمة إجمالية بلغت 150 مليون دينار لأجل 7 سنوات وبمزاد تنافسي موحد العائد عند 4.125%.ووفق...",
-     "body": "386 مليون دينار قيمة العطاءات وتغطية الإصدار وصلت 2.57 مرة\n\nأعلن بنك الكويت المركزي إصدار سندات الخزانة وتورّق الدين العام، بالنيابة عن وزارة المالية، بقيمة إجمالية بلغت 150 مليون دينار لأجل 7 سنوات وبمزاد تنافسي موحد العائد عند 4.125%.\n\nووفقاً لبيانات الإصدار، بلغت قيمة العطاءات المقدمة 386 مليون دينار؛ بما يعادل تغطية الإصدار بنحو 2.57 مرة، فيما بلغ العائد الوسيط للعطاءات 4.188%، وسجل أعلى عائد مقدم 4.875%، مقابل أدنى عائد مقبول عند 2%.فيما بلغ عدد الطلبات التنافسية المقدمة 32 طلباً، قُبل منها 16 طلباً.",
+     "body": "",
      "published": "2026-10-28T12:56:00+03:00",
      "tier": 1
     }
    ],
    "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "Central Bank issues 150 million dinar 7-year bonds",
-    "headline_ar": "«المركزي» يصدر سندات بـ 150 مليون دينار لأجل 7 سنوات",
-    "summary_en": "The Central Bank of Kuwait issued 150 million dinars in 7-year Treasury and Sukuk bonds on behalf of the Ministry of Finance via a competitive auction. The winning yield was set at 4.125%, with total bids reaching 386 million dinars, resulting in a 2.57x coverage ratio.",
-    "summary_ar": "أعلن بنك الكويت المركزي إصدار سندات الخزانة وتورّق الدين العام بالنيابة عن وزارة المالية بقيمة 150 مليون دينار لأجل 7 سنوات عبر مزاد تنافسي. بلغ العائد الفائز 4.125%، فيما وصلت قيمة العطاءات إلى 386 مليون دينار، محققة تغطية للإصدار بنحو 2.57 مرة.",
-    "why_it_matters_en": "The issuance locks in a 4.125% borrowing cost for seven years, directly impacting the government's long-term debt servicing obligations. The 2.57x coverage indicates sufficient investor appetite to absorb the debt without requiring aggressive yield hikes to attract capital.",
-    "why_it_matters_ar": "يُثبّت الإصدار تكلفة الاقتراض عند 4.125% لمدة سبع سنوات، مما يؤثر مباشرة على التزامات الحكومة في خدمة الدين على المدى الطويل. كما يشير معدل التغطية البالغ 2.57 مرة إلى وجود طلب كافٍ من المستثمرين على الدين دون الحاجة لرفع العوائد بشكل مفرط لجذب رؤوس الأموال.",
-    "between_the_lines_en": "The material is a routine technical report of a bond auction. The headline in Al-Ray focuses on the 'Central Bank' as the issuer, while Al-Jarida specifies 'public debt bonds' and the Ministry of Finance's role, reflecting standard variations in financial reporting emphasis. There are no unusual attributions, omissions, or timing anomalies present in the supplied text to suggest hidden political or economic subtext.",
-    "between_the_lines_ar": "المادة هي تقرير تقني روتيني لمزاد سندات. يركز عنوان جريدة الرأي على «المركزي» كجهة إصدار، بينما يحدد عنوان جريدة الجريدة «سندات الدين العام» ودور وزارة المالية، وهو ما يعكس اختلافات نمطية شائعة في التغطية المالية. لا توجد في النص المقدم أي إشارات غير معتادة في الإسناد أو التوقيت أو الحذف تدل على خلفيات سياسية أو اقتصادية خفية.",
-    "watch_next_en": "Monitor the next scheduled bond auction to see if the 4.125% yield holds or if the 2.57x coverage ratio fluctuates, indicating shifts in investor confidence or liquidity conditions.",
-    "watch_next_ar": "مراقبة مزاد السندات القادم لمعرفة ما إذا كان العائد البالغ 4.125% سيستقر أو ما إذا كان معدل التغطية البالغ 2.57 مرة سيتغير، مما قد يشير إلى تحولات في ثقة المستثمرين أو ظروف السيولة.",
-    "confidence": "high",
-    "confidence_reason": "The text is a standard, unambiguous financial data report with no editorializing or ambiguous phrasing.",
-    "entities": [
-     "Central Bank of Kuwait",
-     "Ministry of Finance",
-     "Al-Ray",
-     "Al-Jarida"
-    ],
-    "tags": [
-     "Bonds",
-     "Sukuk",
-     "Debt",
-     "Auction",
-     "Yield"
-    ],
-    "_source": "llm"
-   }
-  },
-  {
-   "key": "66955b9749174964",
-   "score": 11.659,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "مشروع طبي كويتي يحل ضمن قائمة أفضل الابتكارات في «مؤتمر المبدعين العرب» بمسقط",
-     "url": "https://www.alanba.com.kw/1382669",
-     "section": "kuwait",
-     "summary": "مسقط - كونا حل مشروع طبي كويتي يعتمد على استخدام الذكاء الاصطناعي في ترميم الأسنان ضمن قائمة أفضل سبعة ابتكارات عربية وذلك في ختام أعمال مؤتمر المبتكرين والمبد",
-     "body": "",
-     "published": "2026-10-28T19:21:08+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "مشروع كويتي من أفضل 7 ابتكارات في مؤتمر «المبدعين العرب»",
-     "url": "https://www.alraimedia.com/article/1784315/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%85%D9%86-%D8%A3%D9%81%D8%B6%D9%84-7-%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%85%D8%A8%D8%AF%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
-     "section": "last-page",
-     "summary": "مسقط - كونا - حلّ مشروع طبي كويتي يعتمد على استخدام الذكاء الاصطناعي في ترميم الأسنان ضمن قائمة أفضل سبعة ابتكارات عربية وذلك في ختام أعمال (مؤتمر المبتكرين والمبدعين العرب) في الع...",
-     "body": "",
-     "published": "2026-10-28T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2373,6 +2432,43 @@
    "analysis": {}
   },
   {
+   "key": "9871d332898134e8",
+   "score": 11.059,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "\"التحالف\": اعتراض وتدمير صاروخ باليستي باتجاه المنطقة الشرقية في السعودية",
+     "url": "https://www.alanba.com.kw/1382790",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-10-29T01:09:16+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: اعتراض وتدمير صاروخ باليستي أطلق باتجاه المنطقة الشرقية",
+     "url": "https://www.alraimedia.com/article/1784341/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D8%A3%D8%B7%D9%84%D9%82-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الخميس أن الدفاع الجوي اعترض ودمر صاروخا باليستيا أطلقته الميليشيا الحوثية الإرهابية باتجاه...",
+     "body": "",
+     "published": "2026-10-29T04:03:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "b352ccd7657433b0",
    "score": 10.759,
    "sources": [
@@ -2447,43 +2543,6 @@
    "analysis": {}
   },
   {
-   "key": "9871d332898134e8",
-   "score": 10.459,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "\"التحالف\": اعتراض وتدمير صاروخ باليستي باتجاه المنطقة الشرقية في السعودية",
-     "url": "https://www.alanba.com.kw/1382790",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-10-29T01:09:16+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التحالف: اعتراض وتدمير صاروخ باليستي أطلق باتجاه المنطقة الشرقية",
-     "url": "https://www.alraimedia.com/article/1784341/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D8%A3%D8%B7%D9%84%D9%82-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الخميس أن الدفاع الجوي اعترض ودمر صاروخا باليستيا أطلقته الميليشيا الحوثية الإرهابية باتجاه...",
-     "body": "",
-     "published": "2026-10-29T04:03:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "77c57a5ca2751bde",
    "score": 9.559,
    "sources": [
@@ -2518,54 +2577,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "ced06f5a9cc75970",
-   "score": 9.432,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "رئيس الوزراء يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
-     "url": "https://www.alanba.com.kw/1382795",
-     "section": "official",
-     "summary": "بعث سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا الصديقة بمناسبة ذكرى يوم الجمهورية لبلاده.",
-     "body": "",
-     "published": "2026-10-29T05:59:26+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "ولي العهد يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
-     "url": "https://www.alanba.com.kw/1382794",
-     "section": "official",
-     "summary": "بعث سمو ولي العهد الشيخ صباح الخالد ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا، ضمنها سموه خالص تهانيه بمناسبة ذكرى يوم الجمهورية لبلاده، متمنيا سموه له موفور الصحة والسعادة، ولجمهورية تركيا وشعبها الصديق المزيد من التقدم والازدهار.",
-     "body": "",
-     "published": "2026-10-29T05:57:35+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الأمير يهنئ الرئيس التركي بمناسبة ذكرى يوم الجمهورية لبلاده",
-     "url": "https://www.alanba.com.kw/1382793",
-     "section": "official",
-     "summary": "بعث صاحب السمو أمير البلاد الشيخ مشعل الأحمد ببرقية تهنئة إلى الرئيس رجب طيب أردوغان رئيس جمهورية تركيا، أعرب فيها سموه عن خالص تهانيه بمناسبة ذكرى يوم الجمهورية لبلاده، متمنيا سموه له موفور الصحة والعافية ولجمهورية تركيا وشعبها الصديق دوام التقدم والازده",
-     "body": "",
-     "published": "2026-10-29T05:55:57+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2847,30 +2858,6 @@
     }
    ],
    "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "3dcc07b8e6703b5c",
-   "score": 7.459,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Asian markets mixed after uneven tech earnings, Fed holds rates",
-     "url": "https://kuwaittimes.com/article/52607/business/asian-markets-mixed-after-uneven-tech-earnings-fed-holds-rates/",
-     "section": "business",
-     "summary": "HONG KONG: Asian tech stocks diverged on Thursday as mixed results from some of the artificial intelligence sector’s biggest companies tempered recent optimism, amid growing anxiet...",
-     "body": "",
-     "published": "2026-10-29T08:24:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -3231,54 +3218,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "9be9d92e12b2f390",
-   "score": 6.659,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الحويلة: «التعاونيات» وجدت خدمةً للمواطنين وليس لتحقيق مصالح شخصية أو تصفية خلافات",
-     "url": "https://www.aljarida.com/article/148909",
-     "section": "local",
-     "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، أن تعيين أعضاء في مجالس إدارات بعض الجمعيات التعاونية يأتي تطبيقاً لأحكام القانون وتفعيلاً للمادة (35)، بهدف تص...",
-     "body": "",
-     "published": "2026-10-28T15:18:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "79b2f2aa2eb90110",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الحويلة: لا أفضلية للعضو المعين على المنتخب.. والمساءلة للجميع",
-     "url": "https://www.alraimedia.com/article/1784226/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D9%84%D8%A7-%D8%A3%D9%81%D8%B6%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A1%D9%84%D8%A9-%D9%84%D9%84%D8%AC%D9%85%D9%8A%D8%B9",
-     "section": "local",
-     "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن تعيين أعضاء في مجالس إدارات بعض الجمعيات التعاونية يأتي تطبيقاً لأحكام القانون وتفعيل المادة (35)، بهدف...",
-     "body": "",
-     "published": "2026-10-28T15:16:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
    "analysis": {}
   },
   {
@@ -4050,6 +3989,42 @@
    "analysis": {}
   },
   {
+   "key": "f1e7135c708425e3",
+   "score": 6.644,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Ambani’s Jio soars in market debut after India’s biggest IPO",
+     "url": "https://kuwaittimes.com/article/52575/business/ambanis-jio-soars-in-market-debut-after-indias-biggest-ipo/",
+     "section": "business",
+     "summary": "MUMBAI: Shares in India’s Jio Platforms surged nearly 27 percent on its market debut Wednesday, after raising more than $3 billion in the country’s biggest initial public offering....",
+     "body": "",
+     "published": "2026-10-28T20:30:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Ambani’s Jio soars nearly 27 percent on debut after India’s biggest IPO",
+     "url": "https://kuwaittimes.com/article/52550/business/ambanis-jio-soars-nearly-27-percent-on-debut-after-indias-biggest-ipo/",
+     "section": "business",
+     "summary": "MUMBAI: Shares in India’s Jio Platforms surged nearly 27 percent on their market debut on Wednesday, after the company raised more than $3 billion in the country’s biggest initial...",
+     "body": "",
+     "published": "2026-10-28T13:47:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
    "key": "72fee324e9a1d7f4",
    "score": 6.6,
    "sources": [
@@ -4067,30 +4042,6 @@
      "summary": "",
      "body": "",
      "published": "2026-10-28T19:42:30+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "a85b793bd4eff85e",
-   "score": 6.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ولاية نيويورك تقر قانوناً يقيد استخدام الأطفال لروبوتات الدردشة بالذكاء الإصطناعي",
-     "url": "https://www.alraimedia.com/article/1784345/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D8%AA%D9%82%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86%D8%A7-%D9%8A%D9%82%D9%8A%D8%AF-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84-%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%B1%D8%AF%D8%B4%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A5%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
-     "section": "latest",
-     "summary": "وقعت حاكمة ولاية نيويورك أمس الأربعاء، قانونا جديدا يمنع القُصّر من استخدام روبوتات الدردشة المدعومة بالذكاء الاصطناعي والتي توحي وكأنها صديقة لهم، في خطوة تعد الأهم حتى الآن لتقيي...",
-     "body": "",
-     "published": "2026-10-29T08:31:00+03:00",
      "tier": 1
     }
    ],
@@ -4122,7 +4073,7 @@
    "analysis": {}
   },
   {
-   "key": "1ddef75076dc4d73",
+   "key": "bb75001f445b6033",
    "score": 6.557,
    "sources": [
     "الرأي"
@@ -4133,52 +4084,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«أبل» تكشف النقاب عن كمبيوتر محمول بشاشة تعمل باللمس",
-     "url": "https://www.alraimedia.com/article/1784342/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A3%D8%A8%D9%84-%D8%AA%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D9%86%D9%82%D8%A7%D8%A8-%D8%B9%D9%86-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D9%85%D8%AD%D9%85%D9%88%D9%84-%D8%A8%D8%B4%D8%A7%D8%B4%D8%A9-%D8%AA%D8%B9%D9%85%D9%84-%D8%A8%D8%A7%D9%84%D9%84%D9%85%D8%B3",
+     "title": "سيول: كوريا الشمالية أطلقت مقذوفا باتجاه البحر قبالة الساحل الشرقي",
+     "url": "https://www.alraimedia.com/article/1784344/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B3%D9%8A%D9%88%D9%84-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA-%D9%85%D9%82%D8%B0%D9%88%D9%81%D8%A7-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%82%D8%A8%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A",
      "section": "latest",
-     "summary": "كشف الرئيس التنفيذي ⁠لشركة أبل جون تيرنوس، أمس الأربعاء، عن ​أول أجهزة «ماك بوك» مزودة بشاشة تعمل باللمس، متخليا بذلك ‌عن موقف الشركة طويل الأمد الرافض لهذه التكنولوجيا، في خت...",
+     "summary": "قالت هيئة الأركان المشتركة في ​كوريا الجنوبية إن ‌كوريا الشمالية أطلقت اليوم الخميس مقذوفا باتجاه البحر قبالة سواحلها الشرقية.وقال ⁠خفر السواحل الياباني إن ⁠المقذوف ربما يكون...",
      "body": "",
-     "published": "2026-10-29T05:21:00+03:00",
+     "published": "2026-10-29T07:24:00+03:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "2a0be58143abafdc",
-   "score": 6.434,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت والسعودية: تضامن تجاه التحديات والتهديدات",
-     "url": "https://www.alraimedia.com/article/1784334/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B6%D8%A7%D9%85%D9%86-%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA",
-     "section": "latest",
-     "summary": "قال وزير الدفاع السعودي خالد بن سلمان أجريت اتصالًا هاتفياً بأخي معالي الشيخ عبدالله علي عبدالله السالم الصباح وزير الدفاع بدولة الكويت الشقيقة.وأضاف عبر حسابه على «إكس» «استعرضنا...",
-     "body": "",
-     "published": "2026-10-28T23:30:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت والسعودية: تكثيف الجهود المشتركة لمواجهة التحديات الراهنة",
-     "url": "https://www.alraimedia.com/article/1784229/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D9%83%D8%AB%D9%8A%D9%81-%D8%A7%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A7%D9%87%D9%86%D8%A9",
-     "section": "local",
-     "summary": "اجتمع وزير الخارجية الشيخ جراح جابر الأحمد الصباح، اليوم الأربعاء، مع وزير خارجية المملكة العربية السعودية الأمير فيصل بن فرحان، وذلك خلال الزيارة الرسمية التي يقوم بها إلى مدينة ا...",
-     "body": "",
-     "published": "2026-10-28T15:45:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -4518,6 +4433,54 @@
    "analysis": {}
   },
   {
+   "key": "9be9d92e12b2f390",
+   "score": 6.059,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الحويلة: «التعاونيات» وجدت خدمةً للمواطنين وليس لتحقيق مصالح شخصية أو تصفية خلافات",
+     "url": "https://www.aljarida.com/article/148909",
+     "section": "local",
+     "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، أن تعيين أعضاء في مجالس إدارات بعض الجمعيات التعاونية يأتي تطبيقاً لأحكام القانون وتفعيلاً للمادة (35)، بهدف تص...",
+     "body": "",
+     "published": "2026-10-28T15:18:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "79b2f2aa2eb90110",
+   "score": 6.059,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الحويلة: لا أفضلية للعضو المعين على المنتخب.. والمساءلة للجميع",
+     "url": "https://www.alraimedia.com/article/1784226/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D9%84%D8%A7-%D8%A3%D9%81%D8%B6%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A1%D9%84%D8%A9-%D9%84%D9%84%D8%AC%D9%85%D9%8A%D8%B9",
+     "section": "local",
+     "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن تعيين أعضاء في مجالس إدارات بعض الجمعيات التعاونية يأتي تطبيقاً لأحكام القانون وتفعيل المادة (35)، بهدف...",
+     "body": "",
+     "published": "2026-10-28T15:16:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
    "key": "1baf1b57311a0c4f",
    "score": 6.059,
    "sources": [
@@ -4655,54 +4618,6 @@
      "summary": "KUWAIT: The National Campaign for Cancer Awareness (CAN) on Tuesday launched its ‘Your Day is Pink’ event at the Yawm Al-Bahar (Sea Day) Heritage Village, as part of its breast can...",
      "body": "",
      "published": "2026-10-28T07:42:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "9b473549b259082b",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait backs binding international treaty on rights of older persons",
-     "url": "https://kuwaittimes.com/article/52534/kuwait/kuwait-backs-binding-international-treaty-on-rights-of-older-persons/",
-     "section": "kuwait",
-     "summary": "GENEVA: Kuwait on Tuesday affirmed its full support for international efforts to draft a legally binding treaty to promote and protect the human rights of older persons worldwide.S...",
-     "body": "",
-     "published": "2026-10-28T07:24:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "c79d4dde4fa290fc",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait tells UN women are key partners in resilience amid conflicts",
-     "url": "https://kuwaittimes.com/article/52533/kuwait/kuwait-tells-un-women-are-key-partners-in-resilience-amid-conflicts/",
-     "section": "kuwait",
-     "summary": "NEW YORK: Kuwait told the UN Security Council that women are partners in resilience in the face of crises and conflicts, active contributors to recovery from their repercussions an...",
-     "body": "",
-     "published": "2026-10-28T07:20:00+03:00",
      "tier": 1
     }
    ],
@@ -4998,8 +4913,8 @@
    "analysis": {}
   },
   {
-   "key": "bb75001f445b6033",
-   "score": 5.957,
+   "key": "a85b793bd4eff85e",
+   "score": 5.959,
    "sources": [
     "الرأي"
    ],
@@ -5009,16 +4924,148 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "سيول: كوريا الشمالية أطلقت مقذوفا باتجاه البحر قبالة الساحل الشرقي",
-     "url": "https://www.alraimedia.com/article/1784344/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B3%D9%8A%D9%88%D9%84-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA-%D9%85%D9%82%D8%B0%D9%88%D9%81%D8%A7-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D9%82%D8%A8%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A",
-     "section": "world",
-     "summary": "قالت هيئة الأركان المشتركة في ​كوريا الجنوبية إن ‌كوريا الشمالية أطلقت اليوم الخميس مقذوفا باتجاه البحر قبالة سواحلها الشرقية.وقال ⁠خفر السواحل الياباني إن ⁠المقذوف ربما يكون...",
+     "title": "ولاية نيويورك تقر قانوناً يقيد استخدام الأطفال لروبوتات الدردشة بالذكاء الإصطناعي",
+     "url": "https://www.alraimedia.com/article/1784345/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D9%88%D9%84%D8%A7%D9%8A%D8%A9-%D9%86%D9%8A%D9%88%D9%8A%D9%88%D8%B1%D9%83-%D8%AA%D9%82%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86%D8%A7-%D9%8A%D9%82%D9%8A%D8%AF-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84-%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D8%B1%D8%AF%D8%B4%D8%A9-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A5%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+     "section": "last-page",
+     "summary": "وقعت حاكمة ولاية نيويورك أمس الأربعاء، قانونا جديدا يمنع القُصّر من استخدام روبوتات الدردشة المدعومة بالذكاء الاصطناعي والتي توحي وكأنها صديقة لهم، في خطوة تعد الأهم حتى الآن لتقيي...",
      "body": "",
-     "published": "2026-10-29T07:24:00+03:00",
+     "published": "2026-10-29T08:31:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "2c7193e5260efcea",
+   "score": 5.955,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "البنتاغون يُبعد جنرالاً بارزاً من هيئة الأركان المشتركة ويحيله إلى التقاعد",
+     "url": "https://www.aljarida.com/article/149010",
+     "section": "world",
+     "summary": "أُعفي جنرال بارز في البنتاغون من منصبه القيادي في وقت مفاجئ في وقت سابق من هذا الأسبوع، وأحيل إلى التقاعد، وفقاً لـ«ABC News» نقلاً عن مصدرين مطلعين على الوضع.وكان الفر...",
+     "body": "",
+     "published": "2026-10-29T08:34:00+03:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "2a0be58143abafdc",
+   "score": 5.834,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت والسعودية: تضامن تجاه التحديات والتهديدات",
+     "url": "https://www.alraimedia.com/article/1784334/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B6%D8%A7%D9%85%D9%86-%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA",
+     "section": "latest",
+     "summary": "قال وزير الدفاع السعودي خالد بن سلمان أجريت اتصالًا هاتفياً بأخي معالي الشيخ عبدالله علي عبدالله السالم الصباح وزير الدفاع بدولة الكويت الشقيقة.وأضاف عبر حسابه على «إكس» «استعرضنا...",
+     "body": "",
+     "published": "2026-10-28T23:30:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت والسعودية: تكثيف الجهود المشتركة لمواجهة التحديات الراهنة",
+     "url": "https://www.alraimedia.com/article/1784229/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D9%83%D8%AB%D9%8A%D9%81-%D8%A7%D9%84%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A7%D9%87%D9%86%D8%A9",
+     "section": "local",
+     "summary": "اجتمع وزير الخارجية الشيخ جراح جابر الأحمد الصباح، اليوم الأربعاء، مع وزير خارجية المملكة العربية السعودية الأمير فيصل بن فرحان، وذلك خلال الزيارة الرسمية التي يقوم بها إلى مدينة ا...",
+     "body": "",
+     "published": "2026-10-28T15:45:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "3bcd4744d03fab8d",
+   "score": 5.759,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "رحيل الفنانة نادية كرم عن 67 عاماً",
+     "url": "https://www.alraimedia.com/article/1784337/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B1%D8%AD%D9%8A%D9%84-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D9%83%D8%B1%D9%85-%D8%B9%D9%86-67-%D8%B9%D8%A7%D9%85%D8%A7",
+     "section": "latest",
+     "summary": "غيب الموت الفنانة المصرية نادية كرم عن عمر ناهز 67 عاماً، وذلك بعد صراع مرير مع المرض.وأعلنت شقيقتها، الفنانة عبير أحمد، نبأ الوفاة، ناعيةً الراحلة بكلمات مؤثرة سائلةً المولى عز وج...",
+     "body": "",
+     "published": "2026-10-29T01:05:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Culture & Entertainment",
+   "analysis": {}
+  },
+  {
+   "key": "58226d1c196e0ecb",
+   "score": 5.759,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الإمارات تؤكد أهمية خفض التصعيد وتغليب الحلول الدبلوماسية في المنطقة",
+     "url": "https://www.alraimedia.com/article/1784336/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%AE%D9%81%D8%B6-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D9%88%D8%AA%D8%BA%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9",
+     "section": "latest",
+     "summary": "أكدت دولة الإمارات العربية المتحدة على ضوء الظروف الدقيقة التي تشهدها المنطقة، أن الحوار والالتزام بالقانون الدولي يشكلان ركيزتين أساسيتين لمعالجة الأزمات الراهنة، انطلاقاً من نهجه...",
+     "body": "",
+     "published": "2026-10-29T00:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "cd8ebc88166229d3",
+   "score": 5.759,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«وول ستريت جورنال»: رسالة من فانس إلى رضائي.. لإحياء المفاوضات",
+     "url": "https://www.alraimedia.com/article/1784335/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D9%88%D9%84-%D8%B3%D8%AA%D8%B1%D9%8A%D8%AA-%D8%AC%D9%88%D8%B1%D9%86%D8%A7%D9%84-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D9%86-%D9%81%D8%A7%D9%86%D8%B3-%D8%A5%D9%84%D9%89-%D8%B1%D8%B6%D8%A7%D8%A6%D9%8A-%D9%84%D8%A5%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA",
+     "section": "latest",
+     "summary": "كشفت «صحيفة وول ستريت جورنال» أن نائب الرئيس الأميركي جاي دي فانس تواصل مع أمين المجلس الأعلى للأمن القومي الإيراني محسن رضائي في محاولة لإحياء المفاوضات.وأفادت الصحيفة بأن فانس بع...",
+     "body": "",
+     "published": "2026-10-28T23:46:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -5046,7 +5093,7 @@
    "analysis": {}
   },
   {
-   "key": "732bdbdbdaf46579",
+   "key": "549ad730d6be0b57",
    "score": 5.758,
    "sources": [
     "الرأي"
@@ -5057,16 +5104,76 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "دوري السلة.. الكويت والقرين يفوزان على كاظمة والقادسية في نصف النهائي",
-     "url": "https://www.alraimedia.com/article/1784333/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D9%86-%D9%8A%D9%81%D9%88%D8%B2%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D9%83%D8%A7%D8%B8%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A",
+     "title": "البديوي: «دول التعاون» ترسخ مكانتها عالمياً في مجال التحول الرقمي",
+     "url": "https://www.alraimedia.com/article/1784338/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%88%D9%8A-%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%AA%D8%B1%D8%B3%D8%AE-%D9%85%D9%83%D8%A7%D9%86%D8%AA%D9%87%D8%A7-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
      "section": "latest",
-     "summary": "فاز فريق نادي الكويت لكرة السلة اليوم الأربعاء على نظيره كاظمة (108-81) فيما تغلب القرين على القادسية (86-83) ضمن نصف نهائي الدوري المحلي موسم (2025 - 2026) والذي يقام بنظام (بلاي...",
+     "summary": "قال الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي الأربعاء إنه في ظل التحولات التقنية المتسارعة التي يشهدها العالم وما تفتحه الثورة الرقمية والذكاء الاصطناعي من آفاق...",
      "body": "",
-     "published": "2026-10-28T23:18:00+03:00",
+     "published": "2026-10-29T01:18:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Sport",
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "1ddef75076dc4d73",
+   "score": 5.757,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«أبل» تكشف النقاب عن كمبيوتر محمول بشاشة تعمل باللمس",
+     "url": "https://www.alraimedia.com/article/1784342/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A3%D8%A8%D9%84-%D8%AA%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D9%86%D9%82%D8%A7%D8%A8-%D8%B9%D9%86-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D9%85%D8%AD%D9%85%D9%88%D9%84-%D8%A8%D8%B4%D8%A7%D8%B4%D8%A9-%D8%AA%D8%B9%D9%85%D9%84-%D8%A8%D8%A7%D9%84%D9%84%D9%85%D8%B3",
+     "section": "latest",
+     "summary": "كشف الرئيس التنفيذي ⁠لشركة أبل جون تيرنوس، أمس الأربعاء، عن ​أول أجهزة «ماك بوك» مزودة بشاشة تعمل باللمس، متخليا بذلك ‌عن موقف الشركة طويل الأمد الرافض لهذه التكنولوجيا، في خت...",
+     "body": "",
+     "published": "2026-10-29T05:21:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "509dd1420940fb71",
+   "score": 5.519,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب يفكر في «حرب قصيرة ومكثفة»... «كل شيء ممكن»",
+     "url": "https://www.alraimedia.com/article/1784318/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%81%D9%83%D8%B1-%D9%81%D9%8A-%D8%AD%D8%B1%D8%A8-%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D9%88%D9%85%D9%83%D8%AB%D9%81%D8%A9-%D9%83%D9%84-%D8%B4%D9%8A%D8%A1-%D9%85%D9%85%D9%83%D9%86",
+     "section": "latest",
+     "summary": "أبلغت الولايات المتحدة، دولاً عربية، بضرورة الاستعداد لاحتمال شن حملة عسكرية قصيرة ومكثفة ضد إيران بعد انتخابات التجديد النصفي الأميركية، في وقت تتزايد المؤشرات على استعداد واشنطن...",
+     "body": "",
+     "published": "2026-10-28T22:01:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب يبحث خيار «حرب قصيرة ومُكثّفة» مع إيران",
+     "url": "https://www.alraimedia.com/article/1784256/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%AE%D9%8A%D8%A7%D8%B1-%D8%AD%D8%B1%D8%A8-%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D9%88%D9%85%D9%83%D8%AB%D9%81%D8%A9-%D9%85%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+     "section": "world",
+     "summary": "أبلغت الولايات المتحدة عدداً من الدول العربية، بضرورة الاستعداد لاحتمال شن حملة عسكرية قصيرة ومكثفة ضد إيران بعد انتخابات التجديد النصفي الأميركية، في وقت تتزايد المؤشرات على استعد...",
+     "body": "",
+     "published": "2026-10-28T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -5238,30 +5345,6 @@
    "analysis": {}
   },
   {
-   "key": "1a381d596b104f1d",
-   "score": 5.458,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Ambani’s Jio soars nearly 27 percent on debut after India’s biggest IPO",
-     "url": "https://kuwaittimes.com/article/52550/business/ambanis-jio-soars-nearly-27-percent-on-debut-after-indias-biggest-ipo/",
-     "section": "business",
-     "summary": "MUMBAI: Shares in India’s Jio Platforms surged nearly 27 percent on their market debut on Wednesday, after the company raised more than $3 billion in the country’s biggest initial...",
-     "body": "",
-     "published": "2026-10-28T13:47:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "01a5f63d021a7e9d",
    "score": 5.458,
    "sources": [
@@ -5375,78 +5458,6 @@
      "summary": "",
      "body": "",
      "published": "2026-10-29T01:06:34+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "3bcd4744d03fab8d",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رحيل الفنانة نادية كرم عن 67 عاماً",
-     "url": "https://www.alraimedia.com/article/1784337/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B1%D8%AD%D9%8A%D9%84-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86%D8%A9-%D9%86%D8%A7%D8%AF%D9%8A%D8%A9-%D9%83%D8%B1%D9%85-%D8%B9%D9%86-67-%D8%B9%D8%A7%D9%85%D8%A7",
-     "section": "last-page",
-     "summary": "غيب الموت الفنانة المصرية نادية كرم عن عمر ناهز 67 عاماً، وذلك بعد صراع مرير مع المرض.وأعلنت شقيقتها، الفنانة عبير أحمد، نبأ الوفاة، ناعيةً الراحلة بكلمات مؤثرة سائلةً المولى عز وج...",
-     "body": "",
-     "published": "2026-10-29T01:05:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Culture & Entertainment",
-   "analysis": {}
-  },
-  {
-   "key": "58226d1c196e0ecb",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الإمارات تؤكد أهمية خفض التصعيد وتغليب الحلول الدبلوماسية في المنطقة",
-     "url": "https://www.alraimedia.com/article/1784336/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%AE%D9%81%D8%B6-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D9%88%D8%AA%D8%BA%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84-%D8%A7%D9%84%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9",
-     "section": "world",
-     "summary": "أكدت دولة الإمارات العربية المتحدة على ضوء الظروف الدقيقة التي تشهدها المنطقة، أن الحوار والالتزام بالقانون الدولي يشكلان ركيزتين أساسيتين لمعالجة الأزمات الراهنة، انطلاقاً من نهجه...",
-     "body": "",
-     "published": "2026-10-29T00:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "cd8ebc88166229d3",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«وول ستريت جورنال»: رسالة من فانس إلى رضائي.. لإحياء المفاوضات",
-     "url": "https://www.alraimedia.com/article/1784335/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D9%88%D9%84-%D8%B3%D8%AA%D8%B1%D9%8A%D8%AA-%D8%AC%D9%88%D8%B1%D9%86%D8%A7%D9%84-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%85%D9%86-%D9%81%D8%A7%D9%86%D8%B3-%D8%A5%D9%84%D9%89-%D8%B1%D8%B6%D8%A7%D8%A6%D9%8A-%D9%84%D8%A5%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA",
-     "section": "world",
-     "summary": "كشفت «صحيفة وول ستريت جورنال» أن نائب الرئيس الأميركي جاي دي فانس تواصل مع أمين المجلس الأعلى للأمن القومي الإيراني محسن رضائي في محاولة لإحياء المفاوضات.وأفادت الصحيفة بأن فانس بع...",
-     "body": "",
-     "published": "2026-10-28T23:46:00+03:00",
      "tier": 1
     }
    ],
@@ -5598,6 +5609,30 @@
    "analysis": {}
   },
   {
+   "key": "17e0cbad4402cd87",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "إنجاز طبي جديد في خدمات الصحة الإنجابية بمستشفى الفروانية",
+     "url": "https://www.alraimedia.com/article/1784322/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%B7%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعلن مستشفى الفروانية، عن نجاح إجراء أول عملية جراحية دقيقة لاستخراج الحيوانات المنوية باستخدام تقنية الميكروسكوب الجراحي، لعلاج بعض حالات تأخر الإنجاب لدى الرجال، في إنجاز يعكس ال...",
+     "body": "",
+     "published": "2026-10-28T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
    "key": "daccadedc3caef05",
    "score": 5.159,
    "sources": [
@@ -5615,6 +5650,78 @@
      "summary": "عزّز فريق الكويت آماله في التأهل إلى الدور ثمن النهائي لبطولة دوري أبطال آسيا 2 لكرة القدم، بعد فوزه الثمين على مضيفه ناساف الأوزبكي 1-0 في كارشي، اليوم الأربعاء، ضمن الجولة الثالث...",
      "body": "",
      "published": "2026-10-28T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "85a0d5cf80c2c33b",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تكلفة الحرب الأميركية على إيران تتجاوز 47 مليار دولار",
+     "url": "https://www.alraimedia.com/article/1784316/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D9%83%D9%84%D9%81%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-47-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+     "section": "latest",
+     "summary": "أظهرت بيانات لوزارة الحرب الأميركية قدمت للكونغرس، أن الجيش أنفق حتى الآن أكثر من 47 مليار دولار لإدارة الحرب في إيران، بزيادة تتجاوز 25 في المئة مقارنة بتقدير البنتاغون في يوليو ا...",
+     "body": "",
+     "published": "2026-10-28T22:01:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "7a7d7fd300948123",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "تعديل فيروسات وراثياً لمهاجمة سرطان الدماغ",
+     "url": "https://www.alraimedia.com/article/1784314/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%81%D9%8A%D8%B1%D9%88%D8%B3%D8%A7%D8%AA-%D9%88%D8%B1%D8%A7%D8%AB%D9%8A%D8%A7-%D9%84%D9%85%D9%87%D8%A7%D8%AC%D9%85%D8%A9-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%BA",
+     "section": "latest",
+     "summary": "كشفت دراسة طبية رائدة نشرتها منصة «scitechdaily.com» عن تقدم علمي مذهل في علاج سرطانات الدماغ المستعصية، حيث نجح الباحثون في استخدام فيروسات معدلة وراثياً لتعمل كـ«حصان طروادة» يتس...",
+     "body": "",
+     "published": "2026-10-28T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "f3f1f16cadd15e0e",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«لارا» تقطع 2700 كيلومتر في رحلة عبر المتوسط",
+     "url": "https://www.alraimedia.com/article/1784313/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%84%D8%A7%D8%B1%D8%A7-%D8%AA%D9%82%D8%B7%D8%B9-2700-%D9%83%D9%8A%D9%84%D9%88%D9%85%D8%AA%D8%B1-%D9%81%D9%8A-%D8%B1%D8%AD%D9%84%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7",
+     "section": "latest",
+     "summary": "قطعت السلحفاة «لارا» مسافة 2700 كيلومتر في رحلة مدهشة عبر البحر الأبيض المتوسط، استمرت 120 يوماً، انطلاقاً من موقع تعشيشها على سواحل جزيرة قبرص شرقي المتوسط، قبل أن تحط الرحال في م...",
+     "body": "",
+     "published": "2026-10-28T22:00:00+03:00",
      "tier": 1
     }
    ],
@@ -5790,7 +5897,7 @@
    "analysis": {}
   },
   {
-   "key": "549ad730d6be0b57",
+   "key": "732bdbdbdaf46579",
    "score": 5.158,
    "sources": [
     "الرأي"
@@ -5801,36 +5908,36 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "البديوي: «دول التعاون» ترسخ مكانتها عالمياً في مجال التحول الرقمي",
-     "url": "https://www.alraimedia.com/article/1784338/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%88%D9%8A-%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%AA%D8%B1%D8%B3%D8%AE-%D9%85%D9%83%D8%A7%D9%86%D8%AA%D9%87%D8%A7-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
-     "section": "world",
-     "summary": "قال الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي الأربعاء إنه في ظل التحولات التقنية المتسارعة التي يشهدها العالم وما تفتحه الثورة الرقمية والذكاء الاصطناعي من آفاق...",
+     "title": "دوري السلة.. الكويت والقرين يفوزان على كاظمة والقادسية في نصف النهائي",
+     "url": "https://www.alraimedia.com/article/1784333/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D9%86-%D9%8A%D9%81%D9%88%D8%B2%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D9%83%D8%A7%D8%B8%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A",
+     "section": "latest",
+     "summary": "فاز فريق نادي الكويت لكرة السلة اليوم الأربعاء على نظيره كاظمة (108-81) فيما تغلب القرين على القادسية (86-83) ضمن نصف نهائي الدوري المحلي موسم (2025 - 2026) والذي يقام بنظام (بلاي...",
      "body": "",
-     "published": "2026-10-29T01:18:00+03:00",
+     "published": "2026-10-28T23:18:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Sport",
    "analysis": {}
   },
   {
-   "key": "ca5862d5fb57c5bd",
+   "key": "0290d396f39f4c55",
    "score": 5.158,
    "sources": [
-    "الجريدة"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
+     "source_id": "alrai",
+     "source_name": "الرأي",
      "lang": "ar",
-     "title": "عراقجي: نبحث مع الوسطاء خطة لإنهاء الحرب وإعادة فتح «هرمز»",
-     "url": "https://www.aljarida.com/article/149004",
-     "section": "world",
-     "summary": "أعلن وزير الخارجية الإيراني عباس عراقجي الأربعاء أن بلاده تبحث مع الوسطاء سبل تنفيذ خطّة الأيام السبعة الرامية إلى إنهاء الحرب في الشرق الأوسط، وإعادة فتح مضيق هرمز.وكتب عراقجي في...",
+     "title": "«فيا رياض» تحتضن الاستقبال الرسمي لنجوم «المكسيك ضد العالم» إيذانًا بانطلاق أسبوع الملاكمة",
+     "url": "https://www.alraimedia.com/article/1784332/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D9%81%D9%8A%D8%A7-%D8%B1%D9%8A%D8%A7%D8%B6-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A-%D9%84%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D9%85%D9%83%D8%B3%D9%8A%D9%83-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A5%D9%8A%D8%B0%D8%A7%D9%86%D8%A7-%D8%A8%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83%D9%85%D8%A9",
+     "section": "latest",
+     "summary": "شهدت منطقة «فيا رياض»، مساء اليوم الأربعاء، حفل الاستقبال الرسمي لنجوم الملاكمة المشاركين في حدث «المكسيك ضد العالم» (Mexico vs. The World)، إيذانًا بانطلاق فعاليات أسبوع الملاكمة...",
      "body": "",
-     "published": "2026-10-28T23:34:00+03:00",
+     "published": "2026-10-28T23:10:00+03:00",
      "tier": 1
     }
    ],
@@ -5862,6 +5969,30 @@
    "analysis": {}
   },
   {
+   "key": "bdf9e0f38e80cc18",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«حماية الأحداث» تحذر من التنمر والتجاوزات الإلكترونية وسوء استخدام الهواتف",
+     "url": "https://www.alraimedia.com/article/1784324/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF%D8%A7%D8%AB-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%88%D8%B3%D9%88%D8%A1-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%AA%D9%81",
+     "section": "latest",
+     "summary": "أكد ضابط إدارة حماية الأحداث في الإدارة العامة للمباحث الجنائية الملازم أول عبدالله العوضي أن إدارة حماية الأحداث تضطلع بدور مهم في حماية الأطفال والأحداث ومتابعة القضايا المتعلقة...",
+     "body": "",
+     "published": "2026-10-28T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "7180c63da3b0da1f",
    "score": 5.158,
    "sources": [
@@ -5883,6 +6014,30 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "bab99eb4878570f4",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "نتنياهو نجح لكنه لم ينتصر... انتخابات إسرائيل تفتح معركة على السلطة",
+     "url": "https://www.alraimedia.com/article/1784317/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B5%D8%A9/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%86%D8%AC%D8%AD-%D9%84%D9%83%D9%86%D9%87-%D9%84%D9%85-%D9%8A%D9%86%D8%AA%D8%B5%D8%B1-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%81%D8%AA%D8%AD-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A9",
+     "section": "latest",
+     "summary": "انتهى التصويت وبدأت المعركة. لم تسفر الانتخابات البرلمانية الإسرائيلية عن فوز أو هزيمة لأي من الطرفين المتنافسين الرئيسيين. فقد نجح رئيس الوزراء بنيامين نتنياهو في الحفاظ على ثقله...",
+     "body": "",
+     "published": "2026-10-28T22:01:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -6054,90 +6209,6 @@
    "analysis": {}
   },
   {
-   "key": "509dd1420940fb71",
-   "score": 4.919,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب يفكر في «حرب قصيرة ومكثفة»... «كل شيء ممكن»",
-     "url": "https://www.alraimedia.com/article/1784318/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%81%D9%83%D8%B1-%D9%81%D9%8A-%D8%AD%D8%B1%D8%A8-%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D9%88%D9%85%D9%83%D8%AB%D9%81%D8%A9-%D9%83%D9%84-%D8%B4%D9%8A%D8%A1-%D9%85%D9%85%D9%83%D9%86",
-     "section": "world",
-     "summary": "أبلغت الولايات المتحدة، دولاً عربية، بضرورة الاستعداد لاحتمال شن حملة عسكرية قصيرة ومكثفة ضد إيران بعد انتخابات التجديد النصفي الأميركية، في وقت تتزايد المؤشرات على استعداد واشنطن...",
-     "body": "",
-     "published": "2026-10-28T22:01:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب يبحث خيار «حرب قصيرة ومُكثّفة» مع إيران",
-     "url": "https://www.alraimedia.com/article/1784256/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%AE%D9%8A%D8%A7%D8%B1-%D8%AD%D8%B1%D8%A8-%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D9%88%D9%85%D9%83%D8%AB%D9%81%D8%A9-%D9%85%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-     "section": "world",
-     "summary": "أبلغت الولايات المتحدة عدداً من الدول العربية، بضرورة الاستعداد لاحتمال شن حملة عسكرية قصيرة ومكثفة ضد إيران بعد انتخابات التجديد النصفي الأميركية، في وقت تتزايد المؤشرات على استعد...",
-     "body": "",
-     "published": "2026-10-28T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "17e0cbad4402cd87",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "إنجاز طبي جديد في خدمات الصحة الإنجابية بمستشفى الفروانية",
-     "url": "https://www.alraimedia.com/article/1784322/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%B7%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9",
-     "section": "last-page",
-     "summary": "أعلن مستشفى الفروانية، عن نجاح إجراء أول عملية جراحية دقيقة لاستخراج الحيوانات المنوية باستخدام تقنية الميكروسكوب الجراحي، لعلاج بعض حالات تأخر الإنجاب لدى الرجال، في إنجاز يعكس ال...",
-     "body": "",
-     "published": "2026-10-28T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "85a0d5cf80c2c33b",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "تكلفة الحرب الأميركية على إيران تتجاوز 47 مليار دولار",
-     "url": "https://www.alraimedia.com/article/1784316/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D9%83%D9%84%D9%81%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-47-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "world",
-     "summary": "أظهرت بيانات لوزارة الحرب الأميركية قدمت للكونغرس، أن الجيش أنفق حتى الآن أكثر من 47 مليار دولار لإدارة الحرب في إيران، بزيادة تتجاوز 25 في المئة مقارنة بتقدير البنتاغون في يوليو ا...",
-     "body": "",
-     "published": "2026-10-28T22:01:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "7a0b793b92e3aa09",
    "score": 4.559,
    "sources": [
@@ -6279,54 +6350,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "7a7d7fd300948123",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "تعديل فيروسات وراثياً لمهاجمة سرطان الدماغ",
-     "url": "https://www.alraimedia.com/article/1784314/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%81%D9%8A%D8%B1%D9%88%D8%B3%D8%A7%D8%AA-%D9%88%D8%B1%D8%A7%D8%AB%D9%8A%D8%A7-%D9%84%D9%85%D9%87%D8%A7%D8%AC%D9%85%D8%A9-%D8%B3%D8%B1%D8%B7%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D8%BA",
-     "section": "last-page",
-     "summary": "كشفت دراسة طبية رائدة نشرتها منصة «scitechdaily.com» عن تقدم علمي مذهل في علاج سرطانات الدماغ المستعصية، حيث نجح الباحثون في استخدام فيروسات معدلة وراثياً لتعمل كـ«حصان طروادة» يتس...",
-     "body": "",
-     "published": "2026-10-28T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "f3f1f16cadd15e0e",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«لارا» تقطع 2700 كيلومتر في رحلة عبر المتوسط",
-     "url": "https://www.alraimedia.com/article/1784313/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%84%D8%A7%D8%B1%D8%A7-%D8%AA%D9%82%D8%B7%D8%B9-2700-%D9%83%D9%8A%D9%84%D9%88%D9%85%D8%AA%D8%B1-%D9%81%D9%8A-%D8%B1%D8%AD%D9%84%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7",
-     "section": "last-page",
-     "summary": "قطعت السلحفاة «لارا» مسافة 2700 كيلومتر في رحلة مدهشة عبر البحر الأبيض المتوسط، استمرت 120 يوماً، انطلاقاً من موقع تعشيشها على سواحل جزيرة قبرص شرقي المتوسط، قبل أن تحط الرحال في م...",
-     "body": "",
-     "published": "2026-10-28T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -6594,71 +6617,23 @@
    "analysis": {}
   },
   {
-   "key": "0290d396f39f4c55",
+   "key": "ca5862d5fb57c5bd",
    "score": 4.558,
    "sources": [
-    "الرأي"
+    "الجريدة"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
      "lang": "ar",
-     "title": "«فيا رياض» تحتضن الاستقبال الرسمي لنجوم «المكسيك ضد العالم» إيذانًا بانطلاق أسبوع الملاكمة",
-     "url": "https://www.alraimedia.com/article/1784332/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D9%81%D9%8A%D8%A7-%D8%B1%D9%8A%D8%A7%D8%B6-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A-%D9%84%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D9%85%D9%83%D8%B3%D9%8A%D9%83-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A5%D9%8A%D8%B0%D8%A7%D9%86%D8%A7-%D8%A8%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83%D9%85%D8%A9",
-     "section": "last-page",
-     "summary": "شهدت منطقة «فيا رياض»، مساء اليوم الأربعاء، حفل الاستقبال الرسمي لنجوم الملاكمة المشاركين في حدث «المكسيك ضد العالم» (Mexico vs. The World)، إيذانًا بانطلاق فعاليات أسبوع الملاكمة...",
-     "body": "",
-     "published": "2026-10-28T23:10:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "bdf9e0f38e80cc18",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«حماية الأحداث» تحذر من التنمر والتجاوزات الإلكترونية وسوء استخدام الهواتف",
-     "url": "https://www.alraimedia.com/article/1784324/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A3%D9%85%D9%86%D9%8A%D8%A9/%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF%D8%A7%D8%AB-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D9%88%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%88%D8%B3%D9%88%D8%A1-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%AA%D9%81",
-     "section": "last-page",
-     "summary": "أكد ضابط إدارة حماية الأحداث في الإدارة العامة للمباحث الجنائية الملازم أول عبدالله العوضي أن إدارة حماية الأحداث تضطلع بدور مهم في حماية الأطفال والأحداث ومتابعة القضايا المتعلقة...",
-     "body": "",
-     "published": "2026-10-28T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "bab99eb4878570f4",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "نتنياهو نجح لكنه لم ينتصر... انتخابات إسرائيل تفتح معركة على السلطة",
-     "url": "https://www.alraimedia.com/article/1784317/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B5%D8%A9/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%86%D8%AC%D8%AD-%D9%84%D9%83%D9%86%D9%87-%D9%84%D9%85-%D9%8A%D9%86%D8%AA%D8%B5%D8%B1-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%81%D8%AA%D8%AD-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A9",
+     "title": "عراقجي: نبحث مع الوسطاء خطة لإنهاء الحرب وإعادة فتح «هرمز»",
+     "url": "https://www.aljarida.com/article/149004",
      "section": "world",
-     "summary": "انتهى التصويت وبدأت المعركة. لم تسفر الانتخابات البرلمانية الإسرائيلية عن فوز أو هزيمة لأي من الطرفين المتنافسين الرئيسيين. فقد نجح رئيس الوزراء بنيامين نتنياهو في الحفاظ على ثقله...",
+     "summary": "أعلن وزير الخارجية الإيراني عباس عراقجي الأربعاء أن بلاده تبحث مع الوسطاء سبل تنفيذ خطّة الأيام السبعة الرامية إلى إنهاء الحرب في الشرق الأوسط، وإعادة فتح مضيق هرمز.وكتب عراقجي في...",
      "body": "",
-     "published": "2026-10-28T22:01:00+03:00",
+     "published": "2026-10-28T23:34:00+03:00",
      "tier": 1
     }
    ],
@@ -6762,8 +6737,44 @@
    "analysis": {}
   },
   {
-   "key": "60f165f4c93791d2",
-   "score": 4.359,
+   "key": "dba7bcd0337eb1d3",
+   "score": 4.109,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Summons Iranian Ambassador Over ‘Blatant Interference’ in Judicial Affairs",
+     "url": "https://www.arabtimesonline.com/news/kuwait-summons-iranian-ambassador-over-blatant-interference-in-judicial-affairs/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 28: Kuwait has summoned Iranian Ambassador to Kuwait Mohammad Tutunji and handed him a formal protest note over a statement issued by the Iranian Embassy that Kuwa...",
+     "body": "",
+     "published": "2026-10-28T15:52:00+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Iran Embassy’s Statement Raises Questions Over Interference in Kuwait’s Judicial Affairs",
+     "url": "https://www.arabtimesonline.com/news/iran-embassys-statement-raises-questions-over-interference-in-kuwaits-judicial-affairs/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 28: The Iranian Embassy in Kuwait has rejected allegations by the Kuwaiti government concerning an Iranian citizen's alleged involvement in a plot to assassinate f...",
+     "body": "",
+     "published": "2026-10-28T12:28:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "c48b34cc2d93f0c1",
+   "score": 4.059,
    "sources": [
     "Arab Times"
    ],
@@ -6775,22 +6786,10 @@
      "lang": "en",
      "title": "US Warns Gulf Allies to Brace for Iran Strikes and Retaliation After Midterm Elections",
      "url": "https://www.arabtimesonline.com/news/us-warns-gulf-allies-to-brace-for-iran-strikes-and-retaliation-after-midterm-elections/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 29: The United States has warned several Middle Eastern countries and regional allies to prepare for possible renewed military strikes against Iran after next week’...",
      "body": "",
      "published": "2026-10-29T07:22:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Gulf on edge as US weighs massive Iran strikes after midterm elections",
-     "url": "https://www.arabtimesonline.com/news/gulf-on-edge-as-us-weighs-massive-iran-strikes-after-midterm-elections/",
-     "section": "latest",
-     "summary": "WASHINGTON, Oct 28 : The United States has warned several Gulf Arab countries to prepare for a possible “short, intense military campaign” against Iran following the Nov. 3 midterm...",
-     "body": "",
-     "published": "2026-10-28T07:37:00+03:00",
      "tier": 2
     }
    ],
@@ -6811,7 +6810,7 @@
      "lang": "en",
      "title": "Israeli Police Find No Evidence for Netanyahu Party’s Election Fraud Claims",
      "url": "https://www.arabtimesonline.com/news/israeli-police-find-no-evidence-for-netanyahu-partys-election-fraud-claims/",
-     "section": "latest",
+     "section": "general",
      "summary": "JERUSALEM, Oct 29: Israeli police have found no evidence to substantiate election fraud allegations made by Prime Minister Benjamin Netanyahu’s Likud party, while the Central Elect...",
      "body": "",
      "published": "2026-10-29T07:13:00+03:00",
@@ -6835,7 +6834,7 @@
      "lang": "en",
      "title": "US, Israel Prepare Week-Long Iran Bombing Campaign if Talks Fail: Report",
      "url": "https://www.arabtimesonline.com/news/us-israel-prepare-week-long-iran-bombing-campaign-if-talks-fail-report/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 29: The United States and Israel are preparing for a possible week-long bombing campaign against Iran after the November 3 US midterm elections if diplomatic effor...",
      "body": "",
      "published": "2026-10-29T07:17:00+03:00",
@@ -6859,7 +6858,7 @@
      "lang": "en",
      "title": "Senior Pentagon Strategist Ousted Amid US Military Planning for Iran: Report",
      "url": "https://www.arabtimesonline.com/news/senior-pentagon-strategist-ousted-amid-us-military-planning-for-iran-report/",
-     "section": "latest",
+     "section": "general",
      "summary": "WASHINGTON, Oct 29: US Defense Secretary Pete Hegseth has removed Army Lt. Gen. Brett Sylvia, who headed the Pentagon’s Joint Staff directorate responsible for strategy, plans and...",
      "body": "",
      "published": "2026-10-29T07:08:00+03:00",
@@ -6915,30 +6914,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "7c3c70ef25f8ba7b",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "بيع هيكل عظمي نادر لديناصور.. بمبلغ فلكي",
-     "url": "https://www.alraimedia.com/article/1784209/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A8%D9%8A%D8%B9-%D9%87%D9%8A%D9%83%D9%84-%D8%B9%D8%B8%D9%85%D9%8A-%D9%86%D8%A7%D8%AF%D8%B1-%D9%84%D8%AF%D9%8A%D9%86%D8%A7%D8%B5%D9%88%D8%B1-%D8%A8%D9%85%D8%A8%D9%84%D8%BA-%D9%81%D9%84%D9%83%D9%8A",
-     "section": "last-page",
-     "summary": "بيع هيكل عظمي نادر لديناصور «نانوتيرانوس»، وهو قريب لـ«تي ريكس» لكنه أصغر حجما، في مزاد مقابل 47.3 مليون دولار.وتمت الصفقة بعد منافسة محتدمة استمرت 12 دقيقة بين 6 مزايدين، في الحدث...",
-     "body": "",
-     "published": "2026-10-28T07:23:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -7206,6 +7181,78 @@
    "analysis": {}
   },
   {
+   "key": "09c060696b04ec93",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait reaffirms support for UN",
+     "url": "https://www.arabtimesonline.com/news/kuwait-reaffirms-support-for-un/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 28: Foreign Affairs Minister Sheikh Jarrah Jaber Al- Ahmad Al-Sabah stated that diplomacy is the pillar of maintaining peace, preventing confl icts, bridging diffe...",
+     "body": "",
+     "published": "2026-10-28T23:17:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "9d48cdf4c169389d",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Sheikh Nasser opens first ‘French Week in Kuwait’",
+     "url": "https://www.arabtimesonline.com/news/sheikh-nasser-opens-first-french-week-in-kuwait/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 28: His Highness Sheikh Nasser Al-Mohammad Al-Sabah inaugurated the first ‘French Week in Kuwait’ at the Assimah Mall on Wednesday. The theme of the event is “Fran...",
+     "body": "",
+     "published": "2026-10-28T23:11:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "2ca4d2ba28179e11",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait to digitize social services under 2035 plan",
+     "url": "https://www.arabtimesonline.com/news/kuwait-to-digitize-social-services-under-2035-plan/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 28: The Ministry of Social Affairs intensified its field and planning efforts to implement its comprehensive 2035 development strategy in order to establish allian...",
+     "body": "",
+     "published": "2026-10-28T22:38:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "0869b297b3e456e5",
    "score": 3.659,
    "sources": [
@@ -7299,6 +7346,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "c2daa814260c217d",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "PM pushes optimal use of Jleeb land",
+     "url": "https://www.arabtimesonline.com/news/pm-pushes-optimal-use-of-jleeb-land/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Oct 28 : His Highness the Prime Minister Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah chaired a meeting at Bayan Palace on Tuesday to discuss the development and reorganiza...",
+     "body": "",
+     "published": "2026-10-28T21:16:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -7675,7 +7746,7 @@
      "lang": "en",
      "title": "Kuwait Jails Citizen for a Year, Fines Him KD 10,000 for Insulting Allah and Quran on TikTok",
      "url": "https://www.arabtimesonline.com/news/kuwait-jails-citizen-for-a-year-fines-him-kd-10000-for-insulting-allah-and-quran-on-tiktok/",
-     "section": "latest",
+     "section": "crime",
      "summary": "KUWAIT CITY, Oct 29: Kuwait’s Court of Appeals has sentenced a Kuwaiti citizen to one year in prison and fined him KD10,000 for insulting God and the Holy Quran and violating publi...",
      "body": "",
      "published": "2026-10-28T23:37:00+03:00",
@@ -7683,30 +7754,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "09c060696b04ec93",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait reaffirms support for UN",
-     "url": "https://www.arabtimesonline.com/news/kuwait-reaffirms-support-for-un/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28: Foreign Affairs Minister Sheikh Jarrah Jaber Al- Ahmad Al-Sabah stated that diplomacy is the pillar of maintaining peace, preventing confl icts, bridging diffe...",
-     "body": "",
-     "published": "2026-10-28T23:17:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -7723,50 +7770,14 @@
      "lang": "en",
      "title": "Egyptian Expatriate Dies After Falling Into Building Basement in Kuwait",
      "url": "https://www.arabtimesonline.com/news/egyptian-expatriate-dies-after-falling-into-building-basement-in-kuwait/",
-     "section": "latest",
+     "section": "crime",
      "summary": "KUWAIT CITY, Oct 28: An Egyptian expatriate, born in 1971, died after falling into the basement of a building in Kuwait.The operations room received a report of a fall from a heig...",
      "body": "",
      "published": "2026-10-28T23:29:00+03:00",
      "tier": 2
     }
    ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "dba7bcd0337eb1d3",
-   "score": 2.959,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Summons Iranian Ambassador Over ‘Blatant Interference’ in Judicial Affairs",
-     "url": "https://www.arabtimesonline.com/news/kuwait-summons-iranian-ambassador-over-blatant-interference-in-judicial-affairs/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28: Kuwait has summoned Iranian Ambassador to Kuwait Mohammad Tutunji and handed him a formal protest note over a statement issued by the Iranian Embassy that Kuwa...",
-     "body": "",
-     "published": "2026-10-28T15:52:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Iran Embassy’s Statement Raises Questions Over Interference in Kuwait’s Judicial Affairs",
-     "url": "https://www.arabtimesonline.com/news/iran-embassys-statement-raises-questions-over-interference-in-kuwaits-judicial-affairs/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28: The Iranian Embassy in Kuwait has rejected allegations by the Kuwaiti government concerning an Iranian citizen's alleged involvement in a plot to assassinate f...",
-     "body": "",
-     "published": "2026-10-28T12:28:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
+   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -7787,30 +7798,6 @@
      "summary": "بحث وزير الخارجية الشيخ جراح جابر الأحمد الصباح مع وزير الدولة عضو مجلس الوزراء السعودي الأمير تركي بن محمد بن فهد بن عبدالعزيز آل سعود اليوم الأربعاء الروابط التاريخية الراسخة والعلاقات الأخوية المتينة التي تجمع البلدين والشعبين الشقيقين وسبل تعزيزها […]\n\nThe post وزير الخارجية يبحث مع وزير الدولة السعودي تعزيز العلاقات الأخوية appeared first on كويت نيوز.",
      "body": "",
      "published": "2026-10-28T18:40:48+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "9d48cdf4c169389d",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Sheikh Nasser opens first ‘French Week in Kuwait’",
-     "url": "https://www.arabtimesonline.com/news/sheikh-nasser-opens-first-french-week-in-kuwait/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28: His Highness Sheikh Nasser Al-Mohammad Al-Sabah inaugurated the first ‘French Week in Kuwait’ at the Assimah Mall on Wednesday. The theme of the event is “Fran...",
-     "body": "",
-     "published": "2026-10-28T23:11:00+03:00",
      "tier": 2
     }
    ],
@@ -7866,54 +7853,6 @@
    "analysis": {}
   },
   {
-   "key": "2ca4d2ba28179e11",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait to digitize social services under 2035 plan",
-     "url": "https://www.arabtimesonline.com/news/kuwait-to-digitize-social-services-under-2035-plan/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28: The Ministry of Social Affairs intensified its field and planning efforts to implement its comprehensive 2035 development strategy in order to establish allian...",
-     "body": "",
-     "published": "2026-10-28T22:38:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "c2daa814260c217d",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "PM pushes optimal use of Jleeb land",
-     "url": "https://www.arabtimesonline.com/news/pm-pushes-optimal-use-of-jleeb-land/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28 : His Highness the Prime Minister Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah chaired a meeting at Bayan Palace on Tuesday to discuss the development and reorganiza...",
-     "body": "",
-     "published": "2026-10-28T21:16:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "e9ab28cd83feba76",
    "score": 2.659,
    "sources": [
@@ -7951,7 +7890,7 @@
      "lang": "en",
      "title": "Qurain wins the inaugural Youth Boxing Championship",
      "url": "https://www.arabtimesonline.com/news/qurain-wins-the-inaugural-youth-boxing-championship/",
-     "section": "latest",
+     "section": "general",
      "summary": "KUWAIT CITY, Oct 28: Qurain Club claimed the title of the inaugural Youth Boxing Championship, which concluded at the Kuwait Boxing Federation’s ring in Sabah Al-Salem, following a...",
      "body": "",
      "published": "2026-10-28T19:42:00+03:00",
@@ -7999,7 +7938,7 @@
      "lang": "en",
      "title": "Al-Melhem stresses the importance of developing young equestrian talent",
      "url": "https://www.arabtimesonline.com/news/al-melhem-stresses-the-importance-of-developing-young-equestrian-talent/",
-     "section": "latest",
+     "section": "general",
      "summary": "KUWAIT CITY, Oct 28: The Messilah Equestrian Club Musayla Equestrian Club Show Jumping Championship gets underway on Friday morning, with beginner riders competing over 60cm and 80...",
      "body": "",
      "published": "2026-10-28T19:39:00+03:00",
@@ -8047,7 +7986,7 @@
      "lang": "en",
      "title": "Iranian Regime Forces Schoolchildren to Attend Weekly Pro-Government Rallies",
      "url": "https://www.arabtimesonline.com/news/iranian-regime-forces-schoolchildren-to-attend-weekly-pro-government-rallies/",
-     "section": "latest",
+     "section": "general",
      "summary": "TEHRAN, Oct 28: Iran’s education minister has announced a directive requiring schools to coordinate students’ attendance at weekly pro-government gatherings on Wednesday nights, as...",
      "body": "",
      "published": "2026-10-28T16:30:00+03:00",
@@ -8071,7 +8010,7 @@
      "lang": "en",
      "title": "Piracy Concerns Rise After Nine-Person Boat Spotted Near Ships in Gulf of Aden",
      "url": "https://www.arabtimesonline.com/news/piracy-concerns-rise-after-nine-person-boat-spotted-near-ships-in-gulf-of-aden/",
-     "section": "latest",
+     "section": "general",
      "summary": "LONDON, Oct 28: The United Kingdom Maritime Trade Operations (UKMTO) has warned vessels transiting the Gulf of Aden to exercise caution after reports of suspicious small-boat activ...",
      "body": "",
      "published": "2026-10-28T16:14:00+03:00",
@@ -8095,7 +8034,7 @@
      "lang": "en",
      "title": "Kuwait veterans set for Gulf Cup campaign in Qatar",
      "url": "https://www.arabtimesonline.com/news/kuwait-veterans-set-for-gulf-cup-campaign-in-qatar/",
-     "section": "latest",
+     "section": "general",
      "summary": "KUWAIT CITY, Oct 28: Kuwait’s national veterans team departed for Doha on Monday to compete in the Gulf Cup, scheduled to run from October 29 to November 4.The Blue team will open...",
      "body": "",
      "published": "2026-10-28T19:47:00+03:00",
@@ -8103,6 +8042,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "901570907aa1c218",
+   "score": 2.658,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Probes Suspicious Death of Indian Man in Al-Qasr",
+     "url": "https://www.arabtimesonline.com/news/kuwait-probes-suspicious-death-of-indian-man-in-al-qasr/",
+     "section": "crime",
+     "summary": "KUWAIT CITY, Oct 28: An Indian expatriate, born in 1981, has died under suspicious circumstances inside a house in Al-Qasr, prompting the Public Prosecution to order an investigat...",
+     "body": "",
+     "published": "2026-10-28T13:23:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -8143,7 +8106,7 @@
      "lang": "en",
      "title": "At Least 46 Dead in Spain Rail Crash, Toll Feared to Rise",
      "url": "https://www.arabtimesonline.com/news/at-least-46-dead-in-spain-rail-crash-toll-feared-to-rise/",
-     "section": "latest",
+     "section": "general",
      "summary": "TOLEDO, Spain, Oct 28: At least 10 people were initially reported killed after two high-speed passenger trains collided in central Spain on Wednesday, with authorities warning that...",
      "body": "",
      "published": "2026-10-28T13:12:00+03:00",
@@ -8167,7 +8130,7 @@
      "lang": "en",
      "title": "Pakistan Bars Taiwanese Airlines From Its Airspace Under One-China Policy",
      "url": "https://www.arabtimesonline.com/news/pakistan-bars-taiwanese-airlines-from-its-airspace-under-one-china-policy/",
-     "section": "latest",
+     "section": "general",
      "summary": "ISLAMABAD, Oct 28: Pakistan has barred Taiwanese airlines from using its airspace, citing its support for Beijing’s One-China policy, in a move that has forced carriers to reroute...",
      "body": "",
      "published": "2026-10-28T14:05:00+03:00",
@@ -8175,30 +8138,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "901570907aa1c218",
-   "score": 2.058,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Probes Suspicious Death of Indian Man in Al-Qasr",
-     "url": "https://www.arabtimesonline.com/news/kuwait-probes-suspicious-death-of-indian-man-in-al-qasr/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Oct 28: An Indian expatriate, born in 1981, has died under suspicious circumstances inside a house in Al-Qasr, prompting the Public Prosecution to order an investigat...",
-     "body": "",
-     "published": "2026-10-28T13:23:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -8215,7 +8154,7 @@
      "lang": "en",
      "title": "Qatar Leads Mediation to Prevent Renewed US-Iran War After Midterms",
      "url": "https://www.arabtimesonline.com/news/qatar-leads-mediation-to-prevent-renewed-us-iran-war-after-midterms/",
-     "section": "latest",
+     "section": "general",
      "summary": "DOHA, Oct 28: Qatar is leading regional mediation efforts to revive negotiations between the United States and Iran and prevent a renewed war after the US midterm elections, Axios...",
      "body": "",
      "published": "2026-10-28T11:55:00+03:00",
@@ -8239,7 +8178,7 @@
      "lang": "en",
      "title": "Cyclone Arnab hits India's Andhra Pradesh state as tens of thousands are evacuated",
      "url": "https://www.arabtimesonline.com/news/cyclone-arnab-hits-indias-andhra-pradesh-state-as-tens-of-thousands-are-evacuated/",
-     "section": "latest",
+     "section": "general",
      "summary": "KAKINADA, India, Oct 28, (AP): Cyclone Arnab dumped heavy rain across India ’s eastern Andhra Pradesh state and caused extensive damage in some areas Wednesday after tens of thou...",
      "body": "",
      "published": "2026-10-28T11:46:00+03:00",
@@ -8263,7 +8202,7 @@
      "lang": "en",
      "title": "Islamic militants kill at least 20 Somali soldiers in ambush: officer",
      "url": "https://www.arabtimesonline.com/news/islamic-militants-kill-at-least-20-somali-soldiers-in-ambush-officer/",
-     "section": "latest",
+     "section": "general",
      "summary": "MOGADISHU, Somalia, Oct 28, (AP): Islamic extremist militants killed at least 20 Somali soldiers in an ambush, a military officer who survived the attack said, as the government...",
      "body": "",
      "published": "2026-10-28T11:33:00+03:00",
