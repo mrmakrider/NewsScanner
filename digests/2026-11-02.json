@@ -1,20 +1,20 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T09:36:38.828416+03:00",
+ "generated_at": "2026-11-02T09:59:06.583268+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 263,
+  "total_articles": 264,
   "outlets_reporting": 6,
-  "total_stories": 226,
+  "total_stories": 227,
   "major_stories": 5,
   "analysed_stories": 28,
-  "window_start": "2026-11-01T07:36:38.828416+03:00",
-  "window_end": "2026-11-02T09:36:38.828416+03:00",
+  "window_start": "2026-11-01T07:59:06.583268+03:00",
+  "window_end": "2026-11-02T09:59:06.583268+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 93,
    "Economy & Business": 29,
+   "Government & Politics": 94,
    "Society & Services": 19,
    "Security & Courts": 15,
    "World & Region": 39,
@@ -23,7 +23,7 @@
    "Sport": 12
   },
   "analysis_retries": 7,
-  "analysis_splits": 34,
+  "analysis_splits": 38,
   "analysis_missing": 0,
   "analysis_providers": []
  },
@@ -31,7 +31,7 @@
   "story_of_the_day": "S1",
   "top_themes": [],
   "_source": "extractive",
-  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 5 of them by three or more outlets. The leading story was: سمو الأمير يستقبل ولي العهد ورئيس الوزراء والنائب الأول ووزيري «الدفاع» و«الخارجية». This extractive fallback does not infer subtext or verify cross-day trends.",
+  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 5 of them by three or more outlets. The leading story was: National Guard undersecretary stresses use of modern technology. This extractive fallback does not infer subtext or verify cross-day trends.",
   "not_being_said_en": "Not assessed: a deterministic fallback cannot infer omissions or intent from story counts alone.",
   "tactical_en": "Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status.",
   "strategic_en": "Historical context from previous editions (context only, not evidence of a current development):\n- 2026-11-01: Today’s docket is defined by a stark divergence between routine domestic administration and a volatile macroeconomic backdrop. While local coverage focuses on standard bureaucratic updates—such as the reconstitution of the Central Tenders Bureau (S13) and Ministry of Justice exam results (S4)—the financial sector is reacting to severe external pressures. Kuwaiti crude has surged to $114.76 (S10), yet the Stock Exchange reports a 9.6% profit decline attributed to 'geopolitical challenges' (S23), while precious metals hit multi-year lows (S15). The most significant signal is the explicit linkage between regional security and domestic financial performance, marking a shift from viewing geopolitical risk as a distant threat to a direct driver of local market mechanics. | recurring themes: Geopolitical Economic Impact; Routine Domestic Administration; Healthcare Excellence & Awareness | prior tactical follow-up: The Kuwait Stock Exchange has reported a 9.63% decrease in net profit for the first nine months of 2026, explicitly attributing the decline to 'geopolitical challenges' and 'uncertainty' (S23). No specific pending decisions or dates for regulatory intervention are…\nNo direct name match for the remembered entities was found in the supplied story text; this simple check may miss aliases or indirect references.\nThis deterministic fallback cannot determine whether today's coverage continues, reverses, or extends those patterns.",
@@ -135,8 +135,8 @@
   }
  ],
  "errors": [
-  "S1 سمو الأمير يستقبل ولي العهد ورئيس الوزراء والنائب الأول ووزيري…: batch S1: no provider available",
-  "S2 National Guard undersecretary stresses use of modern technology: batch S2: no provider available",
+  "S1 National Guard undersecretary stresses use of modern technology: batch S1: no provider available",
+  "S2 سمو الأمير يستقبل ولي العهد ورئيس الوزراء والنائب الأول ووزيري…: batch S2: no provider available",
   "S3 «الداخلية» تجري القرعة العلنية لدورة الطلبة الضباط: ترشيح 200 متقدم..…: batch S3: no provider available",
   "S4 «برقان» ينظّم فعالية زراعية لطلبة المدرسة المتحدة الأمريكية (AUS): batch S4: no provider available",
   "S5 «المكافحة» تضبط 6 متهمين بحوزتهم مواد مخدرة و«مؤثرات» بقصد الاتجار…: batch S5: no provider available",
@@ -146,7 +146,7 @@
   "S9 «نزاهة» تلتقي رئيس «الأعلى للقضاء»: batch S9: no provider available",
   "S10 «شؤون إقامة الأحمدي» تفتتح خدمة «الدرايف ثرو» لكبار السن وذوي…: batch S10: no provider available",
   "S11 الذهب يتراجع إلى 3875 دولاراً للأونصة: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S12 وزير النفط: «أوبك+» تقرر تثبيت مستويات الإنتاج المستهدفة لشهر ديسمبر…: https://api.cerebras.ai/v1/chat/completions: HTTP Error 402: Payment Required",
+  "S12 وزير النفط: «أوبك+» تقرر تثبيت مستويات الإنتاج المستهدفة لشهر ديسمبر…: batch S12: no provider available",
   "S13 «المباحث الجنائية» تضبط طبيباً بتهمة النصب والاحتيال والاستيلاء على…: batch S13: no provider available",
   "S14 «وربة» يصدر صكوك «AT1» بـ 80 مليون دينار: batch S14: no provider available",
   "S15 «كيبكو» أكملت سداد سنداتها بـ 500 مليون دولار: batch S15: no provider available",
@@ -155,35 +155,109 @@
   "S18 وكيل الدفاع يُشارك في قمة حوار المنامة للأمن الإقليمي: batch S18: no provider available",
   "S19 «الجمارك»: إحباط محاولة تهريب 50 ورقة مُشبعة بمادة الكيميكال المخدرة…: batch S19: no provider available",
   "S20 Portuguese police clash with housing protesters: batch S20: no provider available",
-  "S21 محمد العثمان: «الوطني» لا ينتظر التغيير بل يقوده: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S21 محمد العثمان: «الوطني» لا ينتظر التغيير بل يقوده: batch S21: no provider available",
   "S22 البديوي: دول «التعاون» أثبتت قدرتها على مواجهة التحديات وتعزيز متانة…: batch S22: no provider available",
   "S23 «التحالف» يُنفّذ عملية نوعية لتحييد المصادر الحيوية لاعتداءات الحوثي…: batch S23: no provider available",
   "S24 Customs seize drug-soaked papers hidden in child’s chair from Canada: batch S24: no provider available",
-  "S25 «البحرين للمقاصة»: «سفن بيلارز» مستشاراً لتطوير منظومة خدمات ما بعد…: batch S25: no provider available",
-  "S26 «الداخلية» تحذّر أصحاب المباني قيد الإنشاء من تشغيل عمال مخالفين: batch S26: no provider available",
-  "S27 الحويلة متفقدةً «الإعاقة»: تعزيز الأداء وتبسيط الإجراءات: batch S27: no provider available",
-  "S28 جامعة الكويت: لجنة مؤتمر «الطاقة» تعلن قائمة المتحدثين: batch S28: no provider available",
-  "S1 سمو الأمير يستقبل ولي العهد ورئيس الوزراء والنائب الأول ووزيري…: batch S1: no provider available",
-  "S2 National Guard undersecretary stresses use of modern technology: batch S2: no provider available",
+  "S25 «الداخلية» تحذّر أصحاب المباني قيد الإنشاء من تشغيل عمال مخالفين: batch S25: no provider available",
+  "S26 الحويلة متفقدةً «الإعاقة»: تعزيز الأداء وتبسيط الإجراءات: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S27 جامعة الكويت: لجنة مؤتمر «الطاقة» تعلن قائمة المتحدثين: batch S27: no provider available",
+  "S28 الحويلة: تكويت الوظائف في «التعاونيات» أولوية أساسية: batch S28: no provider available",
+  "S1 National Guard undersecretary stresses use of modern technology: batch S1: no provider available",
+  "S2 سمو الأمير يستقبل ولي العهد ورئيس الوزراء والنائب الأول ووزيري…: batch S2: no provider available",
   "S3 «الداخلية» تجري القرعة العلنية لدورة الطلبة الضباط: ترشيح 200 متقدم..…: batch S3: no provider available",
   "S4 «برقان» ينظّم فعالية زراعية لطلبة المدرسة المتحدة الأمريكية (AUS): batch S4: no provider available",
   "S5 «المكافحة» تضبط 6 متهمين بحوزتهم مواد مخدرة و«مؤثرات» بقصد الاتجار…: batch S5: no provider available",
-  "S6 «ناقلات» القطرية: تعرض إحدى سفننا لهجوم في الخليج العربي: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S7 «الخارجية» تعلن عن 30 وظيفة بدرجة ملحق دبلوماسي وقنصلي: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S6 «ناقلات» القطرية: تعرض إحدى سفننا لهجوم في الخليج العربي: batch S6: no provider available",
+  "S7 «الخارجية» تعلن عن 30 وظيفة بدرجة ملحق دبلوماسي وقنصلي: batch S7: no provider available",
   "S8 «التربية»: استئناف العمل بالأندية المسائية.. 8 الجاري: batch S8: no provider available",
   "S9 «نزاهة» تلتقي رئيس «الأعلى للقضاء»: batch S9: no provider available",
   "S10 «شؤون إقامة الأحمدي» تفتتح خدمة «الدرايف ثرو» لكبار السن وذوي…: batch S10: no provider available",
-  "S11 الذهب يتراجع إلى 3875 دولاراً للأونصة: batch S11: no provider available",
-  "S12 وزير النفط: «أوبك+» تقرر تثبيت مستويات الإنتاج المستهدفة لشهر ديسمبر…: batch S12: no provider available",
+  "S11 الذهب يتراجع إلى 3875 دولاراً للأونصة: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 وزير النفط: «أوبك+» تقرر تثبيت مستويات الإنتاج المستهدفة لشهر ديسمبر…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S13 «المباحث الجنائية» تضبط طبيباً بتهمة النصب والاحتيال والاستيلاء على…: batch S13: no provider available",
   "S14 «وربة» يصدر صكوك «AT1» بـ 80 مليون دينار: batch S14: no provider available",
   "S15 «كيبكو» أكملت سداد سنداتها بـ 500 مليون دولار: batch S15: no provider available",
+  "S16 «زين» الأفضل محلياً بالسرعة والتغطية واستمرارية الجودة: batch S16: no provider available",
+  "S17 «التجاري» ينجز صفقة تاريخية لتسهيلات قرض ثنائي باليوان الصيني الخارجي: batch S17: no provider available",
+  "S18 وكيل الدفاع يُشارك في قمة حوار المنامة للأمن الإقليمي: batch S18: no provider available",
+  "S19 «الجمارك»: إحباط محاولة تهريب 50 ورقة مُشبعة بمادة الكيميكال المخدرة…: batch S19: no provider available",
+  "S20 Portuguese police clash with housing protesters: batch S20: no provider available",
   "synthesis: synthesis: the analysis budget ran out before the call was made"
  ],
  "stories": [
   {
+   "key": "8620f25edeea8ec0",
+   "score": 18.759,
+   "sources": [
+    "Kuwait Times",
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "National Guard undersecretary stresses use of modern technology",
+     "url": "https://kuwaittimes.com/article/52779/kuwait/national-guard-undersecretary-stresses-use-of-modern-technology/",
+     "section": "latest",
+     "summary": "KUWAIT: National Guard Undersecretary Lt Gen Hamad Al-Borjas on Sunday stressed the importance of advancing digital transformation and using modern technology to support the milita...",
+     "body": "KUWAIT: National Guard Undersecretary Lt Gen Hamad Al-Borjas on Sunday stressed the importance of advancing digital transformation and using modern technology to support the military and security system.\n\nHe made the remarks during an inspection tour of the Equipment Command, the Projects Department and the Information Systems Directorate, accompanied by Assistant for Financial Affairs and Resource Management Maj Gen Riyadh Tawari, the National Guard said in a statement.\n\nAl-Borjas conveyed the National Guard leadership’s greetings and appreciation to personnel, and was briefed on the command’s readiness and preparations for the training season. — KUNA\n\nAwqaf minister stresses support for people with disabilities\n\nDebtors campaign ends with KD 16.5 million raised to help 3,807 people",
+     "published": "2026-11-01T12:03:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "وكيل الحرس الوطني: استخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية",
+     "url": "https://www.aljarida.com/article/149260",
+     "section": "local",
+     "summary": "أكد وكيل الحرس الوطني الفريق الركن حمد البرجس اليوم الأحد أهمية مواصلة تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية.جاء ذلك وفق بيان للحرس الوطني ف...",
+     "body": "",
+     "published": "2026-11-01T12:04:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وكيل الحرس الوطني: تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية",
+     "url": "https://www.alraimedia.com/article/1784636/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D9%88%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "أكد وكيل الحرس الوطني الفريق الركن حمد البرجس اليوم، أهمية مواصلة تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية. وخلال جولة تفقدية قام بها يرافقه ال...",
+     "body": "",
+     "published": "2026-11-01T11:48:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "National Guard undersecretary stresses use of modern technology",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest",
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "KUWAIT: National Guard Undersecretary Lt Gen Hamad Al-Borjas on Sunday stressed the importance of advancing digital transformation and using modern technology to support the military and security system. He made the remarks during an inspection tour of the Equipment Command, the Projects Department and the Information Systems Directorate, accompanied by Assistant for Financial Affairs and Resource Management Maj Gen…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): Kuwait Times, الجريدة, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: وكيل الحرس الوطني: استخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية; وكيل الحرس الوطني: تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: Kuwait Times, الجريدة, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
    "key": "5ddf67c157b6f9f2",
-   "score": 19.334,
+   "score": 18.734,
    "sources": [
     "كويت نيوز",
     "الجريدة",
@@ -275,77 +349,8 @@
    }
   },
   {
-   "key": "8620f25edeea8ec0",
-   "score": 18.759,
-   "sources": [
-    "Kuwait Times",
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "National Guard undersecretary stresses use of modern technology",
-     "url": "https://kuwaittimes.com/article/52779/kuwait/national-guard-undersecretary-stresses-use-of-modern-technology/",
-     "section": "latest",
-     "summary": "KUWAIT: National Guard Undersecretary Lt Gen Hamad Al-Borjas on Sunday stressed the importance of advancing digital transformation and using modern technology to support the milita...",
-     "body": "KUWAIT: National Guard Undersecretary Lt Gen Hamad Al-Borjas on Sunday stressed the importance of advancing digital transformation and using modern technology to support the military and security system.\n\nHe made the remarks during an inspection tour of the Equipment Command, the Projects Department and the Information Systems Directorate, accompanied by Assistant for Financial Affairs and Resource Management Maj Gen Riyadh Tawari, the National Guard said in a statement.\n\nAl-Borjas conveyed the National Guard leadership’s greetings and appreciation to personnel, and was briefed on the command’s readiness and preparations for the training season. — KUNA\n\nAwqaf minister stresses support for people with disabilities\n\nDebtors campaign ends with KD 16.5 million raised to help 3,807 people",
-     "published": "2026-11-01T12:03:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "وكيل الحرس الوطني: استخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية",
-     "url": "https://www.aljarida.com/article/149260",
-     "section": "local",
-     "summary": "أكد وكيل الحرس الوطني الفريق الركن حمد البرجس اليوم الأحد أهمية مواصلة تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية.جاء ذلك وفق بيان للحرس الوطني ف...",
-     "body": "",
-     "published": "2026-11-01T12:04:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "وكيل الحرس الوطني: تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية",
-     "url": "https://www.alraimedia.com/article/1784636/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D9%88%D9%83%D9%8A%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "أكد وكيل الحرس الوطني الفريق الركن حمد البرجس اليوم، أهمية مواصلة تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية. وخلال جولة تفقدية قام بها يرافقه ال...",
-     "body": "",
-     "published": "2026-11-01T11:48:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "National Guard undersecretary stresses use of modern technology",
-    "headline_ar": "",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "latest",
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "KUWAIT: National Guard Undersecretary Lt Gen Hamad Al-Borjas on Sunday stressed the importance of advancing digital transformation and using modern technology to support the military and security system. He made the remarks during an inspection tour of the Equipment Command, the Projects Department and the Information Systems Directorate, accompanied by Assistant for Financial Affairs and Resource Management Maj Gen…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): Kuwait Times, الجريدة, الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: وكيل الحرس الوطني: استخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية; وكيل الحرس الوطني: تعزيز التحول الرقمي واستخدام التقنيات الحديثة لدعم المنظومة العسكرية والأمنية",
-    "watch_next_en": "",
-    "summary_ar": "",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: Kuwait Times, الجريدة, الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "aeeac4456d164aab",
-   "score": 17.459,
+   "score": 16.859,
    "sources": [
     "كويت نيوز",
     "الجريدة",
@@ -688,7 +693,7 @@
   },
   {
    "key": "5c96ea00a776ed51",
-   "score": 13.759,
+   "score": 13.159,
    "sources": [
     "الرأي",
     "الجريدة"
@@ -1643,48 +1648,6 @@
    }
   },
   {
-   "key": "ea71fa8bc0817cf5",
-   "score": 6.659,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«البحرين للمقاصة»: «سفن بيلارز» مستشاراً لتطوير منظومة خدمات ما بعد التداول",
-     "url": "https://www.aljarida.com/article/149332",
-     "section": "economy",
-     "summary": "أعلنت شركة البحرين للمقاصة، التابعة لبورصة البحرين، إطلاق برنامج يهدف إلى مواصلة تطوير عمليات الإيداع المركزي للأوراق المالية والمقاصة، بما يتماشى مع المعايير الدولية وأفضل الممارس...",
-     "body": "• الشيخ خليفة بن إبراهيم آل خليفة رئيس مجلس الإدارة: نهدف إلى إجراء تقييم شامل للمنظومة • خلدون الطبطبائي الشريك المؤسس في سفن بيلارز: مركز الإيداع وغرفة المقاصة أساس ثقة المستثمرين\n\nأعلنت شركة البحرين للمقاصة، التابعة لبورصة البحرين، إطلاق برنامج يهدف إلى مواصلة تطوير عمليات الإيداع المركزي للأوراق المالية والمقاصة، بما يتماشى مع المعايير الدولية وأفضل الممارسات العالمية.\n\nوفي إطار البرنامج، عيّنت الشركة «سفن بيلارز للاستشارات» مستشاراً مستقلاً للبرنامج، للمساهمة في تقييم العمليات ووضع خارطة طريق للمرحلة المقبلة من تطوير البنية التحتية لخدمات ما بعد التداول.\n\nوجاء الإعلان على هامش فعاليات منتدى بوابة الخليج 2026، بحضور يوسف اليوسف، رئيس مجلس إدارة بورصة البحرين، والشيخ خليفة بن إبراهيم آل خليفة، رئيس مجلس إدارة شركة البحرين للمقاصة، وخلدون الطبطبائي، الشريك المؤسس في شركة «سفن بيلارز للاستشارات» والرئيس التنفيذي السابق للشركة الكويتية للمقاصة، وعبدالله السنان، الشريك الإداري في شركة «سفن بيلارز للاستشارات».\n\nويشمل البرنامج مراجعة شاملة لعمليات شركة البحرين للمقاصة، والأطر التنظيمية والحوكمة، ومدى مواءمتها مع المتطلبات الرقابية، إلى جانب البنية التحتية التقنية، على أن ينتج عنه مجموعة من التوصيات مرتبة وفق الأولويات، وخارطة طريق متكاملة للتنفيذ بقيادة فريق الشركة.\n\nوصرح الشيخ خليفة بن إبراهيم آل خليفة، رئيس مجلس إدارة شركة البحرين للمقاصة: \"يمثّل تعيين مستشار مستقل خطوة مهمة ضمن الجهود المتواصلة لشركة البحرين للمقاصة لتطوير البنية التحتية لخدمات ما بعد التداول وتعزيز مواءمتها مع المعايير الدولية وأفضل الممارسات.\n\nوسيسهم هذا التعاون في إجراء تقييم شامل لمنظومة الإيداع المركزي والمقاصة، وتحديد فرص التطوير والتحسين بما يعزز الكفاءة والمرونة ويرسّخ الثقة في السوق.\"\n\nوقال خلدون الطبطبائي، الشريك المؤسس في سفن بيلارز للاستشارات والرئيس التنفيذي السابق للشركة الكويتية للمقاصة: «لقد وضعت مملكة البحرين طموحات واضحة لسوق رأس المال، وتخطو شركة البحرين للمقاصة خطوة استشرافية تعزّز السوق بأكملها. فمركز الإيداع وغرفة المقاصة هما أساس ثقة المستثمرين في أي سوق مال، ومواءمتهما مع المعايير الدولية قبل مرحلة النمو هي النهج السليم. ونفخر بالعمل جنباً إلى جنب مع فريق شركة البحرين للمقاصة في هذا البرنامج، والإسهام في تعزيز ثقة المستثمرين الدوليين بسوق رأس المال في مملكة البحرين».\n\nويضم فريق سفن بيلارز في البرنامج مستشارين دوليين ذوي خبرة شغلوا مناصب قيادية في مراكز إيداع مركزي وغرف مقاصة، وقدّموا استشارات عديدة في مجال ما بعد التداول على المستوى الدولي. وتشمل خبراتهم العمليات والأطر التنظيمية والحوكمة والتقنية.",
-     "published": "2026-11-01T23:51:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "«البحرين للمقاصة»: «سفن بيلارز» مستشاراً لتطوير منظومة خدمات ما بعد التداول",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "economy"
-    ],
-    "_source": "extractive",
-    "summary_en": "• الشيخ خليفة بن إبراهيم آل خليفة رئيس مجلس الإدارة: نهدف إلى إجراء تقييم شامل للمنظومة • خلدون الطبطبائي الشريك المؤسس في سفن بيلارز: مركز الإيداع وغرفة المقاصة أساس ثقة المستثمرين أعلنت شركة البحرين للمقاصة، التابعة لبورصة البحرين، إطلاق برنامج يهدف إلى مواصلة تطوير عمليات الإيداع المركزي للأوراق المالية والمقاصة، بما يتماشى مع المعايير الدولية وأفضل الممارسات العالمية. وفي إطار البرنامج، عيّنت الشركة «سفن بيلارز…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "• الشيخ خليفة بن إبراهيم آل خليفة رئيس مجلس الإدارة: نهدف إلى إجراء تقييم شامل للمنظومة • خلدون الطبطبائي الشريك المؤسس في سفن بيلارز: مركز الإيداع وغرفة المقاصة أساس ثقة المستثمرين أعلنت شركة البحرين للمقاصة، التابعة لبورصة البحرين، إطلاق برنامج يهدف إلى مواصلة تطوير عمليات الإيداع المركزي للأوراق المالية والمقاصة، بما يتماشى مع المعايير الدولية وأفضل الممارسات العالمية. وفي إطار البرنامج، عيّنت الشركة «سفن بيلارز…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "1d829916e3bb3b2c",
    "score": 6.659,
    "sources": [
@@ -1826,13 +1789,31 @@
      "url": "https://www.alraimedia.com/article/1784654/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D8%AA%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%D8%A7%D8%AA-%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A9-%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9",
      "section": "local",
      "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال هادي الحويلة، أن ملف تكويت الوظائف في الجمعيات التعاونية يحظى بأولوية قصوى لدى الوزارة، مشددة على أن تمكين الكوادر...",
-     "body": "",
+     "body": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال هادي الحويلة، أن ملف تكويت الوظائف في الجمعيات التعاونية يحظى بأولوية قصوى لدى الوزارة، مشددة على أن تمكين الكوادر الوطنية وتوفير الفرص الوظيفية المناسبة لها يمثلان ركيزة أساسية لتطوير القطاع التعاوني وتعزيز كفاءته واستدامته.\n\nجاء ذلك خلال حضورها اجتماع لجنة تكويت الوظائف في الجمعيات التعاونية، حيث اطلعت على آخر المستجدات والخطوات التنفيذية المتخذة لتسريع وتيرة التكويت، ومعالجة التحديات التي تواجه توظيف الكفاءات الوطنية في هذا القطاع الحيوي.\n\nوشددت على ضرورة تسريع الإجراءات وتنفيذ خطط التكويت وفق الجداول الزمنية المعتمدة، مؤكدة استمرار المتابعة المباشرة لأعمال اللجنة، والعمل على توفير بيئة عمل جاذبة ومحفزة للكفاءات الوطنية، بما يعزز دور الجمعيات التعاونية ويرتقي بمستوى الخدمات المقدمة للمستهلكين.\n\nواختتمت الحويلة تصريحها بالإعلان عن أن موعد إجراء مقابلات الوظائف الإشرافية في الجمعيات التعاونية سيُعلن خلال الفترة من 11 إلى 17 نوفمبر 2026، مؤكدة حرص الوزارة على استكمال الإجراءات وفق الضوابط والمعايير المعتمدة، بما يضمن الشفافية وتكافؤ الفرص بين جميع المتقدمين.",
      "published": "2026-11-01T16:55:00+03:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "الحويلة: تكويت الوظائف في «التعاونيات» أولوية أساسية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال هادي الحويلة، أن ملف تكويت الوظائف في الجمعيات التعاونية يحظى بأولوية قصوى لدى الوزارة، مشددة على أن تمكين الكوادر الوطنية وتوفير الفرص الوظيفية المناسبة لها يمثلان ركيزة أساسية لتطوير القطاع التعاوني وتعزيز كفاءته واستدامته. جاء ذلك خلال حضورها اجتماع لجنة تكويت الوظائف في الجمعيات التعاونية، حيث اطلعت على آخر المستجدات والخطوات التنفيذية المتخذة…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال هادي الحويلة، أن ملف تكويت الوظائف في الجمعيات التعاونية يحظى بأولوية قصوى لدى الوزارة، مشددة على أن تمكين الكوادر الوطنية وتوفير الفرص الوظيفية المناسبة لها يمثلان ركيزة أساسية لتطوير القطاع التعاوني وتعزيز كفاءته واستدامته. جاء ذلك خلال حضورها اجتماع لجنة تكويت الوظائف في الجمعيات التعاونية، حيث اطلعت على آخر المستجدات والخطوات التنفيذية المتخذة…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
   },
   {
    "key": "6cfa5fc73124690b",
@@ -2027,6 +2008,30 @@
    "analysis": {}
   },
   {
+   "key": "ea71fa8bc0817cf5",
+   "score": 6.059,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«البحرين للمقاصة»: «سفن بيلارز» مستشاراً لتطوير منظومة خدمات ما بعد التداول",
+     "url": "https://www.aljarida.com/article/149332",
+     "section": "economy",
+     "summary": "أعلنت شركة البحرين للمقاصة، التابعة لبورصة البحرين، إطلاق برنامج يهدف إلى مواصلة تطوير عمليات الإيداع المركزي للأوراق المالية والمقاصة، بما يتماشى مع المعايير الدولية وأفضل الممارس...",
+     "body": "",
+     "published": "2026-11-01T23:51:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
    "key": "a4cbad4ec0b6c160",
    "score": 6.059,
    "sources": [
@@ -2188,30 +2193,6 @@
      "summary": "تواصل منصة (فيزت كويت) (VISIT KUWAIT) تطوير تجربة السياحة في الكويت من خلال توظيف تقنيات الذكاء الاصطناعي والحوسبة السحابية التي توفرها شركة مايكروسوفت بما يدعم رؤية (كويت جديدة 20...",
      "body": "",
      "published": "2026-11-01T16:20:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "29ee8291ff85fb99",
-   "score": 6.059,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "هيثم التركيت: التحول الرقمي والذكاء الاصطناعي ركيزتا النمو الاقتصادي وتعزيز تنافسية الأعمال",
-     "url": "https://www.alraimedia.com/article/1784648/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D9%87%D9%8A%D8%AB%D9%85-%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%AA-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B1%D9%83%D9%8A%D8%B2%D8%AA%D8%A7-%D8%A7%D9%84%D9%86%D9%85%D9%88-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AA%D9%86%D8%A7%D9%81%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84",
-     "section": "economy",
-     "summary": "قال نائب الرئيس التنفيذي لمجموعة بيت التمويل الكويتي للتكنولوجيا والعمليات هيثم التركيت، إن التحول الرقمي تجاوز مفهوم تقديم الخدمات عبر التطبيقات والمنصات الرقمية ليصبح أحد الركائز...",
-     "body": "",
-     "published": "2026-11-01T15:58:00+03:00",
      "tier": 1
     }
    ],
@@ -2732,6 +2713,30 @@
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "29ee8291ff85fb99",
+   "score": 5.459,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "هيثم التركيت: التحول الرقمي والذكاء الاصطناعي ركيزتا النمو الاقتصادي وتعزيز تنافسية الأعمال",
+     "url": "https://www.alraimedia.com/article/1784648/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D9%86%D9%88%D9%83/%D9%87%D9%8A%D8%AB%D9%85-%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%AA-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D8%B1%D9%83%D9%8A%D8%B2%D8%AA%D8%A7-%D8%A7%D9%84%D9%86%D9%85%D9%88-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AA%D9%86%D8%A7%D9%81%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84",
+     "section": "economy",
+     "summary": "قال نائب الرئيس التنفيذي لمجموعة بيت التمويل الكويتي للتكنولوجيا والعمليات هيثم التركيت، إن التحول الرقمي تجاوز مفهوم تقديم الخدمات عبر التطبيقات والمنصات الرقمية ليصبح أحد الركائز...",
+     "body": "",
+     "published": "2026-11-01T15:58:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -4223,30 +4228,6 @@
    "analysis": {}
   },
   {
-   "key": "c979017e6dfbcd60",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "بحجم سيارة صغيرة... إسفنجة عملاقة تحيّرالعلماء",
-     "url": "https://www.alraimedia.com/article/1784681/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A8%D8%AD%D8%AC%D9%85-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-%D8%A5%D8%B3%D9%81%D9%86%D8%AC%D8%A9-%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B1%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1",
-     "section": "last-page",
-     "summary": "«العربية.نت» على عمق يتجاوز كيلومترين في المحيط الهادئ، رصد العلماء إسفنجة بحجم سيارة صغيرة، بطيات معقدة تشبه الأمعاء.ورغم مرور أكثر من عقد على اكتشافها، لا يزال نوعها الدقيق وعمره...",
-     "body": "",
-     "published": "2026-11-01T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "7b8e40a8ca32ef15",
    "score": 4.559,
    "sources": [
@@ -4292,6 +4273,30 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "c979017e6dfbcd60",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بحجم سيارة صغيرة... إسفنجة عملاقة تحيّرالعلماء",
+     "url": "https://www.alraimedia.com/article/1784681/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A8%D8%AD%D8%AC%D9%85-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-%D8%A5%D8%B3%D9%81%D9%86%D8%AC%D8%A9-%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B1%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1",
+     "section": "last-page",
+     "summary": "«العربية.نت» على عمق يتجاوز كيلومترين في المحيط الهادئ، رصد العلماء إسفنجة بحجم سيارة صغيرة، بطيات معقدة تشبه الأمعاء.ورغم مرور أكثر من عقد على اكتشافها، لا يزال نوعها الدقيق وعمره...",
+     "body": "",
+     "published": "2026-11-01T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -4655,6 +4660,30 @@
    "analysis": {}
   },
   {
+   "key": "aa71463b526d5c92",
+   "score": 4.558,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سيناريو إسرائيلي يستهدف اغتيال 4 قادة أمنيين في طهران",
+     "url": "https://www.alraimedia.com/article/1784685/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D8%BA%D8%AA%D9%8A%D8%A7%D9%84-4-%D9%82%D8%A7%D8%AF%D8%A9-%D8%A3%D9%85%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%B7%D9%87%D8%B1%D8%A7%D9%86",
+     "section": "world",
+     "summary": "كشف مسؤول سابق في جهاز «الموساد»، عن امتلاك إسرائيل قدرات استخباراتية وعملياتية تمكنها من تنفيذ عملية مفاجئة ضد كبار قادة النظام الإيراني، على غرار عملية تفجير أجهزة «البيجر» التي...",
+     "body": "",
+     "published": "2026-11-01T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "64add7120311ebc5",
    "score": 4.558,
    "sources": [
@@ -4700,54 +4729,6 @@
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "aa71463b526d5c92",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "سيناريو إسرائيلي يستهدف اغتيال 4 قادة أمنيين في طهران",
-     "url": "https://www.alraimedia.com/article/1784685/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D8%BA%D8%AA%D9%8A%D8%A7%D9%84-4-%D9%82%D8%A7%D8%AF%D8%A9-%D8%A3%D9%85%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%B7%D9%87%D8%B1%D8%A7%D9%86",
-     "section": "world",
-     "summary": "كشف مسؤول سابق في جهاز «الموساد»، عن امتلاك إسرائيل قدرات استخباراتية وعملياتية تمكنها من تنفيذ عملية مفاجئة ضد كبار قادة النظام الإيراني، على غرار عملية تفجير أجهزة «البيجر» التي...",
-     "body": "",
-     "published": "2026-11-01T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "a8b9c0cf1c8d8a67",
-   "score": 4.558,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الجنايات» تقضي بالإعدام على لبنانيينِ وهندي بتهم التعاطي والإتجار في المخدرات والمؤثرات العقلية",
-     "url": "https://www.alraimedia.com/article/1784646/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%AC%D8%B1%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D9%8A%D8%A7%D8%AA-%D8%AA%D9%82%D8%B6%D9%8A-%D8%A8%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D9%85-%D8%B9%D9%84%D9%89-%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D9%8A%D9%86-%D9%88%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%B7%D9%8A-%D9%88%D8%A7%D9%84%D8%A5%D8%AA%D8%AC%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AB%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%82%D9%84%D9%8A%D8%A9",
-     "section": "last-page",
-     "summary": "قضت محكمة الجنايات في قضيتين منفصلتين؛ بإعدام لبنانيين اثنين بتهم التعاطي والإتجار في الحشيش والمؤثرات العقلية، وهندي حاول تهريب مؤثرات عقلية في 100 ورقة A4 مشبعة بمؤثرات عقلية في...",
-     "body": "",
-     "published": "2026-11-01T15:40:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -4868,6 +4849,30 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "4372e6c4e6ae7487",
+   "score": 4.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Iranian Regime ‘Lies Again’ Claims It Never Attacked Gulf Civilian Targets",
+     "url": "https://www.arabtimesonline.com/news/iranian-regime-lies-again-claims-it-never-attacked-gulf-civilian-targets/",
+     "section": "general",
+     "summary": "WASHINGTON, Nov 2: The United States Central Command (CENTCOM) has strongly rejected a recent claim by Iran’s Foreign Minister that Tehran had not attacked civilians in neighboring...",
+     "body": "",
+     "published": "2026-11-02T09:39:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -5255,6 +5260,30 @@
    "analysis": {}
   },
   {
+   "key": "a8b9c0cf1c8d8a67",
+   "score": 3.958,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الجنايات» تقضي بالإعدام على لبنانيينِ وهندي بتهم التعاطي والإتجار في المخدرات والمؤثرات العقلية",
+     "url": "https://www.alraimedia.com/article/1784646/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%AC%D8%B1%D8%A7%D8%A6%D9%85/%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D9%8A%D8%A7%D8%AA-%D8%AA%D9%82%D8%B6%D9%8A-%D8%A8%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D9%85-%D8%B9%D9%84%D9%89-%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D9%8A%D9%86-%D9%88%D9%87%D9%86%D8%AF%D9%8A-%D8%A8%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%B7%D9%8A-%D9%88%D8%A7%D9%84%D8%A5%D8%AA%D8%AC%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AB%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%82%D9%84%D9%8A%D8%A9",
+     "section": "last-page",
+     "summary": "قضت محكمة الجنايات في قضيتين منفصلتين؛ بإعدام لبنانيين اثنين بتهم التعاطي والإتجار في الحشيش والمؤثرات العقلية، وهندي حاول تهريب مؤثرات عقلية في 100 ورقة A4 مشبعة بمؤثرات عقلية في...",
+     "body": "",
+     "published": "2026-11-01T15:40:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
    "key": "e9ea70bad73ae907",
    "score": 3.958,
    "sources": [
@@ -5591,54 +5620,6 @@
    "analysis": {}
   },
   {
-   "key": "ad2759be8753148f",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Tensions Rise in Strait of Hormuz as UKMTO Reports Vessel Hit, Iran Claims Two Tankers Hit Mines",
-     "url": "https://www.arabtimesonline.com/news/tensions-rise-in-strait-of-hormuz-as-ukmto-reports-vessel-hit-iran-claims-two-tankers-hit-mines/",
-     "section": "latest",
-     "summary": "LONDON, Nov 1: Maritime security concerns intensified in the Strait of Hormuz on Sunday after the United Kingdom Maritime Trade Operations (UKMTO) reported that a merchant vessel h...",
-     "body": "",
-     "published": "2026-11-01T23:45:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "ee2d0b5fab413ef7",
-   "score": 3.258,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Trump Gives Iran Diplomacy More Time as Netanyahu Presses for Strikes After US Midterms",
-     "url": "https://www.arabtimesonline.com/news/trump-gives-iran-diplomacy-more-time-as-netanyahu-presses-for-strikes-after-us-midterms/",
-     "section": "latest",
-     "summary": "WASHINGTON, Nov 1: US President Donald Trump is favouring continued diplomatic efforts with Iran despite pressure from Israeli Prime Minister Benjamin Netanyahu to resume military...",
-     "body": "",
-     "published": "2026-11-01T23:39:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "4c6230f5cb9e46ff",
    "score": 2.722,
    "sources": [
@@ -5663,30 +5644,6 @@
    "analysis": {}
   },
   {
-   "key": "c46cbfa63091c8df",
-   "score": 2.719,
-   "sources": [
-    "كويت نيوز"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "رئيس الأركان يؤكد أهمية تعزيز التحول الرقمي لدعم المنظومة العسكرية والأمنية",
-     "url": "https://kuwaitnews.com/138024/",
-     "section": "latest",
-     "summary": "أكد رئيس الأركان العامة للجيش الفريق الركن خالد الشريعان اليوم الأحد أهمية مواصلة تعزيز التحول الرقمي وتوظيف التقنيات الحديثة لدعم المنظومة العسكرية والأمنية. وذكرت (رئاسة الأركان) في بيان صحفي إن ذلك جاء خلال زيارة الفريق الشريعان إلى مديرية مركز بيانات […]\n\nThe post رئيس الأركان يؤكد أهمية تعزيز التحول الرقمي لدعم المنظومة العسكرية والأمنية appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-11-01T12:58:49+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "409514f091ba29f5",
    "score": 2.706,
    "sources": [
@@ -5704,6 +5661,30 @@
      "summary": "أعلنت قوى الأمن الداخلي في سوريا الأحد توقيف شخصين في شرق البلاد ينتميان إلى تنظيم داعش، قائلة إنهما متهمان بتنفيذ عمليات اغتيال آخرها بحقّ عنصر في وزارة الدفاع. وذكرت قوى الامن الداخلي في بيان أن جهاز الاستخبارات العامة بالتعاون معها […]\n\nThe post سوريا تعلن تفكيك خلية تابعة لتنظيم داعش نفذت اغتيالات appeared first on كويت نيوز.",
      "body": "",
      "published": "2026-11-01T18:22:08+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "ad2759be8753148f",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Tensions Rise in Strait of Hormuz as UKMTO Reports Vessel Hit, Iran Claims Two Tankers Hit Mines",
+     "url": "https://www.arabtimesonline.com/news/tensions-rise-in-strait-of-hormuz-as-ukmto-reports-vessel-hit-iran-claims-two-tankers-hit-mines/",
+     "section": "general",
+     "summary": "LONDON, Nov 1: Maritime security concerns intensified in the Strait of Hormuz on Sunday after the United Kingdom Maritime Trade Operations (UKMTO) reported that a merchant vessel h...",
+     "body": "",
+     "published": "2026-11-01T23:45:00+03:00",
      "tier": 2
     }
    ],
@@ -6036,7 +6017,7 @@
      "lang": "en",
      "title": "Qatar Condemns Attack on LNG Tanker Al Mayeda in Arabian Gulf",
      "url": "https://www.arabtimesonline.com/news/qatar-condemns-attack-on-lng-tanker-al-mayeda-in-arabian-gulf/",
-     "section": "latest",
+     "section": "general",
      "summary": "DOHA, Nov 1: Qatar has strongly condemned an attack targeting its liquefied natural gas (LNG) tanker, Al Mayeda, while it was sailing in the Arabian Gulf, warning that the incident...",
      "body": "",
      "published": "2026-11-01T16:58:00+03:00",
@@ -6060,7 +6041,7 @@
      "lang": "en",
      "title": "Saudi-Led Coalition Launches Operation to Neutralize Iran-Backed Houthi Military Resources",
      "url": "https://www.arabtimesonline.com/news/saudi-led-coalition-launches-operation-to-neutralize-iran-backed-houthi-military-resources/",
-     "section": "latest",
+     "section": "general",
      "summary": "RIYADH, Nov 1: The Joint Forces Command of the Coalition to Support Legitimacy in Yemen announced that it had carried out a military operation on Sunday to neutralize vital resourc...",
      "body": "",
      "published": "2026-11-01T16:44:00+03:00",
@@ -6116,6 +6097,30 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "ee2d0b5fab413ef7",
+   "score": 2.658,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Trump Gives Iran Diplomacy More Time as Netanyahu Presses for Strikes After US Midterms",
+     "url": "https://www.arabtimesonline.com/news/trump-gives-iran-diplomacy-more-time-as-netanyahu-presses-for-strikes-after-us-midterms/",
+     "section": "general",
+     "summary": "WASHINGTON, Nov 1: US President Donald Trump is favouring continued diplomatic efforts with Iran despite pressure from Israeli Prime Minister Benjamin Netanyahu to resume military...",
+     "body": "",
+     "published": "2026-11-01T23:39:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -6191,30 +6196,6 @@
    "analysis": {}
   },
   {
-   "key": "cc41be4fe616e10c",
-   "score": 2.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "French protest violence eases and scattered riots hit Germany ahead of more action",
-     "url": "https://www.arabtimesonline.com/news/french-protest-violence-eases-and-scattered-riots-hit-germany-ahead-of-more-action/",
-     "section": "latest",
-     "summary": "PARIS, Nov 1, (AP): French authorities expressed relief Sunday after mass protests over rising living costs resulted in less violence than previous weekends. But police expect new...",
-     "body": "",
-     "published": "2026-11-01T15:44:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "c1b742171d82846d",
    "score": 2.6,
    "sources": [
@@ -6236,6 +6217,30 @@
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "c46cbfa63091c8df",
+   "score": 2.119,
+   "sources": [
+    "كويت نيوز"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "رئيس الأركان يؤكد أهمية تعزيز التحول الرقمي لدعم المنظومة العسكرية والأمنية",
+     "url": "https://kuwaitnews.com/138024/",
+     "section": "latest",
+     "summary": "أكد رئيس الأركان العامة للجيش الفريق الركن خالد الشريعان اليوم الأحد أهمية مواصلة تعزيز التحول الرقمي وتوظيف التقنيات الحديثة لدعم المنظومة العسكرية والأمنية. وذكرت (رئاسة الأركان) في بيان صحفي إن ذلك جاء خلال زيارة الفريق الشريعان إلى مديرية مركز بيانات […]\n\nThe post رئيس الأركان يؤكد أهمية تعزيز التحول الرقمي لدعم المنظومة العسكرية والأمنية appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-11-01T12:58:49+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -6276,7 +6281,7 @@
      "lang": "en",
      "title": "Look Who's Talking! Iranian Regime Designates British Navy, Air Force as ‘Terrorist’ Organizations",
      "url": "https://www.arabtimesonline.com/news/look-whos-talking-iranian-regime-designates-british-navy-air-force-as-terrorist-organizations/",
-     "section": "latest",
+     "section": "general",
      "summary": "TEHRAN, Nov 1: Iran has designated Britain's Royal Navy and Royal Air Force as “terrorist” organizations and its foreign intelligence agency MI6 as a “hostile group,” escalating te...",
      "body": "",
      "published": "2026-11-01T10:55:00+03:00",
@@ -6300,7 +6305,7 @@
      "lang": "en",
      "title": "Caught on Camera: Brutal Attack by 8-Year-Old Boy on 6-Year-Old Girl in Indian School Leaves Netizens Shocked",
      "url": "https://www.arabtimesonline.com/news/caught-on-camera-brutal-attack-by-8-year-old-boy-on-6-year-old-girl-in-indian-school-leaves-netizens-shocked/",
-     "section": "latest",
+     "section": "general",
      "summary": "PANCHKULA, Nov 1: Police have registered a case against the management of a government school in Panchkula, Haryana, following an alleged assault on a six-year-old girl by an eight...",
      "body": "",
      "published": "2026-11-01T10:15:00+03:00",
@@ -6332,6 +6337,30 @@
     }
    ],
    "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "cc41be4fe616e10c",
+   "score": 2.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "French protest violence eases and scattered riots hit Germany ahead of more action",
+     "url": "https://www.arabtimesonline.com/news/french-protest-violence-eases-and-scattered-riots-hit-germany-ahead-of-more-action/",
+     "section": "general",
+     "summary": "PARIS, Nov 1, (AP): French authorities expressed relief Sunday after mass protests over rising living costs resulted in less violence than previous weekends. But police expect new...",
+     "body": "",
+     "published": "2026-11-01T15:44:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -6372,7 +6401,7 @@
      "lang": "en",
      "title": "Kamala Harris urges a 'too big to rig' turnout for the midterms and tees off on Trump",
      "url": "https://www.arabtimesonline.com/news/kamala-harris-urges-a-too-big-to-rig-turnout-for-the-midterms-and-tees-off-on-trump/",
-     "section": "latest",
+     "section": "general",
      "summary": "ATLANTA, Nov 1, (AP): Two years after Kamala Harris lost the presidential election to Donald Trump, she still delights Democratic donors and activists with jabs against him, sayi...",
      "body": "",
      "published": "2026-11-01T13:42:00+03:00",
@@ -6396,7 +6425,7 @@
      "lang": "en",
      "title": "Netherlands coast guard rescues 38 people adrift in a rubber boat",
      "url": "https://www.arabtimesonline.com/news/netherlands-coast-guard-rescues-38-people-adrift-in-a-rubber-boat/",
-     "section": "latest",
+     "section": "general",
      "summary": "THE HAGUE, Netherlands, Nov 1, (AP): Dozens of people adrift at sea in a rubber boat were rescued early Saturday off the coast of the southern Netherlands, in one of the first su...",
      "body": "",
      "published": "2026-11-01T13:24:00+03:00",
@@ -6444,7 +6473,7 @@
      "lang": "en",
      "title": "Trump administration did not facilitate Bolsonaro’s flight to US: Rubio",
      "url": "https://www.arabtimesonline.com/news/trump-administration-did-not-facilitate-bolsonaros-flight-to-us-rubio/",
-     "section": "latest",
+     "section": "general",
      "summary": "ATLANTA, Nov 1, (AP): US Secretary of State Marco Rubio said Saturday that the Trump administration did not facilitate defeated presidential candidate Flávio Bolsonaro’s departur...",
      "body": "",
      "published": "2026-11-01T12:51:00+03:00",
@@ -6492,7 +6521,7 @@
      "lang": "en",
      "title": "Shooting at Spirit Halloween store in California leaves pregnant woman dead and 6 wounded",
      "url": "https://www.arabtimesonline.com/news/shooting-at-spirit-halloween-store-in-california-leaves-pregnant-woman-dead-and-6-wounded/",
-     "section": "latest",
+     "section": "general",
      "summary": "LOS ANGELES, Nov 1, (AP): A targeted shooting inside a Spirit Halloween store in Northern California left a pregnant woman dead and six other people wounded, police said. Gunfire...",
      "body": "",
      "published": "2026-11-01T11:59:00+03:00",
@@ -6540,7 +6569,7 @@
      "lang": "en",
      "title": "1 killed, 8 injured in cylinder blast in Pakistan's Punjab",
      "url": "https://www.arabtimesonline.com/news/1-killed-8-injured-in-cylinder-blast-in-pakistans-punjab/",
-     "section": "latest",
+     "section": "general",
      "summary": "ISLAMABAD, Nov 1, (Xinhua): At least one person was killed and eight others injured in a cylinder explosion at a private bakery factory in Lahore, the capital of Pakistan's east...",
      "body": "",
      "published": "2026-11-01T13:34:00+03:00",
@@ -6564,7 +6593,7 @@
      "lang": "en",
      "title": "India Witnesses Massive Political Showdown Over 130 Million Voter List Deletions",
      "url": "https://www.arabtimesonline.com/news/indian-opposition-parties-stage-new-protest-against-elections-chief/",
-     "section": "latest",
+     "section": "general",
      "summary": "NEW DELHI, Nov 1, (AP): India’s opposition parties on Sunday renewed calls for the resignation of the country’s election chief, staging fresh protests in the latest display of p...",
      "body": "",
      "published": "2026-11-01T12:22:00+03:00",
@@ -6588,7 +6617,7 @@
      "lang": "en",
      "title": "Filipino families keep their loved ones close on All Saints' Day",
      "url": "https://www.arabtimesonline.com/news/filipino-families-keep-their-loved-ones-close-on-all-saints-day/",
-     "section": "latest",
+     "section": "general",
      "summary": "MANILA, Philippines, Nov 1, (AP): Her father may no longer be with her, but Lorita Santos keeps the memories they shared close to her heart. She was among thousands of Filipinos...",
      "body": "",
      "published": "2026-11-01T12:16:00+03:00",
