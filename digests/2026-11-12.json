@@ -1,29 +1,29 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T09:15:50.075890+03:00",
+ "generated_at": "2026-11-12T10:30:23.355619+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 302,
+  "total_articles": 298,
   "outlets_reporting": 6,
-  "total_stories": 232,
-  "major_stories": 9,
+  "total_stories": 228,
+  "major_stories": 8,
   "analysed_stories": 28,
-  "window_start": "2026-11-11T07:15:50.075890+03:00",
-  "window_end": "2026-11-12T09:15:50.075890+03:00",
+  "window_start": "2026-11-11T08:30:23.355619+03:00",
+  "window_end": "2026-11-12T10:30:23.355619+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 67,
-   "Society & Services": 20,
+   "Government & Politics": 65,
+   "Society & Services": 19,
    "Economy & Business": 41,
+   "Security & Courts": 13,
+   "World & Region": 50,
    "Sport": 30,
-   "Security & Courts": 15,
-   "World & Region": 49,
    "Culture & Entertainment": 3,
    "Opinion & Analysis": 7
   },
   "analysis_retries": 7,
-  "analysis_splits": 42,
+  "analysis_splits": 38,
   "analysis_missing": 0,
   "analysis_providers": []
  },
@@ -31,12 +31,12 @@
   "story_of_the_day": "S1",
   "top_themes": [],
   "_source": "extractive",
-  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 9 of them by three or more outlets. The leading story was: نائب وزير الخارجية يبحث مع وزير الإسكان والأراضي المالطي تطوير العلاقات الثنائية. This extractive fallback does not infer subtext or verify cross-day trends.",
+  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 8 of them by three or more outlets. The leading story was: نائب وزير الخارجية يبحث مع وزير الإسكان والأراضي المالطي تطوير العلاقات الثنائية. This extractive fallback does not infer subtext or verify cross-day trends.",
   "not_being_said_en": "Not assessed: a deterministic fallback cannot infer omissions or intent from story counts alone.",
   "tactical_en": "Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status.",
   "strategic_en": "Historical context from previous editions (context only, not evidence of a current development):\n- 2026-11-11: 28 distinct stories were carried across the Kuwaiti press in this window, 10 of them by three or more outlets. The leading story was: فقدان الجنسية من 35 شخصاً بسبب «الازدواجية». This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status. | prior watchlist: Compare future reports against the historical notes and verify any carry-over against current source material. | pattern under way: Historical context from previous editions (context only, not evidence of a current development): - 2026-11-10: 28 distinct stories were carried across the Kuwaiti press in this window, 8 of them by three or more outlets. The leading story was: «الغذاء»: إغلاق 6 منشآت وإتلاف 126 كيلوغراماً من الأغذية المغشوشة في مبارك الكبير. This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback…\n\nThis deterministic fallback cannot determine whether today's coverage continues, reverses, or extends those patterns.",
   "watchlist_en": "Compare future reports against the historical notes and verify any carry-over against current source material.",
-  "editor_note_ar": "أُعدّ هذا الملخص دون مزود ذكاء اصطناعي. يتضمن 28 قصة، حمل 9 منها ثلاثة مصادر أو أكثر.",
+  "editor_note_ar": "أُعدّ هذا الملخص دون مزود ذكاء اصطناعي. يتضمن 28 قصة، حمل 8 منها ثلاثة مصادر أو أكثر.",
   "not_being_said_ar": "لم يُقيّم هذا الجانب؛ لا يمكن استنتاج ما لم يُذكر أو نية التغطية من عدد الأخبار وحده.",
   "tactical_ar": "تحقق من القرارات والمسؤوليات والمواعيد في تقارير المصادر الحالية؛ لا يستطيع هذا الملخص الاستخراجي تأكيد حالتها.",
   "strategic_ar": "السياق التاريخي وارد في الملاحظة الإنجليزية أعلاه، ولا يثبت وحده استمرار التغطية أو تغيرها اليوم.",
@@ -139,55 +139,50 @@
   "S2 ممثل الأمير رئيس الوزراء يشارك في قمة مؤتمر الأطراف «COP31»: batch S2: no provider available",
   "S3 «الجامعات الحكومية» يعتمد مشروعي ميزانيتي جامعتي الكويت وعبدالله…: batch S3: no provider available",
   "S4 محافظ الفروانية: دعم المبادرات التربوية المعززة للهوية الوطنية: batch S4: no provider available",
-  "S5 «صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار: batch S5: no provider available",
-  "S6 الجلاهمة: ماراثون «الخليج» نموذج ناجح للشراكة بين القطاعين: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S7 سمو نائب الأمير ولي العهد يتسلم أوراق اعتماد سفراء عدد من الدول: https://api.cerebras.ai/v1/chat/completions: HTTP Error 402: Payment Required",
-  "S8 8.3 مليون دينار أرباح «كيبكو» في 9 أشهر: batch S8: no provider available",
-  "S9 وكيل الخدمات الصحية الخارجية: تعزيز التعاون العربي لتطوير الكوادر…: batch S9: no provider available",
-  "S10 الحويلة: تكويت «التعاونيات» رغبة أميرية.. وحان وقت تولي المواطنين…: batch S10: no provider available",
-  "S11 Kuwait’s Yasmeen Waleed wins high jump gold at Dakar Youth Olympics: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S12 «الصحة»: تجديد حصول المختبر الوطني لفيروس شلل الأطفال على نسبة 100%: batch S12: no provider available",
-  "S13 «الداخلية»: رصد مستندات مزورة تحمل صفة الوزارة والوزير لاستدراج…: batch S13: no provider available",
-  "S14 محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر: batch S14: no provider available",
-  "S15 العبدالله ونواف سلام يبحثان تعزيز العلاقات الكويتية اللبنانية: batch S15: no provider available",
-  "S16 مؤتمر «من الكويت نبدأ» الـ 26 يكرم 13 شخصية تخليداً لذكراها: batch S16: no provider available",
-  "S17 وزير التربية يعتمد تعديلات جديدة على الهيكل التنظيمي لترشيق الجهاز…: batch S17: no provider available",
-  "S18 تفعيل إشعارات الدخول والمغادرة عبر المنافذ في «سهل»: batch S18: no provider available",
-  "S19 «كاسكو» تكرم عمالها المتميزين برحلة عمرة: batch S19: no provider available",
-  "S20 «بيت التمويل» يقرع جرس إدراج وبدء تداول أول صكوك ببورصة الكويت بـ 200…: batch S20: no provider available",
-  "S21 «المركزي» يفتح الباب أمام الخدمات المصرفية المفتوحة في الكويت: batch S21: no provider available",
-  "S22 «بيوت» تربح 7.25 مليون دينار في 9 أشهر: batch S22: no provider available",
-  "S23 الكويتي فيصل حماده يحقق المركز الثاني بجائزة حمدان الدولية للتصوير…: batch S23: no provider available",
-  "S24 «التجاري» يعلن رابحي «النجمة»: batch S24: no provider available",
-  "S25 «وربة» يحصد «الأفضل في التمويل التجاري»: batch S25: no provider available",
-  "S26 وزير التربية: «طفل يقرأ» ترعى مواهب «الرياض»: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S27 الدفاع المدني السعودي: سقوط شظايا صاروخين باليستيين حوثيين في منطقة…: batch S27: no provider available",
-  "S28 التحالف: الدفاع الجوي اعترض ودمر صاروخين بالستيين بالمنطقة الغربية…: batch S28: no provider available",
-  "S1 نائب وزير الخارجية يبحث مع وزير الإسكان والأراضي المالطي تطوير…: batch S1: no provider available",
-  "S2 ممثل الأمير رئيس الوزراء يشارك في قمة مؤتمر الأطراف «COP31»: batch S2: no provider available",
-  "S3 «الجامعات الحكومية» يعتمد مشروعي ميزانيتي جامعتي الكويت وعبدالله…: batch S3: no provider available",
-  "S4 محافظ الفروانية: دعم المبادرات التربوية المعززة للهوية الوطنية: batch S4: no provider available",
-  "S5 «صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار: batch S5: no provider available",
-  "S6 الجلاهمة: ماراثون «الخليج» نموذج ناجح للشراكة بين القطاعين: batch S6: no provider available",
+  "S5 الجلاهمة: ماراثون «الخليج» نموذج ناجح للشراكة بين القطاعين: batch S5: no provider available",
+  "S6 «صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S7 سمو نائب الأمير ولي العهد يتسلم أوراق اعتماد سفراء عدد من الدول: batch S7: no provider available",
   "S8 8.3 مليون دينار أرباح «كيبكو» في 9 أشهر: batch S8: no provider available",
   "S9 وكيل الخدمات الصحية الخارجية: تعزيز التعاون العربي لتطوير الكوادر…: batch S9: no provider available",
   "S10 الحويلة: تكويت «التعاونيات» رغبة أميرية.. وحان وقت تولي المواطنين…: batch S10: no provider available",
-  "S11 Kuwait’s Yasmeen Waleed wins high jump gold at Dakar Youth Olympics: batch S11: no provider available",
-  "S12 «الصحة»: تجديد حصول المختبر الوطني لفيروس شلل الأطفال على نسبة 100%: batch S12: no provider available",
-  "S13 «الداخلية»: رصد مستندات مزورة تحمل صفة الوزارة والوزير لاستدراج…: batch S13: no provider available",
-  "S14 محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر: batch S14: no provider available",
-  "S15 العبدالله ونواف سلام يبحثان تعزيز العلاقات الكويتية اللبنانية: batch S15: no provider available",
-  "S16 مؤتمر «من الكويت نبدأ» الـ 26 يكرم 13 شخصية تخليداً لذكراها: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S17 وزير التربية يعتمد تعديلات جديدة على الهيكل التنظيمي لترشيق الجهاز…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S18 تفعيل إشعارات الدخول والمغادرة عبر المنافذ في «سهل»: batch S18: no provider available",
-  "S19 «كاسكو» تكرم عمالها المتميزين برحلة عمرة: batch S19: no provider available",
-  "S20 «بيت التمويل» يقرع جرس إدراج وبدء تداول أول صكوك ببورصة الكويت بـ 200…: batch S20: no provider available",
-  "S21 «المركزي» يفتح الباب أمام الخدمات المصرفية المفتوحة في الكويت: batch S21: no provider available",
-  "S22 «بيوت» تربح 7.25 مليون دينار في 9 أشهر: batch S22: no provider available",
+  "S11 «الصحة»: تجديد حصول المختبر الوطني لفيروس شلل الأطفال على نسبة 100%: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 «الداخلية»: رصد مستندات مزورة تحمل صفة الوزارة والوزير لاستدراج…: batch S12: no provider available",
+  "S13 العبدالله ونواف سلام يبحثان تعزيز العلاقات الكويتية اللبنانية: batch S13: no provider available",
+  "S14 مؤتمر «من الكويت نبدأ» الـ 26 يكرم 13 شخصية تخليداً لذكراها: batch S14: no provider available",
+  "S15 محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر: batch S15: no provider available",
+  "S16 وزير التربية يعتمد تعديلات جديدة على الهيكل التنظيمي لترشيق الجهاز…: batch S16: no provider available",
+  "S17 تفعيل إشعارات الدخول والمغادرة عبر المنافذ في «سهل»: batch S17: no provider available",
+  "S18 «كاسكو» تكرم عمالها المتميزين برحلة عمرة: batch S18: no provider available",
+  "S19 «بيت التمويل» يقرع جرس إدراج وبدء تداول أول صكوك ببورصة الكويت بـ 200…: batch S19: no provider available",
+  "S20 «المركزي» يفتح الباب أمام الخدمات المصرفية المفتوحة في الكويت: batch S20: no provider available",
+  "S21 «بيوت» تربح 7.25 مليون دينار في 9 أشهر: batch S21: no provider available",
+  "S22 التحالف: اعتراض وتدمير طائرة مسيرة في المنطقة الشرقية: batch S22: no provider available",
   "S23 الكويتي فيصل حماده يحقق المركز الثاني بجائزة حمدان الدولية للتصوير…: batch S23: no provider available",
   "S24 «التجاري» يعلن رابحي «النجمة»: batch S24: no provider available",
   "S25 «وربة» يحصد «الأفضل في التمويل التجاري»: batch S25: no provider available",
+  "S26 الدفاع المدني السعودي: سقوط شظايا صاروخين باليستيين حوثيين في منطقة…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S27 التحالف: الدفاع الجوي اعترض ودمر صاروخين بالستيين بالمنطقة الغربية…: batch S27: no provider available",
+  "S28 التحالف:‏ ‏اعتراض وتدمير «مسيرتين» في منطقتي مكة المكرمة والجنوبية: batch S28: no provider available",
+  "S1 نائب وزير الخارجية يبحث مع وزير الإسكان والأراضي المالطي تطوير…: batch S1: no provider available",
+  "S2 ممثل الأمير رئيس الوزراء يشارك في قمة مؤتمر الأطراف «COP31»: batch S2: no provider available",
+  "S3 «الجامعات الحكومية» يعتمد مشروعي ميزانيتي جامعتي الكويت وعبدالله…: batch S3: no provider available",
+  "S4 محافظ الفروانية: دعم المبادرات التربوية المعززة للهوية الوطنية: batch S4: no provider available",
+  "S5 الجلاهمة: ماراثون «الخليج» نموذج ناجح للشراكة بين القطاعين: batch S5: no provider available",
+  "S6 «صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار: batch S6: no provider available",
+  "S7 سمو نائب الأمير ولي العهد يتسلم أوراق اعتماد سفراء عدد من الدول: batch S7: no provider available",
+  "S8 8.3 مليون دينار أرباح «كيبكو» في 9 أشهر: batch S8: no provider available",
+  "S9 وكيل الخدمات الصحية الخارجية: تعزيز التعاون العربي لتطوير الكوادر…: batch S9: no provider available",
+  "S10 الحويلة: تكويت «التعاونيات» رغبة أميرية.. وحان وقت تولي المواطنين…: batch S10: no provider available",
+  "S11 «الصحة»: تجديد حصول المختبر الوطني لفيروس شلل الأطفال على نسبة 100%: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 «الداخلية»: رصد مستندات مزورة تحمل صفة الوزارة والوزير لاستدراج…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S13 العبدالله ونواف سلام يبحثان تعزيز العلاقات الكويتية اللبنانية: batch S13: no provider available",
+  "S14 مؤتمر «من الكويت نبدأ» الـ 26 يكرم 13 شخصية تخليداً لذكراها: batch S14: no provider available",
+  "S15 محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر: batch S15: no provider available",
+  "S16 وزير التربية يعتمد تعديلات جديدة على الهيكل التنظيمي لترشيق الجهاز…: batch S16: no provider available",
+  "S17 تفعيل إشعارات الدخول والمغادرة عبر المنافذ في «سهل»: batch S17: no provider available",
+  "S18 «كاسكو» تكرم عمالها المتميزين برحلة عمرة: batch S18: no provider available",
+  "S19 «بيت التمويل» يقرع جرس إدراج وبدء تداول أول صكوك ببورصة الكويت بـ 200…: batch S19: no provider available",
+  "S20 «المركزي» يفتح الباب أمام الخدمات المصرفية المفتوحة في الكويت: batch S20: no provider available",
   "synthesis: synthesis: the analysis budget ran out before the call was made"
  ],
  "stories": [
@@ -361,7 +356,7 @@
   },
   {
    "key": "c2b132a712a3f2da",
-   "score": 26.756,
+   "score": 26.456,
    "sources": [
     "كويت نيوز",
     "الجريدة",
@@ -419,18 +414,6 @@
      "tier": 1
     },
     {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "ممثل سمو الأمير سمو رئيس الوزراء يشارك في قمة القادة للدورة الـ31 لمؤتمر الأطراف “COP31”",
-     "url": "https://kuwaitnews.com/138582/",
-     "section": "latest",
-     "summary": "شارك ممثل حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح حفظه الله ورعاه سمو الشيخ أحمد عبدالله الأحمد الصباح رئيس مجلس الوزراء في قمة القادة للدورة ال31 لمؤتمر الأطراف (COP31) في اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ […]\n\nThe post ممثل سمو الأمير سمو رئيس الوزراء يشارك في قمة القادة للدورة الـ31 لمؤتمر الأطراف “COP31” appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-11-11T11:22:05+00:00",
-     "tier": 2
-    },
-    {
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
@@ -470,7 +453,7 @@
     "_source": "extractive",
     "summary_en": "شارك ممثل صاحب السمو أمير البلاد الشيخ مشعل الأحمد، سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء في قمة القادة للدورة ال31 لمؤتمر الأطراف (COP31 ) في اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ التي افتتحت أعمالها اليوم في مدينة أنطاليا بجمهورية تركيا.",
     "why_it_matters_en": "Analysed without an AI provider. This story was carried by 4 outlet(s): كويت نيوز, الجريدة, الأنباء, الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: ممثل سمو أمير البلاد سمو رئيس الوزراء يستقبل رئيس وزراء لبنان على هامش قمة مؤتمر الأطراف “COP31” بتركيا; ممثل سمو أمير البلاد سمو رئيس الوزراء يلتقي رئيس وزراء باكستان على هامش قمة مؤتمر الأطراف “COP31” بتركيا; ممثل الأمير يلتقي رئيس وزراء باكستان على هامش قمة «COP31» في أنطاليا; ممثل سمو الأمير سمو رئيس الوزراء يشارك في قمة القادة للدورة الـ31 لمؤتمر الأطراف “COP31”",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: ممثل سمو أمير البلاد سمو رئيس الوزراء يستقبل رئيس وزراء لبنان على هامش قمة مؤتمر الأطراف “COP31” بتركيا; ممثل سمو أمير البلاد سمو رئيس الوزراء يلتقي رئيس وزراء باكستان على هامش قمة مؤتمر الأطراف “COP31” بتركيا; ممثل الأمير يلتقي رئيس وزراء باكستان على هامش قمة «COP31» في أنطاليا; ممثل سمو الأمير يشارك في قمة المناخ «COP31»",
     "watch_next_en": "",
     "summary_ar": "شارك ممثل صاحب السمو أمير البلاد الشيخ مشعل الأحمد، سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء في قمة القادة للدورة ال31 لمؤتمر الأطراف (COP31 ) في اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ التي افتتحت أعمالها اليوم في مدينة أنطاليا بجمهورية تركيا.",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 4 وسيلة إعلامية: كويت نيوز, الجريدة, الأنباء, الرأي.",
@@ -629,75 +612,6 @@
    }
   },
   {
-   "key": "159afe4a745449f2",
-   "score": 20.859,
-   "sources": [
-    "الأنباء",
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الصندوق الكويتي للتنمية يشارك في ملتقى جامعة الكويت للمواهب والابتكار الطلابي",
-     "url": "https://www.alanba.com.kw/1384651",
-     "section": "kuwait",
-     "summary": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار تحدي، ابتكار، استدامة، خلال الفترة من",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار",
-     "url": "https://www.alraimedia.com/article/1785842/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%84%D9%84%D9%85%D9%88%D8%A7%D9%87%D8%A8-%D9%88%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1",
-     "section": "local",
-     "summary": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في...",
-     "body": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في كلية العلوم الإدارية بمدينة صباح السالم الجامعية، برعاية مدير جامعة الكويت، وبتنظيم من عمادة شؤون الطلبة، وبمشاركة عدد من الجهات الحكومية والخاصة.\n\nوجاءت مشاركة الصندوق من خلال جناح خاص في المعرض المصاحب للملتقى، الذي تضمن عرض مشاريع الطلبة وابتكاراتهم في مختلف المجالات، بهدف إبراز المواهب الطلابية وتشجيع الإبداع والابتكار، وتعزيز التواصل وتبادل الخبرات بين الطلبة والجهات المشاركة.",
-     "published": "2026-11-11T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«الصندوق الكويتي» يشارك في ملتقى الجامعة للمواهب",
-     "url": "https://www.aljarida.com/article/150260",
-     "section": "local",
-     "summary": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أُقيم تحت شعار «تحدي، ابتكار، استدامة»، من 10 إلى 11 الجاري،...",
-     "body": "",
-     "published": "2026-11-11T20:09:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "«صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait",
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في كلية العلوم الإدارية بمدينة صباح السالم الجامعية، برعاية مدير جامعة الكويت، وبتنظيم من عمادة شؤون الطلبة، وبمشاركة عدد من الجهات الحكومية والخاصة. وجاءت مشاركة الصندوق من خلال جناح خاص في المعرض المصاحب للملتقى، الذي تضمن عرض مشاريع…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الأنباء, الرأي, الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: الصندوق الكويتي للتنمية يشارك في ملتقى جامعة الكويت للمواهب والابتكار الطلابي; «الصندوق الكويتي» يشارك في ملتقى الجامعة للمواهب",
-    "watch_next_en": "",
-    "summary_ar": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في كلية العلوم الإدارية بمدينة صباح السالم الجامعية، برعاية مدير جامعة الكويت، وبتنظيم من عمادة شؤون الطلبة، وبمشاركة عدد من الجهات الحكومية والخاصة. وجاءت مشاركة الصندوق من خلال جناح خاص في المعرض المصاحب للملتقى، الذي تضمن عرض مشاريع…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الرأي, الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "d3fb13cd1ce5fede",
    "score": 20.359,
    "sources": [
@@ -776,6 +690,76 @@
     "watch_next_en": "",
     "summary_ar": "قال وزير الدولة لشؤون الشباب والرياضة د. طارق الجلاهمة إن ماراثون بنك الخليج 642 يمثل نموذجاً ناجحاً للعلاقة المستدامة بين القطاعين الحكومي والخاص، ومبادرة مجتمعية رائدة استطاعت الوصول إلى مختلف...",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 4 وسيلة إعلامية: الأنباء, الرأي, الجريدة, كويت نيوز.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "159afe4a745449f2",
+   "score": 19.359,
+   "sources": [
+    "الأنباء",
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الصندوق الكويتي للتنمية يشارك في ملتقى جامعة الكويت للمواهب والابتكار الطلابي",
+     "url": "https://www.alanba.com.kw/1384651",
+     "section": "kuwait",
+     "summary": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار تحدي، ابتكار، استدامة، خلال الفترة من",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار",
+     "url": "https://www.alraimedia.com/article/1785842/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%84%D9%84%D9%85%D9%88%D8%A7%D9%87%D8%A8-%D9%88%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1",
+     "section": "latest",
+     "summary": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في...",
+     "body": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في كلية العلوم الإدارية بمدينة صباح السالم الجامعية، برعاية مدير جامعة الكويت، وبتنظيم من عمادة شؤون الطلبة، وبمشاركة عدد من الجهات الحكومية والخاصة.\n\nوجاءت مشاركة الصندوق من خلال جناح خاص في المعرض المصاحب للملتقى، الذي تضمن عرض مشاريع الطلبة وابتكاراتهم في مختلف المجالات، بهدف إبراز المواهب الطلابية وتشجيع الإبداع والابتكار، وتعزيز التواصل وتبادل الخبرات بين الطلبة والجهات المشاركة.",
+     "published": "2026-11-11T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«الصندوق الكويتي» يشارك في ملتقى الجامعة للمواهب",
+     "url": "https://www.aljarida.com/article/150260",
+     "section": "local",
+     "summary": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أُقيم تحت شعار «تحدي، ابتكار، استدامة»، من 10 إلى 11 الجاري،...",
+     "body": "",
+     "published": "2026-11-11T20:09:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait",
+     "latest",
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في كلية العلوم الإدارية بمدينة صباح السالم الجامعية، برعاية مدير جامعة الكويت، وبتنظيم من عمادة شؤون الطلبة، وبمشاركة عدد من الجهات الحكومية والخاصة. وجاءت مشاركة الصندوق من خلال جناح خاص في المعرض المصاحب للملتقى، الذي تضمن عرض مشاريع…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الأنباء, الرأي, الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: الصندوق الكويتي للتنمية يشارك في ملتقى جامعة الكويت للمواهب والابتكار الطلابي; «الصندوق الكويتي» يشارك في ملتقى الجامعة للمواهب",
+    "watch_next_en": "",
+    "summary_ar": "شارك الصندوق الكويتي للتنمية في النسخة الثالثة من ملتقى ومعرض جامعة الكويت للمواهب والابتكار الطلابي، الذي أقيم تحت شعار «تحدي، ابتكار، استدامة»، خلال يومي 10 و11 نوفمبر الجاري، في كلية العلوم الإدارية بمدينة صباح السالم الجامعية، برعاية مدير جامعة الكويت، وبتنظيم من عمادة شؤون الطلبة، وبمشاركة عدد من الجهات الحكومية والخاصة. وجاءت مشاركة الصندوق من خلال جناح خاص في المعرض المصاحب للملتقى، الذي تضمن عرض مشاريع…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الرأي, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -934,7 +918,7 @@
   },
   {
    "key": "6fd95d4230fe0f17",
-   "score": 16.509,
+   "score": 15.009,
    "sources": [
     "الأنباء",
     "الرأي"
@@ -959,7 +943,7 @@
      "lang": "ar",
      "title": "وكيل ديوان الخدمة المدنية: الكويت حريصة على تعزيز التعاون العربي في مجالات التنمية الإدارية",
      "url": "https://www.alraimedia.com/article/1785862/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D9%88%D9%83%D9%8A%D9%84-%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AD%D8%B1%D9%8A%D8%B5%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9",
-     "section": "local",
+     "section": "latest",
      "summary": "أكد وكيل ديوان الخدمة المدنية صلاح خالد لصقعبي أمس الأربعاء أن مشاركة الكويت، ممثلة في ديوان الخدمة المدنية، في أعمال الدورة العادية للمجلس التنفيذي للمنظمة العربية للتنمية الإداري...",
      "body": "",
      "published": "2026-11-12T03:39:00+03:00",
@@ -999,6 +983,7 @@
     "entities": [],
     "tags": [
      "kuwait",
+     "latest",
      "local"
     ],
     "_source": "extractive",
@@ -1076,76 +1061,6 @@
     "watch_next_en": "",
     "summary_ar": "• تسريع الآلية لضمان تمكين أكبر عدد من الكويتيين بالوظائف الإشرافية والمساندة • اتباع آليات الحوكمة والشفافية بالاختيار لضمان وصول المؤهلين • «الشؤون»: بدء إجراء المقابلات الشخصية لراغبي شغل «الإشرافية التعاونية» • 397 مواطناً يتنافسون على 70 وظيفة في 59 جمعية • مقابلة 93 خلال اليوم الأول… والبقية تباعاً حتى 17 الجاري",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "88758713bf48a2b9",
-   "score": 13.859,
-   "sources": [
-    "Arab Times",
-    "Kuwait Times",
-    "الأنباء"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Al-Jalahma and Sheikh Al-Nasser hail Yasmin's Youth Olympics gold",
-     "url": "https://www.arabtimesonline.com/news/al-jalahma-and-sheikh-al-nasser-hail-yasmins-youth-olympics-gold/",
-     "section": "general",
-     "summary": "KUWAIT CITY, Nov 11 (KUNA): Minister of State for Youth and Sports Dr Tareq Al-Jalahma and Kuwait Olympic Committee President Sheikh Fahad Al-Nasser have congratulated Kuwaiti athl...",
-     "body": "",
-     "published": "2026-11-11T20:06:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait’s Yasmeen Waleed wins high jump gold at Dakar Youth Olympics",
-     "url": "https://kuwaittimes.com/article/53423/sports/kuwaits-yasmeen-waleed-wins-high-jump-gold-at-dakar-youth-olympics/",
-     "section": "latest",
-     "summary": "KUWAIT: Kuwaiti athlete Yasmeen Waleed has won the gold medal in the high jump at the fourth Summer Youth Olympic Games in the Senegalese capital Dakar, setting a new Kuwaiti recor...",
-     "body": "KUWAIT: Kuwaiti athlete Yasmeen Waleed has won the gold medal in the high jump at the fourth Summer Youth Olympic Games in the Senegalese capital Dakar, setting a new Kuwaiti record of 1.80 meters.\n\nThe Kuwait Olympic Committee described the win as a “historic achievement” for Kuwaiti sport. Waleed is one of the athletes in the committee’s Olympic Champion program, which is backed by Kuwait Olympic Committee President Sheikh Fahad Nasser Sabah Al-Ahmad Al-Sabah and aims to prepare national talent to compete and win at international events.\n\nMinister of State for Youth and Sports Affairs Dr Tareq Al-Jalahma congratulated Waleed on Tuesday, telling KUNA that the achievement was “a source of pride” that reflected Kuwaiti athletes’ determination to raise the country’s flag at major world events. He praised her performance and determination and said the win underlined the importance of investing in young sporting talent.\n\nAl-Jalahma also praised the efforts of the Kuwait Olympic Committee, sports federations and technical and administrative staff in preparing athletes for international competition, and affirmed the state’s continued support for national talent.\n\nKuwait is competing at the Games, which run until Nov 13, with six athletes in athletics, rowing, fencing, swimming and judo. — KUNA\n\nTrue great’ Kane set to break England appearance record\n\nYoung Australian jockey dies after race fall",
-     "published": "2026-11-11T07:40:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "ذهبية تاريخية تحققها ياسمين وليد في الأولمبياد",
-     "url": "https://www.alanba.com.kw/1384692",
-     "section": "sport",
-     "summary": "في إنجاز تاريخي يسجل للرياضة الكويتية حققت لاعبة منتخبنا الوطني لألعاب القوى، البطلة ياسمين وليد، الميدالية الذهبية في مسابقة الوثب العالي ضمن منافسات دورة الأ",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {
-    "headline_en": "Kuwait’s Yasmeen Waleed wins high jump gold at Dakar Youth Olympics",
-    "headline_ar": "",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "general",
-     "latest",
-     "sport"
-    ],
-    "_source": "extractive",
-    "summary_en": "KUWAIT: Kuwaiti athlete Yasmeen Waleed has won the gold medal in the high jump at the fourth Summer Youth Olympic Games in the Senegalese capital Dakar, setting a new Kuwaiti record of 1.80 meters. The Kuwait Olympic Committee described the win as a “historic achievement” for Kuwaiti sport. Waleed is one of the athletes in the committee’s Olympic Champion program, which is backed by Kuwait Olympic Committee…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): Arab Times, Kuwait Times, الأنباء.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Al-Jalahma and Sheikh Al-Nasser hail Yasmin's Youth Olympics gold; ذهبية تاريخية تحققها ياسمين وليد في الأولمبياد",
-    "watch_next_en": "",
-    "summary_ar": "",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: Arab Times, Kuwait Times, الأنباء.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1262,61 +1177,6 @@
    }
   },
   {
-   "key": "e8990a463545cf99",
-   "score": 13.759,
-   "sources": [
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر",
-     "url": "https://www.aljarida.com/article/150207",
-     "section": "local",
-     "summary": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الف...",
-     "body": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الفهد، وذلك في البلاغ المقام من «الدفاع» ضد الفهد على خلفية الاتهام بوقائع الاستيلاء على مبلغ 400 ألف دينار من أموال «الوزارة».",
-     "published": "2026-11-11T15:51:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "محكمة الوزراء تحجز قضية «المصروفات السرية» لوزارة الدفاع المتهم فيها الشيخ أحمد الفهد إلى 23 ديسمبر للحكم",
-     "url": "https://www.alraimedia.com/article/1785773/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AA%D8%AD%D8%AC%D8%B2-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%88%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9-%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AA%D9%87%D9%85-%D9%81%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D9%81%D9%87%D8%AF-%D8%A5%D9%84%D9%89-23-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D9%84%D9%84%D8%AD%D9%83%D9%85",
-     "section": "local",
-     "summary": "‏حجزت محكمة الوزراء قضية المصروفات السرية لوزارة الدفاع المتهم بها الشيخ أحمد الفهد الى جلسة 23 ديسمبر المقبل للنطق بالحكم. وكان الشيخ أحمد الفهد قد سبق أن قدم خلال محاكمته أما...",
-     "body": "",
-     "published": "2026-11-11T15:27:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الفهد، وذلك في البلاغ المقام من «الدفاع» ضد الفهد على خلفية الاتهام بوقائع الاستيلاء على مبلغ 400 ألف دينار من أموال «الوزارة».",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الجريدة, الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: محكمة الوزراء تحجز قضية «المصروفات السرية» لوزارة الدفاع المتهم فيها الشيخ أحمد الفهد إلى 23 ديسمبر للحكم",
-    "watch_next_en": "",
-    "summary_ar": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الفهد، وذلك في البلاغ المقام من «الدفاع» ضد الفهد على خلفية الاتهام بوقائع الاستيلاء على مبلغ 400 ألف دينار من أموال «الوزارة».",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الجريدة, الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "830466d446f43699",
    "score": 13.758,
    "sources": [
@@ -1423,6 +1283,61 @@
     "watch_next_en": "",
     "summary_ar": "• الياسين: غايتنا نشر قيم الوطنية والمواطنة والوسطية ومكارم الأخلاق • الجوعان: العلاقة السليمة بين الوطن والمواطن تقوم على تبادل الوفاء كرم مؤتمر «من الكويت نبدأ وإلى الكويت ننتهي» في نسخته الـ26 أمس 13 شخصية وطنية بارزة، نظير دورها الإيجابي في المجتمع تخليدا لذكراها. وقال رئيس لجنة الإشراف العليا للمؤتمر المحامي يوسف الياسين، في كلمة له، إن الاحتفالية جاءت لإحياء سير نخبة من الآباء والأجداد وكوكبة خالدة من أبناء…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "e8990a463545cf99",
+   "score": 13.159,
+   "sources": [
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر",
+     "url": "https://www.aljarida.com/article/150207",
+     "section": "local",
+     "summary": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الف...",
+     "body": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الفهد، وذلك في البلاغ المقام من «الدفاع» ضد الفهد على خلفية الاتهام بوقائع الاستيلاء على مبلغ 400 ألف دينار من أموال «الوزارة».",
+     "published": "2026-11-11T15:51:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "محكمة الوزراء تحجز قضية «المصروفات السرية» لوزارة الدفاع المتهم فيها الشيخ أحمد الفهد إلى 23 ديسمبر للحكم",
+     "url": "https://www.alraimedia.com/article/1785773/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AA%D8%AD%D8%AC%D8%B2-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%88%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9-%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AA%D9%87%D9%85-%D9%81%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D9%81%D9%87%D8%AF-%D8%A5%D9%84%D9%89-23-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D9%84%D9%84%D8%AD%D9%83%D9%85",
+     "section": "local",
+     "summary": "‏حجزت محكمة الوزراء قضية المصروفات السرية لوزارة الدفاع المتهم بها الشيخ أحمد الفهد الى جلسة 23 ديسمبر المقبل للنطق بالحكم. وكان الشيخ أحمد الفهد قد سبق أن قدم خلال محاكمته أما...",
+     "body": "",
+     "published": "2026-11-11T15:27:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "محكمة الوزراء تحجز قضية أحمد الفهد للحكم في 23 ديسمبر",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الفهد، وذلك في البلاغ المقام من «الدفاع» ضد الفهد على خلفية الاتهام بوقائع الاستيلاء على مبلغ 400 ألف دينار من أموال «الوزارة».",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الجريدة, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: محكمة الوزراء تحجز قضية «المصروفات السرية» لوزارة الدفاع المتهم فيها الشيخ أحمد الفهد إلى 23 ديسمبر للحكم",
+    "watch_next_en": "",
+    "summary_ar": "حددت محكمة الوزراء، جلسة الـ23 من شهر ديسمبر المقبل، موعداً للنطق بالحكم في قضية المصروفات السرية لوزارة الدفاع المتهم بها نائب رئيس مجلس الوزراء وزير الدفاع الأسبق، الشيخ أحمد الفهد، وذلك في البلاغ المقام من «الدفاع» ضد الفهد على خلفية الاتهام بوقائع الاستيلاء على مبلغ 400 ألف دينار من أموال «الوزارة».",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الجريدة, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1772,6 +1687,75 @@
    }
   },
   {
+   "key": "c7f14fe26a250c37",
+   "score": 11.695,
+   "sources": [
+    "الرأي",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: اعتراض وتدمير طائرة مسيّرة في منطقة الرياض",
+     "url": "https://www.alraimedia.com/article/1785868/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء ركن تركي المالكي، اليوم الخميس، اعتراض وتدمير طائرة مسيرة بمنطقة الرياض.",
+     "body": "",
+     "published": "2026-11-12T08:20:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: اعتراض وتدمير طائرة مسيرة في المنطقة الشرقية",
+     "url": "https://www.alraimedia.com/article/1785860/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي، اليوم الخميس، اعتراض وتدمير طائرة مسيرة بالمنطقة الشرقية.",
+     "body": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي، اليوم الخميس، اعتراض وتدمير طائرة مسيرة بالمنطقة الشرقية.",
+     "published": "2026-11-12T02:12:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«التحالف»: اعتراض وتدمير 3 صواريخ «كروز» أطلقها الحوثيون باتجاه الرياض",
+     "url": "https://www.alanba.com.kw/1384601",
+     "section": "gulf",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-11T14:07:21+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "التحالف: اعتراض وتدمير طائرة مسيرة في المنطقة الشرقية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "world",
+     "latest",
+     "gulf"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي، اليوم الخميس، اعتراض وتدمير طائرة مسيرة بالمنطقة الشرقية.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: التحالف: اعتراض وتدمير طائرة مسيّرة في منطقة الرياض; «التحالف»: اعتراض وتدمير 3 صواريخ «كروز» أطلقها الحوثيون باتجاه الرياض",
+    "watch_next_en": "",
+    "summary_ar": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي، اليوم الخميس، اعتراض وتدمير طائرة مسيرة بالمنطقة الشرقية.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
    "key": "920624ebc3df857c",
    "score": 11.659,
    "sources": [
@@ -1940,62 +1924,6 @@
    }
   },
   {
-   "key": "b8c7848d0bab7e04",
-   "score": 11.258,
-   "sources": [
-    "الرأي",
-    "كويت نيوز"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "وزير التربية: «طفل يقرأ» ترعى مواهب «الرياض»",
-     "url": "https://www.alraimedia.com/article/1785843/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B7%D9%81%D9%84-%D9%8A%D9%82%D8%B1%D8%A3-%D8%AA%D8%B1%D8%B9%D9%89-%D9%85%D9%88%D8%A7%D9%87%D8%A8-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
-     "section": "local",
-     "summary": "أكد وزير التربية جلال الطبطبائي أن مبادرة «طفل يقرأ» تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر، بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة، معرباً...",
-     "body": "أكد وزير التربية جلال الطبطبائي أن مبادرة «طفل يقرأ» تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر، بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة، معرباً عن تطلعه إلى أن تتصدر الكويت بهذه المبادرة على المستوى العربي.\n\nوقال الطبطبائي لـ«كونا» عقب حفل انطلاق الموسم الثاني للمبادرة، إن «الاهتمام بمرحلة رياض الأطفال يمثل أساساً لبناء جيل جديد، وفكرة المبادرة انطلقت خلال لقاء مع فريق تحدي القراءة العربي، بعدما تبين أن التحدي يستهدف المراحل الابتدائية والمتوسطة والثانوية، ما استدعى إتاحة المجال أمام أطفال الرياض للمشاركة».\n\nقانون الأسرة الجديد... حماية الطفل فوق صراعات الأبوين منذ 6 دقائق «صندوق التنمية» يشارك في ملتقى جامعة الكويت للمواهب والابتكار منذ 8 دقائق\n\nمن جهته قال المنسق العام للمبادرة عبدالله البراك، في كلمته بالحفل، إن المبادرة تأتي امتداداً لريادة الكويت في العلم والمعرفة والثقافة والمبادرات التي تخدم الإنسان العربي، مبيناً أنها تستهدف تنمية مهارات ما قبل القراءة لدى الأطفال، انطلاقاً من الإيمان بأن بناء القارئ يبدأ قبل تعلم الحروف والجمل.\n\nوأوضح أن «طفل يقرأ» أول مبادرة حكومية تدرج قصصها في مكتبة تحدي القراءة العربي، ليستفيد منها أطفال الوطن العربي بما تتضمنه من قيم تجسد المجتمع. وأعرب عن اعتزازه بما حظيت به التجربة الكويتية من إشادة واهتمام من المشاركين العرب، مؤكداً أن ذلك يعكس قيمة المبادرة ودورها في تنمية مهارات الأطفال وتعزيز ارتباطهم بالقراءة منذ سنواتهم الأولى.",
-     "published": "2026-11-11T22:00:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "وزير التربية: مبادرة “طفل يقرأ” تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم",
-     "url": "https://kuwaitnews.com/138593/",
-     "section": "latest",
-     "summary": "أكد وزير التربية سيد جلال الطبطبائي اليوم الأربعاء إن مبادرة (طفل يقرأ) تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة معربا عن تطلعه إلى أن تتصدر الكويت بهذه المبادرة […]\n\nThe post وزير التربية: مبادرة “طفل يقرأ” تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-11-11T13:52:29+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "وزير التربية: «طفل يقرأ» ترعى مواهب «الرياض»",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "local",
-     "latest"
-    ],
-    "_source": "extractive",
-    "summary_en": "أكد وزير التربية جلال الطبطبائي أن مبادرة «طفل يقرأ» تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر، بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة، معرباً عن تطلعه إلى أن تتصدر الكويت بهذه المبادرة على المستوى العربي. وقال الطبطبائي لـ«كونا» عقب حفل انطلاق الموسم الثاني للمبادرة، إن «الاهتمام بمرحلة رياض الأطفال يمثل أساساً لبناء جيل جديد، وفكرة المبادرة انطلقت خلال لقاء مع فريق تحدي القراءة…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, كويت نيوز.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: وزير التربية: مبادرة “طفل يقرأ” تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم",
-    "watch_next_en": "",
-    "summary_ar": "أكد وزير التربية جلال الطبطبائي أن مبادرة «طفل يقرأ» تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر، بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة، معرباً عن تطلعه إلى أن تتصدر الكويت بهذه المبادرة على المستوى العربي. وقال الطبطبائي لـ«كونا» عقب حفل انطلاق الموسم الثاني للمبادرة، إن «الاهتمام بمرحلة رياض الأطفال يمثل أساساً لبناء جيل جديد، وفكرة المبادرة انطلقت خلال لقاء مع فريق تحدي القراءة…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, كويت نيوز.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "bf9c8ce50cbf643a",
    "score": 11.058,
    "sources": [
@@ -2124,7 +2052,7 @@
      "url": "https://www.alraimedia.com/article/1785791/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D9%85%D8%B3%D9%8A%D8%B1%D8%AA%D9%8A%D9%86-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%AA%D9%8A-%D9%85%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%85%D8%A9-%D9%88%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9",
      "section": "world",
      "summary": "أعلن تحالف دعم الشرعية في اليمن، اليوم الأربعاء، ‏اعتراض وتدمير طائرتين مسيرتين أطلقتهما الميليشيا الحوثية الإرهابية بمنطقتي مكة المكرمة والجنوبية في المملكة العربية السعودية.ج...",
-     "body": "",
+     "body": "أعلن تحالف دعم الشرعية في اليمن، اليوم الأربعاء، ‏اعتراض وتدمير طائرتين مسيرتين أطلقتهما الميليشيا الحوثية الإرهابية بمنطقتي مكة المكرمة والجنوبية في المملكة العربية السعودية.\n\nجاء ذلك في بيان مقتضب للمتحدث الرسمي باسم قوات التحالف اللواء الركن تركي المالكي عبر حسابه الرسمي في منصة «إكس» دون ذكر مزيد من التفاصيل.\n\nإنذارات كاذبة بوجود قنابل تربك مدارس في إيطاليا وبريطانيا وأيرلندا منذ 3 ساعات من أبوظبي.. موسكو تعلن اتفاقاً مع كييف لتبادل الأسرى منذ 5 ساعات",
      "published": "2026-11-11T19:46:00+03:00",
      "tier": 1
     },
@@ -2142,6 +2070,62 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "التحالف:‏ ‏اعتراض وتدمير «مسيرتين» في منطقتي مكة المكرمة والجنوبية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "world",
+     "gulf"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلن تحالف دعم الشرعية في اليمن، اليوم الأربعاء، ‏اعتراض وتدمير طائرتين مسيرتين أطلقتهما الميليشيا الحوثية الإرهابية بمنطقتي مكة المكرمة والجنوبية في المملكة العربية السعودية. جاء ذلك في بيان مقتضب للمتحدث الرسمي باسم قوات التحالف اللواء الركن تركي المالكي عبر حسابه الرسمي في منصة «إكس» دون ذكر مزيد من التفاصيل. إنذارات كاذبة بوجود قنابل تربك مدارس في إيطاليا وبريطانيا وأيرلندا منذ 3 ساعات من أبوظبي..",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «التحالف»: اعتراض وتدمير مسيرتين أطلقهما الحوثيون بمنطقتي مكة المكرمة والجنوبية",
+    "watch_next_en": "",
+    "summary_ar": "أعلن تحالف دعم الشرعية في اليمن، اليوم الأربعاء، ‏اعتراض وتدمير طائرتين مسيرتين أطلقتهما الميليشيا الحوثية الإرهابية بمنطقتي مكة المكرمة والجنوبية في المملكة العربية السعودية. جاء ذلك في بيان مقتضب للمتحدث الرسمي باسم قوات التحالف اللواء الركن تركي المالكي عبر حسابه الرسمي في منصة «إكس» دون ذكر مزيد من التفاصيل. إنذارات كاذبة بوجود قنابل تربك مدارس في إيطاليا وبريطانيا وأيرلندا منذ 3 ساعات من أبوظبي..",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "b8c7848d0bab7e04",
+   "score": 9.758,
+   "sources": [
+    "الرأي",
+    "كويت نيوز"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "وزير التربية: «طفل يقرأ» ترعى مواهب «الرياض»",
+     "url": "https://www.alraimedia.com/article/1785843/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B7%D9%81%D9%84-%D9%8A%D9%82%D8%B1%D8%A3-%D8%AA%D8%B1%D8%B9%D9%89-%D9%85%D9%88%D8%A7%D9%87%D8%A8-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+     "section": "latest",
+     "summary": "أكد وزير التربية جلال الطبطبائي أن مبادرة «طفل يقرأ» تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر، بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة، معرباً...",
+     "body": "",
+     "published": "2026-11-11T22:00:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "وزير التربية: مبادرة “طفل يقرأ” تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم",
+     "url": "https://kuwaitnews.com/138593/",
+     "section": "latest",
+     "summary": "أكد وزير التربية سيد جلال الطبطبائي اليوم الأربعاء إن مبادرة (طفل يقرأ) تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم منذ الصغر بما يهيئهم لمواصلة التميز في المراحل الدراسية اللاحقة معربا عن تطلعه إلى أن تتصدر الكويت بهذه المبادرة […]\n\nThe post وزير التربية: مبادرة “طفل يقرأ” تسهم في رعاية مواهب مرحلة رياض الأطفال وتنمية قدراتهم appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-11-11T13:52:29+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -2293,6 +2277,43 @@
    "analysis": {}
   },
   {
+   "key": "83d79b08abe94534",
+   "score": 8.251,
+   "sources": [
+    "Arab Times",
+    "الأنباء"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Al-Jalahma and Sheikh Al-Nasser hail Yasmin's Youth Olympics gold",
+     "url": "https://www.arabtimesonline.com/news/al-jalahma-and-sheikh-al-nasser-hail-yasmins-youth-olympics-gold/",
+     "section": "general",
+     "summary": "KUWAIT CITY, Nov 11 (KUNA): Minister of State for Youth and Sports Dr Tareq Al-Jalahma and Kuwait Olympic Committee President Sheikh Fahad Al-Nasser have congratulated Kuwaiti athl...",
+     "body": "",
+     "published": "2026-11-11T20:06:00+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "ذهبية تاريخية تحققها ياسمين وليد في الأولمبياد",
+     "url": "https://www.alanba.com.kw/1384692",
+     "section": "sport",
+     "summary": "في إنجاز تاريخي يسجل للرياضة الكويتية حققت لاعبة منتخبنا الوطني لألعاب القوى، البطلة ياسمين وليد، الميدالية الذهبية في مسابقة الوثب العالي ضمن منافسات دورة الأ",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
    "key": "93b81340a89ad462",
    "score": 8.059,
    "sources": [
@@ -2317,8 +2338,8 @@
    "analysis": {}
   },
   {
-   "key": "0b7178fe8dcb8753",
-   "score": 8.001,
+   "key": "7b6bfc8760a61fc0",
+   "score": 8.054,
    "sources": [
     "الأنباء"
    ],
@@ -2328,14 +2349,26 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "رئيس الوزراء هنأ رئيسي پولندا وأنغولا بذكرى الاستقلال",
-     "url": "https://www.alanba.com.kw/1384654",
+     "title": "مباحثات كويتية-تركية لتطوير مجالات التعاون الدفاعي",
+     "url": "https://www.alanba.com.kw/1384728",
      "section": "kuwait",
-     "summary": "كونا بعث سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء ببرقية تهنئة إلى الرئيس د.كارول نافروتسكي رئيس جمهورية پولندا الصديقة بمناسبة ذكرى استقلال بلاده.كما بعث سم",
+     "summary": "بحث آمر القوة الجوية اللواء الركن طيار فهد الخرينج مع رئيس هيئة الأركان العامة التركية الفريق أول سلجوق بيرقدار أوغلو أوجه التعاون العسكري المشترك بين البلدين الصديقين.",
      "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
+     "published": "2026-11-12T06:47:08+00:00",
      "tier": 1
-    },
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "0b7178fe8dcb8753",
+   "score": 8.001,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
     {
      "source_id": "alanba",
      "source_name": "الأنباء",
@@ -2356,6 +2389,18 @@
      "url": "https://www.alanba.com.kw/1384644",
      "section": "official",
      "summary": "كونا بعث سمو نائب الأمير وولي العهد الشيخ صباح الخالد ببرقية تهنئة إلى الرئيس د.كارول نافروتسكي - رئيس جمهورية پولندا الصديقة ضمنها سموه خالص تهانيه بمناسبة ذك",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "رئيس الوزراء هنأ رئيسي پولندا وأنغولا بذكرى الاستقلال",
+     "url": "https://www.alanba.com.kw/1384654",
+     "section": "kuwait",
+     "summary": "كونا بعث سمو الشيخ أحمد العبدالله رئيس مجلس الوزراء ببرقية تهنئة إلى الرئيس د.كارول نافروتسكي رئيس جمهورية پولندا الصديقة بمناسبة ذكرى استقلال بلاده.كما بعث سم",
      "body": "",
      "published": "2026-11-11T19:32:28+00:00",
      "tier": 1
@@ -2543,198 +2588,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "5dbfcbccadf6bef2",
-   "score": 7.259,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "السفارة الأميركية تنظم فعالية حول الابتكار والريادة في استكشاف الفضاء وصناعته التجارية",
-     "url": "https://www.alraimedia.com/article/1785859/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D9%81%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%AA%D9%86%D8%B8%D9%85-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%AF%D8%A9-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%83%D8%B4%D8%A7%D9%81-%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1-%D9%88%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%87-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "نظمت سفارة الولايات المتحدة الأميركية،الأربعاء، فعالية حول (الابتكار الأميركي واستكشاف الفضاء وتطور صناعة الفضاء التجارية) وذلك بالتعاون مع مجلس الأعمال الأميركي في دولة الكويت ومب...",
-     "body": "",
-     "published": "2026-11-12T01:34:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "ba700a92d12f0d06",
-   "score": 7.259,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«التقدم العلمي» تؤكد حرصها على تعزيز التعاون العلمي والتعليمي مع سلطنة عمان",
-     "url": "https://www.alraimedia.com/article/1785858/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-%D8%AA%D8%A4%D9%83%D8%AF-%D8%AD%D8%B1%D8%B5%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D9%85%D8%B9-%D8%B3%D9%84%D8%B7%D9%86%D8%A9-%D8%B9%D9%85%D8%A7%D9%86",
-     "section": "local",
-     "summary": "أكدت مؤسسة الكويت للتقدم العلمي اليوم الأربعاء حرصها على تعزيز التعاون مع المؤسسات العلمية والتعليمية في سلطنة عمان مشيدة بمشاركتها في النسخة الخامسة من (مهرجان عمان للعلوم 2026) ا...",
-     "body": "",
-     "published": "2026-11-12T01:31:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "a9e903f4f132e0dd",
-   "score": 7.259,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "اجتماع وزراء داخلية «التعاون»: الموافقة على ربط تبادل البصمات والمعلومات للمبعدين.. إلكترونياً",
-     "url": "https://www.alraimedia.com/article/1785856/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D8%B9%D9%84%D9%89-%D8%B1%D8%A8%D8%B7-%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%A8%D8%B5%D9%85%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%A8%D8%B9%D8%AF%D9%8A%D9%86-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A7",
-     "section": "local",
-     "summary": "شهد الاجتماع الـ43 لوزراء الداخلية بدول مجلس التعاون، اليوم الأربعاء، الموافقة على البدء في تدشين مشروع ربط تبادل البصمات والمعلومات للمبعدين إلكترونياً.وبحسب بيان لمجلس التعاون، ف...",
-     "body": "",
-     "published": "2026-11-11T23:29:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "cd85726356c1e6ba",
-   "score": 7.258,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الزامل بحث مع وفود دول سبل تعزيز حضور الكويت في المحافل الإقليمية والدولية",
-     "url": "https://www.alraimedia.com/article/1785857/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B2%D8%A7%D9%85%D9%84-%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%88%D9%81%D9%88%D8%AF-%D8%AF%D9%88%D9%84-%D8%B3%D8%A8%D9%84-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AD%D8%B6%D9%88%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D9%84-%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "عقد رئيس مجلس إدارة الهيئة العامة للاتصالات وتقنية المعلومات خالد الزامل، الاربعاء، سلسلة من اللقاءات الثنائية مع رؤساء وفود عدد من الدول على هامش فعاليات مؤتمر المندوبين المفوضين...",
-     "body": "",
-     "published": "2026-11-12T00:12:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "0350fa4930fb0a54",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت ومالطا.. تبادل خبرات لتطوير المشاريع السكنية وآليات تمويلها",
-     "url": "https://www.alraimedia.com/article/1785854/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D9%85%D8%A7%D9%84%D8%B7%D8%A7-%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%88%D8%A2%D9%84%D9%8A%D8%A7%D8%AA-%D8%AA%D9%85%D9%88%D9%8A%D9%84%D9%87%D8%A7",
-     "section": "local",
-     "summary": "بحث وزير الدولة لشؤون البلدية وزير الدولة لشؤون الإسكان المهندس عبداللطيف المشاري اليوم الأربعاء مع وزير الإسكان والأراضي في جمهورية مالطا الدكتور أوين بونيتشي الذي يزور دولة الكوي...",
-     "body": "",
-     "published": "2026-11-11T22:18:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "9ac2c4b31483c802",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "قانون الأسرة الجديد... حماية الطفل فوق صراعات الأبوين",
-     "url": "https://www.alraimedia.com/article/1785844/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D9%81%D9%88%D9%82-%D8%B5%D8%B1%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%88%D9%8A%D9%86",
-     "section": "local",
-     "summary": "فيما أقرّ مجلس الوزراء مشروع مرسوم بقانون بإصدار قانون محكمة الأسرة، تتجه الأنظار إلى ما يحمله من تعديلات تستهدف معالجة عدد من الإشكاليات العملية التي ظلت تؤرق أطراف النزاعات الأسر...",
-     "body": "",
-     "published": "2026-11-11T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "7c47bdd826252657",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الإطفاء» تعزز الوعي الصحي لمنتسبيها",
-     "url": "https://www.alraimedia.com/article/1785840/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%A5%D8%B7%D9%81%D8%A7%D8%A1-%D8%AA%D8%B9%D8%B2%D8%B2-%D8%A7%D9%84%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%84%D9%85%D9%86%D8%AA%D8%B3%D8%A8%D9%8A%D9%87%D8%A7",
-     "section": "local",
-     "summary": "نظمت إدارة العلاقات العامة والإعلام بقوة الإطفاء العام، محاضرة توعوية لمنتسبي القوة بعنوان «المفاهيم الغذائية الخاطئة»، بالتعاون مع الشركة الكويتية لخدمات الطيران، ومشاركة مدير وحد...",
-     "body": "",
-     "published": "2026-11-11T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "598f26bfe89fe59e",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«النجاة الخيرية» تشارك في حملة «الكويت بجانبكم» لإغاثة اليمن",
-     "url": "https://www.alraimedia.com/article/1785841/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%A9-%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A8%D8%AC%D8%A7%D9%86%D8%A8%D9%83%D9%85-%D9%84%D8%A5%D8%BA%D8%A7%D8%AB%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%86",
-     "section": "local",
-     "summary": "أكد مدير عام جمعية النجاة الخيرية الدكتور جابر الوندة مشاركة الجمعية في حملة إغاثة اليمن، والتي أطلقتها وزارة الشؤون الاجتماعية تحت شعار «الكويت بجانبكم»، انطلاقاً من مسؤوليتها الإ...",
-     "body": "",
-     "published": "2026-11-11T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3026,30 +2879,6 @@
    "analysis": {}
   },
   {
-   "key": "bcfa0a5983be5a44",
-   "score": 6.659,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "‘A Child Reads’ initiative nurtures kindergarten talent, says education minister",
-     "url": "https://kuwaittimes.com/article/53430/kuwait/a-child-reads-initiative-nurtures-kindergarten-talent-says-education-minister/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Minister of Education Sayed Jalal Al-Tabtabaei said on Wednesday that the “A Child Reads” initiative helps nurture the talents of kindergarten children and develop their ab...",
-     "body": "",
-     "published": "2026-11-11T16:06:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "32b427a288182ad8",
    "score": 6.658,
    "sources": [
@@ -3170,6 +2999,174 @@
    "analysis": {}
   },
   {
+   "key": "45ab2b5c16240cb9",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "فريق الاستدامة بمحافظة الجهراء يبحث آليات العمل والتنسيق مع القطاعات الحكومية",
+     "url": "https://www.alanba.com.kw/1384637",
+     "section": "kuwait",
+     "summary": "عقد فريق الاستدامة بمحافظة الجهراء اجتماعا مع د.حنان الصرعاوي، رئيس فريق الاستدامة بالهيئة العامة للبيئة، وذلك في إطار تعزيز التعاون والتنسيق المشترك لدعم جهود",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "faae1c75a52d7d32",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«مينوس» يفتتح أبوابه في «جون» بالشراكة الإستراتيجية مع شركة المشروعات السياحية",
+     "url": "https://www.alanba.com.kw/1384649",
+     "section": "kuwait",
+     "summary": "أعلنت شركة جاسترونوميكا للتجارة العامة، بالشراكة الاستراتيجية مع شركة المشروعات السياحية، عن الافتتاح الرسمي لمطعم مينوس MINOS ضمن الموسم الثالث من مشروع جون J",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "6adc3e51174ac76d",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "إتلاف 2940 علبة حليب أطفال و3842 كغم شوكولاتة منتهية الصلاحية",
+     "url": "https://www.alanba.com.kw/1384650",
+     "section": "kuwait",
+     "summary": "ندى أبونصر‏ضمن جهودها الرقابية لحماية صحة المستهلكين، ضبطت الهيئة العامة للغذاء والتغذية، ممثلة بإدارة تفتيش محافظة الفروانية وبالتعاون مع وزارة الداخلية، إسطب",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "714d4ff42c4f7cb0",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«نزاهة» استعرضت مع برنامج الأمم المتحدة الإنمائي مخرجات مشاورات إعداد إستراتيجية 2027 - 2033",
+     "url": "https://www.alanba.com.kw/1384653",
+     "section": "kuwait",
+     "summary": "ندى أبونصرعقدت الهيئة العامة لمكافحة الفساد (نزاهة) اجتماعا ختاميا برئاسة د.رنا الفارس رئيسة الهيئة مع الممثل المقيم لبرنامج الأمم ا لمتحدة الإنمائي (UNDP) إيم",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "f1e22639c5682d93",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "وزراء داخلية دول «التعاون»: الجاهزية الأمنية للتعامل مع المستجدات",
+     "url": "https://www.alanba.com.kw/1384645",
+     "section": "kuwait",
+     "summary": "جاسم البديوي أمن دول التعاون كل لا يتجزأ وما يمس أي دولة هو مساس بالمنظومة بأكملهاملك البحرين دول المجلس تقف صفا واحدا في مواجهة أي تهديد يستهدف أمنها وسلامة م",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "bb20b02405363ffb",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الذكرى الـ 64 لإقرار الدستور.. الحصن المنيع في مواجهة التحديات الداخلية والخارجية",
+     "url": "https://www.alanba.com.kw/1384629",
+     "section": "kuwait",
+     "summary": "الدستور يمثل العقد الاجتماعي بين الحاكم والشعبويتضمن 183 مادة موزعة على خمسة أبوابكونا صادف أمس الأربعاء الذكرى 64 لإقرار دستور البلاد، في إحدى أهم المحطات الو",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "fd9ce4f2bc993d0b",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "إطلاق قمة طب الطوارئ بالمناطق البرية",
+     "url": "https://www.alanba.com.kw/1384664",
+     "section": "kuwait",
+     "summary": "عبدالكريم العبداللهأطلقت وزارة الصحة أعمال المؤتمر الصحي الذي يقام تحت عنوان القمة العالمية لطب الطوارئ بالمناطق البرية بتنظيم من مجلس أقسام طب الطوارئ ومشاركة",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "c8645891488eff02",
    "score": 6.651,
    "sources": [
@@ -3239,6 +3236,30 @@
     }
    ],
    "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "81f7c018f259f36e",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "مجموعة الساير تعزز تعلّم العمارة المستدامة",
+     "url": "https://www.alanba.com.kw/1384652",
+     "section": "kuwait",
+     "summary": "نظمت مجموعة الساير رحلة علمية متخصصة إلى الدوحة، بمشاركة عدد من طلبة وأعضاء الهيئة التدريسية بكلية العمارة في جامعة الكويت، وذلك بالتعاون مع المنظمة الخليجية ل",
+     "body": "",
+     "published": "2026-11-11T19:32:28+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3338,198 +3359,6 @@
    "analysis": {}
   },
   {
-   "key": "fd9ce4f2bc993d0b",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "إطلاق قمة طب الطوارئ بالمناطق البرية",
-     "url": "https://www.alanba.com.kw/1384664",
-     "section": "kuwait",
-     "summary": "عبدالكريم العبداللهأطلقت وزارة الصحة أعمال المؤتمر الصحي الذي يقام تحت عنوان القمة العالمية لطب الطوارئ بالمناطق البرية بتنظيم من مجلس أقسام طب الطوارئ ومشاركة",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "81f7c018f259f36e",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "مجموعة الساير تعزز تعلّم العمارة المستدامة",
-     "url": "https://www.alanba.com.kw/1384652",
-     "section": "kuwait",
-     "summary": "نظمت مجموعة الساير رحلة علمية متخصصة إلى الدوحة، بمشاركة عدد من طلبة وأعضاء الهيئة التدريسية بكلية العمارة في جامعة الكويت، وذلك بالتعاون مع المنظمة الخليجية ل",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "bb20b02405363ffb",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الذكرى الـ 64 لإقرار الدستور.. الحصن المنيع في مواجهة التحديات الداخلية والخارجية",
-     "url": "https://www.alanba.com.kw/1384629",
-     "section": "kuwait",
-     "summary": "الدستور يمثل العقد الاجتماعي بين الحاكم والشعبويتضمن 183 مادة موزعة على خمسة أبوابكونا صادف أمس الأربعاء الذكرى 64 لإقرار دستور البلاد، في إحدى أهم المحطات الو",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "f1e22639c5682d93",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "وزراء داخلية دول «التعاون»: الجاهزية الأمنية للتعامل مع المستجدات",
-     "url": "https://www.alanba.com.kw/1384645",
-     "section": "kuwait",
-     "summary": "جاسم البديوي أمن دول التعاون كل لا يتجزأ وما يمس أي دولة هو مساس بالمنظومة بأكملهاملك البحرين دول المجلس تقف صفا واحدا في مواجهة أي تهديد يستهدف أمنها وسلامة م",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "714d4ff42c4f7cb0",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«نزاهة» استعرضت مع برنامج الأمم المتحدة الإنمائي مخرجات مشاورات إعداد إستراتيجية 2027 - 2033",
-     "url": "https://www.alanba.com.kw/1384653",
-     "section": "kuwait",
-     "summary": "ندى أبونصرعقدت الهيئة العامة لمكافحة الفساد (نزاهة) اجتماعا ختاميا برئاسة د.رنا الفارس رئيسة الهيئة مع الممثل المقيم لبرنامج الأمم ا لمتحدة الإنمائي (UNDP) إيم",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "6adc3e51174ac76d",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "إتلاف 2940 علبة حليب أطفال و3842 كغم شوكولاتة منتهية الصلاحية",
-     "url": "https://www.alanba.com.kw/1384650",
-     "section": "kuwait",
-     "summary": "ندى أبونصر‏ضمن جهودها الرقابية لحماية صحة المستهلكين، ضبطت الهيئة العامة للغذاء والتغذية، ممثلة بإدارة تفتيش محافظة الفروانية وبالتعاون مع وزارة الداخلية، إسطب",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "faae1c75a52d7d32",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«مينوس» يفتتح أبوابه في «جون» بالشراكة الإستراتيجية مع شركة المشروعات السياحية",
-     "url": "https://www.alanba.com.kw/1384649",
-     "section": "kuwait",
-     "summary": "أعلنت شركة جاسترونوميكا للتجارة العامة، بالشراكة الاستراتيجية مع شركة المشروعات السياحية، عن الافتتاح الرسمي لمطعم مينوس MINOS ضمن الموسم الثالث من مشروع جون J",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "45ab2b5c16240cb9",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "فريق الاستدامة بمحافظة الجهراء يبحث آليات العمل والتنسيق مع القطاعات الحكومية",
-     "url": "https://www.alanba.com.kw/1384637",
-     "section": "kuwait",
-     "summary": "عقد فريق الاستدامة بمحافظة الجهراء اجتماعا مع د.حنان الصرعاوي، رئيس فريق الاستدامة بالهيئة العامة للبيئة، وذلك في إطار تعزيز التعاون والتنسيق المشترك لدعم جهود",
-     "body": "",
-     "published": "2026-11-11T19:32:28+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
    "key": "d16e0cd58e66893e",
    "score": 6.64,
    "sources": [
@@ -3551,30 +3380,6 @@
     }
    ],
    "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "45f5df5f28604fe1",
-   "score": 6.623,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "بيت التمويل الكويتي يدرج أول صكوك في بورصة الكويت بقيمة 200 مليون دينار",
-     "url": "https://www.alanba.com.kw/1384595",
-     "section": "kuwait",
-     "summary": "بيت التمويل الكويتي يدرج أول صكوك في بورصة الكويت بقيمة 200 مليون دينار",
-     "body": "",
-     "published": "2026-11-11T13:24:09+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -3691,30 +3496,6 @@
      "summary": "",
      "body": "",
      "published": "2026-11-11T14:37:19+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "338a96968986166e",
-   "score": 6.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "زعيم كوريا الشمالية يتفقد قاعدة بحرية قيد الإنشاء",
-     "url": "https://www.alraimedia.com/article/1785865/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B2%D8%B9%D9%8A%D9%85-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%8A%D8%AA%D9%81%D9%82%D8%AF-%D9%82%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D9%82%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D9%86%D8%B4%D8%A7%D8%A1",
-     "section": "latest",
-     "summary": "تفقد الزعيم الكوري الشمالي كيم جونغ أون قاعدة بحرية قيد الإنشاء، وفق ما ذكرت وكالة الأنباء المركزية الكورية الشمالية اليوم الخميس، وقال إنها «مشروع جوهري» لتعزيز الأمن البحري.وتأتي...",
-     "body": "",
-     "published": "2026-11-12T06:01:00+03:00",
      "tier": 1
     }
    ],
@@ -3914,6 +3695,30 @@
    "analysis": {}
   },
   {
+   "key": "bcfa0a5983be5a44",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "‘A Child Reads’ initiative nurtures kindergarten talent, says education minister",
+     "url": "https://kuwaittimes.com/article/53430/kuwait/a-child-reads-initiative-nurtures-kindergarten-talent-says-education-minister/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Minister of Education Sayed Jalal Al-Tabtabaei said on Wednesday that the “A Child Reads” initiative helps nurture the talents of kindergarten children and develop their ab...",
+     "body": "",
+     "published": "2026-11-11T16:06:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "af14945ff730bdd2",
    "score": 6.059,
    "sources": [
@@ -3938,30 +3743,6 @@
    "analysis": {}
   },
   {
-   "key": "75191dc26e67f7eb",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Kuwait marks 64th anniversary of its Constitution",
-     "url": "https://kuwaittimes.com/article/53428/kuwait/kuwait-marks-64th-anniversary-of-its-constitution/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Kuwait on Wednesday marks the 64th anniversary of the adoption of its Constitution, a landmark in the country’s modern history that defines its system of government and reg...",
-     "body": "",
-     "published": "2026-11-11T10:47:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "dd2fb1598cf8b4f5",
    "score": 6.059,
    "sources": [
@@ -3983,54 +3764,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "15caf93439cb3504",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Today in Kuwait's history",
-     "url": "https://kuwaittimes.com/article/53427/kuwait/today-in-kuwaits-history/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Following are events that took place in Kuwait on November 9: 1777 -- British vessel Eagle visited Kuwait and some of its officers drew near-accurate navigation map of Kuwa...",
-     "body": "",
-     "published": "2026-11-11T10:11:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "83e25447b3ab76f0",
-   "score": 6.059,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "طقس الأربعاء معتدل وغائم جزئياً.. والصغرى 13 مئوية",
-     "url": "https://www.aljarida.com/article/150187",
-     "section": "local",
-     "summary": "توقعت إدارة الأرصاد الجوية أن يكون الطقس اليوم الأربعاء معتدلاً وغائماً جزئياً، مع تسجيل درجة حرارة عظمى تبلغ 21 درجة مئوية، فيما تصل الصغرى إلى 13 درجة، ونسبة الرطوبة إلى 70 في ال...",
-     "body": "",
-     "published": "2026-11-11T08:16:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -4130,6 +3863,78 @@
    "analysis": {}
   },
   {
+   "key": "45f5df5f28604fe1",
+   "score": 6.023,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "بيت التمويل الكويتي يدرج أول صكوك في بورصة الكويت بقيمة 200 مليون دينار",
+     "url": "https://www.alanba.com.kw/1384595",
+     "section": "kuwait",
+     "summary": "بيت التمويل الكويتي يدرج أول صكوك في بورصة الكويت بقيمة 200 مليون دينار",
+     "body": "",
+     "published": "2026-11-11T13:24:09+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "bbba0008f9547443",
+   "score": 5.9,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "نسيت أغراضك بالطائرة؟ دقائق قد تتحول إلى أسابيع لاستعادتها",
+     "url": "https://www.alanba.com.kw/1384729",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-12T06:26:52+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "338a96968986166e",
+   "score": 5.759,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "زعيم كوريا الشمالية يتفقد قاعدة بحرية قيد الإنشاء",
+     "url": "https://www.alraimedia.com/article/1785865/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B2%D8%B9%D9%8A%D9%85-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%8A%D8%AA%D9%81%D9%82%D8%AF-%D9%82%D8%A7%D8%B9%D8%AF%D8%A9-%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D9%82%D9%8A%D8%AF-%D8%A7%D9%84%D8%A5%D9%86%D8%B4%D8%A7%D8%A1",
+     "section": "latest",
+     "summary": "تفقد الزعيم الكوري الشمالي كيم جونغ أون قاعدة بحرية قيد الإنشاء، وفق ما ذكرت وكالة الأنباء المركزية الكورية الشمالية اليوم الخميس، وقال إنها «مشروع جوهري» لتعزيز الأمن البحري.وتأتي...",
+     "body": "",
+     "published": "2026-11-12T06:01:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "d4bd3b84482e9d8d",
    "score": 5.759,
    "sources": [
@@ -4178,8 +3983,8 @@
    "analysis": {}
   },
   {
-   "key": "c7f14fe26a250c37",
-   "score": 5.745,
+   "key": "5dbfcbccadf6bef2",
+   "score": 5.759,
    "sources": [
     "الرأي"
    ],
@@ -4189,16 +3994,40 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "التحالف: اعتراض وتدمير طائرة مسيرة في المنطقة الشرقية",
-     "url": "https://www.alraimedia.com/article/1785860/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9",
+     "title": "السفارة الأميركية تنظم فعالية حول الابتكار والريادة في استكشاف الفضاء وصناعته التجارية",
+     "url": "https://www.alraimedia.com/article/1785859/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B3%D9%81%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%AA%D9%86%D8%B8%D9%85-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%AF%D8%A9-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%83%D8%B4%D8%A7%D9%81-%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1-%D9%88%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%87-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9",
      "section": "latest",
-     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي، اليوم الخميس، اعتراض وتدمير طائرة مسيرة بالمنطقة الشرقية.",
+     "summary": "نظمت سفارة الولايات المتحدة الأميركية،الأربعاء، فعالية حول (الابتكار الأميركي واستكشاف الفضاء وتطور صناعة الفضاء التجارية) وذلك بالتعاون مع مجلس الأعمال الأميركي في دولة الكويت ومب...",
      "body": "",
-     "published": "2026-11-12T02:12:00+03:00",
+     "published": "2026-11-12T01:34:00+03:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "ba700a92d12f0d06",
+   "score": 5.759,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التقدم العلمي» تؤكد حرصها على تعزيز التعاون العلمي والتعليمي مع سلطنة عمان",
+     "url": "https://www.alraimedia.com/article/1785858/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-%D8%AA%D8%A4%D9%83%D8%AF-%D8%AD%D8%B1%D8%B5%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D9%85%D8%B9-%D8%B3%D9%84%D8%B7%D9%86%D8%A9-%D8%B9%D9%85%D8%A7%D9%86",
+     "section": "latest",
+     "summary": "أكدت مؤسسة الكويت للتقدم العلمي اليوم الأربعاء حرصها على تعزيز التعاون مع المؤسسات العلمية والتعليمية في سلطنة عمان مشيدة بمشاركتها في النسخة الخامسة من (مهرجان عمان للعلوم 2026) ا...",
+     "body": "",
+     "published": "2026-11-12T01:31:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -4267,6 +4096,54 @@
      "summary": "يسعى جهاز أبوظبي للاستثمار (ADIA) للحصول على قرض بقيمة 7.5 مليار دولار لتمويل استثمارات في الأسهم الخاصة والبنية التحتية والعقارات، بحسب ما نقلته «بلومبرغ» عن أشخاص مطل...",
      "body": "",
      "published": "2026-11-11T12:56:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "a9e903f4f132e0dd",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "اجتماع وزراء داخلية «التعاون»: الموافقة على ربط تبادل البصمات والمعلومات للمبعدين.. إلكترونياً",
+     "url": "https://www.alraimedia.com/article/1785856/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D8%B9%D9%84%D9%89-%D8%B1%D8%A8%D8%B7-%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D8%A8%D8%B5%D9%85%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%A8%D8%B9%D8%AF%D9%8A%D9%86-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A7",
+     "section": "latest",
+     "summary": "شهد الاجتماع الـ43 لوزراء الداخلية بدول مجلس التعاون، اليوم الأربعاء، الموافقة على البدء في تدشين مشروع ربط تبادل البصمات والمعلومات للمبعدين إلكترونياً.وبحسب بيان لمجلس التعاون، ف...",
+     "body": "",
+     "published": "2026-11-11T23:29:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "0350fa4930fb0a54",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت ومالطا.. تبادل خبرات لتطوير المشاريع السكنية وآليات تمويلها",
+     "url": "https://www.alraimedia.com/article/1785854/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%88%D9%85%D8%A7%D9%84%D8%B7%D8%A7-%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%AE%D8%A8%D8%B1%D8%A7%D8%AA-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%88%D8%A2%D9%84%D9%8A%D8%A7%D8%AA-%D8%AA%D9%85%D9%88%D9%8A%D9%84%D9%87%D8%A7",
+     "section": "latest",
+     "summary": "بحث وزير الدولة لشؤون البلدية وزير الدولة لشؤون الإسكان المهندس عبداللطيف المشاري اليوم الأربعاء مع وزير الإسكان والأراضي في جمهورية مالطا الدكتور أوين بونيتشي الذي يزور دولة الكوي...",
+     "body": "",
+     "published": "2026-11-11T22:18:00+03:00",
      "tier": 1
     }
    ],
@@ -4387,6 +4264,78 @@
      "summary": "فيما يختتم منتخب الكويت الوطني لكرة القدم تحضيراته لخوض مواجهة الجمعة الودية مع ضيفه السوري، أعلن اتحاد اللعبة عن استبعاد مدافع كاظمة فهد الهاجري عن التجمع الحالي والذي يتضمن أيضاً...",
      "body": "",
      "published": "2026-11-11T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "9ac2c4b31483c802",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "قانون الأسرة الجديد... حماية الطفل فوق صراعات الأبوين",
+     "url": "https://www.alraimedia.com/article/1785844/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D9%81%D9%88%D9%82-%D8%B5%D8%B1%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%88%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "فيما أقرّ مجلس الوزراء مشروع مرسوم بقانون بإصدار قانون محكمة الأسرة، تتجه الأنظار إلى ما يحمله من تعديلات تستهدف معالجة عدد من الإشكاليات العملية التي ظلت تؤرق أطراف النزاعات الأسر...",
+     "body": "",
+     "published": "2026-11-11T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "598f26bfe89fe59e",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«النجاة الخيرية» تشارك في حملة «الكويت بجانبكم» لإغاثة اليمن",
+     "url": "https://www.alraimedia.com/article/1785841/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%A9-%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A8%D8%AC%D8%A7%D9%86%D8%A8%D9%83%D9%85-%D9%84%D8%A5%D8%BA%D8%A7%D8%AB%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%86",
+     "section": "latest",
+     "summary": "أكد مدير عام جمعية النجاة الخيرية الدكتور جابر الوندة مشاركة الجمعية في حملة إغاثة اليمن، والتي أطلقتها وزارة الشؤون الاجتماعية تحت شعار «الكويت بجانبكم»، انطلاقاً من مسؤوليتها الإ...",
+     "body": "",
+     "published": "2026-11-11T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "7c47bdd826252657",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الإطفاء» تعزز الوعي الصحي لمنتسبيها",
+     "url": "https://www.alraimedia.com/article/1785840/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%A5%D8%B7%D9%81%D8%A7%D8%A1-%D8%AA%D8%B9%D8%B2%D8%B2-%D8%A7%D9%84%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%84%D9%85%D9%86%D8%AA%D8%B3%D8%A8%D9%8A%D9%87%D8%A7",
+     "section": "latest",
+     "summary": "نظمت إدارة العلاقات العامة والإعلام بقوة الإطفاء العام، محاضرة توعوية لمنتسبي القوة بعنوان «المفاهيم الغذائية الخاطئة»، بالتعاون مع الشركة الكويتية لخدمات الطيران، ومشاركة مدير وحد...",
+     "body": "",
+     "published": "2026-11-11T22:00:00+03:00",
      "tier": 1
     }
    ],
@@ -4754,6 +4703,30 @@
    "analysis": {}
   },
   {
+   "key": "cd85726356c1e6ba",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الزامل بحث مع وفود دول سبل تعزيز حضور الكويت في المحافل الإقليمية والدولية",
+     "url": "https://www.alraimedia.com/article/1785857/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B2%D8%A7%D9%85%D9%84-%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%88%D9%81%D9%88%D8%AF-%D8%AF%D9%88%D9%84-%D8%B3%D8%A8%D9%84-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%AD%D8%B6%D9%88%D8%B1-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D9%84-%D8%A7%D9%84%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "عقد رئيس مجلس إدارة الهيئة العامة للاتصالات وتقنية المعلومات خالد الزامل، الاربعاء، سلسلة من اللقاءات الثنائية مع رؤساء وفود عدد من الدول على هامش فعاليات مؤتمر المندوبين المفوضين...",
+     "body": "",
+     "published": "2026-11-12T00:12:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "fe6d7939107a29c5",
    "score": 5.158,
    "sources": [
@@ -5018,30 +4991,6 @@
    "analysis": {}
   },
   {
-   "key": "8a466b3e5539deb8",
-   "score": 4.8,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«التحالف»: اعتراض وتدمير 3 صواريخ «كروز» أطلقها الحوثيون باتجاه الرياض",
-     "url": "https://www.alanba.com.kw/1384601",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-11T14:07:21+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "274ef026ede6a7ba",
    "score": 4.559,
    "sources": [
@@ -5162,7 +5111,7 @@
    "analysis": {}
   },
   {
-   "key": "9f8eb1b461da6f86",
+   "key": "75191dc26e67f7eb",
    "score": 4.559,
    "sources": [
     "Kuwait Times"
@@ -5173,12 +5122,12 @@
      "source_id": "kuwaittimes",
      "source_name": "Kuwait Times",
      "lang": "en",
-     "title": "Celtics beat Sixers 123-101 as Tatum outshines Brown",
-     "url": "https://kuwaittimes.com/article/53425/sports/celtics-beat-sixers-123-101-as-tatum-outshines-brown/",
+     "title": "Kuwait marks 64th anniversary of its Constitution",
+     "url": "https://kuwaittimes.com/article/53428/kuwait/kuwait-marks-64th-anniversary-of-its-constitution/",
      "section": "latest",
-     "summary": "PHILADELPHIA: The Boston Celtics beat the Philadelphia 76ers 123-101 on Tuesday to replace them at the top of the National Basketball Association (NBA) Eastern Conference, as Jayso...",
+     "summary": "KUWAIT: Kuwait on Wednesday marks the 64th anniversary of the adoption of its Constitution, a landmark in the country’s modern history that defines its system of government and reg...",
      "body": "",
-     "published": "2026-11-11T07:58:00+03:00",
+     "published": "2026-11-11T10:47:00+03:00",
      "tier": 1
     }
    ],
@@ -5186,7 +5135,7 @@
    "analysis": {}
   },
   {
-   "key": "dbe0a5e18f7bf736",
+   "key": "15caf93439cb3504",
    "score": 4.559,
    "sources": [
     "Kuwait Times"
@@ -5197,64 +5146,16 @@
      "source_id": "kuwaittimes",
      "source_name": "Kuwait Times",
      "lang": "en",
-     "title": "World leaders take stage at COP31, but big names missing",
-     "url": "https://kuwaittimes.com/article/53424/world/world-leaders-take-stage-at-cop31-but-big-names-missing/",
+     "title": "Today in Kuwait's history",
+     "url": "https://kuwaittimes.com/article/53427/kuwait/today-in-kuwaits-history/",
      "section": "latest",
-     "summary": "ANTALYA: World leaders take the stage at COP31 in Turkey on Wednesday, but several prominent names are missing from this year’s UN climate summit even as global warming intensifies...",
+     "summary": "KUWAIT: Following are events that took place in Kuwait on November 9: 1777 -- British vessel Eagle visited Kuwait and some of its officers drew near-accurate navigation map of Kuwa...",
      "body": "",
-     "published": "2026-11-11T07:54:00+03:00",
+     "published": "2026-11-11T10:11:00+03:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "2c4965572fee271d",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Meghan keeps low profile on first public outing since father’s arrest",
-     "url": "https://kuwaittimes.com/article/53422/world/meghan-keeps-low-profile-on-first-public-outing-since-fathers-arrest/",
-     "section": "latest",
-     "summary": "BRUSSELS: Meghan Markle made her first public appearance on Tuesday since her estranged father was charged with alleged possession of child sexual abuse material, keeping a low pro...",
-     "body": "",
-     "published": "2026-11-11T07:20:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "ee282afa2db02977",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Brazil electoral court fines Meta $1.3 million in election dispute",
-     "url": "https://kuwaittimes.com/article/53421/world/brazil-electoral-court-fines-meta-13-million-in-election-dispute/",
-     "section": "latest",
-     "summary": "BRASILIA: Brazil’s Superior Electoral Court (TSE) on Tuesday fined Meta about $1.3 million for failing to comply with court orders, after President Luiz Inacio Lula da Silva accuse...",
-     "body": "",
-     "published": "2026-11-11T07:17:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -5498,30 +5399,6 @@
    "analysis": {}
   },
   {
-   "key": "3a22ddf18cfea22b",
-   "score": 4.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Now Kuwait Banks Are Monitoring Repeated Transfers and Cash Deposits Below KD3,000",
-     "url": "https://www.arabtimesonline.com/news/now-kuwait-banks-are-monitoring-repeated-transfers-and-cash-deposits-below-kd3000/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Nov 11: Banks in Kuwait are preparing to strengthen monitoring of repeated cash deposits and financial transfers below KD3,000, following new regulatory directions aim...",
-     "body": "",
-     "published": "2026-11-11T23:27:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "14a5bda69753f948",
    "score": 4.2,
    "sources": [
@@ -5543,6 +5420,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "6ffd90a2150c24e2",
+   "score": 4.114,
+   "sources": [
+    "كويت نيوز"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "آمر القوة الجوية يبحث مع رئيس الأركان التركي أوجه التعاون العسكري المشترك",
+     "url": "https://kuwaitnews.com/138635/",
+     "section": "latest",
+     "summary": "بحث آمر القوة الجوية اللواء الركن طيار فهد الخرينج مع رئيس هيئة الأركان العامة التركية الفريق أول سلجوق بيرقدار أوغلو أوجه التعاون العسكري المشترك بين البلدين الصديقين. وذكرت رئاسة الأركان الكويتية في بيان صحفي اليوم الخميس أن ذلك جاء خلال […]\n\nThe post آمر القوة الجوية يبحث مع رئيس الأركان التركي أوجه التعاون العسكري المشترك appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-11-12T07:08:21+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -5882,30 +5783,6 @@
    "analysis": {}
   },
   {
-   "key": "30f914e7589307ae",
-   "score": 3.957,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "القهوة تحسن الهضم وتقلل الحموضة.. دراسة تكشف",
-     "url": "https://www.alraimedia.com/article/1785758/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D8%AA%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D9%87%D8%B6%D9%85-%D9%88%D8%AA%D9%82%D9%84%D9%84-%D8%A7%D9%84%D8%AD%D9%85%D9%88%D8%B6%D8%A9-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%AA%D9%83%D8%B4%D9%81",
-     "section": "last-page",
-     "summary": "كشفت ​دراسة أجريت في الدنمارك أن شرب القهوة بانتظام ⁠لا يؤثر فقط على مجموعات الكائنات الحية ​في الأمعاء الدقيقة بل أيضا على وظيفة الجهاز الهضمي نفسه.وأشار الباحثون إلى ‌أن الد...",
-     "body": "",
-     "published": "2026-11-11T08:13:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "5530a4a38377e35c",
    "score": 3.957,
    "sources": [
@@ -6098,54 +5975,6 @@
    "analysis": {}
   },
   {
-   "key": "17d27fe29b0f76f3",
-   "score": 3.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait’s Education Ministry cuts 232 administrative posts",
-     "url": "https://www.arabtimesonline.com/news/kuwaits-education-ministry-cuts-232-administrative-posts/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Nov 11: Minister of Education Eng. Sayed Jalal Al- Tabtabaei issued a decree approving the amendment of the organizational structure of his ministry. The decree introd...",
-     "body": "",
-     "published": "2026-11-11T21:19:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "ab63cd81dc1bb4d6",
-   "score": 3.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait puts brakes on road-damaging trucks",
-     "url": "https://www.arabtimesonline.com/news/kuwait-puts-brakes-on-road-damaging-trucks/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Nov 11: First Deputy Prime Minister and Minister of Interior Sheikh Fahad Yousef Saud Al-Sabah chaired a meeting on Wednesday with relevant government entities and rep...",
-     "body": "",
-     "published": "2026-11-11T20:45:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
    "key": "7152bb31e58e7fff",
    "score": 3.659,
    "sources": [
@@ -6215,30 +6044,6 @@
     }
    ],
    "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "ba1ab009ddd6ee9d",
-   "score": 3.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Lawyers Association Warns Against TikTok Live Streams for Self-Promotion",
-     "url": "https://www.arabtimesonline.com/news/kuwait-lawyers-association-warns-against-tiktok-live-streams-for-self-promotion/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Nov 11: The Kuwait Lawyers Association has stressed the need for male and female lawyers to strictly adhere to professional conduct rules and the legal profession’s co...",
-     "body": "",
-     "published": "2026-11-11T16:21:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -6471,7 +6276,7 @@
      "lang": "en",
      "title": "Trump’s grip on Republican Party weakens after midterm defeat, poll finds",
      "url": "https://www.arabtimesonline.com/news/trumps-grip-on-republican-party-weakens-after-midterm-defeat-poll-finds/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 12 : US President Donald Trump’s influence over the Republican Party appears to have weakened following the party’s heavy losses in the midterm elections, with two-...",
      "body": "",
      "published": "2026-11-12T00:43:00+03:00",
@@ -6479,150 +6284,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "bb2dcdef5dbd3038",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Ahmadi Family Court grants mother custody of 2 children",
-     "url": "https://www.arabtimesonline.com/news/ahmadi-family-court-grants-mother-custody-of-2-children/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 11: The Ahmadi Family Court ruled in favor of granting a mother custody of her two children, while ordering the father to pay monthly maintenance and other expense...",
-     "body": "",
-     "published": "2026-11-12T00:23:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "d77da0984dcf4274",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "The king dreamt that a large pig entered his palace and drank from his special cups",
-     "url": "https://www.arabtimesonline.com/news/the-king-dreamt-that-a-large-pig-entered-his-palace-and-drank-from-his-special-cups/",
-     "section": "latest",
-     "summary": "ONE day, the Persian emperor Anushirvan dreamt that a large pig had entered his palace and drunk from his special cups. He awoke and pondered the meaning of the dream. The followin...",
-     "body": "",
-     "published": "2026-11-12T00:11:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "4b4785ce355bbd35",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "A brief analysis of elections",
-     "url": "https://www.arabtimesonline.com/news/a-brief-analysis-of-elections/",
-     "section": "latest",
-     "summary": "The election of a US president with these particular characteristics came as a shock to many supporters of freedom and democracy. When democracy allows individuals perceived as dan...",
-     "body": "",
-     "published": "2026-11-11T23:57:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "00f1c681a88b547e",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "The U.S. FDA Authorizes ZYN Nicotine Pouches to Be Marketed as Modified Risk Tobacco Products",
-     "url": "https://www.arabtimesonline.com/news/the-us-fda-authorizes-zyn-nicotine-pouches-to-be-marketed-as-modified-risk-tobacco-products/",
-     "section": "general",
-     "summary": "DUBAI, Nov 11: The US Food and Drug Administration (FDA) has authorized 20 variants of ZYN nicotine pouch products to be marketed as Modified Risk Tobacco Products (MRTPs), allowin...",
-     "body": "",
-     "published": "2026-11-11T23:52:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "f32fc6e80ea45bd9",
-   "score": 3.258,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait shuts down horse stable used to store food illegally",
-     "url": "https://www.arabtimesonline.com/news/kuwait-shuts-down-horse-stable-used-to-store-food-illegally/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 12: The Public Authority for Food and Nutrition has shut down a horse stable in Farwaniya Governorate after discovering that it was being used to store and handle...",
-     "body": "",
-     "published": "2026-11-12T00:27:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "7279b847df0e747d",
-   "score": 3.059,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Sahel App Introduces Travel Notifications for Kuwait Citizens and Expats",
-     "url": "https://www.arabtimesonline.com/news/sahel-app-introduces-travel-notifications-for-kuwait-citizens-and-expats/",
-     "section": "kuwait",
-     "summary": "KUWAIT CITY, Nov 11: The Ministry of Interior has activated entry and exit notifications through Kuwait’s unified government services application, Sahel, allowing citizens and resi...",
-     "body": "",
-     "published": "2026-11-11T11:12:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -6647,6 +6308,174 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "bb2dcdef5dbd3038",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Ahmadi Family Court grants mother custody of 2 children",
+     "url": "https://www.arabtimesonline.com/news/ahmadi-family-court-grants-mother-custody-of-2-children/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 11: The Ahmadi Family Court ruled in favor of granting a mother custody of her two children, while ordering the father to pay monthly maintenance and other expense...",
+     "body": "",
+     "published": "2026-11-12T00:23:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "d77da0984dcf4274",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "The king dreamt that a large pig entered his palace and drank from his special cups",
+     "url": "https://www.arabtimesonline.com/news/the-king-dreamt-that-a-large-pig-entered-his-palace-and-drank-from-his-special-cups/",
+     "section": "latest",
+     "summary": "ONE day, the Persian emperor Anushirvan dreamt that a large pig had entered his palace and drunk from his special cups. He awoke and pondered the meaning of the dream. The followin...",
+     "body": "",
+     "published": "2026-11-12T00:11:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "4b4785ce355bbd35",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "A brief analysis of elections",
+     "url": "https://www.arabtimesonline.com/news/a-brief-analysis-of-elections/",
+     "section": "latest",
+     "summary": "The election of a US president with these particular characteristics came as a shock to many supporters of freedom and democracy. When democracy allows individuals perceived as dan...",
+     "body": "",
+     "published": "2026-11-11T23:57:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "00f1c681a88b547e",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "The U.S. FDA Authorizes ZYN Nicotine Pouches to Be Marketed as Modified Risk Tobacco Products",
+     "url": "https://www.arabtimesonline.com/news/the-us-fda-authorizes-zyn-nicotine-pouches-to-be-marketed-as-modified-risk-tobacco-products/",
+     "section": "latest",
+     "summary": "DUBAI, Nov 11: The US Food and Drug Administration (FDA) has authorized 20 variants of ZYN nicotine pouch products to be marketed as Modified Risk Tobacco Products (MRTPs), allowin...",
+     "body": "",
+     "published": "2026-11-11T23:52:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "3a22ddf18cfea22b",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Now Kuwait Banks Are Monitoring Repeated Transfers and Cash Deposits Below KD3,000",
+     "url": "https://www.arabtimesonline.com/news/now-kuwait-banks-are-monitoring-repeated-transfers-and-cash-deposits-below-kd3000/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 11: Banks in Kuwait are preparing to strengthen monitoring of repeated cash deposits and financial transfers below KD3,000, following new regulatory directions aim...",
+     "body": "",
+     "published": "2026-11-11T23:27:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "17d27fe29b0f76f3",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait’s Education Ministry cuts 232 administrative posts",
+     "url": "https://www.arabtimesonline.com/news/kuwaits-education-ministry-cuts-232-administrative-posts/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 11: Minister of Education Eng. Sayed Jalal Al- Tabtabaei issued a decree approving the amendment of the organizational structure of his ministry. The decree introd...",
+     "body": "",
+     "published": "2026-11-11T21:19:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "ab63cd81dc1bb4d6",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait puts brakes on road-damaging trucks",
+     "url": "https://www.arabtimesonline.com/news/kuwait-puts-brakes-on-road-damaging-trucks/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 11: First Deputy Prime Minister and Minister of Interior Sheikh Fahad Yousef Saud Al-Sabah chaired a meeting on Wednesday with relevant government entities and rep...",
+     "body": "",
+     "published": "2026-11-11T20:45:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -6831,7 +6660,7 @@
      "lang": "en",
      "title": "Saudi Air Defences Intercept and Destroy 3 Iran-Backed Houthi Cruise Missiles Targeting Riyadh",
      "url": "https://www.arabtimesonline.com/news/saudi-air-defences-intercept-and-destroy-3-iran-backed-houthi-cruise-missiles-targeting-riyadh/",
-     "section": "general",
+     "section": "latest",
      "summary": "RIYADH, Nov 11: Saudi Arabia’s air defence systems intercepted and destroyed three cruise missiles launched by Yemen’s Houthi militia towards the Riyadh region, the Coalition annou...",
      "body": "",
      "published": "2026-11-11T17:10:00+03:00",
@@ -6842,8 +6671,8 @@
    "analysis": {}
   },
   {
-   "key": "5e77236877121fa0",
-   "score": 2.659,
+   "key": "f32fc6e80ea45bd9",
+   "score": 2.658,
    "sources": [
     "Arab Times"
    ],
@@ -6853,64 +6682,16 @@
      "source_id": "arabtimes",
      "source_name": "Arab Times",
      "lang": "en",
-     "title": "Portugal on Alert as Storm Charles Closes Schools, Cancels Hundreds of Flights",
-     "url": "https://www.arabtimesonline.com/news/portugal-on-alert-as-storm-charles-closes-schools-cancels-hundreds-of-flights/",
-     "section": "general",
-     "summary": "LISBON, Nov 11: Portugal closed schools and suspended nonessential public services on Wednesday as Storm Charles approached the mainland after battering the Atlantic island of Made...",
+     "title": "Kuwait shuts down horse stable used to store food illegally",
+     "url": "https://www.arabtimesonline.com/news/kuwait-shuts-down-horse-stable-used-to-store-food-illegally/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 12: The Public Authority for Food and Nutrition has shut down a horse stable in Farwaniya Governorate after discovering that it was being used to store and handle...",
      "body": "",
-     "published": "2026-11-11T16:27:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "77171f843af70162",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Desperate Iranian's Reportedly Sell Organs to Pay Debts and Survive",
-     "url": "https://www.arabtimesonline.com/news/iranians-reportedly-selling-organs-to-pay-debts-and-survive-rising-living-costs/",
-     "section": "general",
-     "summary": "TEHRAN, Nov 11: Iranian workers struggling with mounting debts and soaring living costs are reportedly offering kidneys, liver tissue and bone marrow for sale in desperate attempts...",
-     "body": "",
-     "published": "2026-11-11T16:11:00+03:00",
+     "published": "2026-11-12T00:27:00+03:00",
      "tier": 2
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "5228e6607c0ac44c",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Gunmen Kill 11 Policemen in Attack on Police Team in Northwestern Pakistan",
-     "url": "https://www.arabtimesonline.com/news/gunmen-kill-11-policemen-in-attack-on-police-team-in-northwestern-pakistan/",
-     "section": "general",
-     "summary": "ISLAMABAD, Nov 11: At least 11 policemen were killed and 12 others injured after gunmen opened fire on a police team in Pakistan’s northwestern Kohat district on Wednesday, securit...",
-     "body": "",
-     "published": "2026-11-11T15:53:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -6938,6 +6719,102 @@
    "analysis": {}
   },
   {
+   "key": "5e77236877121fa0",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Portugal on Alert as Storm Charles Closes Schools, Cancels Hundreds of Flights",
+     "url": "https://www.arabtimesonline.com/news/portugal-on-alert-as-storm-charles-closes-schools-cancels-hundreds-of-flights/",
+     "section": "latest",
+     "summary": "LISBON, Nov 11: Portugal closed schools and suspended nonessential public services on Wednesday as Storm Charles approached the mainland after battering the Atlantic island of Made...",
+     "body": "",
+     "published": "2026-11-11T16:27:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "ba1ab009ddd6ee9d",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Lawyers Association Warns Against TikTok Live Streams for Self-Promotion",
+     "url": "https://www.arabtimesonline.com/news/kuwait-lawyers-association-warns-against-tiktok-live-streams-for-self-promotion/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 11: The Kuwait Lawyers Association has stressed the need for male and female lawyers to strictly adhere to professional conduct rules and the legal profession’s co...",
+     "body": "",
+     "published": "2026-11-11T16:21:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "77171f843af70162",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Desperate Iranian's Reportedly Sell Organs to Pay Debts and Survive",
+     "url": "https://www.arabtimesonline.com/news/iranians-reportedly-selling-organs-to-pay-debts-and-survive-rising-living-costs/",
+     "section": "latest",
+     "summary": "TEHRAN, Nov 11: Iranian workers struggling with mounting debts and soaring living costs are reportedly offering kidneys, liver tissue and bone marrow for sale in desperate attempts...",
+     "body": "",
+     "published": "2026-11-11T16:11:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "5228e6607c0ac44c",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Gunmen Kill 11 Policemen in Attack on Police Team in Northwestern Pakistan",
+     "url": "https://www.arabtimesonline.com/news/gunmen-kill-11-policemen-in-attack-on-police-team-in-northwestern-pakistan/",
+     "section": "latest",
+     "summary": "ISLAMABAD, Nov 11: At least 11 policemen were killed and 12 others injured after gunmen opened fire on a police team in Pakistan’s northwestern Kohat district on Wednesday, securit...",
+     "body": "",
+     "published": "2026-11-11T15:53:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
    "key": "c86ba49cf46caff6",
    "score": 2.059,
    "sources": [
@@ -6951,10 +6828,34 @@
      "lang": "en",
      "title": "Action Energy Company reports Q3 2026 financial results",
      "url": "https://www.arabtimesonline.com/news/action-energy-company-reports-q3-2026-financial-results/",
-     "section": "general",
+     "section": "latest",
      "summary": "KUWAIT CITY, Nov 11: Action Energy Company K.S.C.P. (AEC) (Boursa Kuwait Premier Market: ALFTAQA), Kuwait’s leading local partner for integrated upstream services, owner and operat...",
      "body": "",
      "published": "2026-11-11T15:08:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "7279b847df0e747d",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Sahel App Introduces Travel Notifications for Kuwait Citizens and Expats",
+     "url": "https://www.arabtimesonline.com/news/sahel-app-introduces-travel-notifications-for-kuwait-citizens-and-expats/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 11: The Ministry of Interior has activated entry and exit notifications through Kuwait’s unified government services application, Sahel, allowing citizens and resi...",
+     "body": "",
+     "published": "2026-11-11T11:12:00+03:00",
      "tier": 2
     }
    ],
@@ -6975,7 +6876,7 @@
      "lang": "en",
      "title": "Kolkata-Sairang Express Derails in India's Assam, Engine and Five Coaches Jump Tracks",
      "url": "https://www.arabtimesonline.com/news/kolkata-sairang-express-derails-in-indias-assam-engine-and-five-coaches-jump-tracks/",
-     "section": "general",
+     "section": "latest",
      "summary": "GUWAHATI, Nov 11: Five coaches and the locomotive of the Kolkata-Sairang Express derailed near Digaru railway station in Assam on Wednesday morning, leaving several passengers with...",
      "body": "",
      "published": "2026-11-11T10:37:00+03:00",
@@ -6999,7 +6900,7 @@
      "lang": "en",
      "title": "Tanker Catches Fire After Hitting Sea Mine East of Strait of Hormuz",
      "url": "https://www.arabtimesonline.com/news/tanker-catches-fire-after-hitting-sea-mine-east-of-strait-of-hormuz/",
-     "section": "general",
+     "section": "latest",
      "summary": "LONDON/TEHRAN, Nov 11: A tanker caught fire after striking a sea mine in waters east of the Strait of Hormuz, Iran's Army Navy said on Wednesday, as the United Kingdom Maritime Tra...",
      "body": "",
      "published": "2026-11-11T10:22:00+03:00",
@@ -7047,7 +6948,7 @@
      "lang": "en",
      "title": "Jailed Iranian Operative Accused of Directing Terror Plot Against US Bombers in Britain",
      "url": "https://www.arabtimesonline.com/news/jailed-iranian-operative-accused-of-directing-terror-plot-against-us-bombers-in-britain/",
-     "section": "general",
+     "section": "latest",
      "summary": "LONDON/NEW YORK, Nov 11 : An Iranian-linked operative held in a federal jail in New York allegedly used coded messages during telephone calls with family members to help coordinate...",
      "body": "",
      "published": "2026-11-11T09:49:00+03:00",
@@ -7071,7 +6972,7 @@
      "lang": "en",
      "title": "Look Who Is Talking: After UK, Iran Now Labels Argentina’s Navy and Air Force ‘Terrorist Organizations’",
      "url": "https://www.arabtimesonline.com/news/look-who-is-talking-after-uk-iran-now-labels-argentinas-navy-and-air-force-terrorist-organizations/",
-     "section": "general",
+     "section": "latest",
      "summary": "TEHRAN, Nov 11: Iran has designated Argentina’s Navy and Air Force as “terrorist organizations” in a retaliatory move following Buenos Aires’ decision to classify Iran’s Islamic Re...",
      "body": "",
      "published": "2026-11-11T09:39:00+03:00",
@@ -7095,7 +6996,7 @@
      "lang": "en",
      "title": "Iran Threats Force US Treasury Secretary Scott Bessent to Move to Military Base",
      "url": "https://www.arabtimesonline.com/news/iran-threats-force-us-treasury-secretary-scott-bessent-to-move-to-military-base/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 11: US Treasury Secretary Scott Bessent has moved from his Washington-area residence to a US military base following threats against his life linked to Iran, accord...",
      "body": "",
      "published": "2026-11-11T09:34:00+03:00",
@@ -7119,7 +7020,7 @@
      "lang": "en",
      "title": "Spain's first general strike in 14 years brings clashing social and political desires to fore",
      "url": "https://www.arabtimesonline.com/news/spains-first-general-strike-in-14-years-brings-clashing-social-and-political-desires-to-fore/",
-     "section": "general",
+     "section": "latest",
      "summary": "BARCELONA, Spain, Nov 11, (AP): Millions of Spain’s workers are striking Wednesday to demand that the government remedy the nation’s housing crisis less than three weeks before a...",
      "body": "",
      "published": "2026-11-11T12:04:00+03:00",
