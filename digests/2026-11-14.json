@@ -1,28 +1,28 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14T08:28:31.833422+03:00",
+ "generated_at": "2026-11-14T09:52:17.740978+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 127,
+  "total_articles": 125,
   "outlets_reporting": 7,
-  "total_stories": 105,
+  "total_stories": 102,
   "major_stories": 4,
   "analysed_stories": 28,
-  "window_start": "2026-11-13T06:28:31.833422+03:00",
-  "window_end": "2026-11-14T08:28:31.833422+03:00",
+  "window_start": "2026-11-13T07:52:17.740978+03:00",
+  "window_end": "2026-11-14T09:52:17.740978+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 28,
-   "Security & Courts": 8,
-   "Economy & Business": 12,
+   "Government & Politics": 29,
+   "Security & Courts": 7,
+   "Economy & Business": 13,
    "Society & Services": 11,
-   "World & Region": 33,
-   "Sport": 12,
+   "World & Region": 31,
+   "Sport": 10,
    "Culture & Entertainment": 1
   },
   "analysis_retries": 7,
-  "analysis_splits": 42,
+  "analysis_splits": 38,
   "analysis_missing": 0,
   "analysis_providers": []
  },
@@ -142,26 +142,26 @@
   "S6 وزير التربية: فوز الخالدي والغريب بمنصبين قياديين في «ألكسو» يعكس…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S7 «الطاقة الدولية»: سوق النفط العالمية ستعود لتسجيل فائض في الربع…: batch S7: no provider available",
   "S8 الديوان الأميري ينعى الشيخة انتصار جاسم محمد المالك الصباح: batch S8: no provider available",
-  "S9 وزير الصحة: حريصون على مواكبة التطورات المتسارعة في تشخيص وعلاج أمراض…: batch S9: no provider available",
-  "S10 بيسنت: لا داعي لرفع أسعار الفائدة بسبب أزمة الطاقة الناجمة عن حرب…: batch S10: no provider available",
-  "S11 سعر برميل النفط الكويتي يرتفع إلى 83.44 دولار: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S12 القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر: batch S12: no provider available",
-  "S13 الصليبخات وبرقان إلى نهائي كأس الاتحاد لكرة اليد: batch S13: no provider available",
-  "S14 «الأزرق» هزم سوريا بثلاثية… ودياً: batch S14: no provider available",
-  "S15 Microsoft battles to fix global Outlook outage: batch S15: no provider available",
-  "S16 العامري لـ«الأنباء»: معرض الكويت الدولي للكتاب الأقدم خليجياً..…: batch S16: no provider available",
-  "S17 وزير الصحة: إجراء أكثر من ألفي حالة مناظير تداخلية و1200 «فوق…: batch S17: no provider available",
-  "S18 الخالدي رئيساً للمجلس التنفيذي لـ«ألكسو» والغريب مديراً عاماً مساعداً: batch S18: no provider available",
-  "S19 «الصحة»: دور محوري لـ «عيادة الذاكرة» بمستشفى ابن سينا في الكشف…: batch S19: no provider available",
-  "S20 مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات…: batch S20: no provider available",
-  "S21 بيع سوار مرصع بياقوتة مقابل 4.9 مليون دولار في مزاد بجنيف: batch S21: no provider available",
+  "S9 Microsoft battles to fix global Outlook outage: batch S9: no provider available",
+  "S10 وزير الصحة: حريصون على مواكبة التطورات المتسارعة في تشخيص وعلاج أمراض…: batch S10: no provider available",
+  "S11 بيسنت: لا داعي لرفع أسعار الفائدة بسبب أزمة الطاقة الناجمة عن حرب…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر: https://api.cerebras.ai/v1/chat/completions: HTTP Error 402: Payment Required",
+  "S13 سعر برميل النفط الكويتي يرتفع إلى 83.44 دولار: batch S13: no provider available",
+  "S14 الصليبخات وبرقان إلى نهائي كأس الاتحاد لكرة اليد: batch S14: no provider available",
+  "S15 «الأزرق» هزم سوريا بثلاثية… ودياً: batch S15: no provider available",
+  "S16 «مايكروسوفت»: الخدمات المتأثرة بالأعطال عادت إلى العمل بشكل كامل: batch S16: no provider available",
+  "S17 العامري لـ«الأنباء»: معرض الكويت الدولي للكتاب الأقدم خليجياً..…: batch S17: no provider available",
+  "S18 وزير الصحة: إجراء أكثر من ألفي حالة مناظير تداخلية و1200 «فوق…: batch S18: no provider available",
+  "S19 الخالدي رئيساً للمجلس التنفيذي لـ«ألكسو» والغريب مديراً عاماً مساعداً: batch S19: no provider available",
+  "S20 «الصحة»: دور محوري لـ «عيادة الذاكرة» بمستشفى ابن سينا في الكشف…: batch S20: no provider available",
+  "S21 بيع سوار مرصع بياقوتة مقابل 4.9 مليون دولار في مزاد بجنيف: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S22 «سبيس إكس» تطلق اختبار الطيران الـ15 لصاروخها «ستارشيب»: batch S22: no provider available",
   "S23 «مايكروسوفت»: توافر خدمة «365» بات يقترب من مستوياته الطبيعية: batch S23: no provider available",
-  "S24 باريس وبرلين تتحركان لحسم خلافة لاغارد على رأس البنك المركزي الأوروبي: batch S24: no provider available",
-  "S25 «الكهرباء» تُجري غداً صيانة دورية لمحطات تحويل ثانوية في 9 مناطق سكنية: batch S25: no provider available",
-  "S26 Today in Kuwait’s history: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S27 Warm Friday with scattered clouds, cold night ahead: batch S27: no provider available",
-  "S28 النفط يتجه لتسجيل ثاني انخفاض أسبوعي: batch S28: no provider available",
+  "S24 «الكهرباء» تُجري غداً صيانة دورية لمحطات تحويل ثانوية في 9 مناطق سكنية: batch S24: no provider available",
+  "S25 النفط يتجه لتسجيل ثاني انخفاض أسبوعي: batch S25: no provider available",
+  "S26 مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات…: batch S26: no provider available",
+  "S27 حصاة بحجم حبة عنب تكشف معاناة رجل عاش قبل 5300 عام: batch S27: no provider available",
+  "S28 ترامب وشي وبوتين سيعقدون محادثات ثلاثية الخميس في الصين: batch S28: no provider available",
   "S1 ممثل سمو الأمير سمو رئيس الوزراء يُغادر تركيا بعد ترؤس وفد الكويت في…: batch S1: no provider available",
   "S2 الكويت تتضامن مع تركيا إثر تحطم مروحية عسكرية أسفر عن وفاة أفراد…: batch S2: no provider available",
   "S3 «تكنولوجيا المعلومات»: لا مؤشرات على اختراق أمني مرتبط بعطل…: batch S3: no provider available",
@@ -170,23 +170,18 @@
   "S6 وزير التربية: فوز الخالدي والغريب بمنصبين قياديين في «ألكسو» يعكس…: batch S6: no provider available",
   "S7 «الطاقة الدولية»: سوق النفط العالمية ستعود لتسجيل فائض في الربع…: batch S7: no provider available",
   "S8 الديوان الأميري ينعى الشيخة انتصار جاسم محمد المالك الصباح: batch S8: no provider available",
-  "S9 وزير الصحة: حريصون على مواكبة التطورات المتسارعة في تشخيص وعلاج أمراض…: batch S9: no provider available",
-  "S10 بيسنت: لا داعي لرفع أسعار الفائدة بسبب أزمة الطاقة الناجمة عن حرب…: batch S10: no provider available",
-  "S11 سعر برميل النفط الكويتي يرتفع إلى 83.44 دولار: batch S11: no provider available",
-  "S12 القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر: batch S12: no provider available",
-  "S13 الصليبخات وبرقان إلى نهائي كأس الاتحاد لكرة اليد: batch S13: no provider available",
-  "S14 «الأزرق» هزم سوريا بثلاثية… ودياً: batch S14: no provider available",
-  "S15 Microsoft battles to fix global Outlook outage: batch S15: no provider available",
-  "S16 العامري لـ«الأنباء»: معرض الكويت الدولي للكتاب الأقدم خليجياً..…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S17 وزير الصحة: إجراء أكثر من ألفي حالة مناظير تداخلية و1200 «فوق…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S18 الخالدي رئيساً للمجلس التنفيذي لـ«ألكسو» والغريب مديراً عاماً مساعداً: batch S18: no provider available",
-  "S19 «الصحة»: دور محوري لـ «عيادة الذاكرة» بمستشفى ابن سينا في الكشف…: batch S19: no provider available",
-  "S20 مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات…: batch S20: no provider available",
-  "S21 بيع سوار مرصع بياقوتة مقابل 4.9 مليون دولار في مزاد بجنيف: batch S21: no provider available",
-  "S22 «سبيس إكس» تطلق اختبار الطيران الـ15 لصاروخها «ستارشيب»: batch S22: no provider available",
-  "S23 «مايكروسوفت»: توافر خدمة «365» بات يقترب من مستوياته الطبيعية: batch S23: no provider available",
-  "S24 باريس وبرلين تتحركان لحسم خلافة لاغارد على رأس البنك المركزي الأوروبي: batch S24: no provider available",
-  "S25 «الكهرباء» تُجري غداً صيانة دورية لمحطات تحويل ثانوية في 9 مناطق سكنية: batch S25: no provider available",
+  "S9 Microsoft battles to fix global Outlook outage: batch S9: no provider available",
+  "S10 وزير الصحة: حريصون على مواكبة التطورات المتسارعة في تشخيص وعلاج أمراض…: batch S10: no provider available",
+  "S11 بيسنت: لا داعي لرفع أسعار الفائدة بسبب أزمة الطاقة الناجمة عن حرب…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S13 سعر برميل النفط الكويتي يرتفع إلى 83.44 دولار: batch S13: no provider available",
+  "S14 الصليبخات وبرقان إلى نهائي كأس الاتحاد لكرة اليد: batch S14: no provider available",
+  "S15 «الأزرق» هزم سوريا بثلاثية… ودياً: batch S15: no provider available",
+  "S16 «مايكروسوفت»: الخدمات المتأثرة بالأعطال عادت إلى العمل بشكل كامل: batch S16: no provider available",
+  "S17 العامري لـ«الأنباء»: معرض الكويت الدولي للكتاب الأقدم خليجياً..…: batch S17: no provider available",
+  "S18 وزير الصحة: إجراء أكثر من ألفي حالة مناظير تداخلية و1200 «فوق…: batch S18: no provider available",
+  "S19 الخالدي رئيساً للمجلس التنفيذي لـ«ألكسو» والغريب مديراً عاماً مساعداً: batch S19: no provider available",
+  "S20 «الصحة»: دور محوري لـ «عيادة الذاكرة» بمستشفى ابن سينا في الكشف…: batch S20: no provider available",
   "synthesis: synthesis: the analysis budget ran out before the call was made"
  ],
  "stories": [
@@ -275,7 +270,7 @@
   },
   {
    "key": "2b2cec0453c12a91",
-   "score": 23.959,
+   "score": 23.359,
    "sources": [
     "كويت نيوز",
     "الرأي",
@@ -374,7 +369,7 @@
      "url": "https://www.alraimedia.com/article/1786016/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%84%D8%A7-%D9%85%D8%A4%D8%B4%D8%B1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D8%A3%D9%85%D9%86%D9%8A-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%B9%D8%B7%D9%84-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA",
      "section": "latest",
      "summary": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت...",
-     "body": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت 365) وفقا لما أعلنته الشركة.\n\nوزير الصحة: مواصلة التوسع في تطوير خدمات الجهاز الهضمي والكبد لتعزيز القدرة على التشخيص والعلاج منذ 54 دقيقة ممثل سمو الأمير يغادر تركيا بعد ترؤس وفد الكويت في قمة «COP 31» منذ ساعة\n\nوأوضحت أن الرسائل المتأخرة لن تفقد إذ تم الإبقاء على مهلة حماية البريد الإلكتروني البالغة 48 ساعة، مضيفة أن الجهاز المركزي لتكنولوجيا المعلومات يتابع التطورات أولا بأول مع المسؤولين في شركة (مايكروسوفت).\n\nوأكدت حرص الجهاز المركزي لتكنولوجيا المعلومات على متابعة الأعطال التقنية التي قد تؤثر على الخدمات الإلكترونية ومواصلة إطلاع الجهات الحكومية على أي مستجدات تتعلق بالعطل وتطورات معالجته.\n\nوكان الجهاز المركزي لتكنولوجيا المعلومات قد أعلن اليوم على موقع التواصل الاجتماعي (إكس) أن بعض المستخدمين قد يواجهون صعوبة في الوصول إلى خدمات (مايكروسوفت 365)، موضحا أن الخدمات المتأثرة تشمل البريد الإلكتروني (Exchange Online) و(Microsoft Teams) و(SharePoint Online) و(Microsoft Copilot) و(Microsoft Defender XDR).",
+     "body": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت 365) وفقا لما أعلنته الشركة.\n\nوزير الصحة: مواصلة التوسع في تطوير خدمات الجهاز الهضمي والكبد لتعزيز القدرة على التشخيص والعلاج منذ 55 دقيقة ممثل سمو الأمير يغادر تركيا بعد ترؤس وفد الكويت في قمة «COP 31» منذ ساعة\n\nوأوضحت أن الرسائل المتأخرة لن تفقد إذ تم الإبقاء على مهلة حماية البريد الإلكتروني البالغة 48 ساعة، مضيفة أن الجهاز المركزي لتكنولوجيا المعلومات يتابع التطورات أولا بأول مع المسؤولين في شركة (مايكروسوفت).\n\nوأكدت حرص الجهاز المركزي لتكنولوجيا المعلومات على متابعة الأعطال التقنية التي قد تؤثر على الخدمات الإلكترونية ومواصلة إطلاع الجهات الحكومية على أي مستجدات تتعلق بالعطل وتطورات معالجته.\n\nوكان الجهاز المركزي لتكنولوجيا المعلومات قد أعلن اليوم على موقع التواصل الاجتماعي (إكس) أن بعض المستخدمين قد يواجهون صعوبة في الوصول إلى خدمات (مايكروسوفت 365)، موضحا أن الخدمات المتأثرة تشمل البريد الإلكتروني (Exchange Online) و(Microsoft Teams) و(SharePoint Online) و(Microsoft Copilot) و(Microsoft Defender XDR).",
      "published": "2026-11-13T16:30:00+03:00",
      "tier": 1
     },
@@ -416,11 +411,11 @@
      "local"
     ],
     "_source": "extractive",
-    "summary_en": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت 365) وفقا لما أعلنته الشركة. وزير الصحة: مواصلة التوسع في تطوير خدمات الجهاز الهضمي والكبد لتعزيز القدرة على التشخيص والعلاج منذ 54 دقيقة ممثل سمو الأمير يغادر تركيا بعد ترؤس وفد الكويت في قمة «COP 31» منذ ساعة وأوضحت أن الرسائل المتأخرة…",
+    "summary_en": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت 365) وفقا لما أعلنته الشركة. وزير الصحة: مواصلة التوسع في تطوير خدمات الجهاز الهضمي والكبد لتعزيز القدرة على التشخيص والعلاج منذ 55 دقيقة ممثل سمو الأمير يغادر تركيا بعد ترؤس وفد الكويت في قمة «COP 31» منذ ساعة وأوضحت أن الرسائل المتأخرة…",
     "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الرأي, الأنباء, الجريدة.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «تكنولوجيا المعلومات»: لا مؤشرات على اختراق أمني مرتبط بعطل خدمات «مايكروسوفت 365»; تكنولوجيا المعلومات: لا مؤشرات على اختراق أمني مرتبط بعطل خدمات «مايكروسوفت 365»",
     "watch_next_en": "",
-    "summary_ar": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت 365) وفقا لما أعلنته الشركة. وزير الصحة: مواصلة التوسع في تطوير خدمات الجهاز الهضمي والكبد لتعزيز القدرة على التشخيص والعلاج منذ 54 دقيقة ممثل سمو الأمير يغادر تركيا بعد ترؤس وفد الكويت في قمة «COP 31» منذ ساعة وأوضحت أن الرسائل المتأخرة…",
+    "summary_ar": "أكدت المدير العام للجهاز المركزي لتكنولوجيا المعلومات بالتكليف نجاة إبراهيم اليوم، عدم وجود أي مؤشرات حتى الآن على نشاط خبيث أو اختراق أمني مرتبط بالعطل الذي أصاب خدمات (مايكروسوفت 365) وفقا لما أعلنته الشركة. وزير الصحة: مواصلة التوسع في تطوير خدمات الجهاز الهضمي والكبد لتعزيز القدرة على التشخيص والعلاج منذ 55 دقيقة ممثل سمو الأمير يغادر تركيا بعد ترؤس وفد الكويت في قمة «COP 31» منذ ساعة وأوضحت أن الرسائل المتأخرة…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الرأي, الأنباء, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -719,6 +714,73 @@
    }
   },
   {
+   "key": "8cfaf5ac20f2e7e9",
+   "score": 11.459,
+   "sources": [
+    "Times Kuwait",
+    "Kuwait Times"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Microsoft outage disrupts 70 countries as millions face email and service failures",
+     "url": "https://timeskuwait.com/microsoft-outage-disrupts-70-countries-as-millions-face-email-and-service-failures/",
+     "section": "latest",
+     "summary": "Global technology giant apologises as Global Microsoft 365 outage hits businesses, hospitals and government services; begins broad service recovery after nearly 24-hour global outage Outage exposes worldwide dependence on cloud-based technology as services gradually recover Microsoft has apologised to customers worldwide after a major technical outage disrupted its products, including Outlook and Teams, affecting businesses, …\n\nThe post Microsoft outage disrupts 70 countries as millions face email and service failures appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-14T06:31:38+00:00",
+     "tier": 2
+    },
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Microsoft Outage Disrupts Outlook, Teams Across 74 Countries",
+     "url": "https://timeskuwait.com/microsoft-outage-disrupts-outlook-teams-across-74-countries/",
+     "section": "latest",
+     "summary": "A widespread Microsoft service outage disrupted Outlook, Teams and several other platforms across approximately 74 countries and territories beginning Thursday evening, affecting businesses, government agencies and financial institutions worldwide. According to the internet outage monitoring website Downdetector, the disruption affected several widely used Microsoft services, causing interruptions to workplace communications and operations. The outage reportedly …\n\nThe post Microsoft Outage Disrupts Outlook, Teams Across 74 Countries appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-13T08:55:52+00:00",
+     "tier": 2
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Microsoft battles to fix global Outlook outage",
+     "url": "https://kuwaittimes.com/article/53563/world/microsoft-battles-to-fix-global-outlook-outage/",
+     "section": "latest",
+     "summary": "WASHINGTON: Microsoft said on Thursday that efforts to fix a major Outlook outage were not working as expected and that it was looking for alternative solutions, as users around th...",
+     "body": "WASHINGTON: Microsoft said on Thursday that efforts to fix a major Outlook outage were not working as expected and that it was looking for alternative solutions, as users around the world were left without its key services.\n\nThe hours-long disruption, which Microsoft blamed on “elevated load” on its infrastructure, has hit email as well as products such as Teams and its artificial intelligence (AI) assistant Copilot.\n\nThe outage was felt worldwide, with users ranging from companies to governments reporting that they were unable to communicate via Outlook.\n\n“We’ve monitored the status of the changes applied to improve serviceability and confirmed they’re not taking as expected,” Microsoft said on X. “We’re identifying alternate workstreams that can be applied to increase capacity,” it added, without saying when full service was expected to be restored.\n\nThe disruption spread worldwide within an hour, knocking out Microsoft products in 74 countries and territories, outage tracker Downdetector reported. A map it posted on X showed users affected across the Americas and parts of Europe, Asia and Africa.\n\nIn New Zealand, the foreign ministry said its “ability to receive emails has been affected by the global Microsoft outage. This also impacts all New Zealand Embassies, Consulates and Representative Offices around the world.”\n\nMicrosoft initially said it was investigating outage reports “in the Americas”, but later confirmed the issue appeared to affect “Microsoft 365 service connectivity for users in any region”. Microsoft 365 is the company’s cloud-based subscription service that includes Outlook and Teams.\n\n“We’ve determined a portion of infrastructure is experiencing elevated load across multiple regions, which is likely contributing to the connectivity errors,” the company said. “We’re aggressively pursuing all pathways to reduce impact.”\n\nThousands of users also reported problems with Teams and Copilot, according to Downdetector, which showed a sharp drop in reports of disruption in Washington and Hong Kong at around 0450 GMT.\n\nAs the outage dragged on, Microsoft posted a series of updates on X detailing continued but unsuccessful efforts to restore full service.\n\nShortly after 6:00 pm Eastern Time (2300 GMT), it said it was “observing limited recovery” as it sought to route user traffic away from affected servers. “As capacity is restored, users may experience a gradual recovery as their clients reconnect,” the company said. — AFP\n\nPope in emotional return to ‘beloved’ Chiclayo\n\nUS, Ukraine say Europe to join Russia talks as Putin holds hard line\n\nBollywood bolsters security as underworld fears return",
+     "published": "2026-11-13T10:08:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Microsoft battles to fix global Outlook outage",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest"
+    ],
+    "_source": "extractive",
+    "summary_en": "WASHINGTON: Microsoft said on Thursday that efforts to fix a major Outlook outage were not working as expected and that it was looking for alternative solutions, as users around the world were left without its key services. The hours-long disruption, which Microsoft blamed on “elevated load” on its infrastructure, has hit email as well as products such as Teams and its artificial intelligence (AI) assistant Copilot.…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): Times Kuwait, Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Microsoft outage disrupts 70 countries as millions face email and service failures; Microsoft Outage Disrupts Outlook, Teams Across 74 Countries",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: Times Kuwait, Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
    "key": "822e77031ee10c03",
    "score": 11.2,
    "sources": [
@@ -831,6 +893,62 @@
    }
   },
   {
+   "key": "8b67efe317975e61",
+   "score": 10.159,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "القوات الجوية الأميركية تجري اختبار أسلحة على القاذفة بي-21 رايدر",
+     "url": "https://www.alraimedia.com/article/1786023/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%AA%D8%AC%D8%B1%D9%8A-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%82%D8%A7%D8%B0%D9%81%D8%A9-%D8%A8%D9%8A-21-%D8%B1%D8%A7%D9%8A%D8%AF%D8%B1",
+     "section": "latest",
+     "summary": "قالت ​وزارة القوات الجوية الأميركية اليوم ⁠الجمعة إنها أجرت الأسبوع الماضي ​اختبار إطلاق ذخائر لقاذفتها الشبحية بي-21 رايدر، ما ‌ينقل الطائرة المنتمية إلى الجيل التالي من مرحل...",
+     "body": "",
+     "published": "2026-11-13T20:07:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر",
+     "url": "https://www.aljarida.com/article/150402",
+     "section": "world",
+     "summary": "قالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبا...",
+     "body": "• أقلعت من قاعدة إدواردز بكاليفورنيا وأطلقت سلاحاً تقليدياً في نجاح يحولها إلى ‌منصة أسلحة عاملة\n\nقالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبار الطيران إلى ‌منصة أسلحة عاملة.\n\nوكانت القوات ​الجوية منحت عقد تطوير بي-21، قاذفة ‌القنابل الشبحية ​الأميركية من الجيل التالي، ‌إلى شركة نورثروب جرومان ‌في 2015.\n\nوصُممت بي-21 ‌رايدر لتجاوز أنظمة الدفاع الجوي المتكاملة الحديثة والكثيفة وإيصال ذخائر تقليدية ونووية.\n\nوكشفت وزارة القوات الجوية إن طائرة بي-21 أقلعت خلال الاختبار من قاعدة إدواردز الجوية ⁠في كاليفورنيا وأطلقت سلاحا تقليديا، ما أثبت أن نماذجها الرقمية وبنية أنظمتها المفتوحة تعملان ⁠على ‌النحو المتوقع.\n\nمن جانبه قال رئيس أركان القوات ​الجوية كين ويلسباخ «يثبت ‌اختبار الأسلحة ​هذا ⁠تفوق ​برنامج بي-21».\n\nواشارت القوات ‌الجوية إن البرنامج يسبق الجدول الزمني، ومن المتوقع أن تصل أول طائرة عمليات إلى قاعدة إلسورث الجوية في ولاية ساوث داكوتا ​في 2027.",
+     "published": "2026-11-13T19:47:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest",
+     "world"
+    ],
+    "_source": "extractive",
+    "summary_en": "• أقلعت من قاعدة إدواردز بكاليفورنيا وأطلقت سلاحاً تقليدياً في نجاح يحولها إلى ‌منصة أسلحة عاملة قالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبار الطيران إلى ‌منصة أسلحة عاملة. وكانت القوات ​الجوية منحت عقد تطوير بي-21، قاذفة ‌القنابل الشبحية ​الأميركية من الجيل التالي، ‌إلى شركة…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: القوات الجوية الأميركية تجري اختبار أسلحة على القاذفة بي-21 رايدر",
+    "watch_next_en": "",
+    "summary_ar": "• أقلعت من قاعدة إدواردز بكاليفورنيا وأطلقت سلاحاً تقليدياً في نجاح يحولها إلى ‌منصة أسلحة عاملة قالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبار الطيران إلى ‌منصة أسلحة عاملة. وكانت القوات ​الجوية منحت عقد تطوير بي-21، قاذفة ‌القنابل الشبحية ​الأميركية من الجيل التالي، ‌إلى شركة…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
    "key": "b60b0f0ba056369b",
    "score": 10.059,
    "sources": [
@@ -882,61 +1000,6 @@
     "watch_next_en": "",
     "summary_ar": "ارتفع سعر برميل النفط الكويتي 1.07 دولار ليبلغ 83.44 دولار للبرميل في تداولات يوم أمس الخميس مقابل 82.37 دولار في تداولات يوم أول من أمس وفق السعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية...",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: كويت نيوز, الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "8b67efe317975e61",
-   "score": 9.559,
-   "sources": [
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "القوات الجوية الأميركية تجري اختبار أسلحة على القاذفة بي-21 رايدر",
-     "url": "https://www.alraimedia.com/article/1786023/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%AA%D8%AC%D8%B1%D9%8A-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A3%D8%B3%D9%84%D8%AD%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%82%D8%A7%D8%B0%D9%81%D8%A9-%D8%A8%D9%8A-21-%D8%B1%D8%A7%D9%8A%D8%AF%D8%B1",
-     "section": "world",
-     "summary": "قالت ​وزارة القوات الجوية الأميركية اليوم ⁠الجمعة إنها أجرت الأسبوع الماضي ​اختبار إطلاق ذخائر لقاذفتها الشبحية بي-21 رايدر، ما ‌ينقل الطائرة المنتمية إلى الجيل التالي من مرحل...",
-     "body": "",
-     "published": "2026-11-13T20:07:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر",
-     "url": "https://www.aljarida.com/article/150402",
-     "section": "world",
-     "summary": "قالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبا...",
-     "body": "• أقلعت من قاعدة إدواردز بكاليفورنيا وأطلقت سلاحاً تقليدياً في نجاح يحولها إلى ‌منصة أسلحة عاملة\n\nقالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبار الطيران إلى ‌منصة أسلحة عاملة.\n\nوكانت القوات ​الجوية منحت عقد تطوير بي-21، قاذفة ‌القنابل الشبحية ​الأميركية من الجيل التالي، ‌إلى شركة نورثروب جرومان ‌في 2015.\n\nوصُممت بي-21 ‌رايدر لتجاوز أنظمة الدفاع الجوي المتكاملة الحديثة والكثيفة وإيصال ذخائر تقليدية ونووية.\n\nوكشفت وزارة القوات الجوية إن طائرة بي-21 أقلعت خلال الاختبار من قاعدة إدواردز الجوية ⁠في كاليفورنيا وأطلقت سلاحا تقليديا، ما أثبت أن نماذجها الرقمية وبنية أنظمتها المفتوحة تعملان ⁠على ‌النحو المتوقع.\n\nمن جانبه قال رئيس أركان القوات ​الجوية كين ويلسباخ «يثبت ‌اختبار الأسلحة ​هذا ⁠تفوق ​برنامج بي-21».\n\nواشارت القوات ‌الجوية إن البرنامج يسبق الجدول الزمني، ومن المتوقع أن تصل أول طائرة عمليات إلى قاعدة إلسورث الجوية في ولاية ساوث داكوتا ​في 2027.",
-     "published": "2026-11-13T19:47:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "القوات الجوية الأمريكية تختبر أسلحة على القاذفة بي-21 رايدر",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "world"
-    ],
-    "_source": "extractive",
-    "summary_en": "• أقلعت من قاعدة إدواردز بكاليفورنيا وأطلقت سلاحاً تقليدياً في نجاح يحولها إلى ‌منصة أسلحة عاملة قالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبار الطيران إلى ‌منصة أسلحة عاملة. وكانت القوات ​الجوية منحت عقد تطوير بي-21، قاذفة ‌القنابل الشبحية ​الأميركية من الجيل التالي، ‌إلى شركة…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: القوات الجوية الأميركية تجري اختبار أسلحة على القاذفة بي-21 رايدر",
-    "watch_next_en": "",
-    "summary_ar": "• أقلعت من قاعدة إدواردز بكاليفورنيا وأطلقت سلاحاً تقليدياً في نجاح يحولها إلى ‌منصة أسلحة عاملة قالت وزارة القوات الجوية الأميركية اليوم الجمعة إنها أجرت الأسبوع الماضي اختبار إطلاق ذخائر ⁠لقاذفتها الشبحية بي-21 رايدر، ما ينقل ⁠الطائرة المنتمية إلى الجيل التالي من مرحلة اختبار الطيران إلى ‌منصة أسلحة عاملة. وكانت القوات ​الجوية منحت عقد تطوير بي-21، قاذفة ‌القنابل الشبحية ​الأميركية من الجيل التالي، ‌إلى شركة…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1066,56 +1129,43 @@
    }
   },
   {
-   "key": "8cfaf5ac20f2e7e9",
-   "score": 9.159,
+   "key": "dc6bb5d763bb0780",
+   "score": 7.454,
    "sources": [
-    "Arab Times",
-    "Kuwait Times"
+    "الرأي"
    ],
-   "outlet_count": 2,
+   "outlet_count": 1,
    "articles": [
     {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Microsoft Struggles to Restore Services Even After 12-Hour Global Outage Hits Millions",
-     "url": "https://www.arabtimesonline.com/news/microsoft-struggles-to-restore-services-even-after-12-hour-global-outage-hits-millions/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 13: Microsoft has reported progress in restoring its services following a widespread global outage that disrupted access to Outlook, Microsoft 365, Teams and other...",
-     "body": "",
-     "published": "2026-11-13T13:27:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Microsoft battles to fix global Outlook outage",
-     "url": "https://kuwaittimes.com/article/53563/world/microsoft-battles-to-fix-global-outlook-outage/",
-     "section": "latest",
-     "summary": "WASHINGTON: Microsoft said on Thursday that efforts to fix a major Outlook outage were not working as expected and that it was looking for alternative solutions, as users around th...",
-     "body": "WASHINGTON: Microsoft said on Thursday that efforts to fix a major Outlook outage were not working as expected and that it was looking for alternative solutions, as users around the world were left without its key services.\n\nThe hours-long disruption, which Microsoft blamed on “elevated load” on its infrastructure, has hit email as well as products such as Teams and its artificial intelligence (AI) assistant Copilot.\n\nThe outage was felt worldwide, with users ranging from companies to governments reporting that they were unable to communicate via Outlook.\n\n“We’ve monitored the status of the changes applied to improve serviceability and confirmed they’re not taking as expected,” Microsoft said on X. “We’re identifying alternate workstreams that can be applied to increase capacity,” it added, without saying when full service was expected to be restored.\n\nThe disruption spread worldwide within an hour, knocking out Microsoft products in 74 countries and territories, outage tracker Downdetector reported. A map it posted on X showed users affected across the Americas and parts of Europe, Asia and Africa.\n\nIn New Zealand, the foreign ministry said its “ability to receive emails has been affected by the global Microsoft outage. This also impacts all New Zealand Embassies, Consulates and Representative Offices around the world.”\n\nMicrosoft initially said it was investigating outage reports “in the Americas”, but later confirmed the issue appeared to affect “Microsoft 365 service connectivity for users in any region”. Microsoft 365 is the company’s cloud-based subscription service that includes Outlook and Teams.\n\n“We’ve determined a portion of infrastructure is experiencing elevated load across multiple regions, which is likely contributing to the connectivity errors,” the company said. “We’re aggressively pursuing all pathways to reduce impact.”\n\nThousands of users also reported problems with Teams and Copilot, according to Downdetector, which showed a sharp drop in reports of disruption in Washington and Hong Kong at around 0450 GMT.\n\nAs the outage dragged on, Microsoft posted a series of updates on X detailing continued but unsuccessful efforts to restore full service.\n\nShortly after 6:00 pm Eastern Time (2300 GMT), it said it was “observing limited recovery” as it sought to route user traffic away from affected servers. “As capacity is restored, users may experience a gradual recovery as their clients reconnect,” the company said. — AFP\n\nPope in emotional return to ‘beloved’ Chiclayo\n\nUS, Ukraine say Europe to join Russia talks as Putin holds hard line\n\nBollywood bolsters security as underworld fears return",
-     "published": "2026-11-13T10:08:00+03:00",
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«مايكروسوفت»: الخدمات المتأثرة بالأعطال عادت إلى العمل بشكل كامل",
+     "url": "https://www.alraimedia.com/article/1786039/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%A3%D8%AB%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D8%A3%D8%B9%D8%B7%D8%A7%D9%84-%D8%B9%D8%A7%D8%AF%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A8%D8%B4%D9%83%D9%84-%D9%83%D8%A7%D9%85%D9%84",
+     "section": "economy",
+     "summary": "قالت «​مايكروسوفت» ‌اليوم السبت إن الخدمات ⁠عادت إلى ⁠وضعها ⁠الطبيعي ‌بالكامل في تطبيقاتها «تيمز» و«أوتلوك» ‌و«كوبايلوت» وتطبيقات أخرى، مما ​أنهى ⁠انقطاعا عالميا عطل...",
+     "body": "قالت «​مايكروسوفت» ‌اليوم السبت إن الخدمات ⁠عادت إلى ⁠وضعها ⁠الطبيعي ‌بالكامل في تطبيقاتها «تيمز» و«أوتلوك» ‌و«كوبايلوت» وتطبيقات أخرى، مما ​أنهى ⁠انقطاعا عالميا عطل ​اتصالات عبر الإنترنت ⁠لدى ‌شركات ​وجهات ‌حكومية لأكثر ⁠من ⁠24 ساعة.\n\n«مايكروسوفت»: توافر خدمة «365» بات يقترب من مستوياته الطبيعية منذ 12 ساعة أعطال في «مايكروسوفت».. والشركة: لا مؤشر إلى هجوم سيبراني منذ 23 ساعة",
+     "published": "2026-11-14T08:28:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "Economy & Business",
    "analysis": {
-    "headline_en": "Microsoft battles to fix global Outlook outage",
-    "headline_ar": "",
+    "headline_en": "",
+    "headline_ar": "«مايكروسوفت»: الخدمات المتأثرة بالأعطال عادت إلى العمل بشكل كامل",
     "confidence": "low",
     "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
     "entities": [],
     "tags": [
-     "latest"
+     "economy"
     ],
     "_source": "extractive",
-    "summary_en": "WASHINGTON: Microsoft said on Thursday that efforts to fix a major Outlook outage were not working as expected and that it was looking for alternative solutions, as users around the world were left without its key services. The hours-long disruption, which Microsoft blamed on “elevated load” on its infrastructure, has hit email as well as products such as Teams and its artificial intelligence (AI) assistant Copilot.…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): Arab Times, Kuwait Times.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: Microsoft Struggles to Restore Services Even After 12-Hour Global Outage Hits Millions",
+    "summary_en": "قالت «​مايكروسوفت» ‌اليوم السبت إن الخدمات ⁠عادت إلى ⁠وضعها ⁠الطبيعي ‌بالكامل في تطبيقاتها «تيمز» و«أوتلوك» ‌و«كوبايلوت» وتطبيقات أخرى، مما ​أنهى ⁠انقطاعا عالميا عطل ​اتصالات عبر الإنترنت ⁠لدى ‌شركات ​وجهات ‌حكومية لأكثر ⁠من ⁠24 ساعة. «مايكروسوفت»: توافر خدمة «365» بات يقترب من مستوياته الطبيعية منذ 12 ساعة أعطال في «مايكروسوفت».. والشركة: لا مؤشر إلى هجوم سيبراني منذ 23 ساعة",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
     "watch_next_en": "",
-    "summary_ar": "",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: Arab Times, Kuwait Times.",
+    "summary_ar": "قالت «​مايكروسوفت» ‌اليوم السبت إن الخدمات ⁠عادت إلى ⁠وضعها ⁠الطبيعي ‌بالكامل في تطبيقاتها «تيمز» و«أوتلوك» ‌و«كوبايلوت» وتطبيقات أخرى، مما ​أنهى ⁠انقطاعا عالميا عطل ​اتصالات عبر الإنترنت ⁠لدى ‌شركات ​وجهات ‌حكومية لأكثر ⁠من ⁠24 ساعة. «مايكروسوفت»: توافر خدمة «365» بات يقترب من مستوياته الطبيعية منذ 12 ساعة أعطال في «مايكروسوفت».. والشركة: لا مؤشر إلى هجوم سيبراني منذ 23 ساعة",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1289,48 +1339,6 @@
    }
   },
   {
-   "key": "46bc957fa0d15bc5",
-   "score": 6.6,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات والحاسوب»",
-     "url": "https://www.alanba.com.kw/1384927",
-     "section": "kuwait",
-     "summary": "",
-     "body": "تجارب تفاعلية وأسئلة تفتح آفاق الاكتشاف في «شهر العلوم 2026»، الذي تنظّمه مؤسسة الكويت للتقدم العلمي (KFAS) تحت شعار «الرياضيات والحاسوب»، من 12 نوفمبر إلى 12 ديسمبر.\n\nانطلقت الفعاليات من مركز الشيخ عبدالله السالم الثقافي، وشهد الافتتاح مشاركة مراكز المؤسسة والأندية العلمية في الجامعات الحكومية والخاصة، بأنشطة تقرّب العلوم من الأطفال والعائلات، بالتزامن مع احتفاء المؤسسة بمرور 50 عامًا على تأسيسها",
-     "published": "2026-11-13T11:49:43+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات والحاسوب»",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait"
-    ],
-    "_source": "extractive",
-    "summary_en": "تجارب تفاعلية وأسئلة تفتح آفاق الاكتشاف في «شهر العلوم 2026»، الذي تنظّمه مؤسسة الكويت للتقدم العلمي (KFAS) تحت شعار «الرياضيات والحاسوب»، من 12 نوفمبر إلى 12 ديسمبر. انطلقت الفعاليات من مركز الشيخ عبدالله السالم الثقافي، وشهد الافتتاح مشاركة مراكز المؤسسة والأندية العلمية في الجامعات الحكومية والخاصة، بأنشطة تقرّب العلوم من الأطفال والعائلات، بالتزامن مع احتفاء المؤسسة بمرور 50 عامًا على تأسيسها",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "تجارب تفاعلية وأسئلة تفتح آفاق الاكتشاف في «شهر العلوم 2026»، الذي تنظّمه مؤسسة الكويت للتقدم العلمي (KFAS) تحت شعار «الرياضيات والحاسوب»، من 12 نوفمبر إلى 12 ديسمبر. انطلقت الفعاليات من مركز الشيخ عبدالله السالم الثقافي، وشهد الافتتاح مشاركة مراكز المؤسسة والأندية العلمية في الجامعات الحكومية والخاصة، بأنشطة تقرّب العلوم من الأطفال والعائلات، بالتزامن مع احتفاء المؤسسة بمرور 50 عامًا على تأسيسها",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "d70d755c2a5d378d",
    "score": 6.559,
    "sources": [
@@ -1457,48 +1465,6 @@
    }
   },
   {
-   "key": "1256d639dcfaa0ea",
-   "score": 6.059,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "باريس وبرلين تتحركان لحسم خلافة لاغارد على رأس البنك المركزي الأوروبي",
-     "url": "https://www.alraimedia.com/article/1786011/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%88%D8%A8%D8%B1%D9%84%D9%8A%D9%86-%D8%AA%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D9%86-%D9%84%D8%AD%D8%B3%D9%85-%D8%AE%D9%84%D8%A7%D9%81%D8%A9-%D9%84%D8%A7%D8%BA%D8%A7%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A",
-     "section": "economy",
-     "summary": "تتحرك باريس وبرلين لحسم خلافة كريستين لاغارد على رأس البنك المركزي الأوروبي، إذ تفضل فرنسا المرشح الإسباني بابلو إرنانديز دي كوس على منافسه الهولندي كلاس كنوت، وتسعى إلى التفاهم مع...",
-     "body": "تتحرك باريس وبرلين لحسم خلافة كريستين لاغارد على رأس البنك المركزي الأوروبي، إذ تفضل فرنسا المرشح الإسباني بابلو إرنانديز دي كوس على منافسه الهولندي كلاس كنوت، وتسعى إلى التفاهم مع ألمانيا على تقاسم مناصب أخرى في البنك.\n\nوالمهلة ضيقة، إذ يتطلب التعيين استكمال سلسلة من الإجراءات الرسمية المنصوص عليها في المعاهدات الأوروبية، تبدأ بتوصية مجموعة اليورو باسم مرشح، ثم استشارة البرلمان الأوروبي ومجلس محافظي البنك المركزي الأوروبي اللذين يبديان رأيهما قبل أن يتخذ قادة الدول والحكومات القرار النهائي.\n\nوباشرت مجموعة اليورو هذه الإجراءات من دون إبطاء، إذ أنهت الأسبوع الماضي تلقي الترشيحات.\n\nوقال رئيس المجموعة التي تتولى التنسيق بين دول منطقة اليورو، وزير المال اليوناني كرياكوس بييراكاكيس الاثنين «تلقينا ترشيحين ممتازين».\n\nوالمرشحان هما كلاس كنوت (59 عاما)، الذي ترأس البنك المركزي الهولندي بين عامي 2011 و2025، وبابلو إرنانديز دي كوس (55 عاما)، الذي ترأس بنك إسبانيا بين عامي 2018 و2024، ويدير منذ العام الماضي بنك التسويات الدولية، وهو مؤسسة مالية مرموقة مقرّها بازل في سويسرا.\n\nويتمتع كلاهما بخبرة واسعة ومعرفة دقيقة بآليات عمل البنك المركزي الأوروبي، بعدما مثّلا بلديهما فيه لسنوات. لكن إلى جانب خبرتهما الاقتصادية والمالية، ستؤدي قدرتهما على توضيح قرارات البنك وتوجهاته للأسواق المالية دورا أساسيا في ترجيح الكفة لأحدهما.\n\nويجري الرئيس الفرنسي إيمانويل ماكرون محادثات مباشرة مع المستشار الألماني فريدريش ميرتس سعيا إلى التوافق.\n\nوالملف أكثر تعقيدا مما يبدو، إذ تريد الدولتان اللتان تتمتعان بالثقل الأكبر في منطقة اليورو استغلال هذه المناسبة لتقاسم منصبين آخرين سيشغران قريبا في المجلس التنفيذي للبنك، هما منصب كبير الاقتصاديين خلفا للإيرلندي فيليب لين الذي يشغل المنصب حتى مايو 2027، وعضو في المجلس التنفيذي خلفا للألمانية إيزابيل شنابل التي يُفترض أن تنتقل إلى صندوق النقد الدولي مطلع عام 2027.\n\nوتوضح الرئاسة الفرنسية أن «هناك في الواقع ثلاثة مناصب ينبغي شغلها، والتوازن في توزيعها هو ما يناقشه بالفعل رئيس الجمهورية والمستشار» الألماني، بهدف التوصل إلى «رؤية مشتركة لا تقتصر على الأشخاص، بل تشمل أيضا مهام البنك المركزي الأوروبي وأهدافه».\n\nوتؤكد أن الهدف هو تحقيق «انتقال منظم وسريع، يضمن استمرار مؤشرات الاستقرار التي نحتاج إليها للبنك المركزي الأوروبي».\n\nمن جهته، قال متحدث باسم الحكومة الألمانية لوكالة فرانس برس إن «المناقشات بشأن القيادة المقبلة للبنك المركزي الأوروبي جارية. ولم يُتخذ أي قرار حتى الآن»، من دون تقديم تفاصيل إضافية عن الخيارات المطروحة.\n\nوبحسب مصادر متطابقة، أبلغت فرنسا ألمانيا أنها تفضل تولي بابلو إرنانديز دي كوس رئاسة البنك، وأن تتولى لورانس بون منصب إيزابيل شنابل، علما بأنها شغلت سابقا منصب وزيرة دولة وكبيرة الاقتصاديين في منظمة التعاون والتنمية في الميدان الاقتصادي، وترأس حاليا بنك «سانتاندير» في فرنسا.\n\nأمّا في الجانب الألماني، فالصورة أقلّ وضوحا، إذ لم يتّفق المحافظون والاشتراكيون الديموقراطيون المشاركون في الحكم بعد على اسم لخلافة فيليب لين.\n\nكذلك، إذا وقع الاختيار على كلاس كنوت بدلا من بابلو إرنانديز دي كوس لرئاسة البنك، فسيشغر منصب رابع في المجلس التنفيذي، هو الذي يشغله مواطنه فرانك إلدرسون، ما يوسّع نطاق المفاوضات أكثر.\n\nومع ذلك، قد تتسارع الأمور إذا توصّلت فرنسا وألمانيا إلى اتفاق، إذ يمكن لقادة دول منطقة اليورو عندها إقراره خلال القمة الأوروبية المقررة في 26 و27 نوفمبر في بروكسل.",
-     "published": "2026-11-13T14:59:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "باريس وبرلين تتحركان لحسم خلافة لاغارد على رأس البنك المركزي الأوروبي",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "economy"
-    ],
-    "_source": "extractive",
-    "summary_en": "تتحرك باريس وبرلين لحسم خلافة كريستين لاغارد على رأس البنك المركزي الأوروبي، إذ تفضل فرنسا المرشح الإسباني بابلو إرنانديز دي كوس على منافسه الهولندي كلاس كنوت، وتسعى إلى التفاهم مع ألمانيا على تقاسم مناصب أخرى في البنك. والمهلة ضيقة، إذ يتطلب التعيين استكمال سلسلة من الإجراءات الرسمية المنصوص عليها في المعاهدات الأوروبية، تبدأ بتوصية مجموعة اليورو باسم مرشح، ثم استشارة البرلمان الأوروبي ومجلس محافظي البنك المركزي…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "تتحرك باريس وبرلين لحسم خلافة كريستين لاغارد على رأس البنك المركزي الأوروبي، إذ تفضل فرنسا المرشح الإسباني بابلو إرنانديز دي كوس على منافسه الهولندي كلاس كنوت، وتسعى إلى التفاهم مع ألمانيا على تقاسم مناصب أخرى في البنك. والمهلة ضيقة، إذ يتطلب التعيين استكمال سلسلة من الإجراءات الرسمية المنصوص عليها في المعاهدات الأوروبية، تبدأ بتوصية مجموعة اليورو باسم مرشح، ثم استشارة البرلمان الأوروبي ومجلس محافظي البنك المركزي…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "647ab9a445b20f36",
    "score": 6.059,
    "sources": [
@@ -1536,90 +1502,6 @@
     "watch_next_en": "",
     "summary_ar": "أعلنت وزارة الكهرباء والماء والطاقة المتجددة تنفيذ أعمال الصيانة الدورية لعدد من محطات التحويل الثانوية في 9 مناطق سكنية، غدا السبت، ما يستدعي فصل التيار الكهربائي مؤقتا عن المناطق المشمولة بأعمال الصيانة، وذلك في إطار برنامج الصيانة الدورية الذي تنفذه الوزارة للمحافظة على كفاءة الشبكة الكهربائية وضمان استمرارية عمل مكوناتها. وبينت الوزارة أن أعمال الصيانة تبدأ اعتبارا من الثامنة صباحا ولمدة أربع ساعات، موضحة أن مدة…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "15caf93439cb3504",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Today in Kuwait’s history",
-     "url": "https://kuwaittimes.com/article/53564/kuwait/today-in-kuwaits-history/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Following are events that took place in Kuwait on Nov 13:1954 — Twelve students began studying carpentry at the Industrial College, marking the start of studies at the newl...",
-     "body": "KUWAIT: Following are events that took place in Kuwait on Nov 13:\n\n1954 — Twelve students began studying carpentry at the Industrial College, marking the start of studies at the newly established college.\n\n1973 — Nine Kuwait Army soldiers from the Yarmouk Brigade were martyred in battles at the Suez Canal. They were buried in martyrs’ cemeteries in Egypt.\n\n1993 — Amir Sheikh Jaber Al-Ahmad Al-Sabah signed a decree establishing the Kuwait Awqaf Public Foundation to oversee waqf, or endowments.\n\n1994 — Kuwait hosted the first meeting of GCC speakers of legislative assemblies and chairmen of shura councils, who discussed security, economic, social and political affairs.\n\n2008 — Kuwait’s Court of Cassation ordered the immediate suspension of trading on the Kuwait Stock Exchange and the postponement of forward transactions, pending a ruling in a lawsuit filed to halt market losses. The suspension lasted five days.\n\n2011 — Kuwaiti inventors Abdullah Abulqassem and Sadeq Qassem won three gold medals at an inventions exhibition for East Asian states hosted by Croatia.\n\n2013 — Amir Sheikh Sabah Al-Ahmad Al-Sabah ordered a $10 million donation to the Philippines to help cyclone victims.\n\n2018 — Iraq handed back to Kuwait part of its national archive stolen during the 1990-91 Iraqi occupation, in line with UN Security Council resolutions. The materials included films and books belonging to Kuwait University and Kuwait TV.\n\n2024 — The Ministry of Information launched its visual identity, including a comprehensive guide to its components, represented by the emblem and the national blue color. — KUNA\n\nWarm Friday with scattered clouds, cold night ahead\n\nSecurity campaigns net dozens of violators; 3 held with synthetic drugs\n\nMilitary, security authorities meet",
-     "published": "2026-11-13T10:11:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Today in Kuwait’s history",
-    "headline_ar": "",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait"
-    ],
-    "_source": "extractive",
-    "summary_en": "KUWAIT: Following are events that took place in Kuwait on Nov 13: 1954 — Twelve students began studying carpentry at the Industrial College, marking the start of studies at the newly established college. 1973 — Nine Kuwait Army soldiers from the Yarmouk Brigade were martyred in battles at the Suez Canal. They were buried in martyrs’ cemeteries in Egypt.",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "57861ff99714a211",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Warm Friday with scattered clouds, cold night ahead",
-     "url": "https://kuwaittimes.com/article/53559/kuwait/warm-friday-with-scattered-clouds-cold-night-ahead/",
-     "section": "kuwait",
-     "summary": "KUWAIT: Kuwait will see warm weather on Friday with some scattered clouds, followed by a rather cold to cold night, the Meteorological Department said.Light to moderate northwester...",
-     "body": "KUWAIT: Kuwait will see warm weather on Friday with some scattered clouds, followed by a rather cold to cold night, the Meteorological Department said.\n\nLight to moderate northwesterly winds will blow at 12 to 40 km per hour during the day, at times freshening over coastal areas. The night will be partly cloudy, with similar winds.\n\nHighs are expected to reach 24 degrees Celsius in Kuwait City and at Kuwait Airport, 23 degrees Celsius in Nuwaisib and Wafra, 22 degrees Celsius in Jal Aliyah and 21 degrees Celsius in Salmy.\n\nThe department’s four-day outlook shows warm weather throughout. Highs will rise from 26 degrees Celsius on Saturday to 27 degrees Celsius on Sunday and 28 degrees Celsius on Monday and Tuesday. Lows will range between 13 and 15 degrees Celsius.\n\nNorthwesterly winds will blow at 12 to 40 km per hour on Saturday and 12 to 35 km per hour on Sunday and Monday. Winds will be variable to northwesterly at 8 to 28 km per hour on Tuesday.\n\nNo weather warnings are in effect. — Meteorological Department\n\nSecurity campaigns net dozens of violators; 3 held with synthetic drugs\n\nMilitary, security authorities meet\n\nKuwait knows it can count on France: French envoy",
-     "published": "2026-11-13T07:10:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "Warm Friday with scattered clouds, cold night ahead",
-    "headline_ar": "",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait"
-    ],
-    "_source": "extractive",
-    "summary_en": "KUWAIT: Kuwait will see warm weather on Friday with some scattered clouds, followed by a rather cold to cold night, the Meteorological Department said. Light to moderate northwesterly winds will blow at 12 to 40 km per hour during the day, at times freshening over coastal areas. The night will be partly cloudy, with similar winds.",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1667,28 +1549,46 @@
    }
   },
   {
-   "key": "4c62ef9320da1cda",
-   "score": 6.058,
+   "key": "46bc957fa0d15bc5",
+   "score": 6.0,
    "sources": [
-    "Kuwait Times"
+    "الأنباء"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "PAFN busts 7 illegal food businesses in Capital homes",
-     "url": "https://kuwaittimes.com/article/53566/kuwait/pafn-busts-7-illegal-food-businesses-in-capital-homes/",
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات والحاسوب»",
+     "url": "https://www.alanba.com.kw/1384927",
      "section": "kuwait",
-     "summary": "KUWAIT: The Public Authority for Food and Nutrition (PAFN) uncovered seven illegal food establishments operating inside five private homes in the Capital Governorate and issued 33...",
-     "body": "",
-     "published": "2026-11-13T10:26:00+03:00",
+     "summary": "",
+     "body": "تجارب تفاعلية وأسئلة تفتح آفاق الاكتشاف في «شهر العلوم 2026»، الذي تنظّمه مؤسسة الكويت للتقدم العلمي (KFAS) تحت شعار «الرياضيات والحاسوب»، من 12 نوفمبر إلى 12 ديسمبر.\n\nانطلقت الفعاليات من مركز الشيخ عبدالله السالم الثقافي، وشهد الافتتاح مشاركة مراكز المؤسسة والأندية العلمية في الجامعات الحكومية والخاصة، بأنشطة تقرّب العلوم من الأطفال والعائلات، بالتزامن مع احتفاء المؤسسة بمرور 50 عامًا على تأسيسها",
+     "published": "2026-11-13T11:49:43+00:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "مؤسسة الكويت للتقدم العلمي تطلق «شهر العلوم 2026» تحت شعار «الرياضيات والحاسوب»",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "تجارب تفاعلية وأسئلة تفتح آفاق الاكتشاف في «شهر العلوم 2026»، الذي تنظّمه مؤسسة الكويت للتقدم العلمي (KFAS) تحت شعار «الرياضيات والحاسوب»، من 12 نوفمبر إلى 12 ديسمبر. انطلقت الفعاليات من مركز الشيخ عبدالله السالم الثقافي، وشهد الافتتاح مشاركة مراكز المؤسسة والأندية العلمية في الجامعات الحكومية والخاصة، بأنشطة تقرّب العلوم من الأطفال والعائلات، بالتزامن مع احتفاء المؤسسة بمرور 50 عامًا على تأسيسها",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "تجارب تفاعلية وأسئلة تفتح آفاق الاكتشاف في «شهر العلوم 2026»، الذي تنظّمه مؤسسة الكويت للتقدم العلمي (KFAS) تحت شعار «الرياضيات والحاسوب»، من 12 نوفمبر إلى 12 ديسمبر. انطلقت الفعاليات من مركز الشيخ عبدالله السالم الثقافي، وشهد الافتتاح مشاركة مراكز المؤسسة والأندية العلمية في الجامعات الحكومية والخاصة، بأنشطة تقرّب العلوم من الأطفال والعائلات، بالتزامن مع احتفاء المؤسسة بمرور 50 عامًا على تأسيسها",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
   },
   {
    "key": "1aba26d60df2ea26",
@@ -1706,17 +1606,125 @@
      "url": "https://www.alanba.com.kw/1384923",
      "section": "kuwait",
      "summary": "",
-     "body": "",
+     "body": "بعد آلاف السنين من وفاته، كشفت حصاة صغيرة عثر عليها بين عظام رجل من العصر البرونزي عن مرض مؤلم ربما لازمه سنوات طويلة قبل رحيله.\n\nوتعود البقايا إلى رجل توفي في الأربعينيات من عمره ودفن قبل نحو 5300 عام داخل تل جنائزي قديم في منطقة ستافروبول جنوب روسيا قرب البحر الأسود.\n\nوخلال فحص عظامه لاحظ الباحثون كتلة بنية مستديرة يبلغ قطرها نحو 2.1 سنتيمتر تشبه حبة عنب صغيرة.\n\nوأظهرت التحاليل التي أجراها فريق بقيادة عالمة الأنثروبولوجيا ناتاليا بيريزينا من جامعة موسكو الحكومية أن الكتلة حصاة بولية تحتوي على معدن «ويتلوكيت» المرتبط بتكون الحصوات المصاحبة للعدوى البكتيرية.\n\nويرجح العلماء أن الرجل عانى التهابا مزمنا في المسالك البولية تسبب له بآلام متكررة وربما استمرت معاناته سنوات.\n\nولم تكن الحصاة مشكلته الصحية الوحيدة، فقد كشفت عظامه عن تآكل واسع في المفاصل وكسور قديمة التأمت وهو ما يعكس حياة شاقة ارتبطت على الأرجح برعي الماشية والعمل البدني.\n\nولا يعرف الباحثون إن كانت الحصاة قد ساهمت بوفاته، لكن الاكتشاف يقدم دليلا نادرا على الأمراض التي عانى منها البشر قبل ظهور الطب الحديث.",
      "published": "2026-11-13T09:08:55+00:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "حصاة بحجم حبة عنب تكشف معاناة رجل عاش قبل 5300 عام",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "بعد آلاف السنين من وفاته، كشفت حصاة صغيرة عثر عليها بين عظام رجل من العصر البرونزي عن مرض مؤلم ربما لازمه سنوات طويلة قبل رحيله. وتعود البقايا إلى رجل توفي في الأربعينيات من عمره ودفن قبل نحو 5300 عام داخل تل جنائزي قديم في منطقة ستافروبول جنوب روسيا قرب البحر الأسود. وخلال فحص عظامه لاحظ الباحثون كتلة بنية مستديرة يبلغ قطرها نحو 2.1 سنتيمتر تشبه حبة عنب صغيرة.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "بعد آلاف السنين من وفاته، كشفت حصاة صغيرة عثر عليها بين عظام رجل من العصر البرونزي عن مرض مؤلم ربما لازمه سنوات طويلة قبل رحيله. وتعود البقايا إلى رجل توفي في الأربعينيات من عمره ودفن قبل نحو 5300 عام داخل تل جنائزي قديم في منطقة ستافروبول جنوب روسيا قرب البحر الأسود. وخلال فحص عظامه لاحظ الباحثون كتلة بنية مستديرة يبلغ قطرها نحو 2.1 سنتيمتر تشبه حبة عنب صغيرة.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "fda6a762d38b6b05",
+   "score": 5.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ترامب وشي وبوتين سيعقدون محادثات ثلاثية الخميس في الصين",
+     "url": "https://www.alraimedia.com/article/1786040/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%88%D8%B4%D9%8A-%D9%88%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D8%B3%D9%8A%D8%B9%D9%82%D8%AF%D9%88%D9%86-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D9%85%D9%8A%D8%B3-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86",
+     "section": "world",
+     "summary": "أعلن البيت الأبيض الجمعة، أن الرئيس الأميركي دونالد ترامب ونظيريه الروسي فلاديمير بوتين والصيني شي جينبينغ، سيعقدون اجتماعا ثلاثيا الأسبوع المقبل على هامش قمة منتدى التعاون الاقتصا...",
+     "body": "أعلن البيت الأبيض الجمعة، أن الرئيس الأميركي دونالد ترامب ونظيريه الروسي فلاديمير بوتين والصيني شي جينبينغ، سيعقدون اجتماعا ثلاثيا الأسبوع المقبل على هامش قمة منتدى التعاون الاقتصادي لدول آسيا والمحيط الهادئ «أبيك» التي تستضيفها مدينة شنجن الصينية.\n\nوصرحت أوليفيا ويلز، المتحدثة باسم البيت الأبيض، للصحافيين في شأن المحادثات المقررة الخميس، قائلة «أوضح الرئيس أنه سيناقش، من بين موضوعات أخرى، مسألة خفض الأسلحة النووية في العالم»، مضيفة أن «الرئيس ترامب يعتقد بأن هذا الانتشار يشكل خطورة بالغة».\n\nوزير النقل الأميركي: إعادة حركة الطيران إلى طبيعتها ستستغرق بعض الوقت منذ 4 ساعات البيت الأبيض: ترامب سيلتقي بوتين وشي في الصين منذ 5 ساعات",
+     "published": "2026-11-14T09:14:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "ترامب وشي وبوتين سيعقدون محادثات ثلاثية الخميس في الصين",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "world"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلن البيت الأبيض الجمعة، أن الرئيس الأميركي دونالد ترامب ونظيريه الروسي فلاديمير بوتين والصيني شي جينبينغ، سيعقدون اجتماعا ثلاثيا الأسبوع المقبل على هامش قمة منتدى التعاون الاقتصادي لدول آسيا والمحيط الهادئ «أبيك» التي تستضيفها مدينة شنجن الصينية. وصرحت أوليفيا ويلز، المتحدثة باسم البيت الأبيض، للصحافيين في شأن المحادثات المقررة الخميس، قائلة «أوضح الرئيس أنه سيناقش، من بين موضوعات أخرى، مسألة خفض الأسلحة النووية…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "أعلن البيت الأبيض الجمعة، أن الرئيس الأميركي دونالد ترامب ونظيريه الروسي فلاديمير بوتين والصيني شي جينبينغ، سيعقدون اجتماعا ثلاثيا الأسبوع المقبل على هامش قمة منتدى التعاون الاقتصادي لدول آسيا والمحيط الهادئ «أبيك» التي تستضيفها مدينة شنجن الصينية. وصرحت أوليفيا ويلز، المتحدثة باسم البيت الأبيض، للصحافيين في شأن المحادثات المقررة الخميس، قائلة «أوضح الرئيس أنه سيناقش، من بين موضوعات أخرى، مسألة خفض الأسلحة النووية…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "ed63e6929c073160",
+   "score": 5.958,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "أميركا تعيد فتح مجالها الجوي",
+     "url": "https://www.aljarida.com/article/150413",
+     "section": "world",
+     "summary": "رفعت إدارة الطيران الفيدرالية الأمريكية مساء الجمعة تعليق الرحلات الجوية على مستوى البلاد، بعد ساعات من الاضطرابات التي أثرت على آلاف الرحلات في مختلف أنحاء البلاد. ومن المتوقع أن...",
+     "body": "",
+     "published": "2026-11-14T09:16:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "f60220fc6637b195",
+   "score": 5.9,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "نجاة ركاب سفينة سياحية انقلبت في نهر الميسيسيبي بعد اصطدام ناقلة نفط بها",
+     "url": "https://www.alanba.com.kw/1384957",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-14T05:07:34+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
    "key": "ba40caf47e1e3f36",
-   "score": 5.959,
+   "score": 5.759,
    "sources": [
     "الرأي"
    ],
@@ -1728,18 +1736,18 @@
      "lang": "ar",
      "title": "وزير النقل الأميركي: إعادة حركة الطيران إلى طبيعتها ستستغرق بعض الوقت",
      "url": "https://www.alraimedia.com/article/1786035/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86-%D8%A5%D9%84%D9%89-%D8%B7%D8%A8%D9%8A%D8%B9%D8%AA%D9%87%D8%A7-%D8%B3%D8%AA%D8%B3%D8%AA%D8%BA%D8%B1%D9%82-%D8%A8%D8%B9%D8%B6-%D8%A7%D9%84%D9%88%D9%82%D8%AA",
-     "section": "world",
+     "section": "latest",
      "summary": "أكد وزير النقل الأميركي شون دافي فجر اليوم السبت أن إعادة حركة الطيران إلى طبيعتها في الولايات المتحدة ستستغرق بعض الوقت، مشيرا إلى أن إعادة فتح المجال الجوي لا تعني استئناف جميع ا...",
      "body": "",
      "published": "2026-11-14T04:44:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
-   "key": "a77c85d159845415",
+   "key": "6e43a3fb1b08257e",
    "score": 5.759,
    "sources": [
     "الرأي"
@@ -1750,16 +1758,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "الظفيري تحقق المركز الأول في البطولة الأولى لالتقاط الأوتاد النسائية",
-     "url": "https://www.alraimedia.com/article/1786029/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A7%D9%84%D8%B8%D9%81%D9%8A%D8%B1%D9%8A-%D8%AA%D8%AD%D9%82%D9%82-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%84%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%A3%D9%88%D8%AA%D8%A7%D8%AF-%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9",
+     "title": "إلغاء قرار وقف الرحلات الجوية في الولايات المتحدة بعد تعطل دام ساعات",
+     "url": "https://www.alraimedia.com/article/1786032/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A5%D9%84%D8%BA%D8%A7%D8%A1-%D9%82%D8%B1%D8%A7%D8%B1-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B9%D8%B7%D9%84-%D8%AF%D8%A7%D9%85-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA",
      "section": "latest",
-     "summary": "حققت الفارسة ملاك الظفيري المركز الأول برصيد 5ر39 نقطة بالبطولة الأولى لالتقاط الأوتاد النسائية التي نظمها الاتحاد الكويتي للفروسية اليوم الجمعة بنادي الصيد الفروسية.من جهتها حلت ا...",
+     "summary": "أعلنت إدارة الطيران الفيدرالية الأميركية إلغاء قرار قرار وقف إقلاع الرحلات من المطار الأميركية، وذلك بعد توقف استمر أكثر من 4 ساعات بسبب توقف أجهزة الاتصالات، وأدى إلى إلغاء نحو 10...",
      "body": "",
-     "published": "2026-11-13T22:37:00+03:00",
+     "published": "2026-11-14T00:14:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Sport",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -1784,6 +1792,54 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "cbe518f2583d73c7",
+   "score": 5.755,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "البيت الأبيض: ترامب سيلتقي بوتين وشي في الصين",
+     "url": "https://www.alraimedia.com/article/1786034/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%B3%D9%8A%D9%84%D8%AA%D9%82%D9%8A-%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D9%88%D8%B4%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "قال ​متحدث باسم ‌البيت الأبيض أمس الجمعة إن الرئيس ⁠الأمريكي دونالد ترامب ⁠سيلتقي بالرئيس الروسي ⁠فلاديمير ‌بوتين والرئيس الصيني شي جينبينغ في ختام زيارته إلى الصين ​هذا...",
+     "body": "",
+     "published": "2026-11-14T04:16:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "1256d639dcfaa0ea",
+   "score": 5.459,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "باريس وبرلين تتحركان لحسم خلافة لاغارد على رأس البنك المركزي الأوروبي",
+     "url": "https://www.alraimedia.com/article/1786011/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3-%D9%88%D8%A8%D8%B1%D9%84%D9%8A%D9%86-%D8%AA%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D9%86-%D9%84%D8%AD%D8%B3%D9%85-%D8%AE%D9%84%D8%A7%D9%81%D8%A9-%D9%84%D8%A7%D8%BA%D8%A7%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A",
+     "section": "economy",
+     "summary": "تتحرك باريس وبرلين لحسم خلافة كريستين لاغارد على رأس البنك المركزي الأوروبي، إذ تفضل فرنسا المرشح الإسباني بابلو إرنانديز دي كوس على منافسه الهولندي كلاس كنوت، وتسعى إلى التفاهم مع...",
+     "body": "",
+     "published": "2026-11-13T14:59:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -1835,30 +1891,6 @@
    "analysis": {}
   },
   {
-   "key": "83dc9a264bf6b5ae",
-   "score": 5.419,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "أمين عام \"التعاون الخليجي\": الاعتداءات الإيرانية تتطلب تحركاً دولياً ونتمسك بحقنا الأصيل في الدفاع عن النفس",
-     "url": "https://www.alanba.com.kw/1384955",
-     "section": "gulf",
-     "summary": "الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي",
-     "body": "",
-     "published": "2026-11-13T20:51:36+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "d1b502ff7ca26868",
    "score": 5.159,
    "sources": [
@@ -1883,7 +1915,7 @@
    "analysis": {}
   },
   {
-   "key": "6e43a3fb1b08257e",
+   "key": "a77c85d159845415",
    "score": 5.159,
    "sources": [
     "الرأي"
@@ -1894,16 +1926,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "إلغاء قرار وقف الرحلات الجوية في الولايات المتحدة بعد تعطل دام ساعات",
-     "url": "https://www.alraimedia.com/article/1786032/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A5%D9%84%D8%BA%D8%A7%D8%A1-%D9%82%D8%B1%D8%A7%D8%B1-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B9%D8%B7%D9%84-%D8%AF%D8%A7%D9%85-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA",
-     "section": "world",
-     "summary": "أعلنت إدارة الطيران الفيدرالية الأميركية إلغاء قرار قرار وقف إقلاع الرحلات من المطار الأميركية، وذلك بعد توقف استمر أكثر من 4 ساعات بسبب توقف أجهزة الاتصالات، وأدى إلى إلغاء نحو 10...",
+     "title": "الظفيري تحقق المركز الأول في البطولة الأولى لالتقاط الأوتاد النسائية",
+     "url": "https://www.alraimedia.com/article/1786029/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%A7%D9%84%D8%B8%D9%81%D9%8A%D8%B1%D9%8A-%D8%AA%D8%AD%D9%82%D9%82-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%84%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%A3%D9%88%D8%AA%D8%A7%D8%AF-%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9",
+     "section": "latest",
+     "summary": "حققت الفارسة ملاك الظفيري المركز الأول برصيد 5ر39 نقطة بالبطولة الأولى لالتقاط الأوتاد النسائية التي نظمها الاتحاد الكويتي للفروسية اليوم الجمعة بنادي الصيد الفروسية.من جهتها حلت ا...",
      "body": "",
-     "published": "2026-11-14T00:14:00+03:00",
+     "published": "2026-11-13T22:37:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Sport",
    "analysis": {}
   },
   {
@@ -1928,6 +1960,30 @@
     }
    ],
    "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "1a6e4b0d779e3688",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "أمير قطر والرئيس التركي يوقعان على اتفاقية الدفاع المشترك بين البلدين",
+     "url": "https://www.alraimedia.com/article/1786020/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A3%D9%85%D9%8A%D8%B1-%D9%82%D8%B7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A-%D9%8A%D9%88%D9%82%D8%B9%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D9%86",
+     "section": "latest",
+     "summary": "وقّع أمير قطر الشيخ تميم بن حمد آل ثاني، والرئيس التركي رجب طيب أردوغان على اتفاقية الدفاع المشترك بين دولة قطر والجمهورية التركية، وذلك في قصر دولما بهتشه بمدينة إسطنبول مساء اليو...",
+     "body": "",
+     "published": "2026-11-13T18:44:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -2003,6 +2059,30 @@
    "analysis": {}
   },
   {
+   "key": "48ebe90c28fda526",
+   "score": 5.158,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الاتحاد الأوروبي يشدد على أهمية مشاركته في مفاوضات السلام بين روسيا وأوكرانيا لحماية مصالحه",
+     "url": "https://www.alraimedia.com/article/1786018/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B4%D8%AF%D8%AF-%D8%B9%D9%84%D9%89-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%AA%D9%87-%D9%81%D9%8A-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D9%8A%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%88%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D9%85%D8%B5%D8%A7%D9%84%D8%AD%D9%87",
+     "section": "latest",
+     "summary": "شددت رئيسة المفوضية الأوروبية أورسولا فون دير لاين اليوم الجمعة على أهمية مشاركة الاتحاد الأوروبي في مفاوضات إنهاء الحرب الروسية - الأوكرانية مؤكدة أن «الحضور الأوروبي ضروري لضمان...",
+     "body": "",
+     "published": "2026-11-13T17:38:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "9d47d1e6e3e71e57",
    "score": 5.157,
    "sources": [
@@ -2016,14 +2096,14 @@
      "lang": "ar",
      "title": "أميركا تمدد تعليق العمل بقانون الشحن للسماح بحرية أكبر في نقل النفط والسلع",
      "url": "https://www.alraimedia.com/article/1786030/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D9%85%D8%AF%D8%AF-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A8%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B4%D8%AD%D9%86-%D9%84%D9%84%D8%B3%D9%85%D8%A7%D8%AD-%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9-%D8%A3%D9%83%D8%A8%D8%B1-%D9%81%D9%8A-%D9%86%D9%82%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%B9",
-     "section": "world",
+     "section": "latest",
      "summary": "قال ​مسؤول في البيت الأبيض، اليوم الجمعة، إن الرئيس ⁠الأميركي دونالد ترامب مدد تعليق العمل بقانون ​الشحن البحري لمدة 90 يوما للسماح للسفن التي ترفع أعلاما أجنبية بنقل ‌النفط و...",
      "body": "",
      "published": "2026-11-13T23:38:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
@@ -2044,54 +2124,6 @@
      "summary": "نقلت وكالة رويترز عن إدارة الطيران الفيدرالية الأميركية اليوم قرارها وقف الرحلات في كل البلاد لظروف استثنائية ودواعٍ تتعلق بالسلامة.وقال وزير النقل الأميركي شون دافي إن م...",
      "body": "",
      "published": "2026-11-14T01:23:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "adf8747d40095ddb",
-   "score": 5.155,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "بوكيتينو يترك تدريب منتخب أميركا لينتقل إلى «مانشستر يونايتد»",
-     "url": "https://www.alraimedia.com/article/1786013/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%A8%D9%88%D9%83%D9%8A%D8%AA%D9%8A%D9%86%D9%88-%D9%8A%D8%AA%D8%B1%D9%83-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D9%84%D9%8A%D9%86%D8%AA%D9%82%D9%84-%D8%A5%D9%84%D9%89-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF",
-     "section": "latest",
-     "summary": "عين ​نادي مانشستر يونايتد الأرجنتيني ‌ماوريسيو بوكيتينو مدربا للفريق اليوم بعد إقالة مايكل كاريك، مع ⁠وجود الفريق المنافس في الدوري ⁠الإنجليزي الممتاز لكرة ⁠القدم ‌في منط...",
-     "body": "",
-     "published": "2026-11-13T15:25:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "cbe518f2583d73c7",
-   "score": 5.155,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "البيت الأبيض: ترامب سيلتقي بوتين وشي في الصين",
-     "url": "https://www.alraimedia.com/article/1786034/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%B3%D9%8A%D9%84%D8%AA%D9%82%D9%8A-%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D9%88%D8%B4%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86",
-     "section": "world",
-     "summary": "قال ​متحدث باسم ‌البيت الأبيض أمس الجمعة إن الرئيس ⁠الأمريكي دونالد ترامب ⁠سيلتقي بالرئيس الروسي ⁠فلاديمير ‌بوتين والرئيس الصيني شي جينبينغ في ختام زيارته إلى الصين ​هذا...",
-     "body": "",
-     "published": "2026-11-14T04:16:00+03:00",
      "tier": 1
     }
    ],
@@ -2123,30 +2155,6 @@
    "analysis": {}
   },
   {
-   "key": "172f1175ca148374",
-   "score": 5.152,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "البديوي لمجلس الأمن: أمن دول مجلس التعاون كلّ لا يتجزأ",
-     "url": "https://www.aljarida.com/article/150406",
-     "section": "world",
-     "summary": "قال الأمين العام لمجلس التعاون الخليجي جاسم البديوي في كلمة أمام مجلس الأمن الدولي خلال جلسة بشأن التطورات في المنطقة إن أمن دول مجلس التعاون كلّ لا يتجزأ و«دو...",
-     "body": "",
-     "published": "2026-11-13T23:33:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "76c46680bf9ce8bb",
    "score": 5.152,
    "sources": [
@@ -2171,8 +2179,8 @@
    "analysis": {}
   },
   {
-   "key": "8fdabbca1336dcd5",
-   "score": 5.1,
+   "key": "83dc9a264bf6b5ae",
+   "score": 4.819,
    "sources": [
     "الأنباء"
    ],
@@ -2182,36 +2190,12 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "\"فوكس نيوز\": عمليات بحث وإنقاذ في \"نيو أورليانز\" بعد اصطدام ناقلة نفط بسفينة سياحية",
-     "url": "https://www.alanba.com.kw/1384957",
-     "section": "world",
-     "summary": "",
+     "title": "أمين عام \"التعاون الخليجي\": الاعتداءات الإيرانية تتطلب تحركاً دولياً ونتمسك بحقنا الأصيل في الدفاع عن النفس",
+     "url": "https://www.alanba.com.kw/1384955",
+     "section": "gulf",
+     "summary": "الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي",
      "body": "",
-     "published": "2026-11-13T21:57:57+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "028f5f168454f66d",
-   "score": 5.1,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "\"مايكروسوفت\" تعتذر عن العطل التقني العالمي: عالجنا المشكلة الأساسية بخدمة \"365\" والخدمات تعود تدريجياً",
-     "url": "https://www.alanba.com.kw/1384926",
-     "section": "world",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-13T19:48:22+00:00",
+     "published": "2026-11-13T20:51:36+00:00",
      "tier": 1
     }
    ],
@@ -2243,30 +2227,6 @@
    "analysis": {}
   },
   {
-   "key": "1a6e4b0d779e3688",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "أمير قطر والرئيس التركي يوقعان على اتفاقية الدفاع المشترك بين البلدين",
-     "url": "https://www.alraimedia.com/article/1786020/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A3%D9%85%D9%8A%D8%B1-%D9%82%D8%B7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A-%D9%8A%D9%88%D9%82%D8%B9%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D9%86",
-     "section": "world",
-     "summary": "وقّع أمير قطر الشيخ تميم بن حمد آل ثاني، والرئيس التركي رجب طيب أردوغان على اتفاقية الدفاع المشترك بين دولة قطر والجمهورية التركية، وذلك في قصر دولما بهتشه بمدينة إسطنبول مساء اليو...",
-     "body": "",
-     "published": "2026-11-13T18:44:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "9c0a80632a6a2fc5",
    "score": 4.559,
    "sources": [
@@ -2280,10 +2240,34 @@
      "lang": "ar",
      "title": "البديوي يدعو لموقف دولي يضع حدا لاستمرار الاعتداءات الإسرائيلية على المنشآت الصحية في غزة",
      "url": "https://www.alraimedia.com/article/1786010/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%A8%D8%AF%D9%8A%D9%88%D9%8A-%D9%8A%D8%AF%D8%B9%D9%88-%D9%84%D9%85%D9%88%D9%82%D9%81-%D8%AF%D9%88%D9%84%D9%8A-%D9%8A%D8%B6%D8%B9-%D8%AD%D8%AF%D8%A7-%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9",
-     "section": "world",
+     "section": "latest",
      "summary": "دان الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي اليوم، استمرار الانتهاكات التي ترتكبها قوات الاحتلال الإسرائيلي ضد الشعب الفلسطيني في قطاع غزة وآخرها القصف الذي است...",
      "body": "",
      "published": "2026-11-13T14:50:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "311aa9859163f2b9",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "روسيا تريد معرفة «نوايا» الأوروبيين قبل إشراكهم في المفاوضات حول أوكرانيا",
+     "url": "https://www.alraimedia.com/article/1786008/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%AA%D8%B1%D9%8A%D8%AF-%D9%85%D8%B9%D8%B1%D9%81%D8%A9-%D9%86%D9%88%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D9%8A%D9%86-%D9%82%D8%A8%D9%84-%D8%A5%D8%B4%D8%B1%D8%A7%D9%83%D9%87%D9%85-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%AD%D9%88%D9%84-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
+     "section": "latest",
+     "summary": "قالت روسيا، اليوم، إنها تريد معرفة «نوايا» الأوروبيين قبل إشراكهم في المحادثات التي ترعاها الولايات المتحدة لإنهاء الحرب في أوكرانيا، بعد أن ذكر الرئيس الأوكراني فولوديمير زيلينسكي...",
+     "body": "",
+     "published": "2026-11-13T13:44:00+03:00",
      "tier": 1
     }
    ],
@@ -2315,6 +2299,54 @@
    "analysis": {}
   },
   {
+   "key": "37583dc523d46af7",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الصين تحذر من اضطراب سلاسل التوريد إذا شددت الولايات المتحدة قيود الرقائق",
+     "url": "https://www.alraimedia.com/article/1786005/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8-%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D9%8A%D8%AF-%D8%A5%D8%B0%D8%A7-%D8%B4%D8%AF%D8%AF%D8%AA-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%82%D9%8A%D9%88%D8%AF-%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A6%D9%82",
+     "section": "latest",
+     "summary": "قالت ⁠المتحدثة باسم ​وزارة الخارجية الصينية ماو نينغ اليوم، إن بكين «تعارض على الدوام استغلال تدابير الرقابة على الصادرات» وذلك ⁠في ردها على سؤال حول القيود ⁠الأكثر صرامة على الرقا...",
+     "body": "",
+     "published": "2026-11-13T12:43:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "7972511e1a4571dc",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«الطاقة الذرية»: لم نتلق معلومات من إيران عن منشآتها وموادها النووية باستثناء محطة بوشهر",
+     "url": "https://www.alraimedia.com/article/1786004/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B0%D8%B1%D9%8A%D8%A9-%D9%84%D9%85-%D9%86%D8%AA%D9%84%D9%82-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%86-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D9%86-%D9%85%D9%86%D8%B4%D8%A2%D8%AA%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%A7%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%D8%A9-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D8%A1-%D9%85%D8%AD%D8%B7%D8%A9-%D8%A8%D9%88%D8%B4%D9%87%D8%B1",
+     "section": "latest",
+     "summary": "قالت الوكالة الدولية ​للطاقة الذرية إنها لم تتمكن من الوصول للمنشآت النووية الإيرانية منذ هجمات يونيو 2025، مشيرة إلى أننا \"لم نتلق معلومات من إيران عن منشآتها وموادها النووية باست...",
+     "body": "",
+     "published": "2026-11-13T11:39:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "8f5aae81a08dc080",
    "score": 4.559,
    "sources": [
@@ -2336,6 +2368,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "15caf93439cb3504",
+   "score": 4.559,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Today in Kuwait’s history",
+     "url": "https://kuwaittimes.com/article/53564/kuwait/today-in-kuwaits-history/",
+     "section": "latest",
+     "summary": "KUWAIT: Following are events that took place in Kuwait on Nov 13:1954 — Twelve students began studying carpentry at the Industrial College, marking the start of studies at the newl...",
+     "body": "",
+     "published": "2026-11-13T10:11:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2363,6 +2419,30 @@
    "analysis": {}
   },
   {
+   "key": "75905871bd48c6aa",
+   "score": 4.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ماليزيا تكثف تحقيقاتها بشأن احتمال تهريب رقائق للذكاء الاصطناعي",
+     "url": "https://www.alraimedia.com/article/1785999/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%A7%D9%84%D9%8A%D8%B2%D9%8A%D8%A7-%D8%AA%D9%83%D8%AB%D9%81-%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%87%D8%A7-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84-%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%84%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+     "section": "latest",
+     "summary": "أعلنت ماليزيا اليوم أنها فتحت تحقيقا حول أحد فروع مجموعة «ميغاسبيد إنترناشونال» بشأن احتمال تهريب رقائق للذكاء الاصطناعي إلى دول أخرى، في تطور يوسّع نطاق الفضيحة التي تطال شركة إنف...",
+     "body": "",
+     "published": "2026-11-13T09:34:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
    "key": "4f78b8c20b67290d",
    "score": 4.559,
    "sources": [
@@ -2387,123 +2467,27 @@
    "analysis": {}
   },
   {
-   "key": "7aa28c84fd746461",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "US, Ukraine say Europe to join Russia talks as Putin holds hard line",
-     "url": "https://kuwaittimes.com/article/53560/world/us-ukraine-say-europe-to-join-russia-talks-as-putin-holds-hard-line/",
-     "section": "latest",
-     "summary": "DUBLIN: Ukrainian President Volodymyr Zelensky and US envoy Jared Kushner said on Thursday that Europe would join the next round of talks with Russia, as Vladimir Putin signaled Mo...",
-     "body": "",
-     "published": "2026-11-13T07:14:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "a0abb1d8af6304b8",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "England reach Nations League quarters as Italy beat Zidane’s France",
-     "url": "https://kuwaittimes.com/article/53558/sports/england-reach-nations-league-quarters-as-italy-beat-zidanes-france/",
-     "section": "latest",
-     "summary": "PARIS: England secured their place in the Nations League quarterfinals with a 2-1 win over Croatia on Thursday, while Zinedine Zidane suffered his first defeat as France coach in a...",
-     "body": "",
-     "published": "2026-11-13T07:04:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "06363f4ec13823ba",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Paraguay bank crisis drains life from bustling market",
-     "url": "https://kuwaittimes.com/article/53556/world/paraguay-bank-crisis-drains-life-from-bustling-market/",
-     "section": "latest",
-     "summary": "ASUNCION: Maria Martinez, who gets up at 3:00 am every day to sell fruit, household chemicals and other goods at a market in Paraguay’s capital, says sales have hit rock bottom sin...",
-     "body": "",
-     "published": "2026-11-13T06:42:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "2b09e2c3cdefd119",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Tenant kills building manager, wounds 4 in Washington shooting",
-     "url": "https://kuwaittimes.com/article/53555/world/tenant-kills-building-manager-wounds-4-in-washington-shooting/",
-     "section": "latest",
-     "summary": "WASHINGTON: A tenant shot dead his building manager and wounded four other people in an upscale Washington neighborhood on Thursday before killing himself, police said, after a mas...",
-     "body": "",
-     "published": "2026-11-13T06:36:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "48ebe90c28fda526",
+   "key": "4c62ef9320da1cda",
    "score": 4.558,
    "sources": [
-    "الرأي"
+    "Kuwait Times"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الاتحاد الأوروبي يشدد على أهمية مشاركته في مفاوضات السلام بين روسيا وأوكرانيا لحماية مصالحه",
-     "url": "https://www.alraimedia.com/article/1786018/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%B4%D8%AF%D8%AF-%D8%B9%D9%84%D9%89-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%AA%D9%87-%D9%81%D9%8A-%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D9%8A%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%88%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D9%85%D8%B5%D8%A7%D9%84%D8%AD%D9%87",
-     "section": "world",
-     "summary": "شددت رئيسة المفوضية الأوروبية أورسولا فون دير لاين اليوم الجمعة على أهمية مشاركة الاتحاد الأوروبي في مفاوضات إنهاء الحرب الروسية - الأوكرانية مؤكدة أن «الحضور الأوروبي ضروري لضمان...",
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "PAFN busts 7 illegal food businesses in Capital homes",
+     "url": "https://kuwaittimes.com/article/53566/kuwait/pafn-busts-7-illegal-food-businesses-in-capital-homes/",
+     "section": "latest",
+     "summary": "KUWAIT: The Public Authority for Food and Nutrition (PAFN) uncovered seven illegal food establishments operating inside five private homes in the Capital Governorate and issued 33...",
      "body": "",
-     "published": "2026-11-13T17:38:00+03:00",
+     "published": "2026-11-13T10:26:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2555,54 +2539,6 @@
    "analysis": {}
   },
   {
-   "key": "a775ef1517c3b98c",
-   "score": 4.558,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Bollywood bolsters security as underworld fears return",
-     "url": "https://kuwaittimes.com/article/53557/world/bollywood-bolsters-security-as-underworld-fears-return/",
-     "section": "latest",
-     "summary": "MUMBAI: It sounds like a Bollywood thriller, but a spate of shootings and extortion threats targeting Mumbai’s film stars has sent the industry scrambling for bodyguards, reviving...",
-     "body": "",
-     "published": "2026-11-13T06:57:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "c45aeb89fe73286f",
-   "score": 4.557,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "دراسة: التعرض لدخان حرائق الغابات خلال الحمل مرتبط بربو الأطفال",
-     "url": "https://www.alraimedia.com/article/1785997/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D8%B6-%D9%84%D8%AF%D8%AE%D8%A7%D9%86-%D8%AD%D8%B1%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%BA%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%AD%D9%85%D9%84-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%B1%D8%A8%D9%88-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84",
-     "section": "latest",
-     "summary": "خلص باحثون من كاليفورنيا في الاجتماع ⁠السنوي للكلية الأميركية للحساسية والربو والمناعة ​الذي عقد في فينيكس إلى أن الأطفال الذين استنشقت ‌أمهاتهم دخان حرائق الغابات وملوثات اله...",
-     "body": "",
-     "published": "2026-11-13T07:26:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "de7e5b74c411bebd",
    "score": 4.557,
    "sources": [
@@ -2627,6 +2563,30 @@
    "analysis": {}
   },
   {
+   "key": "adf8747d40095ddb",
+   "score": 4.555,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بوكيتينو يترك تدريب منتخب أميركا لينتقل إلى «مانشستر يونايتد»",
+     "url": "https://www.alraimedia.com/article/1786013/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%A8%D9%88%D9%83%D9%8A%D8%AA%D9%8A%D9%86%D9%88-%D9%8A%D8%AA%D8%B1%D9%83-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D9%84%D9%8A%D9%86%D8%AA%D9%82%D9%84-%D8%A5%D9%84%D9%89-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D9%8A%D9%88%D9%86%D8%A7%D9%8A%D8%AA%D8%AF",
+     "section": "latest",
+     "summary": "عين ​نادي مانشستر يونايتد الأرجنتيني ‌ماوريسيو بوكيتينو مدربا للفريق اليوم بعد إقالة مايكل كاريك، مع ⁠وجود الفريق المنافس في الدوري ⁠الإنجليزي الممتاز لكرة ⁠القدم ‌في منط...",
+     "body": "",
+     "published": "2026-11-13T15:25:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
    "key": "22b289098ebfbf0b",
    "score": 4.554,
    "sources": [
@@ -2640,10 +2600,34 @@
      "lang": "ar",
      "title": "ألمانيا: نتوقع أن يؤثر عطل «مايكروسوفت» على عمل شركاتنا",
      "url": "https://www.alraimedia.com/article/1786012/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D9%86%D8%AA%D9%88%D9%82%D8%B9-%D8%A3%D9%86-%D9%8A%D8%A4%D8%AB%D8%B1-%D8%B9%D8%B7%D9%84-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA-%D8%B9%D9%84%D9%89-%D8%B9%D9%85%D9%84-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA%D9%86%D8%A7",
-     "section": "world",
+     "section": "latest",
      "summary": "​قال متحدث ‌باسم وزارة الشؤون الرقمية في ⁠ألمانيا اليوم، إن ⁠بلاده ‌تتوقع أن يكون لعطل تشهده خدمات ‌«مايكروسوفت» أثر كبير على ​الشركات الألمانية. لكن ⁠المتحدث أكد عد...",
      "body": "",
      "published": "2026-11-13T15:24:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "172f1175ca148374",
+   "score": 4.552,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "البديوي لمجلس الأمن: أمن دول مجلس التعاون كلّ لا يتجزأ",
+     "url": "https://www.aljarida.com/article/150406",
+     "section": "world",
+     "summary": "قال الأمين العام لمجلس التعاون الخليجي جاسم البديوي في كلمة أمام مجلس الأمن الدولي خلال جلسة بشأن التطورات في المنطقة إن أمن دول مجلس التعاون كلّ لا يتجزأ و«دو...",
+     "body": "",
+     "published": "2026-11-13T23:33:00+03:00",
      "tier": 1
     }
    ],
@@ -2651,7 +2635,7 @@
    "analysis": {}
   },
   {
-   "key": "9340637e2966662c",
+   "key": "028f5f168454f66d",
    "score": 4.5,
    "sources": [
     "الأنباء"
@@ -2662,12 +2646,12 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "مطلوب رواد فضاء.. «ناسا» تفتح باب الترشح لرحلات القمر",
-     "url": "https://www.alanba.com.kw/1384931",
+     "title": "\"مايكروسوفت\" تعتذر عن العطل التقني العالمي: عالجنا المشكلة الأساسية بخدمة \"365\" والخدمات تعود تدريجياً",
+     "url": "https://www.alanba.com.kw/1384926",
      "section": "world",
      "summary": "",
      "body": "",
-     "published": "2026-11-13T12:43:42+00:00",
+     "published": "2026-11-13T19:48:22+00:00",
      "tier": 1
     }
    ],
@@ -2699,8 +2683,80 @@
    "analysis": {}
   },
   {
-   "key": "171b0c3fa51c64d4",
-   "score": 4.2,
+   "key": "507759e292a50d54",
+   "score": 4.16,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "US airlines resume flights after nationwide FAA ground stop",
+     "url": "https://timeskuwait.com/us-airlines-resume-flights-after-nationwide-faa-ground-stop/",
+     "section": "latest",
+     "summary": "6,600 flights were cancelled and 8,600 delayed, while another 1,500 flights had already been cancelled for Sunday The United States reopened its airspace on Friday after a communications failure at air traffic control centres triggered a nationwide flight suspension, causing widespread disruption at airports and leaving thousands of passengers stranded. The Federal Aviation Administration (FAA) …\n\nThe post US airlines resume flights after nationwide FAA ground stop appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-14T06:10:52+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "c0b8ae6f51c4d76f",
+   "score": 4.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Netanyahu Shares Iran Intelligence With Eisenkot Amid Reports of Renewed Attack Plans",
+     "url": "https://www.arabtimesonline.com/news/netanyahu-shares-iran-intelligence-with-eisenkot-amid-reports-of-renewed-attack-plans/",
+     "section": "general",
+     "summary": "JERUSALEM, Nov 14: Israeli caretaker Prime Minister Benjamin Netanyahu has discussed the possible resumption of attacks on Iran with Gadi Eisenkot, who has been tasked with forming...",
+     "body": "",
+     "published": "2026-11-14T09:41:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "ee50b739b540715b",
+   "score": 4.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Trump Keeps Pressure on Iran but Avoids Return to War ‘For Now’",
+     "url": "https://www.arabtimesonline.com/news/trump-keeps-pressure-on-iran-but-avoids-return-to-war-for-now/",
+     "section": "latest",
+     "summary": "WASHINGTON, Nov 14: US President Donald Trump does not want to resume the war with Iran “for now,” according to a media report, even as his administration continues to maintain eco...",
+     "body": "",
+     "published": "2026-11-14T09:37:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "9340637e2966662c",
+   "score": 3.9,
    "sources": [
     "الأنباء"
    ],
@@ -2710,112 +2766,16 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "عودة البطلة ياسمين وليد برفقة والديها",
-     "url": "https://www.alanba.com.kw/1384951",
-     "section": "sport",
+     "title": "مطلوب رواد فضاء.. «ناسا» تفتح باب الترشح لرحلات القمر",
+     "url": "https://www.alanba.com.kw/1384931",
+     "section": "world",
      "summary": "",
      "body": "",
-     "published": "2026-11-13T19:29:47+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "311aa9859163f2b9",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "روسيا تريد معرفة «نوايا» الأوروبيين قبل إشراكهم في المفاوضات حول أوكرانيا",
-     "url": "https://www.alraimedia.com/article/1786008/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D8%AA%D8%B1%D9%8A%D8%AF-%D9%85%D8%B9%D8%B1%D9%81%D8%A9-%D9%86%D9%88%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D9%8A%D9%86-%D9%82%D8%A8%D9%84-%D8%A5%D8%B4%D8%B1%D8%A7%D9%83%D9%87%D9%85-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%AD%D9%88%D9%84-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
-     "section": "world",
-     "summary": "قالت روسيا، اليوم، إنها تريد معرفة «نوايا» الأوروبيين قبل إشراكهم في المحادثات التي ترعاها الولايات المتحدة لإنهاء الحرب في أوكرانيا، بعد أن ذكر الرئيس الأوكراني فولوديمير زيلينسكي...",
-     "body": "",
-     "published": "2026-11-13T13:44:00+03:00",
+     "published": "2026-11-13T12:43:42+00:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "37583dc523d46af7",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الصين تحذر من اضطراب سلاسل التوريد إذا شددت الولايات المتحدة قيود الرقائق",
-     "url": "https://www.alraimedia.com/article/1786005/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8-%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D9%8A%D8%AF-%D8%A5%D8%B0%D8%A7-%D8%B4%D8%AF%D8%AF%D8%AA-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%82%D9%8A%D9%88%D8%AF-%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A6%D9%82",
-     "section": "world",
-     "summary": "قالت ⁠المتحدثة باسم ​وزارة الخارجية الصينية ماو نينغ اليوم، إن بكين «تعارض على الدوام استغلال تدابير الرقابة على الصادرات» وذلك ⁠في ردها على سؤال حول القيود ⁠الأكثر صرامة على الرقا...",
-     "body": "",
-     "published": "2026-11-13T12:43:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "7972511e1a4571dc",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«الطاقة الذرية»: لم نتلق معلومات من إيران عن منشآتها وموادها النووية باستثناء محطة بوشهر",
-     "url": "https://www.alraimedia.com/article/1786004/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B0%D8%B1%D9%8A%D8%A9-%D9%84%D9%85-%D9%86%D8%AA%D9%84%D9%82-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%86-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D9%86-%D9%85%D9%86%D8%B4%D8%A2%D8%AA%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%A7%D8%AF%D9%87%D8%A7-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%D8%A9-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AB%D9%86%D8%A7%D8%A1-%D9%85%D8%AD%D8%B7%D8%A9-%D8%A8%D9%88%D8%B4%D9%87%D8%B1",
-     "section": "world",
-     "summary": "قالت الوكالة الدولية ​للطاقة الذرية إنها لم تتمكن من الوصول للمنشآت النووية الإيرانية منذ هجمات يونيو 2025، مشيرة إلى أننا \"لم نتلق معلومات من إيران عن منشآتها وموادها النووية باست...",
-     "body": "",
-     "published": "2026-11-13T11:39:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "75905871bd48c6aa",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ماليزيا تكثف تحقيقاتها بشأن احتمال تهريب رقائق للذكاء الاصطناعي",
-     "url": "https://www.alraimedia.com/article/1785999/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%85%D8%A7%D9%84%D9%8A%D8%B2%D9%8A%D8%A7-%D8%AA%D9%83%D8%AB%D9%81-%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%87%D8%A7-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84-%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D9%84%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
-     "section": "world",
-     "summary": "أعلنت ماليزيا اليوم أنها فتحت تحقيقا حول أحد فروع مجموعة «ميغاسبيد إنترناشونال» بشأن احتمال تهريب رقائق للذكاء الاصطناعي إلى دول أخرى، في تطور يوسّع نطاق الفضيحة التي تطال شركة إنف...",
-     "body": "",
-     "published": "2026-11-13T09:34:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -2891,8 +2851,32 @@
    "analysis": {}
   },
   {
+   "key": "171b0c3fa51c64d4",
+   "score": 3.6,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "عودة البطلة ياسمين وليد برفقة والديها",
+     "url": "https://www.alanba.com.kw/1384951",
+     "section": "sport",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-13T19:29:47+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
    "key": "23c65d981c2d447b",
-   "score": 3.658,
+   "score": 3.058,
    "sources": [
     "الجريدة"
    ],
@@ -2912,30 +2896,6 @@
     }
    ],
    "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "8d59c8ff04147794",
-   "score": 3.356,
-   "sources": [
-    "Times Kuwait"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "timeskuwait",
-     "source_name": "Times Kuwait",
-     "lang": "en",
-     "title": "Kabd Security Crackdown… 19 Arrested, Traffic and Residency Violations Detected",
-     "url": "https://timeskuwait.com/kabd-security-crackdown-19-arrested-traffic-and-residency-violations-detected/",
-     "section": "latest",
-     "summary": "Kuwait’s General Traffic and Operations Sector has carried out a joint security and traffic campaign in the Kabd area, resulting in the arrest of several wanted individuals and traffic offenders, along with the detection of multiple violations. The campaign was conducted under the supervision of Brigadier General Ahmad Fahd Al-Azmi, Head of the General Traffic …\n\nThe post Kabd Security Crackdown… 19 Arrested, Traffic and Residency Violations Detected appeared first on Times Kuwait.",
-     "body": "",
-     "published": "2026-11-13T19:34:41+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -2963,30 +2923,6 @@
    "analysis": {}
   },
   {
-   "key": "52c354def1acae86",
-   "score": 2.765,
-   "sources": [
-    "Times Kuwait"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "timeskuwait",
-     "source_name": "Times Kuwait",
-     "lang": "en",
-     "title": "Two Syrians put behind bars for 10 years, ordered to pay 4m dinars in fines",
-     "url": "https://timeskuwait.com/two-syrians-put-behind-bars-for-10-years-ordered-to-pay-4m-dinars-in-fines/",
-     "section": "latest",
-     "summary": "State Security Court overturns 422 million dinars money laundering convictions, sentences fraudsters; cancels 10-year prison terms and fines against 32 accused and companies over insufficient evidence, while issuing fresh sentences in bank fraud, money laundering and other security-related cases. The State Security Court of Appeal has issued a series of verdicts in several high-profile cases, …\n\nThe post Two Syrians put behind bars for 10 years, ordered to pay 4m dinars in fines appeared first on Times Kuwait.",
-     "body": "",
-     "published": "2026-11-13T12:17:48+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "6f5b3946822c2601",
    "score": 2.76,
    "sources": [
@@ -3008,6 +2944,30 @@
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "8d59c8ff04147794",
+   "score": 2.756,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Kabd Security Crackdown… 19 Arrested, Traffic and Residency Violations Detected",
+     "url": "https://timeskuwait.com/kabd-security-crackdown-19-arrested-traffic-and-residency-violations-detected/",
+     "section": "latest",
+     "summary": "Kuwait’s General Traffic and Operations Sector has carried out a joint security and traffic campaign in the Kabd area, resulting in the arrest of several wanted individuals and traffic offenders, along with the detection of multiple violations. The campaign was conducted under the supervision of Brigadier General Ahmad Fahd Al-Azmi, Head of the General Traffic …\n\nThe post Kabd Security Crackdown… 19 Arrested, Traffic and Residency Violations Detected appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-13T19:34:41+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -3080,30 +3040,6 @@
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "b1ef24a409fb375f",
-   "score": 2.723,
-   "sources": [
-    "كويت نيوز"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "أمين مجلس التعاون يدين استهداف الاحتلال الإسرائيلي مجمع ناصر الطبي جنوبي قطاع غزة",
-     "url": "https://kuwaitnews.com/138700/",
-     "section": "latest",
-     "summary": "دان الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي اليوم الجمعة استمرار الانتهاكات التي ترتكبها قوات الاحتلال الإسرائيلي ضد الشعب الفلسطيني في قطاع غزة وآخرها القصف الذي استهدف (مجمع ناصر الطبي) بمدينة (خانيونس) جنوبي القطاع. وقال البديوي في بيان […]\n\nThe post أمين مجلس التعاون يدين استهداف الاحتلال الإسرائيلي مجمع ناصر الطبي جنوبي قطاع غزة appeared first on كويت نيوز.",
-     "body": "",
-     "published": "2026-11-13T12:28:31+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3227,80 +3163,8 @@
    "analysis": {}
   },
   {
-   "key": "dcbb570d9075046d",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Six killed, five rescued after eight-storey building collapses in Kenya",
-     "url": "https://www.arabtimesonline.com/news/six-killed-five-rescued-after-eight-storey-building-collapses-in-kenya/",
-     "section": "latest",
-     "summary": "NAIROBI, Kenya: At least six people were killed and five others rescued on Friday after an eight-storey building under construction collapsed in Mlolongo, about 20 kilometres (12 m...",
-     "body": "",
-     "published": "2026-11-13T15:07:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "0a9b67646d50326f",
-   "score": 2.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Qatar Airways and Gulf Airlines Resist Shift to Adani-Run Navi Mumbai Airport",
-     "url": "https://www.arabtimesonline.com/news/qatar-airways-and-gulf-airlines-resist-shift-to-adani-run-navi-mumbai-airport/",
-     "section": "latest",
-     "summary": "MUMBAI, Nov 13: A major dispute has erupted between leading Gulf airlines and Adani Group-run Mumbai International Airport Limited (MIAL) over plans to shift international flights...",
-     "body": "",
-     "published": "2026-11-13T15:35:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "88cc6529dd84b9e6",
-   "score": 2.6,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Anthropic Targets Up to $1.4 Trillion Valuation as Landmark IPO Tests Investor Confidence in AI",
-     "url": "https://www.arabtimesonline.com/news/anthropic-targets-up-to-14-trillion-valuation-as-landmark-ipo-tests-investor-confidence-in-ai/",
-     "section": "latest",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-13T14:41:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "a2c4179cbfee469c",
-   "score": 2.183,
+   "key": "52c354def1acae86",
+   "score": 2.165,
    "sources": [
     "Times Kuwait"
    ],
@@ -3310,60 +3174,36 @@
      "source_id": "timeskuwait",
      "source_name": "Times Kuwait",
      "lang": "en",
-     "title": "Microsoft Outage Disrupts Outlook, Teams Across 74 Countries",
-     "url": "https://timeskuwait.com/microsoft-outage-disrupts-outlook-teams-across-74-countries/",
+     "title": "Two Syrians put behind bars for 10 years, ordered to pay 4m dinars in fines",
+     "url": "https://timeskuwait.com/two-syrians-put-behind-bars-for-10-years-ordered-to-pay-4m-dinars-in-fines/",
      "section": "latest",
-     "summary": "A widespread Microsoft service outage disrupted Outlook, Teams and several other platforms across approximately 74 countries and territories beginning Thursday evening, affecting businesses, government agencies and financial institutions worldwide. According to the internet outage monitoring website Downdetector, the disruption affected several widely used Microsoft services, causing interruptions to workplace communications and operations. The outage reportedly …\n\nThe post Microsoft Outage Disrupts Outlook, Teams Across 74 Countries appeared first on Times Kuwait.",
+     "summary": "State Security Court overturns 422 million dinars money laundering convictions, sentences fraudsters; cancels 10-year prison terms and fines against 32 accused and companies over insufficient evidence, while issuing fresh sentences in bank fraud, money laundering and other security-related cases. The State Security Court of Appeal has issued a series of verdicts in several high-profile cases, …\n\nThe post Two Syrians put behind bars for 10 years, ordered to pay 4m dinars in fines appeared first on Times Kuwait.",
      "body": "",
-     "published": "2026-11-13T08:55:52+00:00",
+     "published": "2026-11-13T12:17:48+00:00",
      "tier": 2
     }
    ],
-   "category": "Government & Politics",
+   "category": "Economy & Business",
    "analysis": {}
   },
   {
-   "key": "e69852afe4ab6814",
-   "score": 2.173,
+   "key": "b1ef24a409fb375f",
+   "score": 2.123,
    "sources": [
-    "Times Kuwait"
+    "كويت نيوز"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "timeskuwait",
-     "source_name": "Times Kuwait",
-     "lang": "en",
-     "title": "Three Days, 928 Actions as Hawally Police Step Up Security Crackdown",
-     "url": "https://timeskuwait.com/three-days-928-actions-as-hawally-police-step-up-security-crackdown/",
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "أمين مجلس التعاون يدين استهداف الاحتلال الإسرائيلي مجمع ناصر الطبي جنوبي قطاع غزة",
+     "url": "https://kuwaitnews.com/138700/",
      "section": "latest",
-     "summary": "The Hawally Governorate Security Directorate carried out an extensive three-day security campaign across the governorate, resulting in a total of 928 arrests, violations and other enforcement actions, in cooperation with several government agencies. The campaign was conducted under the supervision of Assistant Undersecretary for Public Security Affairs Brigadier General Abdulaziz Bandar Al-Omar, Hawally Governorate Security …\n\nThe post Three Days, 928 Actions as Hawally Police Step Up Security Crackdown appeared first on Times Kuwait.",
+     "summary": "دان الأمين العام لمجلس التعاون لدول الخليج العربية جاسم البديوي اليوم الجمعة استمرار الانتهاكات التي ترتكبها قوات الاحتلال الإسرائيلي ضد الشعب الفلسطيني في قطاع غزة وآخرها القصف الذي استهدف (مجمع ناصر الطبي) بمدينة (خانيونس) جنوبي القطاع. وقال البديوي في بيان […]\n\nThe post أمين مجلس التعاون يدين استهداف الاحتلال الإسرائيلي مجمع ناصر الطبي جنوبي قطاع غزة appeared first on كويت نيوز.",
      "body": "",
-     "published": "2026-11-13T05:24:43+00:00",
-     "tier": 2
-    }
-   ],
-   "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "5cf875b2463e56fd",
-   "score": 2.158,
-   "sources": [
-    "Times Kuwait"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "timeskuwait",
-     "source_name": "Times Kuwait",
-     "lang": "en",
-     "title": "China seeks stronger cooperation, expertise exchange with Kuwait",
-     "url": "https://timeskuwait.com/china-seeks-stronger-cooperation-expertise-exchange-with-kuwait/",
-     "section": "latest",
-     "summary": "Chinese Ambassador to Kuwait Yang Xin reaffirmed on Thursday his country’s commitment to strengthening cooperation with Kuwait across various sectors and expanding the exchange of expertise in governance and public administration to support sustainable development. Speaking at a reading and discussion session on the first volume of Xi Jinping: The Governance of China, Ambassador Yang …\n\nThe post China seeks stronger cooperation, expertise exchange with Kuwait appeared first on Times Kuwait.",
-     "body": "",
-     "published": "2026-11-13T08:14:30+00:00",
+     "published": "2026-11-13T12:28:31+00:00",
      "tier": 2
     }
    ],
@@ -3395,6 +3235,30 @@
    "analysis": {}
   },
   {
+   "key": "dcbb570d9075046d",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Six killed, five rescued after eight-storey building collapses in Kenya",
+     "url": "https://www.arabtimesonline.com/news/six-killed-five-rescued-after-eight-storey-building-collapses-in-kenya/",
+     "section": "latest",
+     "summary": "NAIROBI, Kenya: At least six people were killed and five others rescued on Friday after an eight-storey building under construction collapsed in Mlolongo, about 20 kilometres (12 m...",
+     "body": "",
+     "published": "2026-11-13T15:07:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "67cb5ee9655fde6a",
    "score": 2.059,
    "sources": [
@@ -3416,6 +3280,30 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "fca6c4e7ea0728f1",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Microsoft Struggles to Restore Services Even After 12-Hour Global Outage Hits Millions",
+     "url": "https://www.arabtimesonline.com/news/microsoft-struggles-to-restore-services-even-after-12-hour-global-outage-hits-millions/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 13: Microsoft has reported progress in restoring its services following a widespread global outage that disrupted access to Outlook, Microsoft 365, Teams and other...",
+     "body": "",
+     "published": "2026-11-13T13:27:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3467,6 +3355,30 @@
    "analysis": {}
   },
   {
+   "key": "0a9b67646d50326f",
+   "score": 2.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Qatar Airways and Gulf Airlines Resist Shift to Adani-Run Navi Mumbai Airport",
+     "url": "https://www.arabtimesonline.com/news/qatar-airways-and-gulf-airlines-resist-shift-to-adani-run-navi-mumbai-airport/",
+     "section": "latest",
+     "summary": "MUMBAI, Nov 13: A major dispute has erupted between leading Gulf airlines and Adani Group-run Mumbai International Airport Limited (MIAL) over plans to shift international flights...",
+     "body": "",
+     "published": "2026-11-13T15:35:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "76b5c0e6ea1dd151",
    "score": 2.058,
    "sources": [
@@ -3488,6 +3400,30 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "88cc6529dd84b9e6",
+   "score": 2.0,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Anthropic Targets Up to $1.4 Trillion Valuation as Landmark IPO Tests Investor Confidence in AI",
+     "url": "https://www.arabtimesonline.com/news/anthropic-targets-up-to-14-trillion-valuation-as-landmark-ipo-tests-investor-confidence-in-ai/",
+     "section": "latest",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-13T14:41:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
