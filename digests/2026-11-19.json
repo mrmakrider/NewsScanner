@@ -1,21 +1,21 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19T10:46:26.585986+03:00",
+ "generated_at": "2026-11-19T11:11:50.767877+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 319,
+  "total_articles": 320,
   "outlets_reporting": 6,
-  "total_stories": 242,
-  "major_stories": 18,
+  "total_stories": 243,
+  "major_stories": 19,
   "analysed_stories": 28,
-  "window_start": "2026-11-18T08:46:26.585986+03:00",
-  "window_end": "2026-11-19T10:46:26.585986+03:00",
+  "window_start": "2026-11-18T09:11:50.767877+03:00",
+  "window_end": "2026-11-19T11:11:50.767877+03:00",
   "major_threshold": 3,
   "categories": {
    "Economy & Business": 36,
    "World & Region": 59,
-   "Government & Politics": 88,
+   "Government & Politics": 89,
    "Society & Services": 18,
    "Sport": 20,
    "Culture & Entertainment": 5,
@@ -23,7 +23,7 @@
    "Opinion & Analysis": 9
   },
   "analysis_retries": 7,
-  "analysis_splits": 38,
+  "analysis_splits": 42,
   "analysis_missing": 0,
   "analysis_providers": []
  },
@@ -31,12 +31,12 @@
   "story_of_the_day": "S1",
   "top_themes": [],
   "_source": "extractive",
-  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 18 of them by three or more outlets. The leading story was: سعر برميل النفط الكويتي ينخفض إلى 81.73 دولار. This extractive fallback does not infer subtext or verify cross-day trends.",
+  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 19 of them by three or more outlets. The leading story was: سعر برميل النفط الكويتي ينخفض إلى 81.73 دولار. This extractive fallback does not infer subtext or verify cross-day trends.",
   "not_being_said_en": "Not assessed: a deterministic fallback cannot infer omissions or intent from story counts alone.",
   "tactical_en": "Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status.",
   "strategic_en": "Historical context from previous editions (context only, not evidence of a current development):\n- 2026-11-18: 28 distinct stories were carried across the Kuwaiti press in this window, 10 of them by three or more outlets. The leading story was: السفير الشمالي: الذكرى الـ 65 للعلاقات الدبلوماسية الكويتية الهندية تعزز الشراكة الاستراتيجية. This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status. | prior watchlist: Compare future reports against the historical notes and verify any carry-over against current source material. | pattern under way: Historical context from previous editions (context only, not evidence of a current development): - 2026-11-17: 28 distinct stories were carried across the Kuwaiti press in this window, 4 of them by three or more outlets. The leading story was: Amir receives Crown Prince, PM and senior ministers. This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source…\n\nThis deterministic fallback cannot determine whether today's coverage continues, reverses, or extends those patterns.",
   "watchlist_en": "Compare future reports against the historical notes and verify any carry-over against current source material.",
-  "editor_note_ar": "أُعدّ هذا الملخص دون مزود ذكاء اصطناعي. يتضمن 28 قصة، حمل 18 منها ثلاثة مصادر أو أكثر.",
+  "editor_note_ar": "أُعدّ هذا الملخص دون مزود ذكاء اصطناعي. يتضمن 28 قصة، حمل 19 منها ثلاثة مصادر أو أكثر.",
   "not_being_said_ar": "لم يُقيّم هذا الجانب؛ لا يمكن استنتاج ما لم يُذكر أو نية التغطية من عدد الأخبار وحده.",
   "tactical_ar": "تحقق من القرارات والمسؤوليات والمواعيد في تقارير المصادر الحالية؛ لا يستطيع هذا الملخص الاستخراجي تأكيد حالتها.",
   "strategic_ar": "السياق التاريخي وارد في الملاحظة الإنجليزية أعلاه، ولا يثبت وحده استمرار التغطية أو تغيرها اليوم.",
@@ -142,27 +142,27 @@
   "S5 الكويت تتعاطف مع الأردن إثر حادث تحطم مروحية تابعة للقوات المسلحة…: batch S5: no provider available",
   "S6 ولي العهد: الكويت تواصل جهودها لخفض التصعيد: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S7 «التعليم العالي» تدعو الطلبة المبتعثين إلى تحديث بياناتهم البنكية: batch S7: no provider available",
-  "S8 وزيرة «الأشغال» تتفقد أعمال صيانة طريق الملك فيصل: الالتزام…: batch S8: no provider available",
-  "S9 السفير البريطاني: العلاقات مع الكويت راسخة على أسس من الثقة والصداقة…: batch S9: no provider available",
-  "S10 AUM راعٍ رئيسي لسباق «2026 Run Kuwait»: batch S10: no provider available",
-  "S11 «العقارات المتحدة» ترعى «معرض غازي» لإرث العمارة الحديثة: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S12 «التجاري» وزّع كسوة الشتاء لعمال نظافة الفروانية: batch S12: no provider available",
-  "S13 «بيت التمويل» ينظم أكبر فعالية رياضية صحية للأطفال في الكويت: batch S13: no provider available",
-  "S14 «برقان» يختتم حملته للتوعية بسرطان الثدي: batch S14: no provider available",
-  "S15 التحالف: اعتراض وتدمير صاروخ بالستي حوثي استهدف المنطقة الجنوبية: batch S15: no provider available",
-  "S16 الكويت: التحرك العاجل لمواجهة انعدام الأمن الغذائي الناجم عن النزاعات: batch S16: no provider available",
-  "S17 جامعة الكويت: معرض «القبول السنوي» الـ12 ينطلق 23 نوفمبر الجاري: batch S17: no provider available",
-  "S18 الإمارات تُدين بشدة الهجوم العدواني على الكويت: batch S18: no provider available",
-  "S19 «زين» شريك لبطولة صحارى الدولية: batch S19: no provider available",
-  "S20 محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ: batch S20: no provider available",
+  "S8 محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ: batch S8: no provider available",
+  "S9 وزيرة «الأشغال» تتفقد أعمال صيانة طريق الملك فيصل: الالتزام…: batch S9: no provider available",
+  "S10 السفير البريطاني: العلاقات مع الكويت راسخة على أسس من الثقة والصداقة…: batch S10: no provider available",
+  "S11 AUM راعٍ رئيسي لسباق «2026 Run Kuwait»: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 «العقارات المتحدة» ترعى «معرض غازي» لإرث العمارة الحديثة: batch S12: no provider available",
+  "S13 «التجاري» وزّع كسوة الشتاء لعمال نظافة الفروانية: batch S13: no provider available",
+  "S14 «بيت التمويل» ينظم أكبر فعالية رياضية صحية للأطفال في الكويت: batch S14: no provider available",
+  "S15 «برقان» يختتم حملته للتوعية بسرطان الثدي: batch S15: no provider available",
+  "S16 التحالف: اعتراض وتدمير صاروخ بالستي حوثي استهدف المنطقة الجنوبية: batch S16: no provider available",
+  "S17 الكويت: التحرك العاجل لمواجهة انعدام الأمن الغذائي الناجم عن النزاعات: batch S17: no provider available",
+  "S18 جامعة الكويت: معرض «القبول السنوي» الـ12 ينطلق 23 نوفمبر الجاري: batch S18: no provider available",
+  "S19 الإمارات تُدين بشدة الهجوم العدواني على الكويت: batch S19: no provider available",
+  "S20 «زين» شريك لبطولة صحارى الدولية: batch S20: no provider available",
   "S21 وزير الدفاع يتفقد عدداً من المواقع العسكرية: منتسبو الجيش يؤدون…: batch S21: no provider available",
   "S22 «الطيران المدني» توقع اتفاقيتين مع بريطانيا والأرجنتين لتطوير القطاع…: batch S22: no provider available",
   "S23 Bahrain, Kuwait praise education cooperation: batch S23: no provider available",
   "S24 «التحريات المالية» وسفيرة «الأوروبي» يبحثان جهود مكافحة غسل الأموال: batch S24: no provider available",
   "S25 وزير الدفاع ناقش مع نظيره القطري مواضيع مشتركة.. هاتفياً: batch S25: no provider available",
   "S26 KISR records 4.1-magnitude earthquake in Al-Manaqeesh: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S27 محافظ الفروانية يتفقد «جليب الشيوخ»: ‏المنطقة العشوائية المُزالة…: batch S27: no provider available",
-  "S28 «الجزيرة» تطلق خدمة ذاتية جديدة عبر «واتساب» على مدار الساعة: batch S28: no provider available",
+  "S27 «الجزيرة» تطلق خدمة ذاتية جديدة عبر «واتساب» على مدار الساعة: batch S27: no provider available",
+  "S28 الكويت ترحب بالتعاون السعودي - الأميركي بالطاقة النووية: batch S28: no provider available",
   "S1 سعر برميل النفط الكويتي ينخفض إلى 81.73 دولار: batch S1: no provider available",
   "S2 الكويت تدين استمرار انتهاكات الاحتلال الإسرائيلي في أراضي سوريا: خرق…: batch S2: no provider available",
   "S3 «الدفاع»: فتح باب التطوع للالتحاق بدورة ضباط الصف والأفراد للقوة…: batch S3: no provider available",
@@ -170,19 +170,24 @@
   "S5 الكويت تتعاطف مع الأردن إثر حادث تحطم مروحية تابعة للقوات المسلحة…: batch S5: no provider available",
   "S6 ولي العهد: الكويت تواصل جهودها لخفض التصعيد: batch S6: no provider available",
   "S7 «التعليم العالي» تدعو الطلبة المبتعثين إلى تحديث بياناتهم البنكية: batch S7: no provider available",
-  "S8 وزيرة «الأشغال» تتفقد أعمال صيانة طريق الملك فيصل: الالتزام…: batch S8: no provider available",
-  "S9 السفير البريطاني: العلاقات مع الكويت راسخة على أسس من الثقة والصداقة…: batch S9: no provider available",
-  "S10 AUM راعٍ رئيسي لسباق «2026 Run Kuwait»: batch S10: no provider available",
-  "S11 «العقارات المتحدة» ترعى «معرض غازي» لإرث العمارة الحديثة: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S12 «التجاري» وزّع كسوة الشتاء لعمال نظافة الفروانية: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S13 «بيت التمويل» ينظم أكبر فعالية رياضية صحية للأطفال في الكويت: batch S13: no provider available",
-  "S14 «برقان» يختتم حملته للتوعية بسرطان الثدي: batch S14: no provider available",
-  "S15 التحالف: اعتراض وتدمير صاروخ بالستي حوثي استهدف المنطقة الجنوبية: batch S15: no provider available",
-  "S16 الكويت: التحرك العاجل لمواجهة انعدام الأمن الغذائي الناجم عن النزاعات: batch S16: no provider available",
-  "S17 جامعة الكويت: معرض «القبول السنوي» الـ12 ينطلق 23 نوفمبر الجاري: batch S17: no provider available",
-  "S18 الإمارات تُدين بشدة الهجوم العدواني على الكويت: batch S18: no provider available",
-  "S19 «زين» شريك لبطولة صحارى الدولية: batch S19: no provider available",
-  "S20 محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ: batch S20: no provider available",
+  "S8 محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ: batch S8: no provider available",
+  "S9 وزيرة «الأشغال» تتفقد أعمال صيانة طريق الملك فيصل: الالتزام…: batch S9: no provider available",
+  "S10 السفير البريطاني: العلاقات مع الكويت راسخة على أسس من الثقة والصداقة…: batch S10: no provider available",
+  "S11 AUM راعٍ رئيسي لسباق «2026 Run Kuwait»: batch S11: no provider available",
+  "S12 «العقارات المتحدة» ترعى «معرض غازي» لإرث العمارة الحديثة: batch S12: no provider available",
+  "S13 «التجاري» وزّع كسوة الشتاء لعمال نظافة الفروانية: batch S13: no provider available",
+  "S14 «بيت التمويل» ينظم أكبر فعالية رياضية صحية للأطفال في الكويت: batch S14: no provider available",
+  "S15 «برقان» يختتم حملته للتوعية بسرطان الثدي: batch S15: no provider available",
+  "S16 التحالف: اعتراض وتدمير صاروخ بالستي حوثي استهدف المنطقة الجنوبية: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S17 الكويت: التحرك العاجل لمواجهة انعدام الأمن الغذائي الناجم عن النزاعات: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S18 جامعة الكويت: معرض «القبول السنوي» الـ12 ينطلق 23 نوفمبر الجاري: batch S18: no provider available",
+  "S19 الإمارات تُدين بشدة الهجوم العدواني على الكويت: batch S19: no provider available",
+  "S20 «زين» شريك لبطولة صحارى الدولية: batch S20: no provider available",
+  "S21 وزير الدفاع يتفقد عدداً من المواقع العسكرية: منتسبو الجيش يؤدون…: batch S21: no provider available",
+  "S22 «الطيران المدني» توقع اتفاقيتين مع بريطانيا والأرجنتين لتطوير القطاع…: batch S22: no provider available",
+  "S23 Bahrain, Kuwait praise education cooperation: batch S23: no provider available",
+  "S24 «التحريات المالية» وسفيرة «الأوروبي» يبحثان جهود مكافحة غسل الأموال: batch S24: no provider available",
+  "S25 وزير الدفاع ناقش مع نظيره القطري مواضيع مشتركة.. هاتفياً: batch S25: no provider available",
   "synthesis: synthesis: the analysis budget ran out before the call was made"
  ],
  "stories": [
@@ -520,7 +525,7 @@
   },
   {
    "key": "0e7a98901c9e0f2b",
-   "score": 22.459,
+   "score": 21.859,
    "sources": [
     "كويت نيوز",
     "الأنباء",
@@ -747,6 +752,75 @@
     "watch_next_en": "",
     "summary_ar": "دعت وزارة التعليم العالي الطلبة المبتعثين التابعين للمكاتب الثقافية في جمهورية أيرلندا والجمهورية الفرنسية ودولة الإمارات العربية المتحدة «دبي» إلى تحديث بيانات حساباتهم البنكية لضمان انتظام صرف المخصصات الشهرية. وذكرت الوزارة، في بيان صحفي اليوم الأربعاء، أن هذا التحديث يشمل بقية الطلبة المبتعثين تباعاً، وفق إشعارات تصدرها الوزارة بهذا الشأن، وذلك في إطار إعادة تنظيم المهام الإدارية والمالية للمكاتب الثقافية،…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الرأي, الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "cf4762d1cc952759",
+   "score": 20.859,
+   "sources": [
+    "الأنباء",
+    "الجريدة",
+    "الرأي"
+   ],
+   "outlet_count": 3,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "محافظ الفروانية تفقد منطقة جليب الشيوخ",
+     "url": "https://www.alanba.com.kw/1385618",
+     "section": "kuwait",
+     "summary": "قاممحافظ الفروانية، الشيخ عذبي الناصر بزيارة تفقدية ميدانية لمنطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية م.نواف عبدالعزيز الكندري، وعضو فريق",
+     "body": "",
+     "published": "2026-11-18T18:02:59+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ",
+     "url": "https://www.aljarida.com/article/150869",
+     "section": "local",
+     "summary": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمك...",
+     "body": "أكد خلال زيارة تفقدية مواصلة العمل لتطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام\n\nتفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد صالح العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على آخر مستجدات التطورات الخاصة بأعمال الإزالة في المنطقة.\n\n‏وقد أشاد المحافظ بالجهود المبذولة من قبل الجهات المختصة بإزالة هذه المنطقة العشوائية، والتي ستتحول قريباً لأبرز المشاريع التنوية والمستدامة في البلاد.",
+     "published": "2026-11-18T15:23:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "محافظ الفروانية يتفقد «جليب الشيوخ»: ‏المنطقة العشوائية المُزالة ستتحول قريباً لأبرز المشاريع التنموية",
+     "url": "https://www.alraimedia.com/article/1786520/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D8%AA%D9%81%D9%82%D8%AF-%D8%AC%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B2%D8%A7%D9%84%D8%A9-%D8%B3%D8%AA%D8%AA%D8%AD%D9%88%D9%84-%D9%82%D8%B1%D9%8A%D8%A8%D8%A7-%D9%84%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%88%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم صباحاً، منطقة جليب الشيوخ.وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف الكندري، و عضو فريق العمليات المركزية لمكتب...",
+     "body": "",
+     "published": "2026-11-18T14:05:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait",
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أكد خلال زيارة تفقدية مواصلة العمل لتطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد صالح العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الأنباء, الجريدة, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: محافظ الفروانية تفقد منطقة جليب الشيوخ; محافظ الفروانية يتفقد «جليب الشيوخ»: ‏المنطقة العشوائية المُزالة ستتحول قريباً لأبرز المشاريع التنموية",
+    "watch_next_en": "",
+    "summary_ar": "أكد خلال زيارة تفقدية مواصلة العمل لتطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد صالح العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الجريدة, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1696,62 +1770,6 @@
    }
   },
   {
-   "key": "cf4762d1cc952759",
-   "score": 13.759,
-   "sources": [
-    "الأنباء",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "محافظ الفروانية تفقد منطقة جليب الشيوخ",
-     "url": "https://www.alanba.com.kw/1385618",
-     "section": "kuwait",
-     "summary": "قاممحافظ الفروانية، الشيخ عذبي الناصر بزيارة تفقدية ميدانية لمنطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية م.نواف عبدالعزيز الكندري، وعضو فريق",
-     "body": "",
-     "published": "2026-11-18T18:02:59+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ",
-     "url": "https://www.aljarida.com/article/150869",
-     "section": "local",
-     "summary": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمك...",
-     "body": "أكد خلال زيارة تفقدية مواصلة العمل لتطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام\n\nتفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد صالح العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على آخر مستجدات التطورات الخاصة بأعمال الإزالة في المنطقة.\n\n‏وقد أشاد المحافظ بالجهود المبذولة من قبل الجهات المختصة بإزالة هذه المنطقة العشوائية، والتي ستتحول قريباً لأبرز المشاريع التنوية والمستدامة في البلاد.",
-     "published": "2026-11-18T15:23:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "محافظ الفروانية يطلع على آخر تطورات أعمال الإزالة في جليب الشيوخ",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait",
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "أكد خلال زيارة تفقدية مواصلة العمل لتطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد صالح العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الأنباء, الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: محافظ الفروانية تفقد منطقة جليب الشيوخ",
-    "watch_next_en": "",
-    "summary_ar": "أكد خلال زيارة تفقدية مواصلة العمل لتطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم منطقة جليب الشيوخ، وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف عبدالعزيز الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد صالح العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "11cca11fb44123fd",
    "score": 13.759,
    "sources": [
@@ -2085,61 +2103,6 @@
    }
   },
   {
-   "key": "67e4dd3acf951273",
-   "score": 13.758,
-   "sources": [
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "محافظ الفروانية: الجليب ستتحول قريباً إلى أبرز المشاريع التنموية",
-     "url": "https://www.aljarida.com/article/150935",
-     "section": "local",
-     "summary": "قام ‏محافظ الفروانية، الشيخ عذبي الناصر، اليوم، بزيارة تفقدية ميدانية لمنطقة جليب الشيوخ، وكان في استقباله مدير بلدية المحافظة، المهندس نواف الكندري، وعضو فريق العمليات المركزي...",
-     "body": "",
-     "published": "2026-11-18T20:45:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "محافظ الفروانية يتفقد «جليب الشيوخ»: ‏المنطقة العشوائية المُزالة ستتحول قريباً لأبرز المشاريع التنموية",
-     "url": "https://www.alraimedia.com/article/1786520/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D8%AA%D9%81%D9%82%D8%AF-%D8%AC%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B2%D8%A7%D9%84%D8%A9-%D8%B3%D8%AA%D8%AA%D8%AD%D9%88%D9%84-%D9%82%D8%B1%D9%8A%D8%A8%D8%A7-%D9%84%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%88%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم صباحاً، منطقة جليب الشيوخ.وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف الكندري، و عضو فريق العمليات المركزية لمكتب...",
-     "body": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم صباحاً، منطقة جليب الشيوخ.\n\nوكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على آخر مستجدات التطورات الخاصة بأعمال الإزالة في المنطقة.\n\nسمو الأمير يهنئ الملك محمد السادس بذكرى الاستقلال: للمغرب وشعبها الشقيق دوام التقدم والازدهار منذ 50 دقيقة «التربية» تعتمد جداول اختبارات التعليم الديني: «الثانوية» 9 ديسمبر و«المتوسطة» 16 منذ 46 دقيقة\n\nوأكد أن أعمال الإزالة تمثل خطوة مهمة وتاريخية نحو معالجة الأوضاع القائمة في منطقة جليب الشيوخ، مشيداً بالجهود الحكومية المبذولة بقيادة سمو رئيس مجلس الوزراء الشيخ أحمد العبدالله، ومؤكداً أهمية مواصلة العمل وفق توجيهات القيادة السياسية، بما يحقق رؤيتها في تطوير المنطقة وتحويلها إلى مشروع تنموي وحضاري مستدام يخدم المصلحة العامة بشكل يليق بسمعة وصورة الكويت.",
-     "published": "2026-11-18T14:05:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "محافظ الفروانية يتفقد «جليب الشيوخ»: ‏المنطقة العشوائية المُزالة ستتحول قريباً لأبرز المشاريع التنموية",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم صباحاً، منطقة جليب الشيوخ. وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على آخر مستجدات التطورات الخاصة بأعمال الإزالة في المنطقة. سمو الأمير يهنئ الملك محمد السادس بذكرى…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الجريدة, الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: محافظ الفروانية: الجليب ستتحول قريباً إلى أبرز المشاريع التنموية",
-    "watch_next_en": "",
-    "summary_ar": "تفقد محافظ الفروانية، الشيخ عذبي الناصر الصباح، اليوم صباحاً، منطقة جليب الشيوخ. وكان باستقباله مدير بلدية محافظة الفروانية المهندس نواف الكندري، و عضو فريق العمليات المركزية لمكتب مدير عام بلدية الكويت المهندس محمد الجلاوي، وقائد منطقة الجليب العقيد محمد العنزي، وعدد من مسؤولي وزارة الداخلية والبلدية، وذلك للاطلاع على آخر مستجدات التطورات الخاصة بأعمال الإزالة في المنطقة. سمو الأمير يهنئ الملك محمد السادس بذكرى…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الجريدة, الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
    "key": "dad9e61c5c7495ce",
    "score": 12.559,
    "sources": [
@@ -2211,7 +2174,7 @@
      "url": "https://www.alraimedia.com/article/1786610/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A---%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A8%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%D8%A9",
      "section": "latest",
      "summary": "فيينا - كونا - أعربت دولة الكويت عن تقديرها لجهود وفدي المملكة العربية السعودية والولايات المتحدة الأميركية في إطلاع الدول الأعضاء بمجلس محافظي الوكالة الدولية للطاقة الذرية على ال...",
-     "body": "",
+     "body": "فيينا - كونا - أعربت دولة الكويت عن تقديرها لجهود وفدي المملكة العربية السعودية والولايات المتحدة الأميركية في إطلاع الدول الأعضاء بمجلس محافظي الوكالة الدولية للطاقة الذرية على الاتفاقية الثنائية الخاصة بالتعاون في مجال الطاقة النووية الموقعة بين البلدين.\n\nجاء ذلك في كلمة ألقاها عضو الوفد الدائم لدولة الكويت لدى الأمم المتحدة في فيينا السكرتير الثالث علي بهبهاني، خلال أعمال مجلس محافظي الوكالة الدولية للطاقة الذرية، أكد خلالها أهمية أنشطة التحقق والضمانات الإضافية المطلوب تطبيقها من قبل الوكالة.\n\nوأكد أن مثل هذه الخطوات تمكن الوكالة من الاضطلاع بمسؤولياتها وتسهم في تعزيز الاستخدامات السلمية للطاقة النووية في مختلف المجالات مع تطبيق نظام الضمانات الشاملة بفاعلية.",
      "published": "2026-11-18T22:00:00+03:00",
      "tier": 1
     },
@@ -2229,7 +2192,26 @@
     }
    ],
    "category": "Government & Politics",
-   "analysis": {}
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "الكويت ترحب بالتعاون السعودي - الأميركي بالطاقة النووية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest",
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "فيينا - كونا - أعربت دولة الكويت عن تقديرها لجهود وفدي المملكة العربية السعودية والولايات المتحدة الأميركية في إطلاع الدول الأعضاء بمجلس محافظي الوكالة الدولية للطاقة الذرية على الاتفاقية الثنائية الخاصة بالتعاون في مجال الطاقة النووية الموقعة بين البلدين. جاء ذلك في كلمة ألقاها عضو الوفد الدائم لدولة الكويت لدى الأمم المتحدة في فيينا السكرتير الثالث علي بهبهاني، خلال أعمال مجلس محافظي الوكالة الدولية للطاقة الذرية،…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الأنباء.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: الكويت ترحب بالتعاون السعودي - الأميركي في مجال الطاقة النووية",
+    "watch_next_en": "",
+    "summary_ar": "فيينا - كونا - أعربت دولة الكويت عن تقديرها لجهود وفدي المملكة العربية السعودية والولايات المتحدة الأميركية في إطلاع الدول الأعضاء بمجلس محافظي الوكالة الدولية للطاقة الذرية على الاتفاقية الثنائية الخاصة بالتعاون في مجال الطاقة النووية الموقعة بين البلدين. جاء ذلك في كلمة ألقاها عضو الوفد الدائم لدولة الكويت لدى الأمم المتحدة في فيينا السكرتير الثالث علي بهبهاني، خلال أعمال مجلس محافظي الوكالة الدولية للطاقة الذرية،…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الأنباء.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
   },
   {
    "key": "b50f74d2a273bddd",
@@ -2558,6 +2540,30 @@
      "summary": "نفذت قوّة الإطفاء العام حملة تفتيشية في محافظة مبارك الكبير، بهدف رصد المباني والمنشآت المخالفة لإشتراطات السلامة و الوقاية من الحريق. وذكرت قوّة الإطفاء العام أن الحملة أسفرت عن غ...",
      "body": "",
      "published": "2026-11-18T21:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "dab9b81866f914c5",
+   "score": 8.076,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "العميد رائد السكران يبحث مع مسؤول تركي تعزيز التعاون وتبادل الخبرات العسكرية",
+     "url": "https://www.alanba.com.kw/1385655",
+     "section": "kuwait",
+     "summary": "بحث معاون رئيس الأركان العامة لهيئة العمليات والخطط العميد الركن رائد السكران مع رئيس إدارة العلاقات الخارجية في رئاسة الأركان العامة التركية العميد أحمد دورغوت أوجه التعاون المشترك وسبل تعزيز التعاون وتبادل الخبرات في المجالات العسكرية.",
+     "body": "",
+     "published": "2026-11-19T07:17:28+00:00",
      "tier": 1
     }
    ],
@@ -2901,30 +2907,6 @@
    "analysis": {}
   },
   {
-   "key": "272c25d274c451dc",
-   "score": 6.659,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الحويلة: الاستثمار في وعي الأسرة وتماسكه استثمار في استقرار المجتمع ومستقبله",
-     "url": "https://www.alraimedia.com/article/1786536/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D9%81%D9%8A-%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9-%D9%88%D8%AA%D9%85%D8%A7%D8%B3%D9%83%D9%87-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9-%D9%88%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%87",
-     "section": "local",
-     "summary": "دشنت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة، مجلة «بيت مريم»، أول مجلة يصدرها المجلس الأعلى لشؤون الأسرة، بالتعاون مع بيت التمويل الكويتي وشركة «حزايه...",
-     "body": "",
-     "published": "2026-11-18T17:11:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "7a29c82693920435",
    "score": 6.658,
    "sources": [
@@ -2949,56 +2931,8 @@
    "analysis": {}
   },
   {
-   "key": "7f0cd6fac02f3247",
-   "score": 6.658,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الطبطبائي اطّلع على التجربة الفنلندية في توظيف البيانات والتقنيات الحديثة لتطوير التعليم",
-     "url": "https://www.alraimedia.com/article/1786534/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B7%D8%A8%D8%B7%D8%A8%D8%A7%D8%A6%D9%8A-%D8%A7%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%81%D9%86%D9%84%D9%86%D8%AF%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85",
-     "section": "local",
-     "summary": "عقد وزير التربية جلال الطبطبائي والوفد المرافق له سلسلة من الاجتماعات واللقاءات مع عدد من المسؤولين والجهات التعليمية والبرلمانية الفنلندية، ضمن برنامج زيارتهم الرسمية إلى العاصمة...",
-     "body": "",
-     "published": "2026-11-18T17:11:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "5c1918d609bfa111",
-   "score": 6.658,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "المنامة تدين تجدد الاعتداءات الإيرانية: تصعيد خطر يقوض جهود التهدئة",
-     "url": "https://www.alraimedia.com/article/1786528/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%85%D8%A9-%D8%AA%D8%AF%D9%8A%D9%86-%D8%AA%D8%AC%D8%AF%D8%AF-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AE%D8%B7%D8%B1-%D9%8A%D9%82%D9%88%D8%B6-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9",
-     "section": "local",
-     "summary": "أعربت وزارة الخارجية البحرينية، اليوم الأربعاء، عن إدانة مملكة البحرين واستنكارها الشديدين لتجدد الاعتداءات الجوية الإيرانية على المملكة ودولة الكويت، معتبرة إياها انتهاكاً صارخاً...",
-     "body": "",
-     "published": "2026-11-18T17:01:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "87b9684d821e37e0",
-   "score": 6.655,
+   "key": "1ec6b67fcdd3794f",
+   "score": 6.657,
    "sources": [
     "الجريدة"
    ],
@@ -3008,12 +2942,12 @@
      "source_id": "aljarida",
      "source_name": "الجريدة",
      "lang": "ar",
-     "title": "إغلاق كلي لطريق الرياض باتجاه المطار اعتباراً من الجمعة",
-     "url": "https://www.aljarida.com/article/150875",
+     "title": "محافظ الفروانية: الجليب ستتحول قريباً إلى أبرز المشاريع التنموية",
+     "url": "https://www.aljarida.com/article/150935",
      "section": "local",
-     "summary": "أعلنت وزارة الأشغال العامة بالتعاون مع الإدارة العامة للمرور عن إغلاق كلي لطريق الرياض «50» باتجاه المطار من تقاطع الدائري الرابع مقابل منطقة الخالدية، لأعمال صيانة الأ...",
+     "summary": "قام ‏محافظ الفروانية، الشيخ عذبي الناصر، اليوم، بزيارة تفقدية ميدانية لمنطقة جليب الشيوخ، وكان في استقباله مدير بلدية المحافظة، المهندس نواف الكندري، وعضو فريق العمليات المركزي...",
      "body": "",
-     "published": "2026-11-18T16:51:00+03:00",
+     "published": "2026-11-18T20:45:00+03:00",
      "tier": 1
     }
    ],
@@ -3117,7 +3051,7 @@
    "analysis": {}
   },
   {
-   "key": "8eede56e45f74f87",
+   "key": "a5c4ed172080b9bd",
    "score": 6.651,
    "sources": [
     "الأنباء"
@@ -3128,16 +3062,40 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "الطبطبائي يبحث مع وزير التعليم الفنلندي تطوير العلاقات التعليمية وتوسيع التعاون المشترك",
-     "url": "https://www.alanba.com.kw/1385548",
+     "title": "«الأشغال»: التقنيات الحديثة تفتح آفاقاً جديدة لخفض التكاليف التشغيلية وإطالة العمر الافتراضي للمرافق",
+     "url": "https://www.alanba.com.kw/1385545",
      "section": "kuwait",
-     "summary": "آلاء خليفةواصل وزير التربية م.سيد جلال الطبطبائي والوفد المرافق له برنامج زيارتهم الرسمية إلى العاصمة الفنلندية هلسنكي، بعقد سلسلة من الاجتماعات واللقاءات مع ع",
+     "summary": "العصيمي حريصون على تسريع وتيرة إنجاز مشاريع الطرق دون الإخلال بمعايير الجودة والسلامةأكد مدير عام الإدارة العامة لشؤون هندسة الطرق م.خالد العصيمي حرص وزارة الأ",
      "body": "",
      "published": "2026-11-18T17:57:55+00:00",
      "tier": 1
     }
    ],
-   "category": "Society & Services",
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "375db4460c4a71e5",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الغدر الإيراني يتجدد",
+     "url": "https://www.alanba.com.kw/1385581",
+     "section": "kuwait",
+     "summary": "كونا في تصعيد خطير جددت ايران اعتداءاتها الآثمة على الكويت فجر أمس بهجمات لطائرات مسيرة، وقالت رئاسة الأركان العامة للجيش إن الدفاعات الجوية الكويتية تصدت لهجم",
+     "body": "",
+     "published": "2026-11-18T17:57:55+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3162,6 +3120,30 @@
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "8eede56e45f74f87",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الطبطبائي يبحث مع وزير التعليم الفنلندي تطوير العلاقات التعليمية وتوسيع التعاون المشترك",
+     "url": "https://www.alanba.com.kw/1385548",
+     "section": "kuwait",
+     "summary": "آلاء خليفةواصل وزير التربية م.سيد جلال الطبطبائي والوفد المرافق له برنامج زيارتهم الرسمية إلى العاصمة الفنلندية هلسنكي، بعقد سلسلة من الاجتماعات واللقاءات مع ع",
+     "body": "",
+     "published": "2026-11-18T17:57:55+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
    "analysis": {}
   },
   {
@@ -3210,54 +3192,6 @@
     }
    ],
    "category": "Culture & Entertainment",
-   "analysis": {}
-  },
-  {
-   "key": "375db4460c4a71e5",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الغدر الإيراني يتجدد",
-     "url": "https://www.alanba.com.kw/1385581",
-     "section": "kuwait",
-     "summary": "كونا في تصعيد خطير جددت ايران اعتداءاتها الآثمة على الكويت فجر أمس بهجمات لطائرات مسيرة، وقالت رئاسة الأركان العامة للجيش إن الدفاعات الجوية الكويتية تصدت لهجم",
-     "body": "",
-     "published": "2026-11-18T17:57:55+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "a5c4ed172080b9bd",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«الأشغال»: التقنيات الحديثة تفتح آفاقاً جديدة لخفض التكاليف التشغيلية وإطالة العمر الافتراضي للمرافق",
-     "url": "https://www.alanba.com.kw/1385545",
-     "section": "kuwait",
-     "summary": "العصيمي حريصون على تسريع وتيرة إنجاز مشاريع الطرق دون الإخلال بمعايير الجودة والسلامةأكد مدير عام الإدارة العامة لشؤون هندسة الطرق م.خالد العصيمي حرص وزارة الأ",
-     "body": "",
-     "published": "2026-11-18T17:57:55+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3494,6 +3428,30 @@
      "summary": "قلل الرئيس الأميركي دونالد ترامب، أمس ، من أهمية سلسلة أعطال تقنية أثرت على قطاعات الطيران والخدمات المصرفية وأنظمة الأمن القومي الأميركية، خلال الأيام القليلة الماضية، وقال مسؤولو...",
      "body": "",
      "published": "2026-11-18T17:46:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "272c25d274c451dc",
+   "score": 6.059,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الحويلة: الاستثمار في وعي الأسرة وتماسكه استثمار في استقرار المجتمع ومستقبله",
+     "url": "https://www.alraimedia.com/article/1786536/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D9%81%D9%8A-%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9-%D9%88%D8%AA%D9%85%D8%A7%D8%B3%D9%83%D9%87-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D9%81%D9%8A-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9-%D9%88%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%87",
+     "section": "local",
+     "summary": "دشنت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة، مجلة «بيت مريم»، أول مجلة يصدرها المجلس الأعلى لشؤون الأسرة، بالتعاون مع بيت التمويل الكويتي وشركة «حزايه...",
+     "body": "",
+     "published": "2026-11-18T17:11:00+03:00",
      "tier": 1
     }
    ],
@@ -3741,51 +3699,51 @@
    "analysis": {}
   },
   {
-   "key": "15caf93439cb3504",
-   "score": 6.059,
+   "key": "7f0cd6fac02f3247",
+   "score": 6.058,
    "sources": [
-    "Kuwait Times"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Today in Kuwait’s history",
-     "url": "https://kuwaittimes.com/article/53885/kuwait/today-in-kuwaits-history/",
-     "section": "kuwait",
-     "summary": "1955 — Al-Sharqiya Cinema Theater, the first open-air summer cinema, opened near Al-Amiri Hospital with seating for 1,800 spectators.1960 — Kuwait joined the UN Educational, Scient...",
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الطبطبائي اطّلع على التجربة الفنلندية في توظيف البيانات والتقنيات الحديثة لتطوير التعليم",
+     "url": "https://www.alraimedia.com/article/1786534/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B7%D8%A8%D8%B7%D8%A8%D8%A7%D8%A6%D9%8A-%D8%A7%D8%B7%D9%84%D8%B9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%81%D9%86%D9%84%D9%86%D8%AF%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85",
+     "section": "local",
+     "summary": "عقد وزير التربية جلال الطبطبائي والوفد المرافق له سلسلة من الاجتماعات واللقاءات مع عدد من المسؤولين والجهات التعليمية والبرلمانية الفنلندية، ضمن برنامج زيارتهم الرسمية إلى العاصمة...",
      "body": "",
-     "published": "2026-11-18T09:10:00+03:00",
+     "published": "2026-11-18T17:11:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "Society & Services",
    "analysis": {}
   },
   {
-   "key": "559317c827a913b3",
+   "key": "5c1918d609bfa111",
    "score": 6.058,
    "sources": [
-    "الجريدة"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
+     "source_id": "alrai",
+     "source_name": "الرأي",
      "lang": "ar",
-     "title": "كرستوفر والر: الفدرالي الأميركي قد يحتاج إلى «مباغتة الأسواق»",
-     "url": "https://www.aljarida.com/article/150876",
-     "section": "economy",
-     "summary": "دعا عضو مجلس محافظي الاحتياطي الفدرالي الأميركي، كريستوفر والر، إلى اتخاذ إجراءات أكثر حزماً لمواجهة التضخم، محذراً من استمرار ارتفاع الأسعار بوتيرة تفوق توقعات البنك المركزي.وقال...",
+     "title": "المنامة تدين تجدد الاعتداءات الإيرانية: تصعيد خطر يقوض جهود التهدئة",
+     "url": "https://www.alraimedia.com/article/1786528/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%85%D8%A9-%D8%AA%D8%AF%D9%8A%D9%86-%D8%AA%D8%AC%D8%AF%D8%AF-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AE%D8%B7%D8%B1-%D9%8A%D9%82%D9%88%D8%B6-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9",
+     "section": "local",
+     "summary": "أعربت وزارة الخارجية البحرينية، اليوم الأربعاء، عن إدانة مملكة البحرين واستنكارها الشديدين لتجدد الاعتداءات الجوية الإيرانية على المملكة ودولة الكويت، معتبرة إياها انتهاكاً صارخاً...",
      "body": "",
-     "published": "2026-11-18T16:48:00+03:00",
+     "published": "2026-11-18T17:01:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Economy & Business",
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -3906,6 +3864,30 @@
     }
    ],
    "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "87b9684d821e37e0",
+   "score": 6.055,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "إغلاق كلي لطريق الرياض باتجاه المطار اعتباراً من الجمعة",
+     "url": "https://www.aljarida.com/article/150875",
+     "section": "local",
+     "summary": "أعلنت وزارة الأشغال العامة بالتعاون مع الإدارة العامة للمرور عن إغلاق كلي لطريق الرياض «50» باتجاه المطار من تقاطع الدائري الرابع مقابل منطقة الخالدية، لأعمال صيانة الأ...",
+     "body": "",
+     "published": "2026-11-18T16:51:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -4154,6 +4136,30 @@
      "summary": "تراجعت أسعار الذهب دون مستوى 3800 دولار للأونصة للمرة الأولى منذ سبتمبر 2025، بعدما قدم مسؤولون في الاحتياطي الفيدرالي مبررات لإجراء مزيد من الزيادات في أسعار الفائدة لمواجهة التضخ...",
      "body": "",
      "published": "2026-11-18T10:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "559317c827a913b3",
+   "score": 5.458,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "كرستوفر والر: الفدرالي الأميركي قد يحتاج إلى «مباغتة الأسواق»",
+     "url": "https://www.aljarida.com/article/150876",
+     "section": "economy",
+     "summary": "دعا عضو مجلس محافظي الاحتياطي الفدرالي الأميركي، كريستوفر والر، إلى اتخاذ إجراءات أكثر حزماً لمواجهة التضخم، محذراً من استمرار ارتفاع الأسعار بوتيرة تفوق توقعات البنك المركزي.وقال...",
+     "body": "",
+     "published": "2026-11-18T16:48:00+03:00",
      "tier": 1
     }
    ],
@@ -5745,30 +5751,6 @@
    "analysis": {}
   },
   {
-   "key": "b356dc34130b8aae",
-   "score": 4.543,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "روبوت التنظيف لم يعد يعمل وحده... الكاميرات وروبوت آخر يشاركانه المهمة",
-     "url": "https://www.alanba.com.kw/1385535",
-     "section": "world",
-     "summary": "أصبحت الصور التي تلتقطها كاميرات المراقبة وسيلة لتوجيه روبوت تنظيف في تجربة يابانية يفسّر فيها الذكاء الاصطناعي ما يظهر أمام الكاميرا",
-     "body": "",
-     "published": "2026-11-18T14:00:59+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "e78f758baf407100",
    "score": 4.537,
    "sources": [
@@ -5865,6 +5847,30 @@
    "analysis": {}
   },
   {
+   "key": "2c7b45aa19e977e9",
+   "score": 4.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Pakistan Internet Disruption Linked to Subsea Cable Fault; NADRA, Passport and Visa Services Suspended in London",
+     "url": "https://www.arabtimesonline.com/news/pakistan-internet-disruption-linked-to-subsea-cable-fault-nadra-passport-and-visa-services-suspended-in-london/",
+     "section": "latest",
+     "summary": "ISLAMABAD, Nov 19: Internet users in parts of Pakistan experienced slow connectivity and intermittent service disruptions on Wednesday following a fault in an international submari...",
+     "body": "",
+     "published": "2026-11-19T10:42:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "e47458c56183d0fd",
    "score": 4.059,
    "sources": [
@@ -5878,7 +5884,7 @@
      "lang": "en",
      "title": "Violence Grips Bangladesh as Yunus' Ancestral Home and Grameen Bank Offices Targeted by Arson",
      "url": "https://www.arabtimesonline.com/news/bangladesh-faces-fresh-political-unrest-as-muhammad-yunus-ancestral-home-is-set-ablaze-grameen-bank-offices-face-arson-attacks-and-hundreds-are-arrested-ahead-of-an-awami-league-shutdown/",
-     "section": "general",
+     "section": "latest",
      "summary": "DHAKA, Nov 19 : Bangladesh witnessed fresh political violence on Thursday as the ancestral home of Nobel laureate and former interim government chief Muhammad Yunus was set on fire...",
      "body": "",
      "published": "2026-11-19T10:30:00+03:00",
@@ -5902,7 +5908,7 @@
      "lang": "en",
      "title": "Trump Says Iran May Be Exploring Chemical and Biological Weapons",
      "url": "https://www.arabtimesonline.com/news/trump-says-iran-may-be-exploring-chemical-and-biological-weapons/",
-     "section": "general",
+     "section": "latest",
      "summary": "SHENZHEN, Nov 19: US President Donald Trump has claimed that Iran may be exploring the development of chemical and biological weapons, saying Washington's efforts to restrict Tehra...",
      "body": "",
      "published": "2026-11-19T10:22:00+03:00",
@@ -6441,6 +6447,30 @@
    "analysis": {}
   },
   {
+   "key": "b356dc34130b8aae",
+   "score": 3.943,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "روبوت التنظيف لم يعد يعمل وحده... الكاميرات وروبوت آخر يشاركانه المهمة",
+     "url": "https://www.alanba.com.kw/1385535",
+     "section": "world",
+     "summary": "أصبحت الصور التي تلتقطها كاميرات المراقبة وسيلة لتوجيه روبوت تنظيف في تجربة يابانية يفسّر فيها الذكاء الاصطناعي ما يظهر أمام الكاميرا",
+     "body": "",
+     "published": "2026-11-18T14:00:59+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "97a325a0f7080e23",
    "score": 3.659,
    "sources": [
@@ -6814,58 +6844,10 @@
      "lang": "en",
      "title": "Iran Warns Gulf Countries Against US Use of Bases, Defends Strikes as Self-Defense",
      "url": "https://www.arabtimesonline.com/news/iran-warns-gulf-countries-against-us-use-of-bases-defends-strikes-as-self-defense/",
-     "section": "general",
+     "section": "latest",
      "summary": "TEHRAN, Nov 19: Iran has warned neighbouring countries against allowing the United States to use military bases and facilities on their territories for operations against Iran, thr...",
      "body": "",
      "published": "2026-11-19T01:22:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "7e865e6c56707261",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "KFC Franchisee Bankruptcy Puts Dozens of US Restaurants at Risk",
-     "url": "https://www.arabtimesonline.com/news/kfc-franchisee-bankruptcy-puts-dozens-of-us-restaurants-at-risk/",
-     "section": "latest",
-     "summary": "Dozens of KFC restaurants across 10 US states have closed or are facing closure after major franchise operator Tasty Chick'n LLC filed for Chapter 11 bankruptcy protection amid dec...",
-     "body": "",
-     "published": "2026-11-19T01:03:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "4980a0e5004f4500",
-   "score": 3.259,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "US Warns Americans in Bahrain of Heightened Threats from Iran and Houthis",
-     "url": "https://www.arabtimesonline.com/news/us-warns-americans-in-bahrain-of-heightened-threats-from-iran-and-houthis/",
-     "section": "general",
-     "summary": "MANAMA, Nov 19: The US Embassy in Bahrain has urged American citizens to exercise heightened vigilance amid growing security threats linked to Iran and the Iran-backed Houthi group...",
-     "body": "",
-     "published": "2026-11-19T00:57:00+03:00",
      "tier": 2
     }
    ],
@@ -6897,27 +6879,51 @@
    "analysis": {}
   },
   {
-   "key": "692f40cfcc4e01ab",
-   "score": 2.724,
+   "key": "7e865e6c56707261",
+   "score": 2.659,
    "sources": [
-    "كويت نيوز"
+    "Arab Times"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "kuwaitnews",
-     "source_name": "كويت نيوز",
-     "lang": "ar",
-     "title": "“الشؤون” تطلق مجلة “بيت مريم” لتعزيز الترابط الأسري والقيم المجتمعية",
-     "url": "https://kuwaitnews.com/139006/",
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "KFC Franchisee Bankruptcy Puts Dozens of US Restaurants at Risk",
+     "url": "https://www.arabtimesonline.com/news/kfc-franchisee-bankruptcy-puts-dozens-of-us-restaurants-at-risk/",
      "section": "latest",
-     "summary": "أطلقت وزارة الشؤون الاجتماعية وشؤون الأسرة والطفولة اليوم الأربعاء مجلة (بيت مريم) لتقديم محتوى اجتماعي وإنساني هادف يعزز الترابط الأسري ويرسخ القيم المجتمعية الأصيلة. وقالت وزيرة الشؤون الاجتماعية وشؤون الاسرة والطفولة الدكتورة أمثال الحويلة بمناسبة إطلاق المجلة إن المجلة أتت […]\n\nThe post “الشؤون” تطلق مجلة “بيت مريم” لتعزيز الترابط الأسري والقيم المجتمعية appeared first on كويت نيوز.",
+     "summary": "Dozens of KFC restaurants across 10 US states have closed or are facing closure after major franchise operator Tasty Chick'n LLC filed for Chapter 11 bankruptcy protection amid dec...",
      "body": "",
-     "published": "2026-11-18T14:05:50+00:00",
+     "published": "2026-11-19T01:03:00+03:00",
      "tier": 2
     }
    ],
    "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "4980a0e5004f4500",
+   "score": 2.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "US Warns Americans in Bahrain of Heightened Threats from Iran and Houthis",
+     "url": "https://www.arabtimesonline.com/news/us-warns-americans-in-bahrain-of-heightened-threats-from-iran-and-houthis/",
+     "section": "latest",
+     "summary": "MANAMA, Nov 19: The US Embassy in Bahrain has urged American citizens to exercise heightened vigilance amid growing security threats linked to Iran and the Iran-backed Houthi group...",
+     "body": "",
+     "published": "2026-11-19T00:57:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -6982,7 +6988,7 @@
      "lang": "en",
      "title": "Iranian Regime Never Tires of Spreading Lies – This Time, It Was About US Military Injuries",
      "url": "https://www.arabtimesonline.com/news/iranian-regime-never-tires-of-spreading-lies-this-time-it-was-about-us-military-injuries/",
-     "section": "general",
+     "section": "latest",
      "summary": "KUWAIT CITY, Nov 18: The US Central Command (CENTCOM) has rejected claims circulating online that American military personnel were injured in recent Iranian attacks and required me...",
      "body": "",
      "published": "2026-11-18T22:34:00+03:00",
@@ -7137,30 +7143,6 @@
    "analysis": {}
   },
   {
-   "key": "3cba55d0ebd25261",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Defense Minister Visits Military Sites, Reviews Army Readiness",
-     "url": "https://www.arabtimesonline.com/news/kuwait-defense-minister-visits-military-sites-reviews-army-readiness/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 18: Kuwait’s Minister of Defense, Sheikh Abdullah Ali Abdullah Al-Salem Al-Sabah, conducted an inspection tour of several military sites to review operational acti...",
-     "body": "",
-     "published": "2026-11-18T16:52:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "171329ffd1c0b5f9",
    "score": 2.658,
    "sources": [
@@ -7202,6 +7184,54 @@
      "summary": "",
      "body": "",
      "published": "2026-11-18T22:20:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "692f40cfcc4e01ab",
+   "score": 2.124,
+   "sources": [
+    "كويت نيوز"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaitnews",
+     "source_name": "كويت نيوز",
+     "lang": "ar",
+     "title": "“الشؤون” تطلق مجلة “بيت مريم” لتعزيز الترابط الأسري والقيم المجتمعية",
+     "url": "https://kuwaitnews.com/139006/",
+     "section": "latest",
+     "summary": "أطلقت وزارة الشؤون الاجتماعية وشؤون الأسرة والطفولة اليوم الأربعاء مجلة (بيت مريم) لتقديم محتوى اجتماعي وإنساني هادف يعزز الترابط الأسري ويرسخ القيم المجتمعية الأصيلة. وقالت وزيرة الشؤون الاجتماعية وشؤون الاسرة والطفولة الدكتورة أمثال الحويلة بمناسبة إطلاق المجلة إن المجلة أتت […]\n\nThe post “الشؤون” تطلق مجلة “بيت مريم” لتعزيز الترابط الأسري والقيم المجتمعية appeared first on كويت نيوز.",
+     "body": "",
+     "published": "2026-11-18T14:05:50+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "3cba55d0ebd25261",
+   "score": 2.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Defense Minister Visits Military Sites, Reviews Army Readiness",
+     "url": "https://www.arabtimesonline.com/news/kuwait-defense-minister-visits-military-sites-reviews-army-readiness/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 18: Kuwait’s Minister of Defense, Sheikh Abdullah Ali Abdullah Al-Salem Al-Sabah, conducted an inspection tour of several military sites to review operational acti...",
+     "body": "",
+     "published": "2026-11-18T16:52:00+03:00",
      "tier": 2
     }
    ],
@@ -7294,7 +7324,7 @@
      "lang": "en",
      "title": "Iranian Attacks on Ships and Gulf Allies Trigger Swift US Response",
      "url": "https://www.arabtimesonline.com/news/iranian-attacks-on-ships-and-gulf-allies-trigger-swift-us-response/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 18: Iran has expanded its attacks against Gulf targets, with Iranian state television reporting that its forces launched strikes targeting air defence systems and d...",
      "body": "",
      "published": "2026-11-18T14:50:00+03:00",
@@ -7318,7 +7348,7 @@
      "lang": "en",
      "title": "Iranian Regime Denies Nuclear Watchdog Access to Key Facilities, IAEA Chief Says",
      "url": "https://www.arabtimesonline.com/news/iranian-regime-denies-nuclear-watchdog-access-to-key-facilities-iaea-chief-says/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW YORK, Nov 18: The United Nations nuclear watchdog has been unable to verify the status of Iran’s declared nuclear material and facilities, except the Bushehr nuclear power plan...",
      "body": "",
      "published": "2026-11-18T14:38:00+03:00",
@@ -7366,7 +7396,7 @@
      "lang": "en",
      "title": "ADNOC Vessel Attacked in Strait of Hormuz, One Crew Member Missing, 11 Injured",
      "url": "https://www.arabtimesonline.com/news/adnoc-vessel-attacked-in-strait-of-hormuz-one-crew-member-missing-11-injured/",
-     "section": "general",
+     "section": "latest",
      "summary": "ABU DHABI, Nov 18: An Abu Dhabi National Oil Company Logistics and Services (ADNOC L&S) vessel was attacked while transiting the Strait of Hormuz on Tuesday evening, leaving one cr...",
      "body": "",
      "published": "2026-11-18T10:32:00+03:00",
@@ -7390,7 +7420,7 @@
      "lang": "en",
      "title": "Pakistani Man Jailed for 27 Years Over Iran-Backed Plot to Assassinate Trump",
      "url": "https://www.arabtimesonline.com/news/pakistani-man-jailed-for-27-years-over-iran-backed-plot-to-assassinate-trump/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 18: A Pakistani man accused of plotting to assassinate US President Donald Trump and other American political figures on behalf of Iran's Islamic Revolutionary Guar...",
      "body": "",
      "published": "2026-11-18T10:25:00+03:00",
@@ -7486,7 +7516,7 @@
      "lang": "en",
      "title": "Man destroyed $60 million US military plane at an Irish airport: prosecutors",
      "url": "https://www.arabtimesonline.com/news/man-destroyed-60-million-us-military-plane-at-an-irish-airport-prosecutors/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW YORK, Nov 18, (AP): An ax-wielding man breached a security perimeter and destroyed an American military plane while it was parked overnight at an Irish airport, cutting hydr...",
      "body": "",
      "published": "2026-11-18T12:18:00+03:00",
