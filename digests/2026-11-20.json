@@ -1,29 +1,29 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T09:14:29.042905+03:00",
+ "generated_at": "2026-11-20T10:38:22.689965+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
   "total_articles": 345,
-  "outlets_reporting": 5,
-  "total_stories": 281,
-  "major_stories": 7,
+  "outlets_reporting": 6,
+  "total_stories": 282,
+  "major_stories": 6,
   "analysed_stories": 28,
-  "window_start": "2026-11-19T07:14:29.042905+03:00",
-  "window_end": "2026-11-20T09:14:29.042905+03:00",
+  "window_start": "2026-11-19T08:38:22.689965+03:00",
+  "window_end": "2026-11-20T10:38:22.689965+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 93,
-   "Society & Services": 22,
-   "World & Region": 59,
+   "Society & Services": 23,
+   "Government & Politics": 88,
    "Security & Courts": 15,
    "Sport": 29,
-   "Economy & Business": 37,
-   "Culture & Entertainment": 4,
+   "World & Region": 58,
+   "Economy & Business": 41,
+   "Culture & Entertainment": 6,
    "Opinion & Analysis": 22
   },
   "analysis_retries": 7,
-  "analysis_splits": 42,
+  "analysis_splits": 34,
   "analysis_missing": 0,
   "analysis_providers": []
  },
@@ -31,12 +31,12 @@
   "story_of_the_day": "S1",
   "top_themes": [],
   "_source": "extractive",
-  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 7 of them by three or more outlets. The leading story was: «الأشغال» تفتتح أجزاء من طريق الملك فيصل باتجاه المطار وتعلن إغلاقات جديدة. This extractive fallback does not infer subtext or verify cross-day trends.",
+  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 6 of them by three or more outlets. The leading story was: «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز». This extractive fallback does not infer subtext or verify cross-day trends.",
   "not_being_said_en": "Not assessed: a deterministic fallback cannot infer omissions or intent from story counts alone.",
   "tactical_en": "Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status.",
   "strategic_en": "Historical context from previous editions (context only, not evidence of a current development):\n- 2026-11-19: 28 distinct stories were carried across the Kuwaiti press in this window, 19 of them by three or more outlets. The leading story was: سعر برميل النفط الكويتي ينخفض إلى 81.73 دولار. This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status. | prior watchlist: Compare future reports against the historical notes and verify any carry-over against current source material. | pattern under way: Historical context from previous editions (context only, not evidence of a current development): - 2026-11-18: 28 distinct stories were carried across the Kuwaiti press in this window, 10 of them by three or more outlets. The leading story was: السفير الشمالي: الذكرى الـ 65 للعلاقات الدبلوماسية الكويتية الهندية تعزز الشراكة الاستراتيجية. This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports;…\n\nThis deterministic fallback cannot determine whether today's coverage continues, reverses, or extends those patterns.",
   "watchlist_en": "Compare future reports against the historical notes and verify any carry-over against current source material.",
-  "editor_note_ar": "أُعدّ هذا الملخص دون مزود ذكاء اصطناعي. يتضمن 28 قصة، حمل 7 منها ثلاثة مصادر أو أكثر.",
+  "editor_note_ar": "أُعدّ هذا الملخص دون مزود ذكاء اصطناعي. يتضمن 28 قصة، حمل 6 منها ثلاثة مصادر أو أكثر.",
   "not_being_said_ar": "لم يُقيّم هذا الجانب؛ لا يمكن استنتاج ما لم يُذكر أو نية التغطية من عدد الأخبار وحده.",
   "tactical_ar": "تحقق من القرارات والمسؤوليات والمواعيد في تقارير المصادر الحالية؛ لا يستطيع هذا الملخص الاستخراجي تأكيد حالتها.",
   "strategic_ar": "السياق التاريخي وارد في الملاحظة الإنجليزية أعلاه، ولا يثبت وحده استمرار التغطية أو تغيرها اليوم.",
@@ -127,70 +127,143 @@
    "source_id": "timeskuwait",
    "name": "Times Kuwait",
    "tier": 2,
-   "ok": false,
-   "articles": 0,
-   "targets": "0/1",
+   "ok": true,
+   "articles": 10,
+   "targets": "1/1",
    "optional": false,
    "error": ""
   }
  ],
  "errors": [
-  "S1 «الأشغال» تفتتح أجزاء من طريق الملك فيصل باتجاه المطار وتعلن إغلاقات…: batch S1: no provider available",
-  "S2 «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي…: batch S2: no provider available",
+  "S1 «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي…: batch S1: no provider available",
+  "S2 «الأشغال» تفتتح أجزاء من طريق الملك فيصل باتجاه المطار وتعلن إغلاقات…: batch S2: no provider available",
   "S3 البرجس تفقد طوابير الأركان: الانضباط والتدريب ركيزة راسخة في مسيرة…: batch S3: no provider available",
   "S4 «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم شواغر إشرافية في 29…: batch S4: no provider available",
   "S5 PAFN inspects 45 food outlets in Farwaniya, issues 53 violations: batch S5: no provider available",
-  "S6 التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S7 الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من…: batch S7: no provider available",
-  "S8 معاون رئيس الأركان يترأس وفد «الدفاع» في منتدى شومان للدفاع والأمن: batch S8: no provider available",
-  "S9 «التربية» تُحوّل مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها: batch S9: no provider available",
-  "S10 السالمية لانطلاقة قوية في كأس ولي العهد: batch S10: no provider available",
-  "S11 مركز «ناتو» الإقليمي يختتم التدريب على مكافحة الإرهاب البحري: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S12 «البحوث التربوية»: توظيف الذكاء الاصطناعي في تطوير التعليم: batch S12: no provider available",
-  "S13 القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو»: batch S13: no provider available",
-  "S14 «عبدالله السالم»: 27 ديسمبر المقبل.. فتح باب استقبال طلبات الالتحاق…: batch S14: no provider available",
-  "S15 الكويت و15 دولة ترحب بعقوبات المملكة المتحدة وأستراليا رداً على أنشطة…: batch S15: no provider available",
-  "S16 «حولي» تُطلق حملة توعوية لمكافحة السمنة: batch S16: no provider available",
-  "S17 اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي: batch S17: no provider available",
-  "S18 DGCA signs aviation agreements on sidelines of ICAO conference: batch S18: no provider available",
-  "S19 ديوان الخدمة: التسجيل بنظام التوظيف المركزي.. من 4 إلى 18 ديسمبر…: batch S19: no provider available",
-  "S20 وزير الصحة: مقاومة مضادات الميكروبات تحد صحي يتطلب عملاً جاداً…: batch S20: no provider available",
-  "S21 الحويلة تفتتح مركز حماية الطفولة في «دور الرعاية»: batch S21: no provider available",
-  "S22 «البترولية المستقلة» تساهم بمليون دولار في صندوق الكويت للاستجابة…: batch S22: no provider available",
-  "S23 البلدية تنذر بإزالة 494 عقارا آيلا للسقوط في جليب الشيوخ خلال أسبوعين: batch S23: no provider available",
-  "S24 «الخليج» يستعرض في «العاصمة» مزايا... «مليونير الدانة»: batch S24: no provider available",
-  "S25 «الوطني» يحصد «التميز» بالموارد البشرية الرقمية في القطاع الخاص…: batch S25: no provider available",
-  "S26 «الأرصاد»: طقس دافئ نهاراً ومائل للبرودة ليلاً.. والعظمى 31 درجة: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S27 «التمييز» تؤيد إعدام قاتل مواطنة في الرميثية: batch S27: no provider available",
-  "S28 «الإطفاء» تسيطر على حريق مقطورات مبردة في الصليبية دون إصابات: batch S28: no provider available",
-  "S1 «الأشغال» تفتتح أجزاء من طريق الملك فيصل باتجاه المطار وتعلن إغلاقات…: batch S1: no provider available",
-  "S2 «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي…: batch S2: no provider available",
+  "S6 معاون رئيس الأركان يترأس وفد «الدفاع» في منتدى شومان للدفاع والأمن: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S7 «التربية» تُحوّل مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها: batch S7: no provider available",
+  "S8 الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من…: batch S8: no provider available",
+  "S9 السالمية لانطلاقة قوية في كأس ولي العهد: batch S9: no provider available",
+  "S10 مركز «ناتو» الإقليمي يختتم التدريب على مكافحة الإرهاب البحري: batch S10: no provider available",
+  "S11 «البحوث التربوية»: توظيف الذكاء الاصطناعي في تطوير التعليم: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو»: https://api.cerebras.ai/v1/chat/completions: HTTP Error 402: Payment Required",
+  "S13 «عبدالله السالم»: 27 ديسمبر المقبل.. فتح باب استقبال طلبات الالتحاق…: batch S13: no provider available",
+  "S14 الكويت و15 دولة ترحب بعقوبات المملكة المتحدة وأستراليا رداً على أنشطة…: batch S14: no provider available",
+  "S15 «حولي» تُطلق حملة توعوية لمكافحة السمنة: batch S15: no provider available",
+  "S16 اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي: batch S16: no provider available",
+  "S17 DGCA signs aviation agreements on sidelines of ICAO conference: batch S17: no provider available",
+  "S18 ديوان الخدمة: التسجيل بنظام التوظيف المركزي.. من 4 إلى 18 ديسمبر…: batch S18: no provider available",
+  "S19 وزير الصحة: مقاومة مضادات الميكروبات تحد صحي يتطلب عملاً جاداً…: batch S19: no provider available",
+  "S20 «البترولية المستقلة» تساهم بمليون دولار في صندوق الكويت للاستجابة…: batch S20: no provider available",
+  "S21 الحويلة تفتتح مركز «حماية الطفل»: ليس مجرد مبنى جديد بل درع وقائي…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S22 البلدية تنذر بإزالة 494 عقارا آيلا للسقوط في جليب الشيوخ خلال أسبوعين: batch S22: no provider available",
+  "S23 «الخليج» يستعرض في «العاصمة» مزايا... «مليونير الدانة»: batch S23: no provider available",
+  "S24 «الوطني» يحصد «التميز» بالموارد البشرية الرقمية في القطاع الخاص…: batch S24: no provider available",
+  "S25 «الأرصاد»: طقس دافئ نهاراً ومائل للبرودة ليلاً.. والعظمى 31 درجة: batch S25: no provider available",
+  "S26 «التمييز» تؤيد إعدام قاتل مواطنة في الرميثية: batch S26: no provider available",
+  "S27 «الإطفاء» تسيطر على حريق مقطورات مبردة في الصليبية دون إصابات: batch S27: no provider available",
+  "S28 التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا…: batch S28: no provider available",
+  "S1 «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي…: batch S1: no provider available",
+  "S2 «الأشغال» تفتتح أجزاء من طريق الملك فيصل باتجاه المطار وتعلن إغلاقات…: batch S2: no provider available",
   "S3 البرجس تفقد طوابير الأركان: الانضباط والتدريب ركيزة راسخة في مسيرة…: batch S3: no provider available",
   "S4 «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم شواغر إشرافية في 29…: batch S4: no provider available",
   "S5 PAFN inspects 45 food outlets in Farwaniya, issues 53 violations: batch S5: no provider available",
-  "S6 التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا…: batch S6: no provider available",
-  "S7 الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من…: batch S7: no provider available",
-  "S8 معاون رئيس الأركان يترأس وفد «الدفاع» في منتدى شومان للدفاع والأمن: batch S8: no provider available",
-  "S9 «التربية» تُحوّل مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها: batch S9: no provider available",
-  "S10 السالمية لانطلاقة قوية في كأس ولي العهد: batch S10: no provider available",
-  "S11 مركز «ناتو» الإقليمي يختتم التدريب على مكافحة الإرهاب البحري: batch S11: no provider available",
-  "S12 «البحوث التربوية»: توظيف الذكاء الاصطناعي في تطوير التعليم: batch S12: no provider available",
-  "S13 القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو»: batch S13: no provider available",
-  "S14 «عبدالله السالم»: 27 ديسمبر المقبل.. فتح باب استقبال طلبات الالتحاق…: batch S14: no provider available",
-  "S15 الكويت و15 دولة ترحب بعقوبات المملكة المتحدة وأستراليا رداً على أنشطة…: batch S15: no provider available",
-  "S16 «حولي» تُطلق حملة توعوية لمكافحة السمنة: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S17 اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S18 DGCA signs aviation agreements on sidelines of ICAO conference: batch S18: no provider available",
-  "S19 ديوان الخدمة: التسجيل بنظام التوظيف المركزي.. من 4 إلى 18 ديسمبر…: batch S19: no provider available",
-  "S20 وزير الصحة: مقاومة مضادات الميكروبات تحد صحي يتطلب عملاً جاداً…: batch S20: no provider available",
-  "S21 الحويلة تفتتح مركز حماية الطفولة في «دور الرعاية»: batch S21: no provider available",
-  "S22 «البترولية المستقلة» تساهم بمليون دولار في صندوق الكويت للاستجابة…: batch S22: no provider available",
-  "S23 البلدية تنذر بإزالة 494 عقارا آيلا للسقوط في جليب الشيوخ خلال أسبوعين: batch S23: no provider available",
-  "S24 «الخليج» يستعرض في «العاصمة» مزايا... «مليونير الدانة»: batch S24: no provider available",
-  "S25 «الوطني» يحصد «التميز» بالموارد البشرية الرقمية في القطاع الخاص…: batch S25: no provider available",
+  "S6 معاون رئيس الأركان يترأس وفد «الدفاع» في منتدى شومان للدفاع والأمن: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S7 «التربية» تُحوّل مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S8 الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من…: batch S8: no provider available",
+  "S9 السالمية لانطلاقة قوية في كأس ولي العهد: batch S9: no provider available",
+  "S10 مركز «ناتو» الإقليمي يختتم التدريب على مكافحة الإرهاب البحري: batch S10: no provider available",
+  "S11 «البحوث التربوية»: توظيف الذكاء الاصطناعي في تطوير التعليم: batch S11: no provider available",
+  "S12 القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو»: batch S12: no provider available",
+  "S13 «عبدالله السالم»: 27 ديسمبر المقبل.. فتح باب استقبال طلبات الالتحاق…: batch S13: no provider available",
+  "S14 الكويت و15 دولة ترحب بعقوبات المملكة المتحدة وأستراليا رداً على أنشطة…: batch S14: no provider available",
+  "S15 «حولي» تُطلق حملة توعوية لمكافحة السمنة: batch S15: no provider available",
   "synthesis: synthesis: the analysis budget ran out before the call was made"
  ],
  "stories": [
+  {
+   "key": "725f8ea1d0a0db4b",
+   "score": 26.859,
+   "sources": [
+    "الأنباء",
+    "الرأي",
+    "الجريدة",
+    "Times Kuwait"
+   ],
+   "outlet_count": 4,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«التربية» تحصد جائزتين في جائزة حمدان بن راشد للأداء التعليمي المتميز 2026",
+     "url": "https://www.alanba.com.kw/1385730",
+     "section": "kuwait",
+     "summary": "آلاء خليفةحصدت وزارة التربية جائزتين ضمن جائزة حمدان بن راشد آل مكتوم للأداء التعليمي المتميز، في دورتها لعام 2026، وذلك بفوز تربويتين كويتيتين بجائزتي المعلم",
+     "body": "",
+     "published": "2026-11-19T19:44:01+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز»",
+     "url": "https://www.alraimedia.com/article/1786653/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B5%D8%AF-%D8%AC%D8%A7%D8%A6%D8%B2%D8%AA%D9%8A%D9%86-%D9%81%D9%8A-%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A7%D8%AA-%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%AD%D9%85%D8%AF%D8%A7%D9%86-%D9%84%D9%84%D8%A3%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D9%85%D9%8A%D8%B2",
+     "section": "local",
+     "summary": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي.وذكرت ا...",
+     "body": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي.\n\nوذكرت الوزارة في بيان أن نجلا الحربي فازت بجائزة «المعلم المتميز» تقديراً لعطائها وإبداعها في المجال التعليمي، فيما حصدت منيرة الهاجري جائزة «التربوي المتميز» تقديراً لجهودها وإسهاماتها التربوية.\n\n«الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم شواغر إشرافية في 29 تعاونية منذ ساعة البرجس تفقد طوابير الأركان: الانضباط والتدريب ركيزة راسخة في مسيرة الحرس الوطني منذ ساعة\n\nيذكر أن جائزة حمدان بن راشد آل مكتوم للأداء التعليمي المتميز تهدف إلى الارتقاء بجودة التعليم وتعزيز ثقافة التميز والابتكار في المؤسسات التعليمية وتشجيع الكفاءات التربوية على تطوير أدائها بما يسهم في دعم مسيرة التنمية التعليمية في دول مجلس التعاون لدول الخليج العربية.",
+     "published": "2026-11-19T17:10:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«التربية» تحصد جائزتين في «حمدان للأداء التعليمي المتميز»",
+     "url": "https://www.aljarida.com/article/150978",
+     "section": "local",
+     "summary": "في إنجاز تربوي يعكس تميز الكفاءات التعليمية الكويتية وما تزخر به الميدان التربوي من طاقات وطنية مبدعة وبدعم معالي وزير التربية المهندس سيد جلال الطبطبائي، حصدت وزارة التربية...",
+     "body": "",
+     "published": "2026-11-19T17:01:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Kuwait Education Ministry wins UAE education excellence award",
+     "url": "https://timeskuwait.com/kuwait-education-ministry-wins-uae-education-excellence-award/",
+     "section": "latest",
+     "summary": "The Kuwaiti Education announced Thursday it has won two awards as part of Hamdan bin Rashid Al Maktoum Award for Distinguished Academic Performance 2026 in an achievement that reflects Kuwait’s educational excellence. Najla Al-Harbi won the “Distinguished Teacher” award in recognition of her dedication and creativity in the field of education, while Muneera Al-Hajri received …\n\nThe post Kuwait Education Ministry wins UAE education excellence award appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-20T06:10:18+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز»",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait",
+     "local",
+     "latest"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي. وذكرت الوزارة في بيان أن نجلا الحربي فازت بجائزة «المعلم المتميز» تقديراً لعطائها وإبداعها في المجال التعليمي، فيما حصدت منيرة الهاجري جائزة «التربوي المتميز» تقديراً لجهودها وإسهاماتها التربوية. «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 4 outlet(s): الأنباء, الرأي, الجريدة, Times Kuwait.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «التربية» تحصد جائزتين في جائزة حمدان بن راشد للأداء التعليمي المتميز 2026; «التربية» تحصد جائزتين في «حمدان للأداء التعليمي المتميز»; Kuwait Education Ministry wins UAE education excellence award",
+    "watch_next_en": "",
+    "summary_ar": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي. وذكرت الوزارة في بيان أن نجلا الحربي فازت بجائزة «المعلم المتميز» تقديراً لعطائها وإبداعها في المجال التعليمي، فيما حصدت منيرة الهاجري جائزة «التربوي المتميز» تقديراً لجهودها وإسهاماتها التربوية. «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 4 وسيلة إعلامية: الأنباء, الرأي, الجريدة, Times Kuwait.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
   {
    "key": "4418ee3c352df92c",
    "score": 22.209,
@@ -279,75 +352,6 @@
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: إغلاق الحارتين السريعة والوسطى من تقاطع «الرابع» مع طريق «50» باتجاه المطار مقابل اليرموك; إغلاق الحارتين السريعة والوسطى من تقاطع «الرابع» مع طريق «50» باتجاه المطار مقابل اليرموك; إغلاق الحارتين السريعة والوسطى من تقاطع «الرابع» مع طريق «50» باتجاه المطار مقابل اليرموك; «الأشغال»: إغلاق جزئي من تقاطع «الرابع» مع طريق الملك فيصل باتجاه المطار",
     "watch_next_en": "",
     "summary_ar": "أعلنت وزارة الأشغال العامة، بالتعاون مع الإدارة العامة للمرور، افتتاح جزء من الحارتين اليمنى والوسطى باتجاه منطقة خيطان على طريق الملك فيصل (50)، باتجاه المطار، إلى جانب افتتاح المخرج الموازي لمنطقة خيطان والمؤدي إلى شارع أبوظبي، وافتتاح الإشارة المرورية وفرعي شارع نادي خيطان باتجاه المطار. وفي المقابل، يستمر الإغلاق الجزئي للحارتين اليمنى والوسطى للقادمين من المدينة باتجاه المطار، إضافة إلى إغلاق المخرج المؤدي إلى…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الرأي, الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "725f8ea1d0a0db4b",
-   "score": 20.859,
-   "sources": [
-    "الأنباء",
-    "الرأي",
-    "الجريدة"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«التربية» تحصد جائزتين في جائزة حمدان بن راشد للأداء التعليمي المتميز 2026",
-     "url": "https://www.alanba.com.kw/1385730",
-     "section": "kuwait",
-     "summary": "آلاء خليفةحصدت وزارة التربية جائزتين ضمن جائزة حمدان بن راشد آل مكتوم للأداء التعليمي المتميز، في دورتها لعام 2026، وذلك بفوز تربويتين كويتيتين بجائزتي المعلم",
-     "body": "",
-     "published": "2026-11-19T19:44:01+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز»",
-     "url": "https://www.alraimedia.com/article/1786653/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B5%D8%AF-%D8%AC%D8%A7%D8%A6%D8%B2%D8%AA%D9%8A%D9%86-%D9%81%D9%8A-%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A7%D8%AA-%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%AD%D9%85%D8%AF%D8%A7%D9%86-%D9%84%D9%84%D8%A3%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D9%85%D9%8A%D8%B2",
-     "section": "local",
-     "summary": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي.وذكرت ا...",
-     "body": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي.\n\nوذكرت الوزارة في بيان أن نجلا الحربي فازت بجائزة «المعلم المتميز» تقديراً لعطائها وإبداعها في المجال التعليمي، فيما حصدت منيرة الهاجري جائزة «التربوي المتميز» تقديراً لجهودها وإسهاماتها التربوية.\n\n«الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم شواغر إشرافية في 29 تعاونية منذ ساعة البرجس تفقد طوابير الأركان: الانضباط والتدريب ركيزة راسخة في مسيرة الحرس الوطني منذ ساعة\n\nيذكر أن جائزة حمدان بن راشد آل مكتوم للأداء التعليمي المتميز تهدف إلى الارتقاء بجودة التعليم وتعزيز ثقافة التميز والابتكار في المؤسسات التعليمية وتشجيع الكفاءات التربوية على تطوير أدائها بما يسهم في دعم مسيرة التنمية التعليمية في دول مجلس التعاون لدول الخليج العربية.",
-     "published": "2026-11-19T17:10:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«التربية» تحصد جائزتين في «حمدان للأداء التعليمي المتميز»",
-     "url": "https://www.aljarida.com/article/150978",
-     "section": "local",
-     "summary": "في إنجاز تربوي يعكس تميز الكفاءات التعليمية الكويتية وما تزخر به الميدان التربوي من طاقات وطنية مبدعة وبدعم معالي وزير التربية المهندس سيد جلال الطبطبائي، حصدت وزارة التربية...",
-     "body": "",
-     "published": "2026-11-19T17:01:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "«التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز»",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait",
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي. وذكرت الوزارة في بيان أن نجلا الحربي فازت بجائزة «المعلم المتميز» تقديراً لعطائها وإبداعها في المجال التعليمي، فيما حصدت منيرة الهاجري جائزة «التربوي المتميز» تقديراً لجهودها وإسهاماتها التربوية. «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الأنباء, الرأي, الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «التربية» تحصد جائزتين في جائزة حمدان بن راشد للأداء التعليمي المتميز 2026; «التربية» تحصد جائزتين في «حمدان للأداء التعليمي المتميز»",
-    "watch_next_en": "",
-    "summary_ar": "أعلنت وزارة التربية، اليوم الخميس، حصولها على جائزتين ضمن جائزة «حمدان بن راشد آل مكتوم للأداء التعليمي المتميز 2026» في إنجاز يعكس تميز الكفاءات الوطنية في الميدان التربوي. وذكرت الوزارة في بيان أن نجلا الحربي فازت بجائزة «المعلم المتميز» تقديراً لعطائها وإبداعها في المجال التعليمي، فيما حصدت منيرة الهاجري جائزة «التربوي المتميز» تقديراً لجهودها وإسهاماتها التربوية. «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الرأي, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -464,7 +468,7 @@
      "url": "https://www.alraimedia.com/article/1786651/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%AA%D8%AC%D8%B1%D9%8A-%D9%82%D8%B1%D8%B9%D8%A9-%D8%B9%D9%84%D9%86%D9%8A%D8%A9-%D8%A8%D9%8A%D9%86-69-%D9%85%D9%88%D8%A7%D8%B7%D9%86%D8%A7-%D9%84%D8%AD%D8%B3%D9%85-%D8%B4%D9%88%D8%A7%D8%BA%D8%B1-%D8%A5%D8%B4%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-%D9%81%D9%8A-29-%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%D8%A9",
      "section": "local",
      "summary": "أجرت وزارة الشؤون الاجتماعية، اليوم الخميس، قرعة علنية بين 69 مواطنا تساووا في مجموع درجات الاختبار التحريري والمقابلة الشخصية لحسم الترشيحات للوظائف الإشرافية في 29 جمعية تعاونية...",
-     "body": "أجرت وزارة الشؤون الاجتماعية، اليوم الخميس، قرعة علنية بين 69 مواطنا تساووا في مجموع درجات الاختبار التحريري والمقابلة الشخصية لحسم الترشيحات للوظائف الإشرافية في 29 جمعية تعاونية وذلك ضمن الدفعة الثالثة لتكويت الوظائف الإشرافية التي شملت 70 وظيفة في 59 جمعية.\n\nوأكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة في تصريح صحافي لدى حضورها جانبا من القرعة الالتزام بالشفافية وتكافؤ الفرص ووضوح معايير الاختيار أمام المتقدمين مشيرة إلى أن المفاضلة على أساس الدرجات واللجوء إلى القرعة العلنية عند تساويها واستكمال الإجراءات القانونية يكفلان لكل متقدم فرصة متكافئة في شغل المنصب.\n\nالبرجس تفقد طوابير الأركان: الانضباط والتدريب ركيزة راسخة في مسيرة الحرس الوطني منذ 17 دقيقة «التربية» تُحوّل مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها منذ 55 دقيقة\n\nوأشرفت على القرعة الموثقة بالصوت والصورة لجنة تسكين الوظائف الإشرافية في الجمعيات التعاونية برئاسة وكيل وزارة الشؤون الاجتماعية بالتكليف فيصل الكندري وعضوية الوكيل المساعد لقطاع الشؤون المالية والإدارية وشؤون التعاون الدكتور سيد عيسى وممثلين عن قطاع التعاون والهيئة العامة للقوى العاملة واتحاد الجمعيات التعاونية الاستهلاكية كما شملت أعمالها اختيار مرشحين احتياطيين.\n\nوحسمت الترشيحات في الجمعيات الـ30 الأخرى مباشرة وفق مجموع درجات الاختبار التحريري والمقابلة الشخصية لعدم وجود تساو بين المرشحين المتنافسين على الوظائف فيها.\n\nوبلغ عدد المتأهلين للمقابلات الشخصية بعد اجتياز الاختبار التحريري الذي أجرته جامعة الخليج 397 مواطنا حضر منهم 358 المقابلات التي عقدت من 11 إلى 17 نوفمبر الجاري فيما تغيب 39 متقدما.",
+     "body": "أجرت وزارة الشؤون الاجتماعية، اليوم الخميس، قرعة علنية بين 69 مواطنا تساووا في مجموع درجات الاختبار التحريري والمقابلة الشخصية لحسم الترشيحات للوظائف الإشرافية في 29 جمعية تعاونية وذلك ضمن الدفعة الثالثة لتكويت الوظائف الإشرافية التي شملت 70 وظيفة في 59 جمعية.\n\nوأكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة في تصريح صحافي لدى حضورها جانبا من القرعة الالتزام بالشفافية وتكافؤ الفرص ووضوح معايير الاختيار أمام المتقدمين مشيرة إلى أن المفاضلة على أساس الدرجات واللجوء إلى القرعة العلنية عند تساويها واستكمال الإجراءات القانونية يكفلان لكل متقدم فرصة متكافئة في شغل المنصب.\n\nالبرجس تفقد طوابير الأركان: الانضباط والتدريب ركيزة راسخة في مسيرة الحرس الوطني منذ 14 دقيقة «التربية» تُحوّل مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها منذ 52 دقيقة\n\nوأشرفت على القرعة الموثقة بالصوت والصورة لجنة تسكين الوظائف الإشرافية في الجمعيات التعاونية برئاسة وكيل وزارة الشؤون الاجتماعية بالتكليف فيصل الكندري وعضوية الوكيل المساعد لقطاع الشؤون المالية والإدارية وشؤون التعاون الدكتور سيد عيسى وممثلين عن قطاع التعاون والهيئة العامة للقوى العاملة واتحاد الجمعيات التعاونية الاستهلاكية كما شملت أعمالها اختيار مرشحين احتياطيين.\n\nوحسمت الترشيحات في الجمعيات الـ30 الأخرى مباشرة وفق مجموع درجات الاختبار التحريري والمقابلة الشخصية لعدم وجود تساو بين المرشحين المتنافسين على الوظائف فيها.\n\nوبلغ عدد المتأهلين للمقابلات الشخصية بعد اجتياز الاختبار التحريري الذي أجرته جامعة الخليج 397 مواطنا حضر منهم 358 المقابلات التي عقدت من 11 إلى 17 نوفمبر الجاري فيما تغيب 39 متقدما.",
      "published": "2026-11-19T15:54:00+03:00",
      "tier": 1
     }
@@ -493,7 +497,7 @@
   },
   {
    "key": "5a31c5ee9d319887",
-   "score": 18.759,
+   "score": 19.359,
    "sources": [
     "Kuwait Times",
     "الأنباء",
@@ -531,7 +535,7 @@
      "lang": "ar",
      "title": "إتلاف 214 كيلوغراماً مواد غذائية في الفروانية",
      "url": "https://www.alraimedia.com/article/1786725/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A5%D8%AA%D9%84%D8%A7%D9%81-214-%D9%83%D9%8A%D9%84%D9%88%D8%BA%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D9%88%D8%A7%D8%AF-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%B1%D9%88%D8%A7%D9%86%D9%8A%D8%A9",
-     "section": "last-page",
+     "section": "latest",
      "summary": "أتلفت الهيئة العامة للغذاء والتغذية، بالتعاون مع وزارة الداخلية والجهات الحكومية المعنية 214 كيلوغراماً من المواد الغذائية في منطقة الفروانية.وكانت الهيئة نفذت حملة تفتيشية في محاف...",
      "body": "",
      "published": "2026-11-19T22:00:00+03:00",
@@ -547,7 +551,7 @@
     "entities": [],
     "tags": [
      "kuwait",
-     "last-page"
+     "latest"
     ],
     "_source": "extractive",
     "summary_en": "KUWAIT: The Public Authority for Food and Nutrition (PAFN), in cooperation with the Ministry of Interior and other relevant government bodies, carried out an inspection campaign covering 45 food establishments in Farwaniya Governorate. The campaign resulted in 53 violation reports, one written pledge and two destruction reports covering a total of 214 kilograms of food. The authority said it would continue its…",
@@ -556,169 +560,6 @@
     "watch_next_en": "",
     "summary_ar": "",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: Kuwait Times, الأنباء, الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "c112904e83aacce1",
-   "score": 16.269,
-   "sources": [
-    "الرأي",
-    "الجريدة",
-    "الأنباء"
-   ],
-   "outlet_count": 3,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
-     "url": "https://www.alraimedia.com/article/1786748/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D9%883-%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير 3 طائرات مسيرة أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجن...",
-     "body": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير 3 طائرات مسيرة أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.\n\nوفي سياق متصل، قال المالكي في بيان عبر حسابه الرسمي في منصة «إكس» إن الدفاع الجوي اعترض ودمر صاروخا باليستيا أطلقته الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.",
-     "published": "2026-11-20T04:20:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "التحالف: اعتراض وتدمير صاروخ باليستي ومسيّرتين أطلقتهم الميليشيا الحوثية باتجاه المنطقة الجنوبية",
-     "url": "https://www.alraimedia.com/article/1786748/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D9%88%D9%85%D8%B3%D9%8A%D8%B1%D8%AA%D9%8A%D9%86-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9",
-     "section": "latest",
-     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير طائرتين مسيرتين أطلقتهما الميليشيا الحوثية الإرهابية باتجاه المنطقة ال...",
-     "body": "",
-     "published": "2026-11-20T04:20:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "التحالف: اعترضنا ودمرنا 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
-     "url": "https://www.aljarida.com/article/150950",
-     "section": "world",
-     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي اليوم الخميس اعتراض وتدمير 4 صواريخ باليستية أطلقتها الميليشيا الحوثية الإرهابية باتجاه...",
-     "body": "",
-     "published": "2026-11-19T09:43:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«التحالف»: تدمير 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
-     "url": "https://www.alraimedia.com/article/1786632/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-4-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "أعلن تحالف دعم الشرعية في اليمن أن الدفاع الجوي اعترض ودمر 4 صواريخ باليستية أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.",
-     "body": "",
-     "published": "2026-11-19T09:01:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "\"التحالف\": تدمير منصة صواريخ باليستية في \"ذمار\" استخدمتها الميليشيا الحوثية الإرهابية في الاعتداء على الرياض",
-     "url": "https://www.alanba.com.kw/1385650",
-     "section": "gulf",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-19T04:40:40+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "world",
-     "latest",
-     "gulf"
-    ],
-    "_source": "extractive",
-    "summary_en": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير 3 طائرات مسيرة أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية. وفي سياق متصل، قال المالكي في بيان عبر حسابه الرسمي في منصة «إكس» إن الدفاع الجوي اعترض ودمر صاروخا باليستيا أطلقته الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الرأي, الجريدة, الأنباء.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: التحالف: اعتراض وتدمير صاروخ باليستي ومسيّرتين أطلقتهم الميليشيا الحوثية باتجاه المنطقة الجنوبية; التحالف: اعترضنا ودمرنا 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية; «التحالف»: تدمير 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية; \"التحالف\": تدمير منصة صواريخ باليستية في \"ذمار\" استخدمتها الميليشيا الحوثية الإرهابية في الاعتداء على الرياض",
-    "watch_next_en": "",
-    "summary_ar": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير 3 طائرات مسيرة أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية. وفي سياق متصل، قال المالكي في بيان عبر حسابه الرسمي في منصة «إكس» إن الدفاع الجوي اعترض ودمر صاروخا باليستيا أطلقته الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الرأي, الجريدة, الأنباء.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "e2f7c1ea01e48bad",
-   "score": 14.434,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«الخارجية»: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على السعودية انتهاك صارخ",
-     "url": "https://www.alanba.com.kw/1385743",
-     "section": "official",
-     "summary": "كونا أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عدد من المناطق في المملكة العربية",
-     "body": "",
-     "published": "2026-11-19T19:44:01+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "الكويت: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية انتهاك صارخ لسيادة المملكة",
-     "url": "https://www.alanba.com.kw/1385702",
-     "section": "kuwait",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-19T17:05:27+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية",
-     "url": "https://www.alraimedia.com/article/1786663/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B9%D9%84%D9%89-%D8%B9%D8%AF%D8%AF-%D9%85%D9%86-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدا...",
-     "body": "استنكرت الاعتداءات على الأعيان المدنية والمنشآت الاقتصادية في الرياض\n\nأعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدام الصواريخ الباليستية وصواريخ كروز والطائرات المسيّرة، وآخرها الاعتداءات التي طالت الأعيان المدنية والمنشآت الاقتصادية في العاصمة الرياض، وما نتج عنها من أضرارٍ ماديةٍ بأحد الأبراج المدنية، في انتهاكٍ صارخٍ لسيادة المملكة، وخرقٍ فاضحٍ للقانون الدولي والقانون الدولي الإنساني.\n\nمعاون رئيس الأركان يترأس وفد «الدفاع» في منتدى شومان للدفاع والأمن منذ 57 دقيقة «الأشغال»: إغلاق جزئي من تقاطع «الرابع» مع طريق الملك فيصل باتجاه المطار منذ ساعة\n\nوجددت الوزارة تضامن دولة الكويت المطلق مع المملكة العربية السعودية الشقيقة، ووقوفها إلى جانبها في كافة الإجراءات التي تتخذها لصون سيادتها والحفاظ على أمنها وسلامة أراضيها، مشددةً على أن أمن المملكة جزء لا يتجزأ من أمن دولة الكويت وأمن دول مجلس التعاون لدول الخليج العربية.",
-     "published": "2026-11-19T19:34:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "official",
-     "kuwait",
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "استنكرت الاعتداءات على الأعيان المدنية والمنشآت الاقتصادية في الرياض أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدام الصواريخ الباليستية وصواريخ كروز والطائرات المسيّرة، وآخرها الاعتداءات التي طالت الأعيان المدنية والمنشآت الاقتصادية في العاصمة الرياض، وما نتج عنها من أضرارٍ ماديةٍ…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الأنباء, الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «الخارجية»: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على السعودية انتهاك صارخ; الكويت: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية انتهاك صارخ لسيادة المملكة",
-    "watch_next_en": "",
-    "summary_ar": "استنكرت الاعتداءات على الأعيان المدنية والمنشآت الاقتصادية في الرياض أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدام الصواريخ الباليستية وصواريخ كروز والطائرات المسيّرة، وآخرها الاعتداءات التي طالت الأعيان المدنية والمنشآت الاقتصادية في العاصمة الرياض، وما نتج عنها من أضرارٍ ماديةٍ…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -832,7 +673,7 @@
      "url": "https://www.alraimedia.com/article/1786648/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%AD%D9%88%D9%84-%D9%85%D9%83%D8%A7%D9%81%D8%A2%D8%AA-%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%A7%D8%B2%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D8%AA%D9%85%D9%87%D9%8A%D8%AF%D8%A7-%D9%84%D8%B5%D8%B1%D9%81%D9%87%D8%A7",
      "section": "local",
      "summary": "انتهت الإدارة العامة للشؤون المالية في وزارة التربية، من أعمال التدقيق والمراجعة لمكافأة الأعمال الممتازة للعاملين في المدارس في أغلب المناطق التعليمية، تمهيداً لصرف المستحقات الما...",
-     "body": "انتهت الإدارة العامة للشؤون المالية في وزارة التربية، من أعمال التدقيق والمراجعة لمكافأة الأعمال الممتازة للعاملين في المدارس في أغلب المناطق التعليمية، تمهيداً لصرف المستحقات المالية للمستفيدين، في خطوة من شأنها استكمال إجراءات صرف المكافآت للمستحقين.\n\nوقالت مصادر تربوية لـ«الراي» إن الإدارة العامة للشؤون المالية قامت اليوم الخميس بتحويل مكافآت الأعمال الممتازة إلى البنك المركزي لأربع مناطق تعليمية، هي الأحمدي والفروانية وحولي والعاصمة، تمهيداً لاستكمال إجراءات إيداعها في حسابات الموظفين المستحقين.\n\nالكويت تؤكد دعم الدور المحوري لوكالة الطاقة الذرية في مجال التحقق النووي وتعزيز الأمن والسلم الدوليين منذ ساعة الحويلة تفتتح مركز «حماية الطفل»: ليس مجرد مبنى جديد بل درع وقائي ومنارة حقوقية واجتماعية منذ 3 ساعات\n\nوأشارت إلى أن الوزارة قامت بإرسال رسائل إلى الموظفين المستحقين لمكافأة الأعمال الممتازة، لإبلاغهم باستحقاقهم المكافأة، وذلك بالتزامن مع استكمال الإجراءات الخاصة بتحويل المبالغ المالية إلى البنك المركزي.\n\nوبينت المصادر أن المتبقي من المناطق التعليمية لاستكمال إجراءات صرف المكافأة هما منطقتا الجهراء ومبارك الكبير التعليميتان، حيث لا تزال الأعمال المرتبطة بالتدقيق والمراجعة جارية تمهيداً لإنجاز التحويلات الخاصة بهما.\n\nوأكدت أن صرف مستحقات العاملين في المنطقتين مقرر خلال الأيام القليلة المقبلة، فور الانتهاء من أعمال المراجعة اللازمة واستكمال الإجراءات المالية، بما يمهد لإيداع المكافآت في حسابات الموظفين المستحقين.",
+     "body": "انتهت الإدارة العامة للشؤون المالية في وزارة التربية، من أعمال التدقيق والمراجعة لمكافأة الأعمال الممتازة للعاملين في المدارس في أغلب المناطق التعليمية، تمهيداً لصرف المستحقات المالية للمستفيدين، في خطوة من شأنها استكمال إجراءات صرف المكافآت للمستحقين.\n\nوقالت مصادر تربوية لـ«الراي» إن الإدارة العامة للشؤون المالية قامت اليوم الخميس بتحويل مكافآت الأعمال الممتازة إلى البنك المركزي لأربع مناطق تعليمية، هي الأحمدي والفروانية وحولي والعاصمة، تمهيداً لاستكمال إجراءات إيداعها في حسابات الموظفين المستحقين.\n\nالكويت تؤكد دعم الدور المحوري لوكالة الطاقة الذرية في مجال التحقق النووي وتعزيز الأمن والسلم الدوليين منذ ساعة الحويلة تفتتح مركز «حماية الطفل»: ليس مجرد مبنى جديد بل درع وقائي ومنارة حقوقية واجتماعية منذ ساعتين\n\nوأشارت إلى أن الوزارة قامت بإرسال رسائل إلى الموظفين المستحقين لمكافأة الأعمال الممتازة، لإبلاغهم باستحقاقهم المكافأة، وذلك بالتزامن مع استكمال الإجراءات الخاصة بتحويل المبالغ المالية إلى البنك المركزي.\n\nوبينت المصادر أن المتبقي من المناطق التعليمية لاستكمال إجراءات صرف المكافأة هما منطقتا الجهراء ومبارك الكبير التعليميتان، حيث لا تزال الأعمال المرتبطة بالتدقيق والمراجعة جارية تمهيداً لإنجاز التحويلات الخاصة بهما.\n\nوأكدت أن صرف مستحقات العاملين في المنطقتين مقرر خلال الأيام القليلة المقبلة، فور الانتهاء من أعمال المراجعة اللازمة واستكمال الإجراءات المالية، بما يمهد لإيداع المكافآت في حسابات الموظفين المستحقين.",
      "published": "2026-11-19T15:24:00+03:00",
      "tier": 1
     }
@@ -854,6 +695,75 @@
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: مكافآت «ممتازة» التربية إلى «المركزي» والإيداع في حسابات المستحقين خلال أسبوعين; «التربية» تحول مكافآت «الممتازة» إلى «المركزي»... تمهيداً لصرفها",
     "watch_next_en": "",
     "summary_ar": "انتهت الإدارة العامة للشؤون المالية في وزارة التربية، من أعمال التدقيق والمراجعة لمكافأة الأعمال الممتازة للعاملين في المدارس في أغلب المناطق التعليمية، تمهيداً لصرف المستحقات المالية للمستفيدين، في خطوة من شأنها استكمال إجراءات صرف المكافآت للمستحقين. وقالت مصادر تربوية لـ«الراي» إن الإدارة العامة للشؤون المالية قامت اليوم الخميس بتحويل مكافآت الأعمال الممتازة إلى البنك المركزي لأربع مناطق تعليمية، هي الأحمدي…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "e2f7c1ea01e48bad",
+   "score": 14.434,
+   "sources": [
+    "الأنباء",
+    "الرأي"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«الخارجية»: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على السعودية انتهاك صارخ",
+     "url": "https://www.alanba.com.kw/1385743",
+     "section": "official",
+     "summary": "كونا أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عدد من المناطق في المملكة العربية",
+     "body": "",
+     "published": "2026-11-19T19:44:01+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "الكويت: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية انتهاك صارخ لسيادة المملكة",
+     "url": "https://www.alanba.com.kw/1385702",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-19T17:05:27+00:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية",
+     "url": "https://www.alraimedia.com/article/1786663/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9-%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%B9%D9%84%D9%89-%D8%B9%D8%AF%D8%AF-%D9%85%D9%86-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدا...",
+     "body": "استنكرت الاعتداءات على الأعيان المدنية والمنشآت الاقتصادية في الرياض\n\nأعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدام الصواريخ الباليستية وصواريخ كروز والطائرات المسيّرة، وآخرها الاعتداءات التي طالت الأعيان المدنية والمنشآت الاقتصادية في العاصمة الرياض، وما نتج عنها من أضرارٍ ماديةٍ بأحد الأبراج المدنية، في انتهاكٍ صارخٍ لسيادة المملكة، وخرقٍ فاضحٍ للقانون الدولي والقانون الدولي الإنساني.\n\nمعاون رئيس الأركان يترأس وفد «الدفاع» في منتدى شومان للدفاع والأمن منذ 57 دقيقة «الأشغال»: إغلاق جزئي من تقاطع «الرابع» مع طريق الملك فيصل باتجاه المطار منذ ساعة\n\nوجددت الوزارة تضامن دولة الكويت المطلق مع المملكة العربية السعودية الشقيقة، ووقوفها إلى جانبها في كافة الإجراءات التي تتخذها لصون سيادتها والحفاظ على أمنها وسلامة أراضيها، مشددةً على أن أمن المملكة جزء لا يتجزأ من أمن دولة الكويت وأمن دول مجلس التعاون لدول الخليج العربية.",
+     "published": "2026-11-19T19:34:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "الكويت تدين استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "official",
+     "kuwait",
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "استنكرت الاعتداءات على الأعيان المدنية والمنشآت الاقتصادية في الرياض أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدام الصواريخ الباليستية وصواريخ كروز والطائرات المسيّرة، وآخرها الاعتداءات التي طالت الأعيان المدنية والمنشآت الاقتصادية في العاصمة الرياض، وما نتج عنها من أضرارٍ ماديةٍ…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الأنباء, الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «الخارجية»: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على السعودية انتهاك صارخ; الكويت: استمرار الاعتداءات الإرهابية لميليشيا الحوثي على عدد من مناطق السعودية انتهاك صارخ لسيادة المملكة",
+    "watch_next_en": "",
+    "summary_ar": "استنكرت الاعتداءات على الأعيان المدنية والمنشآت الاقتصادية في الرياض أعربت وزارة الخارجية عن إدانة واستنكار دولة الكويت الشديدين لاستمرار الاعتداءات الإرهابية التي تشنها ميليشيا الحوثي على عددٍ من المناطق في المملكة العربية السعودية الشقيقة، باستخدام الصواريخ الباليستية وصواريخ كروز والطائرات المسيّرة، وآخرها الاعتداءات التي طالت الأعيان المدنية والمنشآت الاقتصادية في العاصمة الرياض، وما نتج عنها من أضرارٍ ماديةٍ…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -1069,7 +979,7 @@
      "url": "https://www.alraimedia.com/article/1786654/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%B6%D9%8A%D9%81-%D9%88%D9%81%D8%AF%D8%A7-%D9%85%D9%86-%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D8%A9-%D9%84%D8%AD%D9%84%D9%81-%D8%A7%D9%84%D9%86%D8%A7%D8%AA%D9%88",
      "section": "local",
      "summary": "استضافت قاعدة سالم الصباح الجوية وفداً من قيادة القوات المتحالفة لحلف شمال الأطلسي (الناتو)، وذلك في إطار تعزيز التعاون العسكري وتبادل الخبرات مع الدول والمنظمات العسكرية الصديقة.و...",
-     "body": "استضافت قاعدة سالم الصباح الجوية وفداً من قيادة القوات المتحالفة لحلف شمال الأطلسي (الناتو)، وذلك في إطار تعزيز التعاون العسكري وتبادل الخبرات مع الدول والمنظمات العسكرية الصديقة.\n\nوذكر الجيش الكويتي في بيان اليوم الخميس أنه تضمّن برنامج الزيارة عقد ورشة عمل متخصصة تناولت إجراءات البحث والاستطلاع والمراقبة الجوية، حيث جرى خلالها استعراض ومناقشة المفاهيم والإجراءات العملياتية ذات الصلة، وتبادل الخبرات والمعارف في هذا المجال.\n\n«التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز» منذ 23 دقيقة «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم شواغر إشرافية في 29 تعاونية منذ ساعة\n\nوتأتي الزيارة في إطار حرص القوة الجوية على تعزيز الشراكات العسكرية الدولية، وتطوير القدرات العملياتية والتدريبية، بما يواكب المستجدات والتطورات في مجالات العمليات الجوية.",
+     "body": "استضافت قاعدة سالم الصباح الجوية وفداً من قيادة القوات المتحالفة لحلف شمال الأطلسي (الناتو)، وذلك في إطار تعزيز التعاون العسكري وتبادل الخبرات مع الدول والمنظمات العسكرية الصديقة.\n\nوذكر الجيش الكويتي في بيان اليوم الخميس أنه تضمّن برنامج الزيارة عقد ورشة عمل متخصصة تناولت إجراءات البحث والاستطلاع والمراقبة الجوية، حيث جرى خلالها استعراض ومناقشة المفاهيم والإجراءات العملياتية ذات الصلة، وتبادل الخبرات والمعارف في هذا المجال.\n\n«التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز» منذ 22 دقيقة «الشؤون» تجري قرعة علنية بين 69 مواطناً لحسم شواغر إشرافية في 29 تعاونية منذ ساعة\n\nوتأتي الزيارة في إطار حرص القوة الجوية على تعزيز الشراكات العسكرية الدولية، وتطوير القدرات العملياتية والتدريبية، بما يواكب المستجدات والتطورات في مجالات العمليات الجوية.",
      "published": "2026-11-19T17:27:00+03:00",
      "tier": 1
     }
@@ -1279,7 +1189,7 @@
      "url": "https://www.alraimedia.com/article/1786656/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%86%D9%8A%D9%81%D9%8A-%D9%8A%D8%AA%D8%B1%D8%A3%D8%B3-%D9%88%D9%81%D8%AF-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D9%85%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%A8%D8%AF%D8%A8%D9%8A",
      "section": "local",
      "summary": "ترأس وكيل وزارة الداخلية المساعد لشؤون الأمن العام اللواء حمد المنيفي وفد دولة الكويت المشارك في القمة الشرطية العالمية لعام 2026 في إمارة دبي بمشاركة قيادات أمنية وشرطية وخبراء وم...",
-     "body": "اطلع على أحدث التقنيات في مكافحة الجريمة وتعزيز السلامة العامة\n\nترأس وكيل وزارة الداخلية المساعد لشؤون الأمن العام اللواء حمد المنيفي وفد دولة الكويت المشارك في القمة الشرطية العالمية لعام 2026 في إمارة دبي بمشاركة قيادات أمنية وشرطية وخبراء ومتخصصين من مختلف دول العالم.\n\nوذكرت وزارة الداخلية في بيان اليوم الخميس أن اللواء المنيفي التقى خلال مشاركته في القمة مع ولي عهد دبي نائب رئيس مجلس الوزراء وزير الدفاع الإماراتي الشيخ حمدان بن محمد بن راشد آل مكتوم.\n\nالقوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 25 دقيقة «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز» منذ 42 دقيقة\n\nوأشارت إلى أنه على هامش القمة قدم القائد العام لشرطة دبي الفريق عبدالله المري شهادة تقدير ونوط التعاون الأمني من الطبقة الأولى باسم نائب رئيس دولة الإمارات رئيس مجلس الوزراء حاكم دبي الشيخ محمد بن راشد آل مكتوم إلى المقدم إبراهيم المسبحي تقديراً لجهوده في تعزيز التعاون والتنسيق الأمني بين البلدين الشقيقين وذلك بحضور اللواء المنيفي.",
+     "body": "اطلع على أحدث التقنيات في مكافحة الجريمة وتعزيز السلامة العامة\n\nترأس وكيل وزارة الداخلية المساعد لشؤون الأمن العام اللواء حمد المنيفي وفد دولة الكويت المشارك في القمة الشرطية العالمية لعام 2026 في إمارة دبي بمشاركة قيادات أمنية وشرطية وخبراء ومتخصصين من مختلف دول العالم.\n\nوذكرت وزارة الداخلية في بيان اليوم الخميس أن اللواء المنيفي التقى خلال مشاركته في القمة مع ولي عهد دبي نائب رئيس مجلس الوزراء وزير الدفاع الإماراتي الشيخ حمدان بن محمد بن راشد آل مكتوم.\n\nالقوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 21 دقيقة «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز» منذ 38 دقيقة\n\nوأشارت إلى أنه على هامش القمة قدم القائد العام لشرطة دبي الفريق عبدالله المري شهادة تقدير ونوط التعاون الأمني من الطبقة الأولى باسم نائب رئيس دولة الإمارات رئيس مجلس الوزراء حاكم دبي الشيخ محمد بن راشد آل مكتوم إلى المقدم إبراهيم المسبحي تقديراً لجهوده في تعزيز التعاون والتنسيق الأمني بين البلدين الشقيقين وذلك بحضور اللواء المنيفي.",
      "published": "2026-11-19T17:37:00+03:00",
      "tier": 1
     },
@@ -1401,7 +1311,7 @@
      "url": "https://www.alraimedia.com/article/1786657/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%AF%D9%8A%D9%88%D8%A7%D9%86-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A8%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%85%D9%86-4-%D8%A5%D9%84%D9%89-18-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84",
      "section": "local",
      "summary": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل.وذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة...",
-     "body": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل.\n\nوذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة والوظائف المطلوبة من الجهات الحكومية.\n\nاللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي منذ 22 دقيقة القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 32 دقيقة",
+     "body": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل.\n\nوذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة والوظائف المطلوبة من الجهات الحكومية.\n\nاللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي منذ 21 دقيقة القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 31 دقيقة",
      "published": "2026-11-19T17:53:00+03:00",
      "tier": 1
     }
@@ -1418,11 +1328,11 @@
      "local"
     ],
     "_source": "extractive",
-    "summary_en": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل. وذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة والوظائف المطلوبة من الجهات الحكومية. اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي منذ 22 دقيقة القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 32 دقيقة",
+    "summary_en": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل. وذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة والوظائف المطلوبة من الجهات الحكومية. اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي منذ 21 دقيقة القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 31 دقيقة",
     "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الأنباء, الرأي.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «الديوان»: فتح باب التسجيل للفترة 95 بنظام التوظيف المركزي من 4 حتى 18 ديسمبر المقبل",
     "watch_next_en": "",
-    "summary_ar": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل. وذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة والوظائف المطلوبة من الجهات الحكومية. اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي منذ 22 دقيقة القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 32 دقيقة",
+    "summary_ar": "أعلن ديوان الخدمة المدنية اليوم الخميس موعد التسجيل بنظام التوظيف المركزي للفترة (95) اعتباراً من 4 إلى 18 ديسمبر المقبل. وذكر الديوان في بيان أن التسجيل سيكون وفقا للدرجات الشاغرة والوظائف المطلوبة من الجهات الحكومية. اللواء المنيفي يترأس وفد الكويت في القمة الشرطية العالمية بدبي منذ 21 دقيقة القوة الجوية تستضيف وفداً من قيادة القوات المتحالفة لحلف «الناتو» منذ 31 دقيقة",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -1457,7 +1367,7 @@
      "url": "https://www.alraimedia.com/article/1786668/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D9%85%D8%B6%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%A8%D8%A7%D8%AA-%D8%AA%D8%AD%D8%AF-%D8%B5%D8%AD%D9%8A-%D9%8A%D8%AA%D8%B7%D9%84%D8%A8-%D8%B9%D9%85%D9%84%D8%A7-%D8%AC%D8%A7%D8%AF%D8%A7-%D9%88%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D8%A7-%D9%85%D9%87%D9%86%D9%8A%D8%A7",
      "section": "local",
      "summary": "قال وزير الصحة الدكتور أحمد العوضي إن مقاومة مضادات الميكروبات تعد تحدياً صحياً يتطلب عملاً جاداً ومتواصلاً وتعاوناً مهنياً ومؤسسياً، إذ أن مواجهتها تتجاوز الاختصاص الواحد.جاء ذلك...",
-     "body": "تكامل المؤسسات الصحية ينعكس إيجاباً على جودة الرعاية وسلامة المرضى\n\nقال وزير الصحة الدكتور أحمد العوضي إن مقاومة مضادات الميكروبات تعد تحدياً صحياً يتطلب عملاً جاداً ومتواصلاً وتعاوناً مهنياً ومؤسسياً، إذ أن مواجهتها تتجاوز الاختصاص الواحد.\n\nجاء ذلك في كلمة ألقاها الوزير العوضي اليوم الخميس خلال افتتاح مؤتمر التوعية بترشيد استخدام مضادات الميكروبات بتنظيم من مستشفيات السلام وبحضور قيادات صحية وخبرات متعددة من دولة الكويت وخارجها.\n\nرئيس «الطيران المدني» يوقع مذكرات تفاهم ويعقد سلسلة اجتماعات على هامش مؤتمر عالمي في كندا منذ 47 دقيقة «مجلس التعاون» يؤكد حرصه على تعزيز الشراكة مع دول المتوسط في مختلف المجالات منذ 50 دقيقة\n\nوأشار إلى تقديرات منظمة الصحة العالمية في شأن ارتباط مقاومة البكتيريا للمضادات بنحو 5 ملايين حالة وفاة خلال عام 2019 وكذلك الإعلان السياسي للجمعية العامة للأمم المتحدة الصادر عام 2024 والذي حدد هدفاً لخفض عدد حالات الوفيات المرتبطة بها بنسبة 10 في المئة بحلول عام 2030 مقارنة بخط الأساس لعام 2019.\n\nوذكر أن الوقاية من العدوى جزء لا يتجزأ من ترشيد المضادات عبر مكافحة العدوى ونظافة اليدين والتطعيم وتحسين ممارسات الرعاية للحد من انتشار العدوى وتقليل الحاجة إلى المضادات.\n\nودعا إلى تعاون جميع المؤسسات الصحية وفق نهج «الصحة الواحدة» الذي يربط صحة الإنسان بالبيئة، مؤكداً أن تكامل المؤسسات الصحية بمختلف قطاعاتها في مجالات البحث العلمي والتعليم والتدريب وتبادل المعرفة ينعكس إيجاباً على جودة الرعاية وسلامة المرضى.\n\nولفت إلى أن مستشفيات السلام تمثل نموذجاً منذ انطلاقها عام 1964 كمستشفى للولادة وتطورها عام 1992 إلى مستشفى عام وشامل، مثنياً على إنجازاتها في الجودة وسلامة المرضى ومنها حصولها للمرة الثالثة على التوالي على الاعتماد الكندي بالمستوى الماسي وثلاث شهادات (ايزو) في الجودة والإدارة البيئية والصحة والسلامة المهنية إضافة إلى اهتمامها بالتعليم الطبي والتدريب.\n\nمن جانبه، قال رئيس مجلس إدارة مستشفيات السلام فواز العنزي إن ترشيد استخدام المضادات الحيوية يعد «أحد أبرز التحديات والمحاور الأساسية في مستقبل الرعاية الصحية»، مضيفا أن «الحفاظ على فعالية هذه الأدوية مسؤولية مشتركة وأمانة تجاه الأجيال القادمة».\n\nوأوضح أن مسؤولية القطاع الصحي لا تقتصر على تقديم الخدمات العلاجية فحسب إنما تمتد إلى حماية الصحة العامة ونشر الوعي وتطوير الكفاءات الطبية وترسيخ ثقافة الجودة والتميز والالتزام بأفضل الممارسات العلمية والمهنية لضمان سلامة المرضى والارتقاء بجودة الرعاية الصحية.\n\nوأضاف أن الارتقاء بالصحة العامة «مسؤولية مشتركة تتطلب تكامل جهود القطاعين الحكومي والأهلي»، منوهاً بـ«الدور المميز لبيت التمويل الكويتي بصفته الداعم الرئيسي لهذه المبادرة وما يقدمه من نموذج للتعاون بين المؤسسات الوطنية في دعم المبادرات ذات الأثر الإيجابي بالمجتمع وتعزيز الثقافة الصحية».\n\nمن جانبها، قالت رئيس المؤتمر الدكتورة وضحة الفوزان إن المؤتمر يأتي تأكيدا على الالتزام المشترك بتعزيز الممارسات الصحية السليمة وترسيخ ثقافة الاستخدام المسؤول للمضادات الحيوية بما يسهم في حماية صحة الإنسان والارتقاء بمستوى الرعاية الصحية.\n\nوأوضحت أن مقاومة مضادات الميكروبات أصبحت واحدة من أخطر التحديات الصحية التي تواجه العالم لما تمثله من تهديد مباشر لفعالية العلاجات وسلامة المرضى وقدرة الأنظمة الصحية على مواجهة الأمراض المعدية.\n\nوأشارت إلى ما حققته دولة الكويت من خطوات مهمة في مجال مكافحة مقاومة مضادات الميكروبات وتعزيز برامج ترشيد استخدامها بما يتماشى مع توصيات منظمة الصحة العالمية والتوجيهات الدولية.",
+     "body": "تكامل المؤسسات الصحية ينعكس إيجاباً على جودة الرعاية وسلامة المرضى\n\nقال وزير الصحة الدكتور أحمد العوضي إن مقاومة مضادات الميكروبات تعد تحدياً صحياً يتطلب عملاً جاداً ومتواصلاً وتعاوناً مهنياً ومؤسسياً، إذ أن مواجهتها تتجاوز الاختصاص الواحد.\n\nجاء ذلك في كلمة ألقاها الوزير العوضي اليوم الخميس خلال افتتاح مؤتمر التوعية بترشيد استخدام مضادات الميكروبات بتنظيم من مستشفيات السلام وبحضور قيادات صحية وخبرات متعددة من دولة الكويت وخارجها.\n\nرئيس «الطيران المدني» يوقع مذكرات تفاهم ويعقد سلسلة اجتماعات على هامش مؤتمر عالمي في كندا منذ 43 دقيقة «مجلس التعاون» يؤكد حرصه على تعزيز الشراكة مع دول المتوسط في مختلف المجالات منذ 46 دقيقة\n\nوأشار إلى تقديرات منظمة الصحة العالمية في شأن ارتباط مقاومة البكتيريا للمضادات بنحو 5 ملايين حالة وفاة خلال عام 2019 وكذلك الإعلان السياسي للجمعية العامة للأمم المتحدة الصادر عام 2024 والذي حدد هدفاً لخفض عدد حالات الوفيات المرتبطة بها بنسبة 10 في المئة بحلول عام 2030 مقارنة بخط الأساس لعام 2019.\n\nوذكر أن الوقاية من العدوى جزء لا يتجزأ من ترشيد المضادات عبر مكافحة العدوى ونظافة اليدين والتطعيم وتحسين ممارسات الرعاية للحد من انتشار العدوى وتقليل الحاجة إلى المضادات.\n\nودعا إلى تعاون جميع المؤسسات الصحية وفق نهج «الصحة الواحدة» الذي يربط صحة الإنسان بالبيئة، مؤكداً أن تكامل المؤسسات الصحية بمختلف قطاعاتها في مجالات البحث العلمي والتعليم والتدريب وتبادل المعرفة ينعكس إيجاباً على جودة الرعاية وسلامة المرضى.\n\nولفت إلى أن مستشفيات السلام تمثل نموذجاً منذ انطلاقها عام 1964 كمستشفى للولادة وتطورها عام 1992 إلى مستشفى عام وشامل، مثنياً على إنجازاتها في الجودة وسلامة المرضى ومنها حصولها للمرة الثالثة على التوالي على الاعتماد الكندي بالمستوى الماسي وثلاث شهادات (ايزو) في الجودة والإدارة البيئية والصحة والسلامة المهنية إضافة إلى اهتمامها بالتعليم الطبي والتدريب.\n\nمن جانبه، قال رئيس مجلس إدارة مستشفيات السلام فواز العنزي إن ترشيد استخدام المضادات الحيوية يعد «أحد أبرز التحديات والمحاور الأساسية في مستقبل الرعاية الصحية»، مضيفا أن «الحفاظ على فعالية هذه الأدوية مسؤولية مشتركة وأمانة تجاه الأجيال القادمة».\n\nوأوضح أن مسؤولية القطاع الصحي لا تقتصر على تقديم الخدمات العلاجية فحسب إنما تمتد إلى حماية الصحة العامة ونشر الوعي وتطوير الكفاءات الطبية وترسيخ ثقافة الجودة والتميز والالتزام بأفضل الممارسات العلمية والمهنية لضمان سلامة المرضى والارتقاء بجودة الرعاية الصحية.\n\nوأضاف أن الارتقاء بالصحة العامة «مسؤولية مشتركة تتطلب تكامل جهود القطاعين الحكومي والأهلي»، منوهاً بـ«الدور المميز لبيت التمويل الكويتي بصفته الداعم الرئيسي لهذه المبادرة وما يقدمه من نموذج للتعاون بين المؤسسات الوطنية في دعم المبادرات ذات الأثر الإيجابي بالمجتمع وتعزيز الثقافة الصحية».\n\nمن جانبها، قالت رئيس المؤتمر الدكتورة وضحة الفوزان إن المؤتمر يأتي تأكيدا على الالتزام المشترك بتعزيز الممارسات الصحية السليمة وترسيخ ثقافة الاستخدام المسؤول للمضادات الحيوية بما يسهم في حماية صحة الإنسان والارتقاء بمستوى الرعاية الصحية.\n\nوأوضحت أن مقاومة مضادات الميكروبات أصبحت واحدة من أخطر التحديات الصحية التي تواجه العالم لما تمثله من تهديد مباشر لفعالية العلاجات وسلامة المرضى وقدرة الأنظمة الصحية على مواجهة الأمراض المعدية.\n\nوأشارت إلى ما حققته دولة الكويت من خطوات مهمة في مجال مكافحة مقاومة مضادات الميكروبات وتعزيز برامج ترشيد استخدامها بما يتماشى مع توصيات منظمة الصحة العالمية والتوجيهات الدولية.",
      "published": "2026-11-19T20:26:00+03:00",
      "tier": 1
     }
@@ -1480,62 +1390,6 @@
     "watch_next_en": "",
     "summary_ar": "تكامل المؤسسات الصحية ينعكس إيجاباً على جودة الرعاية وسلامة المرضى قال وزير الصحة الدكتور أحمد العوضي إن مقاومة مضادات الميكروبات تعد تحدياً صحياً يتطلب عملاً جاداً ومتواصلاً وتعاوناً مهنياً ومؤسسياً، إذ أن مواجهتها تتجاوز الاختصاص الواحد. جاء ذلك في كلمة ألقاها الوزير العوضي اليوم الخميس خلال افتتاح مؤتمر التوعية بترشيد استخدام مضادات الميكروبات بتنظيم من مستشفيات السلام وبحضور قيادات صحية وخبرات متعددة من دولة…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "887789a3860ce575",
-   "score": 13.757,
-   "sources": [
-    "الأنباء",
-    "الجريدة"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "«الشؤون» تفتتح مركز حماية الطفولة: درع واقٍ وخطوة مهمة لرعاية النشء وحماية حقوقهم",
-     "url": "https://www.alanba.com.kw/1385760",
-     "section": "kuwait",
-     "summary": "عبدالله الراكانافتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د.أمثال الحويلة مركز حماية الطفولة التابع لإدارة مراكز الحماية بالمجلس الأعلى لشؤون الأسرة،",
-     "body": "",
-     "published": "2026-11-19T19:44:01+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "الحويلة تفتتح مركز حماية الطفولة في «دور الرعاية»",
-     "url": "https://www.aljarida.com/article/150954",
-     "section": "local",
-     "summary": "افتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، اليوم، مركز حماية الطفولة في دور الرعاية الاجتماعية، وقالت الحويلة، على هامش الافتتاح، إن «رعاية الطفول...",
-     "body": "• أكدت أن رعاية الطفولة أمانة ومقياس حقيقي لتقدم المجتمعات • يختص بتلقي شكاوى تعرض الأطفال للخطر واتخاذ إجراءات المعالجة\n\nافتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، اليوم، مركز حماية الطفولة في دور الرعاية الاجتماعية، وقالت الحويلة، على هامش الافتتاح، إن «رعاية الطفولة أمانة في أعناق الجميع، ومقياس حقيقي لتقدم المجتمعات ورقيّها، وأن افتتاح مركز حماية الطفولة لا يمثل وضع حجر أساس لمبنى جديد فحسب، بل هو بناء لدرع واقٍ وحضن آمن ومنارة حقوقية وقانونية واجتماعية، تترجم التزام دولة الكويت الراسخ بحماية طفولتها، وتطبيقاً عملياً ومباشراً لأحكام دستور البلاد برعاية الأسرة والنشء، وقوانين حماية الطفل والحماية من العنف الأسري».\n\nوأوضحت أن حماية الطفل وتمكينه ليست مجرد شعارات، بل التزام وطني وأخلاقي ورؤية استراتيجية، مشيرة إلى أن الاستثمار الحقيقي يبدأ من الطفل، ومن توفير بيئة تنشئة صحية خالية من العنف والإهمال، يسودها الأمان، وتتحقق فيها الرعاية المتكاملة نفسياً واجتماعياً وقانونياً، بما يمكّن الطفل من بلوغ أقصى طاقاته الإبداعية.\n\nوأوضحت أن هذه المراكز تختص بتلقي الشكاوى عن حالات تعرض الطفل للخطر المنصوص عليها في المادة 76 سواء تقدم بها الطفل بنفسه، أو من يتولى رعايته، أو أحد ذويه أو المهنيون المرتبط عملهم بالطفل، فضلاً عن اتخاذ كل ما يلزم من إجراءات لمعالجة الأطفال المعرضين لأي نوع من أنواع الأذى، واتخاذ كل ما يلزم من إجراءات لمعالجة ذوي الطفل، مسببي الأذى له، حتى يعاد تأهيلهم ويتمكنوا من رعايته، ومن ثم يتمكن الطفل وذووه من الاندماج في المجتمع.",
-     "published": "2026-11-19T11:18:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "الحويلة تفتتح مركز حماية الطفولة في «دور الرعاية»",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait",
-     "local"
-    ],
-    "_source": "extractive",
-    "summary_en": "• أكدت أن رعاية الطفولة أمانة ومقياس حقيقي لتقدم المجتمعات • يختص بتلقي شكاوى تعرض الأطفال للخطر واتخاذ إجراءات المعالجة افتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، اليوم، مركز حماية الطفولة في دور الرعاية الاجتماعية، وقالت الحويلة، على هامش الافتتاح، إن «رعاية الطفولة أمانة في أعناق الجميع، ومقياس حقيقي لتقدم المجتمعات ورقيّها، وأن افتتاح مركز حماية الطفولة لا يمثل وضع حجر أساس لمبنى جديد…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الأنباء, الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «الشؤون» تفتتح مركز حماية الطفولة: درع واقٍ وخطوة مهمة لرعاية النشء وحماية حقوقهم",
-    "watch_next_en": "",
-    "summary_ar": "• أكدت أن رعاية الطفولة أمانة ومقياس حقيقي لتقدم المجتمعات • يختص بتلقي شكاوى تعرض الأطفال للخطر واتخاذ إجراءات المعالجة افتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، اليوم، مركز حماية الطفولة في دور الرعاية الاجتماعية، وقالت الحويلة، على هامش الافتتاح، إن «رعاية الطفولة أمانة في أعناق الجميع، ومقياس حقيقي لتقدم المجتمعات ورقيّها، وأن افتتاح مركز حماية الطفولة لا يمثل وضع حجر أساس لمبنى جديد…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1597,6 +1451,61 @@
    }
   },
   {
+   "key": "83db45649c99f2b6",
+   "score": 13.158,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الحويلة تفتتح مركز «حماية الطفل»: ليس مجرد مبنى جديد بل درع وقائي ومنارة حقوقية واجتماعية",
+     "url": "https://www.alraimedia.com/article/1786641/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D8%AA%D9%81%D8%AA%D8%AA%D8%AD-%D9%85%D8%B1%D9%83%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D9%84%D9%8A%D8%B3-%D9%85%D8%AC%D8%B1%D8%AF-%D9%85%D8%A8%D9%86%D9%89-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A8%D9%84-%D8%AF%D8%B1%D8%B9-%D9%88%D9%82%D8%A7%D8%A6%D9%8A-%D9%88%D9%85%D9%86%D8%A7%D8%B1%D8%A9-%D8%AD%D9%82%D9%88%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9",
+     "section": "local",
+     "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن حماية الطفل تمثل التزاماً وطنياً وأخلاقياً واستراتيجياً، مشددة على أن الاستثمار الحقيقي يبدأ من الطفل،...",
+     "body": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن حماية الطفل تمثل التزاماً وطنياً وأخلاقياً واستراتيجياً، مشددة على أن الاستثمار الحقيقي يبدأ من الطفل، ومن توفير بيئة تنشئة صحية وآمنة تضمن له الرعاية المتكاملة، بعيداً عن العنف والإهمال، وتمكنه من تنمية قدراته وطاقاته الإبداعية.\n\nوقالت الحويلة، في كلمة ألقتها بمناسبة افتتاح مركز حماية الطفولة التابع لإدارة مراكز الحماية في المجلس الأعلى لشؤون الأسرة، الخميس، بالتزامن مع اليوم العالمي للطفل، إن افتتاح المركز يمثل خطوة مؤسسية مهمة نحو تعزيز منظومة الحماية المتخصصة للأطفال، وترسيخ دور الدولة في صون حقوقهم ورعايتهم.\n\nمحافظة حولي تعزز الوعي بمخاطر السمنة في حملة بالتعاون مع «الصحة» منذ 53 دقيقة البلدية تنذر بإزالة 494 عقارا آيلا للسقوط في جليب الشيوخ خلال أسبوعين منذ 43 دقيقة\n\nوأوضحت أن حماية الطفل لا ينبغي أن تكون مجرد شعارات ترفعها المؤسسات، بل هي مسؤولية وطنية وأخلاقية تستوجب توفير بيئة تنشئة صحية خالية من العنف والإهمال، تتحقق فيها الرعاية المتكاملة نفسياً واجتماعياً وقانونياً، بما يمكّن الطفل من بلوغ أقصى طاقاته الإبداعية.\n\nوأشارت إلى أن المركز يضم كفاءات وطنية متخصصة قادرة على التعامل مع مختلف الحالات بحساسية واحترافية، وتقديم يد العون والمشورة، وتفعيل أدوات الرصد والحماية والتدخل المبكر والتوعية المجتمعية، من خلال التنسيق والتكامل مع المؤسسات الحكومية المعنية، والجهات الأمنية والقضائية والصحية والتعليمية والاجتماعية، ومؤسسات المجتمع المدني.\n\nوأكدت الحويلة أن إنشاء المركز يأتي ضمن جهود المجلس الأعلى لشؤون الأسرة، وبدعم ومتابعة مستمرة من القيادة الحكيمة، لتعزيز منظومة الحماية المتخصصة للأطفال، مشددة على أن سلامة الطفل وكرامته وحقه في حياة آمنة وكريمة مسؤولية لا تقبل التهاون، منوهة أن افتتاح المركز ليس نهاية المطاف، بل بداية لمسؤولية أكبر وعمل أكثر تخصصاً، بما يجعل الكويت بيئة آمنة لكل طفل يحتاج إلى الرعاية والمساندة.\n\nبدورها أكدت الأمين العام للمجلس الأعلى لشؤون الأسرة بالتكليف منى الكندري أن افتتاح مركز حماية الطفولة يمثل التزاماً راسخاً من دولة الكويت، قيادةً وحكومةً وشعباً، بضمان حق كل طفل في نشأة آمنة وكريمة، وترجمةً عملية لأحكام قانون حماية الطفل إلى خدمات متخصصة تصون حقوق الأطفال وتحفظ كرامتهم.\n\nوقالت الكندري، إن المركز لا يمثل مجرد مبنى جديد، بل بيتاً آمناً وملاذاً يحتضن الأطفال المعرضين للخطر، ويوفر لهم الرعاية النفسية والاجتماعية والقانونية اللازمة لاستعادة الطمأنينة والأمان.\n\nوأشارت إلى أن الطفولة تمثل أساس بناء الأسرة، التي تعد بدورها نواة المجتمع ومصدر استقراره، مؤكدة أهمية توفير منظومة متكاملة لحماية الأطفال وضمان حقوقهم.\n\nو أعربت عن شكرها وتقديرها لجمعية عبدالله النوري الخيرية على مبادرتها الكريمة ودعمها السخي في إقامة المركز، مشيدة بدورها في تعزيز الشراكة المثمرة بين مؤسسات الدولة ومؤسسات العمل الخيري.\n\nمن جهته قال ممثل جمعية الشيخ عبدالله النوري الخيرية المهندس جمال عبدالخالق النوري، أن افتتاح مركز حماية الطفولة يجسد مفهوم المسؤولية المجتمعية، ويؤكد أن حماية الطفل ورعايته مسؤولية مشتركة تتطلب تضافر الجهود وتكامل الأدوار بين مؤسسات الدولة والمجتمع المدني.\n\nوقال النوري إن جمعية الشيخ عبدالله النوري الخيرية تعتز بالمساهمة في دعم المركز وتجهيزه وتهيئة مرافقه، إيماناً منها بأن الاستثمار الحقيقي هو الاستثمار في الإنسان، وأن رعاية الطفل وحمايته أساس بناء مجتمع آمن ومتماسك.\n\nوأوضح أن المشروع يأتي امتداداً للشراكة المثمرة مع وزارة الشؤون الاجتماعية، والتي أثمرت سابقاً تدشين مركز العلاج بالعمل، مشيراً إلى مواصلة الجمعية دعم المبادرات المحلية والبرامج التي تخدم الأطفال والأسر من المواطنين والمقيمين، وتعزز استقرار المجتمع وتحقق أثراً إنسانياً مستداماً.",
+     "published": "2026-11-19T12:59:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "الحويلة تفتتح مركز حماية الطفولة في «دور الرعاية»",
+     "url": "https://www.aljarida.com/article/150954",
+     "section": "local",
+     "summary": "افتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د. أمثال الحويلة، اليوم، مركز حماية الطفولة في دور الرعاية الاجتماعية، وقالت الحويلة، على هامش الافتتاح، إن «رعاية الطفول...",
+     "body": "",
+     "published": "2026-11-19T11:18:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "الحويلة تفتتح مركز «حماية الطفل»: ليس مجرد مبنى جديد بل درع وقائي ومنارة حقوقية واجتماعية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "local"
+    ],
+    "_source": "extractive",
+    "summary_en": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن حماية الطفل تمثل التزاماً وطنياً وأخلاقياً واستراتيجياً، مشددة على أن الاستثمار الحقيقي يبدأ من الطفل، ومن توفير بيئة تنشئة صحية وآمنة تضمن له الرعاية المتكاملة، بعيداً عن العنف والإهمال، وتمكنه من تنمية قدراته وطاقاته الإبداعية. وقالت الحويلة، في كلمة ألقتها بمناسبة افتتاح مركز حماية الطفولة التابع لإدارة مراكز الحماية في المجلس الأعلى…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: الحويلة تفتتح مركز حماية الطفولة في «دور الرعاية»",
+    "watch_next_en": "",
+    "summary_ar": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن حماية الطفل تمثل التزاماً وطنياً وأخلاقياً واستراتيجياً، مشددة على أن الاستثمار الحقيقي يبدأ من الطفل، ومن توفير بيئة تنشئة صحية وآمنة تضمن له الرعاية المتكاملة، بعيداً عن العنف والإهمال، وتمكنه من تنمية قدراته وطاقاته الإبداعية. وقالت الحويلة، في كلمة ألقتها بمناسبة افتتاح مركز حماية الطفولة التابع لإدارة مراكز الحماية في المجلس الأعلى…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
    "key": "8a037e2b095a9511",
    "score": 12.859,
    "sources": [
@@ -1625,7 +1534,7 @@
      "url": "https://www.alraimedia.com/article/1786638/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9-%D8%AA%D9%86%D8%B0%D8%B1-%D8%A8%D8%A5%D8%B2%D8%A7%D9%84%D8%A9-494-%D8%B9%D9%82%D8%A7%D8%B1%D8%A7-%D8%A2%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%B3%D9%82%D9%88%D8%B7-%D9%81%D9%8A-%D8%AC%D9%84%D9%8A%D8%A8-%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A%D9%86",
      "section": "local",
      "summary": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلام...",
-     "body": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلامة المباني وخطورتها على السكان والمارة.\n\nمحافظة حولي تعزز الوعي بمخاطر السمنة في حملة بالتعاون مع «الصحة» منذ 25 دقيقة معاون رئيس الأركان للعمليات والخطط يبحث مع مسؤول عسكري تركي تعزيز التعاون وتبادل الخبرات منذ ساعتين\n\nوجاء القرار استناداً إلى تقارير صادرة عن المركز الحكومي للفحوصات وضبط الجودة والأبحاث التابع لوزارة الأشغال العامة، والتي أثبتت عدم سلامة المباني الواقعة في العقارات المشمولة بالقرار، وأنها آيلة للسقوط وتشكل خطراً دائماً على الأرواح والممتلكات والسلامة العامة.\n\nوأكد القرار، في مادته الثانية تكليف الجهة المختصة ببلدية الكويت بمتابعة قيام الملاك بإزالة المباني المدرجة ضمن الكشف خلال المهلة المحددة.\n\nوشدد على أنه في حال عدم قيام الملاك بهدم المباني خلال المهلة الممنوحة لهم، ستتولى البلدية إزالتها على نفقة المالك، وذلك بعد التأكد من خلوها تماماً من شاغليها.\n\nكما نصت المادة الثالثة على نشر القرار في الجريدة الرسمية «الكويت اليوم»، والعمل به من تاريخ نشره، مع إعلان الملاك بمضمونه.\n\nويأتي هذا القرار في إطار الإجراءات البلدية الرامية إلى معالجة أوضاع العقارات غير الآمنة في منطقة جليب الشيوخ، والحد من المخاطر التي قد تهدد سلامة القاطنين والمناطق المحيطة بها.",
+     "body": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلامة المباني وخطورتها على السكان والمارة.\n\nمعاون رئيس الأركان للعمليات والخطط يبحث مع مسؤول عسكري تركي تعزيز التعاون وتبادل الخبرات منذ ساعتين الكويت تتعاطف مع الأردن إثر حادث تحطم مروحية تابعة للقوات المسلحة الأردنية منذ 14 ساعة\n\nوجاء القرار استناداً إلى تقارير صادرة عن المركز الحكومي للفحوصات وضبط الجودة والأبحاث التابع لوزارة الأشغال العامة، والتي أثبتت عدم سلامة المباني الواقعة في العقارات المشمولة بالقرار، وأنها آيلة للسقوط وتشكل خطراً دائماً على الأرواح والممتلكات والسلامة العامة.\n\nوأكد القرار، في مادته الثانية تكليف الجهة المختصة ببلدية الكويت بمتابعة قيام الملاك بإزالة المباني المدرجة ضمن الكشف خلال المهلة المحددة.\n\nوشدد على أنه في حال عدم قيام الملاك بهدم المباني خلال المهلة الممنوحة لهم، ستتولى البلدية إزالتها على نفقة المالك، وذلك بعد التأكد من خلوها تماماً من شاغليها.\n\nكما نصت المادة الثالثة على نشر القرار في الجريدة الرسمية «الكويت اليوم»، والعمل به من تاريخ نشره، مع إعلان الملاك بمضمونه.\n\nويأتي هذا القرار في إطار الإجراءات البلدية الرامية إلى معالجة أوضاع العقارات غير الآمنة في منطقة جليب الشيوخ، والحد من المخاطر التي قد تهدد سلامة القاطنين والمناطق المحيطة بها.",
      "published": "2026-11-19T12:37:00+03:00",
      "tier": 1
     }
@@ -1642,11 +1551,11 @@
      "local"
     ],
     "_source": "extractive",
-    "summary_en": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلامة المباني وخطورتها على السكان والمارة. محافظة حولي تعزز الوعي بمخاطر السمنة في حملة بالتعاون مع «الصحة» منذ 25 دقيقة معاون رئيس الأركان للعمليات والخطط يبحث مع مسؤول عسكري تركي تعزيز التعاون وتبادل الخبرات منذ ساعتين وجاء القرار استناداً…",
+    "summary_en": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلامة المباني وخطورتها على السكان والمارة. معاون رئيس الأركان للعمليات والخطط يبحث مع مسؤول عسكري تركي تعزيز التعاون وتبادل الخبرات منذ ساعتين الكويت تتعاطف مع الأردن إثر حادث تحطم مروحية تابعة للقوات المسلحة الأردنية منذ 14 ساعة وجاء القرار…",
     "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الأنباء, الرأي.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: البلدية: إخطار بإزالة 494 عقاراً آيلة للسقوط في «الجليب»",
     "watch_next_en": "",
-    "summary_ar": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلامة المباني وخطورتها على السكان والمارة. محافظة حولي تعزز الوعي بمخاطر السمنة في حملة بالتعاون مع «الصحة» منذ 25 دقيقة معاون رئيس الأركان للعمليات والخطط يبحث مع مسؤول عسكري تركي تعزيز التعاون وتبادل الخبرات منذ ساعتين وجاء القرار استناداً…",
+    "summary_ar": "أصدرت المديرة العامة لبلدية الكويت المهندسة منال العصفور قرارا إداريا بشأن إخطار ملاك العقارات الآيلة للسقوط في منطقة جليب الشيوخ بضرورة إزالتها وهدمها، بعد رصد مخالفات تتعلق بسلامة المباني وخطورتها على السكان والمارة. معاون رئيس الأركان للعمليات والخطط يبحث مع مسؤول عسكري تركي تعزيز التعاون وتبادل الخبرات منذ ساعتين الكويت تتعاطف مع الأردن إثر حادث تحطم مروحية تابعة للقوات المسلحة الأردنية منذ 14 ساعة وجاء القرار…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الأنباء, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -1789,7 +1698,7 @@
      "lang": "ar",
      "title": "طقس دافئ نهاية الأسبوع",
      "url": "https://www.alraimedia.com/article/1786741/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%B7%D9%82%D8%B3-%D8%AF%D8%A7%D9%81%D8%A6-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9",
-     "section": "last-page",
+     "section": "latest",
      "summary": "«كونا»- توقعت إدارة الأرصاد الجوية أن يكون طقس البلاد عموماً في عطلة نهاية الأسبوع مائلاً للحرارة إلى دافئ نهاراً ومائلاً للبرودة ليلاً في عطلة نهاية الأسبوع.وقال مدير الإدارة بالن...",
      "body": "",
      "published": "2026-11-19T22:02:00+03:00",
@@ -1805,7 +1714,7 @@
     "entities": [],
     "tags": [
      "local",
-     "last-page"
+     "latest"
     ],
     "_source": "extractive",
     "summary_en": "تشهد الكويت اليوم الجمعة 20 نوفمبر 2026 طقسًا صافِيًا ومشمسًا خلال ساعات النهار، مع استقرار في الأحوال الجوية ودرجات حرارة معتدلة، وقد تصل إلى 31 درجة مئوية في بعض المناطق الداخلية بالبلاد وفقًا لتوقعات إدارة الأرصاد الجوية. وتكون الرياح متقلبة الاتجاه إلى شمالية غربية خفيفة إلى معتدلة السرعة تتراوح بين 8 و30 كيلومترًا في الساعة، مع رطوبة نسبية متوسطة نهارًا وانعدام فرص هطول الأمطار، مما يوفر أجواءً مناسبة للأنشطة…",
@@ -1925,6 +1834,73 @@
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: «الإطفاء»: السيطرة على حريق مقطورات مبردة في منطقة الصليبية",
     "watch_next_en": "",
     "summary_ar": "ذكرت قوة الإطفاء العام أن فرق إطفاء مركزي التحرير والجهراء سيطرت فجر اليوم الخميس على حريق مقطورات مبردة بمنطقة الصليبية. وأشارت «الإطفاء» إلى أنه تمت مكافحة الحريق والسيطرة عليه دون وقوع أي إصابات تذكر.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "c112904e83aacce1",
+   "score": 10.519,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
+     "url": "https://www.alraimedia.com/article/1786748/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%88%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A-%D9%883-%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير 3 طائرات مسيرة أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجن...",
+     "body": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير طائرتين مسيرتين بمنطقتي الرياض والجنوبية أطلقتهما الميليشيا الحوثية الإرهابية.\n\n«التحالف»: نفذنا عملية عسكرية نوعية لاستهداف قدرات الميليشيا الحوثية الإرهابية منذ 13 ساعة «الدفاع المدني» السعودي: تعرض أحد أبراج المركز المالي في الرياض لهجوم حوثي.. ولا إصابات منذ 16 ساعة\n\nوفي سياق متصل، قال المالكي في بيان عبر حسابه الرسمي في منصة «إكس» إن الدفاع الجوي اعترض ودمر صاروخا باليستيا أطلقته الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.",
+     "published": "2026-11-20T04:20:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "التحالف: اعترضنا ودمرنا 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
+     "url": "https://www.aljarida.com/article/150950",
+     "section": "world",
+     "summary": "أعلن المتحدث الرسمي باسم قوات التحالف (تحالف دعم الشرعية في اليمن) اللواء الركن تركي المالكي اليوم الخميس اعتراض وتدمير 4 صواريخ باليستية أطلقتها الميليشيا الحوثية الإرهابية باتجاه...",
+     "body": "",
+     "published": "2026-11-19T09:43:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التحالف»: تدمير 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
+     "url": "https://www.alraimedia.com/article/1786632/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%AA%D8%AF%D9%85%D9%8A%D8%B1-4-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A8%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%D9%8A%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D9%8A%D8%B4%D9%8A%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D8%A9-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "أعلن تحالف دعم الشرعية في اليمن أن الدفاع الجوي اعترض ودمر 4 صواريخ باليستية أطلقتها الميليشيا الحوثية الإرهابية باتجاه المنطقة الجنوبية.",
+     "body": "",
+     "published": "2026-11-19T09:01:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "التحالف: اعتراض وتدمير صاروخ باليستي و3 مسيّرات أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "world"
+    ],
+    "_source": "extractive",
+    "summary_en": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير طائرتين مسيرتين بمنطقتي الرياض والجنوبية أطلقتهما الميليشيا الحوثية الإرهابية. «التحالف»: نفذنا عملية عسكرية نوعية لاستهداف قدرات الميليشيا الحوثية الإرهابية منذ 13 ساعة «الدفاع المدني» السعودي: تعرض أحد أبراج المركز المالي في الرياض لهجوم حوثي.. ولا إصابات منذ 16 ساعة وفي سياق متصل، قال المالكي في بيان عبر…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: التحالف: اعترضنا ودمرنا 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية; «التحالف»: تدمير 4 صواريخ باليستية أطلقتها الميليشيا الحوثية باتجاه المنطقة الجنوبية",
+    "watch_next_en": "",
+    "summary_ar": "أعلن المتحدث الرسمي باسم قوات تحالف دعم الشرعية في اليمن اللواء الركن تركي المالكي اليوم الجمعة اعتراض وتدمير طائرتين مسيرتين بمنطقتي الرياض والجنوبية أطلقتهما الميليشيا الحوثية الإرهابية. «التحالف»: نفذنا عملية عسكرية نوعية لاستهداف قدرات الميليشيا الحوثية الإرهابية منذ 13 ساعة «الدفاع المدني» السعودي: تعرض أحد أبراج المركز المالي في الرياض لهجوم حوثي.. ولا إصابات منذ 16 ساعة وفي سياق متصل، قال المالكي في بيان عبر…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -2055,7 +2031,7 @@
   },
   {
    "key": "28b97babb4cc4e5d",
-   "score": 9.759,
+   "score": 9.159,
    "sources": [
     "الرأي",
     "Arab Times"
@@ -2091,80 +2067,6 @@
    "analysis": {}
   },
   {
-   "key": "ac4abd5fadd4954e",
-   "score": 9.758,
-   "sources": [
-    "Arab Times",
-    "Kuwait Times"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Suspected Iran-Backed Houthi Missile Damages PIF Tower in Riyadh, Coalition Says Threat Intercepted",
-     "url": "https://www.arabtimesonline.com/news/suspected-iran-backed-houthi-missile-damages-pif-tower-in-riyadh-coalition-says-threat-intercepted/",
-     "section": "general",
-     "summary": "RIYADH, Nov 19: A suspected missile launched by Yemen's Iran-backed Houthi group struck the Public Investment Fund (PIF) Tower in Riyadh on Thursday, damaging its exterior facade a...",
-     "body": "",
-     "published": "2026-11-19T15:45:00+03:00",
-     "tier": 2
-    },
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Coalition intercepts 4 Houthi ballistic missiles after debris hits Riyadh",
-     "url": "https://kuwaittimes.com/article/53976/world/coalition-intercepts-4-houthi-ballistic-missiles-after-debris-hits-riyadh/",
-     "section": "latest",
-     "summary": "RIYADH: The Coalition to Restore Legitimacy in Yemen said on Thursday it had intercepted and destroyed four ballistic missiles launched by the Houthi militia toward Saudi Arabia’s...",
-     "body": "",
-     "published": "2026-11-19T09:43:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "fb1d07eba191ae21",
-   "score": 9.559,
-   "sources": [
-    "الأنباء",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "فان غوخ يحطم رقمه القياسي بـ 190 مليون دولار",
-     "url": "https://www.alanba.com.kw/1385843",
-     "section": "world",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-19T20:02:29+00:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«أشجار الكستناء المزهرة» لفان غوخ تُباع بـ 190.4 مليون دولار",
-     "url": "https://www.alraimedia.com/article/1786631/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A3%D8%B4%D8%AC%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D8%B3%D8%AA%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%B2%D9%87%D8%B1%D8%A9-%D9%84%D9%81%D8%A7%D9%86-%D8%BA%D9%88%D8%AE-%D8%AA%D8%A8%D8%A7%D8%B9-%D8%A8-1904-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "last-page",
-     "summary": "بيعت لوحة شهيرة للفنان الهولندي فينسنت فان غوخ أمس الأربعاء مقابل 190.4 مليون دولار، في صفقة قياسية، بحسب ما أعلنت دار سوذبيز للمزادات، وذلك بعد التوصل إلى تسوية مع عائلة كانت تعتر...",
-     "body": "",
-     "published": "2026-11-19T08:17:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "9acc9cba7f077f65",
    "score": 9.159,
    "sources": [
@@ -2191,7 +2093,7 @@
      "lang": "en",
      "title": "South Korea’s top court overturns charges against ex-prime minister for role in martial law",
      "url": "https://www.arabtimesonline.com/news/south-koreas-top-court-overturns-charges-against-ex-prime-minister-for-role-in-martial-law/",
-     "section": "general",
+     "section": "latest",
      "summary": "SEOUL, South Korea, Nov 19, (AP): South Korea’s Supreme Court on Thursday overturned the conviction of former Prime Minister Han Duck-soo for aiding in the declaration of martial...",
      "body": "",
      "published": "2026-11-19T12:09:00+03:00",
@@ -2216,7 +2118,7 @@
      "lang": "en",
      "title": "China Pledges $20 Million to Support APEC's Regional Cooperation Initiatives",
      "url": "https://www.arabtimesonline.com/news/china-pledges-20-million-to-support-apecs-regional-cooperation-initiatives/",
-     "section": "general",
+     "section": "latest",
      "summary": "SHENZHEN, Nov 19: Chinese President Xi Jinping has called on Asia-Pacific economies to strengthen regional solidarity, expand trade and investment, accelerate digital innovation an...",
      "body": "",
      "published": "2026-11-19T11:17:00+03:00",
@@ -2232,6 +2134,43 @@
      "summary": "SHENZHEN: Chinese President Xi Jinping announced on Thursday that China would provide $20 million to strengthen practical cooperation among members of the Asia-Pacific Economic Coo...",
      "body": "",
      "published": "2026-11-19T09:08:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "ac4abd5fadd4954e",
+   "score": 9.158,
+   "sources": [
+    "Arab Times",
+    "Kuwait Times"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Suspected Iran-Backed Houthi Missile Damages PIF Tower in Riyadh, Coalition Says Threat Intercepted",
+     "url": "https://www.arabtimesonline.com/news/suspected-iran-backed-houthi-missile-damages-pif-tower-in-riyadh-coalition-says-threat-intercepted/",
+     "section": "latest",
+     "summary": "RIYADH, Nov 19: A suspected missile launched by Yemen's Iran-backed Houthi group struck the Public Investment Fund (PIF) Tower in Riyadh on Thursday, damaging its exterior facade a...",
+     "body": "",
+     "published": "2026-11-19T15:45:00+03:00",
+     "tier": 2
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Coalition intercepts 4 Houthi ballistic missiles after debris hits Riyadh",
+     "url": "https://kuwaittimes.com/article/53976/world/coalition-intercepts-4-houthi-ballistic-missiles-after-debris-hits-riyadh/",
+     "section": "latest",
+     "summary": "RIYADH: The Coalition to Restore Legitimacy in Yemen said on Thursday it had intercepted and destroyed four ballistic missiles launched by the Houthi militia toward Saudi Arabia’s...",
+     "body": "",
+     "published": "2026-11-19T09:43:00+03:00",
      "tier": 1
     }
    ],
@@ -2469,6 +2408,67 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "527a5f3f36a659eb",
+   "score": 7.457,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "الذهب يتجه نحو أسوأ أداء أسبوعي منذ مارس مع تزايد توقعات رفع الفائدة",
+     "url": "https://www.alraimedia.com/article/1786750/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%8A%D8%AA%D8%AC%D9%87-%D9%86%D8%AD%D9%88-%D8%A3%D8%B3%D9%88%D8%A3-%D8%A3%D8%AF%D8%A7%D8%A1-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A-%D9%85%D9%86%D8%B0-%D9%85%D8%A7%D8%B1%D8%B3-%D9%85%D8%B9-%D8%AA%D8%B2%D8%A7%D9%8A%D8%AF-%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9",
+     "section": "economy",
+     "summary": "تراجعت ​أسعار الذهب اليوم الجمعة وتتجه لتسجيل ⁠أكبر انخفاض أسبوعي منذ مارس بضغط من قوة الدولار والتوقعات المتزايدة برفع مجلس الاحتياطي ‌الاتحادي (البنك المركزي الأميركي) الفائ...",
+     "body": "",
+     "published": "2026-11-20T06:41:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "e8fa780424ec7918",
+   "score": 7.358,
+   "sources": [
+    "Times Kuwait",
+    "Arab Times"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Asian Expat Arrested in Kuwait for Selling Abortion Pills at KD 150 Each",
+     "url": "https://timeskuwait.com/asian-expat-arrested-in-kuwait-for-selling-abortion-pills-at-kd-150-each/",
+     "section": "latest",
+     "summary": "Kuwait’s Ministry of Interior has arrested an Asian expatriate in the Mahboula area for allegedly possessing, promoting and selling abortion pills at KD 150 per strip. The arrest was carried out by the Criminal Security Sector, represented by the General Department of Criminal Investigation, following information received by the Sabahiyah Investigation Office under the Ahmadi …\n\nThe post Asian Expat Arrested in Kuwait for Selling Abortion Pills at KD 150 Each appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T19:12:00+00:00",
+     "tier": 2
+    },
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Ghanaian Expat Arrested in Kuwait's Mahboula for Selling Abortion Pills",
+     "url": "https://www.arabtimesonline.com/news/ghanaian-expat-arrested-in-kuwaits-mahboula-for-selling-abortion-pills/",
+     "section": "latest",
+     "summary": "KUWAIT CITY, Nov 19: The Criminal Security Sector, represented by the General Department of Criminal Investigation, arrested a Ghanaian national for allegedly distributing and sell...",
+     "body": "",
+     "published": "2026-11-19T21:36:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -3096,30 +3096,6 @@
    "analysis": {}
   },
   {
-   "key": "0d7e287447a87aeb",
-   "score": 6.651,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "وزير الخارجية استقبل وكيل الأمين العام للأمم المتحدة للشؤون الإنسانية",
-     "url": "https://www.alanba.com.kw/1385750",
-     "section": "official",
-     "summary": "كونا التقى وزير الخارجية الشيخ جراح الجابر وكيل الأمين العام للأمم المتحدة للشؤون الإنسانية ومنسق الإغاثة في حالات الطوارئ توم فليشتر، وذلك بمناسبة زيارته الرس",
-     "body": "",
-     "published": "2026-11-19T19:44:01+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "1c08c7eb5b74ab75",
    "score": 6.651,
    "sources": [
@@ -3456,6 +3432,30 @@
    "analysis": {}
   },
   {
+   "key": "ff32f6e757b11407",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "«الشؤون» تفتتح مركز حماية الطفولة: درع واقٍ وخطوة مهمة لرعاية النشء وحماية حقوقهم",
+     "url": "https://www.alanba.com.kw/1385760",
+     "section": "kuwait",
+     "summary": "عبدالله الراكانافتتحت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة د.أمثال الحويلة مركز حماية الطفولة التابع لإدارة مراكز الحماية بالمجلس الأعلى لشؤون الأسرة،",
+     "body": "",
+     "published": "2026-11-19T19:44:01+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "dcf3c22c2e622e90",
    "score": 6.651,
    "sources": [
@@ -3576,6 +3576,30 @@
    "analysis": {}
   },
   {
+   "key": "0d7e287447a87aeb",
+   "score": 6.651,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "وزير الخارجية استقبل وكيل الأمين العام للأمم المتحدة للشؤون الإنسانية",
+     "url": "https://www.alanba.com.kw/1385750",
+     "section": "official",
+     "summary": "كونا التقى وزير الخارجية الشيخ جراح الجابر وكيل الأمين العام للأمم المتحدة للشؤون الإنسانية ومنسق الإغاثة في حالات الطوارئ توم فليشتر، وذلك بمناسبة زيارته الرس",
+     "body": "",
+     "published": "2026-11-19T19:44:01+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "76122ec131e346fa",
    "score": 6.651,
    "sources": [
@@ -3657,6 +3681,54 @@
     }
    ],
    "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "aae10c38cf4d6259",
+   "score": 6.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سمو الأمير يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة",
+     "url": "https://www.alraimedia.com/article/1786753/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%85%D9%88-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D9%8A%D9%87%D9%86%D8%A6-%D8%B3%D9%84%D8%B7%D8%A7%D9%86-%D8%B9%D9%85%D8%A7%D9%86-%D8%A8%D8%B0%D9%83%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84%D8%B3%D9%84%D8%B7%D9%86%D8%A9",
+     "section": "latest",
+     "summary": "بعث سمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح برقية تهنئة إلى سلطان عمان هيثم بن طارق المعظم عبر فيها عن خالص تهانيه بمناسبة ذكرى اليوم الوطني لسلطنة عمان الشقيقة، مشيدا بعمق...",
+     "body": "",
+     "published": "2026-11-20T09:37:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "4ccb2c83a76b89f1",
+   "score": 6.557,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«قبعة طائشة» تقتل أشهر فرس نهر في العالم",
+     "url": "https://www.alraimedia.com/article/1786752/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%82%D8%A8%D8%B9%D8%A9-%D8%B7%D8%A7%D8%A6%D8%B4%D8%A9-%D8%AA%D9%82%D8%AA%D9%84-%D8%A3%D8%B4%D9%87%D8%B1-%D9%81%D8%B1%D8%B3-%D9%86%D9%87%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
+     "section": "latest",
+     "summary": "أعلنت ​حديقة حيوانات سينسيناتي بالولايات المتحدة في بيان ⁠أمس الخميس نفوق فيونا، وهي أنثى فرس ​نهر نيلي ذاع صيتها على الإنترنت بعد أن وثقت الحديقة قصة نجاتها ‌عقب ولادتها قبل...",
+     "body": "",
+     "published": "2026-11-20T08:30:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -4212,54 +4284,6 @@
    "analysis": {}
   },
   {
-   "key": "15caf93439cb3504",
-   "score": 6.059,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Today in Kuwait’s history",
-     "url": "https://kuwaittimes.com/article/53971/kuwait/today-in-kuwaits-history/",
-     "section": "kuwait",
-     "summary": "1961 — Kuwait joined the 1954 International Convention for the Prevention of Pollution of the Sea by Oil.1964 — Kuwait opened its first embassy in Czechoslovakia.1966 — Kuwait sign...",
-     "body": "",
-     "published": "2026-11-19T08:37:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "babdd8c8a0a82834",
-   "score": 6.059,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "أجواء رطبة ومائلة للحرارة نهاراً.. والعظمى 30 درجة",
-     "url": "https://www.aljarida.com/article/150945",
-     "section": "local",
-     "summary": "توقعت إدارة الأرصاد الجوية أن يسود البلاد، اليوم الخميس، طقس مائل للحرارة ورطب نسبياً، خصوصاً على المناطق الساحلية، مع ظهور بعض السحب المتفرقة، فيما تميل الأجواء إلى البرودة خلال ا...",
-     "body": "",
-     "published": "2026-11-19T08:07:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "74d811ff40b1ea83",
    "score": 6.058,
    "sources": [
@@ -4353,30 +4377,6 @@
     }
    ],
    "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
-   "key": "83db45649c99f2b6",
-   "score": 6.058,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "الحويلة تفتتح مركز «حماية الطفل»: ليس مجرد مبنى جديد بل درع وقائي ومنارة حقوقية واجتماعية",
-     "url": "https://www.alraimedia.com/article/1786641/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D8%AD%D9%88%D9%8A%D9%84%D8%A9-%D8%AA%D9%81%D8%AA%D8%AA%D8%AD-%D9%85%D8%B1%D9%83%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D9%84%D9%8A%D8%B3-%D9%85%D8%AC%D8%B1%D8%AF-%D9%85%D8%A8%D9%86%D9%89-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A8%D9%84-%D8%AF%D8%B1%D8%B9-%D9%88%D9%82%D8%A7%D8%A6%D9%8A-%D9%88%D9%85%D9%86%D8%A7%D8%B1%D8%A9-%D8%AD%D9%82%D9%88%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9",
-     "section": "local",
-     "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة أن حماية الطفل تمثل التزاماً وطنياً وأخلاقياً واستراتيجياً، مشددة على أن الاستثمار الحقيقي يبدأ من الطفل،...",
-     "body": "",
-     "published": "2026-11-19T12:59:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -4524,30 +4524,6 @@
    "analysis": {}
   },
   {
-   "key": "3782b52f58a8cb85",
-   "score": 5.958,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب يكشف سبب عدم لقائه زعيم كوريا الشمالية خلال جولته الآسيوية",
-     "url": "https://www.alraimedia.com/article/1786749/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%83%D8%B4%D9%81-%D8%B3%D8%A8%D8%A8-%D8%B9%D8%AF%D9%85-%D9%84%D9%82%D8%A7%D8%A6%D9%87-%D8%B2%D8%B9%D9%8A%D9%85-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-%D8%AC%D9%88%D9%84%D8%AA%D9%87-%D8%A7%D9%84%D8%A2%D8%B3%D9%8A%D9%88%D9%8A%D8%A9",
-     "section": "world",
-     "summary": "صرح الرئيس الأميركي دونالد ترامب أمس الخميس، أنه كان مشغولا للغاية خلال جولته الآسيوية بحيث لم يتمكن من لقاء الزعيم الكوري الشمالي كيم جونغ أون مجددا، مضيفا أنهما سيتشاوران في وقت...",
-     "body": "",
-     "published": "2026-11-20T05:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "bc2e230ef4d299d3",
    "score": 5.953,
    "sources": [
@@ -4569,30 +4545,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "8a8bb439b110d58e",
-   "score": 5.757,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«أكسيوس»: مدير الأمن الإلكتروني الوطني بالبيت الأبيض يترك منصبه",
-     "url": "https://www.alraimedia.com/article/1786747/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%83%D8%B3%D9%8A%D9%88%D8%B3-%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D9%8A%D8%AA%D8%B1%D9%83-%D9%85%D9%86%D8%B5%D8%A8%D9%87",
-     "section": "latest",
-     "summary": "أفاد موقع أكسيوس ⁠يوم أمس الخميس بأن شون كيرنكروس ​مدير الأمن الإلكتروني الوطني بالبيت الأبيض سيترك ‌منصبه.ولم يرد البيت الأبيض على الفور على طلب للتعليق.ونقل موقع أكسيوس عن م...",
-     "body": "",
-     "published": "2026-11-20T03:28:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Security & Courts",
    "analysis": {}
   },
   {
@@ -4644,6 +4596,30 @@
    "analysis": {}
   },
   {
+   "key": "96c1de431008041e",
+   "score": 5.459,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "FREELANDER participates in Fifth China-Arab States Political Parties Dialogue in Suzhou",
+     "url": "https://kuwaittimes.com/article/53986/business/freelander-participates-in-fifth-china-arab-states-political-parties-dialogue-in-suzhou/",
+     "section": "business",
+     "summary": "SUZHOU, China: FREELANDER participated in the Fifth China-Arab States Political Parties Dialogue in Suzhou on November 13. The brand’s activities included a visit by a Gulf delegat...",
+     "body": "",
+     "published": "2026-11-19T12:41:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
    "key": "3ef672ccf11a62cf",
    "score": 5.459,
    "sources": [
@@ -4668,6 +4644,30 @@
    "analysis": {}
   },
   {
+   "key": "a42068b3c43d3c43",
+   "score": 5.459,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Asian tech stocks mostly rise after record Anthropic IPO",
+     "url": "https://kuwaittimes.com/article/53979/business/asian-tech-stocks-mostly-rise-after-record-anthropic-ipo/",
+     "section": "business",
+     "summary": "HONG KONG: Technology stocks mostly rose in Asia on Thursday after a record initial public offering (IPO) by Claude maker Anthropic, but trading was cautious as investors dealt wit...",
+     "body": "",
+     "published": "2026-11-19T10:20:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
    "key": "5809324245a30066",
    "score": 5.459,
    "sources": [
@@ -4685,6 +4685,30 @@
      "summary": "حذرت وكالة الطاقة الدولية اليوم، بأن أزمة في مضيق هرمز تشكل «أكبر تهديد في التاريخ» لأمن الطاقة، مؤكدة أن الحرب ستترك أثرا دائما. وكتب مدير الوكالة فاتح بيرول في مقدمة تقريره السنو...",
      "body": "",
      "published": "2026-11-19T10:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "10de73bfd652447a",
+   "score": 5.459,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Anthropic set for Nasdaq debut after record $79.4 billion IPO",
+     "url": "https://kuwaittimes.com/article/53975/business/anthropic-set-for-nasdaq-debut-after-record-794-billion-ipo/",
+     "section": "business",
+     "summary": "NEW YORK: Anthropic will begin trading on the Nasdaq on Thursday after pricing its initial public offering (IPO) at $83 a share, above its expected range, and beating the record se...",
+     "body": "",
+     "published": "2026-11-19T09:24:00+03:00",
      "tier": 1
     }
    ],
@@ -4980,6 +5004,102 @@
    "analysis": {}
   },
   {
+   "key": "1f1b04ed23062df8",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "رحلة عبر الزمن مع المطبخ الكوري",
+     "url": "https://www.alraimedia.com/article/1786737/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B1%D8%AD%D9%84%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D9%86-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE-%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A",
+     "section": "latest",
+     "summary": "أقامت سفارة جمهورية كوريا لدى دولة الكويت المهرجان العاشر لمأكولات الشارع الكوري، حيث استقبلت نحو 600 مشارك في أمسية احتفالية بالمأكولات والثقافة الكورية.وفي كلمته الافتتاحية، استع...",
+     "body": "",
+     "published": "2026-11-19T22:02:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "0597f7a9f7970318",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ضيوف... «مطربة»",
+     "url": "https://www.alraimedia.com/article/1786724/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B6%D9%8A%D9%88%D9%81-%D9%85%D8%B7%D8%B1%D8%A8%D8%A9",
+     "section": "latest",
+     "summary": "مع الانخفاض التدريجي في درجات الحرارة، ودخول الأجواء الشتوية، تواصل الطيور هجرتها الخريفية إلى الكويت، حيث تتخذ بعض الأنواع من البيئة البرية محطة للراحة والتغذية، فيما تبحث أنواع أ...",
+     "body": "",
+     "published": "2026-11-19T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Culture & Entertainment",
+   "analysis": {}
+  },
+  {
+   "key": "e2f46bb7748b322a",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "شرب القهوة قبل الماء قد يرفع ضغط الدم",
+     "url": "https://www.alraimedia.com/article/1786723/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%82%D8%AF-%D9%8A%D8%B1%D9%81%D8%B9-%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D9%85",
+     "section": "latest",
+     "summary": "«إيلاف»- يمثل تناول فنجان من القهوة فور الاستيقاظ من النوم عادةً يومية لدى كثير من الأشخاص، غير أن شرب القهوة قبل تناول الماء قد يؤدي إلى الإصابة بالجفاف، ما قد يتسبب—إلى جانب تأثي...",
+     "body": "",
+     "published": "2026-11-19T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "af44e2a835ffe033",
+   "score": 5.159,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "ابتكار طبي «يعيد» الذاكرة المفقودة",
+     "url": "https://www.alraimedia.com/article/1786722/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D8%B7%D8%A8%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%B0%D8%A7%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%81%D9%82%D9%88%D8%AF%D8%A9",
+     "section": "latest",
+     "summary": "«روسيا اليوم» - تعد صعوبة إيصال الدواء إلى الدماغ من أكبر التحديات في علاج ألزهايمر، لأن الحاجز الدموي الدماغي يمنع معظم المواد من الوصول إليه.لكن دراسة جديدة نشرت في مجلة «Advance...",
+     "body": "",
+     "published": "2026-11-19T22:00:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "51c51991b4a575e9",
    "score": 5.159,
    "sources": [
@@ -5004,8 +5124,8 @@
    "analysis": {}
   },
   {
-   "key": "02a938ad7daa0598",
-   "score": 5.159,
+   "key": "3782b52f58a8cb85",
+   "score": 5.158,
    "sources": [
     "الرأي"
    ],
@@ -5015,16 +5135,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "صدور الجزء الثاني من كتاب «الإعدامات في الكويت»",
-     "url": "https://www.alraimedia.com/article/1786703/%D9%85%D8%AA%D9%81%D8%B1%D9%82%D8%A7%D8%AA/%D8%AB%D9%82%D8%A7%D9%81%D8%A9/%D8%B5%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%AC%D8%B2%D8%A1-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D9%85%D9%86-%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D9%85%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA",
-     "section": "latest",
-     "summary": "بعد النجاح الكبير الذي حققه الجزء الأول من كتاب «الإعدامات في الكويت»، الصادر عام 1997، والذي كتب مقدمته النائب العام آنذاك المستشار محمد البناي، رحمه الله، صدر حديثاً الجزء الثاني...",
+     "title": "ترامب يكشف سبب عدم لقائه زعيم كوريا الشمالية خلال جولته الآسيوية",
+     "url": "https://www.alraimedia.com/article/1786749/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%83%D8%B4%D9%81-%D8%B3%D8%A8%D8%A8-%D8%B9%D8%AF%D9%85-%D9%84%D9%82%D8%A7%D8%A6%D9%87-%D8%B2%D8%B9%D9%8A%D9%85-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AE%D9%84%D8%A7%D9%84-%D8%AC%D9%88%D9%84%D8%AA%D9%87-%D8%A7%D9%84%D8%A2%D8%B3%D9%8A%D9%88%D9%8A%D8%A9",
+     "section": "world",
+     "summary": "صرح الرئيس الأميركي دونالد ترامب أمس الخميس، أنه كان مشغولا للغاية خلال جولته الآسيوية بحيث لم يتمكن من لقاء الزعيم الكوري الشمالي كيم جونغ أون مجددا، مضيفا أنهما سيتشاوران في وقت...",
      "body": "",
-     "published": "2026-11-19T22:00:00+03:00",
+     "published": "2026-11-20T05:21:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -5100,30 +5220,6 @@
    "analysis": {}
   },
   {
-   "key": "910f6bc8b63780c3",
-   "score": 5.0,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "‏تعادل الكويت وكاظمة ودياً",
-     "url": "https://www.alanba.com.kw/1385851",
-     "section": "sport",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-20T03:37:57+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
    "key": "89b6da6daab980c0",
    "score": 4.8,
    "sources": [
@@ -5169,30 +5265,6 @@
     }
    ],
    "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "1f1b04ed23062df8",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "رحلة عبر الزمن مع المطبخ الكوري",
-     "url": "https://www.alraimedia.com/article/1786737/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B1%D8%AD%D9%84%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D9%86-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D8%AE-%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%8A",
-     "section": "last-page",
-     "summary": "أقامت سفارة جمهورية كوريا لدى دولة الكويت المهرجان العاشر لمأكولات الشارع الكوري، حيث استقبلت نحو 600 مشارك في أمسية احتفالية بالمأكولات والثقافة الكورية.وفي كلمته الافتتاحية، استع...",
-     "body": "",
-     "published": "2026-11-19T22:02:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -5388,78 +5460,6 @@
    "analysis": {}
   },
   {
-   "key": "af44e2a835ffe033",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ابتكار طبي «يعيد» الذاكرة المفقودة",
-     "url": "https://www.alraimedia.com/article/1786722/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D8%A8%D8%AA%D9%83%D8%A7%D8%B1-%D8%B7%D8%A8%D9%8A-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%B0%D8%A7%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%81%D9%82%D9%88%D8%AF%D8%A9",
-     "section": "last-page",
-     "summary": "«روسيا اليوم» - تعد صعوبة إيصال الدواء إلى الدماغ من أكبر التحديات في علاج ألزهايمر، لأن الحاجز الدموي الدماغي يمنع معظم المواد من الوصول إليه.لكن دراسة جديدة نشرت في مجلة «Advance...",
-     "body": "",
-     "published": "2026-11-19T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e2f46bb7748b322a",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "شرب القهوة قبل الماء قد يرفع ضغط الدم",
-     "url": "https://www.alraimedia.com/article/1786723/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%82%D8%AF-%D9%8A%D8%B1%D9%81%D8%B9-%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D9%85",
-     "section": "last-page",
-     "summary": "«إيلاف»- يمثل تناول فنجان من القهوة فور الاستيقاظ من النوم عادةً يومية لدى كثير من الأشخاص، غير أن شرب القهوة قبل تناول الماء قد يؤدي إلى الإصابة بالجفاف، ما قد يتسبب—إلى جانب تأثي...",
-     "body": "",
-     "published": "2026-11-19T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "0597f7a9f7970318",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ضيوف... «مطربة»",
-     "url": "https://www.alraimedia.com/article/1786724/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%B6%D9%8A%D9%88%D9%81-%D9%85%D8%B7%D8%B1%D8%A8%D8%A9",
-     "section": "last-page",
-     "summary": "مع الانخفاض التدريجي في درجات الحرارة، ودخول الأجواء الشتوية، تواصل الطيور هجرتها الخريفية إلى الكويت، حيث تتخذ بعض الأنواع من البيئة البرية محطة للراحة والتغذية، فيما تبحث أنواع أ...",
-     "body": "",
-     "published": "2026-11-19T22:00:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Culture & Entertainment",
-   "analysis": {}
-  },
-  {
    "key": "e6448c9f8bce243c",
    "score": 4.559,
    "sources": [
@@ -5556,54 +5556,6 @@
    "analysis": {}
   },
   {
-   "key": "854f83189e178e8e",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«التجارة» تدهم مخزناً في بناية سكنية يحوي 40.8 ألف قطعة مقلدة",
-     "url": "https://www.alraimedia.com/article/1786647/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%AA%D8%AF%D9%87%D9%85-%D9%85%D8%AE%D8%B2%D9%86%D8%A7-%D9%81%D9%8A-%D8%A8%D9%86%D8%A7%D9%8A%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%8A%D8%AD%D9%88%D9%8A-408-%D8%A3%D9%84%D9%81-%D9%82%D8%B7%D8%B9%D8%A9-%D9%85%D9%82%D9%84%D8%AF%D8%A9",
-     "section": "last-page",
-     "summary": "دهمت وزارة التجارة والصناعة مخزناً في إحدى العمارات السكنية الاستثمارية، يحتوي على 40,870 قطعة من السلع المقلدة التي تحمل علامات تجارية عالمية، وذلك عقب عمليات متابعة ورصد مسبق نفذ...",
-     "body": "",
-     "published": "2026-11-19T15:31:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "7ba977dd7d98efbe",
-   "score": 4.559,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "بوتين: روسيا وافقت على حلول اقترحتها الولايات المتحدة بشأن التسوية في أوكرانيا",
-     "url": "https://www.aljarida.com/article/150974",
-     "section": "world",
-     "summary": "أكد الرئيس الروسي فلاديمير بوتين ثقته في التزام نظيره الأميركي دونالد ترامب بحل الأزمة الأوكرانية وتحسين العلاقات مع موسكو، معرباً عن رغبة بلاده في التوصل إلى اتفاقات سريعة انطلاقا...",
-     "body": "",
-     "published": "2026-11-19T15:31:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "c689278a2898f6cf",
    "score": 4.559,
    "sources": [
@@ -5673,30 +5625,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "96c1de431008041e",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "FREELANDER participates in Fifth China-Arab States Political Parties Dialogue in Suzhou",
-     "url": "https://kuwaittimes.com/article/53986/business/freelander-participates-in-fifth-china-arab-states-political-parties-dialogue-in-suzhou/",
-     "section": "latest",
-     "summary": "SUZHOU, China: FREELANDER participated in the Fifth China-Arab States Political Parties Dialogue in Suzhou on November 13. The brand’s activities included a visit by a Gulf delegat...",
-     "body": "",
-     "published": "2026-11-19T12:41:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -5796,30 +5724,6 @@
    "analysis": {}
   },
   {
-   "key": "a42068b3c43d3c43",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Asian tech stocks mostly rise after record Anthropic IPO",
-     "url": "https://kuwaittimes.com/article/53979/business/asian-tech-stocks-mostly-rise-after-record-anthropic-ipo/",
-     "section": "latest",
-     "summary": "HONG KONG: Technology stocks mostly rose in Asia on Thursday after a record initial public offering (IPO) by Claude maker Anthropic, but trading was cautious as investors dealt wit...",
-     "body": "",
-     "published": "2026-11-19T10:20:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {}
-  },
-  {
    "key": "5e3790156aadf883",
    "score": 4.559,
    "sources": [
@@ -5861,102 +5765,6 @@
      "summary": "DHAKA: Bangladesh deployed hundreds of security personnel on Thursday as authorities stepped up a crackdown on supporters of ousted prime minister Sheikh Hasina, who has promised t...",
      "body": "",
      "published": "2026-11-19T10:09:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "10de73bfd652447a",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Anthropic set for Nasdaq debut after record $79.4 billion IPO",
-     "url": "https://kuwaittimes.com/article/53975/business/anthropic-set-for-nasdaq-debut-after-record-794-billion-ipo/",
-     "section": "latest",
-     "summary": "NEW YORK: Anthropic will begin trading on the Nasdaq on Thursday after pricing its initial public offering (IPO) at $83 a share, above its expected range, and beating the record se...",
-     "body": "",
-     "published": "2026-11-19T09:24:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "73d1230e5fca6fdd",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Hegseth makes surprise Venezuela stop before Colombia visit",
-     "url": "https://kuwaittimes.com/article/53968/world/hegseth-makes-surprise-venezuela-stop-before-colombia-visit/",
-     "section": "latest",
-     "summary": "CARACAS: US Defense Secretary Pete Hegseth arrived in Colombia on Wednesday after a surprise stop in Caracas, the highest-level US visit to Venezuela since president Nicolas Maduro...",
-     "body": "",
-     "published": "2026-11-19T07:27:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "4166fe086c921fb1",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Red crabs begin annual march to the sea on Christmas Island",
-     "url": "https://kuwaittimes.com/article/53967/world/red-crabs-begin-annual-march-to-the-sea-on-christmas-island/",
-     "section": "latest",
-     "summary": "CHRISTMAS ISLAND: More than 100 million red crabs on Australia’s Christmas Island have begun their annual migration from the forest to the sea, conservationists said this week. The...",
-     "body": "",
-     "published": "2026-11-19T07:21:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e0ccc8cc345d6359",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Sixers rally to beat Magic, Heat win sixth straight",
-     "url": "https://kuwaittimes.com/article/53966/sports/sixers-rally-to-beat-magic-heat-win-sixth-straight/",
-     "section": "latest",
-     "summary": "LOS ANGELES: The Philadelphia 76ers came from behind by double digits again to beat the Orlando Magic 121-116 on Wednesday and extend their lead at the top of the NBA’s Eastern Con...",
-     "body": "",
-     "published": "2026-11-19T07:16:00+03:00",
      "tier": 1
     }
    ],
@@ -6009,54 +5817,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "e829cf0393be7e7f",
-   "score": 4.558,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Xi hosts first three-way summit with Trump and Putin",
-     "url": "https://kuwaittimes.com/article/53970/world/xi-hosts-first-three-way-summit-with-trump-and-putin/",
-     "section": "latest",
-     "summary": "SHENZHEN: Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin posed for a photo with other Asia-Pacific leaders on Thursday ahead of their...",
-     "body": "",
-     "published": "2026-11-19T07:36:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "ddda1e94eb6aa29f",
-   "score": 4.558,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Nicholls leads New Zealand fightback to 140-5 against India",
-     "url": "https://kuwaittimes.com/article/53969/sports/cricket/nicholls-leads-new-zealand-fightback-to-140-5-against-india/",
-     "section": "latest",
-     "summary": "WELLINGTON: Henry Nicholls led a fightback with an unbeaten 66 as New Zealand recovered to 140-5 at tea on the opening day of the first Test against India on Thursday after losing...",
-     "body": "",
-     "published": "2026-11-19T07:31:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -6149,6 +5909,30 @@
      "summary": "قد تتحول طائرة تساوي مئات الملايين من الدولارات إلى عبء مالي على شركة الطيران، ليس بسبب غياب الركاب، وإنما لنقص محرك أو قطعة",
      "body": "",
      "published": "2026-11-19T19:44:01+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "6415db6f907d1a65",
+   "score": 4.5,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "فان غوخ يحطم رقمه القياسي بـ 190 مليون دولار",
+     "url": "https://www.alanba.com.kw/1385843",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-19T20:02:29+00:00",
      "tier": 1
     }
    ],
@@ -6276,6 +6060,78 @@
    "analysis": {}
   },
   {
+   "key": "910f6bc8b63780c3",
+   "score": 4.2,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "‏تعادل الكويت وكاظمة ودياً",
+     "url": "https://www.alanba.com.kw/1385851",
+     "section": "sport",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-20T03:37:57+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "854f83189e178e8e",
+   "score": 3.959,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«التجارة» تدهم مخزناً في بناية سكنية يحوي 40.8 ألف قطعة مقلدة",
+     "url": "https://www.alraimedia.com/article/1786647/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%AA%D8%AF%D9%87%D9%85-%D9%85%D8%AE%D8%B2%D9%86%D8%A7-%D9%81%D9%8A-%D8%A8%D9%86%D8%A7%D9%8A%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%8A%D8%AD%D9%88%D9%8A-408-%D8%A3%D9%84%D9%81-%D9%82%D8%B7%D8%B9%D8%A9-%D9%85%D9%82%D9%84%D8%AF%D8%A9",
+     "section": "last-page",
+     "summary": "دهمت وزارة التجارة والصناعة مخزناً في إحدى العمارات السكنية الاستثمارية، يحتوي على 40,870 قطعة من السلع المقلدة التي تحمل علامات تجارية عالمية، وذلك عقب عمليات متابعة ورصد مسبق نفذ...",
+     "body": "",
+     "published": "2026-11-19T15:31:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "7ba977dd7d98efbe",
+   "score": 3.959,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "بوتين: روسيا وافقت على حلول اقترحتها الولايات المتحدة بشأن التسوية في أوكرانيا",
+     "url": "https://www.aljarida.com/article/150974",
+     "section": "world",
+     "summary": "أكد الرئيس الروسي فلاديمير بوتين ثقته في التزام نظيره الأميركي دونالد ترامب بحل الأزمة الأوكرانية وتحسين العلاقات مع موسكو، معرباً عن رغبة بلاده في التوصل إلى اتفاقات سريعة انطلاقا...",
+     "body": "",
+     "published": "2026-11-19T15:31:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "07fed1b120c1e49a",
    "score": 3.959,
    "sources": [
@@ -6389,30 +6245,6 @@
      "summary": "اختتمت القمة الثلاثية التاريخيةالتي جمعت اليوم الرؤساء الأميركي دونالد ترامب والروسي فلاديمير بوتين والصيني شي جين بينغ في شنجن بالصين. ترامبوأكد ترامب في مطلع القمة أهمية الحفاظ ع...",
      "body": "",
      "published": "2026-11-19T11:12:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "4fcd5c8f28733dfd",
-   "score": 3.959,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ترامب: شددت أنا وشي على ضرورة تدفق النفط عبر مضيق هرمز",
-     "url": "https://www.alraimedia.com/article/1786630/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%B4%D8%AF%D8%AF%D8%AA-%D8%A3%D9%86%D8%A7-%D9%88%D8%B4%D9%8A-%D8%B9%D9%84%D9%89-%D8%B6%D8%B1%D9%88%D8%B1%D8%A9-%D8%AA%D8%AF%D9%81%D9%82-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%B9%D8%A8%D8%B1-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
-     "section": "world",
-     "summary": "قال الرئيس الأميركي دونالد ⁠ترامب «شددت أنا وشي على ضرورة تدفق النفط عبر مضيق هرمز». كذلك أكد ترامب اليوم بعد لقاء ثنائي مع الرئيس الصيني شي جينبينغ في شنجن بجنوب الصين أن الرئيسين...",
-     "body": "",
-     "published": "2026-11-19T07:52:00+03:00",
      "tier": 1
     }
    ],
@@ -6984,6 +6816,54 @@
    "analysis": {}
   },
   {
+   "key": "911e08a6a1f7c14d",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "No building permits sans traffic impact compliance",
+     "url": "https://www.arabtimesonline.com/news/no-building-permits-sans-traffic-impact-compliance/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19: Municipal Council member Dr. Hassan Kamal stressed the need to link the results of traffic impact studies with the issuance of building permits, land-use chang...",
+     "body": "",
+     "published": "2026-11-19T22:55:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "a8c7723b5a5a30e0",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Opens Safe Haven for Children, Puts Child Protection at Top of National Priorities",
+     "url": "https://www.arabtimesonline.com/news/kuwait-opens-safe-haven-for-children-puts-child-protection-at-top-of-national-priorities/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19: Minister of Social, Family and Childhood Affairs Dr. Amthal Al-Huwailah reiterated that protecting children is the topmost national priority, and that the best...",
+     "body": "",
+     "published": "2026-11-19T22:51:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "b18856b418c25cff",
    "score": 3.659,
    "sources": [
@@ -7029,6 +6909,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "e48181a32bb4fb85",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Time’s up for 494 Jleeb buildings",
+     "url": "https://www.arabtimesonline.com/news/times-up-for-494-jleeb-buildings/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19: The two-week countdown has started for the evacuation and demolition of 494 buildings in Jleeb Al-Shuyoukh, as per the administrative order issued by Kuwait Mu...",
+     "body": "",
+     "published": "2026-11-19T21:28:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -7104,6 +7008,54 @@
    "analysis": {}
   },
   {
+   "key": "913fab4f6cd51f01",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Air Force Strengthens Military Cooperation With NATO",
+     "url": "https://www.arabtimesonline.com/news/kuwait-air-force-strengthens-military-cooperation-with-nato/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19 : The Kuwait Air Force hosted a delegation from NATO's Allied Joint Force Command at Salem Al-Sabah Air Base as part of efforts to strengthen military cooperati...",
+     "body": "",
+     "published": "2026-11-19T17:58:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "a1998ef4a6586ccf",
+   "score": 3.659,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "National Guard Deputy Chief Reviews Staff Readiness at Al-Tahrir Camp",
+     "url": "https://www.arabtimesonline.com/news/national-guard-deputy-chief-reviews-staff-readiness-at-al-tahrir-camp/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19 : Deputy Chief of the National Guard Staff Lieutenant General Hamad Salem Al-Barjas inspected staff formations at Al-Tahrir Camp, emphasizing military disciplin...",
+     "body": "",
+     "published": "2026-11-19T17:55:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "ecd91d625109e5bf",
    "score": 3.658,
    "sources": [
@@ -7173,6 +7125,30 @@
     }
    ],
    "category": "Sport",
+   "analysis": {}
+  },
+  {
+   "key": "0d5f33a4e6d59dab",
+   "score": 3.658,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Significance of the Armed Forces Day of Bangladesh",
+     "url": "https://www.arabtimesonline.com/news/significance-of-the-armed-forces-day-of-bangladesh/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19: Bangladesh observes 21 November as its Armed Forces Day, a date of great historical importance for the nation. Members of Bangladesh Armed Forces take deep pr...",
+     "body": "",
+     "published": "2026-11-19T19:10:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -7320,8 +7296,128 @@
    "analysis": {}
   },
   {
+   "key": "68ffc1d8f18f4be7",
+   "score": 3.6,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "US Embassy in Kuwait Urges Americans to Exercise Heightened Vigilance Amid Regional Security Threats",
+     "url": "https://www.arabtimesonline.com/news/us-embassy-in-kuwait-urges-americans-to-exercise-heightened-vigilance-amid-regional-security-threats/",
+     "section": "kuwait",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-19T17:51:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "bf4d521a0cb2e467",
+   "score": 3.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Warns Against Riding Desert Buggies on Highways and Residential Streets",
+     "url": "https://www.arabtimesonline.com/news/kuwait-warns-against-riding-desert-buggies-on-highways-and-residential-streets/",
+     "section": "kuwait",
+     "summary": "KUWAIT CITY, Nov 19: The Ministry of Interior has urged citizens and residents not to ride off-road buggies and motorcycles designed for desert use on highways, main roads, paved r...",
+     "body": "",
+     "published": "2026-11-19T15:29:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "1c8c13afce63a89f",
+   "score": 2.768,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "China, Russia and US Vow to Safeguard Global Peace and Security",
+     "url": "https://timeskuwait.com/china-russia-and-us-vow-to-safeguard-global-peace-and-security/",
+     "section": "latest",
+     "summary": "Chinese President Xi Jinping, Russian President Vladimir Putin and US President Donald Trump on Thursday pledged to address global challenges and strengthen international peace and security following trilateral talks in Shenzhen, China’s Guangdong Province. According to China’s Xinhua News Agency, the three leaders adopted a joint declaration reaffirming their commitment to maintaining global strategic stability, …\n\nThe post China, Russia and US Vow to Safeguard Global Peace and Security appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T18:14:58+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "263c0153eb62986a",
+   "score": 2.767,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Kuwait Capital Governorate Security Campaign Results in 246 Legal Actions",
+     "url": "https://timeskuwait.com/kuwait-capital-governorate-security-campaign-results-in-246-legal-actions/",
+     "section": "latest",
+     "summary": "The Capital Governorate Security Directorate carried out a large-scale security campaign across Kuwait, resulting in 246 legal and administrative actions against violators, wanted individuals and establishments operating in violation of the law. The campaign was conducted by the Ministry of Interior’s Security Directorates Affairs Sector, under the supervision of Acting Director General of the Capital …\n\nThe post Kuwait Capital Governorate Security Campaign Results in 246 Legal Actions appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T18:42:59+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "75b9b2145c5e48d9",
+   "score": 2.744,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Toyota ALSAYER Named Main Partner of Kashta Marina Season 3",
+     "url": "https://timeskuwait.com/toyota-alsayer-named-main-partner-of-kashta-marina-season-3/",
+     "section": "latest",
+     "summary": "A strategic partnership celebrating Kuwaiti creativity and empowering local entrepreneurs Mohamed Naser Al Sayer & Sons Est. Co. and Toyota has announced its participation as the Main Partner of Kashta Marina Season Three, organized by Richter Creative Office at Marina Garden from 26 November 2026 to 2 January 2027. Running for 38 days, the new …\n\nThe post Toyota ALSAYER Named Main Partner of Kashta Marina Season 3 appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T13:52:10+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
    "key": "4970c02ba9562625",
-   "score": 3.259,
+   "score": 2.659,
    "sources": [
     "Arab Times"
    ],
@@ -7333,7 +7429,7 @@
      "lang": "en",
      "title": "US Senate Blocks Iran War Powers Resolution, Rejects Bid to Curb Trump’s Military Authority",
      "url": "https://www.arabtimesonline.com/news/us-senate-blocks-iran-war-powers-resolution-rejects-bid-to-curb-trumps-military-authority/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 19: The US Senate on Thursday blocked a resolution seeking to direct President Donald Trump to withdraw American forces from hostilities with Iran, voting 48-51 aga...",
      "body": "",
      "published": "2026-11-19T23:45:00+03:00",
@@ -7345,7 +7441,7 @@
   },
   {
    "key": "04e5115aa7f9f75d",
-   "score": 3.259,
+   "score": 2.659,
    "sources": [
     "Arab Times"
    ],
@@ -7369,7 +7465,7 @@
   },
   {
    "key": "37d87decf05b2c2e",
-   "score": 3.259,
+   "score": 2.659,
    "sources": [
     "Arab Times"
    ],
@@ -7393,7 +7489,7 @@
   },
   {
    "key": "e6055aedf380a168",
-   "score": 3.259,
+   "score": 2.659,
    "sources": [
     "Arab Times"
    ],
@@ -7464,54 +7560,6 @@
    "analysis": {}
   },
   {
-   "key": "911e08a6a1f7c14d",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "No building permits sans traffic impact compliance",
-     "url": "https://www.arabtimesonline.com/news/no-building-permits-sans-traffic-impact-compliance/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19: Municipal Council member Dr. Hassan Kamal stressed the need to link the results of traffic impact studies with the issuance of building permits, land-use chang...",
-     "body": "",
-     "published": "2026-11-19T22:55:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
-   "key": "a8c7723b5a5a30e0",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Opens Safe Haven for Children, Puts Child Protection at Top of National Priorities",
-     "url": "https://www.arabtimesonline.com/news/kuwait-opens-safe-haven-for-children-puts-child-protection-at-top-of-national-priorities/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19: Minister of Social, Family and Childhood Affairs Dr. Amthal Al-Huwailah reiterated that protecting children is the topmost national priority, and that the best...",
-     "body": "",
-     "published": "2026-11-19T22:51:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "3a0c99edce657035",
    "score": 2.659,
    "sources": [
@@ -7525,7 +7573,7 @@
      "lang": "en",
      "title": "Kuwait's DGCA seals air transport deals with UK, Argentina",
      "url": "https://www.arabtimesonline.com/news/kuwaits-dgca-seals-air-transport-deals-with-uk-argentina/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 19: Kuwait’s delegation participating in the 7th International Civil Aviation Organization (ICAO) Air Transport Conference in Montreal continued Wednesday its meeti...",
      "body": "",
      "published": "2026-11-19T22:44:00+03:00",
@@ -7573,7 +7621,7 @@
      "lang": "en",
      "title": "China’s president makes 4 points on how major countries should get along with each other",
      "url": "https://www.arabtimesonline.com/news/chinas-president-makes-4-points-on-how-major-countries-should-get-along-with-each-other/",
-     "section": "general",
+     "section": "latest",
      "summary": "SHENZHEN, Nov 19 : Chinese President Xi Jinping on Thursday made four points on how major countries could find the right way to get along and jointly underpin world peace. Major co...",
      "body": "",
      "published": "2026-11-19T22:17:00+03:00",
@@ -7625,54 +7673,6 @@
      "summary": "KUWAIT CITY, Nov 19: Kuwaiti media figure and academic Jarah Mutlaq Al-Qazaa has released a new book titled “The Comprehensive Media Professional in Non-Media Institutions: An Inte...",
      "body": "",
      "published": "2026-11-19T21:47:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "c11efa6a4e962c9c",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Ghanaian Expat Arrested in Kuwait's Mahboula for Selling Abortion Pills",
-     "url": "https://www.arabtimesonline.com/news/ghanaian-expat-arrested-in-kuwaits-mahboula-for-selling-abortion-pills/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19: The Criminal Security Sector, represented by the General Department of Criminal Investigation, arrested a Ghanaian national for allegedly distributing and sell...",
-     "body": "",
-     "published": "2026-11-19T21:36:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "e48181a32bb4fb85",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Time’s up for 494 Jleeb buildings",
-     "url": "https://www.arabtimesonline.com/news/times-up-for-494-jleeb-buildings/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19: The two-week countdown has started for the evacuation and demolition of 494 buildings in Jleeb Al-Shuyoukh, as per the administrative order issued by Kuwait Mu...",
-     "body": "",
-     "published": "2026-11-19T21:28:00+03:00",
      "tier": 2
     }
    ],
@@ -7824,78 +7824,6 @@
    "analysis": {}
   },
   {
-   "key": "913fab4f6cd51f01",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Air Force Strengthens Military Cooperation With NATO",
-     "url": "https://www.arabtimesonline.com/news/kuwait-air-force-strengthens-military-cooperation-with-nato/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19 : The Kuwait Air Force hosted a delegation from NATO's Allied Joint Force Command at Salem Al-Sabah Air Base as part of efforts to strengthen military cooperati...",
-     "body": "",
-     "published": "2026-11-19T17:58:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "a1998ef4a6586ccf",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "National Guard Deputy Chief Reviews Staff Readiness at Al-Tahrir Camp",
-     "url": "https://www.arabtimesonline.com/news/national-guard-deputy-chief-reviews-staff-readiness-at-al-tahrir-camp/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19 : Deputy Chief of the National Guard Staff Lieutenant General Hamad Salem Al-Barjas inspected staff formations at Al-Tahrir Camp, emphasizing military disciplin...",
-     "body": "",
-     "published": "2026-11-19T17:55:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "bf4d521a0cb2e467",
-   "score": 2.659,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Warns Against Riding Desert Buggies on Highways and Residential Streets",
-     "url": "https://www.arabtimesonline.com/news/kuwait-warns-against-riding-desert-buggies-on-highways-and-residential-streets/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19: The Ministry of Interior has urged citizens and residents not to ride off-road buggies and motorcycles designed for desert use on highways, main roads, paved r...",
-     "body": "",
-     "published": "2026-11-19T15:29:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "42378e82561fd4bc",
    "score": 2.658,
    "sources": [
@@ -7968,30 +7896,6 @@
    "analysis": {}
   },
   {
-   "key": "0d5f33a4e6d59dab",
-   "score": 2.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Significance of the Armed Forces Day of Bangladesh",
-     "url": "https://www.arabtimesonline.com/news/significance-of-the-armed-forces-day-of-bangladesh/",
-     "section": "latest",
-     "summary": "KUWAIT CITY, Nov 19: Bangladesh observes 21 November as its Armed Forces Day, a date of great historical importance for the nation. Members of Bangladesh Armed Forces take deep pr...",
-     "body": "",
-     "published": "2026-11-19T19:10:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "3534bafe7fed83f0",
    "score": 2.6,
    "sources": [
@@ -8016,27 +7920,123 @@
    "analysis": {}
   },
   {
-   "key": "68ffc1d8f18f4be7",
-   "score": 2.6,
+   "key": "4eb48a52d1aeb217",
+   "score": 2.17,
    "sources": [
-    "Arab Times"
+    "Times Kuwait"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
      "lang": "en",
-     "title": "US Embassy in Kuwait Urges Americans to Exercise Heightened Vigilance Amid Regional Security Threats",
-     "url": "https://www.arabtimesonline.com/news/us-embassy-in-kuwait-urges-americans-to-exercise-heightened-vigilance-amid-regional-security-threats/",
+     "title": "Three-day ICAI Kuwait course focuses on AI’s role in accounting and finance",
+     "url": "https://timeskuwait.com/three-day-icai-kuwait-course-focuses-on-ais-role-in-accounting-and-finance/",
      "section": "latest",
-     "summary": "",
+     "summary": "The Institute of Chartered Accountants of India Kuwait Chapter (ICAIKC) organised a three-day AI Level 1 Certification Course for Chartered Accountants at Crowne Plaza Kuwait, bringing together accounting and finance professionals to explore the growing applications of Artificial Intelligence in their field. The programme focused on helping chartered accountants understand emerging AI technologies and develop …\n\nThe post Three-day ICAI Kuwait course focuses on AI’s role in accounting and finance appeared first on Times Kuwait.",
      "body": "",
-     "published": "2026-11-19T17:51:00+03:00",
+     "published": "2026-11-19T13:26:50+00:00",
      "tier": 2
     }
    ],
-   "category": "Government & Politics",
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "cfce36eb5dac5a38",
+   "score": 2.161,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Ministry of Commerce seizes over 40,000 counterfeit goods in warehouse raid",
+     "url": "https://timeskuwait.com/ministry-of-commerce-seizes-over-40000-counterfeit-goods-in-warehouse-raid/",
+     "section": "latest",
+     "summary": "The Ministry of Commerce and Industry has raided a warehouse in an investment residential building and seized 40,870 counterfeit items bearing international trademarks. The operation followed monitoring and surveillance by inspectors from the Department of Commercial Control and Consumer Protection. The ministry said the seizure was made following violations of Law No. 13 of 2015 …\n\nThe post Ministry of Commerce seizes over 40,000 counterfeit goods in warehouse raid appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T12:49:11+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Security & Courts",
+   "analysis": {}
+  },
+  {
+   "key": "d870e9565a791152",
+   "score": 2.154,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Art, fashion and gastronomy highlight French cultural evening in Kuwait",
+     "url": "https://timeskuwait.com/art-fashion-and-gastronomy-highlight-french-cultural-evening-in-kuwait/",
+     "section": "latest",
+     "summary": "The Times Kuwait Report The event organised by the IWG in collaboration with the French Embassy showcased France’s cultural diversity The evening was intended to offer guests a glimpse into the many dimensions of French life, extending well beyond its celebrated cuisine to encompass literature, cinema, fashion, perfumery and interior design French culture, in all …\n\nThe post Art, fashion and gastronomy highlight French cultural evening in Kuwait appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T13:14:14+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Culture & Entertainment",
+   "analysis": {}
+  },
+  {
+   "key": "2c79ef4a99895704",
+   "score": 2.152,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "MOI warns against driving off-road vehicles on roads and in residential areas",
+     "url": "https://timeskuwait.com/moi-warns-against-driving-off-road-vehicles-on-roads-and-in-residential-areas/",
+     "section": "latest",
+     "summary": "The Ministry of Interior has urged citizens and residents not to drive all-terrain vehicles (ATVs) and motorized motorcycles designed for off-road use on highways, main roads, paved roads, in residential areas or on sidewalks. The ministry warned that such practices pose a danger to drivers, pedestrians and other road users. In a press statement issued …\n\nThe post MOI warns against driving off-road vehicles on roads and in residential areas appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T12:31:48+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "64e755588b8ffd4a",
+   "score": 2.146,
+   "sources": [
+    "Times Kuwait"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "timeskuwait",
+     "source_name": "Times Kuwait",
+     "lang": "en",
+     "title": "Kuwait savours Korean culture at 10th street food festival",
+     "url": "https://timeskuwait.com/kuwait-savours-korean-culture-at-10th-street-food-festival/",
+     "section": "latest",
+     "summary": "The Times Kuwait Report Korean Embassy brings food, culture and friendship together at the street food festival; takes visitors on a journey through time The Embassy of the Republic of Korea in Kuwait hosted the 10th Korean Street Food Festival on November 18, bringing together nearly 600 visitors for an evening celebrating Korean culinary traditions …\n\nThe post Kuwait savours Korean culture at 10th street food festival appeared first on Times Kuwait.",
+     "body": "",
+     "published": "2026-11-19T12:29:32+00:00",
+     "tier": 2
+    }
+   ],
+   "category": "Culture & Entertainment",
    "analysis": {}
   },
   {
@@ -8101,7 +8101,7 @@
      "lang": "en",
      "title": "Violence Grips Bangladesh as Yunus' Ancestral Home and Grameen Bank Offices Targeted by Arson",
      "url": "https://www.arabtimesonline.com/news/bangladesh-faces-fresh-political-unrest-as-muhammad-yunus-ancestral-home-is-set-ablaze-grameen-bank-offices-face-arson-attacks-and-hundreds-are-arrested-ahead-of-an-awami-league-shutdown/",
-     "section": "general",
+     "section": "latest",
      "summary": "DHAKA, Nov 19 : Bangladesh witnessed fresh political violence on Thursday as the ancestral home of Nobel laureate and former interim government chief Muhammad Yunus was set on fire...",
      "body": "",
      "published": "2026-11-19T10:30:00+03:00",
@@ -8125,7 +8125,7 @@
      "lang": "en",
      "title": "Trump Says Iran May Be Exploring Chemical and Biological Weapons",
      "url": "https://www.arabtimesonline.com/news/trump-says-iran-may-be-exploring-chemical-and-biological-weapons/",
-     "section": "general",
+     "section": "latest",
      "summary": "SHENZHEN, Nov 19: US President Donald Trump has claimed that Iran may be exploring the development of chemical and biological weapons, saying Washington's efforts to restrict Tehra...",
      "body": "",
      "published": "2026-11-19T10:22:00+03:00",
@@ -8149,7 +8149,7 @@
      "lang": "en",
      "title": "Gulf marks 125 Years by celebrating people and customers around the globe",
      "url": "https://www.arabtimesonline.com/news/gulf-marks-125-years-by-celebrating-people-and-customers-around-the-globe/",
-     "section": "general",
+     "section": "latest",
      "summary": "KUWAIT CITY, Nov 19: This month, Gulf marks a historical milestone as the company celebrates 125 years of innovation, performance and trusted partnerships. The company’s story bega...",
      "body": "",
      "published": "2026-11-19T09:54:00+03:00",
@@ -8221,7 +8221,7 @@
      "lang": "en",
      "title": "UK's Prince Harry sees 'big separation' between US administration, public on support for Ukraine",
      "url": "https://www.arabtimesonline.com/news/uks-prince-harry-sees-big-separation-between-us-administration-public-on-support-for-ukraine/",
-     "section": "general",
+     "section": "latest",
      "summary": "LONDON, Nov 19, (AP): Britain’s Prince Harry offered a veiled criticism of the US government’s policy toward Ukraine, saying in an interview released late Wednesday that he belie...",
      "body": "",
      "published": "2026-11-19T12:28:00+03:00",
@@ -8245,7 +8245,7 @@
      "lang": "en",
      "title": "Pakistan military kills 22 militants in raids on hideouts in northwest",
      "url": "https://www.arabtimesonline.com/news/pakistan-military-kills-22-militants-in-raids-on-hideouts-in-northwest/",
-     "section": "general",
+     "section": "latest",
      "summary": "ISLAMABAD, Nov 19, (AP): Pakistani security forces acting on intelligence raided militant hideouts in the northwest near the Afghan border, setting off gunbattles that killed 22...",
      "body": "",
      "published": "2026-11-19T12:03:00+03:00",
@@ -8269,7 +8269,7 @@
      "lang": "en",
      "title": "US and Venezuela sign a deal to reestablish military ties: Hegseth",
      "url": "https://www.arabtimesonline.com/news/us-and-venezuela-sign-a-deal-to-reestablish-military-ties-hegseth/",
-     "section": "general",
+     "section": "latest",
      "summary": "CARACAS, Venezuela, Nov 19, (AP): The United States and Venezuela have signed a deal to reestablish military ties that will range from conducting joint training to intelligence...",
      "body": "",
      "published": "2026-11-19T11:46:00+03:00",
