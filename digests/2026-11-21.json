@@ -1,27 +1,27 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T09:05:15.842229+03:00",
+ "generated_at": "2026-11-21T10:34:08.295272+03:00",
  "window_hours": 26,
  "provider": "cerebras",
  "stats": {
-  "total_articles": 104,
+  "total_articles": 120,
   "outlets_reporting": 5,
-  "total_stories": 84,
+  "total_stories": 98,
   "major_stories": 2,
   "analysed_stories": 28,
-  "window_start": "2026-11-20T07:05:15.842229+03:00",
-  "window_end": "2026-11-21T09:05:15.842229+03:00",
+  "window_start": "2026-11-20T08:34:08.295272+03:00",
+  "window_end": "2026-11-21T10:34:08.295272+03:00",
   "major_threshold": 3,
   "categories": {
-   "Government & Politics": 30,
-   "Economy & Business": 6,
-   "World & Region": 36,
-   "Society & Services": 3,
+   "Government & Politics": 35,
+   "Economy & Business": 8,
+   "World & Region": 41,
+   "Society & Services": 5,
    "Security & Courts": 4,
    "Sport": 5
   },
   "analysis_retries": 7,
-  "analysis_splits": 42,
+  "analysis_splits": 38,
   "analysis_missing": 0,
   "analysis_providers": []
  },
@@ -29,7 +29,7 @@
   "story_of_the_day": "S1",
   "top_themes": [],
   "_source": "extractive",
-  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 2 of them by three or more outlets. The leading story was: سمو ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح. This extractive fallback does not infer subtext or verify cross-day trends.",
+  "editor_note_en": "28 distinct stories were carried across the Kuwaiti press in this window, 2 of them by three or more outlets. The leading story was: Crown Prince attends 50th anniversary of Sabah Al-Salem charity. This extractive fallback does not infer subtext or verify cross-day trends.",
   "not_being_said_en": "Not assessed: a deterministic fallback cannot infer omissions or intent from story counts alone.",
   "tactical_en": "Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status.",
   "strategic_en": "Historical context from previous editions (context only, not evidence of a current development):\n- 2026-11-20: 28 distinct stories were carried across the Kuwaiti press in this window, 6 of them by three or more outlets. The leading story was: «التربية» تحصد جائزتين في منافسات مؤسسة «حمدان للأداء التعليمي المتميز». This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot confirm their current status. | prior watchlist: Compare future reports against the historical notes and verify any carry-over against current source material. | pattern under way: Historical context from previous editions (context only, not evidence of a current development): - 2026-11-19: 28 distinct stories were carried across the Kuwaiti press in this window, 19 of them by three or more outlets. The leading story was: سعر برميل النفط الكويتي ينخفض إلى 81.73 دولار. This extractive fallback does not infer subtext or verify cross-day trends. | prior tactical follow-up: Use the prior notes as follow-up prompts, then verify each pending action, owner, and deadline against today's source reports; this fallback cannot…\n\nThis deterministic fallback cannot determine whether today's coverage continues, reverses, or extends those patterns.",
@@ -133,71 +133,67 @@
   }
  ],
  "errors": [
-  "S1 سمو ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك…: batch S1: no provider available",
+  "S1 Crown Prince attends 50th anniversary of Sabah Al-Salem charity: batch S1: no provider available",
   "S2 وزيرة «الشؤون»: حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات…: batch S2: no provider available",
-  "S3 «شؤون القصر».. رسالة إنسانية كويتية تصون حقوق المشمولين برعايتها: batch S3: no provider available",
-  "S4 الكويت تؤكد موقفها الثابت والراسخ بحماية حقوق الطفل: batch S4: no provider available",
-  "S5 المرزوق يبحث مع غرفة التجارة الأميركية تعزيز العلاقات بين البلدين: batch S5: no provider available",
-  "S6 التحالف: اعتراض وتدمير 3 صواريخ باليستية أطلقتها الميليشيا الحوثية…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S7 الكويت تجدد التأكيد على أهمية إنشاء منطقة خالية من الأسلحة النووية…: batch S7: no provider available",
-  "S8 القيادة السياسية تهنئ سلطان عمان بذكرى اليوم الوطني: batch S8: no provider available",
-  "S9 «الداخلية»: إغلاقات مرورية موقتة على شارع الخليج غداً: batch S9: no provider available",
-  "S10 كي لاند (K-Land) تعود بموسمها الرابع!: batch S10: no provider available",
-  "S11 سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S3 سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار: batch S3: no provider available",
+  "S4 «شؤون القصر».. رسالة إنسانية كويتية تصون حقوق المشمولين برعايتها: batch S4: no provider available",
+  "S5 الكويت تؤكد موقفها الثابت والراسخ بحماية حقوق الطفل: batch S5: no provider available",
+  "S6 المرزوق يبحث مع غرفة التجارة الأميركية تعزيز العلاقات بين البلدين: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S7 التحالف: اعتراض وتدمير 3 صواريخ باليستية أطلقتها الميليشيا الحوثية…: batch S7: no provider available",
+  "S8 الكويت تجدد التأكيد على أهمية إنشاء منطقة خالية من الأسلحة النووية…: batch S8: no provider available",
+  "S9 القيادة السياسية تهنئ سلطان عمان بذكرى اليوم الوطني: batch S9: no provider available",
+  "S10 «الداخلية»: إغلاقات مرورية موقتة على شارع الخليج غداً: batch S10: no provider available",
+  "S11 كي لاند (K-Land) تعود بموسمها الرابع!: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S12 التحالف ينفذ عملية نوعية لتحييد مصادر التهديد الحوثية: batch S12: no provider available",
   "S13 أمير قطر والرئيس الألماني يبحثان تطورات الأوضاع بالمنطقة وتعزيز…: batch S13: no provider available",
   "S14 العراق يبدأ نشر قواته الأمنية في «جرف النصر» للمرة الأولى منذ 12 عاما: batch S14: no provider available",
-  "S15 «ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار: batch S15: no provider available",
+  "S15 «الأرصاد»: طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة…: batch S15: no provider available",
   "S16 «المركزي»: توقعات بنمو الناتج المحلي غير النفطي بنسبة 1.5% خلال عام…: batch S16: no provider available",
-  "S17 «ثانوية الأصمعي» تبادر بتدريب معلّميها على الذكاء الاصطناعي: batch S17: no provider available",
-  "S18 سورية: ضبط شحنة أسلحة معدّة للتهريب إلى الأراضي اللبنانية: batch S18: no provider available",
-  "S19 رويترز: الأسهم الأميركية تواصل الخسائر وناسداك يتراجع 5.3%: batch S19: no provider available",
+  "S17 Czech parliament speaker stresses cooperation with Kuwait, backs it…: batch S17: no provider available",
+  "S18 Kuwait reiterates call for Middle East zone free of nuclear weapons: batch S18: no provider available",
+  "S19 سورية: ضبط شحنة أسلحة معدّة للتهريب إلى الأراضي اللبنانية: batch S19: no provider available",
   "S20 السودان: نؤيد كل ما تتخذه الكويت من إجراءات لحماية أمنها وصون سلامة…: batch S20: no provider available",
-  "S21 «إنفيديا» تتراجع إلى رابع أكبر شركة في العالم من حيث القيمة السوقية: batch S21: no provider available",
-  "S22 القائم بالأعمال بالإنابة في سفارتنا بمسقط: العلاقات الكويتية -…: batch S22: no provider available",
-  "S23 صاحب السمو يهنئ سلطان عُمان باليوم الوطني: علاقات تاريخية راسخة بين…: batch S23: no provider available",
-  "S24 رئيس مجلس النواب التشيكي: نجدد موقفنا الداعم للكويت إزاء الإعتداءات…: batch S24: no provider available",
-  "S25 «S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة: batch S25: no provider available",
-  "S26 زلزال بقوة 6.7 درجة يضرب وسط البيرو: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S27 «الخارجية» النمساوية تعلن اختراق موقعها الإلكتروني والاطلاع على…: batch S27: no provider available",
-  "S28 مسؤول: رئيس إنفيديا السابق هوانج يقبل الإدلاء بشهادة علنية في مجلس…: batch S28: no provider available",
-  "S1 سمو ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك…: batch S1: no provider available",
+  "S21 المشي أم الجري.. أيهما يحرق الدهون ويحمي قلبك؟: batch S21: no provider available",
+  "S22 «ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار: batch S22: no provider available",
+  "S23 «S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة: batch S23: no provider available",
+  "S24 باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات: batch S24: no provider available",
+  "S25 «إنفيديا» تتراجع إلى رابع أكبر شركة في العالم من حيث القيمة السوقية: batch S25: no provider available",
+  "S26 Capital Governorate security campaign results in 246 actions: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S27 Antimicrobial resistance requires serious, joint action: Health…: batch S27: no provider available",
+  "S28 Child protection a national responsibility, says Al-Huwaila: batch S28: no provider available",
+  "S1 Crown Prince attends 50th anniversary of Sabah Al-Salem charity: batch S1: no provider available",
   "S2 وزيرة «الشؤون»: حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات…: batch S2: no provider available",
-  "S3 «شؤون القصر».. رسالة إنسانية كويتية تصون حقوق المشمولين برعايتها: batch S3: no provider available",
-  "S4 الكويت تؤكد موقفها الثابت والراسخ بحماية حقوق الطفل: batch S4: no provider available",
-  "S5 المرزوق يبحث مع غرفة التجارة الأميركية تعزيز العلاقات بين البلدين: batch S5: no provider available",
-  "S6 التحالف: اعتراض وتدمير 3 صواريخ باليستية أطلقتها الميليشيا الحوثية…: batch S6: no provider available",
-  "S7 الكويت تجدد التأكيد على أهمية إنشاء منطقة خالية من الأسلحة النووية…: batch S7: no provider available",
-  "S8 القيادة السياسية تهنئ سلطان عمان بذكرى اليوم الوطني: batch S8: no provider available",
-  "S9 «الداخلية»: إغلاقات مرورية موقتة على شارع الخليج غداً: batch S9: no provider available",
-  "S10 كي لاند (K-Land) تعود بموسمها الرابع!: batch S10: no provider available",
-  "S11 سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار: batch S11: no provider available",
-  "S12 التحالف ينفذ عملية نوعية لتحييد مصادر التهديد الحوثية: batch S12: no provider available",
+  "S3 سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار: batch S3: no provider available",
+  "S4 «شؤون القصر».. رسالة إنسانية كويتية تصون حقوق المشمولين برعايتها: batch S4: no provider available",
+  "S5 الكويت تؤكد موقفها الثابت والراسخ بحماية حقوق الطفل: batch S5: no provider available",
+  "S6 المرزوق يبحث مع غرفة التجارة الأميركية تعزيز العلاقات بين البلدين: batch S6: no provider available",
+  "S7 التحالف: اعتراض وتدمير 3 صواريخ باليستية أطلقتها الميليشيا الحوثية…: batch S7: no provider available",
+  "S8 الكويت تجدد التأكيد على أهمية إنشاء منطقة خالية من الأسلحة النووية…: batch S8: no provider available",
+  "S9 القيادة السياسية تهنئ سلطان عمان بذكرى اليوم الوطني: batch S9: no provider available",
+  "S10 «الداخلية»: إغلاقات مرورية موقتة على شارع الخليج غداً: batch S10: no provider available",
+  "S11 كي لاند (K-Land) تعود بموسمها الرابع!: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
+  "S12 التحالف ينفذ عملية نوعية لتحييد مصادر التهديد الحوثية: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
   "S13 أمير قطر والرئيس الألماني يبحثان تطورات الأوضاع بالمنطقة وتعزيز…: batch S13: no provider available",
   "S14 العراق يبدأ نشر قواته الأمنية في «جرف النصر» للمرة الأولى منذ 12 عاما: batch S14: no provider available",
-  "S15 «ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار: batch S15: no provider available",
-  "S16 «المركزي»: توقعات بنمو الناتج المحلي غير النفطي بنسبة 1.5% خلال عام…: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S17 «ثانوية الأصمعي» تبادر بتدريب معلّميها على الذكاء الاصطناعي: https://api.llm7.io/v1/chat/completions: HTTP Error 429: Too Many Requests",
-  "S18 سورية: ضبط شحنة أسلحة معدّة للتهريب إلى الأراضي اللبنانية: batch S18: no provider available",
-  "S19 رويترز: الأسهم الأميركية تواصل الخسائر وناسداك يتراجع 5.3%: batch S19: no provider available",
+  "S15 «الأرصاد»: طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة…: batch S15: no provider available",
+  "S16 «المركزي»: توقعات بنمو الناتج المحلي غير النفطي بنسبة 1.5% خلال عام…: batch S16: no provider available",
+  "S17 Czech parliament speaker stresses cooperation with Kuwait, backs it…: batch S17: no provider available",
+  "S18 Kuwait reiterates call for Middle East zone free of nuclear weapons: batch S18: no provider available",
+  "S19 سورية: ضبط شحنة أسلحة معدّة للتهريب إلى الأراضي اللبنانية: batch S19: no provider available",
   "S20 السودان: نؤيد كل ما تتخذه الكويت من إجراءات لحماية أمنها وصون سلامة…: batch S20: no provider available",
-  "S21 «إنفيديا» تتراجع إلى رابع أكبر شركة في العالم من حيث القيمة السوقية: batch S21: no provider available",
-  "S22 القائم بالأعمال بالإنابة في سفارتنا بمسقط: العلاقات الكويتية -…: batch S22: no provider available",
-  "S23 صاحب السمو يهنئ سلطان عُمان باليوم الوطني: علاقات تاريخية راسخة بين…: batch S23: no provider available",
-  "S24 رئيس مجلس النواب التشيكي: نجدد موقفنا الداعم للكويت إزاء الإعتداءات…: batch S24: no provider available",
-  "S25 «S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة: batch S25: no provider available",
   "synthesis: synthesis: the analysis budget ran out before the call was made"
  ],
  "stories": [
   {
-   "key": "f870caa032e80f15",
-   "score": 19.359,
+   "key": "bdcc062e5edb4ae7",
+   "score": 26.459,
    "sources": [
     "الأنباء",
     "الرأي",
-    "الجريدة"
+    "الجريدة",
+    "Kuwait Times"
    ],
-   "outlet_count": 3,
+   "outlet_count": 4,
    "articles": [
     {
      "source_id": "alanba",
@@ -219,7 +215,7 @@
      "url": "https://www.alraimedia.com/article/1786766/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D8%B3%D9%85%D9%88-%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%B9%D9%87%D8%AF-%D9%8A%D8%AD%D8%B6%D8%B1-%D8%AD%D9%81%D9%84-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D8%A7%D9%84%D8%AE%D9%85%D8%B3%D9%8A%D9%86-%D9%84%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%85%D8%A8%D8%B1%D8%A9-%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A7%D9%84%D8%B3%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%83-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD",
      "section": "latest",
      "summary": "بحضور سمو ولي العهد الشيخ صباح خالد الحمد الصباح، أقيم مساء يوم الأربعاء الماضي حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح، وذلك في مقر المبرة. وقد وصل سمو ولي العهد...",
-     "body": "بحضور سمو ولي العهد الشيخ صباح خالد الحمد الصباح، أقيم مساء يوم الأربعاء الماضي حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح، وذلك في مقر المبرة.\n\n«الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 4 ساعات أبوالحسن: مواصلة تعزيز العلاقات الأخوية مع سلطنة عمان وتكثيف التشاور إزاء مختلف القضايا منذ 4 ساعات\n\nكما شهد الحفل حضور رئيس مجلس الوزراء سمو الشيخ أحمد عبدالله الأحمد الصباح، وصاحب السمو الملكي الأمير تركي الفيصل بن عبدالعزيز آل سعود، ضيف شرف الحفل والمتحدث الرئيسي، مؤسس مؤسسة الملك فيصل وعضو مجلس أمنائها، ورئيس مركز الملك فيصل للبحوث والدراسات الإسلامية، ورئيس مجلس أمناء مركز أكسفورد للدراسات الإسلامية.\n\nاستهل الحفل بالنشيد الوطني، أعقبه عرض فيلم وثائقي استعرض مسيرة مبرة صباح السالم المبارك الصباح منذ تأسيسها.\n\nكما ألقت المديرة العامة للمبرة الشيخة مريم محمد صباح السالم الصباح كلمة ترحيبية بهذه المناسبة.\n\nتلتها الكلمة الرئيسية لصاحب السمو الملكي الأمير تركي الفيصل بن عبدالعزيز آل سعود. وجرى تكريم الأمير تركي الفيصل ضيف شرف الحفل.\n\nكما شهد الحفل تكريم الأعضاء المؤسسين للمبرة، وهم: المغفور له عبدالرحمن سالم العتيقي، والمغفور له جاسم حمد الصقر، وعبداللطيف يوسف الحمد، ولولوة عبدالوهاب القطامي، وفيصل سلطان العيسى، والدكتور عبدالمحسن العبد الرزاق، والمغفور له ناصر محمد الخرافي، والمغفور له سليمان حمود الزيد الخالد، والمغفور له الدكتور إبراهيم مكي والمغفور له فراج العدواني.",
+     "body": "",
      "published": "2026-11-20T14:55:00+03:00",
      "tier": 1
     },
@@ -234,27 +230,40 @@
      "body": "",
      "published": "2026-11-20T14:47:00+03:00",
      "tier": 1
+    },
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Crown Prince attends 50th anniversary of Sabah Al-Salem charity",
+     "url": "https://kuwaittimes.com/article/54041/kuwait/crown-prince-attends-50th-anniversary-of-sabah-al-salem-charity/",
+     "section": "kuwait",
+     "summary": "KUWAIT: His Highness the Crown Prince Sheikh Sabah Khaled Al-Hamad Al-Sabah attended a ceremony on Wednesday evening marking the 50th anniversary of the founding of the Sabah Al-Sa...",
+     "body": "KUWAIT: His Highness the Crown Prince Sheikh Sabah Khaled Al-Hamad Al-Sabah attended a ceremony on Wednesday evening marking the 50th anniversary of the founding of the Sabah Al-Salem Al-Mubarak Al-Sabah Charity, held at the charity’s headquarters. He was received on arrival by Sheikh Dr Mohammad Sabah Al-Salem Al-Sabah.\n\nThe ceremony was attended by His Highness the Prime Minister Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah and by Saudi Arabia’s Prince Turki Al-Faisal bin Abdulaziz Al Saud, the guest of honor and keynote speaker. Prince Turki is a founder and board member of the King Faisal Foundation, chairman of the King Faisal Center for Research and Islamic Studies and chairman of the board of trustees of the Oxford Centre for Islamic Studies.\n\nThe ceremony opened with the national anthem, followed by a documentary film on the charity’s work since its founding. The charity’s Director General Sheikha Mariam Mohammad Sabah Al-Salem Al-Sabah gave a welcome speech, followed by Prince Turki’s keynote address, after which he was honored.\n\nThe ceremony also honored the charity’s founding members: the late Abdulrahman Salem Al-Ateeqi, the late Jassem Hamad Al-Saqer, Abdullatif Yousef Al-Hamad, Lulwa Abdulwahab Al-Qatami, Faisal Sultan Al-Essa, Dr Abdulmohsen Al-Abdulrazzaq, the late Nasser Mohammad Al-Kharafi, the late Sulaiman Hamoud Al-Zaid Al-Khaled, the late Dr Ibrahim Makki and the late Faraj Al-Adwani. — KUNA\n\nKuwait reiterates call for Middle East zone free of nuclear weapons\n\nCapital Governorate security campaign results in 246 actions\n\nAntimicrobial resistance requires serious, joint action: Health minister",
+     "published": "2026-11-20T16:42:00+03:00",
+     "tier": 1
     }
    ],
    "category": "Government & Politics",
    "analysis": {
-    "headline_en": "",
-    "headline_ar": "سمو ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح",
+    "headline_en": "Crown Prince attends 50th anniversary of Sabah Al-Salem charity",
+    "headline_ar": "",
     "confidence": "low",
     "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
     "entities": [],
     "tags": [
      "official",
      "latest",
-     "local"
+     "local",
+     "kuwait"
     ],
     "_source": "extractive",
-    "summary_en": "بحضور سمو ولي العهد الشيخ صباح خالد الحمد الصباح، أقيم مساء يوم الأربعاء الماضي حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح، وذلك في مقر المبرة. «الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 4 ساعات أبوالحسن: مواصلة تعزيز العلاقات الأخوية مع سلطنة عمان وتكثيف التشاور إزاء مختلف القضايا منذ 4 ساعات كما شهد الحفل حضور رئيس مجلس الوزراء سمو الشيخ أحمد عبدالله الأحمد الصباح، وصاحب السمو…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الأنباء, الرأي, الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك; سمو ولي العهد يحضر حفل الذكرى الـ50 لتأسيس مبرة صباح السالم المبارك الصباح",
+    "summary_en": "KUWAIT: His Highness the Crown Prince Sheikh Sabah Khaled Al-Hamad Al-Sabah attended a ceremony on Wednesday evening marking the 50th anniversary of the founding of the Sabah Al-Salem Al-Mubarak Al-Sabah Charity, held at the charity’s headquarters. He was received on arrival by Sheikh Dr Mohammad Sabah Al-Salem Al-Sabah. The ceremony was attended by His Highness the Prime Minister Sheikh Ahmad Abdullah Al-Ahmad…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 4 outlet(s): الأنباء, الرأي, الجريدة, Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك; سمو ولي العهد يحضر حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح; سمو ولي العهد يحضر حفل الذكرى الـ50 لتأسيس مبرة صباح السالم المبارك الصباح",
     "watch_next_en": "",
-    "summary_ar": "بحضور سمو ولي العهد الشيخ صباح خالد الحمد الصباح، أقيم مساء يوم الأربعاء الماضي حفل الذكرى الخمسين لتأسيس مبرة صباح السالم المبارك الصباح، وذلك في مقر المبرة. «الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 4 ساعات أبوالحسن: مواصلة تعزيز العلاقات الأخوية مع سلطنة عمان وتكثيف التشاور إزاء مختلف القضايا منذ 4 ساعات كما شهد الحفل حضور رئيس مجلس الوزراء سمو الشيخ أحمد عبدالله الأحمد الصباح، وصاحب السمو…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الأنباء, الرأي, الجريدة.",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 4 وسيلة إعلامية: الأنباء, الرأي, الجريدة, Kuwait Times.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -301,7 +310,7 @@
      "url": "https://www.alraimedia.com/article/1786755/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D8%AD%D9%84%D9%8A%D8%A9/%D9%88%D8%B2%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D9%81%D9%88%D9%84%D8%A9-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D8%AA%D8%AA%D9%83%D8%A7%D9%85%D9%84-%D9%81%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D8%A7%D8%AA-%D9%88%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%AF%D8%AE%D9%84-%D8%A7%D9%84%D9%85%D8%A8%D9%83%D8%B1",
      "section": "latest",
      "summary": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان ال...",
-     "body": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان الطفل وصون كرامته وتهيئة الظروف الملائمة لنموه وتعلمه.\n\n«الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 36 دقيقة سمو ولي العهد يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة منذ ساعتين\n\nوأوضحت أن المنظومة التشريعية شهدت صدور المرسوم بقانون رقم (11) لسنة 2026 في شأن الحماية من العنف الأسري المنشور في الجريدة الرسمية بتاريخ 15 مارس الماضي والذي حل محل القانون رقم (16) لسنة 2020 ونظم إجراءات الإبلاغ والتدخل وأوامر الحماية.\n\nوبينت أن المادة (11) من المرسوم بقانون أوجبت الإبلاغ على كل من شهد أو علم بوجود حالة عنف أسري وقررت حماية قانونية لمقدم البلاغ مع الحفاظ على سرية هويته ما لم تقتض الإجراءات القضائية غير ذلك.\n\nوأضافت أن المادة (19) نصت على عقوبة للتخلف عن الإبلاغ عن وقائع العنف الأسري التي تقع على الأطفال أو فاقدي الأهلية أو ناقصيها تصل إلى الحبس مدة سنة وغرامة لا تجاوز 200 دينار أو إحدى هاتين العقوبتين بما يرسخ المسؤولية القانونية تجاه حماية من يتعرضون للأذى.\n\nوأشارت الحويلة إلى افتتاح مركز حماية الطفولة التابع لإدارة مراكز الحماية بالمجلس الأعلى لشؤون الأسرة أمس لتوفير الرعاية النفسية والاجتماعية والقانونية للأطفال وتعزيز أدوات الرصد والتدخل المبكر والتوعية المجتمعية.\n\nولفتت إلى أن المركز يضم كوادر وطنية متخصصة إذ يرتكز عمله على التنسيق مع الجهات الأمنية والقضائية والصحية والتعليمية والاجتماعية ومؤسسات المجتمع المدني لضمان تكامل الخدمات المقدمة للأطفال.\n\nوذكرت أن اعتماد اللائحة المنظمة لاستقبال بلاغات العنف ضد الطفل وإجراءات الإيواء والحماية جاء استنادا إلى قانون حقوق الطفل رقم (21) لسنة 2015 محددا آليات التعامل مع الحالات واختصاصات الجهات المعنية بدءا من الرصد والإبلاغ وصولا إلى التدخل والحماية.\n\nوأفادت بأن الرعاية المتكاملة تشمل توفير الأمان النفسي والعلاقات الأسرية الداعمة وفرص اللعب والتعلم، موضحة أن المعارف العلمية في مجال الطفولة المبكرة تثبت أهمية الرعاية المستجيبة لاحتياجات الطفل والبيئة الآمنة في نموه وبناء قدراته.\n\nوشددت على أهمية تمكين الوالدين ومقدمي الرعاية بالمعرفة والإرشاد والاستماع إلى الأطفال وفهم احتياجاتهم ومخاوفهم بما يتناسب مع أعمارهم ودرجة نضجهم مع حفظ خصوصيتهم وكرامتهم في جميع مراحل تقديم الخدمة.\n\nوأكدت الحويلة أن مصلحة الطفل يجب أن تكون أساس القرارات المتعلقة به وأن الأثر الحقيقي للجهود المبذولة يتجلى في حياته اليومية وشعوره بالأمان والثقة وقدرته على التعلم والمشاركة، مشددة على أن الطفولة مرحلة تتشكل فيها ملامح حياة الإنسان وأن صونها مسؤولية يمتد أثرها إلى الأجيال القادمة.",
+     "body": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان الطفل وصون كرامته وتهيئة الظروف الملائمة لنموه وتعلمه.\n\n«الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 41 دقيقة سمو ولي العهد يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة منذ ساعتين\n\nوأوضحت أن المنظومة التشريعية شهدت صدور المرسوم بقانون رقم (11) لسنة 2026 في شأن الحماية من العنف الأسري المنشور في الجريدة الرسمية بتاريخ 15 مارس الماضي والذي حل محل القانون رقم (16) لسنة 2020 ونظم إجراءات الإبلاغ والتدخل وأوامر الحماية.\n\nوبينت أن المادة (11) من المرسوم بقانون أوجبت الإبلاغ على كل من شهد أو علم بوجود حالة عنف أسري وقررت حماية قانونية لمقدم البلاغ مع الحفاظ على سرية هويته ما لم تقتض الإجراءات القضائية غير ذلك.\n\nوأضافت أن المادة (19) نصت على عقوبة للتخلف عن الإبلاغ عن وقائع العنف الأسري التي تقع على الأطفال أو فاقدي الأهلية أو ناقصيها تصل إلى الحبس مدة سنة وغرامة لا تجاوز 200 دينار أو إحدى هاتين العقوبتين بما يرسخ المسؤولية القانونية تجاه حماية من يتعرضون للأذى.\n\nوأشارت الحويلة إلى افتتاح مركز حماية الطفولة التابع لإدارة مراكز الحماية بالمجلس الأعلى لشؤون الأسرة أمس لتوفير الرعاية النفسية والاجتماعية والقانونية للأطفال وتعزيز أدوات الرصد والتدخل المبكر والتوعية المجتمعية.\n\nولفتت إلى أن المركز يضم كوادر وطنية متخصصة إذ يرتكز عمله على التنسيق مع الجهات الأمنية والقضائية والصحية والتعليمية والاجتماعية ومؤسسات المجتمع المدني لضمان تكامل الخدمات المقدمة للأطفال.\n\nوذكرت أن اعتماد اللائحة المنظمة لاستقبال بلاغات العنف ضد الطفل وإجراءات الإيواء والحماية جاء استنادا إلى قانون حقوق الطفل رقم (21) لسنة 2015 محددا آليات التعامل مع الحالات واختصاصات الجهات المعنية بدءا من الرصد والإبلاغ وصولا إلى التدخل والحماية.\n\nوأفادت بأن الرعاية المتكاملة تشمل توفير الأمان النفسي والعلاقات الأسرية الداعمة وفرص اللعب والتعلم، موضحة أن المعارف العلمية في مجال الطفولة المبكرة تثبت أهمية الرعاية المستجيبة لاحتياجات الطفل والبيئة الآمنة في نموه وبناء قدراته.\n\nوشددت على أهمية تمكين الوالدين ومقدمي الرعاية بالمعرفة والإرشاد والاستماع إلى الأطفال وفهم احتياجاتهم ومخاوفهم بما يتناسب مع أعمارهم ودرجة نضجهم مع حفظ خصوصيتهم وكرامتهم في جميع مراحل تقديم الخدمة.\n\nوأكدت الحويلة أن مصلحة الطفل يجب أن تكون أساس القرارات المتعلقة به وأن الأثر الحقيقي للجهود المبذولة يتجلى في حياته اليومية وشعوره بالأمان والثقة وقدرته على التعلم والمشاركة، مشددة على أن الطفولة مرحلة تتشكل فيها ملامح حياة الإنسان وأن صونها مسؤولية يمتد أثرها إلى الأجيال القادمة.",
      "published": "2026-11-20T11:12:00+03:00",
      "tier": 1
     }
@@ -319,12 +328,80 @@
      "latest"
     ],
     "_source": "extractive",
-    "summary_en": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان الطفل وصون كرامته وتهيئة الظروف الملائمة لنموه وتعلمه. «الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 36 دقيقة سمو ولي العهد يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة منذ ساعتين وأوضحت أن المنظومة التشريعية شهدت صدور…",
+    "summary_en": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان الطفل وصون كرامته وتهيئة الظروف الملائمة لنموه وتعلمه. «الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 41 دقيقة سمو ولي العهد يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة منذ ساعتين وأوضحت أن المنظومة التشريعية شهدت صدور…",
     "why_it_matters_en": "Analysed without an AI provider. This story was carried by 3 outlet(s): الجريدة, الأنباء, الرأي.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: وزيرة «الشؤون»: حماية الطفولة.. مسؤولية وطنية تقاس بأمان الطفل وصون كرامته; وزيرة الشؤون: حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية",
     "watch_next_en": "",
-    "summary_ar": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان الطفل وصون كرامته وتهيئة الظروف الملائمة لنموه وتعلمه. «الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 36 دقيقة سمو ولي العهد يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة منذ ساعتين وأوضحت أن المنظومة التشريعية شهدت صدور…",
+    "summary_ar": "أكدت وزيرة الشؤون الاجتماعية وشؤون الأسرة والطفولة الدكتورة أمثال الحويلة اليوم، أن حماية الطفولة مسؤولية وطنية تتكامل فيها التشريعات وخدمات الرعاية والتدخل المبكر بما يضمن أمان الطفل وصون كرامته وتهيئة الظروف الملائمة لنموه وتعلمه. «الخارجية»: حماية الطفولة ورعايتها إحدى أولويات دولة الكويت منذ 41 دقيقة سمو ولي العهد يهنئ سلطان عمان بذكرى اليوم الوطني للسلطنة منذ ساعتين وأوضحت أن المنظومة التشريعية شهدت صدور…",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 3 وسيلة إعلامية: الجريدة, الأنباء, الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "ff635f9a89d4e932",
+   "score": 13.644,
+   "sources": [
+    "الرأي",
+    "الجريدة"
+   ],
+   "outlet_count": 2,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سعر برميل النفط الكويتي ينخفض إلى 80.74 دولار",
+     "url": "https://www.alraimedia.com/article/1786791/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D9%86%D8%AE%D9%81%D8%B6-%D8%A5%D9%84%D9%89-8074-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+     "section": "latest",
+     "summary": "انخفض سعر برميل النفط الكويتي 1.14 دولار ليبلغ 80.74 دولار للبرميل في تداولات يوم أمس الجمعة مقابل 81.88 دولار في تداولات يوم أول من أمس الخميس وفقاً للسعر المعلن من مؤسسة البترول...",
+     "body": "",
+     "published": "2026-11-21T09:13:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار",
+     "url": "https://www.aljarida.com/article/151059",
+     "section": "economy",
+     "summary": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية.وفي الأسو...",
+     "body": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية.\n\nوفي الأسواق العالمية ارتفعت العقود الآجلة لخام برنت 3 سنتات لتبلغ 91.98 دولار للبرميل بينما انخفضت العقود الآجلة لخام غرب تكساس الوسيط الأميركي 5 سنتات لتبلغ 83.21 دولار.",
+     "published": "2026-11-20T14:03:00+03:00",
+     "tier": 1
+    },
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "سعر برميل النفط الكويتي يرتفع إلى 81.88 دولار",
+     "url": "https://www.alraimedia.com/article/1786758/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-8188-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+     "section": "economy",
+     "summary": "ارتفع سعر برميل النفط الكويتي 59 سنتا ليبلغ 81.88 دولار للبرميل في تداولات يوم أمس الخميس مقابل 81.29 دولار في تداولات يوم أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية. و...",
+     "body": "",
+     "published": "2026-11-20T12:07:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest",
+     "economy"
+    ],
+    "_source": "extractive",
+    "summary_en": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية ارتفعت العقود الآجلة لخام برنت 3 سنتات لتبلغ 91.98 دولار للبرميل بينما انخفضت العقود الآجلة لخام غرب تكساس الوسيط الأميركي 5 سنتات لتبلغ 83.21 دولار.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الرأي, الجريدة.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: سعر برميل النفط الكويتي ينخفض إلى 80.74 دولار; سعر برميل النفط الكويتي يرتفع إلى 81.88 دولار",
+    "watch_next_en": "",
+    "summary_ar": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية ارتفعت العقود الآجلة لخام برنت 3 سنتات لتبلغ 91.98 دولار للبرميل بينما انخفضت العقود الآجلة لخام غرب تكساس الوسيط الأميركي 5 سنتات لتبلغ 83.21 دولار.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -650,7 +727,7 @@
      "url": "https://www.aljarida.com/article/151054",
      "section": "local",
      "summary": "بعث حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح حفظه الله ورعاه ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق، سلطان عمان الشقيقة، عبر فيها سموه حفظه الله عن خالص تهان...",
-     "body": "بعث حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح حفظه الله ورعاه ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق، سلطان عمان الشقيقة، عبر فيها سموه حفظه الله عن خالص تهانيه بمناسبة ذكرى اليوم الوطني للسلطنة.\n\nمشيداً سموه بعمق الروابط الأخوية ورسوخ العلاقات التاريخية بين الكويت وسلطنة عمان وبما حققه البلد الشقيق من إنجازات حضارية بارزة في عهده الميمون.\n\nمتمنيا سموه للسلطان هيثم بن طارق موفور الصحة والعافية ولسلطنة عمان الشقيقة وشعبها الكريم دوام التقدم والازدهار في ظل القيادة الحكيمة لجلالته.\n\nبعث سمو الشيخ أحمد عبدالله الأحمد الصباح رئيس مجلس الوزراء ببرقية تهنئة إلى السلطان هيثم بن طارق، سلطان عمان الشقيقة، ضمنها سموه خالص تهانيه بمناسبة ذكرى اليوم الوطني للسلطنة.",
+     "body": "بعث حضرة صاحب السمو أمير البلاد الشيخ مشعل الأحمد الجابر الصباح حفظه الله ورعاه ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق، سلطان عمان الشقيقة، عبر فيها سموه حفظه الله عن خالص تهانيه بمناسبة ذكرى اليوم الوطني للسلطنة.\n\nمشيداً سموه بعمق الروابط الأخوية ورسوخ العلاقات التاريخية بين الكويت وسلطنة عمان وبما حققه البلد الشقيق من إنجازات حضارية بارزة في عهده الميمون.\n\nمتمنيا سموه للسلطان هيثم بن طارق موفور الصحة والعافية ولسطنة عمان الشقيقة وشعبها الكريم دوام التقدم والازدهار في ظل القيادة الحكيمة لجلالته.\n\nبعث سمو الشيخ أحمد عبدالله الأحمد الصباح رئيس مجلس الوزراء ببرقية تهنئة إلى السلطان هيثم بن طارق، سلطان عمان الشقيقة، ضمنها سموه خالص تهانيه بمناسبة ذكرى اليوم الوطني للسلطنة.",
      "published": "2026-11-20T12:19:00+03:00",
      "tier": 1
     },
@@ -730,7 +807,7 @@
      "url": "https://www.alraimedia.com/article/1786757/%D9%85%D8%AA%D9%81%D8%B1%D9%82%D8%A7%D8%AA/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A5%D8%BA%D9%84%D8%A7%D9%82%D8%A7%D8%AA-%D9%85%D8%B1%D9%88%D8%B1%D9%8A%D8%A9-%D9%85%D9%88%D9%82%D8%AA%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%BA%D8%AF%D8%A7",
      "section": "latest",
      "summary": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية. ودعت الإدا...",
-     "body": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية.\n\nقراءة في النفس والهوية في «ما لم يرد ذِكره من سيرة اضحية» مثايل الشمري منذ 23 ساعة جمعية الكاريكاتير تطالب الحويلة بإنصافها وتقدير دورها في مشروع مجلة «بيت مريم» منذ 23 ساعة",
+     "body": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية.\n\nقراءة في النفس والهوية في «ما لم يرد ذِكره من سيرة اضحية» مثايل الشمري منذ يوم جمعية الكاريكاتير تطالب الحويلة بإنصافها وتقدير دورها في مشروع مجلة «بيت مريم» منذ يوم",
      "published": "2026-11-20T12:20:00+03:00",
      "tier": 1
     }
@@ -747,11 +824,11 @@
      "latest"
     ],
     "_source": "extractive",
-    "summary_en": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية. قراءة في النفس والهوية في «ما لم يرد ذِكره من سيرة اضحية» مثايل الشمري منذ 23 ساعة جمعية الكاريكاتير تطالب الحويلة بإنصافها وتقدير دورها في مشروع مجلة «بيت مريم» منذ 23 ساعة",
+    "summary_en": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية. قراءة في النفس والهوية في «ما لم يرد ذِكره من سيرة اضحية» مثايل الشمري منذ يوم جمعية الكاريكاتير تطالب الحويلة بإنصافها وتقدير دورها في مشروع مجلة «بيت مريم» منذ يوم",
     "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الجريدة, الرأي.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: المرور: إغلاقات مرورية مؤقتة على شارع الخليج العربي.. غداً",
     "watch_next_en": "",
-    "summary_ar": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية. قراءة في النفس والهوية في «ما لم يرد ذِكره من سيرة اضحية» مثايل الشمري منذ 23 ساعة جمعية الكاريكاتير تطالب الحويلة بإنصافها وتقدير دورها في مشروع مجلة «بيت مريم» منذ 23 ساعة",
+    "summary_ar": "أعلنت الإدارة العامة للمرور عن إغلاقات مرورية موقتة على شارع الخليج العربي يوم غد السبت من الساعة الواحدة فجرا حتى الساعة الـ12 ظهرا تزامنا مع ماراثون الدراجات الهوائية. قراءة في النفس والهوية في «ما لم يرد ذِكره من سيرة اضحية» مثايل الشمري منذ يوم جمعية الكاريكاتير تطالب الحويلة بإنصافها وتقدير دورها في مشروع مجلة «بيت مريم» منذ يوم",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الجريدة, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -809,62 +886,6 @@
     "watch_next_en": "",
     "summary_ar": "ضمن شراكتها الإستراتيجية مع شركة المشروعات السياحية، تقدم «كي لاند» أجواءً استثنائية وفعاليات وتجارب ترفيهية تناسب جميع أفراد العائلة.",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الرأي, الأنباء.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "ff635f9a89d4e932",
-   "score": 11.059,
-   "sources": [
-    "الجريدة",
-    "الرأي"
-   ],
-   "outlet_count": 2,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار",
-     "url": "https://www.aljarida.com/article/151059",
-     "section": "economy",
-     "summary": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية.وفي الأسو...",
-     "body": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية.\n\nوفي الأسواق العالمية ارتفعت العقود الآجلة لخام برنت 3 سنتات لتبلغ 91.98 دولار للبرميل بينما انخفضت العقود الآجلة لخام غرب تكساس الوسيط الأميركي 5 سنتات لتبلغ 83.21 دولار.",
-     "published": "2026-11-20T14:03:00+03:00",
-     "tier": 1
-    },
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "سعر برميل النفط الكويتي يرتفع إلى 81.88 دولار",
-     "url": "https://www.alraimedia.com/article/1786758/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D9%86%D9%81%D8%B7/%D8%B3%D8%B9%D8%B1-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA%D9%8A-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-8188-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "latest",
-     "summary": "ارتفع سعر برميل النفط الكويتي 59 سنتا ليبلغ 81.88 دولار للبرميل في تداولات يوم أمس الخميس مقابل 81.29 دولار في تداولات يوم أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية. و...",
-     "body": "",
-     "published": "2026-11-20T12:07:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "سعر برميل النفط الكويتي يرتفع 59 سنتاً ليبلغ 81.88 دولار",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "economy",
-     "latest"
-    ],
-    "_source": "extractive",
-    "summary_en": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية ارتفعت العقود الآجلة لخام برنت 3 سنتات لتبلغ 91.98 دولار للبرميل بينما انخفضت العقود الآجلة لخام غرب تكساس الوسيط الأميركي 5 سنتات لتبلغ 83.21 دولار.",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 2 outlet(s): الجريدة, الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. Outlets carrying it: سعر برميل النفط الكويتي يرتفع إلى 81.88 دولار",
-    "watch_next_en": "",
-    "summary_ar": "ارتفع سعر برميل النفط الكويتي 59 سنتاً ليبلغ 81.88 دولار للبرميل في تداولات أمس الخميس مقابل 81.29 دولار في تداولات أول من أمس وفقا للسعر المعلن من مؤسسة البترول الكويتية. وفي الأسواق العالمية ارتفعت العقود الآجلة لخام برنت 3 سنتات لتبلغ 91.98 دولار للبرميل بينما انخفضت العقود الآجلة لخام غرب تكساس الوسيط الأميركي 5 سنتات لتبلغ 83.21 دولار.",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 2 وسيلة إعلامية: الجريدة, الرأي.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -942,7 +963,7 @@
      "url": "https://www.alraimedia.com/article/1786771/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A3%D9%85%D9%8A%D8%B1-%D9%82%D8%B7%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A-%D9%8A%D8%A8%D8%AD%D8%AB%D8%A7%D9%86-%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D8%A8%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D9%88%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D8%A7%D9%84%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9",
      "section": "latest",
      "summary": "بحث أمير قطر الشيخ تميم بن حمد آل ثاني والرئيس الألماني فرانك فالتر شتاينماير اليوم الجمعة تطورات الأوضاع في الشرق الأوسط وسبل تعزيز الشراكة الاستراتيجية والتعاون بين البلدين في ال...",
-     "body": "ناقشا تطوير التعاون في مجالات التجارة والصناعة والطاقة والاستثمار\n\nبحث أمير قطر الشيخ تميم بن حمد آل ثاني والرئيس الألماني فرانك فالتر شتاينماير اليوم الجمعة تطورات الأوضاع في الشرق الأوسط وسبل تعزيز الشراكة الاستراتيجية والتعاون بين البلدين في المجالات السياسية والاقتصادية والأمنية.\n\nجاء ذلك خلال زيارة دولة بدأها امير قطر إلى ألمانيا في وقت سابق اليوم وتستمر يومين.\n\n«مجلس وزراء الداخلية العرب» يدين بشدة استمرار الاعتداءات الحوثية على الأراضي السعودية منذ ساعة رئيس مجلس النواب التشيكي يؤكد أهمية تطوير مجالات التعاون المشتركة مع الكويت منذ 5 ساعات\n\nكما أكد الشيخ تميم حرصه على توسيع العلاقات القطرية - الالمانية انطلاقا من المصالح المشتركة والالتزام بالقانون الدولي وتسوية النزاعات بالطرق السلمية.\n\nمن جانبه أعرب الرئيس الالماني عن تضامن بلاده مع قطر في مواجهة الهجمات الإيرانية فيما تناولت المباحثات سبل إنهاء الصراع في المنطقة ورفع الحصار عن مضيق (هرمز) بالاضافة الى أهمية الحوار والجهود الدبلوماسية لتعزيز الأمن والاستقرار.\n\nوتناولت المباحثات سبل تطوير التعاون في مجالات التجارة والصناعة والطاقة والاستثمار إلى جانب تبادل وجهات النظر بشأن القضايا الإقليمية والدولية ذات الاهتمام المشترك.",
+     "body": "ناقشا تطوير التعاون في مجالات التجارة والصناعة والطاقة والاستثمار\n\nبحث أمير قطر الشيخ تميم بن حمد آل ثاني والرئيس الألماني فرانك فالتر شتاينماير اليوم الجمعة تطورات الأوضاع في الشرق الأوسط وسبل تعزيز الشراكة الاستراتيجية والتعاون بين البلدين في المجالات السياسية والاقتصادية والأمنية.\n\nجاء ذلك خلال زيارة دولة بدأها امير قطر إلى ألمانيا في وقت سابق اليوم وتستمر يومين.\n\n«مجلس وزراء الداخلية العرب» يدين بشدة استمرار الاعتداءات الحوثية على الأراضي السعودية منذ ساعة رئيس مجلس النواب التشيكي يؤكد أهمية تطوير مجالات التعاون المشتركة مع الكويت منذ 4 ساعات\n\nكما أكد الشيخ تميم حرصه على توسيع العلاقات القطرية - الالمانية انطلاقا من المصالح المشتركة والالتزام بالقانون الدولي وتسوية النزاعات بالطرق السلمية.\n\nمن جانبه أعرب الرئيس الالماني عن تضامن بلاده مع قطر في مواجهة الهجمات الإيرانية فيما تناولت المباحثات سبل إنهاء الصراع في المنطقة ورفع الحصار عن مضيق (هرمز) بالاضافة الى أهمية الحوار والجهود الدبلوماسية لتعزيز الأمن والاستقرار.\n\nوتناولت المباحثات سبل تطوير التعاون في مجالات التجارة والصناعة والطاقة والاستثمار إلى جانب تبادل وجهات النظر بشأن القضايا الإقليمية والدولية ذات الاهتمام المشترك.",
      "published": "2026-11-20T18:23:00+03:00",
      "tier": 1
     },
@@ -1038,43 +1059,43 @@
    }
   },
   {
-   "key": "a811fe4710687df8",
-   "score": 7.459,
+   "key": "bd6670ef634f3dd0",
+   "score": 8.0,
    "sources": [
-    "الرأي"
+    "الأنباء"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "alrai",
-     "source_name": "الرأي",
+     "source_id": "alanba",
+     "source_name": "الأنباء",
      "lang": "ar",
-     "title": "«ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار",
-     "url": "https://www.alraimedia.com/article/1786789/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D9%85%D9%8A%D8%AA%D8%A7-%D8%AA%D8%B9%D8%AA%D8%B2%D9%85-%D8%B7%D8%B1%D8%AD-%D8%AC%D9%87%D8%A7%D8%B2-muse-charm-%D9%85%D9%82%D8%A7%D8%A8%D9%84-300-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-     "section": "economy",
-     "summary": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات ا...",
-     "body": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات الجيل الخامس (5G) المجانية للمشترين عبر شركة فيرايزون، وفقًا لما أورده موقع «ذا إنفورميشن» يوم الخميس، نقلًا عن شخص مطلع على الأمر.\n\nباحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات منذ 10 ساعات يحمل اسم «Direct».. «ميتا» تختبر تطبيق مراسلة مستقلاً لـ«إنستغرام» منذ يومين\n\nويعكس جهاز «Muse Charm» مساعي «ميتا» الأوسع لتقليل اعتمادها على أنظمة تشغيل شركتي «أبل» و«غوغل»، وذلك من خلال بناء منصة ذكاء اصطناعي خاصة بها.\n\nويمكن للمستخدمين الوصول إلى «ميوز» مباشرة عبر النقر على الجهاز، مما يغنيهم عن استخدام تطبيقات الذكاء الاصطناعي الموجودة على هواتفهم الذكية.\n\nويضم الجهاز شاشة يبلغ حجمها نحو بوصتين (5 سم) يمكن التحكم فيها باستخدام الإبهام، وتتوسطها شخصية «ميوز» التي يمكن للمستخدم تخصيصها.\n\nكما يحتوي الجهاز على مودم مدمج لشبكات الجيل الخامس (5G)، مما يتيح الوصول إلى «ميوز» حتى في غياب شبكة الواي فاي، علمًا بأن الجهاز لا يدعم إجراء المكالمات الهاتفية.\n\nوقد اكتسب «ميوز» شعبية متزايدة بين المستخدمين، في الوقت الذي توسع فيه «ميتا» جهودها لجعل مساعدها الذكي خدمة استهلاكية واسعة الانتشار.\n\nويتيح هذا المساعد الذكي للمستخدمين تفويض مهام متنوعة له، مثل التسوق، وحجز الرحلات، وتعبئة النماذج.\n\nومن المتوقع أن تطلق «ميتا» جهاز «Muse Charm» تزامنًا مع موسم التسوق في فترة الأعياد خلال شهر ديسمبر، وذلك وفقًا لما ذكره زوكربيرغ خلال فعالية «كونكت» الخاصة بالشركة.",
-     "published": "2026-11-21T07:34:00+03:00",
+     "title": "«الأرصاد»: طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة .. و«العظمى»: 30",
+     "url": "https://www.alanba.com.kw/1385904",
+     "section": "kuwait",
+     "summary": "",
+     "body": "توقعت إدارة الأرصاد الجوية أن يسود طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 30 كم/ساعة و تظهر بعض السحب المتفرقة .\n\nأما ليلا فسيكون الطقس مائلا للبرودة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 28 كم/ساعة و تظهر بعض السحب المتفرقة .\n\nودرجة الحرارة العظمى المتوقعة 30 درجة مئوية أما الصغرى فتصل إلى 14 درجة مئوية.",
+     "published": "2026-11-21T06:31:48+00:00",
      "tier": 1
     }
    ],
-   "category": "Economy & Business",
+   "category": "Society & Services",
    "analysis": {
     "headline_en": "",
-    "headline_ar": "«ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار",
+    "headline_ar": "«الأرصاد»: طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة .. و«العظمى»: 30",
     "confidence": "low",
     "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
     "entities": [],
     "tags": [
-     "economy"
+     "kuwait"
     ],
     "_source": "extractive",
-    "summary_en": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات الجيل الخامس (5G) المجانية للمشترين عبر شركة فيرايزون، وفقًا لما أورده موقع «ذا إنفورميشن» يوم الخميس، نقلًا عن شخص مطلع على الأمر. باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات منذ 10 ساعات يحمل اسم «Direct».. «ميتا» تختبر تطبيق…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "summary_en": "توقعت إدارة الأرصاد الجوية أن يسود طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 30 كم/ساعة و تظهر بعض السحب المتفرقة . أما ليلا فسيكون الطقس مائلا للبرودة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 28 كم/ساعة و تظهر بعض السحب المتفرقة . ودرجة الحرارة العظمى المتوقعة 30 درجة مئوية أما الصغرى فتصل إلى 14 درجة مئوية.",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
     "watch_next_en": "",
-    "summary_ar": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات الجيل الخامس (5G) المجانية للمشترين عبر شركة فيرايزون، وفقًا لما أورده موقع «ذا إنفورميشن» يوم الخميس، نقلًا عن شخص مطلع على الأمر. باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات منذ 10 ساعات يحمل اسم «Direct».. «ميتا» تختبر تطبيق…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "summary_ar": "توقعت إدارة الأرصاد الجوية أن يسود طقس دافئ إلى مائل للحرارة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 30 كم/ساعة و تظهر بعض السحب المتفرقة . أما ليلا فسيكون الطقس مائلا للبرودة والرياح شمالية غربية إلى متقلبة الاتجاه خفيفة إلى معتدلة السرعة 08 - 28 كم/ساعة و تظهر بعض السحب المتفرقة . ودرجة الحرارة العظمى المتوقعة 30 درجة مئوية أما الصغرى فتصل إلى 14 درجة مئوية.",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1122,43 +1143,85 @@
    }
   },
   {
-   "key": "08f5713e7a6d4cd0",
-   "score": 6.655,
+   "key": "039825a4eaf92b66",
+   "score": 6.659,
    "sources": [
-    "الجريدة"
+    "Kuwait Times"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "«ثانوية الأصمعي» تبادر بتدريب معلّميها على الذكاء الاصطناعي",
-     "url": "https://www.aljarida.com/article/151063",
-     "section": "local",
-     "summary": "استجابةً لتوجّه وزارة التربية نحو تنمية مهارات المعلّمين في استخدام الذكاء الاصطناعي، وفي إطار تعاون الوزارة مع شركة «غوغل» في مجال التعليم، بادرت ثانوية الأصمعي للبنين...",
-     "body": "• في إطار التعاون بين وزارة التربية و«غوغل» • معلمو المدرسة حصلوا على شهادة «معلّم معتمد من جيميني»\n\nاستجابةً لتوجّه وزارة التربية نحو تنمية مهارات المعلّمين في استخدام الذكاء الاصطناعي، وفي إطار تعاون الوزارة مع شركة «غوغل» في مجال التعليم، بادرت ثانوية الأصمعي للبنين بمنطقة العاصمة التعليمية إلى تنظيم ورشة عمل بعنوان «أدوات جوجل للذكاء الاصطناعي». بتنظيم من فريق الابتكار في المدرسة، وقدّمها الموجّه الفني عبد الرحمن الجمعة بمشاركة معلّمين من مختلف التخصصات.\n\nوافتتح اللقاء قائد فريق الابتكار يعقوب العنزي، موضحا أن المدرسة تسعى من خلال هذه المبادرة إلى ربط التدريب باحتياجات المعلّم داخل الفصل، بدءًا من إعداد الدرس، واختيار الطريقة المناسبة لشرح فكرة يصعب على الطلبة فهمها، وصولًا إلى تصميم أنشطة تتيح لهم مشاركة أوسع في الحصة. وأعرب عن تطلّعه إلى أن يثمر اللقاء أفكارًا ومشاريع تعليمية يطوّرها المعلّمون في تخصصاتهم ويتبادلونها مع زملائهم.\n\nوفي المحور الرئيس للورشة، عرّف الجمعة المشاركين بأدوات «غوغل» للذكاء الاصطناعي وإمكانات توظيفها في التدريس.\n\nوعقب ذلك، قدّم هادي الحربي فقرة بعنوان «خطوتك نحو شهادة معلّم معتمد من جيميني»، عرّف خلالها زملاءه بمسار الحصول على الشهادة وكيفية استكمال متطلباتها. وفي الأيام التي تلت الورشة، واصل فريق الابتكار العمل مع رؤساء الأقسام لمتابعة تقدّم المعلّمين، وجمع الشهادات من كل قسم، والتواصل مع الزملاء الذين كانوا يستكملون متطلبات الحصول عليها. وبحلول نهاية الأسبوع الدراسي نفسه، حصل جميع معلّمي ثانوية الأصمعي للبنين على شهادة «معلّم معتمد من جيميني» من شركة «غوغل »، لتبلغ نسبة الإنجاز في المدرسة 100%.\n\nوشارك في التنظيم والمتابعة أعضاء فريق الابتكار، هادي الحربي، و محمود فتح الله، و شوقي الشايب، و سعود العنزي، بقيادة يعقوب العنزي وإشراف المدير المساعد د. فهد الظفيري. وأعرب العنزي عن تقديره لدعم مدير المدرسة ظاهر المحيسن، والمديرَين المساعدَين د. فهد فواز الظفيري و زيد عساف الظفيري، كما شكر عبد الرحمن الجمعة على مشاركته خبرته مع المعلّمين، مثمّنًا تعاون رؤساء الأقسام وحرص زملائهم على استكمال التدريب.\n\nوامتدادًا للورشة، دعا فريق الابتكار في ثانوية الأصمعي للبنين معلّمي المدرسة في مختلف التخصصات إلى المشاركة بمشاريع تعليمية من إعدادهم يوظّفون فيها أدوات «جوجل». وتهدف هذه الدعوة إلى تشجيع المعلّمين على تطبيق ما اكتسبوه خلال التدريب في إعداد دروسهم وتصميم أنشطة تناسب احتياجات طلبتهم، ومشاركة تجاربهم مع زملائهم في الأقسام الدراسية.",
-     "published": "2026-11-20T15:19:00+03:00",
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Czech parliament speaker stresses cooperation with Kuwait, backs it over Iranian attacks",
+     "url": "https://kuwaittimes.com/article/54042/kuwait/czech-parliament-speaker-stresses-cooperation-with-kuwait-backs-it-over-iranian-attacks/",
+     "section": "kuwait",
+     "summary": "PRAGUE: Speaker of the Czech Chamber of Deputies Tomio Okamura has stressed the importance of developing cooperation between the Czech Republic and Kuwait in line with the two frie...",
+     "body": "PRAGUE: Speaker of the Czech Chamber of Deputies Tomio Okamura has stressed the importance of developing cooperation between the Czech Republic and Kuwait in line with the two friendly countries’ ambitions. The Kuwaiti embassy in the Czech Republic said in a statement to the Kuwait News Agency (KUNA) on Friday that Okamura made the remarks during a meeting with Kuwait’s Ambassador to the Czech Republic Talal Al-Shatti.\n\nThe embassy said the two reviewed bilateral relations and ways to strengthen them in various fields, and exchanged views on several issues of mutual interest. They also discussed the latest regional and international developments, with Okamura reiterating his country’s support for and solidarity with Kuwait in the face of the Iranian attacks. — KUNA\n\nCrown Prince attends 50th anniversary of Sabah Al-Salem charity\n\nKuwait reiterates call for Middle East zone free of nuclear weapons\n\nCapital Governorate security campaign results in 246 actions",
+     "published": "2026-11-20T16:46:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Society & Services",
+   "category": "Government & Politics",
    "analysis": {
-    "headline_en": "",
-    "headline_ar": "«ثانوية الأصمعي» تبادر بتدريب معلّميها على الذكاء الاصطناعي",
+    "headline_en": "Czech parliament speaker stresses cooperation with Kuwait, backs it over Iranian attacks",
+    "headline_ar": "",
     "confidence": "low",
     "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
     "entities": [],
     "tags": [
-     "local"
+     "kuwait"
     ],
     "_source": "extractive",
-    "summary_en": "• في إطار التعاون بين وزارة التربية و«غوغل» • معلمو المدرسة حصلوا على شهادة «معلّم معتمد من جيميني» استجابةً لتوجّه وزارة التربية نحو تنمية مهارات المعلّمين في استخدام الذكاء الاصطناعي، وفي إطار تعاون الوزارة مع شركة «غوغل» في مجال التعليم، بادرت ثانوية الأصمعي للبنين بمنطقة العاصمة التعليمية إلى تنظيم ورشة عمل بعنوان «أدوات جوجل للذكاء الاصطناعي». بتنظيم من فريق الابتكار في المدرسة، وقدّمها الموجّه الفني عبد الرحمن…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الجريدة.",
+    "summary_en": "PRAGUE: Speaker of the Czech Chamber of Deputies Tomio Okamura has stressed the importance of developing cooperation between the Czech Republic and Kuwait in line with the two friendly countries’ ambitions. The Kuwaiti embassy in the Czech Republic said in a statement to the Kuwait News Agency (KUNA) on Friday that Okamura made the remarks during a meeting with Kuwait’s Ambassador to the Czech Republic Talal…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
     "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
     "watch_next_en": "",
-    "summary_ar": "• في إطار التعاون بين وزارة التربية و«غوغل» • معلمو المدرسة حصلوا على شهادة «معلّم معتمد من جيميني» استجابةً لتوجّه وزارة التربية نحو تنمية مهارات المعلّمين في استخدام الذكاء الاصطناعي، وفي إطار تعاون الوزارة مع شركة «غوغل» في مجال التعليم، بادرت ثانوية الأصمعي للبنين بمنطقة العاصمة التعليمية إلى تنظيم ورشة عمل بعنوان «أدوات جوجل للذكاء الاصطناعي». بتنظيم من فريق الابتكار في المدرسة، وقدّمها الموجّه الفني عبد الرحمن…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "ed948c6894dcb5af",
+   "score": 6.659,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Kuwait reiterates call for Middle East zone free of nuclear weapons",
+     "url": "https://kuwaittimes.com/article/54040/kuwait/kuwait-reiterates-call-for-middle-east-zone-free-of-nuclear-weapons/",
+     "section": "kuwait",
+     "summary": "VIENNA: Kuwait has reaffirmed the importance of establishing a zone free of nuclear weapons and other weapons of mass destruction in the Middle East. It stressed the need for Israe...",
+     "body": "VIENNA: Kuwait has reaffirmed the importance of establishing a zone free of nuclear weapons and other weapons of mass destruction in the Middle East. It stressed the need for Israel to join the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and place all its nuclear facilities under the International Atomic Energy Agency’s (IAEA) comprehensive safeguards system.\n\nSecond Secretary at Kuwait’s Permanent Mission to the United Nations in Vienna Dr Sara Al-Ajmi made the remarks in a speech to the IAEA Board of Governors. She said Kuwait supported the statements delivered by the Arab Group on the agenda item. She reaffirmed Kuwait’s commitment to a Middle East zone free of weapons of mass destruction in line with the 1995 NPT Review Conference resolution and the outcomes of the 2000 and 2010 review conferences.\n\nAl-Ajmi stressed the IAEA’s central role as the body responsible for applying comprehensive safeguards and verifying the peaceful nature of nuclear programs. She noted that all countries in the Middle East are party to the NPT and apply comprehensive safeguards agreements, except Israel, which she described as “the occupying power”. She said Israel continues to refuse to place all its nuclear facilities under IAEA safeguards and rejects initiatives to apply the system in the region or to take serious steps toward a zone free of weapons of mass destruction.\n\nShe cited Israel’s continued non-compliance with international resolutions, including UN Security Council Resolution 487, which called on Israel to place all its nuclear facilities under IAEA safeguards. She also referred to the 1995 NPT Review Conference resolution on the Middle East, which she said remains valid until its goals are achieved as part of the agreement that led to the treaty’s indefinite extension. She also cited IAEA General Conference resolution GC(53)/RES/17 of 2009 on “Israeli nuclear capabilities”.\n\nAl-Ajmi called on the international community to urge Israel to join the NPT, comply with its provisions and place all its nuclear facilities under IAEA safeguards. She also called for “Israeli nuclear capabilities” to remain on the agenda of the IAEA and its bodies until serious and effective steps are taken to address the issue. — KUNA\n\nCapital Governorate security campaign results in 246 actions\n\nAntimicrobial resistance requires serious, joint action: Health minister\n\nChild protection a national responsibility, says Al-Huwaila",
+     "published": "2026-11-20T16:36:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Kuwait reiterates call for Middle East zone free of nuclear weapons",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "VIENNA: Kuwait has reaffirmed the importance of establishing a zone free of nuclear weapons and other weapons of mass destruction in the Middle East. It stressed the need for Israel to join the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and place all its nuclear facilities under the International Atomic Energy Agency’s (IAEA) comprehensive safeguards system. Second Secretary at Kuwait’s Permanent…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
    }
@@ -1200,48 +1263,6 @@
     "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
     "watch_next_en": "",
     "summary_ar": "أفادت وكالة الأنباء السورية «سانا»، نقلاً عن مصدر في الاستخبارات قوله إنه تم ضبط شحنة أسلحة معدّة للتهريب إلى الأراضي اللبنانية.",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "da14d3f83da0fa9b",
-   "score": 6.616,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "رويترز: الأسهم الأميركية تواصل الخسائر وناسداك يتراجع 5.3%",
-     "url": "https://www.aljarida.com/article/151076",
-     "section": "economy",
-     "summary": "الأسهم الأمريكية تواصل الخسائر وناسداك يتراجع 5.3%",
-     "body": "الأسهم الأمريكية تواصل الخسائر وناسداك يتراجع 5.3%",
-     "published": "2026-11-20T23:52:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Economy & Business",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "رويترز: الأسهم الأميركية تواصل الخسائر وناسداك يتراجع 5.3%",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "economy"
-    ],
-    "_source": "extractive",
-    "summary_en": "الأسهم الأمريكية تواصل الخسائر وناسداك يتراجع 5.3%",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الجريدة.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "الأسهم الأمريكية تواصل الخسائر وناسداك يتراجع 5.3%",
     "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الجريدة.",
     "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
     "watch_next_ar": ""
@@ -1290,6 +1311,174 @@
    }
   },
   {
+   "key": "10c4100f51728374",
+   "score": 6.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "المشي أم الجري.. أيهما يحرق الدهون ويحمي قلبك؟",
+     "url": "https://www.alraimedia.com/article/1786790/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%A7%D9%84%D9%85%D8%B4%D9%8A-%D8%A3%D9%85-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A-%D8%A3%D9%8A%D9%87%D9%85%D8%A7-%D9%8A%D8%AD%D8%B1%D9%82-%D8%A7%D9%84%D8%AF%D9%87%D9%88%D9%86-%D9%88%D9%8A%D8%AD%D9%85%D9%8A-%D9%82%D9%84%D8%A8%D9%83",
+     "section": "latest",
+     "summary": "يُعد المشي والجري من أبرز أشكال التمارين الهوائية التي تساعد على إنقاص الوزن وتحسين صحة القلب، لكن أيهما أكثر فاعلية؟ الإجابة تعتمد على الهدف من ممارسة الرياضة، ومستوى اللياقة البد...",
+     "body": "يُعد المشي والجري من أبرز أشكال التمارين الهوائية التي تساعد على إنقاص الوزن وتحسين صحة القلب، لكن أيهما أكثر فاعلية؟ الإجابة تعتمد على الهدف من ممارسة الرياضة، ومستوى اللياقة البدنية، والحالة الصحية لكل شخص.\n\nورغم أن النشاطين يساعدان على حرق السعرات وتقليل مخاطر الإصابة بأمراض القلب، فإن لكل منهما مزايا ومخاطر مختلفة، وفقاً لتقرير نشره موقع «Medical News today».\n\nتعتمد التمارين الهوائية على تشغيل مجموعات عضلية كبيرة، وزيادة معدل ضربات القلب وسرعة التنفس. ويُصنف المشي والجري ضمن هذه الأنشطة التي تقدم فوائد صحية متعددة، أبرزها حرق الدهون والسعرات الحرارية، وخفض الكوليسترول، والمساعدة في الوقاية من ارتفاع ضغط الدم والسكري وأمراض القلب.\n\nكما تسهم هذه التمارين في تقوية عضلة القلب، وتحسين النوم، وتقليل التوتر، وزيادة القدرة على التحمل وكثافة العظام، فضلاً عن دعم الجهاز المناعي والصحة النفسية.\n\nوأظهرت إحدى الدراسات أن ممارسة نشاط متوسط الشدة لمدة 30 دقيقة، مثل المشي السريع، كانت كافية للمساعدة في تخفيف أعراض القلق والاكتئاب، إلى جانب الفوائد الصحية الأخرى.\n\nالجري يحرق سعرات أكثر من المشي\n\nعند المقارنة بين النشاطين من حيث حرق السعرات الحرارية، يتفوق الجري على المشي عند احتساب عدد السعرات المحروقة في الدقيقة الواحدة.\n\nفبحسب المجلس الأميركي للتمارين الرياضية، يحرق شخص يزن نحو 73 كيلوغراماً ما يقارب 15.1 سعرة حرارية في الدقيقة أثناء الجري، مقابل نحو 8.7 سعرة حرارية عند المشي.\n\nلكن إجمالي السعرات المحروقة يتأثر بعدة عوامل، منها وزن الجسم ومدة التمرين وشدته. ولذلك يستطيع الشخص الذي يمشي لفترة أطول حرق كمية من السعرات تضاهي ما يحرقه شخص يجري لفترة أقصر.\n\nيساعد المشي والجري على تحسين صحة القلب وتقليل مخاطر الإصابة بأمراض مزمنة.\n\nوخلصت دراسة نُشرت في دورية «Arteriosclerosis, Thrombosis, and Vascular Biology» إلى أن النشاطين يرتبطان بانخفاض مخاطر ارتفاع ضغط الدم والكوليسترول ومرض الشريان التاجي والسكري.\n\nكما تشير جمعية القلب الأميركية إلى أن المشي السريع لمدة لا تقل عن 150 دقيقة أسبوعياً يرتبط بانخفاض خطر الإصابة بأمراض القلب والسكري وارتفاع ضغط الدم والكوليسترول.\n\nهل الجري أكثر فاعلية في حرق دهون البطن؟\n\nيرتبط تراكم الدهون في منطقة البطن بزيادة مخاطر الإصابة بأمراض القلب والسكري من النوع الثاني. ويمكن لكل من المشي والجري المساعدة في تقليل هذه الدهون، لكن بعض الدراسات تشير إلى أن التمارين عالية الشدة، مثل الجري، قد تكون أكثر فاعلية في بعض الحالات.\n\nوفي دراسة شملت 27 امرأة في منتصف العمر يعانين السمنة، فقدت المشاركات اللاتي مارسن تمارين عالية الشدة كميات أكبر من دهون البطن مقارنة بمن مارسن تمارين منخفضة الشدة أو لم يمارسن الرياضة، خلال 16 أسبوعاً.\n\nومع ذلك، لا تزال النتائج غير حاسمة؛ إذ وجدت مراجعة علمية نُشرت عام 2018 أن التمارين منخفضة الشدة كانت أكثر فاعلية في تقليل دهون البطن، بينما ساعدت التمارين عالية الشدة بدرجة أكبر على خفض إجمالي دهون الجسم.\n\nرغم فوائد الجري، فإنه يضع ضغطاً أكبر على الجسم والمفاصل بسبب شدته المرتفعة، ما يزيد احتمالات التعرض للإصابات مقارنة بالمشي.\n\nوتشمل إصابات الجري الشائعة الكسور وإصابات الأنسجة الرخوة وآلام قصبة الساق. لذلك، قد يكون المشي خياراً أكثر ملاءمة للأشخاص الذين يخشون الإصابات أو يعانون مشكلات في المفاصل.\n\nأما المصابون بالتهاب المفاصل أو أمراض القلب أو الحالات المزمنة الأخرى، فعليهم استشارة الطبيب قبل البدء في ممارسة الجري.\n\nكيف تختار النشاط الأنسب لك؟\n\nيعتمد الاختيار بين المشي والجري على أهدافك ومستوى لياقتك. فالمشي خيار مناسب للمبتدئين، ويوفر فوائد صحية مهمة مع شدة أقل ومخاطر إصابة محدودة.\n\nأما الجري، فقد يكون أكثر ملاءمة لمن يرغبون في حرق سعرات حرارية أكبر خلال وقت أقصر، بشرط أن تسمح حالتهم الصحية ومستوى لياقتهم بذلك.\n\nوفي النهاية، يظل الانتظام في ممارسة النشاط البدني أهم من اختيار نوع واحد بعينه، فكلاهما يمكن أن يساعد على الحفاظ على وزن صحي وتحسين صحة القلب والجسم.",
+     "published": "2026-11-21T08:39:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "المشي أم الجري.. أيهما يحرق الدهون ويحمي قلبك؟",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest"
+    ],
+    "_source": "extractive",
+    "summary_en": "يُعد المشي والجري من أبرز أشكال التمارين الهوائية التي تساعد على إنقاص الوزن وتحسين صحة القلب، لكن أيهما أكثر فاعلية؟ الإجابة تعتمد على الهدف من ممارسة الرياضة، ومستوى اللياقة البدنية، والحالة الصحية لكل شخص. ورغم أن النشاطين يساعدان على حرق السعرات وتقليل مخاطر الإصابة بأمراض القلب، فإن لكل منهما مزايا ومخاطر مختلفة، وفقاً لتقرير نشره موقع «Medical News today».",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "يُعد المشي والجري من أبرز أشكال التمارين الهوائية التي تساعد على إنقاص الوزن وتحسين صحة القلب، لكن أيهما أكثر فاعلية؟ الإجابة تعتمد على الهدف من ممارسة الرياضة، ومستوى اللياقة البدنية، والحالة الصحية لكل شخص. ورغم أن النشاطين يساعدان على حرق السعرات وتقليل مخاطر الإصابة بأمراض القلب، فإن لكل منهما مزايا ومخاطر مختلفة، وفقاً لتقرير نشره موقع «Medical News today».",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "a811fe4710687df8",
+   "score": 6.559,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار",
+     "url": "https://www.alraimedia.com/article/1786789/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D9%85%D9%8A%D8%AA%D8%A7-%D8%AA%D8%B9%D8%AA%D8%B2%D9%85-%D8%B7%D8%B1%D8%AD-%D8%AC%D9%87%D8%A7%D8%B2-muse-charm-%D9%85%D9%82%D8%A7%D8%A8%D9%84-300-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+     "section": "latest",
+     "summary": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات ا...",
+     "body": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات الجيل الخامس (5G) المجانية للمشترين عبر شركة فيرايزون، وفقًا لما أورده موقع «ذا إنفورميشن» يوم الخميس، نقلًا عن شخص مطلع على الأمر.\n\nباحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات منذ 10 ساعات يحمل اسم «Direct».. «ميتا» تختبر تطبيق مراسلة مستقلاً لـ«إنستغرام» منذ يومين\n\nويعكس جهاز «Muse Charm» مساعي «ميتا» الأوسع لتقليل اعتمادها على أنظمة تشغيل شركتي «أبل» و«غوغل»، وذلك من خلال بناء منصة ذكاء اصطناعي خاصة بها.\n\nويمكن للمستخدمين الوصول إلى «ميوز» مباشرة عبر النقر على الجهاز، مما يغنيهم عن استخدام تطبيقات الذكاء الاصطناعي الموجودة على هواتفهم الذكية.\n\nويضم الجهاز شاشة يبلغ حجمها نحو بوصتين (5 سم) يمكن التحكم فيها باستخدام الإبهام، وتتوسطها شخصية «ميوز» التي يمكن للمستخدم تخصيصها.\n\nكما يحتوي الجهاز على مودم مدمج لشبكات الجيل الخامس (5G)، مما يتيح الوصول إلى «ميوز» حتى في غياب شبكة الواي فاي، علمًا بأن الجهاز لا يدعم إجراء المكالمات الهاتفية.\n\nوقد اكتسب «ميوز» شعبية متزايدة بين المستخدمين، في الوقت الذي توسع فيه «ميتا» جهودها لجعل مساعدها الذكي خدمة استهلاكية واسعة الانتشار.\n\nويتيح هذا المساعد الذكي للمستخدمين تفويض مهام متنوعة له، مثل التسوق، وحجز الرحلات، وتعبئة النماذج.\n\nومن المتوقع أن تطلق «ميتا» جهاز «Muse Charm» تزامنًا مع موسم التسوق في فترة الأعياد خلال شهر ديسمبر، وذلك وفقًا لما ذكره زوكربيرغ خلال فعالية «كونكت» الخاصة بالشركة.",
+     "published": "2026-11-21T07:34:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«ميتا» تعتزم طرح جهاز «Muse Charm» مقابل 300 دولار",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "latest"
+    ],
+    "_source": "extractive",
+    "summary_en": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات الجيل الخامس (5G) المجانية للمشترين عبر شركة فيرايزون، وفقًا لما أورده موقع «ذا إنفورميشن» يوم الخميس، نقلًا عن شخص مطلع على الأمر. باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات منذ 10 ساعات يحمل اسم «Direct».. «ميتا» تختبر تطبيق…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "تخطط شركة ميتا بلاتفورمز لطرح جهازها المعتمد على الذكاء الاصطناعي، والذي يحمل اسم «Muse Charm» ويأتي بحجم صغير يناسب الجيب، بسعر 300 دولار، مع تقديم ما يصل إلى 12 شهرًا من بيانات الجيل الخامس (5G) المجانية للمشترين عبر شركة فيرايزون، وفقًا لما أورده موقع «ذا إنفورميشن» يوم الخميس، نقلًا عن شخص مطلع على الأمر. باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات منذ 10 ساعات يحمل اسم «Direct».. «ميتا» تختبر تطبيق…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "795b7118af52f540",
+   "score": 6.059,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "«S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة",
+     "url": "https://www.alraimedia.com/article/1786781/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/sp-%D8%AA%D8%AB%D8%A8%D8%AA-%D8%A7%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86%D9%8A-%D9%84%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D8%B9-%D9%86%D8%B8%D8%B1%D8%A9-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D9%82%D8%B1%D8%A9",
+     "section": "economy",
+     "summary": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة.وقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتمان...",
+     "body": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة.\n\nوقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتماني السيادي ومدير إدارة الدين العام في وزارة المالية فيصل المزيني في بيان صحفي اليوم الجمعة إن هذا التثبيت يعكس متانة المركز المالي للدولة وقوة مقوماتها الائتمانية وما تتمتع به من أصول سيادية واحتياطيات مالية كبيرة تشكل مجتمعة مصدات أمان تعزز قدرتها على مواجهة الصدمات الاقتصادية والمحافظة على استقرارها المالي.\n\nوبين المزيني أن تقرير الوكالة تضمن توقعات إيجابية بشأن آفاق النشاط الاقتصادي في دولة الكويت حيث رجحت الوكالة نمو الناتج المحلي الإجمالي الحقيقي بنحو 13 في المئة خلال عام 2027 وبمتوسط يقارب 8 في المئة سنويا خلال الفترة من 2027 إلى 2029 مدفوعا بالتعافي المتوقع في الإنتاج النفطي إلى جانب تنفيذ عدد من المشروعات الاستثمارية والتنموية في القطاعات غير النفطية.\n\nوأشار إلى أن التقرير سلط الضوء على أهمية الاستمرار في مواصلة الإصلاحات الاقتصادية والمالية الجارية ودورها المتوقع في تعزيز الإيرادات غير النفطية ودعم النشاط الاقتصادي بما يسهم في ترسيخ الاستدامة المالية وتعزيز آفاق النمو خلال السنوات المقبلة.\n\nوأكد المزيني أن الوكالة اعتبرت صدور المرسوم بقانون بشأن الصكوك الحكومية خطوة إيجابية نحو تطوير منظومة التمويل السيادي وتوسيع نطاق أدوات التمويل المتاحة للدولة بما يعزز مرونة إدارة الاحتياجات التمويلية ويدعم تطوير أسواق رأس المال المحلية.\n\nوأضاف أن تطوير الإطار التشريعي لأدوات الدين العام يتيح تنويع مصادر التمويل من خلال الأدوات التقليدية والإسلامية ويوسع قاعدة المستثمرين ويعزز فرص الوصول إلى أسواق الدين المحلية والعالمية بما يدعم كفاءة إدارة الدين العام وفقا للاحتياجات التمويلية للدولة.وأوضح أن إقرار المرسوم بقانون بشأن التمويل العقاري لمستحقي الرعاية السكنية يمثل خطوة مهمة في تطوير منظومة التمويل الإسكاني في دولة الكويت إذ يوسع الخيارات التمويلية المتاحة للمواطنين المستحقين ويعزز مشاركة القطاع المصرفي والمالي في نطاق الإسكان.\n\nيذكر أن وكالة ستاندرد آند بورز (S&P Global Ratings) تعد إحدى أبرز وكالات التصنيف الائتماني العالمية وتشكل تصنيفاتها مرجعا مهما للمستثمرين والمؤسسات المالية في تقييم الجدارة الائتمانية للدول ومدى قدرتها على الوفاء بالتزاماتها المالية.\n\nوأكد التقرير أنّ التسهيلات الائتمانية قد سجلت مستويات نمو قوية خلال عام 2026، مدعومة بالاستثمارات الحكومية واستمرار تحقيق نمو إيجابي في الأنشطة غير النفطية.\n\nولفت التقرير الذي نشر «المركزي» أبرز مضامينه إلى جودة الأصول المصرفية لا تزال مستقرة بوجه عام، حيث بلغت نسبة القروض غير المنتظمة نحو 1.5% كما في منتصف عام 2026.\n\nكما أكد التقرير أن إجراءات التخفيف الأخيرة التي اتخذها بنك الكويت المركزي ستظل تساعد البنوك على تجاوز الاضطرابات الحالية.\n\nوأوضحت الوكالة أن متانة صافي الأصول الخارجية والمالية للكويت تواصل دعم تصنيفاتها السيادية، رغم الصراع الإقليمي، مشيرةً إلى أن الدولة كدست أصولاً ضخمة ضمن صندوقها السيادي، مقدّرة أن تتجاوز الأصول السائلة للهيئة العامة للاستثمار 600% من الناتج المحلي الإجمالي في عام 2026، وهي أعلى نسبة بين جميع الدول السيادية التي تصنفها الوكالة.\n\nوأضافت أن إجمالي احتياطيات النقد الأجنبي لدى بنك الكويت المركزي بلغ 31 مليار دولار حتى نهاية سبتمبر 2026، بما يعزز قدرة الدولة على مواجهة السيناريوهات المعاكسة ويوفر لها هامشاً واسعاً للتحرك على صعيد السياسات الاقتصادية والمالية.",
+     "published": "2026-11-21T00:13:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "«S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "economy"
+    ],
+    "_source": "extractive",
+    "summary_en": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة. وقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتماني السيادي ومدير إدارة الدين العام في وزارة المالية فيصل المزيني في بيان صحفي اليوم الجمعة إن هذا التثبيت يعكس متانة المركز المالي للدولة وقوة مقوماتها الائتمانية وما تتمتع به من أصول سيادية واحتياطيات مالية كبيرة تشكل مجتمعة مصدات أمان…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة. وقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتماني السيادي ومدير إدارة الدين العام في وزارة المالية فيصل المزيني في بيان صحفي اليوم الجمعة إن هذا التثبيت يعكس متانة المركز المالي للدولة وقوة مقوماتها الائتمانية وما تتمتع به من أصول سيادية واحتياطيات مالية كبيرة تشكل مجتمعة مصدات أمان…",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "24fbf9ec5a8641fe",
+   "score": 6.059,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات",
+     "url": "https://www.alraimedia.com/article/1786779/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A8%D8%A7%D8%AD%D8%AB-%D9%81%D9%8A-%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83-%D9%83%D9%84%D9%88%D8%AF-%D8%AD%D9%84-%D8%A3%D8%B9%D9%82%D8%AF-%D8%A3%D9%84%D8%BA%D8%A7%D8%B2-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA",
+     "section": "economy",
+     "summary": "قال عالِم رياضيات في شركة «أنثروبيك» إنه استخدم برنامج «كلود» الذي ابتكرته الشركة المتخصصة بالذكاء الاصطناعي، لإثبات فرضية ريمان، وهي مسألة رياضية حيّرت علماء الرياضيات لأكثر من 16...",
+     "body": "قال عالِم رياضيات في شركة «أنثروبيك» إنه استخدم برنامج «كلود» الذي ابتكرته الشركة المتخصصة بالذكاء الاصطناعي، لإثبات فرضية ريمان، وهي مسألة رياضية حيّرت علماء الرياضيات لأكثر من 160 عاما.\n\nوكتب ليفنت ألبوج في مذكرة من أربع صفحات نشرها الجمعة «أعتقد أنني تمكّنت، بمساعدة كلود، من اكتشاف برهان لفرضية ريمان».\n\nيحمل اسم «Direct».. «ميتا» تختبر تطبيق مراسلة مستقلاً لـ«إنستغرام» منذ يوم «إنفيديا» تستبعد إعادة هوانغ إلى منصب الرئيس التنفيذي منذ يومين\n\nوأوضح أنه توصّل بمساعدة «كلود» إلى صيغة من البرهان باستخدام لغة البرمجة «لين» (Lean)، التي تتيح التحقق من الحجج والبراهين الرياضية بواسطة جهاز كمبيوتر.\n\nوتعود فرضية ريمان إلى العام 1859 حين طرحها للمرة الأولى عالم الرياضيات الألماني برنارد ريمان، وتُعد أهم مسألة رياضية لا تزال من دون حل في مجال الرياضيات النظرية.",
+     "published": "2026-11-20T21:35:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {
+    "headline_en": "",
+    "headline_ar": "باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "economy"
+    ],
+    "_source": "extractive",
+    "summary_en": "قال عالِم رياضيات في شركة «أنثروبيك» إنه استخدم برنامج «كلود» الذي ابتكرته الشركة المتخصصة بالذكاء الاصطناعي، لإثبات فرضية ريمان، وهي مسألة رياضية حيّرت علماء الرياضيات لأكثر من 160 عاما. وكتب ليفنت ألبوج في مذكرة من أربع صفحات نشرها الجمعة «أعتقد أنني تمكّنت، بمساعدة كلود، من اكتشاف برهان لفرضية ريمان». يحمل اسم «Direct»..",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "قال عالِم رياضيات في شركة «أنثروبيك» إنه استخدم برنامج «كلود» الذي ابتكرته الشركة المتخصصة بالذكاء الاصطناعي، لإثبات فرضية ريمان، وهي مسألة رياضية حيّرت علماء الرياضيات لأكثر من 160 عاما. وكتب ليفنت ألبوج في مذكرة من أربع صفحات نشرها الجمعة «أعتقد أنني تمكّنت، بمساعدة كلود، من اكتشاف برهان لفرضية ريمان». يحمل اسم «Direct»..",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
    "key": "e4a19770da70f4e5",
    "score": 6.059,
    "sources": [
@@ -1332,6 +1521,228 @@
    }
   },
   {
+   "key": "29bcf5c6c70609a6",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Capital Governorate security campaign results in 246 actions",
+     "url": "https://kuwaittimes.com/article/54039/kuwait/capital-governorate-security-campaign-results-in-246-actions/",
+     "section": "kuwait",
+     "summary": "KUWAIT: The Ministry of Interior carried out an extensive security campaign in the Capital Governorate, in cooperation with Kuwait Fire Force and Kuwait Municipality, that resulted...",
+     "body": "KUWAIT: The Ministry of Interior carried out an extensive security campaign in the Capital Governorate, in cooperation with Kuwait Fire Force and Kuwait Municipality, that resulted in 246 actions. The ministry said the campaign was supervised and attended by Capital Governorate Security Director General Brigadier Mohammad Rajab and his assistant Brigadier Saad Al-Omair. It was part of ongoing efforts to strengthen the security presence, catch wanted people and violators and enforce the law on shops and markets in violation.\n\nThe campaign led to the arrest of 58 violators of the residency and labor law, 45 people wanted over absconding reports or expired residency, seven people in possession of narcotics and seven wanted on arrest warrants. Six people wanted in civil financial cases and six wanted in criminal cases were also arrested. Traffic citations were issued, 18 vehicles wanted for judicial impoundment were seized, five motorcycles were impounded, five people were referred to traffic detention and two illegal freelance workers were arrested. Kuwait Fire Force closed 28 shops and issued 27 closure warnings, while Kuwait Municipality removed 31 abandoned vehicles.\n\nIn a separate statement on Thursday, the ministry said the Criminal Security Sector had arrested four suspects in three separate cases for possessing narcotics and psychotropic substances for trafficking and personal use. The seizures included about 7 grams of shabu (crystal methamphetamine), 31 sheets soaked in the synthetic drug known as “chemical”, e-cigarettes containing “chemical” liquid and a precision scale. The suspects and seized items were referred to the relevant authorities.\n\nThe ministry also urged citizens and residents not to ride quad bikes or off-road motorbikes on highways, paved roads, in residential areas or on sidewalks. It said violating vehicles will be seized and crushed, and riders could face imprisonment under Article 33 bis of the Traffic Law. It called on the public to report violations via the General Traffic Department’s WhatsApp number, 99324092. — KUNA\n\nAntimicrobial resistance requires serious, joint action: Health minister\n\nChild protection a national responsibility, says Al-Huwaila",
+     "published": "2026-11-20T10:27:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Capital Governorate security campaign results in 246 actions",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "KUWAIT: The Ministry of Interior carried out an extensive security campaign in the Capital Governorate, in cooperation with Kuwait Fire Force and Kuwait Municipality, that resulted in 246 actions. The ministry said the campaign was supervised and attended by Capital Governorate Security Director General Brigadier Mohammad Rajab and his assistant Brigadier Saad Al-Omair. It was part of ongoing efforts to strengthen…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "c393e6d7b1a093fa",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Antimicrobial resistance requires serious, joint action: Health minister",
+     "url": "https://kuwaittimes.com/article/54036/kuwait/antimicrobial-resistance-requires-serious-joint-action-health-minister/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Minister of Health Dr Ahmad Al-Awadhi said on Thursday that antimicrobial resistance is a health challenge requiring serious, sustained action and professional and institut...",
+     "body": "KUWAIT: Minister of Health Dr Ahmad Al-Awadhi said on Thursday that antimicrobial resistance is a health challenge requiring serious, sustained action and professional and institutional cooperation, as tackling it goes beyond any single specialty. He was speaking at the opening of a conference on raising awareness of the rational use of antimicrobials, organized by Al-Salam Hospitals and attended by health leaders and experts from Kuwait and abroad.\n\nAl-Awadhi said antimicrobial resistance threatens the effectiveness of treatments for infections and could affect complex medical procedures such as surgery, organ transplants, cancer treatment and critical care. He cited World Health Organization (WHO) estimates linking bacterial resistance to around 5 million deaths in 2019, and the UN General Assembly’s 2024 political declaration, which set a target of cutting related deaths by 10 percent by 2030 compared with 2019.\n\nHe said infection prevention is an integral part of the rational use of antimicrobials, through infection control, hand hygiene, vaccination and better care practices that limit the spread of infection and reduce the need for antimicrobials. He called on all health institutions to cooperate under the “One Health” approach, which links human health with the environment, saying integration across research, education, training and knowledge-sharing improves the quality of care and patient safety.\n\nThe minister also noted that Al-Salam Hospitals began as a maternity hospital in 1964 and became a general hospital in 1992. He praised its quality and patient safety record, including its third consecutive Accreditation Canada Diamond-level accreditation and three ISO certifications.\n\nAl-Salam Hospitals Chairman Fawaz Al-Enezi said the rational use of antibiotics was “one of the most prominent challenges and core themes in the future of healthcare”. He said public health was a shared responsibility of the government and private sectors and thanked Kuwait Finance House (KFH), the initiative’s main sponsor.\n\nConference Chair Dr Wadha Al-Fouzan said antimicrobial resistance had become one of the most serious health challenges facing the world, posing a direct threat to the effectiveness of treatments, patient safety and health systems’ ability to tackle infectious diseases. She said Kuwait had taken important steps to combat antimicrobial resistance and strengthen programs for the rational use of antimicrobials in line with WHO recommendations. — KUNA\n\nChild protection a national responsibility, says Al-Huwaila\n\nWarm to rather hot day, rather cold night forecast",
+     "published": "2026-11-20T09:41:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {
+    "headline_en": "Antimicrobial resistance requires serious, joint action: Health minister",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "KUWAIT: Minister of Health Dr Ahmad Al-Awadhi said on Thursday that antimicrobial resistance is a health challenge requiring serious, sustained action and professional and institutional cooperation, as tackling it goes beyond any single specialty. He was speaking at the opening of a conference on raising awareness of the rational use of antimicrobials, organized by Al-Salam Hospitals and attended by health leaders…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "83b406698c925f98",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Child protection a national responsibility, says Al-Huwaila",
+     "url": "https://kuwaittimes.com/article/54034/kuwait/child-protection-a-national-responsibility-says-al-huwaila/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Minister of Social Affairs and Family and Childhood Affairs Dr Amthal Al-Huwaila said on Friday that child protection is a national responsibility that combines legislation...",
+     "body": "KUWAIT: Minister of Social Affairs and Family and Childhood Affairs Dr Amthal Al-Huwaila said on Friday that child protection is a national responsibility that combines legislation, care services and early intervention to ensure children’s safety and dignity. Speaking to the Kuwait News Agency (KUNA) on World Children’s Day, observed annually on Nov 20, she said Kuwait’s future begins with safeguarding children’s rights and making protection services accessible to children and their families when needed.\n\nAl-Huwaila said the legal framework had been strengthened by Decree-Law No 11 of 2026 on Protection from Domestic Violence, published in the Official Gazette on March 15. The law replaced Law No 16 of 2020 and regulates reporting procedures, intervention and protection orders. Article 11 requires anyone who witnesses or learns of a domestic violence case to report it, and protects the person reporting by keeping their identity confidential unless judicial procedures require otherwise. Article 19 sets penalties for failing to report domestic violence involving children or people with no or limited legal capacity, including up to one year in prison, a fine of up to KD 200, or either penalty.\n\nThe minister said the Child Protection Center, part of the Protection Centers Department at the Supreme Council for Family Affairs, opened on Thursday. The center provides psychological, social and legal care for children and aims to strengthen monitoring, early intervention and public awareness. It is staffed by specialized Kuwaiti personnel and works with security, judicial, health, educational and social authorities and civil society organizations to provide integrated services, she said.\n\nAl-Huwaila added that regulations for receiving reports of violence against children and for shelter and protection procedures have been adopted under Law No 21 of 2015 on Child Rights. They set out how cases are handled and the responsibilities of the relevant bodies, from detection and reporting through intervention and protection.\n\nShe stressed the importance of giving parents and caregivers knowledge and guidance and of listening to children and understanding their needs in ways suited to their age and maturity, while protecting their privacy and dignity. The best interests of the child must remain the basis of all decisions affecting children, she said, adding that the true measure of protection efforts is children’s sense of safety and confidence and their ability to learn and take part in society. — KUNA\n\nWarm to rather hot day, rather cold night forecast\n\nKuwait steps up military cooperation with NATO",
+     "published": "2026-11-20T09:34:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {
+    "headline_en": "Child protection a national responsibility, says Al-Huwaila",
+    "headline_ar": "",
+    "confidence": "low",
+    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
+    "entities": [],
+    "tags": [
+     "kuwait"
+    ],
+    "_source": "extractive",
+    "summary_en": "KUWAIT: Minister of Social Affairs and Family and Childhood Affairs Dr Amthal Al-Huwaila said on Friday that child protection is a national responsibility that combines legislation, care services and early intervention to ensure children’s safety and dignity. Speaking to the Kuwait News Agency (KUNA) on World Children’s Day, observed annually on Nov 20, she said Kuwait’s future begins with safeguarding children’s…",
+    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): Kuwait Times.",
+    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
+    "watch_next_en": "",
+    "summary_ar": "",
+    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: Kuwait Times.",
+    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
+    "watch_next_ar": ""
+   }
+  },
+  {
+   "key": "d75446f38c8e5b45",
+   "score": 6.059,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Warm to rather hot day, rather cold night forecast",
+     "url": "https://kuwaittimes.com/article/54031/kuwait/warm-to-rather-hot-day-rather-cold-night-forecast/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Kuwait can expect warm to rather hot weather on Friday, with highs of 30 to 31 degrees Celsius, the Meteorological Department said. Jal Aliyah, Nuwaisib, Wafra and Salmy ar...",
+     "body": "",
+     "published": "2026-11-20T09:25:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "15caf93439cb3504",
+   "score": 6.058,
+   "sources": [
+    "Kuwait Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "kuwaittimes",
+     "source_name": "Kuwait Times",
+     "lang": "en",
+     "title": "Today in Kuwait’s history",
+     "url": "https://kuwaittimes.com/article/54033/kuwait/today-in-kuwaits-history/",
+     "section": "kuwait",
+     "summary": "KUWAIT: Following are events that took place in Kuwait on November 20:1960 — Amir Sheikh Abdullah Al-Salem Al-Sabah signed a decree appointing the members of the Monetary Council,...",
+     "body": "",
+     "published": "2026-11-20T09:30:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "08f5713e7a6d4cd0",
+   "score": 6.055,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«ثانوية الأصمعي» تبادر بتدريب معلّميها على الذكاء الاصطناعي",
+     "url": "https://www.aljarida.com/article/151063",
+     "section": "local",
+     "summary": "استجابةً لتوجّه وزارة التربية نحو تنمية مهارات المعلّمين في استخدام الذكاء الاصطناعي، وفي إطار تعاون الوزارة مع شركة «غوغل» في مجال التعليم، بادرت ثانوية الأصمعي للبنين...",
+     "body": "",
+     "published": "2026-11-20T15:19:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "bd9a76332f18713a",
+   "score": 6.054,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بتكوين تتراجع دون 60 ألف دولار للمرة الأولى منذ يوليو",
+     "url": "https://www.alraimedia.com/article/1786772/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D8%AA%D9%83%D9%88%D9%8A%D9%86-%D8%AA%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%AF%D9%88%D9%86-60-%D8%A3%D9%84%D9%81-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%84%D9%84%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%85%D9%86%D8%B0-%D9%8A%D9%88%D9%84%D9%8A%D9%88",
+     "section": "economy",
+     "summary": "هبطت بتكوين، ​كبرى العملات المشفرة ‌في العالم، دون مستوى 60 ⁠ألف دولار ⁠اليوم الجمعة للمرة ⁠الأولى ‌منذ يوليو، في ظل مخاوف ‌بشأن التقييمات المرتفعة التي أثرت على ​تد...",
+     "body": "",
+     "published": "2026-11-20T19:25:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
    "key": "c37499454458be2c",
    "score": 6.044,
    "sources": [
@@ -1347,31 +1758,13 @@
      "url": "https://www.alanba.com.kw/1385862",
      "section": "kuwait",
      "summary": "أكد القائم بالأعمال بالإنابة في سفارة الكويت لدى سلطنة عمان المستشار حسن أبوالحسن عمق العلاقات التاريخية الراسخة التي تجمع البلدين الشقيقين",
-     "body": "أكد القائم بالأعمال بالإنابة في سفارة الكويت لدى سلطنة عمان المستشار حسن أبوالحسن عمق العلاقات التاريخية الراسخة التي تجمع البلدين الشقيقين، مشددا على قوة الروابط المتينة بين قيادتيهما وشعبيهما اللذين تجمعهما أواصر الأخوة ووحدة المصير والمصالح المشتركة.\n\nجاء ذلك في تصريح أدلى به المستشار أبوالحسن لـ \"كونا\" بمناسبة احتفال سلطنة عمان الشقيقة بيومها الوطني ال56 مقدما التهاني والتبريكات للسلطنة قيادة وحكومة وشعبا وتمنيات الكويت للشعب العماني الشقيق بمزيد من التقدم والازدهار والرخاء في ظل القيادة الحكيمة لجلالة السلطان هيثم بن طارق سلطان عمان.\n\nوعلى صعيد العلاقات الثنائية أشاد المستشار أبوالحسن بما تشهده العلاقات الكويتية - العمانية من تطور مستمر في ظل الرعاية والاهتمام اللذين تحظى بهما من صاحب السمو الأمير الشيخ مشعل الأحمد وأخيه جلالة السلطان هيثم بن طارق.\n\nولفت إلى انعقاد الدورة ال11 للجنة الكويتية - العمانية المشتركة في شهر يونيو الماضي وما تمخض عنها من تفاهمات تعكس الحرص المشترك على تعزيز التعاون الثنائي وتوسيع آفاق الشراكة في مختلف المجالات.\n\nكما أشار في هذا السياق إلى أن مشروع مصفاة الدقم بوصفه أحد أبرز المشاريع الاستثمارية المشتركة بين البلدين يمثل \"نموذجا ناجحا\" للتكامل الاقتصادي والاستثماري ويجسد تطلعات القيادتين نحو بناء شراكات استراتيجية تحقق المصالح المشتركة.\n\nوأكد حرص الكويت على مواصلة تعزيز علاقاتها الأخوية مع سلطنة عمان الشقيقة وتكثيف التشاور والتنسيق إزاء مختلف القضايا ذات الاهتمام المشترك بما يخدم مصالح البلدين والشعبين الشقيقين ويعزز مسيرة العمل الخليجي المشترك.",
+     "body": "",
      "published": "2026-11-20T09:35:51+00:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "القائم بالأعمال بالإنابة في سفارتنا بمسقط: العلاقات الكويتية - العمانية راسخة وفي تطور مستمر",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait"
-    ],
-    "_source": "extractive",
-    "summary_en": "أكد القائم بالأعمال بالإنابة في سفارة الكويت لدى سلطنة عمان المستشار حسن أبوالحسن عمق العلاقات التاريخية الراسخة التي تجمع البلدين الشقيقين، مشددا على قوة الروابط المتينة بين قيادتيهما وشعبيهما اللذين تجمعهما أواصر الأخوة ووحدة المصير والمصالح المشتركة. جاء ذلك في تصريح أدلى به المستشار أبوالحسن لـ \"كونا\" بمناسبة احتفال سلطنة عمان الشقيقة بيومها الوطني ال56 مقدما التهاني والتبريكات للسلطنة قيادة وحكومة وشعبا وتمنيات…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "أكد القائم بالأعمال بالإنابة في سفارة الكويت لدى سلطنة عمان المستشار حسن أبوالحسن عمق العلاقات التاريخية الراسخة التي تجمع البلدين الشقيقين، مشددا على قوة الروابط المتينة بين قيادتيهما وشعبيهما اللذين تجمعهما أواصر الأخوة ووحدة المصير والمصالح المشتركة. جاء ذلك في تصريح أدلى به المستشار أبوالحسن لـ \"كونا\" بمناسبة احتفال سلطنة عمان الشقيقة بيومها الوطني ال56 مقدما التهاني والتبريكات للسلطنة قيادة وحكومة وشعبا وتمنيات…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
+   "analysis": {}
   },
   {
    "key": "24ef0f42cef2845f",
@@ -1389,31 +1782,13 @@
      "url": "https://www.alanba.com.kw/1385854",
      "section": "kuwait",
      "summary": "بعث صاحب السمو الأمير الشيخ مشعل الأحمد ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق سلطان عمان الشقيقة عبر فيها سموه عن خالص تهانيه بمناسبة",
-     "body": "بعث صاحب السمو الأمير الشيخ مشعل الأحمد ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق سلطان عمان الشقيقة عبر فيها سموه عن خالص تهانيه بمناسبة ذكرى اليوم الوطني لسلطنة عمان الشقيقة،\n\nمشيدا سموه بعمق الروابط الأخوية ورسوخ العلاقات التاريخية بين الكويت وسلطنة عمان الشقيقة وبما حققه البلد الشقيق من إنجازات حضارية بارزة في عهده الميمون،متمنيا سموه للسلطان هيثم بن طارق موفور الصحة والعافية ولسطنة عمان الشقيقة وشعبها الكريم دوام التقدم والازدهار في ظل القيادة الحكيمة لجلالته.",
+     "body": "",
      "published": "2026-11-20T08:05:29+00:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "صاحب السمو يهنئ سلطان عُمان باليوم الوطني: علاقات تاريخية راسخة بين البلدين",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait"
-    ],
-    "_source": "extractive",
-    "summary_en": "بعث صاحب السمو الأمير الشيخ مشعل الأحمد ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق سلطان عمان الشقيقة عبر فيها سموه عن خالص تهانيه بمناسبة ذكرى اليوم الوطني لسلطنة عمان الشقيقة، مشيدا سموه بعمق الروابط الأخوية ورسوخ العلاقات التاريخية بين الكويت وسلطنة عمان الشقيقة وبما حققه البلد الشقيق من إنجازات حضارية بارزة في عهده الميمون،متمنيا سموه للسلطان هيثم بن طارق موفور الصحة والعافية ولسطنة عمان الشقيقة وشعبها الكريم…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "بعث صاحب السمو الأمير الشيخ مشعل الأحمد ببرقية تهنئة إلى أخيه السلطان هيثم بن طارق سلطان عمان الشقيقة عبر فيها سموه عن خالص تهانيه بمناسبة ذكرى اليوم الوطني لسلطنة عمان الشقيقة، مشيدا سموه بعمق الروابط الأخوية ورسوخ العلاقات التاريخية بين الكويت وسلطنة عمان الشقيقة وبما حققه البلد الشقيق من إنجازات حضارية بارزة في عهده الميمون،متمنيا سموه للسلطان هيثم بن طارق موفور الصحة والعافية ولسطنة عمان الشقيقة وشعبها الكريم…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
+   "analysis": {}
   },
   {
    "key": "9b30c1b83ce086ce",
@@ -1431,35 +1806,65 @@
      "url": "https://www.alanba.com.kw/1385867",
      "section": "kuwait",
      "summary": "أكد رئيس مجلس النواب التشيكي توميو أوكامورا أهمية تطوير مجالات التعاون المشتركة بين بلاده والكويت بالشكل الذي يلبي طموح وتطلعات",
-     "body": "استعرض مع سفيرنا لدى التشيك العلاقات المتميزة بين البلدين\n\nأكد رئيس مجلس النواب التشيكي توميو أوكامورا أهمية تطوير مجالات التعاون المشتركة بين بلاده والكويت بالشكل الذي يلبي طموح وتطلعات كلا البلدين الصديقين.\n\nوذكرت سفارة الكويت لدى التشيك في بيان تلقت \"كونا\" نسخة منه ان ذلك جاء خلال لقاء سفير الكويت لدى التشيك طلال الشطي بأوكامورا حيث استعرضا العلاقات الثنائية المتميزة بين البلدين وسبل تعزيزها والإرتقاء بها في مختلف المجالات والأصعدة.\n\nوأضافت أنه تم خلال اللقاء تبادل وجهات النظر حيال عدد من القضايا والمواضيع ذات الإهتمام المشترك بما يعكس عمق الروابط التاريخية وأواصر الصداقة والشراكة بين البلدين الصديقين.\n\nولفتت إلى أن الجانبين تطرقا أيضا إلى أخر المستجدات والتطورات الراهنة على الساحتين الإقليمية والدولية، حيث جدد أوكامورا في هذا الصدد موقف بلاده الداعم والمتضامن مع الكويت إزاء الإعتداءات الإيرانية الأثمه.",
+     "body": "",
      "published": "2026-11-20T10:59:18+00:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "رئيس مجلس النواب التشيكي: نجدد موقفنا الداعم للكويت إزاء الإعتداءات الإيرانية الأثمة",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "kuwait"
-    ],
-    "_source": "extractive",
-    "summary_en": "استعرض مع سفيرنا لدى التشيك العلاقات المتميزة بين البلدين أكد رئيس مجلس النواب التشيكي توميو أوكامورا أهمية تطوير مجالات التعاون المشتركة بين بلاده والكويت بالشكل الذي يلبي طموح وتطلعات كلا البلدين الصديقين. وذكرت سفارة الكويت لدى التشيك في بيان تلقت \"كونا\" نسخة منه ان ذلك جاء خلال لقاء سفير الكويت لدى التشيك طلال الشطي بأوكامورا حيث استعرضا العلاقات الثنائية المتميزة بين البلدين وسبل تعزيزها والإرتقاء بها في مختلف…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الأنباء.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "استعرض مع سفيرنا لدى التشيك العلاقات المتميزة بين البلدين أكد رئيس مجلس النواب التشيكي توميو أوكامورا أهمية تطوير مجالات التعاون المشتركة بين بلاده والكويت بالشكل الذي يلبي طموح وتطلعات كلا البلدين الصديقين. وذكرت سفارة الكويت لدى التشيك في بيان تلقت \"كونا\" نسخة منه ان ذلك جاء خلال لقاء سفير الكويت لدى التشيك طلال الشطي بأوكامورا حيث استعرضا العلاقات الثنائية المتميزة بين البلدين وسبل تعزيزها والإرتقاء بها في مختلف…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الأنباء.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
+   "analysis": {}
   },
   {
-   "key": "795b7118af52f540",
-   "score": 5.759,
+   "key": "da14d3f83da0fa9b",
+   "score": 6.016,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "رويترز: الأسهم الأميركية تواصل الخسائر وناسداك يتراجع 5.3%",
+     "url": "https://www.aljarida.com/article/151076",
+     "section": "economy",
+     "summary": "الأسهم الأمريكية تواصل الخسائر وناسداك يتراجع 5.3%",
+     "body": "",
+     "published": "2026-11-20T23:52:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Economy & Business",
+   "analysis": {}
+  },
+  {
+   "key": "9761d136796c5102",
+   "score": 5.959,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "ميلانيا: أقول لترامب ما لا يريد سماعه",
+     "url": "https://www.aljarida.com/article/151080",
+     "section": "world",
+     "summary": "في البيت الأبيض، قد يكون أصعب ما يفعله المرء أن يقول لدونالد ترامب ما لا يريد سماعه. لكن ميلانيا ترامب تقول إنها تفعل ذلك. فحين قال زوجها إنها قد تكون أصعب منه في التعامل، ردّت بعب...",
+     "body": "",
+     "published": "2026-11-21T08:32:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "41c9f1d087103d4d",
+   "score": 5.958,
    "sources": [
     "الرأي"
    ],
@@ -1469,35 +1874,89 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "«S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة",
-     "url": "https://www.alraimedia.com/article/1786781/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/sp-%D8%AA%D8%AB%D8%A8%D8%AA-%D8%A7%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D8%A7%D9%84%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86%D9%8A-%D9%84%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D9%85%D8%B9-%D9%86%D8%B8%D8%B1%D8%A9-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D9%82%D8%B1%D8%A9",
+     "title": "طقس دافئ نهاراً ومائل للبرودة ليلاً.. و«العظمى» 30 درجة",
+     "url": "https://www.alraimedia.com/article/1786793/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D8%B7%D9%82%D8%B3-%D8%AF%D8%A7%D9%81%D8%A6-%D9%86%D9%87%D8%A7%D8%B1%D8%A7-%D9%88%D9%85%D8%A7%D8%A6%D9%84-%D9%84%D9%84%D8%A8%D8%B1%D9%88%D8%AF%D8%A9-%D9%84%D9%8A%D9%84%D8%A7-%D9%88%D8%A7%D9%84%D8%B9%D8%B8%D9%85%D9%89-30-%D8%AF%D8%B1%D8%AC%D8%A9",
+     "section": "last-page",
+     "summary": "توقعت إدارة الأرصاد الجوية، اليوم السبت، أن يسود البلاد طقس دافئ إلى مائل للحرارة خلال ساعات النهار، مع رياح شمالية غربية إلى متقلبة الاتجاه، خفيفة إلى معتدلة السرعة، تتراوح بين 8...",
+     "body": "",
+     "published": "2026-11-21T10:21:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Society & Services",
+   "analysis": {}
+  },
+  {
+   "key": "83d2e784797f6de2",
+   "score": 5.9,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "بلدة من 13 نسمة تراهن على مضرب ذباب بطول ثمانية أمتار",
+     "url": "https://www.alanba.com.kw/1385906",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-21T06:52:14+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "6d5be25adf1e8651",
+   "score": 5.9,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "29.26 مليار دولار استثمارات خليجية في التكنولوجيا العالمية",
+     "url": "https://www.alanba.com.kw/1385903",
+     "section": "world",
+     "summary": "",
+     "body": "",
+     "published": "2026-11-21T06:09:59+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "f837a18f680f6e61",
+   "score": 5.758,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "منها السبانخ.. 6 خضروات تساعد على تنظيم ضغط الدم",
+     "url": "https://www.alraimedia.com/article/1786788/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%85%D9%86%D9%87%D8%A7-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D9%86%D8%AE-6-%D8%AE%D8%B6%D8%B1%D9%88%D8%A7%D8%AA-%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D9%85",
      "section": "latest",
-     "summary": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة.وقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتمان...",
-     "body": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة.\n\nوقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتماني السيادي ومدير إدارة الدين العام في وزارة المالية فيصل المزيني في بيان صحفي اليوم الجمعة إن هذا التثبيت يعكس متانة المركز المالي للدولة وقوة مقوماتها الائتمانية وما تتمتع به من أصول سيادية واحتياطيات مالية كبيرة تشكل مجتمعة مصدات أمان تعزز قدرتها على مواجهة الصدمات الاقتصادية والمحافظة على استقرارها المالي.\n\nوبين المزيني أن تقرير الوكالة تضمن توقعات إيجابية بشأن آفاق النشاط الاقتصادي في دولة الكويت حيث رجحت الوكالة نمو الناتج المحلي الإجمالي الحقيقي بنحو 13 في المئة خلال عام 2027 وبمتوسط يقارب 8 في المئة سنويا خلال الفترة من 2027 إلى 2029 مدفوعا بالتعافي المتوقع في الإنتاج النفطي إلى جانب تنفيذ عدد من المشروعات الاستثمارية والتنموية في القطاعات غير النفطية.\n\nوأشار إلى أن التقرير سلط الضوء على أهمية الاستمرار في مواصلة الإصلاحات الاقتصادية والمالية الجارية ودورها المتوقع في تعزيز الإيرادات غير النفطية ودعم النشاط الاقتصادي بما يسهم في ترسيخ الاستدامة المالية وتعزيز آفاق النمو خلال السنوات المقبلة.\n\nوأكد المزيني أن الوكالة اعتبرت صدور المرسوم بقانون بشأن الصكوك الحكومية خطوة إيجابية نحو تطوير منظومة التمويل السيادي وتوسيع نطاق أدوات التمويل المتاحة للدولة بما يعزز مرونة إدارة الاحتياجات التمويلية ويدعم تطوير أسواق رأس المال المحلية.\n\nوأضاف أن تطوير الإطار التشريعي لأدوات الدين العام يتيح تنويع مصادر التمويل من خلال الأدوات التقليدية والإسلامية ويوسع قاعدة المستثمرين ويعزز فرص الوصول إلى أسواق الدين المحلية والعالمية بما يدعم كفاءة إدارة الدين العام وفقا للاحتياجات التمويلية للدولة.وأوضح أن إقرار المرسوم بقانون بشأن التمويل العقاري لمستحقي الرعاية السكنية يمثل خطوة مهمة في تطوير منظومة التمويل الإسكاني في دولة الكويت إذ يوسع الخيارات التمويلية المتاحة للمواطنين المستحقين ويعزز مشاركة القطاع المصرفي والمالي في نطاق الإسكان.\n\nيذكر أن وكالة ستاندرد آند بورز (S&P Global Ratings) تعد إحدى أبرز وكالات التصنيف الائتماني العالمية وتشكل تصنيفاتها مرجعا مهما للمستثمرين والمؤسسات المالية في تقييم الجدارة الائتمانية للدول ومدى قدرتها على الوفاء بالتزاماتها المالية.\n\nوأكد التقرير أنّ التسهيلات الائتمانية قد سجلت مستويات نمو قوية خلال عام 2026، مدعومة بالاستثمارات الحكومية واستمرار تحقيق نمو إيجابي في الأنشطة غير النفطية.\n\nولفت التقرير الذي نشر «المركزي» أبرز مضامينه إلى جودة الأصول المصرفية لا تزال مستقرة بوجه عام، حيث بلغت نسبة القروض غير المنتظمة نحو 1.5% كما في منتصف عام 2026.\n\nكما أكد التقرير أن إجراءات التخفيف الأخيرة التي اتخذها بنك الكويت المركزي ستظل تساعد البنوك على تجاوز الاضطرابات الحالية.\n\nوأوضحت الوكالة أن متانة صافي الأصول الخارجية والمالية للكويت تواصل دعم تصنيفاتها السيادية، رغم الصراع الإقليمي، مشيرةً إلى أن الدولة كدست أصولاً ضخمة ضمن صندوقها السيادي، مقدّرة أن تتجاوز الأصول السائلة للهيئة العامة للاستثمار 600% من الناتج المحلي الإجمالي في عام 2026، وهي أعلى نسبة بين جميع الدول السيادية التي تصنفها الوكالة.\n\nوأضافت أن إجمالي احتياطيات النقد الأجنبي لدى بنك الكويت المركزي بلغ 31 مليار دولار حتى نهاية سبتمبر 2026، بما يعزز قدرة الدولة على مواجهة السيناريوهات المعاكسة ويوفر لها هامشاً واسعاً للتحرك على صعيد السياسات الاقتصادية والمالية.",
-     "published": "2026-11-21T00:13:00+03:00",
+     "summary": "لا تقتصر أهمية الخضروات على تزويد الجسم بالفيتامينات والمعادن، إذ يمكن لبعض أنواعها أن تؤدي دوراً مهماً في دعم صحة القلب والمساعدة على تنظيم ضغط الدم. ويُعد ارتفاع ضغط الدم من عوا...",
+     "body": "",
+     "published": "2026-11-21T06:26:00+03:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "«S&P» تُثبّت التصنيف الائتماني للكويت مع نظرة مستقبلية مستقرة",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "latest"
-    ],
-    "_source": "extractive",
-    "summary_en": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة. وقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتماني السيادي ومدير إدارة الدين العام في وزارة المالية فيصل المزيني في بيان صحفي اليوم الجمعة إن هذا التثبيت يعكس متانة المركز المالي للدولة وقوة مقوماتها الائتمانية وما تتمتع به من أصول سيادية واحتياطيات مالية كبيرة تشكل مجتمعة مصدات أمان…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "ثبتت وكالة ستاندرد آند بورز (S&P Global Ratings) التصنيف الائتماني السيادي لدولة الكويت عند مستوى (-AA) مع نظرة مستقبلية مستقرة. وقال عضو ومقرر اللجنة العليا لحوكمة التصنيف الائتماني السيادي ومدير إدارة الدين العام في وزارة المالية فيصل المزيني في بيان صحفي اليوم الجمعة إن هذا التثبيت يعكس متانة المركز المالي للدولة وقوة مقوماتها الائتمانية وما تتمتع به من أصول سيادية واحتياطيات مالية كبيرة تشكل مجتمعة مصدات أمان…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
+   "analysis": {}
   },
   {
    "key": "d8ca114113253e8e",
@@ -1515,31 +1974,37 @@
      "url": "https://www.alraimedia.com/article/1786785/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%B2%D9%84%D8%B2%D8%A7%D9%84-%D8%A8%D9%82%D9%88%D8%A9-67-%D8%AF%D8%B1%D8%AC%D8%A9-%D9%8A%D8%B6%D8%B1%D8%A8-%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D8%A8%D9%8A%D8%B1%D9%88",
      "section": "latest",
      "summary": "ضرب زلزال بقوة 6.7 درجة وسط البيرو، وفق ما أفاد المعهد البيروفي للجيوفيزياء.ووقع الزلزال عند الساعة 7.09 مساء (00.09 توقيت غرينتش السبت)، على بعد 30 كيلومترا شمال غرب مدينة جونين،...",
-     "body": "ضرب زلزال بقوة 6.7 درجة وسط البيرو، وفق ما أفاد المعهد البيروفي للجيوفيزياء.\n\nووقع الزلزال عند الساعة 7.09 مساء (00.09 توقيت غرينتش السبت)، على بعد 30 كيلومترا شمال غرب مدينة جونين، وعلى عمق 129 كيلومترا.\n\n«الخارجية» النمساوية تعلن اختراق موقعها الإلكتروني والاطلاع على بيانات الموظفين منذ ساعتين رئيس مجلس النواب التشيكي يؤكد أهمية تطوير مجالات التعاون المشتركة مع الكويت منذ 14 ساعة",
+     "body": "",
      "published": "2026-11-21T03:41:00+03:00",
      "tier": 1
     }
    ],
    "category": "World & Region",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "زلزال بقوة 6.7 درجة يضرب وسط البيرو",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "latest"
-    ],
-    "_source": "extractive",
-    "summary_en": "ضرب زلزال بقوة 6.7 درجة وسط البيرو، وفق ما أفاد المعهد البيروفي للجيوفيزياء. ووقع الزلزال عند الساعة 7.09 مساء (00.09 توقيت غرينتش السبت)، على بعد 30 كيلومترا شمال غرب مدينة جونين، وعلى عمق 129 كيلومترا. «الخارجية» النمساوية تعلن اختراق موقعها الإلكتروني والاطلاع على بيانات الموظفين منذ ساعتين رئيس مجلس النواب التشيكي يؤكد أهمية تطوير مجالات التعاون المشتركة مع الكويت منذ 14 ساعة",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "ضرب زلزال بقوة 6.7 درجة وسط البيرو، وفق ما أفاد المعهد البيروفي للجيوفيزياء. ووقع الزلزال عند الساعة 7.09 مساء (00.09 توقيت غرينتش السبت)، على بعد 30 كيلومترا شمال غرب مدينة جونين، وعلى عمق 129 كيلومترا. «الخارجية» النمساوية تعلن اختراق موقعها الإلكتروني والاطلاع على بيانات الموظفين منذ ساعتين رئيس مجلس النواب التشيكي يؤكد أهمية تطوير مجالات التعاون المشتركة مع الكويت منذ 14 ساعة",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
+   "analysis": {}
+  },
+  {
+   "key": "fc2d0c9ec3765b60",
+   "score": 5.757,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "بايرن يعلن غياب كين لأشهر بسبب إصابة في الكاحل",
+     "url": "https://www.alraimedia.com/article/1786787/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%8A%D8%B9%D9%84%D9%86-%D8%BA%D9%8A%D8%A7%D8%A8-%D9%83%D9%8A%D9%86-%D9%84%D8%A3%D8%B4%D9%87%D8%B1-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D8%AD%D9%84",
+     "section": "latest",
+     "summary": "أعلن ⁠بايرن ميونيخ حامل لقب دوري ​الدرجة الأولى الألماني لكرة القدم أمس الجمعة ‌غياب مهاجمه هاري كين بسبب إصابة في الكاحل تعرض لها في التعادل 1-1 مع كولن في الدوري.وخرج ⁠اللاع...",
+     "body": "",
+     "published": "2026-11-21T05:21:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
   },
   {
    "key": "ae9a3ae6eec8cec5",
@@ -1557,35 +2022,17 @@
      "url": "https://www.alraimedia.com/article/1786782/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%86%D9%85%D8%B3%D8%A7%D9%88%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D9%85%D9%88%D9%82%D8%B9%D9%87%D8%A7-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B9%D9%84%D9%89-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86",
      "section": "latest",
      "summary": "قالت وزارة الخارجية النمساوية ⁠أمس الجمعة إن موقعها الإلكتروني ​تعرض للاختراق الأسبوع الماضي، وأمكن الاطلاع على ‌سجلات تحتوي على بيانات الاتصال بموظفيها، رغم أنها لم تذكر من ت...",
-     "body": "قالت وزارة الخارجية النمساوية ⁠أمس الجمعة إن موقعها الإلكتروني ​تعرض للاختراق الأسبوع الماضي، وأمكن الاطلاع على ‌سجلات تحتوي على بيانات الاتصال بموظفيها، رغم أنها لم تذكر من تشتبه في اختراقه دفاعاتها الإلكترونية.\n\nوأضافت الوزارة في بيان «أمكن ⁠يومي 12 و13 نوفمبر الوصول للموقع الإلكتروني لوزارة ⁠الخارجية، الذي يديره مزود خدمة خارجي، بطريقة ⁠غير ‌مصرح بها»، مضيفة أن ذلك حدث في أثناء انقطاع عالمي في خدمات شركة مايكروسوفت.\n\nرئيس مجلس النواب التشيكي يؤكد أهمية تطوير مجالات التعاون المشتركة مع الكويت منذ 11 ساعة العراق يبدأ نشر قواته الأمنية في «جرف النصر» للمرة الأولى منذ 12 عاما منذ 11 ساعة\n\nوتابعت: «توصل تحقيق أجراه فريق ​من الخبراء إلى أنه خلال عملية الوصول ⁠غير المصرح به، تم الاطلاع على سجلات بيانات تضم أسماء وتفاصيل الاتصال المهنية لموظفي ​مقر الوزارة وكذلك في البعثات الدبلوماسية بالخارج».\n\nولم ⁠تشر ‌الوزارة إلى ​الجهة التي قد تكون مسؤولة عن ذلك.\n\nوروسيا من بين ‌الدول التي توترت علاقات النمسا معها ⁠في السنوات القليلة الماضية.\n\nورغم ⁠التزام ⁠النمسا الحياد ​العسكري، إلا أنها انحازت سياسيا إلى أوكرانيا منذ الغزو الروسي الشامل لأوكرانيا في 2022.",
+     "body": "",
      "published": "2026-11-21T01:38:00+03:00",
      "tier": 1
     }
    ],
    "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "«الخارجية» النمساوية تعلن اختراق موقعها الإلكتروني والاطلاع على بيانات الموظفين",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "latest"
-    ],
-    "_source": "extractive",
-    "summary_en": "قالت وزارة الخارجية النمساوية ⁠أمس الجمعة إن موقعها الإلكتروني ​تعرض للاختراق الأسبوع الماضي، وأمكن الاطلاع على ‌سجلات تحتوي على بيانات الاتصال بموظفيها، رغم أنها لم تذكر من تشتبه في اختراقه دفاعاتها الإلكترونية. وأضافت الوزارة في بيان «أمكن ⁠يومي 12 و13 نوفمبر الوصول للموقع الإلكتروني لوزارة ⁠الخارجية، الذي يديره مزود خدمة خارجي، بطريقة ⁠غير ‌مصرح بها»، مضيفة أن ذلك حدث في أثناء انقطاع عالمي في خدمات شركة…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "قالت وزارة الخارجية النمساوية ⁠أمس الجمعة إن موقعها الإلكتروني ​تعرض للاختراق الأسبوع الماضي، وأمكن الاطلاع على ‌سجلات تحتوي على بيانات الاتصال بموظفيها، رغم أنها لم تذكر من تشتبه في اختراقه دفاعاتها الإلكترونية. وأضافت الوزارة في بيان «أمكن ⁠يومي 12 و13 نوفمبر الوصول للموقع الإلكتروني لوزارة ⁠الخارجية، الذي يديره مزود خدمة خارجي، بطريقة ⁠غير ‌مصرح بها»، مضيفة أن ذلك حدث في أثناء انقطاع عالمي في خدمات شركة…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
+   "analysis": {}
   },
   {
-   "key": "54e04e3688c03e02",
-   "score": 5.757,
+   "key": "4c04739695d2f3ff",
+   "score": 5.459,
    "sources": [
     "الرأي"
    ],
@@ -1595,58 +2042,16 @@
      "source_id": "alrai",
      "source_name": "الرأي",
      "lang": "ar",
-     "title": "مسؤول: رئيس إنفيديا السابق هوانج يقبل الإدلاء بشهادة علنية في مجلس الشيوخ",
-     "url": "https://www.alraimedia.com/article/1786780/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D8%B3%D8%A4%D9%88%D9%84-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%87%D9%88%D8%A7%D9%86%D8%AC-%D9%8A%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A5%D8%AF%D9%84%D8%A7%D8%A1-%D8%A8%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-%D8%B9%D9%84%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE",
-     "section": "latest",
-     "summary": "قال مساعد للسناتور الجمهوري ⁠الأمريكي تيم سكوت إن الرئيس ​التنفيذي السابق لإنفيديا جنسن هوانج وافق على ‌الإدلاء بشهادته في جلسة استماع علنية بمجلس الشيوخ، في وقت يحقق فيه مشرع...",
-     "body": "قال مساعد للسناتور الجمهوري ⁠الأمريكي تيم سكوت إن الرئيس ​التنفيذي السابق لإنفيديا جنسن هوانج وافق على ‌الإدلاء بشهادته في جلسة استماع علنية بمجلس الشيوخ، في وقت يحقق فيه مشرعون في اتهامات في شأن صلته بامرأة ⁠متهمة بالتجسس لصالح الصين\n\nولفت هوانج انتباه المشرعين الأمريكيين ⁠على نحو متزايد منذ أن نشرت ⁠صحيفة ‌نيويورك تايمز تقريرا يفيد بوجود علاقة عاطفية بينه وبين تلك المرأة، مما أثار تساؤلات عن تصدير رقائق الذكاء الاصطناعي ‌المتطورة التي تنتجها إنفيديا إلى الصين.\n\nترامب: إذا صحت الشائعات بشأن سعي إيران لتصنيع قنبلة قذرة فلن نسمح بذلك وسنعمل على ​منعه منذ ساعتين البرلمان العربي يرحب بتأييد 162 دولة حق الشعب الفلسطيني في تقرير مصيره وإقامة دولته المستقلة منذ 3 ساعات\n\nورفض متحدث باسم ​هوانج التعليق على الجلسة،ولم يحدد ⁠مكتب ‌سكوت موعدا، ​رغم أن طلب السناتور الأصلي كان يطلب من هوانج ‌الحضور في الثالث ديسمبر ديسمبر.\n\nووافق هوانج بشكل ⁠منفصل على إجراء ⁠مقابلة ⁠مغلقة ​مع ثلاث لجان تابعة لمجلس النواب، من المقرر إجراؤها في أول ديسمبر.",
-     "published": "2026-11-20T23:29:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {
-    "headline_en": "",
-    "headline_ar": "مسؤول: رئيس إنفيديا السابق هوانج يقبل الإدلاء بشهادة علنية في مجلس الشيوخ",
-    "confidence": "low",
-    "confidence_reason": "Extractive mode — no model was used, so no subtext is inferred.",
-    "entities": [],
-    "tags": [
-     "latest"
-    ],
-    "_source": "extractive",
-    "summary_en": "قال مساعد للسناتور الجمهوري ⁠الأمريكي تيم سكوت إن الرئيس ​التنفيذي السابق لإنفيديا جنسن هوانج وافق على ‌الإدلاء بشهادته في جلسة استماع علنية بمجلس الشيوخ، في وقت يحقق فيه مشرعون في اتهامات في شأن صلته بامرأة ⁠متهمة بالتجسس لصالح الصين ولفت هوانج انتباه المشرعين الأمريكيين ⁠على نحو متزايد منذ أن نشرت ⁠صحيفة ‌نيويورك تايمز تقريرا يفيد بوجود علاقة عاطفية بينه وبين تلك المرأة، مما أثار تساؤلات عن تصدير رقائق الذكاء…",
-    "why_it_matters_en": "Analysed without an AI provider. This story was carried by 1 outlet(s): الرأي.",
-    "between_the_lines_en": "Not available — no AI provider is configured for this run. ",
-    "watch_next_en": "",
-    "summary_ar": "قال مساعد للسناتور الجمهوري ⁠الأمريكي تيم سكوت إن الرئيس ​التنفيذي السابق لإنفيديا جنسن هوانج وافق على ‌الإدلاء بشهادته في جلسة استماع علنية بمجلس الشيوخ، في وقت يحقق فيه مشرعون في اتهامات في شأن صلته بامرأة ⁠متهمة بالتجسس لصالح الصين ولفت هوانج انتباه المشرعين الأمريكيين ⁠على نحو متزايد منذ أن نشرت ⁠صحيفة ‌نيويورك تايمز تقريرا يفيد بوجود علاقة عاطفية بينه وبين تلك المرأة، مما أثار تساؤلات عن تصدير رقائق الذكاء…",
-    "why_it_matters_ar": "تم التحليل دون مزود ذكاء اصطناعي. نشر هذا الخبر 1 وسيلة إعلامية: الرأي.",
-    "between_the_lines_ar": "غير متاح — لم يتم إعداد مزود ذكاء اصطناعي لهذه الجولة.",
-    "watch_next_ar": ""
-   }
-  },
-  {
-   "key": "24fbf9ec5a8641fe",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "باحث في «أنثروبيك»: «كلود» حلّ أعقد ألغاز الرياضيات",
-     "url": "https://www.alraimedia.com/article/1786779/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/%D8%A8%D8%A7%D8%AD%D8%AB-%D9%81%D9%8A-%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83-%D9%83%D9%84%D9%88%D8%AF-%D8%AD%D9%84-%D8%A3%D8%B9%D9%82%D8%AF-%D8%A3%D9%84%D8%BA%D8%A7%D8%B2-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA",
-     "section": "latest",
-     "summary": "قال عالِم رياضيات في شركة «أنثروبيك» إنه استخدم برنامج «كلود» الذي ابتكرته الشركة المتخصصة بالذكاء الاصطناعي، لإثبات فرضية ريمان، وهي مسألة رياضية حيّرت علماء الرياضيات لأكثر من 16...",
+     "title": "Visit Qatar ترحّب بضيوفها القادمين براً من السعودية تحت شعار «حياكم بين أهلكم»",
+     "url": "https://www.alraimedia.com/article/1786671/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D9%88%D8%B3%D9%81%D8%B1/visit-qatar-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D8%B6%D9%8A%D9%88%D9%81%D9%87%D8%A7-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D9%8A%D9%86-%D8%A8%D8%B1%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AD%D8%AA-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%AD%D9%8A%D8%A7%D9%83%D9%85-%D8%A8%D9%8A%D9%86-%D8%A3%D9%87%D9%84%D9%83%D9%85",
+     "section": "economy",
+     "summary": "ترحب Visit Qatar بالمسافرين القادمين براً من المملكة العربية السعودية، من خلال مبادرة ترحيبية خاصة احتفاءً بفترة الإجازة في المملكة العربية السعودية، التي تمتد من 20 إلى 27 نوفمبر....",
      "body": "",
-     "published": "2026-11-20T21:35:00+03:00",
+     "published": "2026-11-20T12:30:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -1794,30 +2199,6 @@
    "analysis": {}
   },
   {
-   "key": "30abcc8b152b3689",
-   "score": 5.159,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«دوري الأمم»: صدام ناري بين إسبانيا وفرنسا.. والبرتغال تواجه هولندا في ربع النهائي",
-     "url": "https://www.alraimedia.com/article/1786767/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%B5%D8%AF%D8%A7%D9%85-%D9%86%D8%A7%D8%B1%D9%8A-%D8%A8%D9%8A%D9%86-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D8%AA%D9%88%D8%A7%D8%AC%D9%87-%D9%87%D9%88%D9%84%D9%86%D8%AF%D8%A7-%D9%81%D9%8A-%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A",
-     "section": "latest",
-     "summary": "تلتقي إسبانيا بطلة العالم مع فرنسا، في ربع نهائي دوري الأمم الأوروبية لكرة القدم، وفقا للقرعة التي سُحبت اليوم في مقر الاتحاد الأوروبي للعبة (يويفا) بمدينة نيون السويسرية. وتضع الم...",
-     "body": "",
-     "published": "2026-11-20T15:47:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Sport",
-   "analysis": {}
-  },
-  {
    "key": "0f8e6d0b44c23e97",
    "score": 5.158,
    "sources": [
@@ -1842,6 +2223,54 @@
    "analysis": {}
   },
   {
+   "key": "54e04e3688c03e02",
+   "score": 5.157,
+   "sources": [
+    "الرأي"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alrai",
+     "source_name": "الرأي",
+     "lang": "ar",
+     "title": "مسؤول: رئيس إنفيديا السابق هوانج يقبل الإدلاء بشهادة علنية في مجلس الشيوخ",
+     "url": "https://www.alraimedia.com/article/1786780/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D9%85%D8%B3%D8%A4%D9%88%D9%84-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%87%D9%88%D8%A7%D9%86%D8%AC-%D9%8A%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A5%D8%AF%D9%84%D8%A7%D8%A1-%D8%A8%D8%B4%D9%87%D8%A7%D8%AF%D8%A9-%D8%B9%D9%84%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%B4%D9%8A%D9%88%D8%AE",
+     "section": "latest",
+     "summary": "قال مساعد للسناتور الجمهوري ⁠الأمريكي تيم سكوت إن الرئيس ​التنفيذي السابق لإنفيديا جنسن هوانج وافق على ‌الإدلاء بشهادته في جلسة استماع علنية بمجلس الشيوخ، في وقت يحقق فيه مشرع...",
+     "body": "",
+     "published": "2026-11-20T23:29:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "66d7bc3c3a5eb440",
+   "score": 5.154,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "عراقجي: عقيدة إيران النووية لم تتغير",
+     "url": "https://www.aljarida.com/article/151078",
+     "section": "world",
+     "summary": "صرح وزير الخارجية الإيراني عباس عراقجي اليوم إن موقف بلاده الرسمي بشأن معاهدة عدم انتشار الأسلحة النووية لا يزال ثابتاً.وأضاف في مقابلة مع صحيفة «إيران» إنه لم يطرأ أي...",
+     "body": "",
+     "published": "2026-11-21T01:28:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "3701c62e4401182a",
    "score": 5.154,
    "sources": [
@@ -1859,78 +2288,6 @@
      "summary": "قال ​الرئيس الأميريكي دونالد ‌ترامب اليوم الجمعة إن هناك «إشاعة» تفيد ⁠بأن إيران تعمل على ⁠صنع «قنبلة قذرة»، ⁠مؤكدا ‌أنه إذا كانت تقوم بذلك بالفعل، فإن الولايات ‌الم...",
      "body": "",
      "published": "2026-11-20T20:55:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "bd9a76332f18713a",
-   "score": 5.154,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "بتكوين تتراجع دون 60 ألف دولار للمرة الأولى منذ يوليو",
-     "url": "https://www.alraimedia.com/article/1786772/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%A8%D8%AA%D9%83%D9%88%D9%8A%D9%86-%D8%AA%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%AF%D9%88%D9%86-60-%D8%A3%D9%84%D9%81-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%84%D9%84%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%85%D9%86%D8%B0-%D9%8A%D9%88%D9%84%D9%8A%D9%88",
-     "section": "latest",
-     "summary": "هبطت بتكوين، ​كبرى العملات المشفرة ‌في العالم، دون مستوى 60 ⁠ألف دولار ⁠اليوم الجمعة للمرة ⁠الأولى ‌منذ يوليو، في ظل مخاوف ‌بشأن التقييمات المرتفعة التي أثرت على ​تد...",
-     "body": "",
-     "published": "2026-11-20T19:25:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
-   "key": "d6136e8b21ad7eed",
-   "score": 5.1,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "28 ألف طلقة تحت أرض المعركة التي بدأت بها الحرب العالمية الثانية",
-     "url": "https://www.alanba.com.kw/1385896",
-     "section": "world",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-20T21:11:10+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "4293f0c21dfefe88",
-   "score": 5.1,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "عاصفة قوية تدمر آلاف المنازل في البرازيل",
-     "url": "https://www.alanba.com.kw/1385894",
-     "section": "world",
-     "summary": "",
-     "body": "",
-     "published": "2026-11-20T20:31:45+00:00",
      "tier": 1
     }
    ],
@@ -1986,27 +2343,27 @@
    "analysis": {}
   },
   {
-   "key": "9ad0db909a1d1b81",
+   "key": "30abcc8b152b3689",
    "score": 4.559,
    "sources": [
-    "الجريدة"
+    "الرأي"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
+     "source_id": "alrai",
+     "source_name": "الرأي",
      "lang": "ar",
-     "title": "اتفاق بريطاني - أوروبي «تاريخي» بشأن الأغذية والانبعاثات وتنقل الشباب",
-     "url": "https://www.aljarida.com/article/151064",
-     "section": "world",
-     "summary": "قال دبلوماسيون ومسؤولون من الاتحاد الأوروبي لوكالة الأنباء الألمانية (د ب أ) إن التكتل وبريطانيا اتفقا على عدة مبادرات تهدف إلى إصلاح العلاقات الثنائية.ويأتي ذلك بعد مرور عشر سنوات...",
+     "title": "«دوري الأمم»: صدام ناري بين إسبانيا وفرنسا.. والبرتغال تواجه هولندا في ربع النهائي",
+     "url": "https://www.alraimedia.com/article/1786767/%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%B5%D8%AF%D8%A7%D9%85-%D9%86%D8%A7%D8%B1%D9%8A-%D8%A8%D9%8A%D9%86-%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D8%AA%D9%88%D8%A7%D8%AC%D9%87-%D9%87%D9%88%D9%84%D9%86%D8%AF%D8%A7-%D9%81%D9%8A-%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A",
+     "section": "latest",
+     "summary": "تلتقي إسبانيا بطلة العالم مع فرنسا، في ربع نهائي دوري الأمم الأوروبية لكرة القدم، وفقا للقرعة التي سُحبت اليوم في مقر الاتحاد الأوروبي للعبة (يويفا) بمدينة نيون السويسرية. وتضع الم...",
      "body": "",
-     "published": "2026-11-20T15:31:00+03:00",
+     "published": "2026-11-20T15:47:00+03:00",
      "tier": 1
     }
    ],
-   "category": "World & Region",
+   "category": "Sport",
    "analysis": {}
   },
   {
@@ -2034,30 +2391,6 @@
    "analysis": {}
   },
   {
-   "key": "4c04739695d2f3ff",
-   "score": 4.559,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "Visit Qatar ترحّب بضيوفها القادمين براً من السعودية تحت شعار «حياكم بين أهلكم»",
-     "url": "https://www.alraimedia.com/article/1786671/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9-%D9%88%D8%B3%D9%81%D8%B1/visit-qatar-%D8%AA%D8%B1%D8%AD%D8%A8-%D8%A8%D8%B6%D9%8A%D9%88%D9%81%D9%87%D8%A7-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D9%8A%D9%86-%D8%A8%D8%B1%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AD%D8%AA-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%AD%D9%8A%D8%A7%D9%83%D9%85-%D8%A8%D9%8A%D9%86-%D8%A3%D9%87%D9%84%D9%83%D9%85",
-     "section": "latest",
-     "summary": "ترحب Visit Qatar بالمسافرين القادمين براً من المملكة العربية السعودية، من خلال مبادرة ترحيبية خاصة احتفاءً بفترة الإجازة في المملكة العربية السعودية، التي تمتد من 20 إلى 27 نوفمبر....",
-     "body": "",
-     "published": "2026-11-20T12:30:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
    "key": "2d1a016bf946b2e7",
    "score": 4.559,
    "sources": [
@@ -2079,30 +2412,6 @@
     }
    ],
    "category": "Security & Courts",
-   "analysis": {}
-  },
-  {
-   "key": "29bcf5c6c70609a6",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Capital Governorate security campaign results in 246 actions",
-     "url": "https://kuwaittimes.com/article/54039/kuwait/capital-governorate-security-campaign-results-in-246-actions/",
-     "section": "latest",
-     "summary": "KUWAIT: The Ministry of Interior carried out an extensive security campaign in the Capital Governorate, in cooperation with Kuwait Fire Force and Kuwait Municipality, that resulted...",
-     "body": "",
-     "published": "2026-11-20T10:27:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2154,30 +2463,6 @@
    "analysis": {}
   },
   {
-   "key": "c393e6d7b1a093fa",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Antimicrobial resistance requires serious, joint action: Health minister",
-     "url": "https://kuwaittimes.com/article/54036/kuwait/antimicrobial-resistance-requires-serious-joint-action-health-minister/",
-     "section": "latest",
-     "summary": "KUWAIT: Minister of Health Dr Ahmad Al-Awadhi said on Thursday that antimicrobial resistance is a health challenge requiring serious, sustained action and professional and institut...",
-     "body": "",
-     "published": "2026-11-20T09:41:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Society & Services",
-   "analysis": {}
-  },
-  {
    "key": "cfddcc75381fcdcd",
    "score": 4.559,
    "sources": [
@@ -2202,30 +2487,6 @@
    "analysis": {}
   },
   {
-   "key": "83b406698c925f98",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Child protection a national responsibility, says Al-Huwaila",
-     "url": "https://kuwaittimes.com/article/54034/kuwait/child-protection-a-national-responsibility-says-al-huwaila/",
-     "section": "latest",
-     "summary": "KUWAIT: Minister of Social Affairs and Family and Childhood Affairs Dr Amthal Al-Huwaila said on Friday that child protection is a national responsibility that combines legislation...",
-     "body": "",
-     "published": "2026-11-20T09:34:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "2e7adee2b78a419d",
    "score": 4.559,
    "sources": [
@@ -2247,30 +2508,6 @@
     }
    ],
    "category": "Sport",
-   "analysis": {}
-  },
-  {
-   "key": "d75446f38c8e5b45",
-   "score": 4.559,
-   "sources": [
-    "Kuwait Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Warm to rather hot day, rather cold night forecast",
-     "url": "https://kuwaittimes.com/article/54031/kuwait/warm-to-rather-hot-day-rather-cold-night-forecast/",
-     "section": "latest",
-     "summary": "KUWAIT: Kuwait can expect warm to rather hot weather on Friday, with highs of 30 to 31 degrees Celsius, the Meteorological Department said. Jal Aliyah, Nuwaisib, Wafra and Salmy ar...",
-     "body": "",
-     "published": "2026-11-20T09:25:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2346,27 +2583,27 @@
    "analysis": {}
   },
   {
-   "key": "15caf93439cb3504",
-   "score": 4.558,
+   "key": "c930b473e87b262d",
+   "score": 4.557,
    "sources": [
-    "Kuwait Times"
+    "الجريدة"
    ],
    "outlet_count": 1,
    "articles": [
     {
-     "source_id": "kuwaittimes",
-     "source_name": "Kuwait Times",
-     "lang": "en",
-     "title": "Today in Kuwait’s history",
-     "url": "https://kuwaittimes.com/article/54033/kuwait/today-in-kuwaits-history/",
-     "section": "latest",
-     "summary": "KUWAIT: Following are events that took place in Kuwait on November 20:1960 — Amir Sheikh Abdullah Al-Salem Al-Sabah signed a decree appointing the members of the Monetary Council,...",
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "«الخزانة» الأميركية تفرض عقوبات على 4 إيرانيين يحصّلون إيرادات النفط",
+     "url": "https://www.aljarida.com/article/151075",
+     "section": "world",
+     "summary": "أعلنت وزارة الخزانة الأميركية فرض عقوبات على 4 إيرانيين يحصّلون إيرادات مبيعات النفط في الخارج.وقالت الوزارة في بيان إن الأشخاص الأربعة يقومون بالالتفاف على عقوبات فرضتها سابق...",
      "body": "",
-     "published": "2026-11-20T09:30:00+03:00",
+     "published": "2026-11-20T23:45:00+03:00",
      "tier": 1
     }
    ],
-   "category": "Government & Politics",
+   "category": "World & Region",
    "analysis": {}
   },
   {
@@ -2394,30 +2631,6 @@
    "analysis": {}
   },
   {
-   "key": "4ccb2c83a76b89f1",
-   "score": 4.557,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "«قبعة طائشة» تقتل أشهر فرس نهر في العالم",
-     "url": "https://www.alraimedia.com/article/1786752/%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D9%88%D8%B9%D8%A9/%D9%82%D8%A8%D8%B9%D8%A9-%D8%B7%D8%A7%D8%A6%D8%B4%D8%A9-%D8%AA%D9%82%D8%AA%D9%84-%D8%A3%D8%B4%D9%87%D8%B1-%D9%81%D8%B1%D8%B3-%D9%86%D9%87%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85",
-     "section": "latest",
-     "summary": "أعلنت ​حديقة حيوانات سينسيناتي بالولايات المتحدة في بيان ⁠أمس الخميس نفوق فيونا، وهي أنثى فرس ​نهر نيلي ذاع صيتها على الإنترنت بعد أن وثقت الحديقة قصة نجاتها ‌عقب ولادتها قبل...",
-     "body": "",
-     "published": "2026-11-20T08:30:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "ab0396093bd53846",
    "score": 4.555,
    "sources": [
@@ -2435,54 +2648,6 @@
      "summary": "قال الرئيس الأميركي دونالد ترامب اليوم إن إيران ترغب في عقد صفقة معنا لكننا نريد صفقة حقيقية وأضاف أن إيران ​⁠تريد اتفاقا ​«غير مقبول بالنسبة لي»وأكد أن أسعار النفط تشه...",
      "body": "",
      "published": "2026-11-20T21:58:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "bc2e230ef4d299d3",
-   "score": 4.553,
-   "sources": [
-    "الرأي"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alrai",
-     "source_name": "الرأي",
-     "lang": "ar",
-     "title": "ألبانيزي: أستراليا والصين حريصتان على انفتاح التجارة",
-     "url": "https://www.alraimedia.com/article/1786751/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%84%D8%A8%D8%A7%D9%86%D9%8A%D8%B2%D9%8A-%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A%D8%A7-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%AD%D8%B1%D9%8A%D8%B5%D8%AA%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%86%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9",
-     "section": "latest",
-     "summary": "قال ​رئيس الوزراء الأسترالي ‌أنتوني ألبانيزي للرئيس الصيني شي جينبينغ، خلال لقاء عُقد ⁠اليوم الجمعة ⁠في ‌مدينة شنتشن الصينية، إن أستراليا والصين حريصتان على ‌انفتاح...",
-     "body": "",
-     "published": "2026-11-20T07:41:00+03:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "fe114acfb37fd9c7",
-   "score": 4.552,
-   "sources": [
-    "الجريدة"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "aljarida",
-     "source_name": "الجريدة",
-     "lang": "ar",
-     "title": "فرنسا تطلب عقد اجتماع لمجلس الأمن بعد ضربات روسية على كييف",
-     "url": "https://www.aljarida.com/article/151065",
-     "section": "world",
-     "summary": "قال وزير الخارجية الفرنسي جان نويل بارو اليوم الجمعة إن باريس دعت ‌إلى عقد اجتماع ​لمجلس الأمن التابع ‌للأمم ​المتحدة بعد ‌أحدث ضربات روسية ‌على كييف.وذكر مسؤول...",
-     "body": "",
-     "published": "2026-11-20T16:12:00+03:00",
      "tier": 1
     }
    ],
@@ -2514,8 +2679,8 @@
    "analysis": {}
   },
   {
-   "key": "e0a8c61c4e604db2",
-   "score": 4.543,
+   "key": "d6136e8b21ad7eed",
+   "score": 4.5,
    "sources": [
     "الأنباء"
    ],
@@ -2525,12 +2690,12 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "هل تحرم مزارع الرياح البحرية سواحل أوروبا من الأمطار؟ دراسة تكشف تأثيراً غير متوقع",
-     "url": "https://www.alanba.com.kw/1385876",
+     "title": "28 ألف طلقة تحت أرض المعركة التي بدأت بها الحرب العالمية الثانية",
+     "url": "https://www.alanba.com.kw/1385896",
      "section": "world",
-     "summary": "قد لا يقتصر تأثير التوسع الهائل في مزارع الرياح البحرية على إنتاج الكهرباء النظيفة بل يمتد إلى تغيير توزيع الأمطار بين البحر واليابسة",
+     "summary": "",
      "body": "",
-     "published": "2026-11-20T12:35:04+00:00",
+     "published": "2026-11-20T21:11:10+00:00",
      "tier": 1
     }
    ],
@@ -2538,8 +2703,8 @@
    "analysis": {}
   },
   {
-   "key": "3c26f67eda6ce3c2",
-   "score": 4.542,
+   "key": "4293f0c21dfefe88",
+   "score": 4.5,
    "sources": [
     "الأنباء"
    ],
@@ -2549,60 +2714,12 @@
      "source_id": "alanba",
      "source_name": "الأنباء",
      "lang": "ar",
-     "title": "دمى صوف لا يمكن صنعها.. الذكاء الاصطناعي يربك هواة الكروشيه",
-     "url": "https://www.alanba.com.kw/1385878",
+     "title": "عاصفة قوية تدمر آلاف المنازل في البرازيل",
+     "url": "https://www.alanba.com.kw/1385894",
      "section": "world",
-     "summary": "تحولت هواية الحياكة التي تعتمد على الصبر والدقة إلى ساحة جديدة لمشكلة الصور المضللة بالذكاء الاصطناعي، بعدما اكتشف هواة أن بعض القطع",
+     "summary": "",
      "body": "",
-     "published": "2026-11-20T13:07:53+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "d60566e843e27908",
-   "score": 4.541,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "بصمات صغيرة على طين عمره 15 ألف عام تكشف عن أوائل الفنانين",
-     "url": "https://www.alanba.com.kw/1385877",
-     "section": "world",
-     "summary": "لم تكن صناعة التماثيل الطينية في عصور ما قبل التاريخ حكرا على الكبار فقد كشفت آثار أصابع محفوظة منذ آلاف السنين أن الأطفال شاركوا",
-     "body": "",
-     "published": "2026-11-20T12:54:10+00:00",
-     "tier": 1
-    }
-   ],
-   "category": "World & Region",
-   "analysis": {}
-  },
-  {
-   "key": "faf6c06e9d7b9891",
-   "score": 4.541,
-   "sources": [
-    "الأنباء"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "alanba",
-     "source_name": "الأنباء",
-     "lang": "ar",
-     "title": "كوريا الجنوبية تفتش نظارات 550 ألف متقدم لامتحان مصيري خوفاً من الغش بالذكاء الاصطناعي",
-     "url": "https://www.alanba.com.kw/1385875",
-     "section": "world",
-     "summary": "أخضعت كوريا الجنوبية نظارات المتقدمين لامتحان القبول الجامعي الوطني لفحوص مشددة بعدما أثارت تقنيات الذكاء الاصطناعي مخاوف متزايدة",
-     "body": "",
-     "published": "2026-11-20T12:30:14+00:00",
+     "published": "2026-11-20T20:31:45+00:00",
      "tier": 1
     }
    ],
@@ -2682,6 +2799,126 @@
    "analysis": {}
   },
   {
+   "key": "1a080b7538b0d43a",
+   "score": 4.059,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "US Forest Service Releases Historical Bigfoot Files, 1982 Investigation Describes ‘Very Uneasy Feeling’",
+     "url": "https://www.arabtimesonline.com/news/us-forest-service-releases-historical-bigfoot-files-1982-investigation-describes-very-uneasy-feeling/",
+     "section": "latest",
+     "summary": "WASHINGTON, Nov 21: The US Forest Service has released three historical government records documenting reported Bigfoot encounters and mysterious footprints dating back to the 1940...",
+     "body": "",
+     "published": "2026-11-21T10:11:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "017114ba806c57c2",
+   "score": 4.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Saudi Arabia Issues 8 Emergency Alerts in 24 Hours as Houthis Target Riyadh With Missiles",
+     "url": "https://www.arabtimesonline.com/news/saudi-arabia-issues-8-emergency-alerts-in-24-hours-as-houthis-target-riyadh-with-missiles/",
+     "section": "latest",
+     "summary": "RIYADH, Nov 21: Saudi Arabia's Civil Defense issued eight emergency alerts within 24 hours as the Kingdom faced a renewed wave of missile and drone attacks attributed to Yemen's I...",
+     "body": "",
+     "published": "2026-11-21T10:01:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "c251f90a4d942e3c",
+   "score": 4.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Yemeni Army Says 193 Houthis Killed or Wounded in 854 Military Operations",
+     "url": "https://www.arabtimesonline.com/news/yemeni-army-says-193-houthis-killed-or-wounded-in-854-military-operations/",
+     "section": "latest",
+     "summary": "ADEN, Nov 21: The Yemeni army said Friday that 193 Houthi commanders and fighters had been killed or wounded in 854 military operations conducted across several battlefronts under...",
+     "body": "",
+     "published": "2026-11-21T09:56:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "5acb502b7cbacbfb",
+   "score": 4.058,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "US Lawmakers Urge Ban on Chinese AI Models in Federal Systems, Citing Security Risks",
+     "url": "https://www.arabtimesonline.com/news/us-lawmakers-urge-ban-on-chinese-ai-models-in-federal-systems-citing-security-risks/",
+     "section": "latest",
+     "summary": "WASHINGTON, Nov 21: Two Republican US lawmakers have called for banning Chinese-developed artificial intelligence (AI) models from US federal government systems and sensitive crit...",
+     "body": "",
+     "published": "2026-11-21T09:44:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
+   "analysis": {}
+  },
+  {
+   "key": "9ad0db909a1d1b81",
+   "score": 3.959,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "اتفاق بريطاني - أوروبي «تاريخي» بشأن الأغذية والانبعاثات وتنقل الشباب",
+     "url": "https://www.aljarida.com/article/151064",
+     "section": "world",
+     "summary": "قال دبلوماسيون ومسؤولون من الاتحاد الأوروبي لوكالة الأنباء الألمانية (د ب أ) إن التكتل وبريطانيا اتفقا على عدة مبادرات تهدف إلى إصلاح العلاقات الثنائية.ويأتي ذلك بعد مرور عشر سنوات...",
+     "body": "",
+     "published": "2026-11-20T15:31:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
    "key": "3160545729f753bf",
    "score": 3.957,
    "sources": [
@@ -2699,6 +2936,126 @@
      "summary": "قال المبعوث الرئاسي الخاص للولايات المتحدة إلى سورية والعراق توماس باراك إن «سورية منفتحة على إبرام صفقات حقيقية، واسعة النطاق ومصممة بما يتناسب مع متطلبات المرحلة الراهنة، م...",
      "body": "",
      "published": "2026-11-20T14:10:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "fe114acfb37fd9c7",
+   "score": 3.952,
+   "sources": [
+    "الجريدة"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "aljarida",
+     "source_name": "الجريدة",
+     "lang": "ar",
+     "title": "فرنسا تطلب عقد اجتماع لمجلس الأمن بعد ضربات روسية على كييف",
+     "url": "https://www.aljarida.com/article/151065",
+     "section": "world",
+     "summary": "قال وزير الخارجية الفرنسي جان نويل بارو اليوم الجمعة إن باريس دعت ‌إلى عقد اجتماع ​لمجلس الأمن التابع ‌للأمم ​المتحدة بعد ‌أحدث ضربات روسية ‌على كييف.وذكر مسؤول...",
+     "body": "",
+     "published": "2026-11-20T16:12:00+03:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "e0a8c61c4e604db2",
+   "score": 3.943,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "هل تحرم مزارع الرياح البحرية سواحل أوروبا من الأمطار؟ دراسة تكشف تأثيراً غير متوقع",
+     "url": "https://www.alanba.com.kw/1385876",
+     "section": "world",
+     "summary": "قد لا يقتصر تأثير التوسع الهائل في مزارع الرياح البحرية على إنتاج الكهرباء النظيفة بل يمتد إلى تغيير توزيع الأمطار بين البحر واليابسة",
+     "body": "",
+     "published": "2026-11-20T12:35:04+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "3c26f67eda6ce3c2",
+   "score": 3.942,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "دمى صوف لا يمكن صنعها.. الذكاء الاصطناعي يربك هواة الكروشيه",
+     "url": "https://www.alanba.com.kw/1385878",
+     "section": "world",
+     "summary": "تحولت هواية الحياكة التي تعتمد على الصبر والدقة إلى ساحة جديدة لمشكلة الصور المضللة بالذكاء الاصطناعي، بعدما اكتشف هواة أن بعض القطع",
+     "body": "",
+     "published": "2026-11-20T13:07:53+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "d60566e843e27908",
+   "score": 3.941,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "بصمات صغيرة على طين عمره 15 ألف عام تكشف عن أوائل الفنانين",
+     "url": "https://www.alanba.com.kw/1385877",
+     "section": "world",
+     "summary": "لم تكن صناعة التماثيل الطينية في عصور ما قبل التاريخ حكرا على الكبار فقد كشفت آثار أصابع محفوظة منذ آلاف السنين أن الأطفال شاركوا",
+     "body": "",
+     "published": "2026-11-20T12:54:10+00:00",
+     "tier": 1
+    }
+   ],
+   "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "faf6c06e9d7b9891",
+   "score": 3.941,
+   "sources": [
+    "الأنباء"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "alanba",
+     "source_name": "الأنباء",
+     "lang": "ar",
+     "title": "كوريا الجنوبية تفتش نظارات 550 ألف متقدم لامتحان مصيري خوفاً من الغش بالذكاء الاصطناعي",
+     "url": "https://www.alanba.com.kw/1385875",
+     "section": "world",
+     "summary": "أخضعت كوريا الجنوبية نظارات المتقدمين لامتحان القبول الجامعي الوطني لفحوص مشددة بعدما أثارت تقنيات الذكاء الاصطناعي مخاوف متزايدة",
+     "body": "",
+     "published": "2026-11-20T12:30:14+00:00",
      "tier": 1
     }
    ],
@@ -2766,30 +3123,6 @@
    "analysis": {}
   },
   {
-   "key": "ad9a521f4a813ea3",
-   "score": 3.658,
-   "sources": [
-    "Arab Times"
-   ],
-   "outlet_count": 1,
-   "articles": [
-    {
-     "source_id": "arabtimes",
-     "source_name": "Arab Times",
-     "lang": "en",
-     "title": "Kuwait Food Authority Warns Public Against Fake WhatsApp Accounts",
-     "url": "https://www.arabtimesonline.com/news/kuwait-food-authority-warns-public-against-fake-whatsapp-accounts/",
-     "section": "kuwait",
-     "summary": "The Public Authority for Food and Nutrition (PAFN) has warned the public against fraudulent WhatsApp groups and accounts falsely claiming to represent the Authority.In an official...",
-     "body": "",
-     "published": "2026-11-20T21:50:00+03:00",
-     "tier": 2
-    }
-   ],
-   "category": "Government & Politics",
-   "analysis": {}
-  },
-  {
    "key": "9bcced1790b45fc8",
    "score": 3.6,
    "sources": [
@@ -2815,7 +3148,7 @@
   },
   {
    "key": "a216bf022d81b839",
-   "score": 3.259,
+   "score": 2.659,
    "sources": [
     "Arab Times"
    ],
@@ -2851,7 +3184,7 @@
      "lang": "en",
      "title": "Iran Official Says Qeshm Explosions Caused by Disposal of Unexploded US Munitions",
      "url": "https://www.arabtimesonline.com/news/iran-official-says-qeshm-explosions-caused-by-disposal-of-unexploded-us-munitions/",
-     "section": "general",
+     "section": "latest",
      "summary": "TEHRAN, Nov 20: Explosions and smoke reported on Iran's Qeshm Island on Friday were caused by the controlled disposal of unexploded American munitions left behind from previous att...",
      "body": "",
      "published": "2026-11-20T22:21:00+03:00",
@@ -2875,7 +3208,7 @@
      "lang": "en",
      "title": "US Missile Strikes Outskirts of Qeshm Island in Southern Iran",
      "url": "https://www.arabtimesonline.com/news/us-missile-strikes-outskirts-of-qeshm-island-in-southern-iran/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 20: A missile launched by the United States struck an area on the outskirts of Qeshm Island in southern Iran on Friday evening, according to Iran's semi-official Ta...",
      "body": "",
      "published": "2026-11-20T22:09:00+03:00",
@@ -2899,7 +3232,7 @@
      "lang": "en",
      "title": "Tanker Struck by Unknown Projectile Near Oman's Khasab",
      "url": "https://www.arabtimesonline.com/news/tanker-struck-by-unknown-projectile-near-omans-khasab/",
-     "section": "general",
+     "section": "latest",
      "summary": "MUSCAT, Nov 20: A tanker sailing outbound through the Strait of Hormuz was struck by an unknown projectile approximately 8 nautical miles north of Khasab, Oman, on Friday, November...",
      "body": "",
      "published": "2026-11-20T22:02:00+03:00",
@@ -2907,6 +3240,30 @@
     }
    ],
    "category": "World & Region",
+   "analysis": {}
+  },
+  {
+   "key": "ad9a521f4a813ea3",
+   "score": 2.658,
+   "sources": [
+    "Arab Times"
+   ],
+   "outlet_count": 1,
+   "articles": [
+    {
+     "source_id": "arabtimes",
+     "source_name": "Arab Times",
+     "lang": "en",
+     "title": "Kuwait Food Authority Warns Public Against Fake WhatsApp Accounts",
+     "url": "https://www.arabtimesonline.com/news/kuwait-food-authority-warns-public-against-fake-whatsapp-accounts/",
+     "section": "latest",
+     "summary": "The Public Authority for Food and Nutrition (PAFN) has warned the public against fraudulent WhatsApp groups and accounts falsely claiming to represent the Authority.In an official...",
+     "body": "",
+     "published": "2026-11-20T21:50:00+03:00",
+     "tier": 2
+    }
+   ],
+   "category": "Government & Politics",
    "analysis": {}
   },
   {
@@ -2923,7 +3280,7 @@
      "lang": "en",
      "title": "Trump Questions Billions in European Military Aid to Ukraine After Putin Meeting",
      "url": "https://www.arabtimesonline.com/news/trump-questions-billions-in-european-military-aid-to-ukraine-after-putin-meeting/",
-     "section": "general",
+     "section": "latest",
      "summary": "WASHINGTON, Nov 20: US President Donald Trump has questioned European countries' continued military assistance to Ukraine, arguing that Russia is serious about negotiating an end t...",
      "body": "",
      "published": "2026-11-20T12:07:00+03:00",
@@ -2947,7 +3304,7 @@
      "lang": "en",
      "title": "Taiwan's TSMC Suspends China's Access to Advanced Chipmaking Without US Licenses",
      "url": "https://www.arabtimesonline.com/news/taiwans-tsmc-suspends-chinas-access-to-advanced-chipmaking-without-us-licenses/",
-     "section": "general",
+     "section": "latest",
      "summary": "TAIPEI, Nov 20 : Taiwan Semiconductor Manufacturing Company (TSMC) has suspended some previously approved advanced semiconductor orders from Chinese chip designers following expand...",
      "body": "",
      "published": "2026-11-20T12:00:00+03:00",
@@ -2971,7 +3328,7 @@
      "lang": "en",
      "title": "Hackers Leak Data of 16,000 JPMorgan Chase Premium Customers in Cyberattack",
      "url": "https://www.arabtimesonline.com/news/hackers-leak-data-of-16000-jpmorgan-chase-premium-customers-in-cyberattack/",
-     "section": "general",
+     "section": "latest",
      "summary": "NEW YORK, Nov 20: Hackers have leaked the personal information of thousands of wealthy JPMorgan Chase customers after a ransomware group published data allegedly stolen through a c...",
      "body": "",
      "published": "2026-11-20T10:56:00+03:00",
